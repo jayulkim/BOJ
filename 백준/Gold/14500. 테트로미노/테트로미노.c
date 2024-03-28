@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 int map[505][505] = { 0, };
-int ary[1000005] = { 0, };
 
 int main(void)
 {
