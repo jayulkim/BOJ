@@ -5,28 +5,7 @@
 int ary[1000005] = { 0, };
 int prime[100005] = { 0, };
 long long int sum[1000005] = { 0, };
-
 int stack[1000005] = { 0, };
-int head = -1;
-int empty()
-{
-	if (head == -1)
-	{
-		return 1;
-	}
-	else
-	{
-		return 0;
-	}
-}
-void push(int* stack, int num)
-{
-	stack[++head] = num;
-}
-int pop(int* stack)
-{
-	return stack[head--];
-}
 
 int main(void)
 {
@@ -91,7 +70,6 @@ int main(void)
 		}
 		for (int i = 0; i < index; i++)
 		{
-			//printf("%d ", sum[prime[i]]);
 			if (sum[prime[i]] % 2 == 1)
 			{
 				count++;
