@@ -1,9 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-
-char str[30][5];
 
 typedef struct Tree
 {
@@ -12,56 +9,33 @@ typedef struct Tree
 	struct Tree* right;
 }Tree;
 
-Tree* create(char str)
+char node[30][5];
+
+Tree* create(char num)
 {
 	Tree* new = (Tree*)malloc(sizeof(Tree));
-	new->data = str;
-	new->left = new->right = NULL;
+	new->data = num;
+	new->left = NULL;
+	new->right = NULL;
 	return new;
 }
-Tree* createleft(Tree* root, char str)
-{
-	Tree* new = (Tree*)malloc(sizeof(Tree));
-	new->data = str;
-	new->left = new->right = NULL;
-	root->left = new;
-	return root;
-}
-Tree* createright(Tree* root, char str)
-{
-	Tree* new = (Tree*)malloc(sizeof(Tree));
-	new->data = str;
-	new->left = new->right = NULL;
-	root->right = new;
-	return root;
-}
-void inorder(Tree* root, char target, char left, char right)
+void inorderinsert(Tree* root, char target, int forward, char new)
 {
 	if (root != NULL)
 	{
-		inorder(root->left, target, left, right);
+		inorderinsert(root->left, target, forward, new);
 		if (root->data == target)
 		{
-			if (left != '.')
+			if (forward == 0)
 			{
-				root = createleft(root, left);
+				root->left = create(new);
 			}
-			if (right != '.')
+			else if (forward == 1)
 			{
-				root = createright(root, right);
+				root->right = create(new);
 			}
-			return;
 		}
-		inorder(root->right, target, left, right);
-	}
-}
-void inorder1(Tree* root)
-{
-	if (root != NULL)
-	{
-		inorder1(root->left);
-		printf("%c", root->data);
-		inorder1(root->right);
+		inorderinsert(root->right, target, forward, new);
 	}
 }
 void preorder(Tree* root)
@@ -73,6 +47,15 @@ void preorder(Tree* root)
 		preorder(root->right);
 	}
 }
+void inorder(Tree* root)
+{
+	if (root != NULL)
+	{
+		inorder(root->left);
+		printf("%c", root->data);
+		inorder(root->right);
+	}
+}
 void postorder(Tree* root)
 {
 	if (root != NULL)
@@ -82,48 +65,31 @@ void postorder(Tree* root)
 		printf("%c", root->data);
 	}
 }
+
 int main(void)
 {
 	int num1 = 0;
 	scanf("%d", &num1);
+	
 	for (int i = 0; i < num1; i++)
 	{
-		
-		scanf(" %c %c %c", &str[i][0], &str[i][1], &str[i][2]);
+		scanf(" %c %c %c", &node[i][0], &node[i][1], &node[i][2]);
 	}
-	Tree* root = create(str[0][0]);
-	if (str[0][1] != '.')
+	Tree* root = create(node[0][0]);
+	for (int i = 0; i < num1; i++)
 	{
-		root = createleft(root, str[0][1]);
-	}
-	if (str[0][2] != '.')
-	{
-		root = createright(root, str[0][2]);
-	}
-	
-	while (1)
-	{
-		int count = 0;
-		for (int i = 1; i < num1; i++)
+		if (node[i][1] != '.')
 		{
-			if (str[i][0] == NULL)
-			{
-				count++;
-			}
-			else
-			{
-				inorder(root, str[i][0], str[i][1], str[i][2]);
-				str[i][0] = NULL;
-			}
+			inorderinsert(root, node[i][0], 0, node[i][1]);
 		}
-		if (count == num1 - 1)
+		if (node[i][2] != '.')
 		{
-			break;
+			inorderinsert(root, node[i][0], 1, node[i][2]);
 		}
 	}
 	preorder(root);
 	printf("\n");
-	inorder1(root);
+	inorder(root);
 	printf("\n");
 	postorder(root);
 }
