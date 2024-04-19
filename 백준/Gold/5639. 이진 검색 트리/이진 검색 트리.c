@@ -2,8 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int ary[10005] = { 0, };
-
 typedef struct Tree
 {
 	int data;
@@ -20,22 +18,23 @@ Tree* create(int num)
 	return new;
 }
 
-Tree* insert(Tree* root, int num)
+Tree* insert(Tree* root, int target)
 {
 	if (root == NULL)
 	{
-		return create(num);
+		return create(target);
 	}
-	if (root->data > num)
+	if (target < root->data)
 	{
-		root->left = insert(root->left, num);
+		root->left = insert(root->left, target);
 	}
-	else if (root->data < num)
+	else if (target > root->data)
 	{
-		root->right = insert(root->right, num);
+		root->right = insert(root->right, target);
 	}
 	return root;
 }
+
 
 void postorder(Tree* root)
 {
@@ -49,12 +48,11 @@ void postorder(Tree* root)
 
 int main(void)
 {
+	int num1 = 0;
 	Tree* root = NULL;
-	int i = 0;
-	while (scanf("%d", &ary[i]) != EOF)
+	while (scanf("%d", &num1) != EOF)
 	{
-		root = insert(root, ary[i]);
-		i++;
+		root = insert(root, num1);
 	}
 	postorder(root);
 }
