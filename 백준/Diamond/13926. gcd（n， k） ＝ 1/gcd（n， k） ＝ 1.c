@@ -117,11 +117,7 @@ long long int Random(long long int x, long long int c, long long int num)
 
 long long int pollardrho(long long int num)
 {
-    if (num == 1)
-    {
-        return 1;
-    }
-    else if (num % 2 == 0)
+    if (num % 2 == 0)
     {
         return 2;
     }
@@ -154,7 +150,7 @@ long long int pollardrho(long long int num)
     }
 }
 
-long long int ary1[1001] = { 0, };
+long long int ary1[65] = { 0, };
 int index = 1;
 
 void oilerpi(long long int number)
