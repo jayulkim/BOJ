@@ -56,8 +56,7 @@ int main(void)
 		for (int i = 1; i <= n; i++)
 		{
 			if (visit[i] == 0)
-			{
-				result++;
+			{		
 				dfs(i);
 				count++;
 				break;
@@ -66,7 +65,8 @@ int main(void)
 		if (count == 0)
 		{
 			break;
-		}		
+		}	
+		result++;
 	}
 	printf("%d", result);
 }
