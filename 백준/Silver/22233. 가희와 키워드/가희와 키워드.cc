@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <unordered_set>
 using namespace std;
 int main(void)
 {
@@ -6,7 +7,7 @@ int main(void)
 	cin.tie(0);
 	int n = 0, m = 0;
 	cin >> n >> m;
-	set<string>memo;
+	unordered_set<string>memo;
 	for (int i = 0; i < n; i++)
 	{
 		string str = "";
