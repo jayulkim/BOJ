@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(void){int n=0;scanf("%d",&n);if(n<=9){printf("1");}else{if(n%9==0){printf("%d",n/9);}else{if((n/9)%2==0){printf("%d",n/9+1);}else{if((n % 9)%2==1){printf("%d",n/9+1);}else{printf("%d",n/9+2);}}}}}
