@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 1128 KB, 시간: 1408 ms
+메모리: 1124 KB, 시간: 764 ms
 
 ### 분류
 
@@ -12,7 +12,7 @@
 
 ### 제출 일자
 
-2024년 5월 10일 12:24:56
+2024년 10월 7일 23:15:40
 
 ### 문제 설명
 
@@ -20,7 +20,7 @@
 
 <p>Assume that the angle of incidence is equal to the angle of reflection (see the image below; the location of the laser in the image is for demonstration purposes only).</p>
 
-<p style="text-align:center"><img alt="" src="https://onlinejudgeimages.s3-ap-northeast-1.amazonaws.com/problem/15377/1.png" style="height:276px; width:277px"></p>
+<p style="text-align:center"><img alt="" src="" style="height:276px; width:277px"></p>
 
 ### 입력 
 

@@ -52,7 +52,7 @@ long long int powmod(long long int x, long long int y, long long int num)
 	}
 	return result;
 }
-long long int ary[5] = { 2,3,5,7,61 };
+long long int ary[3] = { 2,3,61 };
 int millerlabin(long long int a, long long int num)
 {
 	if (num == 1)
@@ -97,7 +97,7 @@ int millerlabin(long long int a, long long int num)
 }
 int isprime(long long int num)
 {
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		if (millerlabin(ary[i], num) == 1)
 		{
