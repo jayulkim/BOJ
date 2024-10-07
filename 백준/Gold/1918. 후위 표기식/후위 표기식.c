@@ -80,12 +80,9 @@ int main(void)
 		}
 		else if (str[i] == '/' || str[i] == '*')
 		{
-			if ((counttop(countstack) == '/' || counttop(countstack) == '*') && countempty(countstack) == 0)
+			while (countempty() == 0 && (counttop(countstack) == '/' || counttop(countstack) == '*'))
 			{
-				while (countempty() == 0 && (counttop(countstack) != '(' && counttop(countstack) != '+' && counttop(countstack) != '-'))
-				{
-					wordpush(wordstack, countpop(countstack));
-				}
+				wordpush(wordstack, countpop(countstack));
 			}
 			countpush(countstack, str[i]);
 		}
