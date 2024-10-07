@@ -13,24 +13,19 @@ int main(void)
 	for (int i = 0; i < n - 1; i++)
 	{
 		cin >> distence[i];
-		dissum += distence[i];
 	}
 	for (int i = 0; i < n; i++)
 	{
 		cin >> cost[i];
 	}
 	ll sum = 0;
-	for (int i = 0; i < n - 1; i++)
+	ll choice = cost[0];
+	for (int i = 1; i < n; i++)
 	{
-		if (dissum * cost[i] > (dissum - distence[i]) * cost[i + 1] + cost[i] * distence[i])
+		sum += (distence[i - 1] * choice);
+		if (choice > cost[i])
 		{
-			sum += (distence[i] * cost[i]);
-			dissum -= distence[i];
-		}
-		else
-		{
-			sum += (dissum * cost[i]);
-			break;
+			choice = cost[i];
 		}
 	}
 	cout << sum;
