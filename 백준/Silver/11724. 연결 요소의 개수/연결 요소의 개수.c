@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int visit[499501] = { 0, };
+int visit[1001] = { 0, };
 typedef struct Node
 {
 	int data;
 	struct Node* link;
 }Node;
-Node* graph[499501];
+Node* graph[1001];
 Node* insert(Node* head, int num)
 {
 	Node* new = (Node*)malloc(sizeof(Node));
