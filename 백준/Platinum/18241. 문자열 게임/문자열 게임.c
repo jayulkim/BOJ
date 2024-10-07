@@ -3,10 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <memory.h>
-char target[30];
-char frontstack[300005];
-char backstack[300005];
-char str[300005];
+char target[11];
+char frontstack[300001];
+char backstack[300001];
+char str[300001];
 int fronthead = -1;
 int backhead = -1;
 int frontempty()
@@ -47,9 +47,9 @@ char backpop(char* backstack)
 {
 	return backstack[backhead--];
 }
-char target1[30];
-char command[30005];
-char result[300005];
+char target1[11];
+char command[30001];
+char result[300001];
 int resulthead = -1;
 int backheaddown = 0;
 void resultpush(char* result, char str)
