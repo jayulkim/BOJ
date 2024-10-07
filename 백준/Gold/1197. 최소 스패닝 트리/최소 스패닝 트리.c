@@ -68,7 +68,7 @@ info delete(Heap* h) {
 int result = 0;
 void kruskal(Heap* h, int n) {
 	int count = 0, a = 0, b = 0;
-	while (count < n - 1 && h->size != 0) {
+	while (count < n - 1) {
 		info temp = delete(h);
 		a = getParent(temp.start);
 		b = getParent(temp.end);
