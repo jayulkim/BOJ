@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
-bool visited[250001];
-bool visitedMap[55][55];
-int Map[55][55];
+bool visited[2501];
+bool visitedMap[51][51];
+int Map[51][51];
 int Forward[4][2] = { {-1, 0}, {0, -1}, {1, 0}, {0, 1} };
 vector<pair<int, int>>virus;
 int white = 0;
@@ -10,7 +10,7 @@ vector<pair<int, int>>graph;
 queue<pair<pair<int, int>, int>>q;
 int temp = -1;
 int n = 0, m = 0;
-int Min = 2500001;
+int Min = 2501;
 void bfs() {
 	int count = 0;
 	int Max = 0;
@@ -79,7 +79,7 @@ int main(void) {
 		return 0;
 	}
 	dfs();
-	if (Min == 2500001) {
+	if (Min == 2501) {
 		cout << -1;
 		return 0;
 	}
