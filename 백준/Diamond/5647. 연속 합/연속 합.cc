@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-typedef unsigned long long ll;
-ll ary[12] = { 2,3,5,7,11,13,17,19,23,29,31,37 };
+typedef long long ll;
+ll ary[3] = { 2,7,61 };
 ll addmod(ll x, ll y, ll num)
 {
 	x %= num;
@@ -94,7 +94,7 @@ bool millerlabin(ll a, ll num)
 }
 bool isprime(ll num)
 {
-	for (int i = 0; i < 12; i++)
+	for (int i = 0; i < 3; i++)
 	{
 		if (millerlabin(ary[i], num) == false)
 		{
