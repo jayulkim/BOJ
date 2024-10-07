@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(void){int n,m,i,count=0,v[501][2],num;bool visited[501]={true};scanf("%d",&n);for(i=1;i<=n;i++){scanf("%d %d",&v[i][0],&v[i][1]);}scanf("%d",&m);for(i=0;i<m;i++){scanf("%d",&num);visited[num]=true;}for(i=1;i<=n;i++){if(!visited[v[i][0]]&&!visited[v[i][1]]&&!visited[i]){count++;}}printf("%d",count);}
