@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-typedef unsigned long long ll;
+typedef long long ll;
 ll powmod(ll x, ll y, ll num)
 {
 	x %= num;
