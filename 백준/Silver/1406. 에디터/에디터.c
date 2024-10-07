@@ -1,93 +1,103 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 typedef struct Node
 {
 	char data;
-	struct Node* right;
 	struct Node* left;
+	struct Node* right;
 }Node;
 
 void init(Node* head)
 {
 	head->left = head->right = head;
 }
-
-Node* insert(Node* prev, char str)
+Node* P = NULL;
+void insert(Node* prev, int num)
 {
 	Node* new = (Node*)malloc(sizeof(Node));
-	new->data = str;
+	new->data = num;
 	new->left = prev;
 	new->right = prev->right;
 	prev->right->left = new;
 	prev->right = new;
-	return new;
+	P = new;
 }
-
 void delete(Node* head, Node* removed)
 {
-	if (removed == head)
+	if (head == removed)
 	{
 		return;
 	}
-	removed->left->right = removed->right;
 	removed->right->left = removed->left;
-	//free(removed);
+	removed->left->right = removed->right;
+	free(removed);
 }
-
-char str[100005];
-
+char str[100001];
 int main(void)
 {
 	scanf("%s", str);
 	int num1 = strlen(str);
 	Node* head = (Node*)malloc(sizeof(Node));
 	init(head);
-	Node* point = NULL;
-	point = insert(head, str[0]);
-	for (int i = 1; i < num1; i++)
+	for (int i = 0; i < num1; i++)
 	{
-		point = insert(point, str[i]);
-	}
-	for (Node* i = head->right; i != head; i = i->right)
-	{
-		//printf("%c", i->data);
+		if (i == 0)
+		{
+			insert(head, str[i]);
+		}
+		else
+		{
+			insert(P, str[i]);
+		}
 	}
 	int num2 = 0;
 	scanf("%d", &num2);
 	for (int i = 0; i < num2; i++)
 	{
 		char command;
-		char str1;
 		scanf(" %c", &command);
-		//printf("%d\n", command);
-		if (command == 'P')
+		switch (command)
 		{
-			scanf(" %c", &str1);
-			point = insert(point, str1);
-		}
-		else if (command == 'L')
-		{
-			if (point != head)
+			case 'L':
 			{
-				point = point->left;
+				if (P != head)
+				{
+					P = P->left;
+				}
+				break;
 			}
-		}
-		else if (command == 'D')
-		{
-			if (point->right != head)
+			case 'D':
 			{
-				point = point->right;
+				if (P->right != head)
+				{
+					P = P->right;
+				}
+				break;
 			}
-		}
-		else if (command == 'B')
-		{
-			if (point != head)
-			{	
-				delete(head, point);
-				point = point->left;
+			case 'B':
+			{
+				if (P != head)
+				{
+					P = P->left;
+					delete(head, P->right);
+				}
+				break;
+			}
+			case 'P':
+			{
+				char plus;
+				scanf(" %c", &plus);
+				if (head->right == head && head->left == head)
+				{
+					insert(head, plus);
+				}
+				else
+				{
+					insert(P, plus);
+				}
+				break;
 			}
 		}
 	}
