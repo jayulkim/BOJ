@@ -1,37 +1,28 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
+#include <math.h>
+#include <memory.h>
+
 int main(void)
 {
-	char str1[99999];
-	char str2[99999];
-	
-	
 	while (1)
 	{
-		
-		scanf(" %s", str1);
-		int count = 0;
-		int num1 = strlen(str1);
-
-		if (str1[0] == '0')
+		char num1[10];
+		scanf("%s", num1);
+		if (strcmp(num1, "0") == 0)
 		{
 			break;
 		}
-	
+		int num2 = strlen(num1);
 
-		for (int i = num1 - 1; i >= 0; i--)
+		int count = 0;
+		for (int i = 0; i < num2 / 2; i++)
 		{
-			str2[num1 - i - 1] = str1[i];
-			
-
-		}
-
-		for (int i = 0; i < num1; i++)
-		{
-			if (str1[i] != str2[i] && str1[0] != 0)
+			if (num1[i] != num1[num2 - 1 - i])
 			{
-				count += 1;
+				count++;
 				break;
 			}
 		}
@@ -44,5 +35,9 @@ int main(void)
 			printf("no\n");
 		}
 
+
 	}
+
+
+	
 }
