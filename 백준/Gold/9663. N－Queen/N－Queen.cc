@@ -1,18 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-typedef pair<ll, ll> pll;
-bool visited[16][16];
 ll n = 0;
-vector<pll>queens;
-bool check(ll y, ll x) {
-	for (auto& [a, b] : queens) {
-		if (llabs(a - y) == llabs(b - x) || b == x) {
-			return false;
-		}
-	}
-	return true;
-}
+ll up[15], ary[60];
 ll result = 0;
 void dfs(ll temp) {
 	if (temp == n) {
@@ -20,12 +10,14 @@ void dfs(ll temp) {
 		return;
 	}
 	for (int i = 0; i < n; i++) {
-		if (check(temp, i)) {
-			visited[temp][i] = true;
-			queens.push_back({ temp, i });
+		if (!up[i] && !ary[i + temp] && !ary[3 * n - i + temp]) {
+			up[i]++;
+			ary[i + temp]++;
+			ary[3 * n - i + temp]++;
 			dfs(temp + 1);
-			queens.pop_back();
-			visited[temp][i] = false;
+			up[i]--;
+			ary[i + temp]--;
+			ary[3 * n - i + temp]--;
 		}
 	}
 }
