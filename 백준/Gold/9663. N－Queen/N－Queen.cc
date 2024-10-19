@@ -4,9 +4,8 @@ typedef long long ll;
 typedef pair<ll, ll> pll;
 bool visited[16][16];
 ll n = 0;
-ll Forward[3][2] = { {-1, -1}, {-1, 0}, {-1, 1} };
 vector<pll>queens;
-bool bfs(ll y, ll x) {
+bool check(ll y, ll x) {
 	for (auto& [a, b] : queens) {
 		if (llabs(a - y) == llabs(b - x) || b == x) {
 			return false;
@@ -21,7 +20,7 @@ void dfs(ll temp) {
 		return;
 	}
 	for (int i = 0; i < n; i++) {
-		if (bfs(temp, i)) {
+		if (check(temp, i)) {
 			visited[temp][i] = true;
 			queens.push_back({ temp, i });
 			dfs(temp + 1);
