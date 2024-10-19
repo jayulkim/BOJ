@@ -11,13 +11,9 @@ void dfs(ll temp) {
 	}
 	for (int i = 0; i < n; i++) {
 		if (up[i] + a[i + temp] + b[n - i + temp] == 0) {
-			up[i] = true;
-			a[i + temp] = true;
-			b[n - i + temp] = true;
+			up[i] = a[i + temp] = b[n - i + temp] = true;
 			dfs(temp + 1);
-			up[i] = false;
-			a[i + temp] = false;
-			b[n - i + temp] = false;
+			up[i] = a[i + temp] = b[n - i + temp] = false;
 		}
 	}
 }
