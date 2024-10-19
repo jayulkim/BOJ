@@ -1,10 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-typedef int ll;
-ll n = 0;
+int n = 0;
 bool up[15], a[30], b[30];
-ll result = 0;
-void dfs(ll temp) {
+int result = 0;
+void dfs(int temp) {
 	if (temp == n) {
 		result++;
 		return;
