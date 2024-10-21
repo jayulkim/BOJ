@@ -152,7 +152,7 @@ int main(void) {
 			}
 			ll temp = sqrt(n / i);
 			ll b = lower_bound(yaksoo.begin(), yaksoo.end(), temp) - yaksoo.begin();
-			for (int j = max((ll)0, b - 250); j < min((ll)yaksoo.size(), b + 250); j++) {
+			for (int j = max((ll)0, b - 15); j < min((ll)yaksoo.size(), b + 15); j++) {
 				if (i * yaksoo[j] * ((n / i) / yaksoo[j]) == n) {
 					result = min(result, i + yaksoo[j] + (n / i) / yaksoo[j]);
 				}
