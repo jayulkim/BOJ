@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-typedef unsigned long long ll;
+typedef long long ll;
 typedef long double lb;
 ll ary[12] = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37 };
 ll addmod(ll x, ll y, ll num) {
@@ -145,14 +145,14 @@ int main(void) {
 		}
 		vector<ll>yaksoo = yaksoolist(n);
 		ll result = LLONG_MAX;
-		lb a = cbrt((lb)n) + 1;
+		ll a = sqrt(n);
 		for (auto& i : yaksoo) {
 			if (i > a) {
 				break;
 			}
-			lb temp = sqrt((lb)(n / i)) + 1;
-			ll b = lower_bound(yaksoo.begin(), yaksoo.end(), i) - yaksoo.begin();
-			for (int j = b; j < yaksoo.size() && yaksoo[j] <= temp; j++) {
+			ll temp = sqrt(n / i);
+			ll b = lower_bound(yaksoo.begin(), yaksoo.end(), temp) - yaksoo.begin();
+			for (int j = max((ll)0, b - 250); j < min((ll)yaksoo.size(), b + 250); j++) {
 				if (i * yaksoo[j] * ((n / i) / yaksoo[j]) == n) {
 					result = min(result, i + yaksoo[j] + (n / i) / yaksoo[j]);
 				}
