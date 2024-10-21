@@ -145,7 +145,7 @@ int main(void) {
 		}
 		vector<ll>yaksoo = yaksoolist(n);
 		ll result = LLONG_MAX;
-		ll a = sqrt(n);
+		ll a = (ll)cbrt(n) << 7;
 		for (auto& i : yaksoo) {
 			if (i > a) {
 				break;
