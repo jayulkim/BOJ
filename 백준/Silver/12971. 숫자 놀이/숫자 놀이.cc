@@ -17,7 +17,7 @@ int main(void) {
 	v.push_back({ c, f });
 	sort(v.begin(), v.end());
 	for (int i = v.back().second; i < 1000000000; i += v.back().first) {
-		if (i % a == d && i % b == e && i % c == f) {
+		if (i % v[0].first == v[0].second && i % v[1].first == v[1].second) {
 			cout << i;
 			return 0;
 		}
