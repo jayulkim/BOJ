@@ -5,7 +5,7 @@ typedef long double ld;
 typedef tuple<ll, ll, ll> tp;
 typedef pair<ll, ll> pll;
 ll n = 0, m = 0;
-char Map[101][101];
+char Map[101][1001];
 int main(void) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
