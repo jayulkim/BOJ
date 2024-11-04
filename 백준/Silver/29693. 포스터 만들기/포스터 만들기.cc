@@ -16,80 +16,70 @@ int main(void) {
 		}
 	}
 	if (m % 2) {
-		for (int i = 1; i < n - 1; i++) {
-			if (Map[i][m / 2] == 'X') {
-				Map[i][m / 2] = 'Y';
-			}
-			else {
-				cout << "NO";
-				return 0;
-			}
-		}
 		bool find = false;
 		for (int i = 1; i < n - 1; i++) {
-			if (m / 2 - 1 >= 0 && m / 2 + 1 < m && Map[i][m / 2 - 1] == 'X' && Map[i][m / 2 + 1] == 'X') {
-				Map[i][m / 2 - 1] = 'W';
-				Map[i][m / 2 + 1] = 'W';
-				find = true;
-				break;
-			}
-		}
-		if (!find) {
-			cout << "NO";
-			return 0;
-		}
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < m; j++) {
-				if (Map[i][j] == 'X') {
-					Map[i][j] = 'B';
+			if (Map[i][m / 2] == 'X') {
+				if (m / 2 - 1 >= 0 && m / 2 + 1 < m && Map[i][m / 2 - 1] == 'X' && Map[i][m / 2 + 1] == 'X') {
+					Map[i][m / 2 - 1] = 'W';
+					Map[i][m / 2 + 1] = 'W';
+					Map[i][m / 2] = 'Y';
+					find = true;
+					break;
 				}
 			}
 		}
-		cout << "YES" << '\n';
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < m; j++) {
-				cout << Map[i][j];
+		if (find) {
+			for (int i = 0; i < n; i++) {
+				for (int j = 0; j < m; j++) {
+					if (Map[i][j] == 'X') {
+						Map[i][j] = 'B';
+					}
+				}
 			}
-			cout << '\n';
+			cout << "YES" << '\n';
+			for (int i = 0; i < n; i++) {
+				for (int j = 0; j < m; j++) {
+					cout << Map[i][j];
+				}
+				cout << '\n';
+			}
+		}
+		else {
+			cout << "NO";
 		}
 	}
 	else {
-		for (int i = 1; i < n - 1; i++) {
-			if (m / 2 - 1 >= 0 && Map[i][m / 2 - 1] == 'X' && Map[i][m / 2] == 'X') {
-				Map[i][m / 2 - 1] = 'Y';
-				Map[i][m / 2] = 'Y';
-			}
-			else {
-				cout << "NO";
-				return 0;
-			}
-		}
 		bool find = false;
 		for (int i = 1; i < n - 1; i++) {
-			if (m / 2 - 2 >= 0 && m / 2 + 1 < m && Map[i][m / 2 - 2] == 'X' && Map[i][m / 2 + 1] == 'X') {
-				Map[i][m / 2 - 2] = 'W';
-				Map[i][m / 2 + 1] = 'W';
-				find = true;
-				break;
-			}
-		}
-		if (!find) {
-			cout << "NO";
-			return 0;
-		}
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < m; j++) {
-				if (Map[i][j] == 'X') {
-					Map[i][j] = 'B';
+			if (m / 2 - 1 >= 0 && Map[i][m / 2 - 1] == 'X' && Map[i][m / 2] == 'X') {
+				if (m / 2 - 2 >= 0 && m / 2 + 1 < m && Map[i][m / 2 - 2] == 'X' && Map[i][m / 2 + 1] == 'X') {
+					Map[i][m / 2 + 1] = 'W';
+					Map[i][m / 2 - 2] = 'W';
+					Map[i][m / 2] = 'Y';
+					Map[i][m / 2 - 1] = 'Y';
+					find = true;
+					break;
 				}
 			}
 		}
-		cout << "YES" << '\n';
-		for (int i = 0; i < n; i++) {
-			for (int j = 0; j < m; j++) {
-				cout << Map[i][j];
+		if (find) {
+			for (int i = 0; i < n; i++) {
+				for (int j = 0; j < m; j++) {
+					if (Map[i][j] == 'X') {
+						Map[i][j] = 'B';
+					}
+				}
 			}
-			cout << '\n';
+			cout << "YES" << '\n';
+			for (int i = 0; i < n; i++) {
+				for (int j = 0; j < m; j++) {
+					cout << Map[i][j];
+				}
+				cout << '\n';
+			}
+		}
+		else {
+			cout << "NO";
 		}
 	}
 	return 0;
