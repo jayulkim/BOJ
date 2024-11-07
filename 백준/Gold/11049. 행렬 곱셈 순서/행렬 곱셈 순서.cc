@@ -2,6 +2,7 @@
 using namespace std;
 typedef long long ll;
 typedef pair<ll, ll> pll;
+ll n = 0;
 vector<pll>v;
 vector<vector<ll>>dp(501, vector<ll>(501, -1));
 ll dfs(ll left, ll right) {
@@ -13,7 +14,6 @@ ll dfs(ll left, ll right) {
 	}
 	ll weight = LLONG_MAX;
 	for (int i = left; i < right; i++) {
-
 		weight = min(weight, dfs(left, i) + dfs(i + 1, right) + v[left].first * v[i].second * v[right].second);
 	}
 	return dp[left][right] = weight;
@@ -21,7 +21,6 @@ ll dfs(ll left, ll right) {
 int main(void) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
-	ll n = 0;
 	cin >> n;
 	for (int i = 0; i < n; i++) {
 		ll a = 0, b = 0;
