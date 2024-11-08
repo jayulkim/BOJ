@@ -15,11 +15,9 @@ ll dfs(ll parent, ll node) {
 		}
 	}
 	sort(temp.begin(), temp.end());
-	for (int i = 0; i < temp.size(); ++i)
-	{
+	for (int i = 0; i < temp.size(); i++) {
 		ll a = count + temp[i];
-		if (a > m)
-		{
+		if (a > m) {
 			result += temp.size() - i;
 			break;
 		}
