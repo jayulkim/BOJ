@@ -8,24 +8,25 @@ int main(void) {
 	ll n = 0, m = 0;
 	cin >> n >> m;
 	vector<ll>v;
+	vector<ll>vv;
 	for (int i = 0; i < n; i++) {
 		ll num = 0;
 		cin >> num;
-		v.push_back(llabs(num));
-	}
-	sort(v.begin(), v.end());
-	ll result = 0, idx = 0;
-	for (int i = 0; i < n; i++) {
-		if (idx < m - 1) {
-			idx++;
+		if (num > 0) {
+			v.push_back(num);
 		}
 		else {
-			idx = 0;
-			result += (2 * v[i]);
+			vv.push_back(-num);
 		}
 	}
-	if (idx) {
-		result += (2 * v[n - 1]);
+	sort(v.begin(), v.end());
+	sort(vv.begin(), vv.end());
+	ll result = 0;
+	for (int i = v.size() - 1; i >= 0; i -= m) {
+		result += (2 * v[i]);
+	}
+	for (int i = vv.size() - 1; i >= 0; i -= m) {
+		result += (2 * vv[i]);
 	}
 	cout << result;
 	return 0;
