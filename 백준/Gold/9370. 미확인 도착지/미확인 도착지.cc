@@ -7,8 +7,9 @@ typedef pair<ll, ll> pll;
 ll n = 0, m = 0, k = 0;
 ll s = 0, g = 0, h = 0;
 vector<pll>graph[2001];
-vector<ll>dist(2001, LLONG_MAX);
-vector<ll>reversedist(2001, LLONG_MAX);
+vector<ll>dists(2001, LLONG_MAX);
+vector<ll>distg(2001, LLONG_MAX);
+vector<ll>disth(2001, LLONG_MAX);
 vector<vector<ll>>cost(2001, vector<ll>(2001, LLONG_MAX));
 priority_queue<pll, vector<pll>, greater<pll>>pq;
 void dijkstra(ll start, vector<ll>&dist) {
@@ -43,23 +44,25 @@ int main(void) {
 			cost[start][end] = weight;
 			cost[end][start] = weight;
 		}
-		dijkstra(s, dist);
+		dijkstra(s, dists);
+		dijkstra(g, distg);
+		dijkstra(h, disth);
 		vector<ll>result;
 		for (int i = 0; i < k; i++) {
 			ll num = 0;
 			cin >> num;
-			dijkstra(num, reversedist);
-			if (dist[g] + reversedist[h] + cost[g][h] == dist[num] || dist[h] + reversedist[g] + cost[g][h] == dist[num]) {
+			if (disth[s] + distg[num] + cost[g][h] == dists[num] || distg[s] + disth[num] + cost[g][h] == dists[num]) {
 				result.push_back(num);
 			}
-			vector<ll>(2001, LLONG_MAX).swap(reversedist);
 		}
 		sort(result.begin(), result.end());
 		for (auto& i : result) {
 			cout << i << ' ';
 		}
 		cout << '\n';
-		vector<ll>(2001, LLONG_MAX).swap(dist);
+		vector<ll>(2001, LLONG_MAX).swap(dists);
+		vector<ll>(2001, LLONG_MAX).swap(distg);
+		vector<ll>(2001, LLONG_MAX).swap(disth);
 		for (int i = 1; i <= n; i++) {
 			vector<pll>().swap(graph[i]);
 		}
