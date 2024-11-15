@@ -19,7 +19,7 @@ int main(void) {
 		if (Map[temp]) {
 			break;
 		}
-		Map[temp] = i;
+		Map[temp]++;
 		Min = min(temp, Min);
 	}
 	cout << Min;
