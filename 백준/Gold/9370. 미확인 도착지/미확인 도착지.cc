@@ -10,7 +10,6 @@ vector<pll>graph[2001];
 vector<ll>dists(2001, LLONG_MAX);
 vector<ll>distg(2001, LLONG_MAX);
 vector<ll>disth(2001, LLONG_MAX);
-vector<vector<ll>>cost(2001, vector<ll>(2001, LLONG_MAX));
 priority_queue<pll, vector<pll>, greater<pll>>pq;
 void dijkstra(ll start, vector<ll>&dist) {
 	dist[start] = 0;
@@ -36,13 +35,15 @@ int main(void) {
 	while (num--) {
 		cin >> n >> m >> k;
 		cin >> s >> g >> h;
+		ll cost = 0;
 		for (int i = 0; i < m; i++) {
 			ll start = 0, end = 0, weight = 0;
 			cin >> start >> end >> weight;
 			graph[start].push_back({ weight, end });
 			graph[end].push_back({ weight, start });
-			cost[start][end] = weight;
-			cost[end][start] = weight;
+			if ((start == g && end == h) || (end == g && start == h)) {
+				cost = weight;
+			}
 		}
 		dijkstra(s, dists);
 		dijkstra(g, distg);
@@ -51,7 +52,7 @@ int main(void) {
 		for (int i = 0; i < k; i++) {
 			ll num = 0;
 			cin >> num;
-			if (disth[s] + distg[num] + cost[g][h] == dists[num] || distg[s] + disth[num] + cost[g][h] == dists[num]) {
+			if (disth[s] + distg[num] + cost == dists[num] || distg[s] + disth[num] + cost == dists[num]) {
 				result.push_back(num);
 			}
 		}
@@ -66,7 +67,6 @@ int main(void) {
 		for (int i = 1; i <= n; i++) {
 			vector<pll>().swap(graph[i]);
 		}
-		vector<vector<ll>>(2001, vector<ll>(2001, LLONG_MAX)).swap(cost);
 	}
 	return 0;
 }
