@@ -5,32 +5,6 @@ typedef long double ld;
 typedef tuple<ll, ll, ll> tp;
 typedef pair<ll, ll> pll;
 ll n = 0, m = 0, k = 0;
-vector<ll>result[300001];
-ll gcd(ll a, ll b) {
-	ll temp = a % b;
-	while (temp > 0) {
-		a = b;
-		b = temp;
-		temp = a % b;
-	}
-	return b;
-}
-void mygcd(ll a, ll b, ll i) {
-	if (a < b) {
-		swap(a, b);
-	}
-	ll temp = a % b;
-	result[i].push_back(a / b);
-	while (temp > 0) {
-		a = b;
-		b = temp;
-		temp = a % b;
-		if (a < b) {
-			swap(a, b);	
-		}
-		result[i].push_back(a / b);
-	}
-}
 int main(void) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
@@ -38,6 +12,9 @@ int main(void) {
 	cin >> num;
 	while (num--) {
 		cin >> n;
+		vector<ll>result;
+		ll Min = LLONG_MAX;
+		ll idx = -1;
 		if (n == 1) {
 			cout << '\n';
 		}
@@ -49,50 +26,58 @@ int main(void) {
 				if (n - i < i) {
 					break;
 				}
-				if (gcd(i, n - i) == 1) {
-					mygcd(i, n - i, i);
-					result[i].back()--;
-				}
-			}
-			ll Min = LLONG_MAX;
-			ll idx = -1;
-			for (int i = 1; i <= n; i++) {
-				if (n - i < i) {
-					break;
-				}
-				if (!result[i].empty()) {
-					ll sum = 0;
-					for (auto& j : result[i]) {
-						sum += j;
+				ll a = n - i;
+				ll b = i;
+				ll c = 0;
+				ll temp = a % b;
+				c += (a / b);
+				while (temp > 0) {
+					a = b;
+					b = temp;
+					temp = a % b;
+					if (a < b) {
+						swap(a, b);
 					}
-					if (Min > sum) {
-						Min = sum;
+					c += (a / b);
+				}
+				if (b == 1) {
+					if (Min > c) {
 						idx = i;
+						Min = c;
 					}
 				}
 			}
-			string temp = "";
+			ll a = n - idx;
+			ll b = idx;
+			ll c = 0;
+			ll temp = a % b;
+			result.push_back(a / b);
+			while (temp > 0) {
+				a = b;
+				b = temp;
+				temp = a % b;
+				if (a < b) {
+					swap(a, b);
+				}
+				result.push_back(a / b);
+			}
+			result.back()--;
 			ll count = 0;
-			ll sum = 0;
-			for (int j = result[idx].size() - 1; j >= 0; j--) {
-				sum += result[idx][j];
+			for (int j = result.size() - 1; j >= 0; j--) {
 				if (count % 2 == 0) {
-					for (int k = 0; k < result[idx][j]; k++) {
-						temp += 'B';
+					for (int k = 0; k < result[j]; k++) {
+						cout << 'B';
 					}
 				}
 				else {
-					for (int k = 0; k < result[idx][j]; k++) {
-						temp += 'R';
+					for (int k = 0; k < result[j]; k++) {
+						cout << 'R';
 					}
 				}
 				count++;
 			}
-			temp += 'R';
-			cout << temp << '\n';
-			for (int i = 1; i <= 300000; i++) {
-				vector<ll>().swap(result[i]);
-			}
+			cout << 'R' << '\n';
+			vector<ll>().swap(result);
 		}
 	}
 	return 0;
