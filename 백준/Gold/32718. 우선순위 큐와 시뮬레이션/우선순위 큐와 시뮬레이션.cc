@@ -25,24 +25,13 @@ int main(void) {
 		cin >> num;
 		temp += num;
 		temp %= m;
-		ll start = 0, end = n - 1, mid = 0;
-		vector<ll>vv;
-		while (start <= end) {
-			mid = (start + end) / 2;
-			if (v[mid] > m - temp - 1) {
-				end = mid - 1;
-			}
-			else {
-				vv.push_back(v[mid]);
-				start = mid + 1;
-			}
-		}
-		if (vv.empty()) {
-			result.push_back((v.back() + temp) % m);
+		auto it = upper_bound(v.begin(), v.end(), m - temp - 1);
+		if (it == v.begin()) {
+			result.push_back((v[n - 1] + temp) % m);
 		}
 		else {
-			sort(vv.begin(), vv.end());
-			result.push_back((vv.back() + temp) % m);
+			it--;
+			result.push_back((v[it - v.begin()] + temp) % m);
 		}
 	}
 	for (auto& i : result) {
