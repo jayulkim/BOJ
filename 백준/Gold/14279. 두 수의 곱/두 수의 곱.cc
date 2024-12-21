@@ -9,9 +9,12 @@ int main(void) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
 	cin >> n >> m >> k;
+	if (n > m) {
+		swap(n, m);
+	}
 	ll Min = LLONG_MAX;
-	for (int i = 1; i <= 5000000; i++) {
-		for (int j = 1; j * i <= 5000000; j++) {
+	for (ll i = 1; i * i <= n + n + m + k - 3; i++) {
+		for (ll j = 1; j * i <= k + n + m + k - 3; j++) {
 			Min = min({ Min, llabs(n - i) + llabs(m - j) + llabs(k - i * j), llabs(n - j) + llabs(m - i) + llabs(k - i * j) });
 		}
 	}
