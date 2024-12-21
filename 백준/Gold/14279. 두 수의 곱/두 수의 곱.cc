@@ -10,8 +10,8 @@ int main(void) {
 	cin.tie(0);
 	cin >> n >> m >> k;
 	ll Min = LLONG_MAX;
-	for (int i = 1; i <= 10000000; i++) {
-		for (int j = 1; j * i <= 10000000; j++) {
+	for (int i = 1; i <= 5000000; i++) {
+		for (int j = 1; j * i <= 5000000; j++) {
 			Min = min({ Min, llabs(n - i) + llabs(m - j) + llabs(k - i * j), llabs(n - j) + llabs(m - i) + llabs(k - i * j) });
 		}
 	}
