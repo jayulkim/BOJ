@@ -5,28 +5,25 @@ typedef long double ld;
 typedef tuple<ll, ll, ll> tp;
 typedef pair<ll, ll> pll;
 ll n = 0, m = 0, k = 0;
-bool visited[11];
-vector<ll>result;
-bool Find = false;
-void dfs() {
-	if (Find) {
-		return;
-	}
-	if (result.size() == 7) {
-		if (result[0] != 0 && result[4] != 0) {
-			string a = "", b = "";
-			for (int i = 0; i < 2; i++) {
-				a += (result[i] + '0');
-			}
-			a += (result[2] + '0');
-			a += (result[2] + '0');
-			a += (result[3] + '0');
-			b += (result[4] + '0');
-			b += (result[3] + '0');
-			b += (result[5] + '0');
-			b += (result[2] + '0');
-			b += (result[6] + '0');
-			if (stoll(a) + stoll(b) == n) {
+int main(void) {
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	cin >> n;
+	vector<ll>v = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+	do {
+		if (v[0] != 0 && v[4] != 0) {
+			ll a = 0, b = 0;
+			a += v[3];
+			a += (10 * v[2]);
+			a += (100 * v[2]);
+			a += (1000 * v[1]);
+			a += (10000 * v[0]);
+			b += v[6];
+			b += (10 * v[2]);
+			b += (100 * v[5]);
+			b += (1000 * v[3]);
+			b += (10000 * v[4]);
+			if (a + b == n) {
 				cout << "  " << a << '\n';
 				cout << "+ " << b << '\n';
 				cout << "-------" << '\n';
@@ -37,31 +34,10 @@ void dfs() {
 					cout << "  ";
 				}
 				cout << n;
-				Find = true;
-				return;
+				return 0;
 			}
 		}
-		else {
-			return;
-		}
-	}
-	for (int i = 0; i < 10; i++) {
-		if (!visited[i]) {
-			result.push_back(i);
-			visited[i] = true;
-			dfs();
-			visited[i] = false;
-			result.pop_back();
-		}
-	}
-}
-int main(void) {
-	ios::sync_with_stdio(false);
-	cin.tie(0);
-	cin >> n;
-	dfs();
-	if (!Find) {
-		cout << "No Answer";
-	}
+	} while (next_permutation(v.begin(), v.end()));
+	cout << "No Answer";
 	return 0;
 }
