@@ -9,7 +9,6 @@ ll n = 0, m = 0, k = 0;
 ll ary[101];
 ll sum[101];
 ll v[101];
-ll dp[101];
 int main(void) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
