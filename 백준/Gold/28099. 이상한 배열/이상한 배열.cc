@@ -10,7 +10,6 @@ int main(void) {
     cin >> num;
     while (num--) {
         cin >> n;
-        map<ll, ll>Map;
         vector<ll>v;
         for (int i = 0; i < n; i++) {
             ll num = 0;
