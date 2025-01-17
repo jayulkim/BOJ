@@ -5,7 +5,6 @@ typedef long double ld;
 typedef tuple<ll, ll, ll> tp;
 typedef pair<ll, ll> pll;
 ll n = 0, m = 0, k = 0;
-vector<pll>graph[101];
 ll Gcd(ll x, ll y) {
 	ll temp = x % y;
 	while (temp > 0) {
