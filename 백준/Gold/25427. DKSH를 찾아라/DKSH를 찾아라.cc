@@ -1,33 +1,53 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+typedef long double ld;
+typedef tuple<ll, ll, ll> tp;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
 ll n = 0, m = 0, k = 0;
-string str = "";
-vector<vector<ll>>dp(100001, vector<ll>(5, -1));
-string temp = "DKSH";
-ll dfs(ll n, ll m) {
-    if (m == temp.length()) {
-        return 1;
-    }
-    if (n >= str.length()) {
-        return 0;
-    }
-    if (dp[n][m] != -1) {
-        return dp[n][m];
-    }
-    ll weight = 0;
-    for (int i = n; i < str.length(); i++) {
-        if (str[i] == temp[m]) {
-            weight += dfs(i + 1, m + 1);
-        }
-    }
-    return dp[n][m] = weight;
-}
+ll d[100001];
+ll dk[100001];
+ll dks[100001];
+ll dksh[100001];
 int main(void) {
-    ios::sync_with_stdio(false);
-    cin.tie(0);
-    cin >> n;
-    cin >> str;
-    cout << dfs(0, 0);
-    return 0;
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	cin >> n;
+	string str = "";
+	cin >> str;
+	for (int i = 1; i <= n; i++) {
+		if (str[i - 1] == 'D') {
+			d[i] = d[i - 1] + 1;
+		}
+		else {
+			d[i] = d[i - 1];
+		}
+	}
+	for (int i = 1; i <= n; i++) {
+		if (str[i - 1] == 'K') {
+			dk[i] = dk[i - 1] + d[i - 1];
+		}
+		else {
+			dk[i] = dk[i - 1];
+		}
+	}
+	for (int i = 1; i <= n; i++) {
+		if (str[i - 1] == 'S') {
+			dks[i] = dks[i - 1] + dk[i - 1];
+		}
+		else {
+			dks[i] = dks[i - 1];
+		}
+	}
+	for (int i = 1; i <= n; i++) {
+		if (str[i - 1] == 'H') {
+			dksh[i] = dksh[i - 1] + dks[i - 1];
+		}
+		else {
+			dksh[i] = dksh[i - 1];
+		}
+	}
+	cout << dksh[n];
+	return 0;
 }
