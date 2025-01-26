@@ -11,29 +11,13 @@ ll dfs(ll y, ll x, ll size) {
     if (size == 1) {
         return Map[y][x] - '0';
     }
+    ll temp = 0;
+    for (int i = y; i < y + size; i++) {
+        for (int j = x; j < x + size; j++) {
+            temp += (Map[i][j] - '0');
+        }
+    }
     ll sum = 0;
-    ll a = 0, b = 0, c = 0, d = 0;
-    for (int i = y; i < y + size / 2; i++) {
-        for (int j = x; j < x + size / 2; j++) {
-            a += (Map[i][j] - '0');
-        }
-    }
-    for (int i = y; i < y + size / 2; i++) {
-        for (int j = x + size / 2; j < x + size; j++) {
-            b += (Map[i][j] - '0');
-        }
-    }
-    for (int i = y + size / 2; i < y + size; i++) {
-        for (int j = x; j < x + size / 2; j++) {
-            c += (Map[i][j] - '0');
-        }
-    }
-    for (int i = y + size / 2; i < y + size; i++) {
-        for (int j = x + size / 2; j < x + size; j++) {
-            d += (Map[i][j] - '0');
-        }
-    }
-    ll temp = a + b + c + d;
     if (temp % 4 == 0) {
         sum += dfs(y, x + size / 2, size / 2);
         sum += dfs(y + size / 2, x, size / 2);
