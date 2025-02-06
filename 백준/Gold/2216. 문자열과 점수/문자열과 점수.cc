@@ -13,19 +13,23 @@ ll dfs(ll x, ll y) {
     if (x == a.length() && y == b.length()) {
         return 0;
     }
-    else if ((x == a.length() && y < b.length()) || (x < a.length() && y == b.length())) {
-        return m * (a.length() - x + b.length() - y);
-    }
     if (dp[x][y] != -1) {
         return dp[x][y];
     }
-    ll weight = LLONG_MIN;
-    weight = max(dfs(x + 1, y) + m, dfs(x, y + 1) + m);
-    if (a[x] == b[y]) {
-        weight = max(weight, dfs(x + 1, y + 1) + n);
+    ll weight = -1e8;
+    if (x < a.length()) {
+        weight = max(weight, dfs(x + 1, y) + m);
     }
-    else {
-        weight = max(weight, dfs(x + 1, y + 1) + k);
+    if (y < b.length()) {
+        weight = max(weight, dfs(x, y + 1) + m);
+    }
+    if (x < a.length() && y < b.length()) {
+        if (a[x] == b[y]) {
+            weight = max(weight, dfs(x + 1, y + 1) + n);
+        }
+        else {
+            weight = max(weight, dfs(x + 1, y + 1) + k);
+        }
     }
     return dp[x][y] = weight;
 }
