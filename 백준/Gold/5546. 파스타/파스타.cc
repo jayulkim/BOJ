@@ -51,7 +51,7 @@ int main(void) {
         b = v[2];
     }
     if (a && b) {
-        cout << dfs(2, a, b);
+        cout << dfs(3, a, b);
     }
     else if (a && !b) {
         for (int i = 1; i <= 3; i++) {
