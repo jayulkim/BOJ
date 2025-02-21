@@ -45,7 +45,6 @@ ll powmod(ll x, ll y, ll num) {
     }
     return result;
 }
-vector<ll>v;
 ll query(ll n, ll mod) {
     if (mod == 1) {
         return 1;
