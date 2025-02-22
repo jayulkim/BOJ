@@ -67,7 +67,7 @@ int main(void) {
         cout << 1;
         return 0;
     }
-    for (ll i = max((ll)2, (ll)n - 10000); i <= n; i++) {
+    for (ll i = max((ll)2, (ll)n - 100); i <= n; i++) {
         ll sum = 0;
         for (ll j = 1; j <= str.length(); j++) {
             if (str[(j * i) % 10] >= '1' && str[(j * i) % 10] <= '9') {
