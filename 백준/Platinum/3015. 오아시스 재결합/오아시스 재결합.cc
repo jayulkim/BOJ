@@ -24,33 +24,27 @@ int main(void) {
 	ll result = 0;
 	vector<ll>stack;
 	for (int i = 0; i < n; i++) {
-		ll temp = 0;
 		if (!stack.empty() && stack.back() > v[i]) {
 			result++;
-			temp++;
 		}
 		else {
 			bool find = false;
 			if (!stack.empty() && stack.back() < v[i]) {
 				while (!stack.empty() && stack.back() < v[i]) {
 					result += Map[stack.back()];
-					temp += Map[stack.back()];
 					Map[stack.back()] = 0;
 					stack.pop_back();
 				}
 				if (!stack.empty() && stack[0] > v[i]) {
 					result++;
-					temp++;
 					find = true;
 				}
 			}
 			if (!stack.empty() && stack.back() == v[i]) {
 				if (!stack.empty() && stack[0] > v[i] && !find) {
 					result++;
-					temp++;
 				}
 				result += Map[stack.back()];
-				temp += Map[stack.back()];
 				while (!stack.empty() && stack.back() == v[i]) {
 					stack.pop_back();
 				}
