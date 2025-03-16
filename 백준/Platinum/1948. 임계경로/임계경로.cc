@@ -38,7 +38,7 @@ void disttoposort(ll start) {
 		}
 	}
 }
-void bfs(ll start, ll end) {
+void bfs(ll start) {
 	queue<ll>q;
 	q.push(start);
 	while (!q.empty()) {
@@ -81,7 +81,7 @@ int main(void) {
 	cin >> start >> end;
 	disttoposort(start);
 	cout << dist[end] << '\n';
-	bfs(end, start);
+	bfs(end);
 	reversetoposort(end);
 	cout << result;
 	return 0;
