@@ -7,41 +7,32 @@ typedef tuple<ll, ll, char> llc;
 typedef pair<ll, ll> pll;
 ll n = 0, m = 0, k = 0;
 ll dp[100001];
-ll visited[100001];
 int main(void) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
-	priority_queue<lll, vector<lll>, greater<lll>>pq;
 	cin >> n >> m;
+	ll sum = 0;
+	ll temp = 0;
+	ll Max = 0;
 	for (int i = 0; i < m; i++) {
 		ll a = 0, b = 0, c = 0;
 		cin >> a >> b >> c;
 		if (a == 1) {
-			dp[c] += b;
-			visited[c] = i;
 			if (c != n + 1) {
-				pq.push({ dp[c], i, c });
+				sum += b;
+				dp[c] += b;
+				Max = max(Max, dp[c]);
+			}
+			else {
+				temp += b;
 			}
 		}
 		else {
-			while (!pq.empty() && visited[get<2>(pq.top())] != get<1>(pq.top())) {
-				pq.pop();
-			}
-			if (!pq.empty()) {
-				if (dp[n + 1] + b > get<0>(pq.top()) + c) {
-					cout << "YES" << '\n';
-				}
-				else {
-					cout << "NO" << '\n';
-				}
+			if (Max < temp + b && c <= ((temp + b - 1) * n - sum)) {
+				cout << "YES" << '\n';
 			}
 			else {
-				if (dp[n + 1] + b > c) {
-					cout << "YES" << '\n';
-				}
-				else {
-					cout << "NO" << '\n';
-				}
+				cout << "NO" << '\n';
 			}
 		}
 	}
