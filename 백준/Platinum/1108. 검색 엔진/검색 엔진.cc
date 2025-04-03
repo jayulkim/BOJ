@@ -14,10 +14,9 @@ ll visited[1251];
 bool finished[1251];
 map<ll, ll>idMap;
 vector<ll>graph[1251];
-vector<ll>topograph[1251];
-ll degree[1251];
 vector<ll>s;
 ll dp[1251];
+vector<vector<ll>>scc;
 ll dfs(ll start) {
     visited[start] = ++id;
     ll parent = visited[start];
@@ -32,39 +31,20 @@ ll dfs(ll start) {
     }
     if (parent == visited[start]) {
         idid++;
+        vector<ll>v;
         while (1) {
             ll temp = s.back();
             s.pop_back();
             finished[temp] = true;
             idMap[temp] = idid;
+            v.push_back(temp);
             if (start == temp) {
                 break;
             }
         }
+        scc.push_back(v);
     }
     return parent;
-}
-void toposort() {
-    queue<ll>q;
-    for (int i = 1; i <= idx; i++) {
-        dp[i] = 1;
-        if (!degree[i]) {
-            q.push(i);
-        }
-    }
-    while (!q.empty()) {
-        ll temp = q.front();
-        q.pop();
-        ll d = idMap[temp];
-        for (auto& i : topograph[temp]) {
-            if (d != idMap[i]) {
-                dp[i] += dp[temp];
-            }
-            if (--degree[i] == 0) {
-                q.push(i);
-            }
-        }
-    }
 }
 int main(void) {
     ios::sync_with_stdio(false);
@@ -93,15 +73,18 @@ int main(void) {
         }
     }
     for (int i = 1; i <= idx; i++) {
-        ll temp = idMap[i];
-        for (auto& j : graph[i]) {
-            if (temp != idMap[j]) {
-                topograph[i].push_back(j);
-                degree[j]++;
+        dp[i] = 1;
+    }
+    for (int i = scc.size() - 1; i >= 0; i--) {
+        for (auto& j : scc[i]) {
+            ll temp = idMap[j];
+            for (auto& k : graph[j]) {
+                if (temp != idMap[k]) {
+                    dp[k] += dp[j];
+                }
             }
         }
     }
-    toposort();
     string str = "";
     cin >> str;
     cout << dp[Map[str]];
