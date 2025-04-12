@@ -40,6 +40,9 @@ int main(void) {
                 else if (!finished[i]) {
                     parent = min(parent, visited[i]);
                 }
+                else {
+                    degree[Map[i]]++;
+                }
             }
             if (visited[start] == parent) {
                 Mapid++;
@@ -51,6 +54,9 @@ int main(void) {
                     if (start == temp) {
                         break;
                     }
+                }
+                if (!s.empty()) {
+                    degree[Mapid]++;
                 }
             }
             return parent;
@@ -68,7 +74,6 @@ int main(void) {
             for (auto& j : graph[i]) {
                 if (Map[i] != Map[j]) {
                     degreedegree[Map[i]]++;
-                    degree[Map[j]]++;
                 }
             }
         }
