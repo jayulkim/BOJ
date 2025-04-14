@@ -13,26 +13,13 @@ int main(void) {
     cin >> n;
     ll result = 0;
     vector<ll>v;
+    bool find = false;
     for (int i = 0; i < n; i++) {
         ll num = 0;
         cin >> num;
         result ^= num;
-        v.push_back(num);
-        if (n == 1) {
-            if (num == 1) {
-                cout << "cubelover";
-            }
-            else {
-                cout << "koosaga";
-            }
-            return 0;
-        }
-    }
-    bool find = false;
-    for (auto& i : v) {
-        if (i != 1) {
+        if (num != 1) {
             find = true;
-            break;
         }
     }
     if (!find) {
@@ -42,10 +29,6 @@ int main(void) {
         else {
             cout << "koosaga";
         }
-        return 0;
-    }
-    if (n == 2 && (v[0] == 1 || v[1] == 1)) {
-        cout << "koosaga";
         return 0;
     }
     if (!result) {
