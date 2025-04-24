@@ -20,13 +20,13 @@
 
 <p>욱제는 임의의 시각에 학교에 오거나 학교를 떠날 수 있고, 단 한 번의 왕복만 한다. 동시에 여러 팬들에게 인사를 끝낼 수도 있다. 욱제는 잘생겨서 인사하면 팬들이 심쿵사로 바로 쓰러지기 때문에 인사를 하는데 소요되는 시간은 0이라고 하자.</p>
 
-<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/481b6e46-5c87-4a4b-affc-1115ace572ab/-/preview/"></p>
+<p style="text-align: center;"><img alt="" src=""></p>
 
 <p style="text-align: center;"><그림 1></p>
 
 <p>예를 들어 3명의 팬 A, B, C가 학교에 머무르는 시간이 <그림 1>과 같다고 하자. 이 경우 시각 2에 3명의 팬이 모두 학교에 있으므로, 욱제는 시각 2에 학교에 와서 3명에게 동시에 인사를 하고 바로 가게로 돌아갈 수 있다. 시각 3이나 4도 마찬가지이다. 이때 욱제가 학교에 머무는 시간의 총합은 0이다.</p>
 
-<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/1b246d11-2548-47c6-8a59-b7f699af1c9c/-/preview/"></p>
+<p style="text-align: center;"><img alt="" src=""></p>
 
 <p style="text-align: center;"><그림 2></p>
 
