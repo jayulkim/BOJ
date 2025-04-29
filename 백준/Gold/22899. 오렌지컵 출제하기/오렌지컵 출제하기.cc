@@ -24,60 +24,42 @@ int main(void) {
 	for (int i = 0; i < n; i++) {
 		graph[v[i].first].push_back(v[i].second);
 	}
-	for (int i = 0; i < n; i++) {
+	for (int i = 1; i <= n; i++) {
 		sort(graph[i].begin(), graph[i].end(), greater<ll>());
 	}
-	priority_queue<pll>pqpq;
+	priority_queue<pll>pq;
 	ll sum = 0;
-	priority_queue<pll, vector<pll>, greater<pll>>pq;
+	vector<pll>vv;
 	for (int i = 1; i <= n; i++) {
 		if (!graph[i].empty()) {
-			pq.push({ graph[i].back(), i });
+			vv.push_back({ graph[i].back(), i });
 			graph[i].pop_back();
 		}
 	}
 	for (int i = 1; i <= n; i++) {
-		vector<pll>vv;
-		while (!pq.empty() && pqpq.size() < m) {
+		vector<pll>vvv;
+		for (auto& j : vv) {
+			sum += j.first;
+			pq.push(j);
+			if (!graph[j.second].empty()) {
+				vvv.push_back({ graph[j.second].back(), j.second });
+				graph[j.second].pop_back();
+			}
+		}
+		vector<pll>().swap(vv);
+		for (auto& j : vvv) {
+			vv.push_back(j);
+		}
+		if (pq.size() < m) {
+			cout << -1 << ' ';
+			continue;
+		}
+		while (pq.size() > m) {
 			pll temp = pq.top();
 			pq.pop();
-			sum += temp.first;
-			pqpq.push(temp);
-			if (!graph[temp.second].empty()) {
-				vv.push_back({ graph[temp.second].back(), temp.second });
-				graph[temp.second].pop_back();
-			}
+			sum -= temp.first;
 		}
-		for (auto& j : vv) {
-			pq.push(j);
-		}
-		if (pqpq.size() < m) {
-			cout << -1 << ' ';
-		}
-		else {
-			cout << sum << ' ';
-			vector<pll>vv;
-			vector<pll>vvv;
-			while (!pq.empty() && !pqpq.empty() && pq.top().first < pqpq.top().first) {
-				pll a = pq.top();
-				pll b = pqpq.top();
-				pq.pop();
-				pqpq.pop();
-				sum -= b.first;
-				sum += a.first;
-				vv.push_back(a);
-				if (!graph[a.second].empty()) {
-					vvv.push_back({ graph[a.second].back(), a.second });
-					graph[a.second].pop_back();
-				}
-			}
-			for (auto& j : vv) {
-				pqpq.push(j);
-			}
-			for (auto& j : vvv) {
-				pq.push(j);
-			}
-		}
+		cout << sum << ' ';
 	}
 	return 0;
 }
