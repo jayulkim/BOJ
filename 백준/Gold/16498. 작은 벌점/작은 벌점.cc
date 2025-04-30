@@ -35,51 +35,27 @@ int main(void) {
     ll Min = LLONG_MAX;
     for (int i = 0; i < n; i++) {
         auto aa = lower_bound(b.begin(), b.end(), a[i]);
-        if (aa != b.end()) {
-            auto bb = lower_bound(c.begin(), c.end(), *aa);
-            if (bb != c.end()) {
-                Min = min(Min, max({a[i], *aa, *bb}) - min({a[i], *aa, *bb}));
-            }
-        }
+        auto bb = lower_bound(c.begin(), c.end(), *aa);
+        Min = min(Min, max({a[i], *aa, *bb}) - min({a[i], *aa, *bb}));
         aa = lower_bound(c.begin(), c.end(), a[i]);
-        if (aa != b.end()) {
-            auto bb = lower_bound(b.begin(), b.end(), *aa);
-            if (bb != c.end()) {
-                Min = min(Min, max({a[i], *aa, *bb}) - min({a[i], *aa, *bb}));
-            }
-        }
+        bb = lower_bound(b.begin(), b.end(), *aa);
+        Min = min(Min, max({a[i], *aa, *bb}) - min({a[i], *aa, *bb}));
     }
     for (int i = 0; i < m; i++) {
         auto aa = lower_bound(a.begin(), a.end(), b[i]);
-        if (aa != b.end()) {
-            auto bb = lower_bound(c.begin(), c.end(), *aa);
-            if (bb != c.end()) {
-                Min = min(Min, max({b[i], *aa, *bb}) - min({b[i], *aa, *bb}));
-            }
-        }
+        auto bb = lower_bound(c.begin(), c.end(), *aa);
+        Min = min(Min, max({b[i], *aa, *bb}) - min({b[i], *aa, *bb}));
         aa = lower_bound(c.begin(), c.end(), b[i]);
-        if (aa != b.end()) {
-            auto bb = lower_bound(a.begin(), a.end(), *aa);
-            if (bb != c.end()) {
-                Min = min(Min, max({b[i], *aa, *bb}) - min({b[i], *aa, *bb}));
-            }
-        }
+        bb = lower_bound(a.begin(), a.end(), *aa);
+        Min = min(Min, max({b[i], *aa, *bb}) - min({b[i], *aa, *bb}));
     }
     for (int i = 0; i < k; i++) {
         auto aa = lower_bound(a.begin(), a.end(), c[i]);
-        if (aa != b.end()) {
-            auto bb = lower_bound(b.begin(), b.end(), *aa);
-            if (bb != c.end()) {
-                Min = min(Min, max({c[i], *aa, *bb}) - min({c[i], *aa, *bb}));
-            }
-        }
+        auto bb = lower_bound(b.begin(), b.end(), *aa);
+        Min = min(Min, max({c[i], *aa, *bb}) - min({c[i], *aa, *bb}));
         aa = lower_bound(b.begin(), b.end(), c[i]);
-        if (aa != b.end()) {
-            auto bb = lower_bound(a.begin(), a.end(), *aa);
-            if (bb != c.end()) {
-                Min = min(Min, max({c[i], *aa, *bb}) - min({c[i], *aa, *bb}));
-            }
-        }
+        bb = lower_bound(a.begin(), a.end(), *aa);
+        Min = min(Min, max({c[i], *aa, *bb}) - min({c[i], *aa, *bb}));
     }
     cout << Min;
     return 0;
