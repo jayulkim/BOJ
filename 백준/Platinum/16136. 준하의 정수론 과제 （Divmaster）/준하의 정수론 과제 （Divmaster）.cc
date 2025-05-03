@@ -20,33 +20,39 @@ int main(void) {
     cin >> n >> m;
     vector<ll>vv(n + 1, 0);
     vector<ll>tree(4 * n + 1, 0);
-    map<ll, ll>aa;
+    vector<bool>stop(4 * n + 1, false);
+    vector<ll>aa;
     for (int i = 1; i <= n; i++) {
         cin >> vv[i];
-        if (vv[i] > 2) {
-            aa[i]++;
-        }
     }
     function<ll(ll, ll, ll)> init = [&](ll start, ll end, ll idx) -> ll {
         if (start == end) {
+            if (vv[start] <= 2) {
+                stop[idx] = true;
+            }
             return tree[idx] = vv[start];
         }
         ll mid = (start + end) / 2;
+        stop[idx] = (stop[idx * 2] & stop[idx * 2 + 1]);
         return tree[idx] = init(start, mid, idx * 2) + init(mid + 1, end, idx * 2 + 1);
         };
     init(1, n, 1);
-    function<void(ll, ll, ll, ll, ll)> update = [&](ll start, ll end, ll idx, ll changeidx, ll change) -> void {
-        if (start > changeidx || end < changeidx) {
+    function<void(ll, ll, ll, ll, ll) > update = [&](ll start, ll end, ll idx, ll left, ll right) -> void {
+        if (start > right || end < left || stop[idx]) {
             return;
         }
         if (start == end) {
-            tree[idx] = change;
+            if (v[tree[idx]] <= 2) {
+                stop[idx] = true;
+            }
+            tree[idx] = v[tree[idx]];
             return;
         }
         ll mid = (start + end) / 2;
-        update(start, mid, idx * 2, changeidx, change);
-        update(mid + 1, end, idx * 2 + 1, changeidx, change);
+        update(start, mid, idx * 2, left, right);
+        update(mid + 1, end, idx * 2 + 1, left, right);
         tree[idx] = tree[idx * 2] + tree[idx * 2 + 1];
+        stop[idx] = (stop[idx * 2] & stop[idx * 2 + 1]);
         };
     function<ll(ll, ll, ll, ll, ll)> query = [&](ll start, ll end, ll idx, ll left, ll right) -> ll {
         if (start > right || end < left) {
@@ -62,19 +68,7 @@ int main(void) {
         ll a = 0, b = 0, c = 0;
         cin >> a >> b >> c;
         if (a == 1) {
-            vector<ll>vvv;
-            for (auto& j : aa) {
-                if (b <= j.first && j.first <= c) {
-                    update(1, n, 1, j.first, v[vv[j.first]]);
-                    vv[j.first] = v[vv[j.first]];
-                    if (vv[j.first] <= 2) {
-                        vvv.push_back(j.first);
-                    }
-                }
-            }
-            for (auto& j : vvv) {
-                aa.erase(aa.find(j));
-            }
+            update(1, n, 1, b, c);
         }
         else {
             cout << query(1, n, 1, b, c) << '\n';
