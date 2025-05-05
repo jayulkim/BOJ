@@ -15,22 +15,25 @@ int main(void) {
 	cin >> n;
 	string str = "";
 	cin >> str;
+	vector<ll>v(n + 1, 0);
 	vector<ll>dp(n + 1, 0);
 	ll result = 0;
 	for (int i = 3; i < n; i++) {
 		if (str[i - 3] == 'S' && str[i - 2] == 'S' && str[i - 1] == 'H' && str[i] == 'S') {
-			dp[i]++;
+			v[i]++;
 		}
 		if (str[i - 3] == 'G' && str[i - 2] == 'S' && str[i - 1] == 'H' && str[i] == 'S') {
-			dp[i]--;
+			v[i]--;
 		}
 	}
-	ll Min = 0;
-	ll Max = 0;
 	for (int i = 3; i < n; i++) {
-		Min = min(Min, dp[i]);
-		Max = max(Max, dp[i]);
+		dp[i] = dp[i - 1] + v[i];
 	}
-	cout << Max - Min;
+	ll Min = 0;
+	for (int i = 3; i < n; i++) {
+		result = max(result, dp[i] - Min);
+		Min = min(Min, dp[i]);
+	}
+	cout << result;
 	return 0;
 }
