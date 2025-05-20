@@ -1,4 +1,3 @@
-//사과 게임 탐색기
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
