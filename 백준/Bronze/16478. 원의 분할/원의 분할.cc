@@ -13,6 +13,8 @@ int main(void) {
     cin.tie(0);
     ld a = 0, b = 0, c = 0;
     cin >> a >> b >> c;
+    cout << fixed;
+    cout.precision(30);
     cout << a * c / b;
     return 0;
- }
+ } 
