@@ -16,20 +16,14 @@ int main(void) {
     string a = "", b = "";
     while (getline(cin, a) && getline(cin, b)) {
         string temp = "";
-        map<char, ll>aa;
         map<char, ll>bb;
-        for (auto& i : a) {
-            aa[i]++;
-        }
         for (auto& i : b) {
             bb[i]++;
         }
         for (auto& i : a) {
             if (bb[i]) {
-                for (int j = 0; j < min(aa[i], bb[i]); j++) {
-                    temp += i;
-                }
-                bb[i] = 0;
+                bb[i]--;
+                temp += i;
             }
         }
         sort(temp.begin(), temp.end());
