@@ -1,0 +1,90 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    string str = "";
+    cin >> str;
+    string a = "";
+    string b = "";
+    string c = "";
+    for (int i = 0; i < n / 3; i++) {
+        a += "ABC";
+    }
+    for (int i = 0; i < n % 3; i++) {
+        if (i % 3 == 0) {
+            a += 'A';
+        }
+        else if (i % 3 == 1) {
+            a += 'B';
+        }
+        else {
+            a += 'C';
+        }
+    }
+    for (int i = 0; i < n / 4; i++) {
+        b += "BABC";
+    }
+    for (int i = 0; i < n % 4; i++) {
+        if (i % 4 == 0 || i % 4 == 2) {
+            b += 'B';
+        }
+        else if (i % 4 == 1) {
+            b += 'A';
+        }
+        else {
+            b += 'C';
+        }
+    }
+    for (int i = 0; i < n / 6; i++) {
+        c += "CCAABB";
+    }
+    for (int i = 0; i < n % 6; i++) {
+        if (i % 6 <= 1) {
+            c += 'C';
+        }
+        else if (i % 3 <= 3) {
+            c += 'A';
+        }
+        else {
+            c += 'B';
+        }
+    }
+    ll aa = 0, bb = 0, cc = 0;
+    for (int i = 0; i < n; i++) {
+        if (a[i] == str[i]) {
+            aa++;
+        }
+        if (b[i] == str[i]) {
+            bb++;
+        }
+        if (c[i] == str[i]) {
+            cc++;
+        }
+    }
+    function<bool(const pls&, const pls&)> compare = [&](const pls& a, const pls& b) -> bool {
+        if (a.first == b.first) {
+            return a.second < b.second;
+        }
+        return a.first > b.first;
+        };
+    vector<pls>v = { {aa, "Adrian"}, {bb, "Bruno"}, {cc, "Goran"} };
+    sort(v.begin(), v.end(),compare);
+    cout << v[0].first << '\n';
+    for (int i = 0; i < 3; i++) {
+        if (v[0].first == v[i].first) {
+            cout << v[i].second << '\n';
+        }
+    }
+    return 0;
+}
