@@ -1,0 +1,43 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    vector<pll>v;
+    ll a = 0, b = 0;
+    while (cin >> a >> b) {
+        v.push_back({ a, b });
+    }
+    vector<vector<vector<ll>>>dp(v.size() + 1, vector<vector<ll>>(16, vector<ll>(16, -1)));
+    function<ll(ll, ll, ll)> dfs = [&](ll a, ll b, ll c) -> ll {
+        if (a == v.size()) {
+            if (b == 15 && c == 15) {
+                return 0;
+            }
+            return -1e9;
+        }
+        if (dp[a][b][c] != -1) {
+            return dp[a][b][c];
+        }
+        ll weight = 0;
+        if (b + 1 <= 15) {
+            weight = max(weight, dfs(a + 1, b + 1, c) + v[a].first);
+        }
+        if (c + 1 <= 15) {
+            weight = max(weight, dfs(a + 1, b, c + 1) + v[a].second);
+        }
+        weight = max(weight, dfs(a + 1, b, c));
+        return dp[a][b][c] = weight;
+        };
+    cout << dfs(0, 0, 0);
+}   
