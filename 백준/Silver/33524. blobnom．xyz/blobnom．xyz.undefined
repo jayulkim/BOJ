@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<ll>v;
+    for (int i = 0; i < n; i++) {
+        cin >> k;
+        v.push_back(k);
+    }
+    sort(v.begin(), v.end());
+    vector<ll>vv;
+    vv.push_back(0);
+    ll temp = 1;
+    while (3 * temp * (temp - 1) + 1 <= 1000000) {
+        vv.push_back(3 * temp * (temp - 1) + 1);
+        temp++;
+    }
+    vector<ll>vvv;
+    for (int i = 0; i < m; i++) {
+        ll num = 0;
+        cin >> num;
+        ll count = upper_bound(v.begin(), v.end(), num) - v.begin();
+        vvv.push_back(upper_bound(vv.begin(), vv.end(), count) - vv.begin() - 1);
+    }
+    for (auto& i : vvv) {
+        cout << i << ' ';
+    }
+    return 0;
+}   
