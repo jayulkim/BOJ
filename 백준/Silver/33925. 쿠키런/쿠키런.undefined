@@ -1,0 +1,69 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef pair<ll, ll> pll;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    ll a = 0, b = 0, c = 0, d = 0, e = 0;
+    cin >> a >> b >> c >> d >> e;
+    vector<vector<char>>Map(3, vector<char>(a + 1));
+    for (int i = 0; i < 3; i++) {
+        string str = "";
+        cin >> str;
+        for (int j = 0; j < a; j++) {
+            Map[i][j] = str[j];
+        }
+    }
+    vector<string>v;
+    for (int i = 1; i <= a - 2; i++) {
+        string str = "";
+        str += Map[0][i];
+        str += Map[1][i];
+        str += Map[2][i];
+        if (str != "...") {
+            v.push_back(str);
+        }
+    }
+    for (auto& i : v) {
+        if (i == "..^") {
+            if (b) {
+                b--;
+            }
+            else {
+                d -= e;
+            }
+        }
+        else if (i == "vv.") {
+            if (c) {
+                c--;
+            }
+            else {
+                d -= e;
+            }
+        }
+    }
+    for (auto& i : v) {
+        if (i == ".^^") {
+            if (b >= 2) {
+                b -= 2;
+            }
+            else {
+                d -= e;
+            }
+        }
+    }
+    if (d > 0) {
+        cout << d;
+    }
+    else {
+        cout << -1;
+    }
+    return 0;
+}
