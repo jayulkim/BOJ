@@ -1,0 +1,71 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef pair<ll, ll> pll;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    ll sum = 0;
+    vector<pll>Forward = { {-1, 2}, {2, -1}, {1, 2}, {2, 1}, {-1, -2}, {-2, -1}, {-2, 1}, {1, -2} };
+    vector<vector<ll>>Map(n + 1, vector<ll>(n + 1));
+    vector<vector<bool>>visited(n + 1, vector<bool>(n + 1, false));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cin >> Map[i][j];
+            sum += Map[i][j];
+        }
+    }
+    if (n <= 2) {
+        cout << sum;
+        return 0;
+    }
+    ll result = 0;
+    function<void(ll, ll, ll) > dfs = [&](ll a, ll b, ll c) -> void {
+        if (c) {
+            visited[a][b] = true;
+        }
+        else {
+            visited[a][b] = false;
+        }
+        if (a == n - 1 && b == n - 1) {
+            ll sum = 0;
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < n; j++) {
+                    if (visited[i][j]) {
+                        sum += Map[i][j];
+                        for (int k = 0; k < 8; k++) {
+                            ll dy = i + Forward[k].first;
+                            ll dx = j + Forward[k].second;
+                            if (dy >= 0 && dy < n && dx >= 0 && dx < n) {
+                                if (visited[dy][dx]) {
+                                    return;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            result = max(result, sum);
+            return;
+        }
+        if (b + 1 == n) {
+            dfs(a + 1, 0, 0);
+            dfs(a + 1, 0, 1);
+        }
+        else {
+            dfs(a, b + 1, 0);
+            dfs(a, b + 1, 1);
+        }
+        };
+    dfs(0, 0, 1);
+    dfs(0, 0, 0);
+    cout << result;
+    return 0;
+}
