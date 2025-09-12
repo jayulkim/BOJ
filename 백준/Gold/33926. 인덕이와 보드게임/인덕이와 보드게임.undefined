@@ -1,0 +1,68 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef pair<ll, ll> pll;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<vector<ll>>num(n + 1, vector<ll>(m + 1));
+    vector<vector<ll>>color(n + 1, vector<ll>(m + 1));
+    vector<vector<vector<ll>>>dp(n + 1, vector<vector<ll>>(m + 1, vector<ll>(2, 0)));
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            cin >> num[i][j];
+        }
+    }
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            cin >> color[i][j];
+        }
+    }
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            if (i == 1 && j == 1) {
+                dp[i][j][0] = dp[i][j][1] = num[i][j];
+                continue;
+            }
+            if (i == 1) {
+                if (color[i][j]) {
+                    dp[i][j][0] = max({ -(dp[i][j - 1][0] + num[i][j]), -(dp[i][j - 1][1] + num[i][j]) });
+                    dp[i][j][1] = min({ -(dp[i][j - 1][0] + num[i][j]), -(dp[i][j - 1][1] + num[i][j]) });
+                }
+                else {
+                    dp[i][j][0] = max({ dp[i][j - 1][0] + num[i][j], dp[i][j - 1][1] + num[i][j] });
+                    dp[i][j][1] = min({ dp[i][j - 1][0] + num[i][j], dp[i][j - 1][1] + num[i][j] });
+                }
+                continue;
+            }
+            if (j == 1) {
+                if (color[i][j]) {
+                    dp[i][j][0] = max({ -(dp[i - 1][j][0] + num[i][j]), -(dp[i - 1][j][1] + num[i][j]) });
+                    dp[i][j][1] = min({ -(dp[i - 1][j][0] + num[i][j]), -(dp[i - 1][j][1] + num[i][j]) });
+                }
+                else {
+                    dp[i][j][0] = max({ dp[i - 1][j][0] + num[i][j], dp[i - 1][j][1] + num[i][j] });
+                    dp[i][j][1] = min({ dp[i - 1][j][0] + num[i][j], dp[i - 1][j][1] + num[i][j] });
+                }
+                continue;
+            }
+            if (color[i][j]) {
+                dp[i][j][0] = max({ -(dp[i - 1][j][1] + num[i][j]), -(dp[i][j - 1][1] + num[i][j]), -(dp[i - 1][j][0] + num[i][j]), -(dp[i][j - 1][0] + num[i][j])});
+                dp[i][j][1] = min({ -(dp[i - 1][j][1] + num[i][j]), -(dp[i][j - 1][1] + num[i][j]), -(dp[i - 1][j][0] + num[i][j]), -(dp[i][j - 1][0] + num[i][j])});
+            }
+            else {
+                dp[i][j][0] = max({ dp[i - 1][j][1] + num[i][j], dp[i][j - 1][1] + num[i][j], dp[i - 1][j][0] + num[i][j], dp[i][j - 1][0] + num[i][j] });
+                dp[i][j][1] = min({ dp[i - 1][j][1] + num[i][j], dp[i][j - 1][1] + num[i][j], dp[i - 1][j][0] + num[i][j], dp[i][j - 1][0] + num[i][j] });
+            }
+        }
+    }
+    cout << max(dp[n][m][1], dp[n][m][0]);
+    return 0;
+}
