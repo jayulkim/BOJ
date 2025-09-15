@@ -1,0 +1,112 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef pair<ll, ll> pll;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<vector<char>>Map(n + 1, vector<char>(1001, '.'));
+    for (int i = 0; i < n; i++) {
+        string str = "";
+        cin >> str;
+        for (int j = 0; j < str.length(); j++) {
+            Map[i][j] = str[j];
+        }
+    }
+    vector<string>v;
+    for (int i = 0; i < n; i++) {
+        ll y = i;
+        ll x = 0;
+        string temp = "";
+        while (1) {
+            if (Map[y][x] != '.') {
+                temp += Map[y][x];
+            }
+            if (y - 1 >= 0 && x + 1 < 1000) {
+                y--;
+                x++;
+            }
+            else {
+                break;
+            }
+        }
+        if (temp != "") {
+            v.push_back(temp);
+        }
+    }
+    for (int i = 1; i < 1000; i++) {
+        string temp = "";
+        ll y = n - 1;
+        ll x = i;
+        while (1) {
+            if (Map[y][x] != '.') {
+                temp += Map[y][x];
+            }
+            if (y - 1 >= 0 && x + 1 < 1000) {
+                y--;
+                x++;
+            }
+            else {
+                break;
+            }
+        }
+        if (temp != "") {
+            v.push_back(temp);
+        }
+    }
+    set<deque<char>>s;
+    deque<char>dd;
+    dd.push_back('K');
+    dd.push_back('U');
+    dd.push_back('M');
+    dd.push_back('O');
+    dd.push_back('H');
+    s.insert(dd);
+    ll result = 0;
+    for (auto& i : v) {
+        if (i.length() >= 5) {
+            string a = i;
+            string b = i;
+            reverse(b.begin(), b.end());
+            deque<char>dq;
+            for (int j = 0; j < 5; j++) {
+                dq.push_back(a[j]);
+            }
+            ll counta = 0, countb = 0;
+            if (s.find(dq) != s.end()) {
+                counta++;
+            }
+            for (int j = 5; j < a.length(); j++) {
+                dq.pop_front();
+                dq.push_back(a[j]);
+                if (s.find(dq) != s.end()) {
+                    counta++;
+                }
+            }
+            deque<char>().swap(dq);
+            for (int j = 0; j < 5; j++) {
+                dq.push_back(b[j]);
+            }
+            if (s.find(dq) != s.end()) {
+                countb++;
+            }
+            for (int j = 5; j < b.length(); j++) {
+                dq.pop_front();
+                dq.push_back(b[j]);
+                if (s.find(dq) != s.end()) {
+                    countb++;
+                }
+            }
+            result += max(counta, countb);
+        }
+    }
+    cout << result;
+    return 0;
+}
