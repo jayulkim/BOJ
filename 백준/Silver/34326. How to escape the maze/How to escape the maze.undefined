@@ -1,0 +1,87 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef pair<ll, ll> pll;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    ll starty = 0, startx = 0;
+    ll endy = 0, endx = 0;
+    ll s = 0;
+    vector<vector<char>>Map(n + 1, vector<char>(m + 1));
+    vector<pll>Forward = { {-1, 0}, {0, 1}, {1, 0}, {0, -1} };
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> Map[i][j];
+            if (Map[i][j] == 'S') {
+                for (int k = 0; k < 4; k++) {
+                    ll dy = i + Forward[k].first;
+                    ll dx = j + Forward[k].second;
+                    if (dy >= 0 && dy < n && dx >= 0 && dx < m && Map[dy][dx] == '.') {
+                        s = k;
+                        break;
+                    }
+                }
+                starty = i;
+                startx = j;
+            }
+            else if (Map[i][j] == 'E') {
+                endy = i;
+                endx = j;
+            }
+        }
+    }
+    ll left = 0, right = 0;
+    queue<llll>q;
+    q.push({ starty, startx, 0, s });
+    while (!q.empty()) {
+        auto [a, b, c, d] = q.front();
+        q.pop();
+        if (a == endy && b == endx) {
+            left = c;
+            break;
+        }
+        ll dy = a + Forward[(d - 1 + 4) % 4].first;
+        ll dx = b + Forward[(d - 1 + 4) % 4].second;
+        if (dy >= 0 && dy < n && dx >= 0 && dx < m && Map[dy][dx] != '*') {
+            q.push({ dy, dx, c + 1, (d - 1 + 4) % 4 });
+        }
+        else {
+            q.push({ a, b, c, (d + 1) % 4 });
+        }
+    }
+    q.push({ starty, startx, 0, s });
+    while (!q.empty()) {
+        auto [a, b, c, d] = q.front();
+        q.pop();
+        if (a == endy && b == endx) {
+            right = c;
+            break;
+        }
+        ll dy = a + Forward[(d + 1) % 4].first;
+        ll dx = b + Forward[(d + 1) % 4].second;
+        if (dy >= 0 && dy < n && dx >= 0 && dx < m && Map[dy][dx] != '*') {
+            q.push({ dy, dx, c + 1, (d + 1) % 4 });
+        }
+        else {
+            q.push({ a, b, c, (d - 1 + 4) % 4 });
+        }
+    }
+    if (right > left) {
+        cout << "LEFT IS BEST";
+    }
+    else if (right < left) {
+        cout << "RIGHT IS BEST";
+    }
+    else {
+        cout << "SAME";
+    }
+    return 0;
+}
