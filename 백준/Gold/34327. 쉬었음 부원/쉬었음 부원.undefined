@@ -1,0 +1,125 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<ll>v;
+    vector<ll>idx(n + 1);
+    for (int i = 0; i < n; i++) {
+        ll num = 0;
+        cin >> num;
+        v.push_back(num - 1);
+        idx[num - 1] = i;
+    }
+    vector<ll>a(4);
+    cin >> a[1] >> a[2] >> a[3];
+    vector<vector<ll>>Map(n + 1, vector<ll>(4));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < 4; j++) {
+            cin >> Map[i][j];
+        }
+    }
+    vector<ll>vv;
+    for (int i = 0; i < 4; i++) {
+        ll num = 0;
+        cin >> num;
+        vv.push_back(num);
+    }
+    ll size = 1;
+    for (int i = 0; i < n; i++) {
+        size *= 4;
+    }
+    ll Max = LLONG_MIN;
+    ll Min = LLONG_MAX;
+    for (int i = 0; i < size; i++) {
+        vector<ll>vvvv;
+        ll temp = i;
+        ll sum = 0;
+        vector<ll>aa(4);
+        for (int j = 0; j < n; j++) {
+            sum += Map[j][temp & 3];
+            vvvv.push_back(temp & 3);
+            aa[temp & 3]++;
+            temp >>= 2;
+        }
+        if (aa[1] <= a[1] && aa[2] <= a[2] && aa[3] <= a[3]) {
+            if (sum > Max) {
+                vector<ll>vvv;
+                for (auto& j : vv) {
+                    for (int k = 0; k < n; k++) {
+                        if (j == vvvv[v[k]]) {
+                            vvv.push_back(v[k]);
+                        }
+                    }
+                }
+                vector<bool>visited(n + 1, false);
+                ll count = 0;
+                for (int j = 0; j < n; j++) {
+                    if (!visited[j]) {
+                        ll q = j;
+                        ll c = 0;
+                        while (1) {
+                            visited[q] = true;
+                            c++;
+                            if (!visited[idx[vvv[q]]]) {
+                                visited[idx[vvv[q]]] = true;
+                                q = idx[vvv[q]];
+                            }
+                            else {
+                                break;
+                            }
+                        }
+                        count += c - 1;
+                    }
+                }
+                Min = count;
+                Max = sum;
+            }
+            else if (sum == Max) {
+                vector<ll>vvv;
+                for (auto& j : vv) {
+                    for (int k = 0; k < n; k++) {
+                        if (j == vvvv[v[k]]) {
+                            vvv.push_back(v[k]);
+                        }
+                    }
+                }
+                vector<ll>graph(n + 1);
+                vector<bool>visited(n + 1, false);
+                ll count = 0;
+                for (int j = 0; j < n; j++) {
+                    if (!visited[j]) {
+                        ll q = j;
+                        ll c = 0;
+                        while (1) {
+                            c++;
+                            visited[q] = true;
+                            if (!visited[idx[vvv[q]]]) {
+                                visited[idx[vvv[q]]] = true;
+                                q = idx[vvv[q]];
+                            }
+                            else {
+                                break;
+                            }
+                        }
+                        count += c - 1;
+                    }
+                }
+                Min = min(Min, count);
+            }
+        }
+    }
+    cout << Min;
+    return 0;
+}
