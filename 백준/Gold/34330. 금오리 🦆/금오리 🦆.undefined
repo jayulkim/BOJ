@@ -1,0 +1,91 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    ll r = 0, l = 0;
+    cin >> r >> l;
+    cin >> n >> m;
+    vector<lll>v(n + 1);
+    for (int i = 1; i <= n; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        v[i] = { a, b, c };
+    }
+    function<ll(ll, ll, ll, ll)> dist = [&](ll a, ll b, ll c, ll d) -> ll {
+        return (a - c) * (a - c) + (b - d) * (b - d);
+        };
+    vector<pll>vv;
+    ll result = 0;
+    vector<bool>duck(m + 1, false);
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        vv.push_back({ a, b });
+    }
+    if (r <= l) {
+        cout << m;
+        return 0;
+    }
+    vector<vector<ll>>graph(n + 2);
+    for (int i = 1; i <= n; i++) {
+        auto [a, b, c] = v[i];
+        if (c >= r || dist(a, b, 0, 0) >= (r - c) * (r - c)) {
+            graph[0].push_back(i);
+            graph[i].push_back(0);
+        }
+    }
+    for (int i = 1; i <= n - 1; i++) {
+        for (int j = i + 1; j <= n; j++) {
+            auto [a, b, c] = v[i];
+            auto [d, e, f] = v[j];
+            if (dist(a, b, d, e) <= (c + f) * (c + f)) {
+                graph[i].push_back(j);
+                graph[j].push_back(i);
+            }
+        }
+    }
+    queue<ll>q;
+    q.push(0);
+    vector<bool>visited(n + 2, false);
+    while (!q.empty()) {
+        ll temp = q.front();
+        q.pop();
+        visited[temp] = true;
+        if (!temp) {
+            for (int i = 0; i < m; i++) {
+                if (dist(0, 0, vv[i].first, vv[i].second) >= (r - l) * (r - l) && !duck[i]) {
+                    result++;
+                    duck[i] = true;
+                }
+            }
+        }
+        else {
+            auto [a, b, c] = v[temp];
+            for (int i = 0; i < m; i++) {
+                if (dist(a, b, vv[i].first, vv[i].second) <= (c + l) * (c + l) && !duck[i]) {
+                    duck[i] = true;
+                    result++;
+                }
+            }
+        }
+        for (auto& i : graph[temp]) {
+            if (!visited[i]) {
+                visited[i] = true;
+                q.push(i);
+            }
+        }
+    }
+    cout << result;
+    return 0;
+}
