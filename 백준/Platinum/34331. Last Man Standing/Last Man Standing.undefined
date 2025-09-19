@@ -1,0 +1,96 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<vector<ll>>Map(n + 1, vector<ll>(n + 1));
+    priority_queue<lll>pq;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cin >> Map[i][j];
+            if (i < j) {
+                pq.push({ Map[i][j], i, j });
+            }
+        }
+    }
+    vector<ll>rank(n + 1, 0);
+    vector<ll>parent(n + 1);
+    iota(parent.begin(), parent.end(), 0);
+    function<ll(ll)> getparent = [&](ll x) -> ll {
+        if (parent[x] == x) {
+            return x;
+        }
+        return parent[x] = getparent(parent[x]);
+        };
+    function<void(ll, ll)> merge = [&](ll a, ll b) -> void {
+        a = getparent(a);
+        b = getparent(b);
+        if (rank[a] > rank[b]) {
+            rank[a] += rank[b];
+            rank[b] = 0;
+            parent[b] = a;
+        }
+        else {
+            rank[b] += rank[a];
+            rank[a] = 0;
+            parent[a] = b;
+        }
+        };
+    vector<vector<ll>>tree(n + 1);
+    vector<ll>v;
+    function<ll()> kruskal = [&]() -> ll {
+        ll result = 0;
+        ll count = 0;
+        while (count < n - m) {
+            auto [a, b, c] = pq.top();
+            pq.pop();
+            if (getparent(c) != getparent(b)) {
+                v.push_back(c);
+                v.push_back(b);
+                tree[c].push_back(b);
+                tree[b].push_back(c);
+                merge(c, b);
+                result += a;
+                count++;
+            }
+        }
+        return result;
+        };
+    vector<bool>visited(n + 1, false);
+    cout << kruskal() << '\n';
+    vector<pll>list;
+    for (auto& i : v) {
+        if (!visited[i]) {
+            queue<ll>q;
+            q.push(i);
+            while (!q.empty()) {
+                ll temp = q.front();
+                q.pop();
+                visited[temp] = true;
+                for (auto& j : tree[temp]) {
+                    if (!visited[j]) {
+                        visited[j] = true;
+                        q.push(j);
+                        list.push_back({ temp + 1, j + 1 });
+                    }
+                }
+            }
+        }
+    }
+    reverse(list.begin(), list.end());
+    for (auto& i : list) {
+        cout << i.first << ' ' << i.second << '\n';
+    }
+    return 0;
+}
