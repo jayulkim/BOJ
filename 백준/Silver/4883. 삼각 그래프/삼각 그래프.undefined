@@ -1,0 +1,78 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    ll count = 1;
+    while (1) {
+        cin >> n;
+        if (!n) {
+            break;
+        }
+        vector<vector<ll>>Map(n + 1, vector<ll>(4));
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < 3; j++) {
+                cin >> Map[i][j];
+            }
+        }
+        vector<vector<ll>>dp(n + 1, vector<ll>(4, -1e18));
+        function<ll(ll, ll)> dfs = [&](ll a, ll b) -> ll {
+            if (a == n - 1 && b == 1) {
+                return Map[a][b];
+            }
+            if (a == n) {
+                return 1e18;
+            }
+            if (dp[a][b] != -1e18) {
+                return dp[a][b];
+            }
+            ll weight = 1e18;
+            if (!b) {
+                if (!(a + 1 == n - 1 && b == 2)) {
+                    weight = min(weight, dfs(a + 1, b) + Map[a][b]);
+                }
+                if (!(a == n - 1 && b + 1 == 2)) {
+                    weight = min(weight, dfs(a, b + 1) + Map[a][b]);
+                }
+                if (!(a + 1 == n - 1 && b + 1 == 2)) {
+                    weight = min(weight, dfs(a + 1, b + 1) + Map[a][b]);
+                }
+            }
+            else if (b == 1) {
+                if (!(a + 1 == n - 1 && b == 2)) {
+                    weight = min(weight, dfs(a + 1, b) + Map[a][b]);
+                }
+                if (!(a + 1 == n - 1 && b - 1 == 2)) {
+                    weight = min(weight, dfs(a + 1, b - 1) + Map[a][b]);
+                }
+                if (!(a + 1 == n - 1 && b + 1 == 2)) {
+                    weight = min(weight, dfs(a + 1, b + 1) + Map[a][b]);
+                }
+                if (!(a == n - 1 && b + 1 == 2)) {
+                    weight = min(weight, dfs(a, b + 1) + Map[a][b]);
+                }
+            }
+            else if (b == 2) {
+                if (!(a + 1 == n - 1 && b == 2)) {
+                    weight = min(weight, dfs(a + 1, b) + Map[a][b]);
+                }
+                if (!(a + 1 == n - 1 && b - 1 == 2)) {
+                    weight = min(weight, dfs(a + 1, b - 1) + Map[a][b]);
+                }
+            }
+            return dp[a][b] = weight;
+            };
+        cout << count++ << ". " << dfs(0, 1) << '\n';
+    }
+    return 0;
+}
