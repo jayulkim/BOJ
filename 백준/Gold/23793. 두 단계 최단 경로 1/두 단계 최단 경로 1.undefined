@@ -1,0 +1,87 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<vector<pll>>graph(n + 1);
+    vector<vector<pll>>reversegraph(n + 1);
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        graph[a].push_back({ b, c });
+        reversegraph[b].push_back({ a, c });
+    }
+    ll x = 0, y = 0, z = 0;
+    cin >> x >> y >> z;
+    priority_queue<pll, vector<pll>, greater<pll>>pq;
+    vector<ll>dist(n + 1, LLONG_MAX);
+    vector<ll>reversedist(n + 1, LLONG_MAX);
+    pq.push({ 0, x });
+    dist[x] = 0;
+    while (!pq.empty()) {
+        pll temp = pq.top();
+        pq.pop();
+        if (dist[temp.second] >= temp.first) {
+            for (auto& i : graph[temp.second]) {
+                if (dist[i.first] > dist[temp.second] + i.second) {
+                    dist[i.first] = dist[temp.second] + i.second;
+                    pq.push({ dist[i.first], i.first });
+                }
+            }
+        }
+    }
+    reversedist[z] = 0;
+    pq.push({ 0, z });
+    while (!pq.empty()) {
+        pll temp = pq.top();
+        pq.pop();
+        if (reversedist[temp.second] >= temp.first) {
+            for (auto& i : reversegraph[temp.second]) {
+                if (reversedist[i.first] > reversedist[temp.second] + i.second) {
+                    reversedist[i.first] = reversedist[temp.second] + i.second;
+                    pq.push({ reversedist[i.first], i.first });
+                }
+            }
+        }
+    }
+    if (dist[y] == LLONG_MAX || reversedist[y] == LLONG_MAX) {
+        cout << -1;
+    }
+    else {
+        cout << dist[y] + reversedist[y];
+    }
+    cout << ' ';
+    vector<ll>(n + 1, LLONG_MAX).swap(dist);
+    dist[x] = 0;
+    pq.push({ 0, x });
+    while (!pq.empty()) {
+        pll temp = pq.top();
+        pq.pop();
+        if (dist[temp.second] >= temp.first) {
+            for (auto& i : graph[temp.second]) {
+                if (i.first != y && dist[i.first] > dist[temp.second] + i.second) {
+                    dist[i.first] = dist[temp.second] + i.second;
+                    pq.push({ dist[i.first], i.first });
+                }
+            }
+        }
+    }
+    if (dist[z] == LLONG_MAX) {
+        cout << -1;
+    }
+    else {
+        cout << dist[z];
+    }
+    return 0;
+}
