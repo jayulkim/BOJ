@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m >> k;
+    ll up = 1;
+    for (int i = n; i >= n - m + 1; i--) {
+        up *= i;
+    }
+    ll down = 1;
+    for (int i = 2; i <= m; i++) {
+        down *= i;
+    }
+    ll result = 0;
+    for (int i = k; i <= m; i++) {
+        ll a = 1, b = 1;
+        for (int j = m; j >= m - i + 1; j--) {
+            a *= j;
+        }
+        for (int j = 2; j <= i; j++) {
+            b *= j;
+        }
+        ll aa = 1, bb = 1;
+        for (int j = n - m; j >= n - 2 * m + i + 1; j--) {
+            aa *= j;
+        }
+        for (int j = 2; j <= m - i; j++) {
+            bb *= j;
+        }
+        result += (a / b) * (aa / bb);
+    }
+    cout << fixed;
+    cout.precision(30);
+    cout << (ld)((ld)result / ((ld)up / (ld)down));
+    return 0;
+}
