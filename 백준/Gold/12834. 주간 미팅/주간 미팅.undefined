@@ -1,0 +1,65 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m >> k;
+    ll kist = 0, sea = 0;
+    cin >> kist >> sea;
+    vector<vector<pll>>graph(m + 1);
+    priority_queue<pll, vector<pll>, greater<pll>>pq;
+    vector<ll>v;
+    for (int i = 0; i < n; i++) {
+        ll num = 0;
+        cin >> num;
+        v.push_back(num);
+    }
+    for (int i = 0; i < k; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        graph[a].push_back({b, c});
+        graph[b].push_back({a, c});
+    }
+    function<vector<ll>(ll)> dijkstra = [&](ll x) -> vector<ll> {
+        vector<ll>dist(m + 1, LLONG_MAX);
+        dist[x] = 0;
+        pq.push({0, x});
+        while (!pq.empty()) {
+            auto [a, b] = pq.top();
+            pq.pop();
+            if (dist[b] >= a) {
+                for (auto& [c, d] : graph[b]) {
+                    if (dist[c] > dist[b] + d) {
+                        dist[c] = dist[b] + d;
+                        pq.push({dist[c], c});
+                    }
+                }
+            }
+        }
+        return dist;
+        };
+    ll result = 0;    
+    vector<ll>a = dijkstra(kist);
+    vector<ll>b = dijkstra(sea);
+    for (auto& i : v) {
+        if (a[i] == LLONG_MAX) {
+            a[i] = -1;
+        }
+        if (b[i] == LLONG_MAX) {
+            b[i] = -1;
+        }
+        result += a[i] + b[i];
+    }
+    cout << result;
+    return 0;
+}
