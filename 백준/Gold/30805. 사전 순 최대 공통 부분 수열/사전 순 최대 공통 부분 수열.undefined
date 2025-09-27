@@ -1,0 +1,56 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<ll>v;
+    for (int i = 0; i < n; i++) {
+        ll num = 0;
+        cin >> num;
+        v.push_back(num);
+    }
+    cin >> m;
+    vector<ll>vv;
+    for (int i = 0; i < m; i++) {
+        ll num = 0;
+        cin >> num;
+        vv.push_back(num);
+    }
+    vector<ll>result;
+    function<void(ll, ll)> dfs = [&](ll a, ll b) -> void {
+        if (a >= n || b >= m) {
+            return;
+        }
+        ll Max = 0, idxa = n, idxb = m;
+        for (int i = a; i < n; i++) {
+            for (int j = b; j < m; j++) {
+                if (v[i] == vv[j] && Max < v[i]) {
+                    Max = v[i];
+                    idxa = i;
+                    idxb = j;
+                }
+            }
+        }
+        if (Max) {
+            result.push_back(Max);
+        }
+        dfs(idxa + 1, idxb + 1);
+        };
+    dfs(0, 0);
+    cout << result.size() << '\n';
+    for (auto& i : result) {
+        cout << i << ' ';
+    }    
+    return 0;
+}
