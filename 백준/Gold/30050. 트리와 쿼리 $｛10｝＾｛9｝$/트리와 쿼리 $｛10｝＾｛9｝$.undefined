@@ -1,0 +1,63 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    map<ll, ll>Map;
+    for (int i = 0; i < n; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        if (a == 2) {
+            vector<ll>v;
+            vector<ll>vv;
+            while (c > 0) {
+                v.push_back(c);
+                if (Map[c]) {
+                    c = Map[c];
+                }
+                else {
+                    c >>= 1;
+                }
+            }
+            while (b > 0) {
+                vv.push_back(b);
+                if (Map[b]) {
+                    b = Map[b];
+                }
+                else {
+                    b >>= 1;
+                }
+            }
+            ll sum = 0;
+            for (auto& j : v) {
+                if (binary_search(vv.begin(), vv.end(), j, greater<ll>())) {
+                    break;
+                }
+                sum += j;
+            }
+            for (auto& j : vv) {
+                if (binary_search(v.begin(), v.end(), j, greater<ll>())) {
+                    sum += j;
+                    break;
+                }
+                sum += j;
+            }
+            cout << sum << '\n';
+        }
+        else {
+            Map[c] = b;
+        }
+    }
+    return 0;
+}
