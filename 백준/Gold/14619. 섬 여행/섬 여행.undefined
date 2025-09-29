@@ -1,0 +1,58 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<ll>v(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> v[i];
+    }
+    vector<vector<ll>>graph(n + 1);
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        graph[a].push_back(b);
+        graph[b].push_back(a);
+    }
+    vector<vector<ll>>dp(501, vector<ll>(n + 1, -1));
+    for (int i = 1; i <= n; i++) {
+        queue<pll>q;
+        vector<vector<bool>>visited(n + 1, vector<bool>(501, false));
+        q.push({ i, 0 });
+        while (!q.empty()) {
+            auto [a, b] = q.front();
+            q.pop();
+            if (dp[b][i] == -1) {
+                dp[b][i] = v[a];
+            }
+            else {
+                dp[b][i] = min(dp[b][i], v[a]);
+            }
+            visited[a][b] = true;
+            for (auto& j : graph[a]) {
+                if (b + 1 <= 500 && !visited[j][b + 1]) {
+                    q.push({ j, b + 1 });
+                    visited[j][b + 1] = true;
+                }
+            }
+        }
+    }
+    cin >> k;
+    for (int i = 0; i < k; i++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        cout << dp[b][a] << '\n';
+    }
+    return 0;
+}
