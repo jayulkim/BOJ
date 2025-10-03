@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-typedef long long ll;
+typedef short ll;
 typedef unsigned long long ull;
 typedef long double ld;
 typedef tuple<ll, ll, ll> lll;
@@ -9,23 +9,24 @@ typedef tuple<string, ll, ll, ll> slll;
 typedef tuple<ll, ll, vector<ll>> llv;
 typedef pair<ll, ll> pll;
 typedef pair<ll, string> pls;
-int n = 0, m = 0, k = 0;
+ll n = 0, m = 0, k = 0;
 
 int main(void) {
     ios::sync_with_stdio(false);
     cin.tie(0);
     cin >> n;
-    vector<string>vv(n + 1);
-    vector<vector<int>>v(n + 1, vector<int>(3));
-    for (int i = 0; i < n; i++) {
+    char vv[3001][31];
+    ll v[3001][3];
+    for (ll i = 0; i < n; i++) {
         cin >> vv[i] >> v[i][0] >> v[i][1] >> v[i][2];
     }
-    vector<int>degree(n + 1, 0);
-    vector<vector<int>>graph(n + 1);
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = i + 1; j < n; j++) {
-            int counta = 0, countb = 0;
-            for (int k = 0; k < 3; k++) {
+    ll degree[3001];
+    memset(degree, 0, sizeof(degree));
+    vector<vector<ll>>graph(n + 1);
+    for (ll i = 0; i < n - 1; i++) {
+        for (ll j = i + 1; j < n; j++) {
+            ll counta = 0, countb = 0;
+            for (ll k = 0; k < 3; k++) {
                 if (v[i][k] > v[j][k]) {
                     counta++;
                 }
@@ -43,17 +44,17 @@ int main(void) {
             }
         } 
     }
-    vector<int>result;
-    queue<int>q;
-    for (int i = 0; i < n; i++) {
+    vector<ll>result;
+    queue<ll>q;
+    for (ll i = 0; i < n; i++) {
         if (!degree[i]) {
             result.push_back(i);
             q.push(i);
         }
     }
-    int count = n;
+    ll count = n;
     while (!q.empty()) {
-        int temp = q.front();
+        ll temp = q.front();
         q.pop();
         count--;
         for (auto& i : graph[temp]) {
@@ -66,8 +67,8 @@ int main(void) {
         cout << "Paradoxe Absurdo";
         return 0;
     }
-    sort(result.begin(), result.end(), [&](const int& a, const int& b) {
-        return vv[a] < vv[b];
+    sort(result.begin(), result.end(), [&](const ll& a, const ll& b) {
+        return strcmp(vv[a], vv[b]) < 0;
         });
     for (auto& i : result) {
         cout << vv[i] << '\n';
