@@ -51,23 +51,20 @@ int main(void) {
             q.push(i);
         }
     }
-    vector<bool>visited(n + 1, false);
+    ll count = n;
     while (!q.empty()) {
         ll temp = q.front();
         q.pop();
-        visited[temp] = true;
+        count--;
         for (auto& i : graph[temp]) {
             if (--degree[i] == 0) {
                 q.push(i);
-                visited[i] = true;
             }
         }
     }
-    for (int i = 0; i < n; i++) {
-        if (!visited[i]) {
-            cout << "Paradoxe Absurdo";
-            return 0;
-        }
+    if (count) {
+        cout << "Paradoxe Absurdo";
+        return 0;
     }
     sort(result.begin(), result.end());
     for (auto& i : result) {
