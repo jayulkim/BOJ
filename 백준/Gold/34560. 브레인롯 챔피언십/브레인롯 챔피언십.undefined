@@ -9,22 +9,22 @@ typedef tuple<string, ll, ll, ll> slll;
 typedef tuple<ll, ll, vector<ll>> llv;
 typedef pair<ll, ll> pll;
 typedef pair<ll, string> pls;
-ll n = 0, m = 0, k = 0;
+int n = 0, m = 0, k = 0;
 
 int main(void) {
     ios::sync_with_stdio(false);
     cin.tie(0);
     cin >> n;
     vector<string>vv(n + 1);
-    vector<vector<ll>>v(n + 1, vector<ll>(3));
+    vector<vector<int>>v(n + 1, vector<int>(3));
     for (int i = 0; i < n; i++) {
         cin >> vv[i] >> v[i][0] >> v[i][1] >> v[i][2];
     }
-    vector<ll>degree(n + 1, 0);
-    vector<vector<ll>>graph(n + 1);
+    vector<int>degree(n + 1, 0);
+    vector<vector<int>>graph(n + 1);
     for (int i = 0; i < n - 1; i++) {
         for (int j = i + 1; j < n; j++) {
-            ll counta = 0, countb = 0;
+            int counta = 0, countb = 0;
             for (int k = 0; k < 3; k++) {
                 if (v[i][k] > v[j][k]) {
                     counta++;
@@ -43,17 +43,17 @@ int main(void) {
             }
         } 
     }
-    vector<ll>result;
-    queue<ll>q;
+    vector<string>result;
+    queue<int>q;
     for (int i = 0; i < n; i++) {
         if (!degree[i]) {
-            result.push_back(i);
+            result.push_back(vv[i]);
             q.push(i);
         }
     }
-    ll count = n;
+    int count = n;
     while (!q.empty()) {
-        ll temp = q.front();
+        int temp = q.front();
         q.pop();
         count--;
         for (auto& i : graph[temp]) {
@@ -66,11 +66,11 @@ int main(void) {
         cout << "Paradoxe Absurdo";
         return 0;
     }
-    sort(result.begin(), result.end(), [&](const ll& a, const ll& b) {
-        return vv[a] < vv[b];
+    sort(result.begin(), result.end(), [&](const string& a, const string& b) {
+        return a < b;
         });
     for (auto& i : result) {
-        cout << vv[i] << '\n';
+        cout << i << '\n';
     }
     return 0;
 }
