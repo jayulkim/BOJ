@@ -1,0 +1,62 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<string, ll, ll, ll> slll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+ll temp = 0;
+struct compare {
+    bool operator()(const llll& aa, const llll& bb) {
+        auto [a, b, c, d] = aa;
+        auto [e, f, g, h] = bb;
+        if (temp - a + b == temp - e + f && c == g) {
+            return d > h;
+        }
+        else if (temp - a + b == temp - e + f) {
+            return c > g;
+        }
+        return temp - a + b < temp - e + f;
+    }
+};
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    priority_queue<llll, vector<llll>, compare>pq;
+    vector<lll>v;
+    for (int i = 0; i < n; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        v.push_back({ a, b, c });
+    }
+    for (int i = 0; i < n;) {
+        while (i < n && temp >= get<0>(v[i])) {
+            auto [a, b, c] = v[i];
+            pq.push({ a, b, c, i });
+            i++;
+        }
+        if (i < n && pq.empty()) {
+            auto [a, b, c] = v[i];
+            temp = a;
+            pq.push({ a, b, c, i });
+            i++;
+        }
+        else if (!pq.empty()) {
+            cout << get<3>(pq.top()) + 1 << ' ';
+            temp += get<2>(pq.top());
+            pq.pop();
+        }
+    }
+    while (!pq.empty()) {
+        cout << get<3>(pq.top()) + 1 << ' ';
+        temp += get<2>(pq.top());
+        pq.pop();
+    }
+    return 0;
+}
