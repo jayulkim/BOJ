@@ -1,0 +1,76 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<string, ll, ll, ll> slll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<vector<ll>>Map(n + 1, vector<ll>(m + 1));
+    vector<vector<ll>>sum(n + 1, vector<ll>(m + 1, 0));
+    vector<vector<ll>>forward = { {-1, 0}, {0, -1}, {1, 0}, {0, 1} };
+    vector<vector<bool>>visited(n + 1, vector<bool>(m + 1, false));
+    for (int i = 1; i <= n; i++) {
+        string str = "";
+        cin >> str;
+        for (int j = 1; j <= m; j++) {
+            Map[i][j] = str[j - 1] - '0';
+        }
+    }
+    queue<pll>q;
+    for (int i = 1; i <= n; i++) {
+        q.push({ i, 1 });
+        q.push({ i, m });
+    }
+    for (int i = 2; i <= m - 1; i++) {
+        q.push({ 1, i });
+        q.push({ n, i });
+    }
+    while (!q.empty()) {
+        auto [a, b] = q.front();
+        q.pop();
+        visited[a][b] = true;
+        for (int i = 0; i < 4; i++) {
+            ll dy = a + forward[i][0];
+            ll dx = b + forward[i][1];
+            if (dy >= 1 && dy <= n && dx >= 1 && dx <= m && !Map[dy][dx] && !visited[dy][dx]) {
+                visited[dy][dx] = true;
+                q.push({ dy, dx });
+            }
+        }
+    }
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            if (!Map[i][j] && !visited[i][j]) {
+                Map[i][j] = 1;
+            }
+        }
+    }
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) { 
+            sum[i][j] = sum[i - 1][j] + sum[i][j - 1] - sum[i - 1][j - 1] + Map[i][j];
+        }
+    }
+    cin >> k;
+    for (int i = 0; i < k; i++) {
+        ll a = 0, b = 0, c = 0, d = 0;
+        cin >> a >> b >> c >> d;
+        ll temp = sum[c][d] - sum[a - 1][d] - sum[c][b - 1] + sum[a - 1][b - 1];
+        if (!temp) {
+            cout << "Yes" << '\n';
+        }
+        else {
+            cout << "No " << temp << '\n';
+        }
+    }
+    return 0;
+}
