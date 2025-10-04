@@ -1,0 +1,64 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<string, ll, ll, ll> slll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<ll>v;
+    for (int i = 0; i < n; i++) {
+        ll num = 0;
+        cin >> num;
+        v.push_back(num);
+    }
+    if (__gcd(n, m) == 1) {
+        cout << "YES";
+        return 0;
+    }
+    if (n == m) {
+        ll temp = 0;
+        for (int i = 0; i < n; i++) {
+            if (v[i] != temp++) {
+                cout << "NO";
+                return 0;
+            }
+        }
+        cout << "YES";
+        return 0;
+    }
+    vector<vector<ll>>vv(n + 1);
+    vector<ll>visited(n + 1, -1);
+    for (int i = 0; i < m; i++) {
+        ll temp = i;
+        while (1) {
+            if (visited[temp] != -1) {
+                break;
+            }
+            vv[i].push_back(v[temp]);
+            visited[temp] = i;
+            temp += m;
+            temp %= n;
+        }
+        sort(vv[i].begin(), vv[i].end(), greater<ll>());
+    }
+    ll temp = 0;
+    for (int i = 0; i < n; i++) {
+        if (vv[visited[i]].back() != temp++) {
+            cout << "NO";
+            return 0;
+        }
+        vv[visited[i]].pop_back();
+    }
+    cout << "YES";
+    return 0;
+}
