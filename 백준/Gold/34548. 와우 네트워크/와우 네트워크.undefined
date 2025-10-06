@@ -1,0 +1,72 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<string, ll, ll, ll> slll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m >> k;
+    vector<ll>parent(n + 1);
+    iota(parent.begin(), parent.end(), 0);
+    vector<ll>rank(n + 1, 1);
+    function<ll(ll)> getparent = [&](ll x) -> ll {
+        if (parent[x] == x) {
+            return x;
+        }
+        return parent[x] = getparent(parent[x]);
+        };
+    function<void(ll, ll)> merge = [&](ll a, ll b) -> void {
+        a = getparent(a);
+        b = getparent(b);
+        if (rank[a] > rank[b]) {
+            rank[a] += rank[b];
+            parent[b] = a;
+            rank[b] = 0;
+        }
+        else {
+            rank[b] += rank[a];
+            parent[a] = b;
+            rank[a] = 0;
+        }
+        };
+    vector<lll>v;
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        v.push_back({ c, a, b });
+    }
+    sort(v.begin(), v.end());
+    auto [a, b, c] = v[0];
+    ll result = (a - 1) * n;
+    for (int i = 0; i < m - 1; i++) {
+        auto [a, b, c] = v[i];
+        auto [d, e, f] = v[i + 1];
+        if (getparent(c) != getparent(b)) {
+            merge(c, b);
+            result += (d - a) * (n - 1);
+            n--;
+        }
+        else {
+            result += (d - a) * n;
+        }
+    }
+    auto [d, e, f] = v.back();
+    if (getparent(e) != getparent(f)) {
+        merge(e, f);
+        result += (k - d + 1) * (n - 1);
+    }
+    else {
+        result += (k - d + 1) * n;
+    }
+    cout << result;
+    return 0;
+}
