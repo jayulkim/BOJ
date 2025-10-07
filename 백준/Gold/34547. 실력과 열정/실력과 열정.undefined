@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    ll temp = n;
+    ll aa = 0, bb = 0, cc = 0;
+    cin >> aa >> bb >> cc;
+    vector<vector<vector<ll>>>dp(n + 1, vector<vector<ll>>(aa + bb + 1, vector<ll>(aa + bb + 1, -1)));
+    function<ll(ll, ll, ll)> dfs = [&](ll a, ll b, ll c) -> ll {
+        if (a >= n + 1) {
+            return 0;
+        }
+        if (dp[a][b][c] != -1) {
+            return dp[a][b][c];
+        }
+        if (a >= (ll)log(n) + 50) {
+            ll weight = 0;
+            if (b < c) {
+                weight = dfs(a + 1, b + cc, c - cc) + b * c;
+            }
+            else {
+                weight = dfs(a + 1, b - cc, c + cc) + b * c;
+            }
+            return dp[a][b][c] = weight;
+        }
+        ll weight = 0;
+        for (int i = cc; i <= c; i++) {
+            weight = max(weight, dfs(a + 1, b + i, c - i) + b * c);
+        }
+        for (int i = cc; i <= b; i++) {
+            weight = max(weight, dfs(a + 1, b - i, c + i) + b * c);
+        }
+        return dp[a][b][c] = weight;
+        };
+    cout << dfs(0, aa, bb) - aa * bb;
+    return 0;
+}
