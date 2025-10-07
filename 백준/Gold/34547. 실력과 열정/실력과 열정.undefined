@@ -10,22 +10,22 @@ typedef pair<ll, ll> pll;
 typedef pair<ll, string> pls;
 ll n = 0, m = 0, k = 0;
 ll aa = 0, bb = 0, cc = 0;
-ll dp[501][501][501];
-ll dfs(ll a, ll b, ll c) {
-    if (a == n + 1) {
+ll dp[501][501];
+ll dfs(ll a, ll b) {
+    if (a == n) {
         return 0;
     }
-    if (dp[a][b][c] != -1) {
-        return dp[a][b][c];
+    if (dp[a][b] != -1) {
+        return dp[a][b];
     }
     ll weight = 0;
     for (int i = cc; i <= b; i++) {
-        weight = max(weight, dfs(a + 1, b - i, c + i) + b * c);
+        weight = max(weight, dfs(a + 1, b - i) + (b - i) * (aa + bb - b + i));
     }
-    for (int i = cc; i <= c; i++) {
-        weight = max(weight, dfs(a + 1, b + i, c - i) + b * c);
+    for (int i = cc; i <= aa + bb - b; i++) {
+        weight = max(weight, dfs(a + 1, b + i) + (b + i) * (aa + bb - b - i));
     }
-    return dp[a][b][c] = weight;
+    return dp[a][b] = weight;
 }
 int main(void) {
     ios::sync_with_stdio(false);
@@ -33,6 +33,6 @@ int main(void) {
     cin >> n;
     cin >> aa >> bb >> cc;
     memset(dp, -1, sizeof(dp));
-    cout << dfs(0, aa, bb) - aa * bb;
+    cout << dfs(0, aa);
     return 0;
 }
