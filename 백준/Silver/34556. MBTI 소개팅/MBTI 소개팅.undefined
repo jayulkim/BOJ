@@ -1,0 +1,51 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef int ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<string, ll, ll, ll> slll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<string>a;
+    vector<string>b;
+    for (int i = 0; i < n; i++) {
+        string str = "";
+        cin >> str;
+        a.push_back(str);
+    }
+    for (int i = 0; i < n; i++) {
+        string str = "";
+        cin >> str;
+        b.push_back(str);
+    }
+    vector<ll>idxa;
+    for (int i = 0; i < n; i++) {
+        idxa.push_back(i);
+    }
+    ll Max = 0;
+    while (1) {
+        ll temp = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < 4; j++) {
+                if (a[idxa[i]][j] != b[i][j]) {
+                    temp++;
+                }
+            }
+        }
+        Max = max(Max, temp);
+        if (!next_permutation(idxa.begin(), idxa.end())) {
+            break;
+        }
+    }
+    cout << Max;
+    return 0;
+}
