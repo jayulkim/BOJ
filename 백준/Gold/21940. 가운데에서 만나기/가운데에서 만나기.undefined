@@ -1,0 +1,60 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<string, ll, ll, ll> slll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<vector<ll>>dist(n + 1, vector<ll>(n + 1, 1e9));
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        dist[a][b] = c;
+    }
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= n; j++) {
+            for (int k = 1; k <= n; k++) {
+                dist[j][k] = min(dist[j][k], dist[j][i] + dist[i][k]);
+            }
+        }
+    }
+    vector<ll>v;
+    cin >> k;
+    for (int i = 0; i < k; i++) {
+        ll num = 0;
+        cin >> num;
+        v.push_back(num);
+    }
+    ll Min = 1e9;
+    vector<ll>result;
+    for (int i = 1; i <= n; i++) {
+        dist[i][i] = 0;
+        ll Max = 0;
+        for (auto& j : v) {
+            Max = max(Max, dist[j][i] + dist[i][j]);
+        }
+        if (Min > Max) {
+            Min = Max;
+            vector<ll>().swap(result);
+            result.push_back(i);
+        }
+        else if (Min == Max) {
+            result.push_back(i);
+        }
+    }
+    sort(result.begin(), result.end());
+    for (auto& i : result) {
+        cout << i << ' ';
+    }
+    return 0;
+}
