@@ -1,0 +1,56 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<string, ll, ll, ll> slll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    string str = "";
+    cin >> str;
+    ll Min = LLONG_MAX;
+    vector<char>v = { 'R', 'G', 'B' };
+    map<char, ll>Map;
+    Map['R'] = 0;
+    Map['G'] = 1;
+    Map['B'] = 2;
+    for (int i = 0; i < 3; i++) {
+        ll temp = 0;
+        string s = str;
+        for (int j = 0; j < n - 2; j++) {
+            if (Map[s[j]] > Map[v[i]]) {
+                ll a = Map[v[i]] + 3 - Map[s[j]];
+                temp += a;
+                s[j] = v[i];
+                s[j + 1] = v[(Map[s[j + 1]] + a) % 3];
+                s[j + 2] = v[(Map[s[j + 2]] + a) % 3];
+            }
+            else if (Map[s[j]] < Map[v[i]]) {
+                ll a = Map[v[i]] - Map[s[j]];
+                temp += a;
+                s[j] = v[i];
+                s[j + 1] = v[(Map[s[j + 1]] + a) % 3];
+                s[j + 2] = v[(Map[s[j + 2]] + a) % 3];
+            }
+        }
+        if (s[n - 1] == v[i] && s[n - 2] == v[i]) {
+            Min = min(Min, temp);
+        }
+    }
+    if (Min == LLONG_MAX) {
+        cout << -1;
+    }
+    else {
+        cout << Min;
+    }
+    return 0;
+}
