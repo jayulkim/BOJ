@@ -1,0 +1,86 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<vector<char>>a(n + 1, vector<char>(m + 1));
+    vector<vector<char>>b(n + 1, vector<char>(m + 1));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> a[i][j];
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> b[i][j];
+        }
+    }
+    vector<vector<ll>>forward = { {-1, 0}, {0, -1}, {1, 0}, {0, 1} };
+    vector<vector<ll>>Map(n + 1, vector<ll>(m + 1, 0));
+    ll count = 1;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            if (!Map[i][j]) {
+                queue<pll>q;
+                char temp = b[i][j];
+                q.push({ i, j });
+                while (!q.empty()) {
+                    auto [aa, bb] = q.front();
+                    q.pop();
+                    Map[aa][bb] = count;
+                    for (int k = 0; k < 4; k++) {
+                        ll dy = aa + forward[k][0];
+                        ll dx = bb + forward[k][1];
+                        if (dy >= 0 && dy < n && dx >= 0 && dx < m && !Map[dy][dx] && b[dy][dx] == temp) {
+                            Map[dy][dx] = count;
+                            q.push({ dy, dx });
+                        }
+                    }
+                }
+                count++;
+            }
+        }
+    }
+    vector<vector<bool>>visited(n + 1, vector<bool>(m + 1, false));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            if (!visited[i][j]) {
+                char temp = a[i][j];
+                queue<pll>q;
+                q.push({ i, j });
+                while (!q.empty()) {
+                    auto [aa, bb] = q.front();
+                    q.pop();
+                    visited[aa][bb] = true;
+                    for (int k = 0; k < 4; k++) {
+                        ll dy = aa + forward[k][0];
+                        ll dx = bb + forward[k][1];
+                        if (dy >= 0 && dy < n && dx >= 0 && dx < m && !visited[dy][dx] && a[dy][dx] == temp) {
+                            if (Map[aa][bb] == Map[dy][dx]) {
+                                visited[dy][dx] = true;
+                                q.push({ dy, dx });
+                            }
+                            else {
+                                cout << "NO";
+                                return 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    cout << "YES";
+    return 0;
+}
