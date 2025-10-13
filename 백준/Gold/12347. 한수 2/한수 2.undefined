@@ -1,0 +1,67 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<string, ll, ll, ll> slll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    vector<vector<string>>v(20);
+    for (int i = 1; i <= 18; i++) {
+        for (int u = 1; u <= 9; u++) {
+            for (int j = 0; j <= 9; j++) {
+                string str = "";
+                bool find = false;
+                ll temp = u;
+                for (int k = 0; k < i; k++) {
+                    if (temp >= 10) {
+                        find = true;
+                        break;
+                    }
+                    str += to_string(temp);
+                    temp += j;
+                }
+                if (!find) {
+                    v[i].push_back(str);
+                }
+                temp = u;
+                find = false;
+                str = "";
+                for (int k = 0; k < i; k++) {
+                    if (temp < 0) {
+                        find = true;
+                        break;
+                    }
+                    str += to_string(temp);
+                    temp -= j;
+                }
+                if (!find) {
+                    v[i].push_back(str);
+                }
+            }
+        }
+    }
+    for (int i = 1; i <= 19; i++) {
+        sort(v[i].begin(), v[i].end());
+        v[i].erase(unique(v[i].begin(), v[i].end()), v[i].end());
+    }
+    cin >> n;
+    ll result = 0;
+    for (int i = 1; i <= 18; i++) {
+        for (auto& j : v[i]) {
+            if (n >= stoll(j)) {
+                result++;
+            }
+        }
+    }
+    cout << result;
+    return 0;
+}
