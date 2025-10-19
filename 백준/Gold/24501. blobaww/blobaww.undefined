@@ -1,0 +1,59 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<string, ll, ll, ll> slll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<vector<ll>>a(n + 1, vector<ll>(m + 1, 0));
+    vector<vector<ll>>suma(n + 1, vector<ll>(m + 1, 0));
+    vector<vector<ll>>b(n + 1, vector<ll>(m + 1, 0));
+    vector<vector<ll>>sumb(n + 1, vector<ll>(m + 1, 0));
+    vector<vector<char>>Map(n + 1, vector<char>(m + 1));
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            cin >> Map[i][j];
+            if (Map[i][j] == 'E') {
+                a[i][j]++;
+            }
+        }
+    }
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            suma[i][j] = suma[i - 1][j] + suma[i][j - 1] - suma[i - 1][j - 1] + a[i][j];
+        }
+    }
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            if (Map[i][j] == 'S') {
+                b[i][j] = suma[i][j];
+            }
+        }
+    }
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            sumb[i][j] = sumb[i - 1][j] + sumb[i][j - 1] - sumb[i - 1][j - 1] + b[i][j];
+        }
+    }
+    ll result = 0;
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            if (Map[i][j] == 'M') {
+                result += sumb[i][j] % 1000000007;
+                result %= 1000000007;
+            }
+        }
+    }
+    cout << result;
+    return 0;
+}
