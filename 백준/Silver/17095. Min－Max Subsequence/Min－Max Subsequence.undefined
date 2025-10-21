@@ -23,22 +23,24 @@ int main(void) {
         b = min(b, m);
         v.push_back(m);
     }
-    ll result = n;
-    map<ll, ll>Map;
-    ll start = 0;
+    vector<ll>aa;
+    vector<ll>bb;
     for (int i = 0; i < n; i++) {
-        Map[v[i]]++;
-        bool find = false;
-        while (!Map.empty() && prev(Map.end())->first - Map.begin()->first == a - b) {
-            Map[v[start]]--;
-            find = true;
-            if (!Map[v[start]]) {
-                Map.erase(v[start]);
-            }
-            start++;
+        if (v[i] == a) {
+            aa.push_back(i);
         }
-        if (find) {
-            result = min(result, i - start + 2);
+        if (v[i] == b) {
+            bb.push_back(i);
+        }
+    }
+    ll result = n;
+    for (auto& i : aa) {
+        ll idx = upper_bound(bb.begin(), bb.end(), i) - bb.begin();
+        if (idx != bb.size()) {
+            result = min(result, llabs(bb[idx] - i) + 1);
+        }
+        else {
+            result = min(result, llabs(bb.back() - i) + 1);
         }
     }
     cout << result;
