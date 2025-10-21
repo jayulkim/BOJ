@@ -1,0 +1,46 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<string, ll, ll, ll> slll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<ll>v;
+    ll a = 0, b = LLONG_MAX;
+    for (int i = 0; i < n; i++) {
+        cin >> m;
+        a = max(a, m);
+        b = min(b, m);
+        v.push_back(m);
+    }
+    ll result = n;
+    map<ll, ll>Map;
+    ll start = 0;
+    for (int i = 0; i < n; i++) {
+        Map[v[i]]++;
+        bool find = false;
+        while (!Map.empty() && prev(Map.end())->first - Map.begin()->first == a - b) {
+            Map[v[start]]--;
+            find = true;
+            if (!Map[v[start]]) {
+                Map.erase(v[start]);
+            }
+            start++;
+        }
+        if (find) {
+            result = min(result, i - start + 2);
+        }
+    }
+    cout << result;
+    return 0;
+}
