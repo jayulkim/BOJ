@@ -23,24 +23,20 @@ int main(void) {
         b = min(b, m);
         v.push_back(m);
     }
-    vector<ll>aa;
-    vector<ll>bb;
+    ll result = n;
+    ll idxa = -1, idxb = -1;
     for (int i = 0; i < n; i++) {
         if (v[i] == a) {
-            aa.push_back(i);
+            if (idxb != -1) {
+                result = min(result, llabs(idxb - i) + 1);
+            }
+            idxa = i;
         }
         if (v[i] == b) {
-            bb.push_back(i);
-        }
-    }
-    ll result = n;
-    for (auto& i : aa) {
-        ll idx = upper_bound(bb.begin(), bb.end(), i) - bb.begin();
-        if (idx != bb.size()) {
-            result = min(result, llabs(bb[idx] - i) + 1);
-        }
-        else {
-            result = min(result, llabs(bb.back() - i) + 1);
+            if (idxa != -1) {
+                result = min(result, llabs(i - idxa) + 1);
+            }
+            idxb = i;
         }
     }
     cout << result;
