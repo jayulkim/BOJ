@@ -1,40 +1,30 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
-typedef long long ll;
-typedef unsigned long long ull;
-typedef long double ld;
-typedef tuple<ll, ll, ll> lll;
-typedef tuple<ll, ll, ll, ll> llll;
-typedef tuple<string, ll, ll, ll> slll;
-typedef tuple<ll, ll, vector<ll>> llv;
-typedef pair<ll, ll> pll;
-typedef pair<ll, string> pls;
+typedef int ll;
 ll n = 0, m = 0, k = 0;
-
+ll v[100001];
 int main(void) {
     ios::sync_with_stdio(false);
     cin.tie(0);
     cin >> n;
-    vector<ll>v;
-    ll a = 0, b = LLONG_MAX;
+    ll a = 0, b = 100001;
     for (int i = 0; i < n; i++) {
-        cin >> m;
-        a = max(a, m);
-        b = min(b, m);
-        v.push_back(m);
+        cin >> v[i];
+        a = max(a, v[i]);
+        b = min(b, v[i]);
     }
     ll result = n;
     ll idxa = -1, idxb = -1;
     for (int i = 0; i < n; i++) {
         if (v[i] == a) {
             if (idxb != -1) {
-                result = min(result, llabs(idxb - i) + 1);
+                result = min(result, i - idxb + 1);
             }
             idxa = i;
         }
         if (v[i] == b) {
             if (idxa != -1) {
-                result = min(result, llabs(i - idxa) + 1);
+                result = min(result, i - idxa + 1);
             }
             idxb = i;
         }
