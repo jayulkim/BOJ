@@ -21,16 +21,28 @@ int main(void) {
         v.push_back(m);
     }
     ll result = 0;
-    map<ll, ll>Map;
+    vector<ll>vv(11, 0);
+    ll Max = 0;
+    ll Min = LLONG_MAX;
     ll start = 0;
     for (int i = 0; i < n; i++) {
-        Map[v[i]]++;
-        while (prev(Map.end())->first - Map.begin()->first > 2) {
-            Map[v[start]]--;
-            if (!Map[v[start]]) {
-                Map.erase(v[start]);
+        Max = max(Max, v[i]);
+        Min = min(Min, v[i]);
+        vv[v[i]]++;
+        while (Max - Min > 2) {
+            vv[v[start++]]--;
+            for (int j = 1; j <= 10; j++) {
+                if (vv[j]) {
+                    Min = j;
+                    break;
+                }
             }
-            start++;
+            for (int j = 10; j >= 1; j--) {
+                if (vv[j]) {
+                    Max = j;
+                    break;
+                }
+            }
         }
         result = max(result, i - start + 1);
     }
