@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<string, ll, ll, ll> slll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<pll>v;
+    for (int i = 0; i < n; i++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        v.push_back({ a, b });
+    }
+    vector<vector<ll>>dp(n + 1, vector<ll>(m + 1, -1));
+    function<ll(ll, ll)> dfs = [&](ll a, ll b) -> ll {
+        if (a == n - 1) {
+            return 0;
+        }
+        if (dp[a][b] != -1) {
+            return dp[a][b];
+        }
+        ll weight = LLONG_MAX;
+        for (int i = 0; i <= b; i++) {
+            if (a + 1 + i < n) {
+                weight = min(weight, dfs(a + 1 + i, b - i) + llabs(v[a].first - v[a + 1 + i].first) + llabs(v[a].second - v[a + 1 + i].second));
+            }
+        }
+        return dp[a][b] = weight;
+        };
+    cout << dfs(0, m);
+    return 0;
+}
