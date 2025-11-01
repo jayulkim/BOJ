@@ -1,0 +1,58 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<pll>v;
+    for (int i = 0; i < n; i++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        v.push_back({a, b});
+    }
+    ll Min = LLONG_MAX;
+    ll a = 0;
+    for (int i = 0; i <= 200; i++) {
+        ll temp = i;
+        ll sum = 0;
+        for (int j = 0; j < n; j++) {
+            if (temp < v[j].first) {
+                sum += v[j].first - temp;
+                temp = v[j].first;
+            }
+            else if (temp > v[j].second) {
+                sum += temp - v[j].second;
+                temp = v[j].second;
+            }
+        }
+        if (sum < Min) {
+            Min = sum;
+            a = i;
+        }
+    }
+    cout << Min << '\n';
+    for (int j = 0; j < n; j++) {
+        if (a < v[j].first) {
+            cout << v[j].first << '\n';
+            a = v[j].first;
+        }
+        else if (a > v[j].second) {
+            cout << v[j].second <<'\n';
+            a = v[j].second;
+        }
+        else {
+            cout << a << '\n';
+        }
+    }
+    return 0;
+}
