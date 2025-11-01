@@ -1,0 +1,89 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<ll>v;
+    for (int j = 0; j < n; j++) {
+        cin >> k;
+        v.push_back(k);
+    }
+    cin >> k;
+    ll start = 0, end = m * v.back(), mid = 0;
+    ll a = -1;
+    while (start <= end) {
+        mid = (start + end) / 2;
+        ll Max = (mid + v.back() - 1) / v.back();
+        ll sum = mid;
+        for (int j = n - 2; j >= 0; j--) {
+            sum += v[j] * ++Max;
+        }
+        if (sum > k) {
+            end = mid - 1;
+        }
+        else {
+            start = mid + 1;
+            a = max(a, mid);
+        }
+    }
+    if (a == -1) {
+        cout << "Sad";
+        return 0;
+    }
+    vector<vector<ll>>Map(n + 1);
+    for (int j = 0; j < v.back(); j++) {
+        Map[n - 1].push_back(a / v.back());
+    }
+    for (int j = 0; j < a % v.back(); j++) {
+        Map[n - 1][j]++;
+    }
+    k -= a;
+    ll b = (a + v.back() - 1) / v.back();
+    for (int j = n - 2; j >= 0; j--) {
+        b++;
+        for (int u = 0; u < v[j]; u++) {
+            Map[j].push_back(b);
+        }
+        k -= v[j] * b;
+    }
+    for (int j = 0; j < n && k; j++) {
+        for (int u = 0; u < Map[j].size() && k; u++) {
+            Map[j][u]++;
+            k--;
+            if (Map[j][u] > m) {
+                cout << "Sad";
+                return 0;
+            }
+        }
+    }
+    ll temp = 0;
+    vector<ll>sum(n + 1);
+    for (auto& j : Map[n - 1]) {
+        temp += j;
+    }
+    ll result = 0;
+    cout << "Happy" << '\n';
+    ll count = v.back();
+    for (int j = n - 2; j >= 0; j--) {
+        ll sum = 0;
+        for (auto& k : Map[j]) {
+            result += count * k - temp;
+            sum += k;
+        }
+        count += v[j];
+        temp += sum;
+    }
+    cout << result;
+    return 0;
+}
