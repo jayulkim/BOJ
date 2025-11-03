@@ -1,0 +1,117 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<vector<char>>Map(8 * pow(3, n - 2) + 5, vector<char>(4 * pow(3, n - 1) + 5, ' '));
+    vector<vector<bool>>visited(8 * pow(3, n - 2) + 5, vector<bool>(4 * pow(3, n - 1) + 5, false));
+    if (n == 1) {
+        cout << "  *\n";
+        cout << " * *\n";
+        cout << "*****";
+        return 0;
+    }
+    function<void(ll, ll, ll)> dfs = [&](ll a, ll b, ll c) -> void {
+        if (a == 2) {
+            Map[b][c] = '*';
+            Map[b + 8][c] = '*';
+            Map[b + 1][c - 1] = '*';
+            Map[b + 7][c - 1] = '*';
+            Map[b + 1][c + 1] = '*';
+            Map[b + 7][c + 1] = '*';
+            for (int i = 0; i < 5; i++) {
+                Map[b + 2][c - 6 + i] = '*';
+            }
+            for (int i = 0; i < 5; i++) {
+                Map[b + 2][c + 2 + i] = '*';
+            }
+            Map[b + 3][c - 5] = '*';
+            Map[b + 5][c - 5] = '*';
+            Map[b + 3][c + 5] = '*';
+            Map[b + 5][c + 5] = '*';
+            Map[b + 4][c - 4] = '*';
+            Map[b + 4][c + 4] = '*';
+            for (int i = 0; i < 5; i++) {
+                Map[b + 6][c - 6 + i] = '*';
+            }
+            for (int i = 0; i < 5; i++) {
+                Map[b + 6][c + 2 + i] = '*';
+            }
+            return;
+        }
+        dfs(a - 1, b, c);
+        dfs(a - 1, b + 4 * pow(3, a - 3), c - (4 * pow(3, a - 2)));
+        dfs(a - 1, b + 4 * pow(3, a - 3), c + (4 * pow(3, a - 2)));
+        dfs(a - 1, b + 4 * pow(3, a - 2), c - (4 * pow(3, a - 2)));
+        dfs(a - 1, b + 4 * pow(3, a - 2), c + (4 * pow(3, a - 2)));
+        dfs(a - 1, b + 2 * (pow(3, a - 1) - pow(3, a - 3)), c);
+        };
+    dfs(n, 1, 2 * pow(3, n - 1) + 1);
+    ll size = 8 * pow(3, n - 2) + 2;
+    ll sizesize = 4 * pow(3, n - 1) + 2;
+    queue<pll>q;
+    vector<vector<ll>>forward = { {-1, 0}, {1, 0}, {0, 1}, {0, -1} };
+    q.push({ 0, 0 });
+    while (!q.empty()) {
+        pll temp = q.front();
+        q.pop();
+        visited[temp.first][temp.second] = true;
+        for (int i = 0; i < 4; i++) {
+            ll dy = temp.first + forward[i][0];
+            ll dx = temp.second + forward[i][1];
+            if (dy >= 0 && dy <= size && dx >= 0 && dx <= sizesize && !visited[dy][dx] && Map[dy][dx] == ' ') {
+                visited[dy][dx] = true;
+                q.push({ dy, dx });
+            }
+        }
+    }
+    for (int i = 1; i < size; i++) {
+        bool find = false;
+        ll idx = sizesize - 1;
+        for (int j = sizesize - 1; j >= 1; j--) {
+            if (Map[i][j] == '*') {
+                idx = j;
+                find = true;
+                break;
+            }
+        }
+        if (!find) {
+            break;
+        }
+        for (int j = 1; j <= idx; j++) {
+            if (Map[i][j] == '*') {
+                ll find = false;
+                for (int k = 0; k < 4; k++) {
+                    ll dy = i + forward[k][0];
+                    ll dx = j + forward[k][1];
+                    if (dy >= 0 && dy <= size && dx >= 0 && dx <= sizesize && visited[dy][dx]) {
+                        find = true;
+                        break;
+                    }
+                }
+                if (find) {
+                    cout << Map[i][j];
+                }
+                else {
+                    cout << ' ';
+                }
+            }
+            else {
+                cout << Map[i][j];
+            }
+        }
+        cout << '\n';
+    }
+    return 0;
+}
