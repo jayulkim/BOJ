@@ -1,0 +1,60 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    vector<vector<pll>>graph(10001);
+    while (cin >> n >> m >> k) {
+        graph[n].push_back({m, k});
+        graph[m].push_back({n, k});
+    }
+    queue<pll>q;
+    vector<ll>dist(10001, -1);
+    q.push({1, 0});
+    while (!q.empty()) {
+        pll temp = q.front();
+        q.pop();
+        dist[temp.first] = temp.second;
+        for (auto& i : graph[temp.first]) {
+            if (dist[i.first] == -1) {
+                dist[i.first] = temp.second + i.second;
+                q.push({i.first, dist[i.first]});
+            }
+        }
+    }
+    ll Max = -1;
+    ll start = -1;
+    for (int i = 1; i <= 10000; i++) {
+        if (Max < dist[i]) {
+            Max = dist[i];
+            start = i;
+        }
+    }
+    vector<ll>(10001, -1).swap(dist);
+    Max = 0;
+    q.push({start, 0});
+    while (!q.empty()) {
+        pll temp = q.front();
+        q.pop();
+        Max = max(Max, temp.second);
+        dist[temp.first] = temp.second;
+        for (auto& i : graph[temp.first]) {
+            if (dist[i.first] == -1) {
+                dist[i.first] = temp.second + i.second;
+                q.push({i.first, dist[i.first]});
+            }
+        }
+    }
+    cout << Max;
+    return 0;
+}
