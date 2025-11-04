@@ -47,7 +47,6 @@ int main(void) {
         }
         };
     dpdfs(-1, 1, v[1]);
-    dp[1] = v[1];
     for (int i = 1; i <= n; i++) {
         dpdp[idx[i]] = v[i];
     }
