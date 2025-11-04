@@ -1,0 +1,146 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<ll>v(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> v[i];
+    }
+    vector<vector<ll>>graph(n + 1);
+    vector<vector<ll>>treegraph(n + 1);
+    vector<vector<ll>>daggraph(n + 1);
+    for (int i = 0; i < n - 1; i++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        graph[a].push_back(b);
+        graph[b].push_back(a);
+    }
+    vector<ll>dp(n + 1, 0);
+    vector<ll>dpdp(n + 1, 0);
+    vector<ll>idx(n + 1, 0);
+    vector<pll>range(n + 1, { LLONG_MAX, 0 });
+    vector<ll>degree(n + 1, 0);
+    queue<ll>q;
+    ll count = 1;
+    function<void(ll, ll, ll)> dpdfs = [&](ll a, ll b, ll c) -> void {
+        idx[b] = count++;
+        for (auto& i : graph[b]) {
+            if (i != a) {
+                treegraph[b].push_back(i);
+                degree[b]++;
+                dp[i] = c;
+                daggraph[i].push_back(b);
+                dpdfs(b, i, max(c, v[i]));
+            }
+        }
+        };
+    dpdfs(-1, 1, v[1]);
+    dp[1] = v[1];
+    for (int i = 1; i <= n; i++) {
+        dpdp[idx[i]] = v[i];
+    }
+    vector<ll>tree(n * 4 + 1);
+    vector<ll>lazy(n * 4 + 1, LLONG_MAX);
+    function<ll(ll, ll, ll)> init = [&](ll a, ll b, ll c) -> ll {
+        if (a == b) {
+            return tree[c] = dpdp[a];
+        }
+        ll mid = (a + b) / 2;
+        return tree[c] = init(a, mid, c * 2) + init(mid + 1, b, c * 2 + 1);
+        };
+    function<void(ll, ll, ll)> updatelazy = [&](ll a, ll b, ll c) -> void {
+        if (lazy[c] != LLONG_MAX) {
+            tree[c] = (b - a + 1) * lazy[c];
+            if (a != b) {
+                lazy[c * 2] = lazy[c];
+                lazy[c * 2 + 1] = lazy[c];
+            }
+            lazy[c] = LLONG_MAX;
+        }
+        };
+    function<ll(ll, ll, ll, ll, ll)> query = [&](ll a, ll b, ll c, ll d, ll e) -> ll {
+        updatelazy(a, b, c);
+        if (a > e || b < d) {
+            return 0;
+        }
+        if (d <= a && b <= e) {
+            return tree[c];
+        }
+        ll mid = (a + b) / 2;
+        return query(a, mid, c * 2, d, e) + query(mid + 1, b, c * 2 + 1, d, e);
+        };
+    function<void(ll, ll, ll, ll, ll, ll)> update = [&](ll a, ll b, ll c, ll d, ll e, ll f) -> void {
+        updatelazy(a, b, c);
+        if (a > e || b < d) {
+            return;
+        }
+        if (d <= a && b <= e) {
+            tree[c] = (b - a + 1) * f;
+            if (a != b) {
+                lazy[c * 2] = f;
+                lazy[c * 2 + 1] = f;
+            }
+            return;
+        }
+        ll mid = (a + b) / 2;
+        update(a, mid, c * 2, d, e, f);
+        update(mid + 1, b, c * 2 + 1, d, e, f);
+        tree[c] = tree[c * 2] + tree[c * 2 + 1];
+        };
+    for (int i = 1; i <= n; i++) {
+        if (!degree[i]) {
+            q.push(i);
+            range[i] = { idx[i], idx[i] };
+        }
+    }
+    while (!q.empty()) {
+        ll temp = q.front();
+        q.pop();
+        for (auto& i : daggraph[temp]) {
+            range[i].first = min({ idx[i], range[i].first, range[temp].first });
+            range[i].second = max({ idx[i], range[i].second, range[temp].second });
+            if (--degree[i] == 0) {
+                q.push(i);
+            }
+        }
+    }
+    init(1, n, 1);
+    vector<bool>visited(n + 1, false);
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        if (a == 1) {
+            if (!visited[b]) {
+                q.push(b);
+                while (!q.empty()) {
+                    ll temp = q.front();
+                    q.pop();
+                    visited[temp] = true;
+                    for (auto& j : treegraph[temp]) {
+                        if (!visited[j]) {
+                            visited[j] = true;
+                            q.push(j);
+                        }
+                    }
+                }
+                update(1, n, 1, range[b].first, range[b].second, dp[b]);
+            }
+        }
+        else {
+            cout << query(1, n, 1, range[b].first, range[b].second) << '\n';
+        }
+    }
+    return 0; 
+}
