@@ -37,18 +37,15 @@ int main(void) {
             parent[a] = b;
         }
         };
-    vector<vector<ll>>graph(n + 1);
+    ll count = 0;
     vector<vector<ll>>Map(n + 1, vector<ll>(n + 1));
     for (int i = 0; i < m; i++) {
         ll a = 0, b = 0;
         cin >> a >> b;
-        graph[a].push_back(b);
-        graph[b].push_back(a);
-        merge(a, b);
-    }
-    for (int i = 2;i <= n; i++) {
-        graph[1].push_back(i);
-        graph[i].push_back(1);
+        if (getparent(a) != getparent(b)) {
+            count++;
+            merge(a, b);
+        }
     }
     priority_queue<lll, vector<lll>, greater<lll>>pq;
     for (int i = 1; i <= n; i++) {
@@ -66,13 +63,14 @@ int main(void) {
     }
     ll result = 0;
     vector<pll>v;
-    while (!pq.empty()) {
+    while (count < n - 2) {
         auto [a, b, c] = pq.top();
         pq.pop();
         if (getparent(b) != getparent(c)) {
             merge(b, c);
             v.push_back({ b, c });
             result += a;
+            count++;
         }
     }
     cout << result << ' ' << v.size() << '\n';
