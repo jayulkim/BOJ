@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    priority_queue<ll, vector<ll>, greater<ll>>pq;
+    ll Max = 0;
+    for (int i = 1; i <= n; i++) {
+        cin >> m;
+        if (!pq.empty()) {
+            Max = max(Max, m - pq.top());
+        }
+        pq.push(m);
+    }
+    cout << Max;
+    return 0;
+}
