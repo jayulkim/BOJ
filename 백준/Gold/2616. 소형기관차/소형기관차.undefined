@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<ll>v(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> v[i];
+    }
+    cin >> m;
+    vector<ll>sum(n + 1);
+    for (int i = 1; i <= n; i++) {
+        sum[i] = sum[i - 1] + v[i];
+    }
+    vector<vector<ll>>dp(n + 1, vector<ll>(4, -1));
+    function<ll(ll, ll)> dfs = [&](ll a, ll b) -> ll {
+        if (a > n) {
+            return 0;
+        }
+        if (b == 3) {
+            return 0;
+        }
+        if (dp[a][b] != -1) {
+            return dp[a][b];
+        }
+        return dp[a][b] = max(dfs(a + 1, b), dfs(a + m, b + 1) + sum[min(n, a + m - 1)] - sum[a - 1]);
+        };
+    cout << dfs(1, 0);
+    return 0;
+}
