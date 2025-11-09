@@ -1,0 +1,72 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    ll y = 0, x = 0;
+    vector<vector<ll>>Map(n + 1, vector<ll>(n + 1));
+    vector<vector<ll>>forward = { {-1, 0}, {1, 0}, {0, 1}, {0, -1} };
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cin >> Map[i][j];
+            if (Map[i][j] == 9) {
+                y = i;
+                x = j;
+                Map[i][j] = 0;
+            }
+        }
+    }
+    ll count = 0;
+    ll size = 2;
+    ll temp = 0;
+    while (1) {
+        vector<vector<bool>>visited(n + 1, vector<bool>(n + 1, false));
+        vector<lll>v;
+        queue<lll>q;
+        q.push({ y, x, 0 });
+        while (!q.empty()) {
+            auto [a, b, c] = q.front();
+            q.pop();
+            if (Map[a][b] && Map[a][b] < size) {
+                v.push_back({ c, a, b });
+            }
+            visited[a][b] = true;
+            for (int i = 0; i < 4; i++) {
+                ll dy = a + forward[i][0];
+                ll dx = b + forward[i][1];
+                if (dy >= 0 && dy < n && dx >= 0 && dx < n && !visited[dy][dx] && Map[dy][dx] <= size) {
+                    visited[dy][dx] = true;
+                    q.push({ dy, dx, c + 1 });
+                }
+            }
+        }
+        sort(v.begin(), v.end());
+        if (!v.size()) {
+            break;
+        }
+        auto [a, b, c] = v[0];
+        y = b;
+        x = c;
+        count++;
+        if (count == size) {
+            count = 0;
+            size++;
+        }
+        Map[b][c] = 0;
+        temp += a;
+    }
+    cout << temp;
+    return 0;
+}
