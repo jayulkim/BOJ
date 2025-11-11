@@ -1,0 +1,57 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m >> k;
+    vector<ll>v;
+    v.push_back(0);
+    for (int i = 0; i < n; i++) {
+        ll num = 0;
+        cin >> num;
+        v.push_back(num);
+    }
+    sort(v.begin(), v.end());
+    ll Max = 0;
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            ll count = 0;
+            ll temp = 0;
+            ll idx = 1;
+            bool find = false;
+            while (idx <= n) {
+                if (idx - 1 == j) {
+                    temp += i * k;
+                    find = true;
+                }
+                if (find) {
+                    if (v[idx] >= temp + m - i) {
+                        temp += m - i;
+                        count++;
+                    }
+                }
+                else {
+                    if (v[idx] >= temp + m) {
+                        temp += m;
+                        count++;
+                    }
+                }
+                idx++;
+            }
+            Max = max(Max, count);
+        }
+    }
+    cout << Max;
+    return 0;
+}
