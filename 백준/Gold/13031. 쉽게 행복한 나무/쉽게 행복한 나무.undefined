@@ -1,0 +1,70 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<ll>v(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> v[i];
+    }
+    vector<vector<pll>>graph(n + 1);
+    for (int i = 1; i <= n - 1; i++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        graph[a].push_back({ i + 1, b });
+        graph[i + 1].push_back({ a, b });
+    }
+    vector<ll>dist(n + 1, 0);
+    vector<bool>visited(n + 1);
+    queue<pll>q;
+    q.push({ 1, 0 });
+    while (!q.empty()) {
+        pll temp = q.front();
+        q.pop();
+        dist[temp.first] = temp.second;
+        visited[temp.first] = true;
+        for (auto& i : graph[temp.first]) {
+            if (!visited[i.first]) {
+                visited[i.first] = true;
+                q.push({ i.first, temp.second + i.second });
+            }
+        }
+    }
+    vector<ll>dp(n + 1, 0);
+    function<ll(ll, ll)> dfs = [&](ll a, ll b) -> ll {
+        ll size = 1;
+        for (auto& i : graph[b]) {
+            if (i.first != a) {
+                size += dfs(b, i.first);
+            }
+        }
+        return dp[b] = size;
+        };
+    dfs(-1, 1);
+    function<ll(ll, ll)> dpdfs = [&](ll a, ll b) -> ll {
+        if (dist[b] > v[b]) {
+            return dp[b];
+        }
+        ll result = 0;
+        for (auto& i : graph[b]) {
+            if (i.first != a) {
+                result += dpdfs(b, i.first);
+            }
+        }
+        return result;
+        };
+    cout << dpdfs(-1, 1);
+    return 0;
+}
