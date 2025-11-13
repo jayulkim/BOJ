@@ -1,0 +1,64 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<vector<ll>>graph(n + 1);
+    for (int j = 0; j < n - 1; j++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        graph[a].push_back(b);
+        graph[b].push_back(a);
+    }
+    for (int i = 1; i <= n; i++) {
+        sort(graph[i].begin(), graph[i].end());
+    }
+    vector<ll>v;
+    for (int i = 0; i < n; i++) {
+        ll num = 0;
+        cin >> num;
+        v.push_back(num);
+    }
+    ll idx = 0;
+    queue<ll>q;
+    vector<bool>visited(n + 1, false);
+    q.push(1);
+    if (v[idx++] != 1) {
+        cout << 0;
+        return 0;
+    }
+    while (!q.empty()) {
+        ll temp = q.front();
+        q.pop();
+        visited[temp] = true;
+        vector<ll>vv;
+        for (auto& i : graph[temp]) {
+            if (!visited[i]) {
+                vv.push_back(i);
+            }
+        }
+        for (int i = 0; i < vv.size(); i++) {
+            if (binary_search(vv.begin(), vv.end(), v[idx])) {
+                q.push(v[idx]);
+                visited[v[idx++]] = true;
+            }
+            else {
+                cout << 0;
+                return 0;
+            }
+        }
+    }
+    cout << 1;
+    return 0;
+}
