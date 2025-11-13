@@ -29,16 +29,29 @@ int main(void) {
         }
     }
     sort(v.begin(), v.end());
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = i + 1; j < n; j++) {
-            if (v[i] + v[j] == m) {
-                cout << 1;
-                return 0;
+    ll start = 0, end = n - 1;
+    while (start < end) {
+        if (v[start] + v[end] > m) {
+            end--;
+        }
+        else if (v[start] + v[end] < m) {
+            start++;
+        }
+        else {
+            cout << 1;
+            return 0;
+        }
+    }
+    for (int i = 1; i < n - 1; i++) {
+        ll start = 0, end = n - 1;
+        while (start < i && end > i) {
+            if (v[start] + v[i] + v[end] > m) {
+                end--;
             }
-            if (v[i] + v[j] > m) {
-                break;
+            else if (v[start] + v[i] + v[end] < m) {
+                start++;
             }
-            if (Map[m - (v[i] + v[j])] && m - (v[i] + v[j]) != v[i] && m - (v[i] + v[j]) != v[j]) {
+            else {
                 cout << 1;
                 return 0;
             }
