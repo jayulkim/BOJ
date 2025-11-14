@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    vector<vector<ll>>forward = { {0, 1}, {-1, 0}, {0, -1}, {1, 0} };
+    vector<vector<ll>>Map(101, vector<ll>(101, 0));
+    cin >> n;
+    for (int i = 0; i < n; i++) {
+        ll a = 0, b = 0, c = 0, d = 0;
+        cin >> b >> a >> c >> d;
+        vector<ll>v;
+        v.push_back(c);
+        for (int j = 1; j <= d; j++) {
+            ll size = v.size();
+            for (int k = size - 1; k >= 0; k--) {
+                v.push_back((v[k] + 1) % 4);
+            }
+        }
+        Map[a][b] = 1;
+        for (auto& j : v) {
+            a += forward[j][0];
+            b += forward[j][1];
+            if (a <= 100 && a >= 0 && b <= 100 && b >= 0) {
+                Map[a][b] = 1;
+            }
+        }
+    }
+    ll count = 0;
+    for (int i = 0; i <= 99; i++) {
+        for (int j = 0; j <= 99; j++) {
+            count += (ll)(Map[i][j] && Map[i][j + 1] && Map[i + 1][j] && Map[i + 1][j + 1]);
+        }
+    }
+    cout << count;
+    return 0;
+}
