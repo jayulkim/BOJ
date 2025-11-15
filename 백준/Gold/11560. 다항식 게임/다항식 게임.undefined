@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<string, ll> psl;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    vector<vector<ll>>dp(21, vector<ll>(211, 0));
+    dp[0][0] = 1;
+    for (int i = 1; i <= 20; i++) {
+        for (int j = 0; j <= (i * (i + 1)) / 2; j++) {
+            for (int k = 0; k <= i; k++) {
+                if (j - k >= 0) {
+                    dp[i][j] += dp[i - 1][j - k];
+                }
+            }
+        }
+    }
+    ll num = 0;
+    cin >> num;
+    while (num--) {
+        cin >> n >> m;
+        cout << dp[n][m] << '\n';
+    }
+    return 0;
+}
