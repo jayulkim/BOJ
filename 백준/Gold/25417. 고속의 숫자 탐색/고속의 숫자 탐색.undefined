@@ -1,0 +1,72 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    vector<vector<ll>>Map(6, vector<ll>(6));
+    vector<vector<bool>>visited(6, vector<bool>(6, false));
+    for (int j = 0; j < 5; j++) {
+        for (int k = 0; k < 5; k++) {
+            cin >> Map[j][k];
+        }
+    }
+    ll y = 0, x = 0;
+    cin >> y >> x;
+    queue<lll>q;
+    q.push({y, x, 0});
+    vector<vector<ll>>forward {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+    function<pll(pll, ll)> mov = [&](pll a, ll b) -> pll {
+        auto [y, x] = a;
+        while (1) {
+            ll dy = y + forward[b][0];
+            ll dx = x + forward[b][1];
+            if (dy >= 0 && dy < 5 && dx >= 0 && dx < 5) {
+                if (Map[dy][dx] == 7) {
+                    return {dy, dx};
+                }
+                if (Map[dy][dx] == -1) {
+                    return {y, x};
+                }
+                y = dy;
+                x = dx;
+            }
+            else {
+                return {y, x};
+            }
+        }
+        };
+    while (!q.empty()) {
+        auto [a, b, c] = q.front();
+        q.pop();
+        if (Map[a][b] == 1) {
+            cout << c;
+            return 0;
+        }
+        visited[a][b] = true;
+        for (int j = 0; j < 4; j++) {
+            pll d = mov({a, b}, j);
+            if (!visited[d.first][d.second]) {
+                visited[d.first][d.second] = true;
+                q.push({d.first, d.second, c + 1});
+            }
+            ll dy = a + forward[j][0];
+            ll dx = b + forward[j][1];
+            if (dy >= 0 && dy < 5 && dx >= 0 && dx < 5 && !visited[dy][dx] && Map[dy][dx] != -1) {
+                visited[dy][dx] = true;
+                q.push({dy, dx, c + 1});
+            }
+        }
+    }    
+    cout << -1;
+    return 0;
+}
