@@ -1,0 +1,45 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<char, ll, ll> cll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<string, ll> psl;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    string str = "";
+    cin >> str;
+    vector<ll>v;
+    vector<ll>vv(str.length() + 1, 0);
+    ll temp = 0;
+    for (int i = 0; i < str.length(); i++) {
+        if (str[i] == '(') {
+            temp++;
+        }
+        else if (str[i] == ')') {
+            ll t = vv[temp];
+            vv[temp] = 0;
+            temp--;
+            vv[temp] += v.back() * t;
+            v.pop_back();
+        }
+        else {
+            if (i < str.length() - 1 && str[i + 1] == '(') {
+                v.push_back(str[i] - '0');
+            }
+            else {
+                vv[temp]++;
+            }
+        }
+    }
+    cout << vv[0];
+    return 0;
+}
