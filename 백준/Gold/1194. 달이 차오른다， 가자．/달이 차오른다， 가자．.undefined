@@ -1,0 +1,98 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<char, ll, ll> cll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<string, ll> psl;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    ll y = 0, x = 0;
+    vector<pll>v;
+    vector<vector<char>>Map(n + 1, vector<char>(m + 1));
+    ll count = 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> Map[i][j];
+            if (Map[i][j] == '0') {
+                y = i;
+                x = j;
+            }
+            if (Map[i][j] == '1') {
+                v.push_back({ i, j });
+            }
+            if ('a' <= Map[i][j] && Map[i][j] <= 'z') {
+                count = max(count, (ll)Map[i][j] - 'a');
+            }
+        }
+    }
+    vector<vector<vector<ll>>>dist(n + 1, vector<vector<ll>>(m + 1, vector<ll>((1 << (count + 1)) + 1, LLONG_MAX)));
+    priority_queue<llll, vector<llll>, greater<llll>>pq;
+    vector<vector<ll>>forward = { {0, 1}, {1, 0}, {-1, 0}, {0, -1} };
+    pq.push({ 0, y, x, 0 });
+    dist[y][x][0] = 0;
+    while (!pq.empty()) {
+        auto [a, b, c, d] = pq.top();
+        pq.pop();
+        if (dist[b][c][d] >= a) {
+            for (int i = 0; i < 4; i++) {
+                ll dy = b + forward[i][0];
+                ll dx = c + forward[i][1];
+                if (dy >= 0 && dy < n && dx >= 0 && dx < m && Map[dy][dx] != '#') {
+                    if (Map[dy][dx] == '.' || Map[dy][dx] == '0' || Map[dy][dx] == '1') {
+                        if (dist[dy][dx][d] > dist[b][c][d] + 1) {
+                            dist[dy][dx][d] = dist[b][c][d] + 1;
+                            pq.push({ dist[dy][dx][d], dy, dx, d });
+                        }
+                        continue;
+                    }
+                    if ('a' <= Map[dy][dx] && Map[dy][dx] <= 'z') {
+                        if (!((d >> (Map[dy][dx] - 'a')) & 1)) {
+                            ll temp = (1 << (Map[dy][dx] - 'a'));
+                            if (dist[dy][dx][d + temp] > dist[b][c][d] + 1) {
+                                dist[dy][dx][d + temp] = dist[b][c][d] + 1;
+                                pq.push({ dist[dy][dx][d + temp], dy, dx, d + temp });
+                            }
+                        }
+                        else {
+                            if (dist[dy][dx][d] > dist[b][c][d] + 1) {
+                                dist[dy][dx][d] = dist[b][c][d] + 1;
+                                pq.push({ dist[dy][dx][d], dy, dx, d });
+                            }
+                        }
+                    }
+                    else if ('A' <= Map[dy][dx] && Map[dy][dx] <= 'Z') {
+                        if ((d >> (Map[dy][dx] - 'A')) & 1) {
+                            if (dist[dy][dx][d] > dist[b][c][d] + 1) {
+                                dist[dy][dx][d] = dist[b][c][d] + 1;
+                                pq.push({ dist[dy][dx][d], dy, dx, d });
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ll Min = LLONG_MAX;
+    for (auto& i : v) {
+        for (int j = 0; j < (1 << (count + 1)); j++) {
+            Min = min(Min, dist[i.first][i.second][j]);
+        }
+    }
+    if (Min == LLONG_MAX) {
+        cout << -1;
+    }
+    else {
+        cout << Min;
+    }
+    return 0;
+}
