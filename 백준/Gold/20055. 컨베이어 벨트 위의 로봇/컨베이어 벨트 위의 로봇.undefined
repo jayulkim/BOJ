@@ -1,0 +1,93 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<char, ll, ll> cll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<string, ll> psl;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<ll>v(2 * n + 1);
+    for (int i = 1; i <= 2 * n; i++) {
+        cin >> v[i];
+    }
+    deque<ll>updq;
+    deque<ll>downdq;
+    for (int i = 1; i <= n; i++) {
+        updq.push_back(i);
+    }
+    for (int i = 2 * n; i >= n + 1; i--) {
+        downdq.push_back(i);
+    }
+    ll c = 0;
+    ll result = 0;
+    vector<pll>vv;
+    while (1) {
+        result++;
+        ll count = 0;
+        ll a = updq.back();
+        updq.pop_back();
+        ll b = downdq.front();
+        downdq.pop_front();
+        updq.push_front(b);
+        downdq.push_back(a);
+        vector<pll>vvv;
+        sort(vv.begin(), vv.end());
+        for (auto& i : vv) {
+            if (i.second != n - 1) {
+                i.second++;
+            }
+        }
+        for (int i = 0; i < vv.size(); i++) {
+            if (vv[i].second != n - 1) {
+                bool find = false;
+                for (int j = i + 1; j < vv.size(); j++) {
+                    if (vv[i].second + 1 == vv[j].second) {
+                        find = true;
+                        break;
+                    }
+                }
+                for (int j = 0; j < vvv.size(); j++) {
+                    if (vv[i].second + 1 == vvv[j].second) {
+                        find = true;
+                        break;
+                    }
+                }
+                if (!v[updq[vv[i].second + 1]]) {
+                    find = true;
+                }
+                if (!find) {
+                    v[updq[vv[i].second + 1]]--;
+                    vvv.push_back({ vv[i].first, vv[i].second + 1 });
+                }
+                else {
+                    vvv.push_back({ vv[i].first, vv[i].second });
+                }
+            }
+        }
+        if ((vvv.empty() || vvv[0].second) && v[updq[0]]) {
+            v[updq[0]]--; 
+            vvv.push_back({ c++, 0 });
+        }
+        vv = vvv;
+        for (int i = 1; i <= 2 * n; i++) {
+            if (!v[i]) {
+                count++;
+            }
+        }
+        if (count >= m) {
+            break;
+        }
+    }
+    cout << result;
+    return 0;
+}
