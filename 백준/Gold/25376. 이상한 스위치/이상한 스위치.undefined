@@ -1,0 +1,61 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<char, ll, ll> cll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<vector<ll>, ll> pvl;
+typedef pair<ll, string> pls;
+typedef pair<string, ll> psl;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<ll>v(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> v[i];
+    }
+    vector<ll>table(n + 1, 0);
+    for (int i = 1; i <= n; i++) {
+        cin >> m;
+        for (int j = 0; j < m; j++) {
+            cin >> k;
+            table[i] += (1ULL << (k - 1));
+        }
+    }
+    vector<ll>visited((1ULL << n) + 1, false);
+    ll start = 0;
+    for (int i = 1; i <= n; i++) {
+        start += v[i] * (1ULL << (i - 1));
+    }
+    queue<pll>q;
+    q.push({ start, 0 });
+    while (!q.empty()) {
+        auto [a, b] = q.front();
+        q.pop();
+        if (a == (1ULL << n) - 1) {
+            cout << b;
+            return 0;
+        }
+        for (int i = 1; i <= n; i++) {
+            if (!((a >> (i - 1)) & 1)) {
+                ll temp = a;
+                temp ^= table[i];
+                temp += (1ULL << (i - 1));
+                if (!visited[temp]) {
+                    visited[temp] = true;
+                    q.push({ temp, b + 1 });
+                }
+            }
+        }
+    }
+    cout << -1;
+    return 0;
+}
