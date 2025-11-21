@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<char, ll, ll> cll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<vector<ll>, ll> pvl;
+typedef pair<ll, string> pls;
+typedef pair<string, ll> psl;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m >> k;
+    ll a = 0, b = 0;
+    ll c = 0, d = 0;
+    cin >> a >> b;
+    cin >> c >> d;
+    ll t = lcm(n, lcm(m, lcm(k, lcm(b, d))));
+    ll start = (t / b) * a + 1;
+    ll end = (t / d) * c - 1;
+    vector<ll>v = { t / n, t / m, t / k };
+    ll result = 0;
+    for (int i = 1; i <= 1000000; i++) {
+        ll mid = i * v[1];
+        if (mid >= end) {
+            break;
+        }
+        if (mid > start) {
+            ll a = (mid - 1) / v[0] - start / v[0];
+            if ((mid - 1) % v[0] == 0) {
+                a++;
+            }
+            ll b = end / v[2] - (mid + 1) / v[2];
+            if ((mid + 1) % v[2] == 0) {
+                b++;
+            }
+            result += max((ll)0, a * b);
+        }
+    }
+    cout << result;
+    return 0;
+}
