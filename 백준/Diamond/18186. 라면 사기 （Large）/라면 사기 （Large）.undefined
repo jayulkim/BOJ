@@ -1,0 +1,65 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<char, ll, ll> cll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<vector<ll>, ll> pvl;
+typedef pair<ll, string> pls;
+typedef pair<string, ll> psl;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m >> k;
+    vector<ll>v;
+    ll sum = 0;
+    for (int i = 0; i < n; i++) {
+        ll num = 0;
+        cin >> num;
+        sum += num;
+        v.push_back(num);
+    }
+    ll result = 0;
+    if (m > k) {
+        for (int i = 0; i < n;) {
+            if (i < n - 2 && v[i] && v[i + 1] && v[i + 2]) {
+                if (v[i] < v[i + 1] && v[i + 1] > v[i + 2]) {
+                    ll a = min({ v[i], v[i + 1] - v[i + 2] });
+                    result += (m + k) * a;
+                    v[i] -= a;
+                    v[i + 1] -= a;
+                }
+                ll a = min({ v[i], v[i + 1], v[i + 2] });
+                result += ((m + 2 * k)) * a;
+                v[i] -= a;
+                v[i + 1] -= a;
+                v[i + 2] -= a;
+            }
+            if (i < n - 1 && v[i] && v[i + 1]) {
+                ll a = min(v[i], v[i + 1]);
+                result += (m + k) * a;
+                v[i] -= a;
+                v[i + 1] -= a;
+            }
+            if (v[i]) {
+                result += m * v[i];
+                v[i] = 0;
+            }
+            if (!v[i]) {
+                i++;
+            }
+        }
+    }
+    else {
+        result += sum * m;
+    }
+    cout << result;
+    return 0;
+}
