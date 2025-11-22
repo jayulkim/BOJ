@@ -1,0 +1,184 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<char, ll, ll> cll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<vector<ll>, ll> pvl;
+typedef pair<ll, string> pls;
+typedef pair<string, ll> psl;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    ll mod = 1000000007;
+    vector<ll>v(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> v[i];
+    }
+    function<ll(ll, ll, ll)> mulmod = [&](ll a, ll b, ll c) -> ll {
+        return ((a % c) * (b % c)) % c;
+        };
+    vector<ll>tree(5 * n + 1);
+    function<ll(ll, ll, ll)> init = [&](ll start, ll end, ll idx) -> ll {
+        if (start == end) {
+            return tree[idx] = v[start] % mod;
+        }
+        ll mid = (start + end) / 2;
+        return tree[idx] = ((init(start, mid, idx * 2) % mod) + (init(mid + 1, end, idx * 2 + 1) % mod)) % mod;
+        };
+    vector<ll>lazy1(5 * n + 1, 0);
+    vector<ll>lazy2(5 * n + 1, 1);
+    vector<ll>lazy3(5 * n + 1, -1);
+    function<void(ll, ll, ll)> updatelazy1 = [&](ll start, ll end, ll idx) -> void {
+        if (lazy1[idx]) {
+            tree[idx] += mulmod(lazy1[idx], end - start + 1, mod);
+            tree[idx] %= mod;
+            if (start != end) {
+                lazy1[idx * 2] += lazy1[idx] % mod;
+                lazy1[idx * 2] %= mod;
+                lazy1[idx * 2 + 1] += lazy1[idx] % mod;
+                lazy1[idx * 2 + 1] %= mod;
+            }
+            lazy1[idx] = 0;
+        }
+        };
+    function<void(ll, ll, ll)> updatelazy2 = [&](ll start, ll end, ll idx) -> void {
+        if (lazy2[idx] != 1) {
+            tree[idx] = mulmod(tree[idx], lazy2[idx], mod);
+            if (start != end) {
+                lazy2[idx * 2] = mulmod(lazy2[idx * 2], lazy2[idx], mod);
+                lazy2[idx * 2 + 1] = mulmod(lazy2[idx * 2 + 1], lazy2[idx], mod);
+                lazy1[idx * 2] = mulmod(lazy1[idx * 2], lazy2[idx], mod);
+                lazy1[idx * 2 + 1] = mulmod(lazy1[idx * 2 + 1], lazy2[idx], mod);
+            }
+            lazy2[idx] = 1;
+        }
+        };
+    function<void(ll, ll, ll)> updatelazy3 = [&](ll start, ll end, ll idx) -> void {
+        if (lazy3[idx] != -1) {
+            tree[idx] = mulmod(lazy3[idx], end - start + 1, mod);
+            if (start != end) {
+                lazy1[idx * 2] = 0;
+                lazy2[idx * 2] = 1;
+                lazy1[idx * 2 + 1] = 0;
+                lazy2[idx * 2 + 1] = 1;
+                lazy3[idx * 2] = lazy3[idx];
+                lazy3[idx * 2 + 1] = lazy3[idx];
+            }
+            lazy3[idx] = -1;
+        }
+        };
+    function<void(ll, ll, ll, ll, ll, ll)> update1 = [&](ll start, ll end, ll idx, ll left, ll right, ll change) -> void {
+        updatelazy3(start, end, idx);
+        updatelazy2(start, end, idx);
+        updatelazy1(start, end, idx);
+        if (start > right || end < left) {
+            return;
+        }
+        if (left <= start && end <= right) {
+            tree[idx] += mulmod(change, end - start + 1, mod);
+            tree[idx] %= mod;
+            if (start != end) {
+                lazy1[idx * 2] += change % mod;
+                lazy1[idx * 2] %= mod;
+                lazy1[idx * 2 + 1] += change % mod;
+                lazy1[idx * 2 + 1] %= mod;
+            }
+            return;
+        }
+        ll mid = (start + end) / 2;
+        update1(start, mid, idx * 2, left, right, change);
+        update1(mid + 1, end, idx * 2 + 1, left, right, change);
+        tree[idx] = (tree[idx * 2] % mod + tree[idx * 2 + 1] % mod) % mod;
+        };
+    function<void(ll, ll, ll, ll, ll, ll)> update2 = [&](ll start, ll end, ll idx, ll left, ll right, ll change) -> void {
+        updatelazy3(start, end, idx);
+        updatelazy2(start, end, idx);
+        updatelazy1(start, end, idx);
+        if (start > right || end < left) {
+            return;
+        }
+        if (left <= start && end <= right) {
+            tree[idx] = mulmod(tree[idx], change, mod);
+            if (start != end) {
+                lazy1[idx * 2] = mulmod(lazy1[idx * 2], change, mod);
+                lazy1[idx * 2 + 1] = mulmod(lazy1[idx * 2 + 1], change, mod);
+                lazy2[idx * 2] = mulmod(lazy2[idx * 2], change, mod);
+                lazy2[idx * 2 + 1] = mulmod(lazy2[idx * 2 + 1], change, mod);
+            }
+            return;
+        }
+        ll mid = (start + end) / 2;
+        update2(start, mid, idx * 2, left, right, change);
+        update2(mid + 1, end, idx * 2 + 1, left, right, change);
+        tree[idx] = (tree[idx * 2] % mod + tree[idx * 2 + 1] % mod) % mod;
+        };
+    function<void(ll, ll, ll, ll, ll, ll)> update3 = [&](ll start, ll end, ll idx, ll left, ll right, ll change) -> void {
+        updatelazy3(start, end, idx);
+        updatelazy2(start, end, idx);
+        updatelazy1(start, end, idx);
+        if (start > right || end < left) {
+            return;
+        }
+        if (left <= start && end <= right) {
+            tree[idx] = mulmod(change, end - start + 1, mod);
+            if (start != end) {
+                lazy1[idx * 2] = 0;
+                lazy2[idx * 2] = 1;
+                lazy1[idx * 2 + 1] = 0;
+                lazy2[idx * 2 + 1] = 1;
+                lazy3[idx * 2] = change;
+                lazy3[idx * 2 + 1] = change;
+            }
+            return;
+        }
+        ll mid = (start + end) / 2;
+        update3(start, mid, idx * 2, left, right, change);
+        update3(mid + 1, end, idx * 2 + 1, left, right, change);
+        tree[idx] = (tree[idx * 2] % mod + tree[idx * 2 + 1] % mod) % mod;
+        };
+    function<ll(ll, ll, ll, ll, ll)> query4 = [&](ll start, ll end, ll idx, ll left, ll right) -> ll {
+        updatelazy3(start, end, idx);
+        updatelazy2(start, end, idx);
+        updatelazy1(start, end, idx);
+        if (start > right || end < left) {
+            return 0;
+        }
+        if (left <= start && end <= right) {
+            return tree[idx] % mod;
+        }
+        ll mid = (start + end) / 2;
+        return (query4(start, mid, idx * 2, left, right) % mod + query4(mid + 1, end, idx * 2 + 1, left, right) % mod) % mod;
+        };
+    init(1, n, 1);
+    cin >> m;
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0, c = 0, d = 0;
+        cin >> a;
+        if (a == 1) {
+            cin >> b >> c >> d;
+            update1(1, n, 1, b, c, d);
+        }
+        else if (a == 2) {
+            cin >> b >> c >> d;
+            update2(1, n, 1, b, c, d);
+        }
+        else if (a == 3) {
+            cin >> b >> c >> d;
+            update3(1, n, 1, b, c, d);
+        }
+        else {
+            cin >> b >> c;
+            cout << query4(1, n, 1, b, c) << '\n';
+        }
+    }
+    return 0;
+}
