@@ -1,0 +1,65 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<pll>v;
+    for (int i = 0; i < n; i++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        v.push_back({ a, b });
+    }
+    sort(v.begin(), v.end());
+    vector<ll>adp(n + 1, 1);
+    vector<ll>bdp(n + 1, 1);
+    vector<ll>cdp(n + 1, 1);
+    vector<ll>ddp(n + 1, 1);
+    for (int i = 0; i < n; i++) {
+        for (int j = i - 1; j >= 0; j--) {
+            if (v[i].first > v[j].first && v[i].second > v[j].second) {
+                adp[i] = max(adp[i], adp[j] + 1);
+            }
+        }
+        for (int j = i - 1; j >= 0; j--) {
+            if (v[i].first > v[j].first && v[i].second < v[j].second) {
+                bdp[i] = max(bdp[i], bdp[j] + 1);
+            }
+        }
+    }
+    for (int i = n - 1; i >= 0; i--) {
+        for (int j = i + 1; j < n; j++) {
+            if (v[i].first < v[j].first && v[i].second > v[j].second) {
+                cdp[i] = max(cdp[i], cdp[j] + 1);
+            }
+        }
+        for (int j = i + 1; j < n; j++) {
+            if (v[i].first < v[j].first && v[i].second < v[j].second) {
+                ddp[i] = max(ddp[i], ddp[j] + 1);
+            }
+        }
+    }
+    ll Min = LLONG_MAX;
+    for (int i = 0; i < n - 1; i++) {
+        if (adp[i] > 1 && bdp[i] > 1 && cdp[i] > 1 && ddp[i] > 1) {
+            Min = min(Min, n - (adp[i] + bdp[i] + cdp[i] + ddp[i]) + 3);
+        }
+    }
+    if (Min == LLONG_MAX) {
+        cout << -1;
+        return 0;
+    }
+    cout << Min;
+    return 0;
+}
