@@ -1,0 +1,118 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<lll>v;
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        v.push_back({ a, c, i + 1 });
+    }
+    sort(v.begin(), v.end());
+    vector<ll>x;
+    vector<ll>dot(m + 1);
+    for (auto [a, b, c] : v) {
+        x.push_back(a);
+        dot[c] = b;
+    }
+    vector<ll>vv(n + 1, 0);
+    for (int i = 1; i <= n; i++) {
+        ll idx = lower_bound(x.begin(), x.end(), i) - x.begin();
+        if (idx == m) {
+            vv[i] = m;
+            continue;
+        }
+        if (x[idx] > i) {
+            idx--;
+        }
+        vv[i] = idx + 1;
+    }
+    vector<ll>tree(4 * n + 100);
+    function<ll(ll, ll, ll)> init = [&](ll start, ll end, ll idx) -> ll {
+        if (start == end) {
+            return tree[idx] = dot[start];
+        }
+        ll mid = (start + end) / 2;
+        return tree[idx] = init(start, mid, idx * 2) + init(mid + 1, end, idx * 2 + 1);
+        };
+    vector<ll>lazy(4 * n + 100, 0);
+    function<void(ll, ll, ll)> updatelazy = [&](ll start, ll end, ll idx) -> void {
+        if (lazy[idx]) {
+            tree[idx] += (end - start + 1) * lazy[idx];
+            if (start != end) {
+                lazy[idx * 2] += lazy[idx];
+                lazy[idx * 2 + 1] += lazy[idx];
+            }
+            lazy[idx] = 0;
+        }
+        };
+    function<ll(ll, ll, ll, ll, ll)> query = [&](ll start, ll end, ll idx, ll left, ll right) -> ll {
+        updatelazy(start, end, idx);
+        if (start > right || end < left) {
+            return 0;
+        }
+        if (left <= start && end <= right) {
+            return tree[idx];
+        }
+        ll mid = (start + end) / 2;
+        return query(start, mid, idx * 2, left, right) + query(mid + 1, end, idx * 2 + 1, left, right);
+        };
+    function<void(ll, ll, ll, ll, ll, ll)> update = [&](ll start, ll end, ll idx, ll left, ll right, ll temp) -> void {
+        updatelazy(start, end, idx);
+        if (start > right || end < left) {
+            return;
+        }
+        if (left <= start && end <= right) {
+            tree[idx] += (end - start + 1) * temp;
+            if (start != end) {
+                lazy[idx * 2] += temp;
+                lazy[idx * 2 + 1] += temp;
+            }
+            return;
+        }
+        ll mid = (start + end) / 2;
+        update(start, mid, idx * 2, left, right, temp);
+        update(mid + 1, end, idx * 2 + 1, left, right, temp);
+        tree[idx] = tree[idx * 2] + tree[idx * 2 + 1];
+        };
+    init(1, m, 1);
+    while (1) {
+        ll a = 0, b = 0, c = 0, d = 0;
+        cin >> a >> b >> c;
+        if (!a && !b && !c) {
+            break;
+        }
+        if (a == 1) {
+            if (vv[b] <= vv[c]) {
+                cout << query(1, m, 1, vv[b], vv[c]) << '\n';
+            }
+            else {
+                cout << query(1, m, 1, vv[b], vv[n]) + query(1, m, 1, vv[1], vv[c]) << '\n';
+            }
+        }
+        else {
+            cin >> d;
+            if (vv[b] <= vv[c]) {
+                update(1, m, 1, vv[b], vv[c], d);
+            }
+            else {
+                update(1, m, 1, vv[b], vv[n], d);
+                update(1, m, 1, vv[1], vv[c], d);
+            }
+        }
+    }
+    return 0;
+ }
