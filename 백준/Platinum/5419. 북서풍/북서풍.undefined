@@ -1,0 +1,74 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    ll num = 0;
+    cin >> num;
+    while (num--) {
+        cin >> n;
+        vector<pll>v;
+        vector<ll>vv;
+        ll result = 0;
+        for (int i = 0; i < n; i++) {
+            ll a = 0, b = 0;
+            cin >> a >> b;
+            v.push_back({ a, b });
+            vv.push_back(b);
+        }
+        sort(vv.begin(), vv.end());
+        vv.erase(unique(vv.begin(), vv.end()), vv.end());
+        map<ll, ll>Map;
+        for (int i = 0; i < vv.size(); i++) {
+            Map[vv[i]] = i + 1;
+        }
+        function<bool(const pll&, const pll&)> compare = [&](const pll& a, const pll& b) -> bool {
+            if (a.first == b.first) {
+                return a.second < b.second;
+            }
+            return a.first > b.first;
+            };
+        sort(v.begin(), v.end(), compare);
+        vector<ll>tree(4 * n + 100, 0);
+        function<ll(ll, ll, ll, ll, ll)> query = [&](ll start, ll end, ll idx, ll left, ll right) -> ll {
+            if (start > right || end < left) {
+                return 0;
+            }
+            if (left <= start && end <= right) {
+                return tree[idx];
+            }
+            ll mid = (start + end) / 2;
+            return query(start, mid, idx * 2, left, right) + query(mid + 1, end, idx * 2 + 1, left, right);
+            };
+        function<void(ll, ll, ll, ll, ll)> update = [&](ll start, ll end, ll idx, ll changeidx, ll temp) -> void {
+            if (start > changeidx || end < changeidx) {
+                return;
+            }
+            if (start == end) {
+                tree[idx] += temp;
+                return;
+            }
+            ll mid = (start + end) / 2;
+            update(start, mid, idx * 2, changeidx, temp);
+            update(mid + 1, end, idx * 2 + 1, changeidx, temp);
+            tree[idx] = tree[idx * 2] + tree[idx * 2 + 1];
+            };
+        for (int i = 0; i < n; i++) {
+            result += query(1, n, 1, 1, Map[v[i].second]);
+            update(1, n, 1, Map[v[i].second], 1);
+        }
+        cout << result << '\n';
+    }
+    return 0;
+}
