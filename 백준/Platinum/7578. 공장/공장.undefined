@@ -1,0 +1,59 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+vector<ll>tree(4 * 500000 + 100, 0);
+ll query (ll start, ll end, ll idx, ll left, ll right) {
+    if (start > right || end < left) {
+        return 0;
+    }
+    if (left <= start && end <= right) {
+        return tree[idx];
+    }
+    ll mid = (start + end) / 2;
+    return query(start, mid, idx * 2, left, right) + query(mid + 1, end, idx * 2 + 1, left, right);
+    };
+void update (ll start, ll end, ll idx, ll changeidx, ll temp) {
+    if (start > changeidx || end < changeidx) {
+        return;
+    }
+    if (start == end) {
+        tree[idx] = temp;
+        return;
+    }
+    ll mid = (start + end) / 2;
+    update(start, mid, idx * 2, changeidx, temp);
+    update(mid + 1, end, idx * 2 + 1, changeidx, temp);
+    tree[idx] = tree[idx * 2] + tree[idx * 2 + 1];
+    };
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    ll num = 0;
+    cin >> n;
+    map<ll, ll>Map;
+    vector<ll>v(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> m;
+        Map[m] = i;
+    }
+    for (int i = 1; i <= n; i++) {
+        cin >> m;
+        v[i] = Map[m];
+    }
+    ll result = 0;
+    for (int i = 1; i <= n; i++) {
+        result += query(1, n, 1, v[i], n);
+        update(1, n, 1, v[i], 1);
+    }
+    cout << result;
+    return 0;
+ }
