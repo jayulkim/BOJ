@@ -1,0 +1,102 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<lll>v;
+    ll Min = LLONG_MAX;
+    for (int i = 0; i < n; i++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        v.push_back({ a, b, i });
+    }
+    function<bool(const lll&, const lll&)> compareup = [&](const lll& a, const lll& b) -> bool {
+        if (get<0>(a) == get<0>(b)) {
+            return get<1>(a) > get<1>(b);
+        }
+        return get<0>(a) < get<0>(b);
+        };
+    sort(v.begin(), v.end(), compareup);
+    vector<ll>aydp = { get<1>(v[0]) };
+    vector<ll>adp(n + 1, 1);
+    vector<ll>bdp(n + 1, 1);
+    vector<ll>cdp(n + 1, 1);
+    vector<ll>ddp(n + 1, 1);
+    for (int i = 1; i < n; i++) {
+        auto [a, b, c] = v[i];
+        if (aydp.back() < b) {
+            aydp.push_back(b);
+            adp[c] = aydp.size();
+        }
+        else {
+            ll idx = lower_bound(aydp.begin(), aydp.end(), b) - aydp.begin();
+            aydp[idx] = b;
+            adp[c] = idx + 1;
+        }
+    }
+    sort(v.begin(), v.end());
+    vector<ll>bydp = { get<1>(v[0]) };
+    for (int i = 1; i < n; i++) {
+        auto [a, b, c] = v[i];
+        if (bydp.back() > b) {
+            bydp.push_back(b);
+            bdp[c] = bydp.size();
+        }
+        else {
+            ll idx = lower_bound(bydp.begin(), bydp.end(), b, greater<ll>()) - bydp.begin();
+            bydp[idx] = b;
+            bdp[c] = idx + 1;
+        }
+    }
+    sort(v.begin(), v.end());
+    vector<ll>cydp = { get<1>(v[n - 1]) };
+    for (int i = n - 2; i >= 0; i--) {
+        auto [a, b, c] = v[i];
+        if (cydp.back() < b) {
+            cydp.push_back(b);
+            cdp[c] = cydp.size();
+        }
+        else {
+            ll idx = lower_bound(cydp.begin(), cydp.end(), b) - cydp.begin();
+            cydp[idx] = b;
+            cdp[c] = idx + 1;
+        }
+    }
+    sort(v.begin(), v.end(), compareup);
+    vector<ll>dydp = { get<1>(v[n - 1]) };
+    for (int i = n - 2; i >= 0; i--) {
+        auto [a, b, c] = v[i];
+        if (dydp.back() > b) {
+            dydp.push_back(b);
+            ddp[c] = dydp.size();
+        }
+        else {
+            ll idx = lower_bound(dydp.begin(), dydp.end(), b, greater<ll>()) - dydp.begin();
+            dydp[idx] = b;
+            ddp[c] = idx + 1;
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        if (adp[i] > 1 && bdp[i] > 1 && cdp[i] > 1 && ddp[i] > 1) {
+            Min = min(Min, n - (adp[i] + bdp[i] + cdp[i] + ddp[i]) + 3);
+        }
+    }
+    if (Min == LLONG_MAX) {
+        cout << -1;
+        return 0;
+    }
+    cout << Min;
+    return 0;
+}
