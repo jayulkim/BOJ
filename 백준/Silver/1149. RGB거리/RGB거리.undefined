@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<vector<ll>>Map(n + 1, vector<ll>(3));
+    vector<vector<ll>>dp(n + 1, vector<ll>(3, -1));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < 3; j++) {
+            cin >> Map[i][j];
+        }
+    }
+    function<ll(ll, ll)> dfs = [&](ll y, ll x) -> ll {
+        if (y == n) {
+            return 0;
+        }
+        if (dp[y][x] != -1) {
+            return dp[y][x];
+        }
+        ll weight = 1e9;
+        if (x - 1 >= 0) {
+            weight = min(weight, dfs(y + 1, x - 1) + Map[y][x]);
+        }
+        if (x + 1 < 3) {
+            weight = min(weight, dfs(y + 1, x + 1) + Map[y][x]);
+        }
+        if (x - 2 >= 0) {
+            weight = min(weight, dfs(y + 1, x - 2) + Map[y][x]);
+        }
+        if (x + 2 < 3) {
+            weight = min(weight, dfs(y + 1, x + 2) + Map[y][x]);
+        }
+        return dp[y][x] = weight;
+        };
+    cout << min({ dfs(0, 0), dfs(0, 1), dfs(0, 2) });
+    return 0;
+ }
