@@ -1,0 +1,91 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    map<char, ll>Map;
+    Map['a'] = 1;
+    Map['b'] = 2;
+    Map['k'] = 3;
+    Map['d'] = 4;
+    Map['e'] = 5;
+    Map['g'] = 6;
+    Map['h'] = 7;
+    Map['i'] = 8;
+    Map['l'] = 9;
+    Map['m'] = 10;
+    Map['n'] = 11;
+    Map['o'] = 13;
+    Map['p'] = 14;
+    Map['r'] = 15;
+    Map['s'] = 16;
+    Map['t'] = 17;
+    Map['u'] = 18;
+    Map['w'] = 19;
+    Map['y'] = 20;
+    function<bool(string, string)> compare = [&](string a, string b) -> bool {
+        vector<ll>aa;
+        vector<ll>bb;
+        for (int i = 0; i < a.length();) {
+            if (i < a.length() - 1 && a[i] == 'n' && a[i + 1] == 'g') {
+                aa.push_back(12);
+                i += 2;
+            }
+            else {
+                aa.push_back(Map[a[i]]);
+                i++;
+            }
+        }
+        for (int i = 0; i < b.length();) {
+            if (i < b.length() - 1 && b[i] == 'n' && b[i + 1] == 'g') {
+                bb.push_back(12);
+                i += 2;
+            }
+            else {
+                bb.push_back(Map[b[i]]);
+                i++;
+            }
+        }
+        for (int i = 0; i < min(aa.size(), bb.size()); i++) {
+            if (aa[i] > bb[i]) {
+                return true;
+            }
+            else if (aa[i] < bb[i]) {
+                return false;
+            }
+        }
+        return aa.size() > bb.size();
+        };
+    vector<string>v;
+    vector<string>result(n + 1);
+    for (int i = 0; i < n; i++) {
+        string str = "";
+        cin >> str;
+        v.push_back(str);
+    }
+    for (int i = 0; i < n; i++) {
+        ll idx = 0;
+        for (int j = 0; j < n; j++) {
+            if (i != j && compare(v[i], v[j])) {
+                idx++;
+            }
+        }
+        result[idx] = v[i];
+    }
+    for (int i = 0; i < n; i++) {
+        cout << result[i] << '\n';
+    }
+    return 0;
+}
