@@ -1,0 +1,44 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef long double ld;
+typedef tuple<ll, ll, ll> tp;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	cin >> n;
+	vector<vector<ll>>Map(n + 1, vector<ll>(n + 1));
+	vector<vector<ll>>dp(n + 1, vector<ll>(n + 1, -1));
+	vector<vector<ll>>forward = { {-1, 0}, {1, 0}, {0, 1}, {0, -1} };
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j++) {
+			cin >> Map[i][j];
+		}
+	}
+	function<ll(ll, ll)> dfs = [&](ll a, ll b) -> ll {
+		if (dp[a][b] != -1) {
+			return dp[a][b];
+		}
+		ll weight = 1;
+		for (int i = 0; i < 4; i++) {
+			ll dy = a + forward[i][0];
+			ll dx = b + forward[i][1];
+			if (dy >= 0 && dy < n && dx >= 0 && dx < n && Map[a][b] < Map[dy][dx]) {
+				weight = max(weight, dfs(dy, dx) + 1);
+			}
+		}
+		return dp[a][b] = weight;
+		};
+	ll Max = 1;
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j++) {
+			Max = max(Max, dfs(i, j));
+		}
+	}
+	cout << Max;
+	return 0;
+}
