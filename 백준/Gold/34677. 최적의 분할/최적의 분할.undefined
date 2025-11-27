@@ -15,17 +15,17 @@ int main(void) {
     ios::sync_with_stdio(false);
     cin.tie(0);
     cin >> n;
-    vector<pll>a;
-    vector<pll>b;
-    for (int i = 0; i < n; i++) {
-        cin >> m;
-        a.push_back({ m, i });
-    }
-    for (int i = 0; i < n; i++) {
-        cin >> m;
-        b.push_back({ m, i });
-    }
+    vector<ll>a;
+    vector<ll>b;
     vector<ll>dp(n + 1, -1);
+    for (int i = 0; i < n; i++) {
+        cin >> m;
+        a.push_back(m);
+    }
+    for (int i = 0; i < n; i++) {
+        cin >> m;
+        b.push_back(m);
+    }
     function<ll(ll)> dfs = [&](ll x) -> ll {
         if (x == n) {
             return 0;
@@ -34,18 +34,17 @@ int main(void) {
             return dp[x];
         }
         ll weight = LLONG_MAX;
+        ll aidx = 0, bidx = 0;
         ll aMin = LLONG_MAX;
-        ll aidx = 0;
         ll bMin = LLONG_MAX;
-        ll bidx = 0;
         for (int i = x; i < n; i++) {
-            if (aMin > a[i].first) {
-                aMin = a[i].first;
-                aidx = a[i].second;
+            if (aMin > a[i]) {
+                aidx = i;
+                aMin = a[i];
             }
-            if (bMin > b[i].first) {
-                bMin = b[i].first;
-                bidx = b[i].second;
+            if (bMin > b[i]) {
+                bidx = i;
+                bMin = b[i];
             }
             if (aidx == bidx) {
                 weight = min(weight, dfs(i + 1) + 1);
@@ -55,4 +54,4 @@ int main(void) {
         };
     cout << dfs(0);
     return 0;
-}
+ }
