@@ -1,0 +1,80 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<vector<char>>Map(n + 1, vector<char>(m + 1));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> Map[i][j];
+        }
+    }
+    queue<pll>q;
+    vector<vector<bool>>visited(n + 1, vector<bool>(m + 1, false));
+    vector<vector<char>>result(n + 1, vector<char>(m + 1, '#'));
+    ll y = 0, x = 0;
+    cin >> y >> x;
+    y--;
+    x--;
+    string str = "";
+    cin >> str;
+    for (auto& i : str) {
+        if (i == 'U') {
+            y--;
+        }
+        else if (i == 'D') {
+            y++;
+        }
+        else if (i == 'L') {
+            x--;
+        }
+        else if (i == 'R') {
+            x++;
+        }
+        else {
+            q.push({ y, x });
+        }
+    }
+    vector<vector<ll>>forward = { {-1, 0}, {1, 0}, {0, 1}, {0, -1} };
+    result[y][x] = '.';
+    for (int i = 0; i < 4; i++) {
+        ll dy = y + forward[i][0];
+        ll dx = x + forward[i][1];
+        if (dy >= 0 && dy < n && dx >= 0 && dx < m) {
+            result[dy][dx] = '.';
+        }
+    }
+    while (!q.empty()) {
+        pll temp = q.front();
+        q.pop();
+        result[temp.first][temp.second] = '.';
+        visited[temp.first][temp.second] = true;
+        for (int i = 0; i < 4; i++) {
+            ll dy = temp.first + forward[i][0];
+            ll dx = temp.second + forward[i][1];
+            if (dy >= 0 && dy < n && dx >= 0 && dx < m && !visited[dy][dx] && Map[dy][dx] == Map[temp.first][temp.second]) {
+                visited[dy][dx] = true;
+                q.push({ dy, dx });
+            }
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cout << result[i][j];
+        }
+        cout << '\n';
+    }
+    return 0;
+}
