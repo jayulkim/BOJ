@@ -1,0 +1,37 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    vector<vector<vector<ll>>>dp(101, vector<vector<ll>>(101, vector<ll>(2, 0)));
+    dp[1][0][0] = 1;
+    dp[1][0][1] = 1;
+    for (int i = 2; i <= 100; i++) {
+        for (int j = 0; j <= 100; j++) {
+            dp[i][j][0] += dp[i - 1][j][0];
+            dp[i][j][0] += dp[i - 1][j][1];
+            dp[i][j][1] += dp[i - 1][j][0];
+            if (j >= 1) {
+                dp[i][j][1] += dp[i - 1][j - 1][1];
+            }
+        }
+    }
+    ll num = 0;
+    cin >> num;
+    while (num--) {
+        cin >> n >> m;
+        cout << dp[n][m][0] + dp[n][m][1] << '\n';
+    }
+    return 0;
+}
