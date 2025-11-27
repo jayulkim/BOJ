@@ -1,0 +1,54 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<string, ll> psl;
+typedef tuple<ll, ll, ll>tp;
+typedef tuple<pll, string, ll>pllsl;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<ll>parent(n + 1);
+    iota(parent.begin(), parent.end(), 0);
+    vector<ll>rank(n + 1, 1);
+    function<ll(ll)> getparent = [&](ll x) -> ll {
+        if (parent[x] == x) {
+            return x;
+        }
+        return parent[x] = getparent(parent[x]);
+        };
+    function<void(ll, ll)> merge = [&](ll a, ll b) -> void {
+        a = getparent(a);
+        b = getparent(b);
+        if (rank[a] > rank[b]) {
+            rank[a] += rank[b];
+            rank[b] = 0;
+            parent[b] = a;
+        }
+        else {
+            rank[b] += rank[a];
+            rank[a] = 0;
+            parent[a] = b;
+        }
+        };
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        if (!a) {
+            merge(b, c);
+        }
+        else {
+            if (getparent(b) != getparent(c)) {
+                cout << "NO" << '\n';
+            }
+            else {
+                cout << "YES" << '\n';
+            }
+        }
+    }
+    return 0;
+}
