@@ -1,0 +1,88 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<vector<char>>Map(n + 1, vector<char>(m + 1));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> Map[i][j];
+        }
+    }
+    vector<vector<pll>>parent(n + 1, vector<pll>(m + 1));
+    vector<vector<ll>>rank(n + 1, vector<ll>(m + 1, 1));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            parent[i][j] = { i, j };
+        }
+    }
+    function<pll(pll)> getparent = [&](pll temp) -> pll {
+        if (parent[temp.first][temp.second] == temp) {
+            return temp;
+        }
+        return parent[temp.first][temp.second] = getparent(parent[temp.first][temp.second]);
+        };
+    function<void(pll, pll)> merge = [&](pll a, pll b) -> void {
+        a = getparent(a);
+        b = getparent(b);
+        if (rank[a.first][a.second] > rank[b.first][b.second]) {
+            rank[a.first][a.second] += rank[b.first][b.second];
+            rank[b.first][b.second] = 0;
+            parent[b.first][b.second] = a;
+        }
+        else {
+            rank[b.first][b.second] += rank[a.first][a.second];
+            rank[a.first][a.second] = 0;
+            parent[a.first][a.second] = b;
+        }
+        };
+    queue<pll>q;
+    map<char, ll>f;
+    f['D'] = 2;
+    f['U'] = 3;
+    f['L'] = 1;
+    f['R'] = 0;
+    vector<vector<ll>>forward = { {0, 1}, {0, -1}, {1, 0}, {-1, 0} };
+    vector<vector<bool>>visited(n + 1, vector<bool>(m + 1, false));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            if (!visited[i][j]) {
+                q.push({ i, j });
+                while (!q.empty()) {
+                    pll temp = q.front();
+                    q.pop();
+                    visited[temp.first][temp.second] = true;
+                    ll dy = temp.first + forward[f[Map[temp.first][temp.second]]][0];
+                    ll dx = temp.second + forward[f[Map[temp.first][temp.second]]][1];
+                    if (!visited[dy][dx]) {
+                        q.push({ dy, dx });
+                        visited[dy][dx] = true;
+                    }
+                    if (getparent(temp) != getparent({ dy, dx })) {
+                        merge(temp, { dy, dx });
+                    }
+                }
+            }
+        }
+    }
+    map<pll, ll>result;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            result[getparent({ i, j })]++;
+        }
+    }
+    cout << result.size();
+    return 0;
+}
