@@ -1,0 +1,73 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<string, ll> psl;
+typedef tuple<ll, ll, ll>tp;
+typedef tuple<pll, string, ll>pllsl;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<ll>v;
+    vector<ll>vv;
+    for (int i = 0; i < n; i++) {
+        cin >> k;
+        v.push_back(k);
+    }
+    for (int i = 0; i < m; i++) {
+        cin >> k;
+        vv.push_back(k);
+    }
+    ll vvidx = 0;
+    ll vidx = 0;
+    for (int i = 0; i < n; i++) {
+        if (v[i] == vv[0]) {
+            vidx = i;
+            break;
+        }
+    }
+    ll temp = vidx;
+    ll count = 0;
+    bool find = false;
+    while (count < m) {
+        if (vv[vvidx] != v[vidx]) {
+            find = true;
+            break;
+        }
+        count++;
+        vvidx++;
+        vidx++;
+        vvidx %= m;
+        vidx %= n;
+    }
+    if (!find) {
+        cout << 1;
+        return 0;
+    }
+    vvidx = 0;
+    vidx = temp;
+    count = 0;
+    find = false;
+    while (count < m) {
+        if (vv[vvidx] != v[vidx]) {
+            find = true;
+            break;
+        }
+        count++;
+        vvidx++;
+        vidx--;
+        vidx += n;
+        vvidx %= m;
+        vidx %= n;
+    }
+    if (!find) {
+        cout << 1;
+        return 0;
+    }
+    cout << 0;
+    return 0;
+}
