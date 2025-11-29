@@ -1,0 +1,86 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<vector<vector<ll>>>dp(n + 1, vector<vector<ll>>(n + 1, vector<ll>(3, -1)));
+    vector<vector<ll>>Map(n + 1, vector<ll>(n + 1));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cin >> Map[i][j];
+        }
+    }
+    function<bool(ll, ll, ll)> check = [&](ll a, ll b, ll c) -> bool {
+        if (!c) {
+            if (b + 1 < n && !Map[a][b + 1]) {
+                return true;
+            }
+            return false;
+        }
+        if (c == 1) {
+            if (a + 1 < n && !Map[a + 1][b]) {
+                return true;
+            }
+            return false;
+        }
+        if (c == 2) {
+            if (a + 1 < n && b + 1 < n && !Map[a + 1][b + 1] && !Map[a + 1][b] && !Map[a][b + 1]) {
+                return true;
+            }
+            return false;
+        }
+        };
+    function<ll(ll, ll, ll)> dfs = [&](ll a, ll b, ll c) -> ll {
+        if (a == n - 1 && b == n - 1) {
+            return 1;
+        }
+        if (dp[a][b][c] != -1) {
+            return dp[a][b][c];
+        }
+        ll weight = 0;
+        if (!c) {
+            if (check(a, b, 0)) {
+                weight += dfs(a, b + 1, 0);
+            }
+            if (check(a, b, 2)) {
+                weight += dfs(a + 1, b + 1, 2);
+            }
+        }
+        else if (c == 1) {
+            if (check(a, b, 1)) {
+                weight += dfs(a + 1, b, 1);
+            }
+            if (check(a, b, 2)) {
+                weight += dfs(a + 1, b + 1, 2);
+            }
+        }
+        else {
+            if (check(a, b, 0)) {
+                weight += dfs(a, b + 1, 0);
+            }
+            if (check(a, b, 1)) {
+                weight += dfs(a + 1, b, 1);
+            }
+            if (check(a, b, 2)) {
+                weight += dfs(a + 1, b + 1, 2);
+            }
+        }
+        return dp[a][b][c] = weight;
+        };
+    cout << dfs(0, 1, 0);
+    return 0;
+}
