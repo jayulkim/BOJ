@@ -1,0 +1,43 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m >> k;
+    ll count = 0;
+    function<void(ll, ll, ll)> dfs = [&](ll a, ll b, ll c) -> void {
+        if (c == 0) {
+            if (a == m && b == k) {
+                cout << count;
+                exit(0);
+            }
+            count++;
+            return;
+        }
+        ll t = (1ULL << (c - 1));
+        if (a <= m && m <= a + 2 * t && b <= k && k <= b + 2 * t) {
+            dfs(a, b, c - 1);
+            dfs(a, b + t, c - 1);
+            dfs(a + t, b, c - 1);
+            dfs(a + t, b + t, c - 1);
+        }
+        else {
+            count += 2 * t * 2 * t;
+        }
+        };
+    dfs(0, 0, n);
+    return 0;
+}
