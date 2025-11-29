@@ -1,0 +1,45 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    string a = "";
+    string b = "";
+    string c = "";
+    cin >> a >> b >> c;
+    ll temp = 0;
+    if (isdigit(a[0])) {
+        temp = stoll(a) + 3;
+    }
+    if (isdigit(b[0])) {
+        temp = stoll(b) + 2;
+    }
+    if (isdigit(c[0])) {
+        temp = stoll(c) + 1;
+    }
+    if (temp % 3 && temp % 5) {
+        cout << temp;
+    }
+    else if (temp % 3) {
+        cout << "Buzz";
+    }
+    else if (temp % 5) {
+        cout << "Fizz";
+    }
+    else {
+        cout << "FizzBuzz";
+    }
+    return 0;
+}
