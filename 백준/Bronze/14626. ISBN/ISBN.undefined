@@ -1,0 +1,49 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    string str = "";
+    cin >> str;
+    ll idx = 0;
+    ll sum = 0;
+    for (int i = 0; i < str.length(); i++) {
+        if (str[i] == '*') {
+            idx = i;
+        }
+        else {
+            if (i % 2) {
+                sum += 3 * (str[i] - '0');
+            }
+            else {
+                sum += str[i] - '0';
+            }
+        }
+    }
+    ll temp = 0;
+    if (idx % 2) {
+        temp = 3;
+    }
+    else {
+        temp = 1;
+    }
+    for (int i = 0; i <= 9; i++) {
+        if ((temp * i + sum) % 10 == 0) {
+            cout << i;
+            return 0;
+        }
+    }
+    return 0;
+}
