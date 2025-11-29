@@ -1,0 +1,64 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    map<vector<ll>, ll>dist;
+    vector<ll>v;
+    cin >> n;
+    for (int i = 0; i < n; i++) {
+        cin >> m;
+        v.push_back(m);
+    }
+    vector<ll>vv = v;
+    sort(all(v));
+    vector<ll>vvv = v;
+    do {
+        dist[v] = LLONG_MAX;
+    } while (next_permutation(all(v)));
+    cin >> m;
+    vector<lll>query;
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        query.push_back({ a, b, c });
+    }
+    priority_queue<plv, vector<plv>, greater<plv>>pq;
+    pq.push({ 0, vv });
+    dist[vv] = 0;
+    while (!pq.empty()) {
+        auto [a, b] = pq.top();
+        pq.pop();
+        if (dist[b] >= a) {
+            for (auto& [c, d, e] : query) {
+                vector<ll>temp = b;
+                swap(temp[c - 1], temp[d - 1]);
+                if (dist[temp] > dist[b] + e) {
+                    dist[temp] = dist[b] + e;
+                    pq.push({ dist[temp], temp });
+                }
+            }
+        }
+    }
+    if (dist[vvv] == LLONG_MAX) {
+        cout << -1;
+    }
+    else {
+        cout << dist[vvv];
+    }
+    return 0;
+}
