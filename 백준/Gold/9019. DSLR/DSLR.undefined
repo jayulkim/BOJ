@@ -1,0 +1,77 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define fo(i, n, m) for (int i = n; i < m; i++)
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    ll num = 0;
+    cin >> num;
+    while (num--) {
+        cin >> n >> m;
+        vector<ll>visited(10001, false);
+        vector<plc>parent(10001);
+        queue<plc>q;
+        vector<char>result;
+        function<void(ll)> dfs = [&](ll x) -> void {
+            if (parent[x].first == n) {
+                return;
+            }
+            result.push_back(parent[x].second);
+            dfs(parent[x].first);
+            };
+        q.push({ n, '.' });
+        while (!q.empty()) {
+            plc temp = q.front();
+            q.pop();
+            visited[temp.first] = true;
+            if (temp.first == m) {
+                result.push_back(temp.second);
+                dfs(temp.first);
+                reverse(all(result));
+                for (auto& i : result) {
+                    cout << i;
+                }
+                cout << '\n';
+                break;
+            }
+            if (!visited[(temp.first * 2) % 10000]) {
+                parent[(temp.first * 2) % 10000] = temp;
+                visited[(temp.first * 2) % 10000] = true;
+                q.push({ (temp.first * 2) % 10000, 'D' });
+            }
+            if (!visited[(temp.first - 1 + 10000) % 10000]) {
+                parent[(temp.first - 1 + 10000) % 10000] = temp;
+                visited[(temp.first - 1 + 10000) % 10000] = true;
+                q.push({ (temp.first - 1 + 10000) % 10000, 'S' });
+            }
+            ll t = 1000;
+            ll a = 0, b = 0;
+            a = (temp.first - t * (temp.first / t)) * 10 + temp.first / t;
+            b = (temp.first % 10) * t + temp.first / 10;
+            if (!visited[a]) {
+                visited[a] = true;
+                parent[a] = temp;
+                q.push({ a, 'L' });
+            }
+            if (!visited[b]) {
+                visited[b] = true;
+                parent[b] = temp;
+                q.push({ b, 'R' });
+            }
+        }
+    }
+    return 0;
+}
