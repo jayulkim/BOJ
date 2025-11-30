@@ -23,18 +23,24 @@ int main(void) {
     vector<vector<ll>>pal(len(str) + 1, vector<ll>(len(str) + 1, 0));
     vector<ll>dp(len(str) + 1, -1);
     for (int i = 0; i < len(str); i++) {
-        string temp = "";
-        for (int j = i; j < len(str); j++) {
-            temp += str[j];
-            bool find = false;
-            for (int k = 0; k < len(temp) / 2; k++) {
-                if (temp[k] != temp[len(temp) - 1 - k]) {
-                    find = true;
+        for (int j = 0; j < len(str); j++) {
+            if (i - j >= 0 && i + j < len(str) && str[i - j] == str[i + j]) {
+                pal[i - j][i + j] = 1;
+            }
+            else {
+                break;
+            }
+        }
+    }
+    for (int i = 0; i < len(str) - 1; i++) {
+        if (str[i] == str[i + 1]) {
+            for (int j = 0; j < len(str); j++) {
+                if (i - j >= 0 && i + j + 1 < len(str) && str[i - j] == str[i + j + 1]) {
+                    pal[i - j][i + j + 1] = 1;
+                }
+                else {
                     break;
                 }
-            }
-            if (!find) {
-                pal[i][j] = 1;
             }
         }
     }
