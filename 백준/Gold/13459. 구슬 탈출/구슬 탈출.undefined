@@ -1,0 +1,121 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<vector<char>>Map(n + 1, vector<char>(m + 1));
+    ll y = 0, x = 0;
+    ll yy = 0, xx = 0;
+    ll yyy = 0, xxx = 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> Map[i][j];
+            if (Map[i][j] == 'R') {
+                y = i;
+                x = j;
+            }
+            if (Map[i][j] == 'B') {
+                yy = i;
+                xx = j;
+            }
+            if (Map[i][j] == 'O') {
+                yyy = i;
+                xxx = j;
+            }
+        }
+    }
+    vector<vector<vector<vector<ll>>>>dist(n + 1, vector<vector<vector<ll>>>(m + 1, vector<vector<ll>>(n + 1, vector<ll>(m + 1, LLONG_MAX))));
+    vector<vector<ll>>forward = { {-1, 0}, {0, -1}, {1, 0}, {0, 1} };
+    function<pll(ll, ll, ll, ll, ll)> mov = [&](ll y, ll x, ll idx, ll yy, ll xx) -> pll {
+        while (1) {
+            ll dy = y + forward[idx][0];
+            ll dx = x + forward[idx][1];
+            if (dy >= 0 && dy < n && dx >= 0 && dx < m && Map[dy][dx] != '#') {
+                if (Map[dy][dx] == 'O') {
+                    return { dy, dx };
+                }
+                if (dy == yy && dx == xx) {
+                    return { y, x };
+                }
+                y = dy;
+                x = dx;
+            }
+            else {
+                return { y, x };
+            }
+        }
+        };
+    priority_queue<lllll, vector<lllll>, greater<lllll>>pq;
+    pq.push({ 0, y, x, yy, xx });
+    dist[y][x][yy][xx] = 0;
+    while (!pq.empty()) {
+        auto [a, b, c, d, e] = pq.top();
+        pq.pop();
+        if (dist[b][c][d][e] >= a) {
+            for (int i = 0; i < 4; i++) {
+                pll red = { 0, 0 };
+                pll blue = { 0, 0 };
+                bool meetb = false;
+                queue<pll>q;
+                q.push({ b, c });
+                while (!q.empty()) {
+                    auto [a, b] = q.front();
+                    q.pop();
+                    if (a == d && b == e) {     
+                        meetb = true;
+                        break;
+                    }
+                    ll dy = a + forward[i][0];
+                    ll dx = b + forward[i][1];
+                    if (dy >= 0 && dy < n && dx >= 0 && dx < m && Map[dy][dx] != '#') {
+                        q.push({ dy, dx });
+                    }
+                }
+                if (meetb) {
+                    blue = mov(d, e, i, -1, -1);
+                    red = mov(b, c, i, blue.first, blue.second);
+                }
+                else {
+                    red = mov(b, c, i, -1, -1);
+                    blue = mov(d, e, i, red.first, red.second);
+                }
+                if (Map[blue.first][blue.second] != 'O') {
+                    if (dist[red.first][red.second][blue.first][blue.second] > dist[b][c][d][e] + 1) {
+                        dist[red.first][red.second][blue.first][blue.second] = dist[b][c][d][e] + 1;
+                        pq.push({ dist[red.first][red.second][blue.first][blue.second], red.first, red.second, blue.first, blue.second });
+                    }
+                }
+            }
+        }
+    }
+    ll Min = LLONG_MAX;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            if (!(i == yyy && j == xxx)) {
+                Min = min(Min, dist[yyy][xxx][i][j]);
+            }
+        }
+    }
+    if (Min > 10) {
+        cout << 0;
+    }
+    else {
+        cout << 1;
+    }
+    return 0;
+}
