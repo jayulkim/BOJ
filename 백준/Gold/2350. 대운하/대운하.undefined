@@ -1,0 +1,83 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m >> k;
+    priority_queue<lll>pq;
+    vector<ll>parent(n + 1);
+    iota(all(parent), 0);
+    vector<ll>rank(n + 1, 1);
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        pq.push({ c, a, b });
+    }
+    function<ll(ll)> getparent = [&](ll x) -> ll {
+        if (parent[x] == x) {
+            return x;
+        }
+        return parent[x] = getparent(parent[x]);
+        };
+    function<void(ll, ll)> merge = [&](ll a, ll b) -> void {
+        a = getparent(a);
+        b = getparent(b);
+        if (rank[a] > rank[b]) {
+            rank[a] += rank[b];
+            rank[b] = 0;
+            parent[b] = a;
+        }
+        else {
+            rank[b] += rank[a];
+            rank[a] = 0;
+            parent[a] = b;
+        }
+        };
+    ll count = 0;
+    vector<vector<pll>>graph(n + 1);
+    while (count < n - 1) {
+        auto [a, b, c] = pq.top();
+        pq.pop();
+        if (getparent(b) != getparent(c)) {
+            merge(b, c);
+            graph[b].push_back({ c, a });
+            graph[c].push_back({ b, a });
+            count++;
+        }
+    }
+    for (int i = 0; i < k; i++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        queue<lll>q;
+        q.push({ -1, a, LLONG_MAX });
+        while (!q.empty()) {
+            auto [c, d, e] = q.front();
+            q.pop();
+            if (d == b) {
+                cout << e << '\n';
+                break;
+            }
+            for (auto& i : graph[d]) {
+                if (i.first != c) {
+                    q.push({ d, i.first, min(e, i.second) });
+                }
+            }
+        }
+    }
+    return 0;
+}
