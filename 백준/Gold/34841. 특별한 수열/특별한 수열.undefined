@@ -1,0 +1,72 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    map<ll, ll>v;
+    map<ll, ll>d;
+    if (n == 1) {
+        cout << 1 << '\n';
+        return 0;
+    }
+    for (int i = 0; i < n; i++) {
+        cin >> m;
+        if (i) {
+            auto upper = v.upper_bound(m);
+            if (upper == v.begin()) {
+                d[upper->first - m]++;
+                if (d.size() == 1) {
+                    cout << 1 << '\n';
+                }
+                else {
+                    cout << 0 << '\n';
+                }
+            }
+            else if (upper == v.end()) {
+                d[m - prev(upper)->first]++;
+                if (d.size() == 1) {
+                    cout << 1 << '\n';
+                }
+                else {
+                    cout << 0 << '\n';
+                }
+            }
+            else {
+                auto lower = prev(upper);
+                d[upper->first - lower->first]--;
+                if (!d[upper->first - lower->first]) {
+                    d.erase(upper->first - lower->first);
+                }
+                d[upper->first - m]++;
+                d[m - lower->first]++;
+                if (d.size() == 1) {
+                    cout << 1 << '\n';
+                }
+                else {
+                    cout << 0 << '\n';
+                }
+            }
+        }
+        else {
+            cout << 1 << '\n';
+        }
+        v[m]++;
+    }
+    return 0;
+}
