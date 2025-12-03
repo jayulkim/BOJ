@@ -1,0 +1,187 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+struct tbll {
+    ll tb[3][3];
+    ll r;
+    ll c;
+    tbll() {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                tb[i][j] = 0;
+            }
+        }
+        r = 2;
+        c = 2;
+    }
+};
+ll mod = 1000000009;
+tbll tree[800800];
+tbll multable (tbll t1, tbll t2) {
+    tbll result;
+    if (t1.r == -2) {
+        return t2;
+    }
+    else if (t2.r == -2) {
+        return t1;
+    }
+    if (t1.c != t2.r) {
+        result.r = -1;
+        return result;
+    }
+    result.r = t1.r;
+    result.c = t2.c;
+    for (int i = 0; i < t1.r; i++) {
+        for (int j = 0; j < t2.c; j++) {
+            ll sum = 0;
+            for (int k = 0; k < t1.c; k++) {
+                sum += (t1.tb[i][k] * t2.tb[k][j]) % mod;
+            }
+            result.tb[i][j] = sum % mod;
+        }
+    }
+    return result;
+}
+tbll query (ll start, ll end, ll idx, ll left, ll right) {
+    tbll result;
+    if (start > right || end < left) {
+        result.r = -2;
+        return result;
+    }
+    if (left <= start && end <= right) {
+        return tree[idx];
+    }
+    ll mid = (start + end) / 2;
+    tbll a = query(start, mid, idx * 2, left, right);
+    tbll b = query(mid + 1, end, idx * 2 + 1, left, right);
+    if (a.r != -1 && b.r != -1) {
+        return multable(a, b);
+    }
+    result.r = -1;
+    return result;
+}
+void updateaddr (ll start, ll end, ll idx, ll changeidx) {
+    if (changeidx < start || changeidx > end) {
+        return;
+    }
+    if (start == end) {
+        tree[idx].r++;
+        return;
+    }
+    ll mid = (start + end) / 2;
+    updateaddr(start, mid, idx * 2, changeidx);
+    updateaddr(mid + 1, end, idx * 2 + 1, changeidx);
+    tree[idx] = multable(tree[idx * 2], tree[idx * 2 + 1]);
+}
+void updatermr (ll start, ll end, ll idx, ll changeidx) {
+    if (changeidx < start || changeidx > end) {
+        return;
+    }
+    if (start == end) {
+        for (int i = 0; i < 3; i++) {
+            tree[idx].tb[tree[idx].r - 1][i] = 0;
+        }
+        tree[idx].r--;
+        return;
+    }
+    ll mid = (start + end) / 2;
+    updatermr(start, mid, idx * 2, changeidx);
+    updatermr(mid + 1, end, idx * 2 + 1, changeidx);
+    tree[idx] = multable(tree[idx * 2], tree[idx * 2 + 1]);
+}
+void updateaddc (ll start, ll end, ll idx, ll changeidx) {
+    if (changeidx < start || changeidx > end) {
+        return;
+    }
+    if (start == end) {
+        tree[idx].c++;
+        return;
+    }
+    ll mid = (start + end) / 2;
+    updateaddc(start, mid, idx * 2, changeidx);
+    updateaddc(mid + 1, end, idx * 2 + 1, changeidx);
+    tree[idx] = multable(tree[idx * 2], tree[idx * 2 + 1]);
+}
+void updatermc (ll start, ll end, ll idx, ll changeidx) {
+    if (changeidx < start || changeidx > end) {
+        return;
+    }
+    if (start == end) {
+        for (int i = 0; i < 3; i++) {
+            tree[idx].tb[i][tree[idx].c - 1] = 0;
+        }
+        tree[idx].c--;
+        return;
+    }
+    ll mid = (start + end) / 2;
+    updatermc(start, mid, idx * 2, changeidx);
+    updatermc(mid + 1, end, idx * 2 + 1, changeidx);
+    tree[idx] = multable(tree[idx * 2], tree[idx * 2 + 1]);
+}
+void update (ll start, ll end, ll idx, ll changeidx, ll r, ll c, ll change) {
+    if (changeidx < start || changeidx > end) {
+        return;
+    }
+    if (start == end) {
+        tree[idx].tb[r][c] = change;
+        return;
+    }
+    ll mid = (start + end) / 2;
+    update(start, mid, idx * 2, changeidx, r, c, change);
+    update(mid + 1, end, idx * 2 + 1, changeidx, r, c, change);
+    tree[idx] = multable(tree[idx * 2], tree[idx * 2 + 1]);
+}
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    cin >> m;
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0, c = 0, d = 0, e = 0;
+        cin >> a;
+        if (a == 1) {
+            cin >> b >> c >> d >> e;
+            tbll result = query(1, n, 1, b, c);
+            if (result.r == -1) {
+                cout << -1 << '\n';
+            }
+            else {
+                cout << result.tb[d - 1][e - 1] << '\n';
+            }
+        }
+        else if (a == 2) {
+            cin >> b;
+            updateaddr(1, n, 1, b);
+        }
+        else if (a == 3) {
+            cin >> b;
+            updatermr(1, n, 1, b);
+        }
+        else if (a == 4) {
+            cin >> b;
+            updateaddc(1, n, 1, b);
+        }
+        else if (a == 5) {
+            cin >> b;
+            updatermc(1, n, 1, b);
+        }
+        else {
+            cin >> b >> c >> d >> e;
+            update(1, n, 1, b, c - 1, d - 1, e);
+        }
+    }
+    return 0;
+}
