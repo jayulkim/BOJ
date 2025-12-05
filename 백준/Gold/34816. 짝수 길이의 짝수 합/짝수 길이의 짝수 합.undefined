@@ -1,0 +1,55 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+	string str = "";
+	cin >> str;
+	vector<ll>v(n + 1);
+	for (int i = 1; i <= n; i++) {
+		v[i] = str[i - 1] - '0';
+	}
+	for (int i = 0; i < m; i++) {
+		ll a = 0, b = 0, c = 0;
+		cin >> a;
+		if (a == 1) {
+			cin >> b;
+			v[b] ^= 1;
+		}
+		else {
+			cin >> b >> c;
+			if (c - b + 1 < 4) {
+				string temp = "";
+				for (int j = b; j <= c; j++) {
+					temp += to_string(v[j]);
+				}
+				if (temp != "1" && temp != "101" && temp != "10" && temp != "01" && temp != "0" && temp != "010") {
+					cout << "YES" << '\n';
+				}
+				else {
+					cout << "NO" << '\n';
+				}
+			}
+			else {
+				cout << "YES" << '\n';
+			} 
+		}
+	}
+    return 0;
+}
