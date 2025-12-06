@@ -1,0 +1,57 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<ll>a;
+    vector<ll>b;
+    vector<pll>v;
+    for (int i = 0; i < n; i++) {
+        cin >> k;
+        a.push_back(k);
+    }
+    for (int i = 0; i < n; i++) {
+        cin >> k;
+        b.push_back(k);
+        v.push_back({ a[i], b[i] });
+    }
+    sort(all(v));
+    for (int i = 0; i < n; i++) {
+        a[i] = v[i].first;
+        b[i] = v[i].second;
+    }
+    vector<ll>visited(n + 1, 0);
+    function<ll(ll, ll, ll, ll)> dfs = [&](ll x, ll temp, ll sum, ll start) -> ll {
+        if (x == n) {
+            return 0;
+        }
+        ll result = 0;
+        for (int i = start + 1; i < n; i++) {
+            if (temp >= sum + a[i]) {
+                result = max(result, dfs(x + 1, temp - sum - a[i], sum + a[i], i) + b[i]);
+            }
+            else {
+                break;
+            }
+        }
+        return result;
+        };
+    cout << dfs(0, m, 0, -1);
+    return 0;
+}
