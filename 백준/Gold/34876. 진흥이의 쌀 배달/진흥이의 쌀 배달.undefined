@@ -1,0 +1,62 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<ll>v(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> v[i];
+    }
+    vector<vector<pll>>graph(n + 1);
+    for (int i = 0; i < n; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        graph[a].push_back({ b, c });
+        graph[b].push_back({ a, c });
+    }
+    vector<pll>parent(n + 1);
+    queue<pll>q;
+    q.push({-1, 0});
+    while (!q.empty()) {
+        pll temp = q.front();
+        q.pop();
+        for (auto& i : graph[temp.second]) {
+            if (i.first != temp.first) {
+                q.push({ temp.second, i.first });
+                parent[i.first] = { temp.second, i.second };
+            }
+        }
+    }
+    ll result = 0;
+    function<void(ll, ll)> dfs = [&](ll p, ll temp) -> void {
+        for (auto& i : graph[temp]) {
+            if (i.first != p) {
+                result += i.second;
+                dfs(temp, i.first);
+            }
+        }
+        if (temp) {
+            result += ((v[temp] + m - 1) / m) * 2 * parent[temp].second - parent[temp].second;
+            v[parent[temp].first] += v[temp];
+        }
+        };
+    dfs(-1, 0);
+    cout << result;
+    return 0;
+}
