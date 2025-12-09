@@ -15,8 +15,8 @@ int main(void) {
 	string str = "";
 	cin >> str;
 	reverse(all(str));
-	vector<ll>v(1ULL << 27 + 1, 0);
-	for (int i = 1; i <= min(n, (ll)27); i++) {
+	vector<ll>v(1ULL << 25 + 1, 0);
+	for (int i = 1; i <= min(n, (ll)25); i++) {
 		deque<char>temp;
 		for (int j = 0; j < i; j++) {
 			temp.push_back(str[j]);
@@ -36,7 +36,7 @@ int main(void) {
 			v[t]++;
 		}
 	}
-	for (int i = 1; i <= 1ULL << 27; i++) {
+	for (int i = 1; i <= 1ULL << 25; i++) {
 		if (!v[i]) {
 			vector<ll>result;
 			ll t = i;
