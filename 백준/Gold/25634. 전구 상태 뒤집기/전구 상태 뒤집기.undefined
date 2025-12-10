@@ -1,0 +1,51 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<ll>a(n + 1);
+    vector<ll>b(n + 1);
+    ll s = 0;
+    for (int i = 1; i <= n; i++) {
+        cin >> a[i];
+    }
+    for (int i = 1; i <= n; i++) {
+        cin >> b[i];
+        if (b[i]) {
+            s += a[i];
+        }
+    }
+    vector<ll>sum(n + 1, 0);
+    for (int i = 1; i <= n; i++) {
+        if (b[i]) {
+            sum[i] = sum[i - 1] - a[i];
+        }
+        else {
+            sum[i] = sum[i - 1] + a[i];
+        }
+    }
+    ll temp = 0;
+    ll Max = 0;
+    for (int i = 1; i <= n; i++) {
+        Max = max(Max, s + sum[i] - temp);
+        temp = min(temp, sum[i]);
+    }
+    cout << Max;
+    return 0;
+}
