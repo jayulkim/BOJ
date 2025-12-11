@@ -1,0 +1,63 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<ll>a(n + 1);
+    vector<ll>b(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> a[i];
+    }
+    for (int i = 1; i <= n; i++) {
+        cin >> b[i];
+    }
+    vector<pll>v;
+    for (int i = 1; i <= n; i++) {
+        v.push_back({ a[i], b[i] });
+    }
+    cin >> m;
+    sort(all(v));
+    ll start = 1, end = 1e9, mid = 0;
+    ll Min = LLONG_MAX;
+    while (start <= end) {
+        mid = (start + end) / 2;
+        ll result = 0;
+        ll temp = LLONG_MAX;
+        for (int i = 0; i < n - 1; i++) {
+            temp = min(temp, v[i].second);
+            if (v[i].first + mid < v[i + 1].first) {
+                result += temp;
+                temp = LLONG_MAX;
+            }
+        }
+        temp = min(temp, v.back().second);
+        if (temp != LLONG_MAX) {
+            result += temp;
+        }
+        if (m >= result) {
+            Min = min(Min, mid);
+            end = mid - 1;
+        }
+        else {
+            start = mid + 1;
+        }
+    }
+    cout << Min;
+    return 0;
+}
