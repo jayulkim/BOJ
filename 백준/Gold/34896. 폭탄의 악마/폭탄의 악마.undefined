@@ -47,9 +47,7 @@ int main(void) {
             }
         }
         temp = min(temp, v.back().second);
-        if (temp != LLONG_MAX) {
-            result += temp;
-        }
+        result += temp;
         if (m >= result) {
             Min = min(Min, mid);
             end = mid - 1;
