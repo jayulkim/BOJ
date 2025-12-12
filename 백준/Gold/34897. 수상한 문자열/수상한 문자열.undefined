@@ -1,0 +1,105 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<pll>one;
+    vector<pll>two;
+    vector<vector<ll>>graph(n + 1);
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        if (a == 1) {
+            one.push_back({ b, c });
+        }
+        else {
+            two.push_back({ b, c });
+        }
+    }
+    vector<ll>parent(n + 1);
+    iota(all(parent), 0);
+    vector<ll>rank(n + 1, 1);
+    function<ll(ll)> getparent = [&](ll x) -> ll {
+        if (parent[x] == x) {
+            return x;
+        }
+        return parent[x] = getparent(parent[x]);
+        };
+    function<void(ll, ll)> merge = [&](ll a, ll b) -> void {
+        if (rank[a] > rank[b]) {
+            rank[a] += rank[b];
+            rank[b] = 0;
+            parent[b] = a;
+        }
+        else {
+            rank[b] += rank[a];
+            rank[a] = 0;
+            parent[a] = b;
+        }
+        };
+    for (auto& i : one) {
+        for (int j = 0; j <= (i.second - i.first) / 2; j++) {
+            ll a = getparent(i.first + j);
+            ll b = getparent(i.second - j);
+            merge(a, b);
+        }
+    }
+    for (auto& i : two) {
+        ll a = getparent(i.first);
+        ll b = getparent(i.second);
+        if (a == b) {
+            cout << "No";
+            return 0;
+        }
+        graph[a].push_back(b);
+        graph[b].push_back(a);
+    }
+    vector<ll>color(n + 1, -1);
+    for (int i = 1; i <= n; i++) {
+        if (color[getparent(i)] == -1) {
+            queue<pll>q;
+            q.push({ 1, getparent(i) });
+            while (!q.empty()) {
+                auto [a, b] = q.front();
+                q.pop();
+                color[b] = a;
+                for (auto& i : graph[b]) {
+                    if ((a && color[i] == 1) || (!a && !color[i])) {
+                        cout << "No";
+                        return 0;
+                    }
+                    if (color[i] == -1) {
+                        color[i] = a ^ 1;
+                        q.push({ a ^ 1, i });
+                    }
+                }
+            }
+        }
+    }
+    cout << "Yes\n";
+    for (int i = 1; i <= n; i++) {
+        if (color[getparent(i)]) {
+            cout << 'A';
+        }
+        else {
+            cout << 'B';
+        }
+    }
+    return 0;
+}
