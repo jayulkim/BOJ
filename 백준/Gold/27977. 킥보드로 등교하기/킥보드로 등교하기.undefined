@@ -1,0 +1,71 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m >> k;
+    vector<ll>v;
+    for (int i = 0; i < m; i++) {
+        ll num = 0;
+        cin >> num;
+        v.push_back(num);
+    }
+    v.push_back(n);
+    ll start = max(v[0], v.back() - v[m - 1]), end = 1e18, mid = 0;
+    ll Min = LLONG_MAX;
+    while (start <= end) {
+        mid = (start + end) / 2;
+        bool find = false;
+        ll temp = 0;
+        ll t = mid;
+        ll a = k;
+        for (int i = 0; i < m + 1; i++) {
+            if (v[i] - temp <= t) {
+                t -= (v[i] - temp);
+                temp = v[i];
+            }
+            else {
+                if (a) {
+                    t = mid;
+                    a--;
+                    if (v[i] - temp <= t) {
+                        t -= (v[i] - temp);
+                        temp = v[i];
+                    }
+                    else {
+                        find = true;
+                        break;
+                    }
+                }
+                else {
+                    find = true;
+                    break;
+                }
+            }
+        }
+        if (find) {
+            start = mid + 1;
+        }
+        else {
+            end = mid - 1;
+            Min = min(Min, mid);
+        }
+    }
+    cout << Min;
+    return 0;
+}
