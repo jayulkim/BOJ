@@ -1,0 +1,46 @@
+#include <bits/stdc++.h>
+#define all(v) v.begin(), v.end()
+using namespace std;
+typedef long long ll;
+typedef long double ld;
+typedef tuple<ll, ll, ll> tp;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	cin >> n >> m;
+	vector<string>v(n + 1);
+	for (int i = 0; i < n; i++) {
+		cin >> v[i];
+	}
+	function<bool(string) > check = [&](string str) -> bool {
+		for (int i = 0; i < n; i++) {
+			ll count = 0;
+			for (int j = 0; j < m; j++) {
+				if (str[j] != v[i][j]) {
+					count++;
+				}
+			}
+			if (count > 1) {
+				return false;
+			}
+		}
+		return true;
+		};
+	for (int i = 0; i < m; i++) {
+		string temp = v[0];
+		for (int j = 0; j < 26; j++) {
+			string str = temp;
+			str[i] = j + 'A';
+			if (check(str)) {
+				cout << str;
+				return 0;
+			}
+		}
+	}
+	cout << "CALL FRIEND";
+	return 0;
+}
