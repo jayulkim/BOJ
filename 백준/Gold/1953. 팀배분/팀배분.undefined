@@ -1,0 +1,69 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<vector<ll>>graph(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> m;
+        for (int j = 0; j < m; j++) {
+            cin >> k;
+            graph[i].push_back(k);
+            graph[k].push_back(i);
+        }
+    }
+    vector<ll>a;
+    vector<ll>b;
+    vector<ll>visited(n + 1, 0);
+    for (int i = 1; i <= n; i++) {
+        if (!visited[i]) {
+            queue<pll>q;
+            q.push({ 0, i });
+            while (!q.empty()) {
+                pll temp = q.front();
+                q.pop();
+                if (!temp.first) {
+                    a.push_back(temp.second);
+                }
+                else {
+                    b.push_back(temp.second);
+                }
+                visited[temp.second] = 1;
+                for (auto& j : graph[temp.second]) {
+                    if (!visited[j]) {
+                        visited[j] = 1;
+                        q.push({ (temp.first + 1) % 2, j });
+                    }
+                }
+            }
+        }
+    }
+    sort(all(a));
+    sort(all(b));
+    cout << a.size() << '\n';
+    for (auto& i : a) {
+        cout << i << ' ';
+    }
+    cout << '\n';
+    cout << b.size() << '\n';
+    for (auto& i : b) {
+        cout << i << ' ';
+    }
+    return 0;
+}
