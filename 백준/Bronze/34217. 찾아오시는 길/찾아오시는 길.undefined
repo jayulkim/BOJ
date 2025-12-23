@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    ll a = 0, b = 0, c = 0, d = 0;
+    cin >> a >> b;
+    cin >> c >> d;
+    if (a + c < b + d) {
+        cout << "Hanyang Univ.";
+    }
+    else if (a + c > b + d) {
+        cout << "Yongdap";
+    }
+    else {
+        cout << "Either";
+    }
+    return 0;
+}
