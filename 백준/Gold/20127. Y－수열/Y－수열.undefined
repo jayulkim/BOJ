@@ -1,0 +1,82 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<ll>a(n + 1, -1);
+    vector<ll>b(n + 1, -1);
+    vector<ll>c(n + 1, -1);
+    vector<ll>d(n + 1, -1);
+    vector<ll>v(n + 1);
+    for (int i = 1; i <= n; i++) {
+        cin >> v[i];
+    }
+    a[1] = v[1];
+    b[n] = v[n];
+    for (int i = 2; i <= n; i++) {
+        if (v[i - 1] <= v[i]) {
+            a[i] = v[1];
+        }
+        else {
+            break;
+        }
+    }
+    for (int i = n - 1; i >= 1; i--) {
+        if (v[i + 1] >= v[i]) {
+            b[i] = v[n];
+        }
+        else {
+            break;
+        }
+    }
+    c[1] = v[1];
+    d[n] = v[n];
+    for (int i = 2; i <= n; i++) {
+        if (v[i - 1] >= v[i]) {
+            c[i] = v[1];
+        }
+        else {
+            break;
+        }
+    }
+    for (int i = n - 1; i >= 1; i--) {
+        if (v[i + 1] <= v[i]) {
+            d[i] = v[n];
+        }
+        else {
+            break;
+        }
+    }
+    if (a[n] != -1 || c[n] != -1) {
+        cout << 0;
+        return 0;
+    }
+    for (int i = 1; i <= n - 1; i++) {
+        if (a[i] != -1 && b[i + 1] != -1 && a[i] >= b[i + 1]) {
+            cout << i;
+            return 0;
+        }
+        if (c[i] != -1 && d[i + 1] != -1 && d[i + 1] >= c[i]) {
+            cout << i;
+            return 0;
+        }
+    }
+    cout << -1;
+    return 0;
+}
