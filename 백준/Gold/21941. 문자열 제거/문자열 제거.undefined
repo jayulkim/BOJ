@@ -1,0 +1,53 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    string str = "";
+    cin >> str;
+    cin >> n;
+    map<string, ll>Map;
+    for (int i = 0; i < n; i++) {
+        string a = "";
+        ll b = 0;
+        cin >> a >> b;
+        Map[a] = b;
+    }
+    vector<ll>dp(str.length() + 1, -1);
+    function<ll(ll)> dfs = [&](ll a) -> ll {
+        if (a == str.length()) {
+            return 0;
+        }
+        if (dp[a] != -1) {
+            return dp[a];
+        }
+        ll weight = 0;
+        string temp = "";
+        for (int i = a; i < str.length(); i++) {
+            temp += str[i];
+            if (Map.find(temp) != Map.end()) {
+                weight = max(weight, dfs(i + 1) + Map[temp]);
+            }
+        }
+        weight = max(weight, dfs(a + 1) + 1);
+        return dp[a] = weight;
+        };
+    cout << dfs(0);
+    return 0;
+}
