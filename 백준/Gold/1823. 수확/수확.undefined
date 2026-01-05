@@ -1,0 +1,40 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<ll>v;
+    for (int i = 0; i < n; i++) {
+        cin >> m;
+        v.push_back(m);
+    }
+    vector<vector<ll>>dp(n + 1, vector<ll>(n + 1, -1));
+    function<ll(ll, ll)> dfs = [&](ll a, ll b) -> ll {
+        if (a > b) {
+            return 0;
+        }
+        if (dp[a][b] != -1) {
+            return dp[a][b];
+        }
+        return dp[a][b] = max(dfs(a + 1, b) + (a + n - b) * v[a], dfs(a, b - 1) + (a + n - b) * v[b]);
+        };
+    cout << dfs(0, n - 1);
+    return 0;
+}
