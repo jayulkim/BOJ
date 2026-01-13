@@ -1,0 +1,50 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    ll mod = 1000000003;
+    vector<vector<vector<ll>>>dp(n + 1, vector<vector<ll>>(m + 1, vector<ll>(2, -1)));
+    function<ll(ll, ll, ll)> dfs = [&](ll a, ll b, ll c) -> ll {
+        if (b == m) {
+            return 1;
+        }
+        if (a == n - 1) {
+            return 0;
+        }
+        if (dp[a][b][c] != -1) {
+            return dp[a][b][c];
+        }
+        ll weight = 0;
+        if (!c) {
+            weight += dfs(a + 1, b + 1, 1) % mod;
+            weight %= mod;
+            weight += dfs(a + 1, b, 0) % mod;
+            weight %= mod;
+        }
+        else {
+            weight += dfs(a + 1, b, 0) % mod;
+            weight %= mod;
+        }
+        return dp[a][b][c] = weight;
+        };
+    cout << (dfs(0, 0, 0) % mod + dfs(1, 1, 1) % mod) % mod;
+    return 0;
+}
