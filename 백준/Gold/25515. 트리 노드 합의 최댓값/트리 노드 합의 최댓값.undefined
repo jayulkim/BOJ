@@ -1,0 +1,46 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<vector<ll>>graph(n + 1);
+    for (int i = 0; i < n - 1; i++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        graph[a].push_back(b);
+    }
+    vector<ll>v(n + 1);
+    for (int i = 0; i < n; i++) {
+        cin >> v[i];
+    }
+    vector<ll>dp(n + 1 -1);
+    function<ll(ll)> dfs = [&](ll temp) -> ll {
+        if (!graph[temp].size()) {
+            return 0;
+        }
+        ll weight = 0;
+        for (auto& i : graph[temp]) {
+            weight = max(weight, weight + dfs(i) + v[i]);
+        }
+        return dp[temp] = weight;
+        };
+    cout << dfs(0) + v[0];
+    return 0;
+}
