@@ -30,7 +30,7 @@ int main(void) {
     for (int i = 0; i < n; i++) {
         cin >> v[i];
     }
-    vector<ll>dp(n + 1 -1);
+    vector<ll>dp(n + 1, -1e9);
     function<ll(ll)> dfs = [&](ll temp) -> ll {
         if (!graph[temp].size()) {
             return 0;
