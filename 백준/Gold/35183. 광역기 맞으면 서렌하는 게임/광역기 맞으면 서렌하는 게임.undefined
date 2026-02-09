@@ -1,0 +1,54 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<pll>v;
+    for (int i = 0; i < n; i++) {
+        cin >> m >> k;
+        v.push_back({ m, k });
+    }
+    vector<vector<ll>>dp(n + 1, vector<ll>(1001, -1));
+    function<ll(ll, ll)> dfs = [&](ll a, ll b) -> ll {
+        if (a == n) {
+            return 0;
+        }
+        if (dp[a][b] != -1) {
+            return dp[a][b];
+        }
+        ll weight = LLONG_MAX;
+        if (b - 1 >= 1) {
+            weight = min(weight, dfs(a + 1, b - 1) + (b - 1 < v[a].first || b - 1 > v[a].second));
+        }
+        if (b + 1 <= 1000) {
+            weight = min(weight, dfs(a + 1, b + 1) + (b + 1 < v[a].first || b + 1 > v[a].second));
+        }
+        weight = min(weight, dfs(a + 1, b) + (b < v[a].first || b > v[a].second));
+        return dp[a][b] = weight;
+        };
+    for (int i = 1; i <= 1000; i++) {
+        if (dfs(1, i) + (i < v[0].first || i > v[0].second) <= 1) {
+            cout << "World Champion";
+            return 0;
+        }
+    }
+    cout << "Surrender";
+    return 0;
+}
