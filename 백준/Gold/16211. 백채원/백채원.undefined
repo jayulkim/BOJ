@@ -1,0 +1,76 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m >> k;
+    vector<vector<pll>>graph(n + 1);
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        graph[a].push_back({ b, c });
+        graph[b].push_back({ a, c });
+    }
+    priority_queue<pll, vector<pll>, greater<pll>>pq;
+    vector<ll>chaewon(n + 1, LLONG_MAX);
+    chaewon[1] = 0;
+    pq.push({ 0, 1 });
+    while (!pq.empty()) {
+        pll temp = pq.top();
+        pq.pop();
+        if (chaewon[temp.second] >= temp.first) {
+            for (auto& i : graph[temp.second]) {
+                if (chaewon[i.first] > chaewon[temp.second] + i.second) {
+                    chaewon[i.first] = chaewon[temp.second] + i.second;
+                    pq.push({ chaewon[i.first], i.first });
+                }
+            }
+        }
+    }
+    vector<ll>people(n + 1, LLONG_MAX);
+    for (int i = 0; i < k; i++) {
+        ll a = 0;
+        cin >> a;
+        pq.push({ 0, a });
+        people[a] = 0;
+    }
+    while (!pq.empty()) {
+        pll temp = pq.top();
+        pq.pop();
+        if (people[temp.second] >= temp.first) {
+            for (auto& i : graph[temp.second]) {
+                if (people[i.first] > people[temp.second] + i.second) {
+                    people[i.first] = people[temp.second] + i.second;
+                    pq.push({ people[i.first], i.first });
+                }
+            }
+        }
+    }
+    bool find = false;
+    for (int i = 2; i <= n; i++) {
+        if (chaewon[i] < people[i]) {
+            cout << i << ' ';
+            find = true;
+        }
+    }
+    if (!find) {
+        cout << 0;
+    }
+    return 0;
+}
