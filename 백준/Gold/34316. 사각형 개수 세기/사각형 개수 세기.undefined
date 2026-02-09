@@ -1,0 +1,54 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<vector<ll>>Map(n + 1, vector<ll>(m + 1));
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            cin >> Map[i][j];
+        }
+    }
+    ll count = 0;
+    if (n > m) {
+        for (int i = 1; i <= m - 1; i++) {
+            for (int j = i + 1; j <= m; j++) {
+                vector<ll>v(21, 0);
+                for (int k = 1; k <= n; k++) {
+                    count += v[20 - (Map[k][i] + Map[k][j])];
+                    v[Map[k][i] + Map[k][j]]++;
+                }
+            }
+        }
+    }
+    else {
+        for (int i = 1; i <= n - 1; i++) {
+            for (int j = i + 1; j <= n; j++) {
+                vector<ll>v(21, 0);
+                for (int k = 1; k <= m; k++) {
+                    count += v[20 - (Map[i][k] + Map[j][k])];
+                    v[Map[i][k] + Map[j][k]]++;
+                }
+            }
+        }
+    }
+    cout << count;
+    return 0;
+}
