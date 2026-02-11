@@ -1,0 +1,73 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef tuple<char, ll, ll> cll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<char, ll> pcl;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<cll>v;
+    vector<queue<pcl>>q(n + 1);
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < 5; j++) {
+            string str = "";
+            cin >> str;
+            char c = str[0];
+            string temp = "";
+            for (int k = 2; k < str.length(); k++) {
+                temp += str[k];
+            }
+            v.push_back({ c, stoll(temp), i });
+            q[i].push({ c, stoll(temp) });
+        }
+    }
+    sort(all(v));
+    ll idx = 0;
+    vector<pcl>wait;
+    while (idx < 5 * n) {
+        auto [a, b, c] = v[idx];
+        pcl d, e;
+        if (q[c].size()) {
+            d = q[c].front();
+            if (d.first == a && d.second == b) {
+                idx++;
+                q[c].pop();
+                continue;
+            }
+        }
+        if (wait.size()) {
+            e = wait.back();
+            if (e.first == a && e.second == b) {
+                idx++;
+                wait.pop_back();
+                continue;
+            }
+        }
+        if (q[c].size()) {
+            wait.push_back(d);
+            q[c].pop();
+        }
+        else {
+            cout << "BAD";
+            return 0;
+        }
+    }
+    cout << "GOOD";
+    return 0;
+}
