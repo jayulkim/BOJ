@@ -1,0 +1,68 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef tuple<char, ll, ll> cll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<char, ll> pcl;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    vector<lll>v;
+    vector<ll>a(n + 1);
+    vector<ll>b(n + 1);
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+    for (int i = 0; i < n; i++) {
+        cin >> b[i];
+    }
+    for (int i = 0; i < n; i++) {
+        v.push_back({ a[i], b[i], i + 1 });
+    }
+    sort(all(v));
+    ll idx = 0;
+    ll temp = 0;
+    vector<ll>vi(n + 2, 0);
+    priority_queue<pll, vector<pll>, greater<pll>>pq;
+    for (int i = 1; i <= m; i++) {
+        while (!pq.empty() && pq.top().first < i) {
+            auto [a, b] = pq.top();
+            pq.pop();
+            if (vi[b - 1] && vi[b + 1]) {
+                temp++;
+            }
+            else if (!vi[b - 1] && !vi[b + 1]) {
+                temp--;
+            }
+            vi[b] = 0;
+        }
+        while (idx < n && i >= get<0>(v[idx])) {
+            pq.push({ get<1>(v[idx]), get<2>(v[idx]) });
+            vi[get<2>(v[idx])] = 1;
+            if (!vi[get<2>(v[idx]) - 1] && !vi[get<2>(v[idx]) + 1]) {
+                temp++;
+            }
+            else if (vi[get<2>(v[idx]) - 1] && vi[get<2>(v[idx]) + 1]) {
+                temp--;
+            }
+            idx++;
+        }
+        cout << temp << ' ';
+    }
+    return 0;
+}
