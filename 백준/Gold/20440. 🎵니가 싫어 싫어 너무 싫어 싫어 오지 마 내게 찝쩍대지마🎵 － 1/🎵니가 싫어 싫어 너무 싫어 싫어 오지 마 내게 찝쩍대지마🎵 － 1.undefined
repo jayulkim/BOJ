@@ -22,23 +22,40 @@ int main(void) {
     ios::sync_with_stdio(false);
     cin.tie(0);
     cin >> n;
-    map<ll, ll>Map;
+    vector<pll>v;
+    vector<pll>vv;
     for (int i = 0; i < n; i++) {
         ll a = 0, b = 0;
         cin >> a >> b;
-        Map[a]++;
-        Map[b]--;
+        v.push_back({ a, 1 });
+        v.push_back({ b, -1 });
+    }
+    sort(all(v));
+    ll a = -1, b = 0;
+    for (int i = 0; i < v.size(); i++) {
+        if (v[i].first == a) {
+            b += v[i].second;
+        }
+        else {
+            if (a != -1) {
+                vv.push_back({ a, b });
+            }
+            a = v[i].first, b = v[i].second;
+        }
+    }
+    if (a != -1) {
+        vv.push_back({ a, b });
     }
     ll s = 0, e = LLONG_MAX;
     ll temp = 0;
     ll Max = 0;
-    for (auto& [a, b] : Map) {
+    for (auto& [a, b] : vv) {
         temp += b;
         Max = max(Max, temp);
     }
     temp = 0;
     bool find = false;
-    for (auto& [a, b] : Map) {
+    for (auto& [a, b] : vv) {
         temp += b;
         if (temp == Max && !find) {
             s = a;
