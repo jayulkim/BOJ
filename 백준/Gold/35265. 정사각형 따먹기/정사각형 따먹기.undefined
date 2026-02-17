@@ -1,0 +1,63 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef tuple<char, ll, ll> cll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<char, ll> pcl;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    ll num = 0;
+    cin >> num;
+    while (num--) {
+        cin >> n >> m;
+        vector<pll>result;
+        vector<vector<ll>>Map(n + 2, vector<ll>(m + 2, 0));
+        vector<vector<ll>>forward = { {0, 1}, {1, 0}, {0, -1}, {-1, 0} };
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
+                Map[i][j] = 1;
+            }
+        }
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
+                if (Map[i][j]) {
+                    ll a = 0, b = 0;
+                    for (int k = 0; k < 4; k++) {
+                        ll dy = i + forward[k][0];
+                        ll dx = j + forward[k][1];
+                        if (Map[dy][dx]) {
+                            a++;
+                        }
+                        else {
+                            b++;
+                        }
+                    }
+                    if (a == b) {
+                        result.push_back({ i, j });
+                        Map[i][j] = 0;
+                    }
+                }
+            }
+        }
+        cout << result.size() << '\n';
+        for (auto& [a, b] : result) {
+            cout << a << ' ' << b << '\n';
+        }
+    }
+    return 0;
+}
