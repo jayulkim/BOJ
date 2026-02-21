@@ -1,0 +1,48 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef tuple<char, ll, ll> cll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<char, ll> pcl;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    vector<ll>v;
+    ll temp = 1;
+    ll add = 5;
+    while (temp <= 1000000) {
+        v.push_back(temp);
+        temp += add;
+        add += 4;
+    }
+    cin >> n;
+    if (n == 26 || n == 11) {
+        cout << 6;
+        return 0;
+    }
+    vector<ll>dp(n + 1, 6);
+    dp[0] = 0;
+    for (int i = 1; i <= n; i++) {
+        for (auto& j : v) {
+            if (i - j >= 0) {
+                dp[i] = min(dp[i], dp[i - j] + 1);
+            }
+        }
+    }
+    cout << dp[n];
+    return 0;
+}
