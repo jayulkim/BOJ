@@ -1,0 +1,75 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<string, char, ll> scl;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef tuple<char, ll, ll> cll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<char, ll> pcl;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    vector<vector<ll>>vi(7, vector<ll>(7, 0));
+    vector<vector<char>>Map(9, vector<char>(8, 0));
+    vector<vector<ll>>v(9, vector<ll>(8, 0));
+    for (int i = 0; i < 8; i++) {
+        for (int j = 0; j < 7; j++) {
+            cin >> Map[i][j];
+        }
+    }
+    vector<vector<ll>>forward = { {-1, 0}, {0, -1}, {1, 0}, {0, 1} };
+    function<ll(ll, ll)> dfs = [&](ll a, ll b) -> ll {
+        if (a == 8) {
+            return 1;
+        }
+        ll weight = 0;
+        if (v[a][b]) {
+            if (b + 1 == 7) {
+                weight += dfs(a + 1, 0);
+            }
+            else {
+                weight += dfs(a, b + 1);
+            }
+        }
+        else {
+            for (int i = 0; i < 4; i++) {
+                ll dy = a + forward[i][0];
+                ll dx = b + forward[i][1];
+                if (dy >= 0 && dy < 8 && dx >= 0 && dx < 7) {
+                    ll aa = min(Map[dy][dx] - '0', Map[a][b] - '0');
+                    ll bb = max(Map[dy][dx] - '0', Map[a][b] - '0');
+                    if (!v[dy][dx] && !vi[aa][bb]) {
+                        v[dy][dx] = 1;
+                        v[a][b] = 1;
+                        vi[aa][bb] = 1;
+                        if (b + 1 == 7) {
+                            weight += dfs(a + 1, 0);
+                        }
+                        else {
+                            weight += dfs(a, b + 1);
+                        }
+                        v[dy][dx] = 0;
+                        v[a][b] = 0;
+                        vi[aa][bb] = 0;
+                    }
+                }
+            }
+        }
+        return weight;
+        };
+    cout << dfs(0, 0);
+    return 0;
+}
