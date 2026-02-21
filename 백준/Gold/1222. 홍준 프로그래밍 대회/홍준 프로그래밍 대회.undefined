@@ -1,0 +1,58 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef tuple<char, ll, ll> cll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<char, ll> pcl;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    vector<vector<ll>>graph(2000001);
+    vector<ll>vi(2000001, 0);
+    cin >> n;
+    for (int i = 0; i < n; i++) {
+        cin >> m;
+        if (graph[m].size()) {
+            for (auto& j : graph[m]) {
+                vi[j]++;
+            }
+            continue;
+        }
+        for (int j = 1; j * j <= m; j++) {
+            if (m % j == 0) {
+                if (j * j == m) {
+                    vi[j]++;
+                    graph[m].push_back(j);
+                }
+                else {
+                    graph[m].push_back(j);
+                    graph[m].push_back(m / j);
+                    vi[j]++;
+                    vi[m / j]++;
+                }
+            }
+        }
+    }
+    ll Max = 0;
+    for (int i = 1; i <= 2000000; i++) {
+        if (vi[i] > 1) {
+            Max = max(Max, i * vi[i]);
+        }
+    }
+    cout << Max;
+    return 0;
+}
