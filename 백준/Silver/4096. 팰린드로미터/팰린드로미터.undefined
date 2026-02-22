@@ -1,0 +1,64 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<string, char, ll> scl;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef tuple<char, ll, ll> cll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<char, ll> pcl;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    while (1) {
+        string str = "";
+        cin >> str;
+        if (str == "0") {
+            break;
+        }
+        ll temp = 0;
+        while (1) {
+            bool find = false;
+            for (int i = 0; i < str.length(); i++) {
+                if (str[i] != str[str.length() - i - 1]) {
+                    find = true;
+                    break;
+                }
+            }
+            if (!find) {
+                cout << temp << '\n';
+                break;
+            }
+            temp++;
+            string s = "";
+            for (auto& i : str) {
+                if (i != '0') {
+                    break;
+                }
+                s += i;
+            }
+            ll t = stoll(str);
+            for (int i = 0; i < to_string(t + 1).length() - to_string(t).length(); i++) {
+                if (s != "") {
+                    s.pop_back();
+                }
+            }
+            t++;
+            string result = s + to_string(t);
+            str = result;
+        }
+    }
+    return 0;
+}
