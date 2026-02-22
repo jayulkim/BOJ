@@ -1,0 +1,60 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<string, char, ll> scl;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef tuple<char, ll, ll> cll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<char, ll> pcl;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<string>v;
+    for (int i = 0; i < n; i++) {
+        string str = "";
+        cin >> str;
+        v.push_back(str);
+    }
+    ll count = 0;
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = i + 1; j < n; j++) {
+            string a = v[i];
+            string b = v[j];
+            map<ll, vector<ll>>Mapa;
+            map<ll, vector<ll>>Mapb;
+            for (int k = 0; k < a.length(); k++) {
+                Mapa[a[k] - 'a'].push_back(k);
+                Mapb[b[k] - 'a'].push_back(k);
+            }
+            vector<vector<ll>>va;
+            vector<vector<ll>>vb;
+            for (auto& k : Mapa) {
+                va.push_back(k.second);
+            }
+            for (auto& k : Mapb) {
+                vb.push_back(k.second);
+            }
+            sort(all(va));
+            sort(all(vb));
+            if (va == vb) {
+                count++;
+            }
+        }
+    }
+    cout << count;
+    return 0;
+}
