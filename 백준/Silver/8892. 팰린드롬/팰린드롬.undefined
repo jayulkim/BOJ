@@ -1,0 +1,74 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<string, char, ll> scl;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef tuple<char, ll, ll> cll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<char, ll> pcl;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    ll num = 0;
+    cin >> num;
+    while (num--) {
+        cin >> n;
+        vector<string>v;
+        for (int i = 0; i < n; i++) {
+            string str = "";
+            cin >> str;
+            v.push_back(str);
+        }
+        bool f = false;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = i + 1; j < n; j++) {
+                string a = v[i] + v[j];
+                string b = v[j] + v[i];
+                bool find = false;
+                for (int k = 0; k < a.length() / 2; k++) {
+                    if (a[k] != a[a.length() - k - 1]) {
+                        find = true;
+                        break;
+                    }
+                }
+                if (!find) {
+                    cout << a << '\n';
+                    f = true;
+                    break;
+                }
+                find = false;
+                for (int k = 0; k < b.length() / 2; k++) {
+                    if (b[k] != b[b.length() - k - 1]) {
+                        find = true;
+                        break;
+                    }
+                }
+                if (!find) {
+                    cout << b << '\n';
+                    f = true;
+                    break;
+                }
+            }
+            if (f) {
+                break;
+            }
+        }
+        if (!f) {
+            cout << 0 << '\n';
+        }
+    }
+    return 0;
+}
