@@ -23,8 +23,12 @@ int main(void) {
     ios::sync_with_stdio(false);
     cin.tie(0);
     ll mod = 1000000007;
-    vector<vector<ll>>dp(5001, vector<ll>(5001, -1));
+    ll temp = 0;
+    vector<vector<ll>>dp(5001, vector<ll>(2501, -1));
     function<ll(ll, ll)> dfs = [&](ll a, ll b) -> ll {
+        if (temp % 2) {
+            return 0;
+        }
         if (!a) {
             if (!b) {
                 return 1;
@@ -39,13 +43,16 @@ int main(void) {
             weight += dfs(a - 1, b - 1) % mod;
             weight %= mod;
         }
-        weight += dfs(a - 1, b + 1) % mod;
+        if (b + 1 <= temp / 2) {
+            weight += dfs(a - 1, b + 1) % mod;
+        }
         weight %= mod;
         return dp[a][b] = weight;
         };
     cin >> n;
     for (int i = 0; i < n; i++) {
         cin >> m;
+        temp = m;
         if (dp[m][0] != -1) {
             cout << dp[m][0] << '\n';
         }
