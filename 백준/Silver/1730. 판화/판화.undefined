@@ -1,0 +1,83 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<string, char, ll> scl;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef tuple<char, ll, ll> cll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<char, ll> pcl;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    string str = "";
+    cin >> str;
+    vector<vector<char>>Map(n + 1, vector<char>(n + 1, '.'));
+    map<char, ll>idx;
+    idx['D'] = 0;
+    idx['L'] = 1;
+    idx['R'] = 2;
+    idx['U'] = 3;
+    vector<vector<ll>>forward = { {1, 0}, {0, -1}, {0, 1}, {-1, 0} };
+    ll y = 0, x = 0;
+    for (auto& i : str) {
+        ll dy = y + forward[idx[i]][0];
+        ll dx = x + forward[idx[i]][1];
+        if (dy >= 0 && dy < n && dx >= 0 && dx < n) {
+            if (i == 'D' || i == 'U') {
+                if (Map[y][x] == '.') {
+                    Map[y][x] = '|';
+                }
+                else if (Map[y][x] == '-') {
+                    Map[y][x] = '+';
+                }
+            }
+            else {
+                if (Map[y][x] == '.') {
+                    Map[y][x] = '-';
+                }
+                else if (Map[y][x] == '|') {
+                    Map[y][x] = '+';
+                }
+            }
+            y = dy;
+            x = dx;
+            if (i == 'D' || i == 'U') {
+                if (Map[y][x] == '.') {
+                    Map[y][x] = '|';
+                }
+                else if (Map[y][x] == '-') {
+                    Map[y][x] = '+';
+                }
+            }
+            else {
+                if (Map[y][x] == '.') {
+                    Map[y][x] = '-';
+                }
+                else if (Map[y][x] == '|') {
+                    Map[y][x] = '+';
+                }
+            }
+        }
+    }
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cout << Map[i][j];
+        }
+        cout << '\n';
+    }
+    return 0;
+}
