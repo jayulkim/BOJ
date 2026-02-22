@@ -1,0 +1,120 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<string, char, ll> scl;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef tuple<char, ll, ll> cll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<char, ll> pcl;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    ll count = 1;
+    while (1) {
+        cin >> n;
+        if (!n) {
+            break;
+        }
+        ll a = 0;
+        vector<string>v;
+        for (int i = 0; i < n; i++) {
+            string str = "";
+            cin >> str;
+            string temp = "";
+            bool find = false;
+            for (auto& j : str) {
+                if (j == ',') {
+                    a += stoll(temp);
+                    temp = "";
+                }
+                else {
+                    temp += j;
+                }
+            }
+            v.push_back(temp);
+        }
+        ll up = 0, down = 0;
+        string t = "";
+        bool find = false;
+        for (auto& i : v[0]) {
+            if (i == '/') {
+                up = stoll(t);
+                find = true;
+                t = "";
+            }
+            else {
+                t += i;
+            }
+        }
+        if (!find) {
+            up = stoll(t);
+            down = 1;
+        }
+        else {
+            down = stoll(t);
+        }
+        for (int i = 1; i < n; i++) {
+            ll u = 0, d = 0;
+            string tt = "";
+            bool find = false;
+            for (auto& j : v[i]) {
+                if (j == '/') {
+                    u = stoll(tt);
+                    find = true;
+                    tt = "";
+                }
+                else {
+                    tt += j;
+                }
+            }
+            if (!find) {
+                u = stoll(tt);
+                d = 1;
+            }
+            else {
+                d = stoll(tt);
+            }
+            ll b = down;
+            up = up * d + u * down;
+            down = b * d;
+            a += up / down;
+            up %= down;
+            ll e = up;
+            up /= gcd(down, up);
+            down /= gcd(down, e);
+        }
+        string aa = "";
+        if (a) {
+            aa = to_string(a);
+        }
+        string u = "";
+        if (up) {
+            u = to_string(up) + '/' + to_string(down);
+        }
+        string result = "0";
+        if (aa != "" && u != "") {
+            result = aa + ',' + u;
+        }
+        else if (aa != "") {
+            result = aa;
+        }
+        else if (u != "") {
+            result = u;
+        }
+        cout << "Test " << count++ << ": " << result << '\n';
+    }
+    return 0;
+}
