@@ -1,0 +1,46 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<string, char, ll> scl;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef tuple<char, ll, ll> cll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<char, ll> pcl;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<pll>v;
+    for (int i = 0; i < n; i++) {
+        ll a = 0, b = 0;
+        cin >> a >> b;
+        v.push_back({ a, b });
+    }
+    ll sum = 0;
+    for (int i = 1; i < n; i++) {
+        sum += llabs(v[i].first - v[i - 1].first) + llabs(v[i].second - v[i - 1].second);
+    }
+    ll Min = sum;
+    for (int i = 1; i < n - 1; i++) {
+        ll temp = sum;
+        temp -= llabs(v[i].first - v[i - 1].first) + llabs(v[i].second - v[i - 1].second);
+        temp -= llabs(v[i].first - v[i + 1].first) + llabs(v[i].second - v[i + 1].second);
+        temp += llabs(v[i + 1].first - v[i - 1].first) + llabs(v[i + 1].second - v[i - 1].second);
+        Min = min(Min, temp);
+    }
+    cout << Min;
+    return 0;
+}
