@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+#define all(v) v.begin(), v.end()
+using namespace std;
+typedef long long ll;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	cin >> n >> m >> k;
+	vector<lll>v;
+	for (int i = 0; i < n; i++) {
+		ll a = 0, b = 0, c = 0;
+		cin >> a >> b >> c;
+		v.push_back({ a, b, c });
+	}
+	ll Max = 0;
+	for (int i = 0; i < n - 1; i++) {
+		auto [a, b, c] = v[i];
+		for (int j = i + 1; j < n; j++) {
+			auto [d, e, f] = v[j];
+			if (llabs(d - a) + 1 <= m && llabs(e - b) + 1 <= k) {
+				Max = max(Max, max(c, f) - min(c, f));
+			}
+		}
+	}
+	cout << Max;
+	return 0;
+}
