@@ -23,7 +23,7 @@ int main(void) {
 		m--;
 		cout << temp << '\n';
 		Map[temp]++;
-		for (int i = 2; i <= 70; i++) {
+		for (int i = 2; i <= 55; i++) {
 			ll x = temp * i;
 			ll count = 0;
 			while (x) {
