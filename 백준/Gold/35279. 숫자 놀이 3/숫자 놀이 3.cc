@@ -12,7 +12,7 @@ int main(void) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
 	cin >> n >> m;
-	map<ll, ll>Map;
+	unordered_map<ll, ll>Map;
 	priority_queue<ll, vector<ll>, greater<ll>>pq;
 	for (int i = 1; i < n; i++) {
 		pq.push(i);
