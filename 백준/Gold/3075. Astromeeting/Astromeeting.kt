@@ -10,7 +10,7 @@ fun main() {
         for (i in 1..n) {
             ary[i] = br.readLine().toInt()
         }
-        val inf = 10000000L
+        val inf = 1000000000L
         val dist = Array(m + 1) {LongArray(m + 1) {inf}}
         for (i in 1..k) {
             val (a, b, c) = br.readLine().split(" ").map{it.toInt()}
@@ -28,14 +28,19 @@ fun main() {
             }
         }
         var a = 0
-        var b = inf * inf * inf
+        var b = Long.MAX_VALUE
         for (i in 1..m) {
             var sum = 0L
+            var find = false
             for (j in 1..n) {
                 val d = dist[ary[j]][i]
+                if (d == inf) {
+                    find = true
+                    break
+                }
                 sum += d * d
             }
-            if (b > sum) {
+            if (b > sum && !find) {
                 b = sum
                 a = i
             }
