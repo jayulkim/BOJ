@@ -5,15 +5,14 @@ fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val bw = BufferedWriter(OutputStreamWriter(System.out))
     repeat(br.readLine().toInt()) {
-        val (n, m, k) = br.readLine().split(" ").map{it.toInt()}
-        val ary = IntArray(n + 1)
+        var (n, m, k) = br.readLine().split(" ").map{it.toInt()}
+        var ary = IntArray(n + 1)
         for (i in 1..n) {
             ary[i] = br.readLine().toInt()
         }
-        val inf = 1000000000L
-        val dist = Array(m + 1) {LongArray(m + 1) {inf}}
+        var dist = Array(m + 1) {LongArray(m + 1) {1e7.toLong()}}
         for (i in 1..k) {
-            val (a, b, c) = br.readLine().split(" ").map{it.toInt()}
+            var (a, b, c) = br.readLine().split(" ").map{it.toInt()}
             dist[a][b] = minOf(dist[a][b], c.toLong())
             dist[b][a] = minOf(dist[b][a], c.toLong())
         }
@@ -27,18 +26,17 @@ fun main() {
                 }
             }
         }
-        var a = 0
-        var b = Long.MAX_VALUE
-        for (i in 1..m) {
+        var a = 1e18.toLong()
+        var b = 1e18.toLong()
+        for (i in 1..m.toLong()) {
             var sum = 0L
             var find = false
             for (j in 1..n) {
-                val d = dist[ary[j]][i]
-                if (d == inf) {
+                if (dist[ary[j]][i.toInt()] == 1e7.toLong()) {
                     find = true
                     break
                 }
-                sum += d * d
+                sum += dist[ary[j]][i.toInt()] * dist[ary[j]][i.toInt()]
             }
             if (b > sum && !find) {
                 b = sum
