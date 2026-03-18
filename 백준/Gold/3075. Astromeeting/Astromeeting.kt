@@ -10,7 +10,8 @@ fun main() {
         for (i in 1..n) {
             ary[i] = br.readLine().toInt()
         }
-        val dist = Array(m + 1) {LongArray(m + 1) {1e7.toLong()}}
+        val inf = 10000000L
+        val dist = Array(m + 1) {LongArray(m + 1) {inf}}
         for (i in 1..k) {
             val (a, b, c) = br.readLine().split(" ").map{it.toInt()}
             dist[a][b] = minOf(dist[a][b], c.toLong())
@@ -26,12 +27,13 @@ fun main() {
                 }
             }
         }
-        var a = 1e18.toLong()
-        var b = 1e18.toLong()
-        for (i in 1..m.toLong()) {
+        var a = 0
+        var b = inf * inf * inf
+        for (i in 1..m) {
             var sum = 0L
             for (j in 1..n) {
-                sum += dist[ary[j]][i.toInt()] * dist[ary[j]][i.toInt()]
+                val d = dist[ary[j]][i]
+                sum += d * d
             }
             if (b > sum) {
                 b = sum
