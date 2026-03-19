@@ -4,7 +4,7 @@ typealias ii = Int
 typealias ll = Long
 typealias ld = Double
 
-fun dfs(dp: Array<Array<LongArray>>, len: ii, temp: ii, prev: ii, end: ii, mod: ll): ll {
+fun dfs(dp: Array<Array<LongArray>>, len : ii, temp : ii, prev : ii, end : ii, mod : ll) : ll {
     if (len == end) {
         if (temp == (1 shl 10) - 1) {
             return 1
@@ -25,22 +25,23 @@ fun dfs(dp: Array<Array<LongArray>>, len: ii, temp: ii, prev: ii, end: ii, mod: 
     return weight
 }
 
-fun solve() {
-    val br = BufferedReader(InputStreamReader(System.`in`))
-    val bw = BufferedWriter(OutputStreamWriter(System.out))
-    val n = br.readLine().toInt()
-    val dp = Array(n) { Array(1 shl 10) { LongArray(10){ -1 } } }
+fun solve(n : ii) : ll {
     var result = 0L
+    val dp = Array(n) { Array(1 shl 10) { LongArray(10){ -1 } } }
     val mod = 1000000000L
     for (i in 1..9) {
         result += dfs(dp, 1, 1 shl i, i, n, mod)
         result %= mod
     }
-    bw.write("$result")
-    bw.flush()
-    bw.close()
+    return result
 }
 
 fun main() {
-    solve()
+    val br = BufferedReader(InputStreamReader(System.`in`))
+    val bw = BufferedWriter(OutputStreamWriter(System.out))
+    val n = br.readLine().toInt()
+    var result = solve(n)
+    bw.write("$result")
+    bw.flush()
+    bw.close()
 }
