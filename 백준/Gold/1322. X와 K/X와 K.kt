@@ -10,7 +10,7 @@ fun solve(n : Long, m : Long) : Long {
             list.add(1L shl i)
         }
     }
-    for (i in 0..log(m.toDouble(), 2.0).toInt()) {
+    for (i in 0..<list.size) {
         if ((m shr i) and 1L == 1L) {
             result += list[i]
         }
@@ -21,7 +21,7 @@ fun solve(n : Long, m : Long) : Long {
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val bw = BufferedWriter(OutputStreamWriter(System.out))
-    val (n, m) = br.readLine().split(" ").map({it.toLong()})
+    val (n, m) = br.readLine()!!.split(" ").map{ it.toLong() }
     bw.write("${solve(n, m)}")
     bw.flush()
     bw.close()
