@@ -12,52 +12,20 @@ int main(void) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
 	cin >> n >> m >> k;
-	vector<vector<pll>>graph(n + 1);
 	vector<lll>v(n + 1);
 	vector<map<ll, ll>>color(n + 1);
-	vector<map<ll, ll>>vi(n + 1);
+	ll count = n - 1;
 	for (int i = 1; i <= n - 1; i++) {
 		ll a = 0, b = 0, c = 0;
 		cin >> a >> b >> c;
-		graph[a].push_back({ b, c });
-		graph[b].push_back({ a, c });
 		v[i] = { a, b, c };
 		color[a][c]++;
-		color[b][c]++;
-	}
-	ll count = 0;
-	for (int i = 1; i <= n - 1; i++) {
-		auto [a, b, c] = v[i];
-		queue<ll>q;
-		if (!vi[a][c]) {
-			count++;
-			q.push(a);
-			while (!q.empty()) {
-				ll temp = q.front();
-				q.pop();
-				vi[temp][c] = 1;
-				for (auto& [a, b] : graph[temp]) {
-					if (!vi[a][c] && b == c) {
-						vi[a][c] = 1;
-						q.push(a);
-					}
-				}
-			}
+		if (color[a][c] >= 2) {
+			count--;
 		}
-		if (!vi[b][c]) {
-			count++;
-			q.push(b);
-			while (!q.empty()) {
-				ll temp = q.front();
-				q.pop();
-				vi[temp][c] = 1;
-				for (auto& [a, b] : graph[temp]) {
-					if (!vi[a][c] && b == c) {
-						vi[a][c] = 1;
-						q.push(a);
-					}
-				}
-			}
+		color[b][c]++;
+		if (color[b][c] >= 2) {
+			count--;
 		}
 	}
 	for (int i = 0; i < k; i++) {
