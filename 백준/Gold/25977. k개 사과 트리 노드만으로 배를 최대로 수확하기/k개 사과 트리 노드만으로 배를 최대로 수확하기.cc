@@ -24,8 +24,8 @@ int main(void) {
 	for (int i = 0; i < n; i++) {
 		cin >> v[i];
 	}
-	vector<vector<ll>>dp(1 << n, vector<ll>(n + 1, -1));
-	function<ll(ll, ll)> dfs = [&](ll a, ll b) -> ll {
+	vector<ll>dp(1 << n, -1);
+	function<ll(ll)> dfs = [&](ll a) -> ll {
 		ll count = 0;
 		for (int i = 0; i < n; i++) {
 			if ((a >> i) & 1 && v[i] == 1) {
@@ -35,8 +35,8 @@ int main(void) {
 		if (count > m) {
 			return -1e9;
 		}
-		if (dp[a][b] != -1) {
-			return dp[a][b];
+		if (dp[a] != -1) {
+			return dp[a];
 		}
 		ll weight = 0;
 		for (int i = 0; i < n; i++) {
@@ -44,16 +44,16 @@ int main(void) {
 				for (auto& j : graph[i]) {
 					if (!((a >> j) & 1)) {
 						if (v[j] == 2) {
-							weight = max(weight, dfs(a | (1 << j), j) + 1);
+							weight = max(weight, dfs(a | (1 << j)) + 1);
 						}
-						weight = max(weight, dfs(a | (1 << j), j));
+						weight = max(weight, dfs(a | (1 << j)));
 					}
 				}
 			}
 		}
-		return dp[a][b] = weight;
+		return dp[a] = weight;
 		};
-	ll result = dfs(1, 0);
+	ll result = dfs(1);
 	if (v[0] == 2) {
 		result++;
 	}
