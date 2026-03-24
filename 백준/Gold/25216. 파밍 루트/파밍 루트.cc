@@ -50,7 +50,7 @@ int main(void) {
 	}
 	memset(dp, -1, sizeof(dp));
 	ll Max = dfs(1, 1, 0) + get<3>(v[1]);
-	ll start = 1, end = 1e10, mid = 0;
+	ll start = 1, end = 1e9 + 100 * 10000, mid = 0;
 	ll result = LLONG_MAX;
 	while (start <= end) {
 		mid = (start + end) / 2;
