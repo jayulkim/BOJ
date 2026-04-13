@@ -1,108 +1,402 @@
-//KACTL millerlabin, pollardrho
 #include <bits/stdc++.h>
+#define all(v) v.begin(), v.end()
 using namespace std;
 typedef long long ll;
-typedef pair<ll, ll> pll;
-typedef pair<ll, string> pls;
-typedef pair<string, ll> psl;
+typedef unsigned long long ull;
+typedef long double ld;
 typedef tuple<ll, ll, ll> lll;
-typedef tuple<pll, string, ll> pllsl;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
 ll n = 0, m = 0, k = 0;
-ll mulmod(ll x, ll y, ll num) {
-	return (__int128)x * y % num;
-}
-ll powmod(ll x, ll y, ll num) {
-	ll result = 1;
-	x %= num;
-	while (y) {
-		if (y & 1) {
-			result = mulmod(result, x, num);
-		}
-		x = mulmod(x, x, num);
-		y >>= 1;
+class Fastmod {
+private:
+	using ll = long long;
+	using ull = unsigned long long;
+	ull mod;
+	ull norm(ll x) {
+		ll m = (ll)mod;
+		x %= m;
+		if (x < 0) x += m;
+		return (ull)x;
 	}
-	return result;
-}
-bool isprime(ll x) {
-	// 2 이상의 소수는 전부 6k ± 1 꼴이다.
-	// 즉, 6으로 나눈 나머지가 1 또는 5인 애들만 소수일 가능성이 있다.
-	if (x < 2 || x % 6 % 4 != 1) {
-		// 이땐 그냥 2나 3이면 true 반환
-		return (x | 1) == 3;
-	}
-	// (x - 1)(i) = {(x - 1) / 2, (x - 1) / 4. (x - 1) / 8, ... (x - 1) / 2^s}
-	// ary^((x - 1)(i)) (mod x) == ± 1 판별
-	// x - 1 = d * 2^s 형태로 분해
-	// __builtin_ctzll(x - 1) : (x - 1)(2)의 오른쪽부터 0비트 개수 : 2로 나눌 수 있는 횟수
-	ll s = __builtin_ctzll(x - 1);
-	// d : (x - 1) / 2^s (홀수)
-	ll d = (x - 1) >> s;
-	for (ll a : {2, 325, 9375, 28178, 450775, 9780504, 1795265022}) {
-		ll temp = powmod(a % x, d, x);
-		ll i = s;
-		// i번만큼 제곱하면서 소수가되는 조건을 만족하는 경우 찾기
-		while (temp != 1 && temp != x - 1 && a % x && i--) {
-			temp = mulmod(temp, temp, x);
+	ull addmod_u(ull a, ull b) {
+		if (a >= mod - b) {
+			return a - (mod - b);
 		}
-		// 조건을 만족하는 경우를 못 찾았을 때 if(!millerlabin(x, a))
-		if (temp != x - 1 && i != s) {
+		return a + b;
+	}
+public:
+	Fastmod(ull mod) {
+		this->mod = mod;
+	}
+	ull addmod(ull a, ull b) {
+		return addmod_u(a, b);
+	}
+	ull addmod(ll a, ll b) {
+		return addmod_u(norm(a), norm(b));
+	}
+	ull fastmulmod(ull a, ull b) {
+		long long result = a * b - mod * (ull)(1.L / mod * a * b);
+		if (result < 0) {
+			result += mod;
+		}
+		if ((ull)result >= mod) {
+			result -= mod;
+		}
+		return (ull)result;
+	}
+	ull fastmulmod(ll a, ll b) {
+		return fastmulmod(norm(a), norm(b));
+	}
+	ull mulmod(ull a, ull b) {
+		ull result = 0;
+		while (b) {
+			if (b & 1) {
+				result = addmod_u(result, a);
+			}
+			a = addmod_u(a, a);
+			b >>= 1;
+		}
+		return result;
+	}
+	ull mulmod(ll a, ll b) {
+		return mulmod(norm(a), norm(b));
+	}
+	ull fastpowmod(ll a, ull b) {
+		ull x = norm(a);
+		ull result = 1;
+		while (b) {
+			if (b & 1) {
+				result = fastmulmod(result, x);
+			}
+			x = fastmulmod(x, x);
+			b >>= 1;
+		}
+		return result;
+	}
+	ull powmod(ll a, ull b) {
+		ull x = norm(a);
+		ull result = 1;
+		while (b) {
+			if (b & 1) {
+				result = mulmod(result, x);
+			}
+			x = mulmod(x, x);
+			b >>= 1;
+		}
+		return result;
+	}
+};
+class Primecheck {
+private:
+	using ull = unsigned long long;
+public:
+	bool bigisprime(ull x) {
+		static const ull sample[] = { 2, 325, 9375, 28178, 450775, 9780504, 1795265022 };
+		if (x < 2 || x % 6 % 4 != 1) {
+			return (x | 1) == 3;
+		}
+		Fastmod fm(x);
+		ull s = __builtin_ctzll(x - 1);
+		ull d = (x - 1) >> s;
+		for (ull a : sample) {
+			ull temp = fm.fastpowmod(a % x, d);
+			ull i = s;
+			while (temp != 1 && temp != x - 1 && a % x && i--) {
+				temp = fm.fastmulmod(temp, temp);
+			}
+			if (temp != x - 1 && i != s) {
+				return false;
+			}
+		}
+		return true;
+	}
+	bool isprime(ull x) {
+		if (x < 2) {
 			return false;
 		}
-	}
-	return true;
-}
-ll pollardrho(ll x) {
-	// f(x) = x^2 + 1 (mod n) : random 수열 생성 함수
-	auto f = [&](ll a) {
-		return (mulmod(a, a, n) + 1) % x;
-		};
-	ll a = 0, b = 0; // 수열 위의 두 점 (토끼와 거북이)
-	ll t = 0; // 반복 횟수
-	ll prd = 2; // x, y 차이 누적 곱
-	ll i = 1; // x의 초기 시작점
-	ll q = 0;
-	// 40번이 지난 뒤부터는 __gcd(prd, x) == 1이면 계속 돈다.
-	while (t++ % 40 || __gcd(prd, x) == 1) {
-		// 토끼와 거북이가 만남
-		// 시작점 변경
-		if (a == b) {
-			a = ++i;
-			b = f(a);
+		if (x % 2 == 0) {
+			return x == 2;
 		}
-		// 차이 곱 누적
-		q = mulmod(prd, llabs(a - b), x);
-		// 0이 아닐 때만 prd 갱신
-		if (q) {
-			prd = q;
+		for (ull i = 3; i <= x / i; i += 2) {
+			if (x % i == 0) {
+				return false;
+			}
 		}
-		// 거북이 한 칸 이동
-		a = f(a);
-		// 토끼 두 칸 이동
-		b = f(f(b));
+		return true;
 	}
-	return __gcd(prd, x);
-}
-// x의 소인수를 factors에 저장하겠다.
-void factor(ll x, vector<ll>& factors) {
-	if (x == 1) {
-		return;
+	vector<bool> eratosthenes(ull n) {
+		vector<bool>result(n + 1, false);
+		result[1] = true;
+		for (int i = 2; i * i <= n; i++) {
+			if (!result[i]) {
+				for (int j = i * i; j <= n; j += i) {
+					result[j] = true;
+				}
+			}
+		}
+		return result;
 	}
-	if (isprime(x)) {
-		factors.push_back(x);
-		return;
+};
+class Fastgcd {
+private:
+	using ll = long long;
+	using ull = unsigned long long;
+	using lll = tuple<ll, ll, ll>;
+public:
+	ull fastgcd(ull a, ull b) {
+		ull shift = 0;
+		if (a == 0) {
+			return b;
+		}
+		if (b == 0) {
+			return a;
+		}
+		shift = __builtin_ctzll(a | b);
+		a >>= __builtin_ctzll(a);
+		do {
+			b >>= __builtin_ctzll(b);
+			if (a > b) {
+				swap(a, b);
+			}
+			b -= a;
+		} while (b);
+		return a << shift;
 	}
-	ll temp = pollardrho(x);
-	factor(temp, factors);
-	factor(x / temp, factors);
-}
+	lll eea(ll a, ll mod) {
+		ll r1 = a, r2 = mod;
+		ll s1 = 1, s2 = 0;
+		ll t1 = 0, t2 = 1;
+		while (r2) {
+			ll q = r1 / r2;
+			ll r = r1 - q * r2;
+			r1 = r2;
+			r2 = r;
+			ll s = s1 - q * s2;
+			s1 = s2;
+			s2 = s;
+			ll t = t1 - q * t2;
+			t1 = t2;
+			t2 = t;
+		}
+		return { r1, s1, t1 };
+	}
+};
+class Primefactor {
+private:
+	using ll = long long;
+	using ull = unsigned long long;   
+	using pull = pair<ull, ull>;
+	using pll = pair<ll, ll>;
+	Fastgcd fg;
+	Primecheck pc;
+public:
+	ull pollardrho(ull x) {
+		if (x % 2 == 0) {
+			return 2;
+		}
+		Fastmod fm(x);
+		auto f = [&](ull a) {
+			return (fm.fastmulmod(a, a) + 1) % x;
+			};
+		ull a = 0, b = 0;
+		ull t = 30;
+		ull prd = 2;
+		ull i = 1;
+		ull q = 0;
+		while (t++ % 40 || fg.fastgcd(prd, x) == 1) {
+			if (a == b) {
+				a = ++i;
+				b = f(a);
+			}
+			q = fm.fastmulmod(prd, (a > b ? a - b : b - a));
+			if (q) {
+				prd = q;
+			}
+			a = f(a);
+			b = f(f(b));
+			if (!prd) {
+				return x;
+			}
+		}
+		return fg.fastgcd(prd, x);
+	}
+	vector<ull> bigfactor(ull x) {
+		vector<ull>result;
+		vector<ull>v = { x };
+		while (!v.empty()) {
+			ull temp = v.back();
+			v.pop_back();
+			if (temp == 1) {
+				continue;
+			}
+			if (pc.bigisprime(temp)) {
+				result.push_back(temp);
+				continue;
+			}
+			ull d = pollardrho(temp);
+			v.push_back(d);
+			v.push_back(temp / d);
+		}
+		return result;
+	}
+	void bigfactor(ull x, vector<ull>& result) {
+		vector<ull>v = { x };
+		while (!v.empty()) {
+			ull temp = v.back();
+			v.pop_back();
+			if (temp == 1) {
+				continue;
+			}
+			if (pc.bigisprime(temp)) {
+				result.push_back(temp);
+				continue;
+			}
+			ull d = pollardrho(temp);
+			v.push_back(d);
+			v.push_back(temp / d);
+		}
+	}
+	vector<ull> factor(ull x) {
+		vector<ull> result;
+		for (ull i = 2; i <= x / i; i++) {
+			while (x % i == 0) {
+				result.push_back(i);
+				x /= i;
+			}
+		}
+		if (x > 1) {
+			result.push_back(x);
+		}
+		return result;
+	}
+	void factor(ull x, vector<ull>& result) {
+		for (ull i = 2; i <= x / i; i++) {
+			while (x % i == 0) {
+				result.push_back(i);
+				x /= i;
+			}
+		}
+		if (x > 1) {
+			result.push_back(x);
+		}
+	}
+	vector<pll> factorialfactor(ull n, const vector<ll>& prime) {
+		vector<pll>result;
+		for (auto& i : prime) {
+			ull count = 0;
+			for (ull j = i; j <= n;) {
+				count += n / j;
+				if (j > n / i) {
+					break;
+				}
+				j *= i;
+			}
+			if (count > 0) {
+				result.push_back({ i, count });
+			}
+		}
+		return result;
+	}
+	void factorialfactor(ull n, const vector<ll>& prime, vector<ll>& result) {
+		for (auto& i : prime) {
+			ull count = 0;
+			for (ull j = i; j <= n;) {
+				count += n / j;
+				if (j > n / i) {
+					break;
+				}
+				j *= i;
+			}
+			if (count > 0) {
+				result[i] += count;
+			}
+		}
+	}
+	vector<ull> getbigdivisor(ull n) {
+		vector<ull>f = bigfactor(n);
+		sort(f.begin(), f.end());
+		vector<pull>pf;
+		for (auto& i : f) {
+			if (pf.empty() || pf.back().first != i) {
+				pf.push_back({ i, 1 });
+			}
+			else {
+				pf.back().second++;
+			}
+		}
+		vector<ull>result = { 1 };
+		for (auto& [a, b] : pf) {
+			size_t size = result.size();
+			ull temp = 1;
+			for (int i = 1; i <= b; i++) {
+				temp *= a;
+				for (size_t j = 0; j < size; j++) {
+					result.push_back(result[j] * temp);
+				}
+			}
+		}
+		return result;
+	}
+	void getbigdivisor(ull n, vector<ull>& result) {
+		vector<ull>f = bigfactor(n);
+		sort(f.begin(), f.end());
+		vector<pull>pf;
+		for (auto& i : f) {
+			if (pf.empty() || pf.back().first != i) {
+				pf.push_back({ i, 1 });
+			}
+			else {
+				pf.back().second++;
+			}
+		}
+		vector<ull>v = { 1 };
+		for (auto& [a, b] : pf) {
+			size_t size = v.size();
+			ull temp = 1;
+			for (int i = 1; i <= b; i++) {
+				temp *= a;
+				for (size_t j = 0; j < size; j++) {
+					v.push_back(v[j] * temp);
+				}
+			}
+		}
+		for (auto& i : v) {
+			result.push_back(i);
+		}
+	}
+	vector<ull> getdivisor(ull n) {
+		vector<ull> result;
+		for (ull i = 1; i <= n / i; i++) {
+			if (n % i == 0) {
+				result.push_back(i);
+				if (i != n / i) {
+					result.push_back(n / i);
+				}
+			}
+		}
+		return result;
+	}
+	void getdivisor(ull n, vector<ull>& result) {
+		for (ull i = 1; i <= n / i; i++) {
+			if (n % i == 0) {
+				result.push_back(i);
+				if (i != n / i) {
+					result.push_back(n / i);
+				}
+			}
+		}
+	}
+};
 int main(void) {
 	ios::sync_with_stdio(false);
 	cin.tie(0);
 	cin >> n;
-	vector<ll>result;
-	factor(n, result);
-	sort(result.begin(), result.end());
-	for (auto& i : result) {
+	Primefactor pf;
+	vector<ull>v = pf.bigfactor(n);
+	sort(all(v));
+	for (auto& i : v) {
 		cout << i << '\n';
 	}
 	return 0;
