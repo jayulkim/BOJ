@@ -338,11 +338,11 @@ int main(void) {
 	cin.tie(0);
 	cin >> n >> m;
 	Fastgcd fg;
-	auto [a, b, c] = fg.eea(n, m);
+	auto [a, b, c] = fg.eea(m, n);
 	if (a != 1) {
 		cout << n - m << ' ' << -1;
 		return 0;
 	}
-	cout << n - m << ' ' << (c % n + n) % n;
+	cout << n - m << ' ' << (b % n + n) % n;
 	return 0;
 }
