@@ -37,7 +37,14 @@ public:
 		return addmod_u(norm(a), norm(b));
 	}
 	ull fastmulmod(ull a, ull b) {
-		return (ull)((unsigned __int128)a * b % mod);
+		long long result = a * b - mod * (ull)(1.L / mod * a * b);
+		if (result < 0) {
+			result += mod;
+		}
+		if ((ull)result >= mod) {
+			result -= mod;
+		}
+		return (ull)result;
 	}
 	ull fastmulmod(ll a, ll b) {
 		return fastmulmod(norm(a), norm(b));
