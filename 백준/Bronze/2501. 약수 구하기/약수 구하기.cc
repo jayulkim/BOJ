@@ -394,7 +394,7 @@ int main(void) {
 	cin.tie(0);
 	cin >> n >> m;
 	Primefactor pf;
-	vector<ull>v = pf.getdivisor(n);
+	vector<ull>v = pf.getbigdivisor(n);
 	sort(all(v));
 	if (m > v.size()) {
 		cout << 0;
