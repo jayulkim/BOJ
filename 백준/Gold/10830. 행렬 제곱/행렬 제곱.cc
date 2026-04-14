@@ -90,7 +90,7 @@ public:
 		return fastmulmod(norm(up), fastpowmod(norm(down), mod - 2));
 	}
 };
-class Matrixmod {
+class Matrix {
 private:
 	using ll = long long;
 	using ull = unsigned long long;
@@ -99,7 +99,29 @@ private:
 	ull mod;
 	Fastmod fm;
 public:
-	Matrixmod(ull mod) : mod(mod), fm(mod) {}
+	Matrix(ull mod) : mod(mod), fm(mod) {}
+	ll pow(ll a, ull b) {
+		ll result = 1;
+		while (b) {
+			if (b & 1) {
+				result *= a;
+			}
+			a *= a;
+			b >>= 1;
+		}
+		return result;
+	}
+	ull pow(ull a, ull b) {
+		ull result = 1;
+		while (b) {
+			if (b & 1) {
+				result *= a;
+			}
+			a *= a;
+			b >>= 1;
+		}
+		return result;
+	}
 	matrix addmod(const matrix& a, const matrix& b) {
 		ll n = a.size();
 		ll m = a[0].size();
@@ -135,9 +157,26 @@ public:
 		matrix result(a.size(), vector<ll>(b[0].size(), 0));
 		for (ll i = 0; i < (ll)a.size(); i++) {
 			for (ll k = 0; k < (ll)a[0].size(); k++) {
-				if (a[i][k] == 0) continue;
-				for (ll j = 0; j < (ll)b[0].size(); j++) {
-					result[i][j] = fm.addmod(result[i][j], (ll)fm.fastmulmod(a[i][k], b[k][j]));
+				if (a[i][k]) {
+					for (ll j = 0; j < (ll)b[0].size(); j++) {
+						result[i][j] = fm.addmod(result[i][j], (ll)fm.fastmulmod(a[i][k], b[k][j]));
+					}
+				}
+			}
+		}
+		return result;
+	}
+	matrix mul(const matrix& a, const matrix& b) {
+		if ((ll)a[0].size() != (ll)b.size()) {
+			return { {} };
+		}
+		matrix result(a.size(), vector<ll>(b[0].size(), 0));
+		for (ll i = 0; i < (ll)a.size(); i++) {
+			for (ll k = 0; k < (ll)a[0].size(); k++) {
+				if (a[i][k]) {
+					for (ll j = 0; j < (ll)b[0].size(); j++) {
+						result[i][j] += a[i][k] * b[k][j];
+					}
 				}
 			}
 		}
@@ -150,9 +189,26 @@ public:
 		matrix_u result(a.size(), vector<ull>(b[0].size(), 0));
 		for (ll i = 0; i < (ll)a.size(); i++) {
 			for (ll k = 0; k < (ll)a[0].size(); k++) {
-				if (a[i][k] == 0) continue;
-				for (ll j = 0; j < (ll)b[0].size(); j++) {
-					result[i][j] = fm.addmod(result[i][j], fm.fastmulmod(a[i][k], b[k][j]));
+				if (a[i][k]) {
+					for (ll j = 0; j < (ll)b[0].size(); j++) {
+						result[i][j] = fm.addmod(result[i][j], fm.fastmulmod(a[i][k], b[k][j]));
+					}
+				}
+			}
+		}
+		return result;
+	}
+	matrix_u mul(const matrix_u& a, const matrix_u& b) {
+		if (a[0].size() != b.size()) {
+			return { {} };
+		}
+		matrix_u result(a.size(), vector<ull>(b[0].size(), 0));
+		for (ll i = 0; i < (ll)a.size(); i++) {
+			for (ll k = 0; k < (ll)a[0].size(); k++) {
+				if (a[i][k]) {
+					for (ll j = 0; j < (ll)b[0].size(); j++) {
+						result[i][j] += a[i][k] * b[k][j];
+					}
 				}
 			}
 		}
@@ -171,8 +227,24 @@ public:
 		}
 		matrix result = identity((ll)a.size());
 		while (b) {
-			if (b & 1) result = mulmod(result, a);
+			if (b & 1) {
+				result = mulmod(result, a);
+			}
 			a = mulmod(a, a);
+			b >>= 1;
+		}
+		return result;
+	}
+	matrix pow(matrix a, ull b) {
+		if (a.size() != a[0].size()) {
+			return { {} };
+		}
+		matrix result = identity((ll)a.size());
+		while (b) {
+			if (b & 1) {
+				result = mul(result, a);
+			}
+			a = mul(a, a);
 			b >>= 1;
 		}
 		return result;
@@ -190,8 +262,24 @@ public:
 		}
 		matrix_u result = identity((ull)a.size());
 		while (b) {
-			if (b & 1) result = mulmod(result, a);
+			if (b & 1) {
+				result = mulmod(result, a);
+			}
 			a = mulmod(a, a);
+			b >>= 1;
+		}
+		return result;
+	}
+	matrix_u pow(matrix_u a, ull b) {
+		if (a.size() != a[0].size()) {
+			return { {} };
+		}
+		matrix_u result = identity((ull)a.size());
+		while (b) {
+			if (b & 1) {
+				result = mul(result, a);
+			}
+			a = mul(a, a);
 			b >>= 1;
 		}
 		return result;
@@ -868,7 +956,7 @@ int main(void) {
 			cin >> Map[i][j];
 		}
 	}
-	Matrixmod mm(1000);
+	Matrix mm(1000);
 	vector<vector<ll>>result = mm.powmod(Map, m);
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
