@@ -1,0 +1,20 @@
+{
+  "problemId": 32932,
+  "title": "드론 조작",
+  "tier": 5,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 353,
+  "averageTries": 1.2833000421524048,
+  "latestSubmission": {
+    "id": 87377469,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 742,
+    "submittedAt": "1년 전"
+  }
+}

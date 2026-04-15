@@ -1,0 +1,21 @@
+{
+  "problemId": 18130,
+  "title": "여름나기",
+  "tier": 5,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 322,
+  "averageTries": 3.1459999084472656,
+  "latestSubmission": {
+    "id": 92803569,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 4,
+    "codeLen": 749,
+    "submittedAt": "1년 전"
+  }
+}

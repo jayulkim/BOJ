@@ -1,0 +1,19 @@
+{
+  "problemId": 14659,
+  "title": "한조서열정리하고옴ㅋㅋ",
+  "tier": 5,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 4664,
+  "averageTries": 2.425800085067749,
+  "latestSubmission": {
+    "id": 84890181,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1232,
+    "timeMs": 4,
+    "codeLen": 1237,
+    "submittedAt": "1년 전"
+  }
+}

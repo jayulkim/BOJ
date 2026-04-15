@@ -1,0 +1,20 @@
+{
+  "problemId": 21773,
+  "title": "가희와 프로세스 1",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 535,
+  "averageTries": 2.3701000213623047,
+  "latestSubmission": {
+    "id": 88842152,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6760,
+    "timeMs": 284,
+    "codeLen": 779,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "problemId": 31206,
+  "title": "РАЗДЕЛЯЙ и ВЛАДЕЙ 2.0",
+  "tier": 15,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "binary_search",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 21,
+  "averageTries": 2.0952000617980957,
+  "latestSubmission": {
+    "id": 86530194,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 51148,
+    "timeMs": 468,
+    "codeLen": 1001,
+    "submittedAt": "1년 전"
+  }
+}

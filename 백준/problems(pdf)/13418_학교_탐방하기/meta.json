@@ -1,0 +1,20 @@
+{
+  "problemId": 13418,
+  "title": "학교 탐방하기",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "mst"
+  ],
+  "acceptedUserCount": 2514,
+  "averageTries": 2.5664000511169434,
+  "latestSubmission": {
+    "id": 85579848,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 33076,
+    "timeMs": 240,
+    "codeLen": 1487,
+    "submittedAt": "1년 전"
+  }
+}

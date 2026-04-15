@@ -1,0 +1,21 @@
+{
+  "problemId": 20411,
+  "title": "추첨상 사수 대작전! (Normal)",
+  "tier": 6,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory"
+  ],
+  "acceptedUserCount": 263,
+  "averageTries": 2.414400100708008,
+  "latestSubmission": {
+    "id": 85752680,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 516,
+    "submittedAt": "1년 전"
+  }
+}

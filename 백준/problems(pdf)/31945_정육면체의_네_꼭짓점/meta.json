@@ -1,0 +1,22 @@
+{
+  "problemId": 31945,
+  "title": "정육면체의 네 꼭짓점",
+  "tier": 4,
+  "tags": [
+    "implementation",
+    "geometry",
+    "case_work",
+    "geometry_3d"
+  ],
+  "acceptedUserCount": 665,
+  "averageTries": 1.4270999431610107,
+  "latestSubmission": {
+    "id": 84894989,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 48,
+    "codeLen": 775,
+    "submittedAt": "1년 전"
+  }
+}

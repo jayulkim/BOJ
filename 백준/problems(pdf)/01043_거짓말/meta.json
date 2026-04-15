@@ -1,0 +1,22 @@
+{
+  "problemId": 1043,
+  "title": "거짓말",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 17428,
+  "averageTries": 2.109499931335449,
+  "latestSubmission": {
+    "id": 84865147,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 1004,
+    "submittedAt": "1년 전"
+  }
+}

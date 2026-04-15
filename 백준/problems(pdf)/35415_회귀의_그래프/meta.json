@@ -1,0 +1,21 @@
+{
+  "problemId": 35415,
+  "title": "회귀의 그래프",
+  "tier": 15,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 41,
+  "averageTries": 2,
+  "latestSubmission": {
+    "id": 104381681,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 12908,
+    "timeMs": 92,
+    "codeLen": 1870,
+    "submittedAt": "19일 전"
+  }
+}

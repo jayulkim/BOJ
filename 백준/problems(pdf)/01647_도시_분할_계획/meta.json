@@ -1,0 +1,20 @@
+{
+  "problemId": 1647,
+  "title": "도시 분할 계획",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "mst"
+  ],
+  "acceptedUserCount": 15009,
+  "averageTries": 1.9926999807357788,
+  "latestSubmission": {
+    "id": 84868212,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 20976,
+    "timeMs": 344,
+    "codeLen": 1084,
+    "submittedAt": "1년 전"
+  }
+}

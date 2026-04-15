@@ -1,0 +1,21 @@
+{
+  "problemId": 12107,
+  "title": "약수 지우기 게임 1",
+  "tier": 13,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "game_theory"
+  ],
+  "acceptedUserCount": 1147,
+  "averageTries": 1.5291999578475952,
+  "latestSubmission": {
+    "id": 88207362,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 314,
+    "submittedAt": "1년 전"
+  }
+}

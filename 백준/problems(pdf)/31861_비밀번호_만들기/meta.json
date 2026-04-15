@@ -1,0 +1,19 @@
+{
+  "problemId": 31861,
+  "title": "비밀번호 만들기",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 254,
+  "averageTries": 2.0315001010894775,
+  "latestSubmission": {
+    "id": 84894896,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2232,
+    "timeMs": 0,
+    "codeLen": 899,
+    "submittedAt": "1년 전"
+  }
+}

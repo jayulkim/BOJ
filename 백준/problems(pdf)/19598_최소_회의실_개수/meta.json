@@ -1,0 +1,23 @@
+{
+  "problemId": 19598,
+  "title": "최소 회의실 개수",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "sweeping",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 4185,
+  "averageTries": 2.151700019836426,
+  "latestSubmission": {
+    "id": 84892829,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 4244,
+    "timeMs": 60,
+    "codeLen": 1718,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 17175,
+  "title": "피보나치는 지겨웡~",
+  "tier": 8,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 2347,
+  "averageTries": 2.371999979019165,
+  "latestSubmission": {
+    "id": 87990140,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 420,
+    "submittedAt": "1년 전"
+  }
+}

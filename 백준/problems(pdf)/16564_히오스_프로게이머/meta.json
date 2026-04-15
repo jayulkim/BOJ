@@ -1,0 +1,20 @@
+{
+  "problemId": 16564,
+  "title": "히오스 프로게이머",
+  "tier": 10,
+  "tags": [
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 1810,
+  "averageTries": 2.8817999362945557,
+  "latestSubmission": {
+    "id": 89632261,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3688,
+    "timeMs": 20,
+    "codeLen": 951,
+    "submittedAt": "1년 전"
+  }
+}

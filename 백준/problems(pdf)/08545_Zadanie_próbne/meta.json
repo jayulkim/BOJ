@@ -1,0 +1,20 @@
+{
+  "problemId": 8545,
+  "title": "Zadanie próbne",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 5649,
+  "averageTries": 1.2615000009536743,
+  "latestSubmission": {
+    "id": 84882766,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 425,
+    "submittedAt": "1년 전"
+  }
+}

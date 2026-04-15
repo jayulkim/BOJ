@@ -1,0 +1,21 @@
+{
+  "problemId": 9370,
+  "title": "미확인 도착지",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 7013,
+  "averageTries": 3.7613000869750977,
+  "latestSubmission": {
+    "id": 86498564,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4756,
+    "timeMs": 32,
+    "codeLen": 1815,
+    "submittedAt": "1년 전"
+  }
+}

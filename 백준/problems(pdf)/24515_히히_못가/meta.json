@@ -1,0 +1,21 @@
+{
+  "problemId": 24515,
+  "title": "히히 못가",
+  "tier": 18,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 127,
+  "averageTries": 3.7007999420166016,
+  "latestSubmission": {
+    "id": 93309946,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 316468,
+    "timeMs": 816,
+    "codeLen": 3223,
+    "submittedAt": "11달 전"
+  }
+}

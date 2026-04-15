@@ -1,0 +1,22 @@
+{
+  "problemId": 9753,
+  "title": "짝 곱",
+  "tier": 9,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 545,
+  "averageTries": 1.9706000089645386,
+  "latestSubmission": {
+    "id": 84883649,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 100044,
+    "timeMs": 148,
+    "codeLen": 748,
+    "submittedAt": "1년 전"
+  }
+}

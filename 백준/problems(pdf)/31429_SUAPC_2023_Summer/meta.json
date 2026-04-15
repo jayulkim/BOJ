@@ -1,0 +1,19 @@
+{
+  "problemId": 31429,
+  "title": "SUAPC 2023 Summer",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 2764,
+  "averageTries": 1.3487999439239502,
+  "latestSubmission": {
+    "id": 84894801,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1156,
+    "timeMs": 0,
+    "codeLen": 1183,
+    "submittedAt": "1년 전"
+  }
+}

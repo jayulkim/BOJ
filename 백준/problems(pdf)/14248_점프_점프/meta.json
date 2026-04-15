@@ -1,0 +1,22 @@
+{
+  "problemId": 14248,
+  "title": "점프 점프",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs"
+  ],
+  "acceptedUserCount": 2275,
+  "averageTries": 1.6532000303268433,
+  "latestSubmission": {
+    "id": 91589544,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3788,
+    "timeMs": 8,
+    "codeLen": 845,
+    "submittedAt": "1년 전"
+  }
+}

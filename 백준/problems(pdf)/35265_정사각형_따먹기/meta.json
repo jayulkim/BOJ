@@ -1,0 +1,20 @@
+{
+  "problemId": 35265,
+  "title": "정사각형 따먹기",
+  "tier": 14,
+  "tags": [
+    "ad_hoc",
+    "constructive"
+  ],
+  "acceptedUserCount": 140,
+  "averageTries": 2.835700035095215,
+  "latestSubmission": {
+    "id": 103030133,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 34680,
+    "timeMs": 140,
+    "codeLen": 1870,
+    "submittedAt": "1달 전"
+  }
+}

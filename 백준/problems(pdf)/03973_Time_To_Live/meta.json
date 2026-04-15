@@ -1,0 +1,23 @@
+{
+  "problemId": 3973,
+  "title": "Time To Live",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "dfs",
+    "tree_diameter"
+  ],
+  "acceptedUserCount": 111,
+  "averageTries": 2.7476999759674072,
+  "latestSubmission": {
+    "id": 97797916,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10324,
+    "timeMs": 152,
+    "codeLen": 1654,
+    "submittedAt": "7달 전"
+  }
+}

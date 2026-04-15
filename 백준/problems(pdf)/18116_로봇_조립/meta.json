@@ -1,0 +1,20 @@
+{
+  "problemId": 18116,
+  "title": "로봇 조립",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 1371,
+  "averageTries": 3.3434998989105225,
+  "latestSubmission": {
+    "id": 84892598,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9832,
+    "timeMs": 320,
+    "codeLen": 849,
+    "submittedAt": "1년 전"
+  }
+}

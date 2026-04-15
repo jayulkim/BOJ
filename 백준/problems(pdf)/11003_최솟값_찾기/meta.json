@@ -1,0 +1,22 @@
+{
+  "problemId": 11003,
+  "title": "최솟값 찾기",
+  "tier": 15,
+  "tags": [
+    "data_structures",
+    "priority_queue",
+    "deque",
+    "deque_trick"
+  ],
+  "acceptedUserCount": 12334,
+  "averageTries": 3.0522000789642334,
+  "latestSubmission": {
+    "id": 84885373,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 158272,
+    "timeMs": 1496,
+    "codeLen": 1519,
+    "submittedAt": "1년 전"
+  }
+}

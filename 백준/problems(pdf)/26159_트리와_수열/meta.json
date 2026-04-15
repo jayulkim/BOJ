@@ -1,0 +1,26 @@
+{
+  "problemId": 26159,
+  "title": "트리와 수열",
+  "tier": 14,
+  "tags": [
+    "dp",
+    "graphs",
+    "greedy",
+    "graph_traversal",
+    "sorting",
+    "trees",
+    "dfs",
+    "dp_tree"
+  ],
+  "acceptedUserCount": 165,
+  "averageTries": 2.496999979019165,
+  "latestSubmission": {
+    "id": 84893953,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14204,
+    "timeMs": 76,
+    "codeLen": 988,
+    "submittedAt": "1년 전"
+  }
+}

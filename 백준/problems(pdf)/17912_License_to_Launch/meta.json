@@ -1,0 +1,19 @@
+{
+  "problemId": 17912,
+  "title": "License to Launch",
+  "tier": 2,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 879,
+  "averageTries": 1.267300009727478,
+  "latestSubmission": {
+    "id": 96599827,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 12,
+    "codeLen": 500,
+    "submittedAt": "8달 전"
+  }
+}

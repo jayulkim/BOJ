@@ -1,0 +1,19 @@
+{
+  "problemId": 9465,
+  "title": "스티커",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 32693,
+  "averageTries": 2.0889999866485596,
+  "latestSubmission": {
+    "id": 84883254,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3460,
+    "timeMs": 128,
+    "codeLen": 1205,
+    "submittedAt": "1년 전"
+  }
+}

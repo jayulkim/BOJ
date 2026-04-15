@@ -1,0 +1,20 @@
+{
+  "problemId": 17390,
+  "title": "이건 꼭 풀어야 해!",
+  "tier": 8,
+  "tags": [
+    "sorting",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 2240,
+  "averageTries": 1.958899974822998,
+  "latestSubmission": {
+    "id": 86293348,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8588,
+    "timeMs": 124,
+    "codeLen": 604,
+    "submittedAt": "1년 전"
+  }
+}

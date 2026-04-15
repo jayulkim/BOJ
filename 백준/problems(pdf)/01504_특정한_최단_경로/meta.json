@@ -1,0 +1,21 @@
+{
+  "problemId": 1504,
+  "title": "특정한 최단 경로",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 23138,
+  "averageTries": 3.74180006980896,
+  "latestSubmission": {
+    "id": 84867808,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5608,
+    "timeMs": 128,
+    "codeLen": 1309,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "problemId": 13926,
+  "title": "gcd(n, k) = 1",
+  "tier": 21,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "prime_factorization",
+    "euler_phi",
+    "pollard_rho",
+    "miller_rabin"
+  ],
+  "acceptedUserCount": 1061,
+  "averageTries": 2.836899995803833,
+  "latestSubmission": {
+    "id": 105005958,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 8042,
+    "submittedAt": "1일 전"
+  }
+}

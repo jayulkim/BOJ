@@ -1,0 +1,20 @@
+{
+  "problemId": 9237,
+  "title": "이장님 초대",
+  "tier": 6,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 5389,
+  "averageTries": 1.5592999458312988,
+  "latestSubmission": {
+    "id": 84883088,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2284,
+    "timeMs": 28,
+    "codeLen": 596,
+    "submittedAt": "1년 전"
+  }
+}

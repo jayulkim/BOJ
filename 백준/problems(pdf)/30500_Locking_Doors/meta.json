@@ -1,0 +1,20 @@
+{
+  "problemId": 30500,
+  "title": "Locking Doors",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "scc"
+  ],
+  "acceptedUserCount": 62,
+  "averageTries": 1.1612999439239502,
+  "latestSubmission": {
+    "id": 93040230,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 28676,
+    "timeMs": 316,
+    "codeLen": 1796,
+    "submittedAt": "1년 전"
+  }
+}

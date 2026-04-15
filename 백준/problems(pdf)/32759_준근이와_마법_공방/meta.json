@@ -1,0 +1,23 @@
+{
+  "problemId": 32759,
+  "title": "준근이와 마법 공방",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "sorting",
+    "ad_hoc",
+    "simulation",
+    "case_work"
+  ],
+  "acceptedUserCount": 72,
+  "averageTries": 3.4583001136779785,
+  "latestSubmission": {
+    "id": 87130412,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10988,
+    "timeMs": 24,
+    "codeLen": 1203,
+    "submittedAt": "1년 전"
+  }
+}

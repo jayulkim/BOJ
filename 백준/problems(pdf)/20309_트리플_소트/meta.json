@@ -1,0 +1,22 @@
+{
+  "problemId": 20309,
+  "title": "트리플 소트",
+  "tier": 8,
+  "tags": [
+    "math",
+    "sorting",
+    "ad_hoc",
+    "parity"
+  ],
+  "acceptedUserCount": 803,
+  "averageTries": 1.6289000511169434,
+  "latestSubmission": {
+    "id": 84892969,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 28,
+    "codeLen": 281,
+    "submittedAt": "1년 전"
+  }
+}

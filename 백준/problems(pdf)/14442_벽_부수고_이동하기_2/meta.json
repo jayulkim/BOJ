@@ -1,0 +1,22 @@
+{
+  "problemId": 14442,
+  "title": "벽 부수고 이동하기 2",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 8463,
+  "averageTries": 3.561300039291382,
+  "latestSubmission": {
+    "id": 84889607,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 17188,
+    "timeMs": 348,
+    "codeLen": 1612,
+    "submittedAt": "1년 전"
+  }
+}

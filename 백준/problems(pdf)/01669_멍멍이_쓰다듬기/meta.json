@@ -1,0 +1,19 @@
+{
+  "problemId": 1669,
+  "title": "멍멍이 쓰다듬기",
+  "tier": 11,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 1603,
+  "averageTries": 2.684299945831299,
+  "latestSubmission": {
+    "id": 84868288,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1086,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 24267,
+  "title": "알고리즘 수업 - 알고리즘의 수행 시간 6",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 17971,
+  "averageTries": 1.9952000379562378,
+  "latestSubmission": {
+    "id": 84893500,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 912,
+    "submittedAt": "1년 전"
+  }
+}

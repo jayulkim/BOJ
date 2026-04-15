@@ -1,0 +1,21 @@
+{
+  "problemId": 10973,
+  "title": "이전 순열",
+  "tier": 8,
+  "tags": [
+    "math",
+    "implementation",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 8348,
+  "averageTries": 1.7244999408721924,
+  "latestSubmission": {
+    "id": 84885080,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1192,
+    "timeMs": 0,
+    "codeLen": 1254,
+    "submittedAt": "1년 전"
+  }
+}

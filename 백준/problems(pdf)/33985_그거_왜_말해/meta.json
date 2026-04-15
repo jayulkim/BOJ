@@ -1,0 +1,20 @@
+{
+  "problemId": 33985,
+  "title": "그거 왜 말해!",
+  "tier": 7,
+  "tags": [
+    "string",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 338,
+  "averageTries": 1.8401999473571777,
+  "latestSubmission": {
+    "id": 94736386,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2912,
+    "timeMs": 0,
+    "codeLen": 485,
+    "submittedAt": "10달 전"
+  }
+}

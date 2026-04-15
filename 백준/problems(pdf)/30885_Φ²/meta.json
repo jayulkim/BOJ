@@ -1,0 +1,22 @@
+{
+  "problemId": 30885,
+  "title": "Φ²",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "simulation",
+    "linked_list"
+  ],
+  "acceptedUserCount": 252,
+  "averageTries": 3.25,
+  "latestSubmission": {
+    "id": 93080667,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 24480,
+    "timeMs": 144,
+    "codeLen": 2587,
+    "submittedAt": "1년 전"
+  }
+}

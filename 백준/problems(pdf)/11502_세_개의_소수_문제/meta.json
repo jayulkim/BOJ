@@ -1,0 +1,23 @@
+{
+  "problemId": 11502,
+  "title": "세 개의 소수 문제",
+  "tier": 7,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 2053,
+  "averageTries": 1.624500036239624,
+  "latestSubmission": {
+    "id": 84938861,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 1203,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 16430,
+  "title": "제리와 톰",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 14200,
+  "averageTries": 1.1835999488830566,
+  "latestSubmission": {
+    "id": 84891971,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 254,
+    "submittedAt": "1년 전"
+  }
+}

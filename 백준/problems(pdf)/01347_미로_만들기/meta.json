@@ -1,0 +1,20 @@
+{
+  "problemId": 1347,
+  "title": "미로 만들기",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 2602,
+  "averageTries": 1.7059999704360962,
+  "latestSubmission": {
+    "id": 84867108,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2048,
+    "timeMs": 0,
+    "codeLen": 889,
+    "submittedAt": "1년 전"
+  }
+}

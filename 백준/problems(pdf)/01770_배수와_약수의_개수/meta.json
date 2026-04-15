@@ -1,0 +1,25 @@
+{
+  "problemId": 1770,
+  "title": "배수와 약수의 개수",
+  "tier": 22,
+  "tags": [
+    "math",
+    "number_theory",
+    "case_work",
+    "primality_test",
+    "prime_factorization",
+    "pollard_rho",
+    "miller_rabin"
+  ],
+  "acceptedUserCount": 251,
+  "averageTries": 2.920300006866455,
+  "latestSubmission": {
+    "id": 85436843,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1128,
+    "timeMs": 780,
+    "codeLen": 4055,
+    "submittedAt": "1년 전"
+  }
+}

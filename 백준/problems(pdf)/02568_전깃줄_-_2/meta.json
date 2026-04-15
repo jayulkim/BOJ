@@ -1,0 +1,20 @@
+{
+  "problemId": 2568,
+  "title": "전깃줄 - 2",
+  "tier": 16,
+  "tags": [
+    "traceback",
+    "lis"
+  ],
+  "acceptedUserCount": 4981,
+  "averageTries": 2.4223999977111816,
+  "latestSubmission": {
+    "id": 84879432,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4880,
+    "timeMs": 36,
+    "codeLen": 1145,
+    "submittedAt": "1년 전"
+  }
+}

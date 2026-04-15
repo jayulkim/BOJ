@@ -1,0 +1,23 @@
+{
+  "problemId": 1584,
+  "title": "게임",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "shortest_path",
+    "dijkstra",
+    "0_1_bfs"
+  ],
+  "acceptedUserCount": 1191,
+  "averageTries": 2.1679000854492188,
+  "latestSubmission": {
+    "id": 84868042,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10684,
+    "timeMs": 28,
+    "codeLen": 1899,
+    "submittedAt": "1년 전"
+  }
+}

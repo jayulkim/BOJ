@@ -1,0 +1,20 @@
+{
+  "problemId": 2631,
+  "title": "줄세우기",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "lis"
+  ],
+  "acceptedUserCount": 9478,
+  "averageTries": 1.4967999458312988,
+  "latestSubmission": {
+    "id": 84879621,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 542,
+    "submittedAt": "1년 전"
+  }
+}

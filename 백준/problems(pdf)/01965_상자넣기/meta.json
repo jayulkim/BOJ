@@ -1,0 +1,20 @@
+{
+  "problemId": 1965,
+  "title": "상자넣기",
+  "tier": 9,
+  "tags": [
+    "dp",
+    "lis"
+  ],
+  "acceptedUserCount": 11748,
+  "averageTries": 1.9596999883651733,
+  "latestSubmission": {
+    "id": 84869541,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1120,
+    "timeMs": 0,
+    "codeLen": 536,
+    "submittedAt": "1년 전"
+  }
+}

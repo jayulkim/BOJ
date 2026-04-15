@@ -1,0 +1,25 @@
+{
+  "problemId": 32647,
+  "title": "골드바흐흑흙의 추측",
+  "tier": 17,
+  "tags": [
+    "math",
+    "dp",
+    "data_structures",
+    "number_theory",
+    "set",
+    "primality_test",
+    "knapsack"
+  ],
+  "acceptedUserCount": 77,
+  "averageTries": 4.740300178527832,
+  "latestSubmission": {
+    "id": 86608581,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 57192,
+    "timeMs": 484,
+    "codeLen": 858,
+    "submittedAt": "1년 전"
+  }
+}

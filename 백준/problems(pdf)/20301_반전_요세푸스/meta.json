@@ -1,0 +1,22 @@
+{
+  "problemId": 20301,
+  "title": "반전 요세푸스",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "simulation",
+    "deque"
+  ],
+  "acceptedUserCount": 1787,
+  "averageTries": 2.1185998916625977,
+  "latestSubmission": {
+    "id": 84892960,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 196448,
+    "timeMs": 68,
+    "codeLen": 1248,
+    "submittedAt": "1년 전"
+  }
+}

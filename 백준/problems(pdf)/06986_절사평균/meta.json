@@ -1,0 +1,20 @@
+{
+  "problemId": 6986,
+  "title": "절사평균",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "sorting"
+  ],
+  "acceptedUserCount": 1728,
+  "averageTries": 4.372099876403809,
+  "latestSubmission": {
+    "id": 84882299,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 4240,
+    "timeMs": 40,
+    "codeLen": 888,
+    "submittedAt": "1년 전"
+  }
+}

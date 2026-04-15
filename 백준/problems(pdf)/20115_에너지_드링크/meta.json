@@ -1,0 +1,19 @@
+{
+  "problemId": 20115,
+  "title": "에너지 드링크",
+  "tier": 8,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 3067,
+  "averageTries": 1.3724000453948975,
+  "latestSubmission": {
+    "id": 84892921,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3588,
+    "timeMs": 36,
+    "codeLen": 393,
+    "submittedAt": "1년 전"
+  }
+}

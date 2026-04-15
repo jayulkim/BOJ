@@ -1,0 +1,19 @@
+{
+  "problemId": 28235,
+  "title": "코드마스터 2023",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 5601,
+  "averageTries": 1.2670999765396118,
+  "latestSubmission": {
+    "id": 84894342,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 629,
+    "submittedAt": "1년 전"
+  }
+}

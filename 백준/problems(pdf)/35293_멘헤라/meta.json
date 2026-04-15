@@ -1,0 +1,23 @@
+{
+  "problemId": 35293,
+  "title": "멘헤라",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "graphs",
+    "greedy",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 55,
+  "averageTries": 3.5455000400543213,
+  "latestSubmission": {
+    "id": 103921403,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2304,
+    "timeMs": 0,
+    "codeLen": 1160,
+    "submittedAt": "30일 전"
+  }
+}

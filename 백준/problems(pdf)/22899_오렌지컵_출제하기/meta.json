@@ -1,0 +1,22 @@
+{
+  "problemId": 22899,
+  "title": "오렌지컵 출제하기",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 227,
+  "averageTries": 2.9779999256134033,
+  "latestSubmission": {
+    "id": 93730141,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 15328,
+    "timeMs": 56,
+    "codeLen": 1378,
+    "submittedAt": "11달 전"
+  }
+}

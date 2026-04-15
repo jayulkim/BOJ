@@ -1,0 +1,21 @@
+{
+  "problemId": 32293,
+  "title": "ABB to BA (Hard)",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "string",
+    "stack"
+  ],
+  "acceptedUserCount": 166,
+  "averageTries": 1.710800051689148,
+  "latestSubmission": {
+    "id": 84902832,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3620,
+    "timeMs": 16,
+    "codeLen": 1070,
+    "submittedAt": "1년 전"
+  }
+}

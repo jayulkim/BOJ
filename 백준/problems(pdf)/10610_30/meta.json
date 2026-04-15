@@ -1,0 +1,23 @@
+{
+  "problemId": 10610,
+  "title": "30",
+  "tier": 7,
+  "tags": [
+    "math",
+    "greedy",
+    "string",
+    "sorting",
+    "number_theory"
+  ],
+  "acceptedUserCount": 18992,
+  "averageTries": 2.4296998977661133,
+  "latestSubmission": {
+    "id": 84884047,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1872,
+    "timeMs": 12,
+    "codeLen": 835,
+    "submittedAt": "1년 전"
+  }
+}

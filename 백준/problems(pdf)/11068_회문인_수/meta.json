@@ -1,0 +1,20 @@
+{
+  "problemId": 11068,
+  "title": "회문인 수",
+  "tier": 6,
+  "tags": [
+    "math",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 2390,
+  "averageTries": 1.8330999612808228,
+  "latestSubmission": {
+    "id": 85571589,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 701,
+    "submittedAt": "1년 전"
+  }
+}

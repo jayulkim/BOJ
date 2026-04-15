@@ -1,0 +1,21 @@
+{
+  "problemId": 1222,
+  "title": "홍준 프로그래밍 대회",
+  "tier": 14,
+  "tags": [
+    "math",
+    "number_theory",
+    "harmonic_number"
+  ],
+  "acceptedUserCount": 629,
+  "averageTries": 3.9061999320983887,
+  "latestSubmission": {
+    "id": 103172795,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 84516,
+    "timeMs": 1244,
+    "codeLen": 1503,
+    "submittedAt": "1달 전"
+  }
+}

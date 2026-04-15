@@ -1,0 +1,20 @@
+{
+  "problemId": 25640,
+  "title": "MBTI",
+  "tier": 2,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 3846,
+  "averageTries": 1.173699975013733,
+  "latestSubmission": {
+    "id": 95519830,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 556,
+    "submittedAt": "9달 전"
+  }
+}

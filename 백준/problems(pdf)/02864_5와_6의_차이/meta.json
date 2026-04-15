@@ -1,0 +1,22 @@
+{
+  "problemId": 2864,
+  "title": "5와 6의 차이",
+  "tier": 4,
+  "tags": [
+    "math",
+    "greedy",
+    "string",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 10537,
+  "averageTries": 1.3147000074386597,
+  "latestSubmission": {
+    "id": 84880392,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 744,
+    "submittedAt": "1년 전"
+  }
+}

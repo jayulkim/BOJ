@@ -1,0 +1,23 @@
+{
+  "problemId": 4358,
+  "title": "생태학",
+  "tier": 9,
+  "tags": [
+    "data_structures",
+    "string",
+    "set",
+    "hash_set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 7155,
+  "averageTries": 2.6465001106262207,
+  "latestSubmission": {
+    "id": 84881196,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 51312,
+    "timeMs": 260,
+    "codeLen": 515,
+    "submittedAt": "1년 전"
+  }
+}

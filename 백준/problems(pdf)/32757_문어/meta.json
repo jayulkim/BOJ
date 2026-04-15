@@ -1,0 +1,22 @@
+{
+  "problemId": 32757,
+  "title": "문어",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "ad_hoc",
+    "constructive",
+    "parity"
+  ],
+  "acceptedUserCount": 105,
+  "averageTries": 2.142899990081787,
+  "latestSubmission": {
+    "id": 87120189,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 372,
+    "submittedAt": "1년 전"
+  }
+}

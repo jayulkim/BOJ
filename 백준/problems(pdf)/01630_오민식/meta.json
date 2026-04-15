@@ -1,0 +1,22 @@
+{
+  "problemId": 1630,
+  "title": "오민식",
+  "tier": 12,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 490,
+  "averageTries": 2.0346999168395996,
+  "latestSubmission": {
+    "id": 84868149,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 21428,
+    "timeMs": 64,
+    "codeLen": 1032,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "problemId": 2583,
+  "title": "영역 구하기",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "flood_fill"
+  ],
+  "acceptedUserCount": 28502,
+  "averageTries": 1.7036999464035034,
+  "latestSubmission": {
+    "id": 84879513,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1996,
+    "timeMs": 0,
+    "codeLen": 1415,
+    "submittedAt": "1년 전"
+  }
+}

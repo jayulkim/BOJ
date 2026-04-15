@@ -1,0 +1,21 @@
+{
+  "problemId": 34217,
+  "title": "찾아오시는 길",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 1502,
+  "averageTries": 1.3875000476837158,
+  "latestSubmission": {
+    "id": 101301137,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 806,
+    "submittedAt": "3달 전"
+  }
+}

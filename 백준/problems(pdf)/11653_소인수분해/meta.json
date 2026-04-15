@@ -1,0 +1,22 @@
+{
+  "problemId": 11653,
+  "title": "소인수분해",
+  "tier": 5,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 63399,
+  "averageTries": 1.837399959564209,
+  "latestSubmission": {
+    "id": 84886534,
+    "result": "맞았습니다!!",
+    "language": "Java 11",
+    "memoryKb": 14448,
+    "timeMs": 104,
+    "codeLen": 4274,
+    "submittedAt": "1년 전"
+  }
+}

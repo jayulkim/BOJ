@@ -1,0 +1,23 @@
+{
+  "problemId": 1124,
+  "title": "언더프라임",
+  "tier": 10,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 2834,
+  "averageTries": 2.2272000312805176,
+  "latestSubmission": {
+    "id": 73527801,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1896,
+    "timeMs": 8,
+    "codeLen": 949,
+    "submittedAt": "2년 전"
+  }
+}

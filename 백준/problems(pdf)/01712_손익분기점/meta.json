@@ -1,0 +1,20 @@
+{
+  "problemId": 1712,
+  "title": "손익분기점",
+  "tier": 4,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 59328,
+  "averageTries": 3.502000093460083,
+  "latestSubmission": {
+    "id": 84868434,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 357,
+    "submittedAt": "1년 전"
+  }
+}

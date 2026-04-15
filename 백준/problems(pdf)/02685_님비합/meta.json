@@ -1,0 +1,20 @@
+{
+  "problemId": 2685,
+  "title": "님비합",
+  "tier": 8,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 182,
+  "averageTries": 1.8625999689102173,
+  "latestSubmission": {
+    "id": 84879777,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2208,
+    "timeMs": 0,
+    "codeLen": 829,
+    "submittedAt": "1년 전"
+  }
+}

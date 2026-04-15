@@ -1,0 +1,20 @@
+{
+  "problemId": 10826,
+  "title": "피보나치 수 4",
+  "tier": 6,
+  "tags": [
+    "dp",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 9845,
+  "averageTries": 2.5708999633789062,
+  "latestSubmission": {
+    "id": 84884618,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 114344,
+    "timeMs": 96,
+    "codeLen": 103,
+    "submittedAt": "1년 전"
+  }
+}

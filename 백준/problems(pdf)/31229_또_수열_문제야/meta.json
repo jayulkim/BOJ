@@ -1,0 +1,21 @@
+{
+  "problemId": 31229,
+  "title": "또 수열 문제야",
+  "tier": 6,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "constructive"
+  ],
+  "acceptedUserCount": 856,
+  "averageTries": 1.9556000232696533,
+  "latestSubmission": {
+    "id": 85217925,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2204,
+    "timeMs": 0,
+    "codeLen": 462,
+    "submittedAt": "1년 전"
+  }
+}

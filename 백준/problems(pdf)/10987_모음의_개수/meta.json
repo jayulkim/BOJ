@@ -1,0 +1,20 @@
+{
+  "problemId": 10987,
+  "title": "모음의 개수",
+  "tier": 2,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 11550,
+  "averageTries": 1.1996999979019165,
+  "latestSubmission": {
+    "id": 84885207,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 337,
+    "submittedAt": "1년 전"
+  }
+}

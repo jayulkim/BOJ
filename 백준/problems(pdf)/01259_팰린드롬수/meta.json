@@ -1,0 +1,20 @@
+{
+  "problemId": 1259,
+  "title": "팰린드롬수",
+  "tier": 5,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 47941,
+  "averageTries": 1.7555999755859375,
+  "latestSubmission": {
+    "id": 84866224,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 499,
+    "submittedAt": "1년 전"
+  }
+}

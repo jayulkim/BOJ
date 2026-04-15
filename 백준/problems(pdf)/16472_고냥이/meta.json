@@ -1,0 +1,19 @@
+{
+  "problemId": 16472,
+  "title": "고냥이",
+  "tier": 12,
+  "tags": [
+    "two_pointer"
+  ],
+  "acceptedUserCount": 2375,
+  "averageTries": 2.418100118637085,
+  "latestSubmission": {
+    "id": 84891990,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1208,
+    "timeMs": 4,
+    "codeLen": 735,
+    "submittedAt": "1년 전"
+  }
+}

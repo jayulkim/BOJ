@@ -1,0 +1,22 @@
+{
+  "problemId": 34707,
+  "title": "세미-연속 수열",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "set",
+    "tree_set",
+    "sliding_window"
+  ],
+  "acceptedUserCount": 140,
+  "averageTries": 1.657099962234497,
+  "latestSubmission": {
+    "id": 101068072,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 36620,
+    "timeMs": 496,
+    "codeLen": 1301,
+    "submittedAt": "4달 전"
+  }
+}

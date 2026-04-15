@@ -1,0 +1,20 @@
+{
+  "problemId": 30023,
+  "title": "전구 상태 바꾸기",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "greedy"
+  ],
+  "acceptedUserCount": 347,
+  "averageTries": 1.7781000137329102,
+  "latestSubmission": {
+    "id": 99323331,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2460,
+    "timeMs": 4,
+    "codeLen": 1490,
+    "submittedAt": "6달 전"
+  }
+}

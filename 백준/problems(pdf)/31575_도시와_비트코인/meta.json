@@ -1,0 +1,24 @@
+{
+  "problemId": 31575,
+  "title": "도시와 비트코인",
+  "tier": 8,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 1221,
+  "averageTries": 2.867300033569336,
+  "latestSubmission": {
+    "id": 95303131,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2816,
+    "timeMs": 4,
+    "codeLen": 1337,
+    "submittedAt": "10달 전"
+  }
+}

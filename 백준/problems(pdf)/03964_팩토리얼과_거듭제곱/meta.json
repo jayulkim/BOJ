@@ -1,0 +1,23 @@
+{
+  "problemId": 3964,
+  "title": "팩토리얼과 거듭제곱",
+  "tier": 14,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 277,
+  "averageTries": 4.924200057983398,
+  "latestSubmission": {
+    "id": 84881062,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 14492,
+    "timeMs": 88,
+    "codeLen": 2217,
+    "submittedAt": "1년 전"
+  }
+}

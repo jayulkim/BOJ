@@ -1,0 +1,22 @@
+{
+  "problemId": 2589,
+  "title": "보물섬",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "bruteforcing",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 15936,
+  "averageTries": 2.5269999504089355,
+  "latestSubmission": {
+    "id": 90184858,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 128,
+    "codeLen": 1521,
+    "submittedAt": "1년 전"
+  }
+}

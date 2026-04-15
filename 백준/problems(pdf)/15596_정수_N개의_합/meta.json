@@ -1,0 +1,21 @@
+{
+  "problemId": 15596,
+  "title": "정수 N개의 합",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 63068,
+  "averageTries": 1.9767999649047852,
+  "latestSubmission": {
+    "id": 84890639,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 12832,
+    "timeMs": 12,
+    "codeLen": 145,
+    "submittedAt": "1년 전"
+  }
+}

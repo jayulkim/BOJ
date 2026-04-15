@@ -1,0 +1,23 @@
+{
+  "problemId": 27519,
+  "title": "소수의 합",
+  "tier": 14,
+  "tags": [
+    "math",
+    "dp",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 138,
+  "averageTries": 1.7970999479293823,
+  "latestSubmission": {
+    "id": 84894252,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2288,
+    "timeMs": 1120,
+    "codeLen": 639,
+    "submittedAt": "1년 전"
+  }
+}

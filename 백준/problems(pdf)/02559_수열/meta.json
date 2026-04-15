@@ -1,0 +1,21 @@
+{
+  "problemId": 2559,
+  "title": "수열",
+  "tier": 8,
+  "tags": [
+    "prefix_sum",
+    "two_pointer",
+    "sliding_window"
+  ],
+  "acceptedUserCount": 26201,
+  "averageTries": 2.6214001178741455,
+  "latestSubmission": {
+    "id": 84879381,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2172,
+    "timeMs": 16,
+    "codeLen": 723,
+    "submittedAt": "1년 전"
+  }
+}

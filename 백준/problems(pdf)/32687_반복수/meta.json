@@ -1,0 +1,21 @@
+{
+  "problemId": 32687,
+  "title": "반복수",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "string",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 88,
+  "averageTries": 2.46589994430542,
+  "latestSubmission": {
+    "id": 86545084,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 116,
+    "codeLen": 824,
+    "submittedAt": "1년 전"
+  }
+}

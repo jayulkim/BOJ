@@ -1,0 +1,20 @@
+{
+  "problemId": 14888,
+  "title": "연산자 끼워넣기",
+  "tier": 10,
+  "tags": [
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 42641,
+  "averageTries": 2.098599910736084,
+  "latestSubmission": {
+    "id": 84890309,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 300,
+    "codeLen": 1070,
+    "submittedAt": "1년 전"
+  }
+}

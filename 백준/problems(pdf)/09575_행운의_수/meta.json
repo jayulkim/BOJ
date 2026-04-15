@@ -1,0 +1,22 @@
+{
+  "problemId": 9575,
+  "title": "행운의 수",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "bruteforcing",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 794,
+  "averageTries": 1.5377999544143677,
+  "latestSubmission": {
+    "id": 84883394,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2108,
+    "timeMs": 4,
+    "codeLen": 1081,
+    "submittedAt": "1년 전"
+  }
+}

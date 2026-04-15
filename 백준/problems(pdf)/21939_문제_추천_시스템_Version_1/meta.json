@@ -1,0 +1,23 @@
+{
+  "problemId": 21939,
+  "title": "문제 추천 시스템 Version 1",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "set",
+    "hash_set",
+    "priority_queue",
+    "tree_set"
+  ],
+  "acceptedUserCount": 2884,
+  "averageTries": 2.8873000144958496,
+  "latestSubmission": {
+    "id": 84893108,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5236,
+    "timeMs": 24,
+    "codeLen": 1201,
+    "submittedAt": "1년 전"
+  }
+}

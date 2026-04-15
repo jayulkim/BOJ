@@ -1,0 +1,21 @@
+{
+  "problemId": 34876,
+  "title": "진흥이의 쌀 배달",
+  "tier": 14,
+  "tags": [
+    "dp",
+    "trees",
+    "dp_tree"
+  ],
+  "acceptedUserCount": 48,
+  "averageTries": 1.958299994468689,
+  "latestSubmission": {
+    "id": 100913200,
+    "result": "100점",
+    "language": "C++23",
+    "memoryKb": 2236,
+    "timeMs": 0,
+    "codeLen": 1713,
+    "submittedAt": "4달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 25778,
+  "title": "House Prices Going Up",
+  "tier": 15,
+  "tags": [
+    "data_structures",
+    "segtree"
+  ],
+  "acceptedUserCount": 145,
+  "averageTries": 1.7379000186920166,
+  "latestSubmission": {
+    "id": 89018084,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 21556,
+    "timeMs": 152,
+    "codeLen": 1540,
+    "submittedAt": "1년 전"
+  }
+}

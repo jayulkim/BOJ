@@ -1,0 +1,19 @@
+{
+  "problemId": 2377,
+  "title": "Pottery",
+  "tier": 0,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 2438,
+  "averageTries": 1.4876999855041504,
+  "latestSubmission": {
+    "id": 84878820,
+    "result": "맞았습니다!!",
+    "language": "FreeBASIC",
+    "memoryKb": 13948,
+    "timeMs": 0,
+    "codeLen": 274,
+    "submittedAt": "1년 전"
+  }
+}

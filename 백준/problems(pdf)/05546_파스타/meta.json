@@ -1,0 +1,19 @@
+{
+  "problemId": 5546,
+  "title": "파스타",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 473,
+  "averageTries": 1.7674000263214111,
+  "latestSubmission": {
+    "id": 90017849,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10472,
+    "timeMs": 4,
+    "codeLen": 1859,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "problemId": 1963,
+  "title": "소수 경로",
+  "tier": 12,
+  "tags": [
+    "math",
+    "graphs",
+    "graph_traversal",
+    "number_theory",
+    "bfs",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 7563,
+  "averageTries": 1.624500036239624,
+  "latestSubmission": {
+    "id": 84869517,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2044,
+    "timeMs": 16,
+    "codeLen": 1152,
+    "submittedAt": "1년 전"
+  }
+}

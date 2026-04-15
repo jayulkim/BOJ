@@ -1,0 +1,21 @@
+{
+  "problemId": 30804,
+  "title": "과일 탕후루",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "bruteforcing",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 6803,
+  "averageTries": 2.750699996948242,
+  "latestSubmission": {
+    "id": 86244469,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 34836,
+    "timeMs": 40,
+    "codeLen": 755,
+    "submittedAt": "1년 전"
+  }
+}

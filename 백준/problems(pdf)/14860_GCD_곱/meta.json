@@ -1,0 +1,23 @@
+{
+  "problemId": 14860,
+  "title": "GCD 곱",
+  "tier": 17,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "exponentiation_by_squaring",
+    "sieve"
+  ],
+  "acceptedUserCount": 390,
+  "averageTries": 2.9691998958587646,
+  "latestSubmission": {
+    "id": 93826191,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3852,
+    "timeMs": 124,
+    "codeLen": 1414,
+    "submittedAt": "11달 전"
+  }
+}

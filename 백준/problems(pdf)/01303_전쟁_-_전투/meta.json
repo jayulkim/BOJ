@@ -1,0 +1,23 @@
+{
+  "problemId": 1303,
+  "title": "전쟁 - 전투",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 8077,
+  "averageTries": 2.5113000869750977,
+  "latestSubmission": {
+    "id": 84866882,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2776,
+    "timeMs": 24,
+    "codeLen": 2274,
+    "submittedAt": "1년 전"
+  }
+}

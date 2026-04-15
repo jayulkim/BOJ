@@ -1,0 +1,20 @@
+{
+  "problemId": 25634,
+  "title": "전구 상태 뒤집기",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 359,
+  "averageTries": 1.7883000373840332,
+  "latestSubmission": {
+    "id": 100963256,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 6776,
+    "timeMs": 28,
+    "codeLen": 1189,
+    "submittedAt": "4달 전"
+  }
+}

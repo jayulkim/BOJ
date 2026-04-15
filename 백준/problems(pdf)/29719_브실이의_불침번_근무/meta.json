@@ -1,0 +1,20 @@
+{
+  "problemId": 29719,
+  "title": "브실이의 불침번 근무",
+  "tier": 7,
+  "tags": [
+    "math",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 418,
+  "averageTries": 2.523900032043457,
+  "latestSubmission": {
+    "id": 84894537,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 16,
+    "codeLen": 474,
+    "submittedAt": "1년 전"
+  }
+}

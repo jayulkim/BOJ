@@ -1,0 +1,22 @@
+{
+  "problemId": 25603,
+  "title": "짱해커 이동식",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "binary_search",
+    "parametric_search",
+    "sliding_window"
+  ],
+  "acceptedUserCount": 330,
+  "averageTries": 2.087899923324585,
+  "latestSubmission": {
+    "id": 98255661,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 6312,
+    "timeMs": 16,
+    "codeLen": 938,
+    "submittedAt": "7달 전"
+  }
+}

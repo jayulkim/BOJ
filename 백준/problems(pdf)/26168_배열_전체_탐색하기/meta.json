@@ -1,0 +1,20 @@
+{
+  "problemId": 26168,
+  "title": "배열 전체 탐색하기",
+  "tier": 7,
+  "tags": [
+    "sorting",
+    "binary_search"
+  ],
+  "acceptedUserCount": 453,
+  "averageTries": 2.7946999073028564,
+  "latestSubmission": {
+    "id": 84893984,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2808,
+    "timeMs": 76,
+    "codeLen": 732,
+    "submittedAt": "1년 전"
+  }
+}

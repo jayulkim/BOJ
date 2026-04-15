@@ -1,0 +1,20 @@
+{
+  "problemId": 18233,
+  "title": "러버덕을 사랑하는 모임",
+  "tier": 11,
+  "tags": [
+    "greedy",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 323,
+  "averageTries": 2.8173000812530518,
+  "latestSubmission": {
+    "id": 89854254,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 8,
+    "codeLen": 2243,
+    "submittedAt": "1년 전"
+  }
+}

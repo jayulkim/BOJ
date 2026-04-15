@@ -1,0 +1,19 @@
+{
+  "problemId": 18856,
+  "title": "피드백",
+  "tier": 3,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 855,
+  "averageTries": 1.6152000427246094,
+  "latestSubmission": {
+    "id": 95789055,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 448,
+    "submittedAt": "9달 전"
+  }
+}

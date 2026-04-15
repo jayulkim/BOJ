@@ -1,0 +1,20 @@
+{
+  "problemId": 2052,
+  "title": "지수연산",
+  "tier": 5,
+  "tags": [
+    "math",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 1454,
+  "averageTries": 2.487600088119507,
+  "latestSubmission": {
+    "id": 95823787,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2208,
+    "timeMs": 0,
+    "codeLen": 373,
+    "submittedAt": "9달 전"
+  }
+}

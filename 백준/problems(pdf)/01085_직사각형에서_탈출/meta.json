@@ -1,0 +1,20 @@
+{
+  "problemId": 1085,
+  "title": "직사각형에서 탈출",
+  "tier": 3,
+  "tags": [
+    "math",
+    "geometry"
+  ],
+  "acceptedUserCount": 72162,
+  "averageTries": 1.5123000144958496,
+  "latestSubmission": {
+    "id": 84865447,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1128,
+    "timeMs": 0,
+    "codeLen": 779,
+    "submittedAt": "1년 전"
+  }
+}

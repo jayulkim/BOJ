@@ -1,0 +1,20 @@
+{
+  "problemId": 8393,
+  "title": "합",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "acceptedUserCount": 191987,
+  "averageTries": 1.573099970817566,
+  "latestSubmission": {
+    "id": 84882735,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 31120,
+    "timeMs": 32,
+    "codeLen": 69,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 1205,
+  "title": "등수 구하기",
+  "tier": 7,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 8234,
+  "averageTries": 3.558500051498413,
+  "latestSubmission": {
+    "id": 84866009,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 837,
+    "submittedAt": "1년 전"
+  }
+}

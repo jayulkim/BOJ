@@ -1,0 +1,20 @@
+{
+  "problemId": 9011,
+  "title": "순서",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "constructive"
+  ],
+  "acceptedUserCount": 699,
+  "averageTries": 1.766800045967102,
+  "latestSubmission": {
+    "id": 84998741,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 8,
+    "codeLen": 1314,
+    "submittedAt": "1년 전"
+  }
+}

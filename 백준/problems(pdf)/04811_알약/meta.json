@@ -1,0 +1,20 @@
+{
+  "problemId": 4811,
+  "title": "알약",
+  "tier": 11,
+  "tags": [
+    "math",
+    "dp"
+  ],
+  "acceptedUserCount": 5375,
+  "averageTries": 1.4230999946594238,
+  "latestSubmission": {
+    "id": 94300231,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 979,
+    "submittedAt": "11달 전"
+  }
+}

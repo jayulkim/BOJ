@@ -1,0 +1,20 @@
+{
+  "problemId": 12991,
+  "title": "홍준이의 행렬",
+  "tier": 15,
+  "tags": [
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 166,
+  "averageTries": 2.590399980545044,
+  "latestSubmission": {
+    "id": 104975806,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2560,
+    "timeMs": 84,
+    "codeLen": 1034,
+    "submittedAt": "3일 전"
+  }
+}

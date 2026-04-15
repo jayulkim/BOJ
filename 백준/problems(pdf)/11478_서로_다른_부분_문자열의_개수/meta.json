@@ -1,0 +1,23 @@
+{
+  "problemId": 11478,
+  "title": "서로 다른 부분 문자열의 개수",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "string",
+    "set",
+    "hash_set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 24011,
+  "averageTries": 1.5504000186920166,
+  "latestSubmission": {
+    "id": 84886280,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 498200,
+    "timeMs": 916,
+    "codeLen": 850,
+    "submittedAt": "1년 전"
+  }
+}

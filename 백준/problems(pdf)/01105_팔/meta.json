@@ -1,0 +1,20 @@
+{
+  "problemId": 1105,
+  "title": "팔",
+  "tier": 10,
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "acceptedUserCount": 5016,
+  "averageTries": 3.035099983215332,
+  "latestSubmission": {
+    "id": 84865517,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 525,
+    "submittedAt": "1년 전"
+  }
+}

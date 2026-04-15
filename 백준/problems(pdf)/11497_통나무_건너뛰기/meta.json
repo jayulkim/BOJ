@@ -1,0 +1,20 @@
+{
+  "problemId": 11497,
+  "title": "통나무 건너뛰기",
+  "tier": 10,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 5812,
+  "averageTries": 1.6332000494003296,
+  "latestSubmission": {
+    "id": 84886336,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2204,
+    "timeMs": 112,
+    "codeLen": 1062,
+    "submittedAt": "1년 전"
+  }
+}

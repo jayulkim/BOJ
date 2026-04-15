@@ -1,0 +1,19 @@
+{
+  "problemId": 28017,
+  "title": "게임을 클리어하자",
+  "tier": 11,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 534,
+  "averageTries": 2.2602999210357666,
+  "latestSubmission": {
+    "id": 100890342,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 6044,
+    "timeMs": 608,
+    "codeLen": 1002,
+    "submittedAt": "4달 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 10476,
+  "title": "좁은 미술전시관",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 297,
+  "averageTries": 2.4679999351501465,
+  "latestSubmission": {
+    "id": 89961079,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4268,
+    "timeMs": 4,
+    "codeLen": 1275,
+    "submittedAt": "1년 전"
+  }
+}

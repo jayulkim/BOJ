@@ -1,0 +1,25 @@
+{
+  "problemId": 8187,
+  "title": "Divine Divisor",
+  "tier": 21,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "arbitrary_precision",
+    "prime_factorization",
+    "pollard_rho",
+    "miller_rabin"
+  ],
+  "acceptedUserCount": 110,
+  "averageTries": 6.18179988861084,
+  "latestSubmission": {
+    "id": 90764951,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 116628,
+    "timeMs": 6300,
+    "codeLen": 1835,
+    "submittedAt": "1년 전"
+  }
+}

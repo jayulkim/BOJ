@@ -1,0 +1,20 @@
+{
+  "problemId": 34711,
+  "title": "경숲길 재개발 1",
+  "tier": 11,
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "acceptedUserCount": 92,
+  "averageTries": 1.3370000123977661,
+  "latestSubmission": {
+    "id": 103301681,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 803,
+    "submittedAt": "1달 전"
+  }
+}

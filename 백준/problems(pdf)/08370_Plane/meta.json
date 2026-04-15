@@ -1,0 +1,20 @@
+{
+  "problemId": 8370,
+  "title": "Plane",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 11000,
+  "averageTries": 1.1241999864578247,
+  "latestSubmission": {
+    "id": 84882714,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 270,
+    "submittedAt": "1년 전"
+  }
+}

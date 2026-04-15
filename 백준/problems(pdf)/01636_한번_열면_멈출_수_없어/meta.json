@@ -1,0 +1,21 @@
+{
+  "problemId": 1636,
+  "title": "한번 열면 멈출 수 없어",
+  "tier": 12,
+  "tags": [
+    "greedy",
+    "bruteforcing",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 187,
+  "averageTries": 2.748699903488159,
+  "latestSubmission": {
+    "id": 99853232,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 5280,
+    "timeMs": 128,
+    "codeLen": 1396,
+    "submittedAt": "5달 전"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "problemId": 32632,
+  "title": "gcd와 최단 경로",
+  "tier": 12,
+  "tags": [
+    "math",
+    "graphs",
+    "ad_hoc",
+    "number_theory",
+    "shortest_path",
+    "euclidean"
+  ],
+  "acceptedUserCount": 151,
+  "averageTries": 1.3575999736785889,
+  "latestSubmission": {
+    "id": 86325184,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 60,
+    "codeLen": 502,
+    "submittedAt": "1년 전"
+  }
+}

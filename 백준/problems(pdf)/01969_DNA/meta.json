@@ -1,0 +1,22 @@
+{
+  "problemId": 1969,
+  "title": "DNA",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "greedy",
+    "string",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 6694,
+  "averageTries": 1.70169997215271,
+  "latestSubmission": {
+    "id": 84869621,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2544,
+    "timeMs": 0,
+    "codeLen": 653,
+    "submittedAt": "1년 전"
+  }
+}

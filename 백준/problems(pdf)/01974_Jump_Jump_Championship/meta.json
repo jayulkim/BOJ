@@ -1,0 +1,20 @@
+{
+  "problemId": 1974,
+  "title": "Jump Jump Championship",
+  "tier": 16,
+  "tags": [
+    "traceback",
+    "lis"
+  ],
+  "acceptedUserCount": 128,
+  "averageTries": 1.8827999830245972,
+  "latestSubmission": {
+    "id": 84869641,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2224,
+    "timeMs": 56,
+    "codeLen": 982,
+    "submittedAt": "1년 전"
+  }
+}

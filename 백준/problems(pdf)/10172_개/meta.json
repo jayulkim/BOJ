@@ -1,0 +1,19 @@
+{
+  "problemId": 10172,
+  "title": "개",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 207558,
+  "averageTries": 2.3101999759674072,
+  "latestSubmission": {
+    "id": 84883911,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 189,
+    "submittedAt": "1년 전"
+  }
+}

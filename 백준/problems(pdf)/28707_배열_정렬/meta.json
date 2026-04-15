@@ -1,0 +1,24 @@
+{
+  "problemId": 28707,
+  "title": "배열 정렬",
+  "tier": 15,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "set",
+    "shortest_path",
+    "hash_set",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 1281,
+  "averageTries": 2.1865999698638916,
+  "latestSubmission": {
+    "id": 100636776,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 11296,
+    "timeMs": 228,
+    "codeLen": 1615,
+    "submittedAt": "4달 전"
+  }
+}

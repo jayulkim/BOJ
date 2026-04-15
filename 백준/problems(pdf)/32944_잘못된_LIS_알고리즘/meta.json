@@ -1,0 +1,19 @@
+{
+  "problemId": 32944,
+  "title": "잘못된 LIS 알고리즘",
+  "tier": 10,
+  "tags": [
+    "constructive"
+  ],
+  "acceptedUserCount": 148,
+  "averageTries": 1.5743000507354736,
+  "latestSubmission": {
+    "id": 98094984,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8292,
+    "timeMs": 24,
+    "codeLen": 944,
+    "submittedAt": "7달 전"
+  }
+}

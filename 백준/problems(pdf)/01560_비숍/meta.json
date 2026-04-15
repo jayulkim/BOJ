@@ -1,0 +1,20 @@
+{
+  "problemId": 1560,
+  "title": "비숍",
+  "tier": 8,
+  "tags": [
+    "ad_hoc",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 970,
+  "averageTries": 2.462899923324585,
+  "latestSubmission": {
+    "id": 98726179,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 108384,
+    "timeMs": 88,
+    "codeLen": 71,
+    "submittedAt": "6달 전"
+  }
+}

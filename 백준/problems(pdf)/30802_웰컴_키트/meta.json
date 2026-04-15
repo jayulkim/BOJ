@@ -1,0 +1,21 @@
+{
+  "problemId": 30802,
+  "title": "웰컴 키트",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 20048,
+  "averageTries": 1.8666000366210938,
+  "latestSubmission": {
+    "id": 100628822,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 741,
+    "submittedAt": "4달 전"
+  }
+}

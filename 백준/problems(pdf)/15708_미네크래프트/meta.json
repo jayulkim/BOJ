@@ -1,0 +1,21 @@
+{
+  "problemId": 15708,
+  "title": "미네크래프트",
+  "tier": 16,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 386,
+  "averageTries": 3.365299940109253,
+  "latestSubmission": {
+    "id": 100209917,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3744,
+    "timeMs": 16,
+    "codeLen": 766,
+    "submittedAt": "5달 전"
+  }
+}

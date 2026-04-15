@@ -1,0 +1,22 @@
+{
+  "problemId": 2436,
+  "title": "공약수",
+  "tier": 11,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 4353,
+  "averageTries": 2.8671998977661133,
+  "latestSubmission": {
+    "id": 84878914,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1086,
+    "submittedAt": "1년 전"
+  }
+}

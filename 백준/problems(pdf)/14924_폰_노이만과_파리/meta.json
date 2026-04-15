@@ -1,0 +1,20 @@
+{
+  "problemId": 14924,
+  "title": "폰 노이만과 파리",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 5648,
+  "averageTries": 1.226099967956543,
+  "latestSubmission": {
+    "id": 84890401,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 160,
+    "submittedAt": "1년 전"
+  }
+}

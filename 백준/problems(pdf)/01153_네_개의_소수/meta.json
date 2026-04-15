@@ -1,0 +1,22 @@
+{
+  "problemId": 1153,
+  "title": "네 개의 소수",
+  "tier": 13,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 1614,
+  "averageTries": 2.3575000762939453,
+  "latestSubmission": {
+    "id": 84865705,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5020,
+    "timeMs": 8,
+    "codeLen": 2494,
+    "submittedAt": "1년 전"
+  }
+}

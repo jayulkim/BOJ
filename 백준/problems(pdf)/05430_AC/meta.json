@@ -1,0 +1,23 @@
+{
+  "problemId": 5430,
+  "title": "AC",
+  "tier": 11,
+  "tags": [
+    "deque",
+    "parsing",
+    "implementation",
+    "string",
+    "data_structures"
+  ],
+  "acceptedUserCount": 33272,
+  "averageTries": 4.616300106048584,
+  "latestSubmission": {
+    "id": 84881667,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 6976,
+    "timeMs": 52,
+    "codeLen": 2491,
+    "submittedAt": "1년 전"
+  }
+}

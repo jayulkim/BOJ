@@ -1,0 +1,21 @@
+{
+  "problemId": 2745,
+  "title": "진법 변환",
+  "tier": 4,
+  "tags": [
+    "implementation",
+    "string",
+    "math"
+  ],
+  "acceptedUserCount": 39577,
+  "averageTries": 2.0346999168395996,
+  "latestSubmission": {
+    "id": 84879960,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1628,
+    "submittedAt": "1년 전"
+  }
+}

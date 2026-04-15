@@ -1,0 +1,19 @@
+{
+  "problemId": 11052,
+  "title": "카드 구매하기",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 28600,
+  "averageTries": 1.6092000007629395,
+  "latestSubmission": {
+    "id": 84885743,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5936,
+    "timeMs": 4,
+    "codeLen": 707,
+    "submittedAt": "1년 전"
+  }
+}

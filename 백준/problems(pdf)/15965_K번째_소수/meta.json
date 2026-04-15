@@ -1,0 +1,22 @@
+{
+  "problemId": 15965,
+  "title": "K번째 소수",
+  "tier": 9,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 2379,
+  "averageTries": 2.4493000507354736,
+  "latestSubmission": {
+    "id": 84891643,
+    "result": "100점",
+    "language": "C99",
+    "memoryKb": 63612,
+    "timeMs": 152,
+    "codeLen": 476,
+    "submittedAt": "1년 전"
+  }
+}

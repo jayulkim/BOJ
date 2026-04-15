@@ -1,0 +1,21 @@
+{
+  "problemId": 10250,
+  "title": "ACM 호텔",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 69180,
+  "averageTries": 2.966200113296509,
+  "latestSubmission": {
+    "id": 84883961,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 961,
+    "submittedAt": "1년 전"
+  }
+}

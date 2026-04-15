@@ -1,0 +1,22 @@
+{
+  "problemId": 13023,
+  "title": "ABCDE",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "dfs",
+    "backtracking"
+  ],
+  "acceptedUserCount": 15847,
+  "averageTries": 3.300800085067749,
+  "latestSubmission": {
+    "id": 84888204,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2200,
+    "timeMs": 52,
+    "codeLen": 766,
+    "submittedAt": "1년 전"
+  }
+}

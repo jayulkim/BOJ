@@ -1,0 +1,21 @@
+{
+  "problemId": 2623,
+  "title": "음악프로그램",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 11647,
+  "averageTries": 1.9127000570297241,
+  "latestSubmission": {
+    "id": 104977879,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2228,
+    "timeMs": 0,
+    "codeLen": 1448,
+    "submittedAt": "2일 전"
+  }
+}

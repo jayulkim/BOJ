@@ -1,0 +1,20 @@
+{
+  "problemId": 1267,
+  "title": "핸드폰 요금",
+  "tier": 3,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 15087,
+  "averageTries": 1.9779000282287598,
+  "latestSubmission": {
+    "id": 84866305,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 647,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 32201,
+  "title": "눈사람",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 243,
+  "averageTries": 1.4896999597549438,
+  "latestSubmission": {
+    "id": 86656725,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 13016,
+    "timeMs": 116,
+    "codeLen": 646,
+    "submittedAt": "1년 전"
+  }
+}

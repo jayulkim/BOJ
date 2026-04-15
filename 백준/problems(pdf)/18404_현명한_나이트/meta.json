@@ -1,0 +1,22 @@
+{
+  "problemId": 18404,
+  "title": "현명한 나이트",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 1184,
+  "averageTries": 2.0211000442504883,
+  "latestSubmission": {
+    "id": 84892720,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3384,
+    "timeMs": 12,
+    "codeLen": 1208,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 30458,
+  "title": "팰린드롬 애너그램",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "string",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 615,
+  "averageTries": 2.3285000324249268,
+  "latestSubmission": {
+    "id": 84894686,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2648,
+    "timeMs": 0,
+    "codeLen": 768,
+    "submittedAt": "1년 전"
+  }
+}

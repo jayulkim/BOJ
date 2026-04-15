@@ -1,0 +1,23 @@
+{
+  "problemId": 15907,
+  "title": "Acka의 리듬 세상",
+  "tier": 16,
+  "tags": [
+    "math",
+    "number_theory",
+    "set",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 203,
+  "averageTries": 5.142899990081787,
+  "latestSubmission": {
+    "id": 84891413,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 19308,
+    "timeMs": 1180,
+    "codeLen": 724,
+    "submittedAt": "1년 전"
+  }
+}

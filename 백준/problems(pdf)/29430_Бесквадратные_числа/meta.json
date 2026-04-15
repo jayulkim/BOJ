@@ -1,0 +1,22 @@
+{
+  "problemId": 29430,
+  "title": "Бесквадратные числа",
+  "tier": 8,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 15,
+  "averageTries": 1.733299970626831,
+  "latestSubmission": {
+    "id": 87396817,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 33968,
+    "timeMs": 84,
+    "codeLen": 842,
+    "submittedAt": "1년 전"
+  }
+}

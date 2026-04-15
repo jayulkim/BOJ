@@ -1,0 +1,23 @@
+{
+  "problemId": 1888,
+  "title": "곰팡이",
+  "tier": 13,
+  "tags": [
+    "implementation",
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 150,
+  "averageTries": 4.21999979019165,
+  "latestSubmission": {
+    "id": 89876572,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2172,
+    "timeMs": 8,
+    "codeLen": 2240,
+    "submittedAt": "1년 전"
+  }
+}

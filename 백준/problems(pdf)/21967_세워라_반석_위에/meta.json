@@ -1,0 +1,20 @@
+{
+  "problemId": 21967,
+  "title": "세워라 반석 위에",
+  "tier": 8,
+  "tags": [
+    "bruteforcing",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 438,
+  "averageTries": 2.9679999351501465,
+  "latestSubmission": {
+    "id": 99599686,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 14496,
+    "timeMs": 80,
+    "codeLen": 1226,
+    "submittedAt": "5달 전"
+  }
+}

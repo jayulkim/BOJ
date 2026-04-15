@@ -1,0 +1,20 @@
+{
+  "problemId": 2096,
+  "title": "내려가기",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "sliding_window"
+  ],
+  "acceptedUserCount": 19163,
+  "averageTries": 2.701900005340576,
+  "latestSubmission": {
+    "id": 84877717,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 56,
+    "codeLen": 816,
+    "submittedAt": "1년 전"
+  }
+}

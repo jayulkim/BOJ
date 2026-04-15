@@ -1,0 +1,21 @@
+{
+  "problemId": 2385,
+  "title": "Secret Sharing",
+  "tier": 18,
+  "tags": [
+    "greedy",
+    "string",
+    "sorting"
+  ],
+  "acceptedUserCount": 247,
+  "averageTries": 4.8703999519348145,
+  "latestSubmission": {
+    "id": 84878839,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2168,
+    "timeMs": 0,
+    "codeLen": 766,
+    "submittedAt": "1년 전"
+  }
+}

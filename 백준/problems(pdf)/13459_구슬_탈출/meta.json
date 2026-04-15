@@ -1,0 +1,24 @@
+{
+  "problemId": 13459,
+  "title": "구슬 탈출",
+  "tier": 15,
+  "tags": [
+    "implementation",
+    "graphs",
+    "graph_traversal",
+    "simulation",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 3840,
+  "averageTries": 2.801800012588501,
+  "latestSubmission": {
+    "id": 100657315,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2360,
+    "timeMs": 0,
+    "codeLen": 3988,
+    "submittedAt": "4달 전"
+  }
+}

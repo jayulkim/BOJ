@@ -1,0 +1,22 @@
+{
+  "problemId": 26982,
+  "title": "Stall Reservations",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 38,
+  "averageTries": 2,
+  "latestSubmission": {
+    "id": 84894116,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3072,
+    "timeMs": 36,
+    "codeLen": 2307,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 31860,
+  "title": "열심히 일하는 중",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "simulation",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 517,
+  "averageTries": 1.8626999855041504,
+  "latestSubmission": {
+    "id": 84894881,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 40568,
+    "timeMs": 268,
+    "codeLen": 1379,
+    "submittedAt": "1년 전"
+  }
+}

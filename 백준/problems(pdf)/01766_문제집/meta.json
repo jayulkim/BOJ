@@ -1,0 +1,23 @@
+{
+  "problemId": 1766,
+  "title": "문제집",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "priority_queue",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 16107,
+  "averageTries": 1.96589994430542,
+  "latestSubmission": {
+    "id": 84868710,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3964,
+    "timeMs": 28,
+    "codeLen": 693,
+    "submittedAt": "1년 전"
+  }
+}

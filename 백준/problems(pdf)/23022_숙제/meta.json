@@ -1,0 +1,21 @@
+{
+  "problemId": 23022,
+  "title": "숙제",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 88,
+  "averageTries": 2.44320011138916,
+  "latestSubmission": {
+    "id": 84893201,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 7172,
+    "timeMs": 536,
+    "codeLen": 4110,
+    "submittedAt": "1년 전"
+  }
+}

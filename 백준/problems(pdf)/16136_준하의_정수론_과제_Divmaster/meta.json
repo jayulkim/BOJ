@@ -1,0 +1,24 @@
+{
+  "problemId": 16136,
+  "title": "준하의 정수론 과제 (Divmaster)",
+  "tier": 19,
+  "tags": [
+    "math",
+    "data_structures",
+    "number_theory",
+    "segtree",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 203,
+  "averageTries": 3.630500078201294,
+  "latestSubmission": {
+    "id": 93861374,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 13920,
+    "timeMs": 124,
+    "codeLen": 2403,
+    "submittedAt": "11달 전"
+  }
+}

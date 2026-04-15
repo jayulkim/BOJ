@@ -1,0 +1,22 @@
+{
+  "problemId": 2325,
+  "title": "개코전쟁",
+  "tier": 16,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra",
+    "traceback"
+  ],
+  "acceptedUserCount": 631,
+  "averageTries": 2.3280999660491943,
+  "latestSubmission": {
+    "id": 84878423,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 17192,
+    "timeMs": 84,
+    "codeLen": 1404,
+    "submittedAt": "1년 전"
+  }
+}

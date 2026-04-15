@@ -1,0 +1,23 @@
+{
+  "problemId": 5464,
+  "title": "주차장",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "simulation",
+    "priority_queue",
+    "queue"
+  ],
+  "acceptedUserCount": 1216,
+  "averageTries": 1.6160000562667847,
+  "latestSubmission": {
+    "id": 98871322,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2224,
+    "timeMs": 0,
+    "codeLen": 1161,
+    "submittedAt": "6달 전"
+  }
+}

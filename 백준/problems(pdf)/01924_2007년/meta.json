@@ -1,0 +1,20 @@
+{
+  "problemId": 1924,
+  "title": "2007년",
+  "tier": 5,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 41655,
+  "averageTries": 1.9615000486373901,
+  "latestSubmission": {
+    "id": 91459277,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 738,
+    "submittedAt": "1년 전"
+  }
+}

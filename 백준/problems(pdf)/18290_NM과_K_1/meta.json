@@ -1,0 +1,20 @@
+{
+  "problemId": 18290,
+  "title": "NM과 K (1)",
+  "tier": 10,
+  "tags": [
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 2332,
+  "averageTries": 3.7011001110076904,
+  "latestSubmission": {
+    "id": 85710587,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 1228,
+    "codeLen": 1084,
+    "submittedAt": "1년 전"
+  }
+}

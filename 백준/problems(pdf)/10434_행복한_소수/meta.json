@@ -1,0 +1,23 @@
+{
+  "problemId": 10434,
+  "title": "행복한 소수",
+  "tier": 8,
+  "tags": [
+    "math",
+    "implementation",
+    "number_theory",
+    "simulation",
+    "primality_test"
+  ],
+  "acceptedUserCount": 598,
+  "averageTries": 2.486599922180176,
+  "latestSubmission": {
+    "id": 84884032,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1160,
+    "timeMs": 4,
+    "codeLen": 1307,
+    "submittedAt": "1년 전"
+  }
+}

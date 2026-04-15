@@ -1,0 +1,19 @@
+{
+  "problemId": 1145,
+  "title": "적어도 대부분의 배수",
+  "tier": 5,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 9530,
+  "averageTries": 1.5477999448776245,
+  "latestSubmission": {
+    "id": 84865645,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 12,
+    "codeLen": 525,
+    "submittedAt": "1년 전"
+  }
+}

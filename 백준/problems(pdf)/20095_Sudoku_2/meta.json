@@ -1,0 +1,21 @@
+{
+  "problemId": 20095,
+  "title": "Sudoku 2",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "constructive",
+    "heuristics"
+  ],
+  "acceptedUserCount": 201,
+  "averageTries": 1.2735999822616577,
+  "latestSubmission": {
+    "id": 86883864,
+    "result": "10점",
+    "language": "Text",
+    "memoryKb": 4528,
+    "timeMs": 0,
+    "codeLen": 161,
+    "submittedAt": "1년 전"
+  }
+}

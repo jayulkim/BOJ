@@ -1,0 +1,23 @@
+{
+  "problemId": 2371,
+  "title": "파일 구별하기",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "bruteforcing",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 340,
+  "averageTries": 2.058799982070923,
+  "latestSubmission": {
+    "id": 84878485,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2296,
+    "timeMs": 4,
+    "codeLen": 839,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 6219,
+  "title": "소수의 자격",
+  "tier": 8,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 1287,
+  "averageTries": 2.2409000396728516,
+  "latestSubmission": {
+    "id": 84882201,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 680,
+    "codeLen": 826,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 26574,
+  "title": "Copier",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 4167,
+  "averageTries": 1.1740000247955322,
+  "latestSubmission": {
+    "id": 84894058,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 503,
+    "submittedAt": "1년 전"
+  }
+}

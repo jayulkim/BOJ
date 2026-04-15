@@ -1,0 +1,21 @@
+{
+  "problemId": 2558,
+  "title": "A+B - 2",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "arithmetic",
+    "math"
+  ],
+  "acceptedUserCount": 84892,
+  "averageTries": 1.391700029373169,
+  "latestSubmission": {
+    "id": 84879369,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 216,
+    "submittedAt": "1년 전"
+  }
+}

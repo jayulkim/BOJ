@@ -1,0 +1,20 @@
+{
+  "problemId": 1564,
+  "title": "팩토리얼5",
+  "tier": 10,
+  "tags": [
+    "math",
+    "number_theory"
+  ],
+  "acceptedUserCount": 1937,
+  "averageTries": 4.732100009918213,
+  "latestSubmission": {
+    "id": 84868025,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 4,
+    "codeLen": 924,
+    "submittedAt": "1년 전"
+  }
+}

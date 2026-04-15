@@ -1,0 +1,22 @@
+{
+  "problemId": 2487,
+  "title": "섞기 수열",
+  "tier": 12,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean",
+    "permutation_cycle_decomposition"
+  ],
+  "acceptedUserCount": 1103,
+  "averageTries": 2.4305999279022217,
+  "latestSubmission": {
+    "id": 86737595,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3172,
+    "timeMs": 4,
+    "codeLen": 1009,
+    "submittedAt": "1년 전"
+  }
+}

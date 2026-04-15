@@ -1,0 +1,19 @@
+{
+  "problemId": 11004,
+  "title": "K번째 수",
+  "tier": 6,
+  "tags": [
+    "sorting"
+  ],
+  "acceptedUserCount": 19608,
+  "averageTries": 2.3742001056671143,
+  "latestSubmission": {
+    "id": 84885447,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 40176,
+    "timeMs": 1820,
+    "codeLen": 501,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 16928,
+  "title": "뱀과 사다리 게임",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 18973,
+  "averageTries": 2.7815001010894775,
+  "latestSubmission": {
+    "id": 84892086,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2156,
+    "timeMs": 0,
+    "codeLen": 1136,
+    "submittedAt": "1년 전"
+  }
+}

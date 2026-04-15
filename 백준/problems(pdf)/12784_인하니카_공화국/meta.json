@@ -1,0 +1,24 @@
+{
+  "problemId": 12784,
+  "title": "인하니카 공화국",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "dfs",
+    "dp_tree"
+  ],
+  "acceptedUserCount": 990,
+  "averageTries": 2.6120998859405518,
+  "latestSubmission": {
+    "id": 86860059,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2180,
+    "timeMs": 16,
+    "codeLen": 1031,
+    "submittedAt": "1년 전"
+  }
+}

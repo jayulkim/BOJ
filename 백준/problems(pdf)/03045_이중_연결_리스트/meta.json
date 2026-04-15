@@ -1,0 +1,22 @@
+{
+  "problemId": 3045,
+  "title": "이중 연결 리스트",
+  "tier": 18,
+  "tags": [
+    "data_structures",
+    "traceback",
+    "lis",
+    "linked_list"
+  ],
+  "acceptedUserCount": 216,
+  "averageTries": 3.3380000591278076,
+  "latestSubmission": {
+    "id": 84880757,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 30272,
+    "timeMs": 116,
+    "codeLen": 2424,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 17612,
+  "title": "쇼핑몰",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 1552,
+  "averageTries": 2.6043999195098877,
+  "latestSubmission": {
+    "id": 84892490,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 15188,
+    "timeMs": 56,
+    "codeLen": 4652,
+    "submittedAt": "1년 전"
+  }
+}

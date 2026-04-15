@@ -1,0 +1,20 @@
+{
+  "problemId": 31952,
+  "title": "Dihedral Group",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 69,
+  "averageTries": 1.3187999725341797,
+  "latestSubmission": {
+    "id": 100623748,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3748,
+    "timeMs": 12,
+    "codeLen": 1398,
+    "submittedAt": "4달 전"
+  }
+}

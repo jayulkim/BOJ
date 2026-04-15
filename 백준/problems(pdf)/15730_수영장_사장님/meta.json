@@ -1,0 +1,24 @@
+{
+  "problemId": 15730,
+  "title": "수영장 사장님",
+  "tier": 16,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "simulation",
+    "bfs"
+  ],
+  "acceptedUserCount": 313,
+  "averageTries": 3.214099884033203,
+  "latestSubmission": {
+    "id": 103974278,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2492,
+    "timeMs": 1164,
+    "codeLen": 2117,
+    "submittedAt": "29일 전"
+  }
+}

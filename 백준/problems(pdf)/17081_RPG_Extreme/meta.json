@@ -1,0 +1,20 @@
+{
+  "problemId": 17081,
+  "title": "RPG Extreme",
+  "tier": 19,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 696,
+  "averageTries": 4.399400234222412,
+  "latestSubmission": {
+    "id": 84892163,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2920,
+    "timeMs": 0,
+    "codeLen": 9543,
+    "submittedAt": "1년 전"
+  }
+}

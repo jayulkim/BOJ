@@ -1,0 +1,21 @@
+{
+  "problemId": 26091,
+  "title": "현대모비스 소프트웨어 아카데미",
+  "tier": 10,
+  "tags": [
+    "greedy",
+    "sorting",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 772,
+  "averageTries": 1.6009999513626099,
+  "latestSubmission": {
+    "id": 84893930,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5408,
+    "timeMs": 36,
+    "codeLen": 723,
+    "submittedAt": "1년 전"
+  }
+}

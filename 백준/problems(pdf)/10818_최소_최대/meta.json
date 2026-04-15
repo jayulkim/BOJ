@@ -1,0 +1,20 @@
+{
+  "problemId": 10818,
+  "title": "최소, 최대",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 169891,
+  "averageTries": 2.219899892807007,
+  "latestSubmission": {
+    "id": 84884493,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 153832,
+    "timeMs": 336,
+    "codeLen": 73,
+    "submittedAt": "1년 전"
+  }
+}

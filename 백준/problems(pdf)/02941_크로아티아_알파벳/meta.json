@@ -1,0 +1,20 @@
+{
+  "problemId": 2941,
+  "title": "크로아티아 알파벳",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 87538,
+  "averageTries": 2.2109999656677246,
+  "latestSubmission": {
+    "id": 84880584,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1933,
+    "submittedAt": "1년 전"
+  }
+}

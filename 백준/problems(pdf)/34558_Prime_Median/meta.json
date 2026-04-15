@@ -1,0 +1,24 @@
+{
+  "problemId": 34558,
+  "title": "Prime Median",
+  "tier": 11,
+  "tags": [
+    "math",
+    "number_theory",
+    "binary_search",
+    "prefix_sum",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 167,
+  "averageTries": 2.287400007247925,
+  "latestSubmission": {
+    "id": 99168716,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3868,
+    "timeMs": 52,
+    "codeLen": 1187,
+    "submittedAt": "6달 전"
+  }
+}

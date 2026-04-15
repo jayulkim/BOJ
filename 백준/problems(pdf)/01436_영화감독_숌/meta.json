@@ -1,0 +1,19 @@
+{
+  "problemId": 1436,
+  "title": "영화감독 숌",
+  "tier": 6,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 65248,
+  "averageTries": 1.6469000577926636,
+  "latestSubmission": {
+    "id": 84867472,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 72,
+    "codeLen": 624,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 5577,
+  "title": "RBY팡!",
+  "tier": 14,
+  "tags": [
+    "implementation",
+    "bruteforcing",
+    "simulation"
+  ],
+  "acceptedUserCount": 294,
+  "averageTries": 3.163300037384033,
+  "latestSubmission": {
+    "id": 89978208,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2532,
+    "timeMs": 560,
+    "codeLen": 2282,
+    "submittedAt": "1년 전"
+  }
+}

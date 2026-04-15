@@ -1,0 +1,21 @@
+{
+  "problemId": 32143,
+  "title": "카드 게임 (Hard)",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 252,
+  "averageTries": 3.1349000930786133,
+  "latestSubmission": {
+    "id": 89257030,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8292,
+    "timeMs": 124,
+    "codeLen": 1079,
+    "submittedAt": "1년 전"
+  }
+}

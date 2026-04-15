@@ -1,0 +1,23 @@
+{
+  "problemId": 34896,
+  "title": "폭탄의 악마",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 75,
+  "averageTries": 3.1066999435424805,
+  "latestSubmission": {
+    "id": 100992994,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 10756,
+    "timeMs": 44,
+    "codeLen": 1520,
+    "submittedAt": "4달 전"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "problemId": 13358,
+  "title": "Exponial",
+  "tier": 20,
+  "tags": [
+    "math",
+    "number_theory",
+    "exponentiation_by_squaring",
+    "prime_factorization",
+    "euler_phi"
+  ],
+  "acceptedUserCount": 187,
+  "averageTries": 4.438499927520752,
+  "latestSubmission": {
+    "id": 90356265,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 1293,
+    "submittedAt": "1년 전"
+  }
+}

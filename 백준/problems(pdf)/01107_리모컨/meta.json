@@ -1,0 +1,19 @@
+{
+  "problemId": 1107,
+  "title": "리모컨",
+  "tier": 12,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 23021,
+  "averageTries": 4.168399810791016,
+  "latestSubmission": {
+    "id": 86818264,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 12,
+    "codeLen": 884,
+    "submittedAt": "1년 전"
+  }
+}

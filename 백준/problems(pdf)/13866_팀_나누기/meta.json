@@ -1,0 +1,21 @@
+{
+  "problemId": 13866,
+  "title": "팀 나누기",
+  "tier": 2,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 6454,
+  "averageTries": 1.625499963760376,
+  "latestSubmission": {
+    "id": 84888982,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 368,
+    "submittedAt": "1년 전"
+  }
+}

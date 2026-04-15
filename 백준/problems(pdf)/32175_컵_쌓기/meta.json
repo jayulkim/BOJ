@@ -1,0 +1,19 @@
+{
+  "problemId": 32175,
+  "title": "컵 쌓기",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 182,
+  "averageTries": 1.5604000091552734,
+  "latestSubmission": {
+    "id": 98253870,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 12116,
+    "timeMs": 56,
+    "codeLen": 965,
+    "submittedAt": "7달 전"
+  }
+}

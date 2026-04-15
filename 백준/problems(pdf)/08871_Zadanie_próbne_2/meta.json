@@ -1,0 +1,20 @@
+{
+  "problemId": 8871,
+  "title": "Zadanie próbne 2",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 4659,
+  "averageTries": 1.181399941444397,
+  "latestSubmission": {
+    "id": 84882777,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 400,
+    "submittedAt": "1년 전"
+  }
+}

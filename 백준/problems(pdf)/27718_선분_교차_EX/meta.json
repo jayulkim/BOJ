@@ -1,0 +1,21 @@
+{
+  "problemId": 27718,
+  "title": "선분 교차 EX",
+  "tier": 16,
+  "tags": [
+    "geometry",
+    "case_work",
+    "line_intersection"
+  ],
+  "acceptedUserCount": 230,
+  "averageTries": 4.0782999992370605,
+  "latestSubmission": {
+    "id": 85653755,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6240,
+    "timeMs": 212,
+    "codeLen": 1602,
+    "submittedAt": "1년 전"
+  }
+}

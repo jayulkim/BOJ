@@ -1,0 +1,22 @@
+{
+  "problemId": 2350,
+  "title": "대운하",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "disjoint_set",
+    "mst"
+  ],
+  "acceptedUserCount": 173,
+  "averageTries": 1.8265999555587769,
+  "latestSubmission": {
+    "id": 100677182,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 6840,
+    "timeMs": 84,
+    "codeLen": 2202,
+    "submittedAt": "4달 전"
+  }
+}

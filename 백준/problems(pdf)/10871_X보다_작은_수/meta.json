@@ -1,0 +1,19 @@
+{
+  "problemId": 10871,
+  "title": "X보다 작은 수",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 180517,
+  "averageTries": 1.8367999792099,
+  "latestSubmission": {
+    "id": 84884874,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 32140,
+    "timeMs": 48,
+    "codeLen": 190,
+    "submittedAt": "1년 전"
+  }
+}

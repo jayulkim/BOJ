@@ -1,0 +1,20 @@
+{
+  "problemId": 25375,
+  "title": "아주 간단한 문제",
+  "tier": 6,
+  "tags": [
+    "math",
+    "number_theory"
+  ],
+  "acceptedUserCount": 666,
+  "averageTries": 2.7732999324798584,
+  "latestSubmission": {
+    "id": 86655372,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 40,
+    "codeLen": 398,
+    "submittedAt": "1년 전"
+  }
+}

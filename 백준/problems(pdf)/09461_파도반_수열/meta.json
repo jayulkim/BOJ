@@ -1,0 +1,20 @@
+{
+  "problemId": 9461,
+  "title": "파도반 수열",
+  "tier": 8,
+  "tags": [
+    "math",
+    "dp"
+  ],
+  "acceptedUserCount": 50595,
+  "averageTries": 2.2767999172210693,
+  "latestSubmission": {
+    "id": 84883243,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 385,
+    "submittedAt": "1년 전"
+  }
+}

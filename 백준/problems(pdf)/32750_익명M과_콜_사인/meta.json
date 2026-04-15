@@ -1,0 +1,20 @@
+{
+  "problemId": 32750,
+  "title": "익명M과 콜 사인",
+  "tier": 10,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 39,
+  "averageTries": 2.5641000270843506,
+  "latestSubmission": {
+    "id": 87389451,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3056,
+    "timeMs": 4,
+    "codeLen": 2571,
+    "submittedAt": "1년 전"
+  }
+}

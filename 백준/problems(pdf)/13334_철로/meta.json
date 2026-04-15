@@ -1,0 +1,22 @@
+{
+  "problemId": 13334,
+  "title": "철로",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "sweeping",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 4341,
+  "averageTries": 2.539299964904785,
+  "latestSubmission": {
+    "id": 84888678,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4956,
+    "timeMs": 36,
+    "codeLen": 1052,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 20504,
+  "title": "I번은 쉬운 문제",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "scc"
+  ],
+  "acceptedUserCount": 151,
+  "averageTries": 2.2053000926971436,
+  "latestSubmission": {
+    "id": 92740559,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 39824,
+    "timeMs": 568,
+    "codeLen": 2146,
+    "submittedAt": "1년 전"
+  }
+}

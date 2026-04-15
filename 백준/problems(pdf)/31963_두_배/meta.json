@@ -1,0 +1,20 @@
+{
+  "problemId": 31963,
+  "title": "두 배",
+  "tier": 13,
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "acceptedUserCount": 1160,
+  "averageTries": 4.933599948883057,
+  "latestSubmission": {
+    "id": 95405997,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 4164,
+    "timeMs": 36,
+    "codeLen": 1042,
+    "submittedAt": "9달 전"
+  }
+}

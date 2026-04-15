@@ -1,0 +1,20 @@
+{
+  "problemId": 25709,
+  "title": "1 빼기",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "greedy"
+  ],
+  "acceptedUserCount": 457,
+  "averageTries": 1.8380999565124512,
+  "latestSubmission": {
+    "id": 84893750,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2164,
+    "timeMs": 0,
+    "codeLen": 1335,
+    "submittedAt": "1년 전"
+  }
+}

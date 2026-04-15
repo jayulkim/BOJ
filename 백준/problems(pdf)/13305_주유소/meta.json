@@ -1,0 +1,19 @@
+{
+  "problemId": 13305,
+  "title": "주유소",
+  "tier": 8,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 27980,
+  "averageTries": 2.4932000637054443,
+  "latestSubmission": {
+    "id": 84888641,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 3588,
+    "timeMs": 20,
+    "codeLen": 504,
+    "submittedAt": "1년 전"
+  }
+}

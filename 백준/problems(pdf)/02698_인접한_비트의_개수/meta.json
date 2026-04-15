@@ -1,0 +1,19 @@
+{
+  "problemId": 2698,
+  "title": "인접한 비트의 개수",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 1780,
+  "averageTries": 1.2786999940872192,
+  "latestSubmission": {
+    "id": 100587243,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2748,
+    "timeMs": 0,
+    "codeLen": 1209,
+    "submittedAt": "4달 전"
+  }
+}

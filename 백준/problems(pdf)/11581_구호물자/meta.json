@@ -1,0 +1,23 @@
+{
+  "problemId": 11581,
+  "title": "구호물자",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "shortest_path",
+    "dfs",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 587,
+  "averageTries": 3.580899953842163,
+  "latestSubmission": {
+    "id": 92342417,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2100,
+    "timeMs": 0,
+    "codeLen": 1099,
+    "submittedAt": "1년 전"
+  }
+}

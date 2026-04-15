@@ -1,0 +1,20 @@
+{
+  "problemId": 31654,
+  "title": "Adding Trouble",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 3463,
+  "averageTries": 1.1994999647140503,
+  "latestSubmission": {
+    "id": 84894855,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 267,
+    "submittedAt": "1년 전"
+  }
+}

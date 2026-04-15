@@ -1,0 +1,21 @@
+{
+  "problemId": 23978,
+  "title": "급상승",
+  "tier": 11,
+  "tags": [
+    "math",
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 273,
+  "averageTries": 4.282100200653076,
+  "latestSubmission": {
+    "id": 98355438,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 26788,
+    "timeMs": 168,
+    "codeLen": 1206,
+    "submittedAt": "7달 전"
+  }
+}

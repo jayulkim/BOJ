@@ -1,0 +1,20 @@
+{
+  "problemId": 17299,
+  "title": "오등큰수",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 8934,
+  "averageTries": 2.1182000637054443,
+  "latestSubmission": {
+    "id": 84892324,
+    "result": "맞았습니다!!",
+    "language": "Java 11",
+    "memoryKb": 160156,
+    "timeMs": 1096,
+    "codeLen": 2006,
+    "submittedAt": "1년 전"
+  }
+}

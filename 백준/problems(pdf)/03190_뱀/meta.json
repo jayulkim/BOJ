@@ -1,0 +1,23 @@
+{
+  "problemId": 3190,
+  "title": "뱀",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "simulation",
+    "deque",
+    "queue"
+  ],
+  "acceptedUserCount": 28585,
+  "averageTries": 2.3399999141693115,
+  "latestSubmission": {
+    "id": 84880875,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1160,
+    "timeMs": 0,
+    "codeLen": 9651,
+    "submittedAt": "1년 전"
+  }
+}

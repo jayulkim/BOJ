@@ -1,0 +1,21 @@
+{
+  "problemId": 25945,
+  "title": "컨테이너 재배치",
+  "tier": 9,
+  "tags": [
+    "math",
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 574,
+  "averageTries": 2.2300000190734863,
+  "latestSubmission": {
+    "id": 84893865,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 22252,
+    "timeMs": 84,
+    "codeLen": 939,
+    "submittedAt": "1년 전"
+  }
+}

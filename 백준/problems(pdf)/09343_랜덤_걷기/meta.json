@@ -1,0 +1,23 @@
+{
+  "problemId": 9343,
+  "title": "랜덤 걷기",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "combinatorics",
+    "modular_multiplicative_inverse",
+    "flt"
+  ],
+  "acceptedUserCount": 299,
+  "averageTries": 2.7390999794006348,
+  "latestSubmission": {
+    "id": 84883174,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 17644,
+    "timeMs": 24,
+    "codeLen": 915,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "problemId": 10026,
+  "title": "적록색약",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 40628,
+  "averageTries": 1.7294000387191772,
+  "latestSubmission": {
+    "id": 84883756,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2248,
+    "timeMs": 0,
+    "codeLen": 2418,
+    "submittedAt": "1년 전"
+  }
+}

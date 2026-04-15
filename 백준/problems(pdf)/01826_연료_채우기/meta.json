@@ -1,0 +1,22 @@
+{
+  "problemId": 1826,
+  "title": "연료 채우기",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 2810,
+  "averageTries": 3.1491000652313232,
+  "latestSubmission": {
+    "id": 84868974,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1192,
+    "timeMs": 4,
+    "codeLen": 2249,
+    "submittedAt": "1년 전"
+  }
+}

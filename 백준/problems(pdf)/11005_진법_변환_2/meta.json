@@ -1,0 +1,20 @@
+{
+  "problemId": 11005,
+  "title": "진법 변환 2",
+  "tier": 5,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 34736,
+  "averageTries": 2.1417999267578125,
+  "latestSubmission": {
+    "id": 84885528,
+    "result": "맞았습니다!!",
+    "language": "Java 11",
+    "memoryKb": 14392,
+    "timeMs": 104,
+    "codeLen": 1027,
+    "submittedAt": "1년 전"
+  }
+}

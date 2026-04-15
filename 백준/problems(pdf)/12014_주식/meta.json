@@ -1,0 +1,20 @@
+{
+  "problemId": 12014,
+  "title": "주식",
+  "tier": 14,
+  "tags": [
+    "binary_search",
+    "lis"
+  ],
+  "acceptedUserCount": 1073,
+  "averageTries": 1.9450000524520874,
+  "latestSubmission": {
+    "id": 84887687,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2220,
+    "timeMs": 28,
+    "codeLen": 802,
+    "submittedAt": "1년 전"
+  }
+}

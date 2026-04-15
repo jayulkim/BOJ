@@ -1,0 +1,24 @@
+{
+  "problemId": 13977,
+  "title": "이항 계수와 쿼리",
+  "tier": 16,
+  "tags": [
+    "math",
+    "number_theory",
+    "combinatorics",
+    "exponentiation_by_squaring",
+    "modular_multiplicative_inverse",
+    "flt"
+  ],
+  "acceptedUserCount": 2628,
+  "averageTries": 2.135499954223633,
+  "latestSubmission": {
+    "id": 105006100,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 64588,
+    "timeMs": 164,
+    "codeLen": 3781,
+    "submittedAt": "1일 전"
+  }
+}

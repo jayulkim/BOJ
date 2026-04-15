@@ -1,0 +1,20 @@
+{
+  "problemId": 25045,
+  "title": "비즈마켓",
+  "tier": 9,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 426,
+  "averageTries": 2.2276999950408936,
+  "latestSubmission": {
+    "id": 86429724,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8296,
+    "timeMs": 76,
+    "codeLen": 656,
+    "submittedAt": "1년 전"
+  }
+}

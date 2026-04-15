@@ -1,0 +1,21 @@
+{
+  "problemId": 17173,
+  "title": "배수들의 합",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 2343,
+  "averageTries": 1.2450000047683716,
+  "latestSubmission": {
+    "id": 84892250,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 540,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 25544,
+  "title": "X 만들기 (Hard)",
+  "tier": 17,
+  "tags": [
+    "lis"
+  ],
+  "acceptedUserCount": 43,
+  "averageTries": 1.9301999807357788,
+  "latestSubmission": {
+    "id": 100507360,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 12256,
+    "timeMs": 64,
+    "codeLen": 2937,
+    "submittedAt": "4달 전"
+  }
+}

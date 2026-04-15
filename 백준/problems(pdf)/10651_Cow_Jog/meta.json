@@ -1,0 +1,20 @@
+{
+  "problemId": 10651,
+  "title": "Cow Jog",
+  "tier": 16,
+  "tags": [
+    "data_structures",
+    "lis"
+  ],
+  "acceptedUserCount": 178,
+  "averageTries": 2.651700019836426,
+  "latestSubmission": {
+    "id": 84884073,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3584,
+    "timeMs": 32,
+    "codeLen": 693,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 10866,
+  "title": "덱",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "deque"
+  ],
+  "acceptedUserCount": 48376,
+  "averageTries": 1.7706999778747559,
+  "latestSubmission": {
+    "id": 84884811,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8928,
+    "timeMs": 0,
+    "codeLen": 1802,
+    "submittedAt": "1년 전"
+  }
+}

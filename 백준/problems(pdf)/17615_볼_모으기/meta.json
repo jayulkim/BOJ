@@ -1,0 +1,19 @@
+{
+  "problemId": 17615,
+  "title": "볼 모으기",
+  "tier": 10,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 4367,
+  "averageTries": 2.3087000846862793,
+  "latestSubmission": {
+    "id": 84892503,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2912,
+    "timeMs": 12,
+    "codeLen": 1009,
+    "submittedAt": "1년 전"
+  }
+}

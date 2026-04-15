@@ -1,0 +1,19 @@
+{
+  "problemId": 23831,
+  "title": "나 퇴사임?",
+  "tier": 13,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 151,
+  "averageTries": 2.9934000968933105,
+  "latestSubmission": {
+    "id": 95896801,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 17336,
+    "timeMs": 20,
+    "codeLen": 1303,
+    "submittedAt": "9달 전"
+  }
+}

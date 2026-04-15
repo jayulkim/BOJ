@@ -1,0 +1,21 @@
+{
+  "problemId": 25342,
+  "title": "최대 최소공배수",
+  "tier": 13,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 325,
+  "averageTries": 3.4245998859405518,
+  "latestSubmission": {
+    "id": 94640309,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 965,
+    "submittedAt": "10달 전"
+  }
+}

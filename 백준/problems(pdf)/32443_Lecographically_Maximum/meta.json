@@ -1,0 +1,20 @@
+{
+  "problemId": 32443,
+  "title": "Lecographically Maximum",
+  "tier": 7,
+  "tags": [
+    "greedy",
+    "bitmask"
+  ],
+  "acceptedUserCount": 74,
+  "averageTries": 1.3918999433517456,
+  "latestSubmission": {
+    "id": 84895165,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 36,
+    "codeLen": 568,
+    "submittedAt": "1년 전"
+  }
+}

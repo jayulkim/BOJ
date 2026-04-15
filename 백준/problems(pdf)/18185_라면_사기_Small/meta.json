@@ -1,0 +1,19 @@
+{
+  "problemId": 18185,
+  "title": "라면 사기 (Small)",
+  "tier": 21,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 3295,
+  "averageTries": 3.117799997329712,
+  "latestSubmission": {
+    "id": 100431245,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2352,
+    "timeMs": 0,
+    "codeLen": 1473,
+    "submittedAt": "4달 전"
+  }
+}

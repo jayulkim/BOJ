@@ -1,0 +1,22 @@
+{
+  "problemId": 16225,
+  "title": "제271회 웰노운컵",
+  "tier": 21,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 500,
+  "averageTries": 2.614000082015991,
+  "latestSubmission": {
+    "id": 86976264,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8296,
+    "timeMs": 72,
+    "codeLen": 702,
+    "submittedAt": "1년 전"
+  }
+}

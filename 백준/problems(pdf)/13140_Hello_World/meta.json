@@ -1,0 +1,20 @@
+{
+  "problemId": 13140,
+  "title": "Hello World!",
+  "tier": 11,
+  "tags": [
+    "math",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 806,
+  "averageTries": 2.836199998855591,
+  "latestSubmission": {
+    "id": 87753777,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 20,
+    "codeLen": 876,
+    "submittedAt": "1년 전"
+  }
+}

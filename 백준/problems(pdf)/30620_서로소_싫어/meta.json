@@ -1,0 +1,21 @@
+{
+  "problemId": 30620,
+  "title": "서로소 싫어",
+  "tier": 9,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "number_theory"
+  ],
+  "acceptedUserCount": 320,
+  "averageTries": 1.871899962425232,
+  "latestSubmission": {
+    "id": 86148227,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 502,
+    "submittedAt": "1년 전"
+  }
+}

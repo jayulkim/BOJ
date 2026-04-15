@@ -1,0 +1,22 @@
+{
+  "problemId": 4196,
+  "title": "도미노",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "dag",
+    "topological_sorting",
+    "scc"
+  ],
+  "acceptedUserCount": 2786,
+  "averageTries": 3.2346999645233154,
+  "latestSubmission": {
+    "id": 92263234,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 23648,
+    "timeMs": 308,
+    "codeLen": 2122,
+    "submittedAt": "1년 전"
+  }
+}

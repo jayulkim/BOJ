@@ -1,0 +1,19 @@
+{
+  "problemId": 2372,
+  "title": "Livestock Count",
+  "tier": 0,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 2617,
+  "averageTries": 1.5509999990463257,
+  "latestSubmission": {
+    "id": 84878795,
+    "result": "맞았습니다!!",
+    "language": "Ada",
+    "memoryKb": 6564,
+    "timeMs": 0,
+    "codeLen": 337,
+    "submittedAt": "1년 전"
+  }
+}

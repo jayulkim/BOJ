@@ -1,0 +1,21 @@
+{
+  "problemId": 1850,
+  "title": "최대공약수",
+  "tier": 10,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 9397,
+  "averageTries": 2.6949000358581543,
+  "latestSubmission": {
+    "id": 85123060,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 472,
+    "codeLen": 417,
+    "submittedAt": "1년 전"
+  }
+}

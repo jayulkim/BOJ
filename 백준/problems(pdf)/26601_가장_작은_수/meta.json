@@ -1,0 +1,25 @@
+{
+  "problemId": 26601,
+  "title": "가장 작은 수",
+  "tier": 15,
+  "tags": [
+    "math",
+    "data_structures",
+    "greedy",
+    "number_theory",
+    "priority_queue",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 174,
+  "averageTries": 2.4598000049591064,
+  "latestSubmission": {
+    "id": 84894075,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 25872,
+    "timeMs": 24,
+    "codeLen": 1593,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 7785,
+  "title": "회사에 있는 사람",
+  "tier": 6,
+  "tags": [
+    "data_structures",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 29572,
+  "averageTries": 2.375200033187866,
+  "latestSubmission": {
+    "id": 84882589,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 44092,
+    "timeMs": 76,
+    "codeLen": 2554,
+    "submittedAt": "1년 전"
+  }
+}

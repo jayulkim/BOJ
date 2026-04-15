@@ -1,0 +1,23 @@
+{
+  "problemId": 31502,
+  "title": "만화에서 나오는 거 따라하고 그러면 안 된다",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 60,
+  "averageTries": 4.816699981689453,
+  "latestSubmission": {
+    "id": 93224658,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 50652,
+    "timeMs": 332,
+    "codeLen": 3010,
+    "submittedAt": "11달 전"
+  }
+}

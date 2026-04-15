@@ -1,0 +1,21 @@
+{
+  "problemId": 3495,
+  "title": "아스키 도형",
+  "tier": 10,
+  "tags": [
+    "implementation",
+    "geometry",
+    "parity"
+  ],
+  "acceptedUserCount": 690,
+  "averageTries": 1.7652000188827515,
+  "latestSubmission": {
+    "id": 86207185,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 0,
+    "codeLen": 563,
+    "submittedAt": "1년 전"
+  }
+}

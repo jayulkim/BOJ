@@ -1,0 +1,19 @@
+{
+  "problemId": 16396,
+  "title": "선 그리기",
+  "tier": 5,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 1432,
+  "averageTries": 1.9979000091552734,
+  "latestSubmission": {
+    "id": 84891926,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 16740,
+    "timeMs": 4,
+    "codeLen": 1335,
+    "submittedAt": "1년 전"
+  }
+}

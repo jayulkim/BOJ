@@ -1,0 +1,20 @@
+{
+  "problemId": 18511,
+  "title": "큰 수 구성하기",
+  "tier": 6,
+  "tags": [
+    "bruteforcing",
+    "recursion"
+  ],
+  "acceptedUserCount": 2658,
+  "averageTries": 3.0982000827789307,
+  "latestSubmission": {
+    "id": 84892745,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 672,
+    "submittedAt": "1년 전"
+  }
+}

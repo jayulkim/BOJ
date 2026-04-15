@@ -1,0 +1,21 @@
+{
+  "problemId": 1212,
+  "title": "8진수 2진수",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 16749,
+  "averageTries": 2.7172000408172607,
+  "latestSubmission": {
+    "id": 92297022,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 11860,
+    "timeMs": 76,
+    "codeLen": 1072,
+    "submittedAt": "1년 전"
+  }
+}

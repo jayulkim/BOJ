@@ -1,0 +1,19 @@
+{
+  "problemId": 9316,
+  "title": "Hello Judge",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 12588,
+  "averageTries": 1.5430999994277954,
+  "latestSubmission": {
+    "id": 97493417,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 438,
+    "submittedAt": "8달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 12837,
+  "title": "가계부 (Hard)",
+  "tier": 15,
+  "tags": [
+    "segtree",
+    "data_structures"
+  ],
+  "acceptedUserCount": 2703,
+  "averageTries": 2.2172000408172607,
+  "latestSubmission": {
+    "id": 87327454,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 33272,
+    "timeMs": 84,
+    "codeLen": 1100,
+    "submittedAt": "1년 전"
+  }
+}

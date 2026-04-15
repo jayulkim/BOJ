@@ -1,0 +1,22 @@
+{
+  "problemId": 32645,
+  "title": "동까뚱뽭 게임",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "trees",
+    "dp_tree",
+    "game_theory"
+  ],
+  "acceptedUserCount": 121,
+  "averageTries": 1.933899998664856,
+  "latestSubmission": {
+    "id": 86621278,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 15220,
+    "timeMs": 52,
+    "codeLen": 871,
+    "submittedAt": "1년 전"
+  }
+}

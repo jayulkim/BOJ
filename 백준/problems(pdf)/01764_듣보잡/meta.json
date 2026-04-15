@@ -1,0 +1,23 @@
+{
+  "problemId": 1764,
+  "title": "듣보잡",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "string",
+    "sorting",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 55485,
+  "averageTries": 2.335700035095215,
+  "latestSubmission": {
+    "id": 84868693,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 46528,
+    "timeMs": 28,
+    "codeLen": 2474,
+    "submittedAt": "1년 전"
+  }
+}

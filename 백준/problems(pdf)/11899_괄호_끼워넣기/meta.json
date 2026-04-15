@@ -1,0 +1,21 @@
+{
+  "problemId": 11899,
+  "title": "괄호 끼워넣기",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "string",
+    "stack"
+  ],
+  "acceptedUserCount": 3013,
+  "averageTries": 1.2950999736785889,
+  "latestSubmission": {
+    "id": 84887482,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 732,
+    "submittedAt": "1년 전"
+  }
+}

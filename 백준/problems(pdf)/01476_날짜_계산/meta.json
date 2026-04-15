@@ -1,0 +1,21 @@
+{
+  "problemId": 1476,
+  "title": "날짜 계산",
+  "tier": 6,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory"
+  ],
+  "acceptedUserCount": 25655,
+  "averageTries": 1.493299961090088,
+  "latestSubmission": {
+    "id": 84867631,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 513,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 32200,
+  "title": "항해",
+  "tier": 6,
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "acceptedUserCount": 345,
+  "averageTries": 2.1391000747680664,
+  "latestSubmission": {
+    "id": 84895034,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 4,
+    "codeLen": 464,
+    "submittedAt": "1년 전"
+  }
+}

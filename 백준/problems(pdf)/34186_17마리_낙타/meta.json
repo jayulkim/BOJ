@@ -1,0 +1,21 @@
+{
+  "problemId": 34186,
+  "title": "17마리 낙타",
+  "tier": 9,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 128,
+  "averageTries": 3.0155999660491943,
+  "latestSubmission": {
+    "id": 98044338,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 1107,
+    "submittedAt": "7달 전"
+  }
+}

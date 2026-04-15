@@ -1,0 +1,24 @@
+{
+  "problemId": 21278,
+  "title": "호석이 두 마리 치킨",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "bruteforcing",
+    "graph_traversal",
+    "bfs",
+    "shortest_path",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 1748,
+  "averageTries": 1.9743000268936157,
+  "latestSubmission": {
+    "id": 87753620,
+    "result": "맞았습니다!! (19/19)",
+    "language": "C++17",
+    "memoryKb": 2100,
+    "timeMs": 4,
+    "codeLen": 1047,
+    "submittedAt": "1년 전"
+  }
+}

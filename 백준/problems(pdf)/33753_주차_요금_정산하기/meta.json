@@ -1,0 +1,20 @@
+{
+  "problemId": 33753,
+  "title": "주차 요금 정산하기",
+  "tier": 3,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 620,
+  "averageTries": 1.5305999517440796,
+  "latestSubmission": {
+    "id": 92803149,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 470,
+    "submittedAt": "1년 전"
+  }
+}

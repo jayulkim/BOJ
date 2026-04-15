@@ -1,0 +1,21 @@
+{
+  "problemId": 9506,
+  "title": "약수들의 합",
+  "tier": 5,
+  "tags": [
+    "math",
+    "implementation",
+    "number_theory"
+  ],
+  "acceptedUserCount": 34481,
+  "averageTries": 1.9699000120162964,
+  "latestSubmission": {
+    "id": 84883350,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1384,
+    "timeMs": 0,
+    "codeLen": 897,
+    "submittedAt": "1년 전"
+  }
+}

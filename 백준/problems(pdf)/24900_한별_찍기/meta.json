@@ -1,0 +1,19 @@
+{
+  "problemId": 24900,
+  "title": "한별 찍기",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 9293,
+  "averageTries": 1.5979000329971313,
+  "latestSubmission": {
+    "id": 84893605,
+    "result": "맞았습니다!!",
+    "language": "Text",
+    "memoryKb": 4528,
+    "timeMs": 0,
+    "codeLen": 7743,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 33524,
+  "title": "blobnom.xyz",
+  "tier": 8,
+  "tags": [
+    "math",
+    "sorting",
+    "binary_search"
+  ],
+  "acceptedUserCount": 185,
+  "averageTries": 1.9458999633789062,
+  "latestSubmission": {
+    "id": 98356027,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 14512,
+    "timeMs": 148,
+    "codeLen": 1029,
+    "submittedAt": "7달 전"
+  }
+}

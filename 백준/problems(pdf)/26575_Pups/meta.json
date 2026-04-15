@@ -1,0 +1,20 @@
+{
+  "problemId": 26575,
+  "title": "Pups",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 2469,
+  "averageTries": 2.003200054168701,
+  "latestSubmission": {
+    "id": 84894066,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 576,
+    "submittedAt": "1년 전"
+  }
+}

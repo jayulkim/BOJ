@@ -1,0 +1,20 @@
+{
+  "problemId": 1673,
+  "title": "치킨 쿠폰",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 3585,
+  "averageTries": 3.1893999576568604,
+  "latestSubmission": {
+    "id": 84868306,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 489,
+    "submittedAt": "1년 전"
+  }
+}

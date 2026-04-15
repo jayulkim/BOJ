@@ -1,0 +1,20 @@
+{
+  "problemId": 15926,
+  "title": "현욱은 괄호왕이야!!",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 1250,
+  "averageTries": 3.085599899291992,
+  "latestSubmission": {
+    "id": 84891474,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 4048,
+    "timeMs": 8,
+    "codeLen": 1585,
+    "submittedAt": "1년 전"
+  }
+}

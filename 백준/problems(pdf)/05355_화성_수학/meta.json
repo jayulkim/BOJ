@@ -1,0 +1,21 @@
+{
+  "problemId": 5355,
+  "title": "화성 수학",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 10914,
+  "averageTries": 1.7575000524520874,
+  "latestSubmission": {
+    "id": 84881644,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 530,
+    "submittedAt": "1년 전"
+  }
+}

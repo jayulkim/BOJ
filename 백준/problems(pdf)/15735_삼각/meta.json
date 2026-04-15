@@ -1,0 +1,19 @@
+{
+  "problemId": 15735,
+  "title": "삼각",
+  "tier": 8,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 347,
+  "averageTries": 1.8875999450683594,
+  "latestSubmission": {
+    "id": 93957444,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 380,
+    "submittedAt": "11달 전"
+  }
+}

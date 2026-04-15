@@ -1,0 +1,21 @@
+{
+  "problemId": 24309,
+  "title": "РАВЕНСТВО",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 3727,
+  "averageTries": 1.9772000312805176,
+  "latestSubmission": {
+    "id": 84893507,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 108080,
+    "timeMs": 84,
+    "codeLen": 71,
+    "submittedAt": "1년 전"
+  }
+}

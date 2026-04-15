@@ -1,0 +1,21 @@
+{
+  "problemId": 3003,
+  "title": "킹, 퀸, 룩, 비숍, 나이트, 폰",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "arithmetic",
+    "math"
+  ],
+  "acceptedUserCount": 85639,
+  "averageTries": 1.652899980545044,
+  "latestSubmission": {
+    "id": 84880687,
+    "result": "맞았습니다!!",
+    "language": "Java 11",
+    "memoryKb": 14204,
+    "timeMs": 104,
+    "codeLen": 654,
+    "submittedAt": "1년 전"
+  }
+}

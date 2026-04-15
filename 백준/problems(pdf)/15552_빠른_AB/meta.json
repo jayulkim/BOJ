@@ -1,0 +1,21 @@
+{
+  "problemId": 15552,
+  "title": "빠른 A+B",
+  "tier": 2,
+  "tags": [
+    "implementation",
+    "arithmetic",
+    "math"
+  ],
+  "acceptedUserCount": 151111,
+  "averageTries": 2.189300060272217,
+  "latestSubmission": {
+    "id": 84890596,
+    "result": "맞았습니다!!",
+    "language": "Java 15",
+    "memoryKb": 279172,
+    "timeMs": 840,
+    "codeLen": 689,
+    "submittedAt": "1년 전"
+  }
+}

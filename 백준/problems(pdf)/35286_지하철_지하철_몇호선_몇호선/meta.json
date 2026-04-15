@@ -1,0 +1,21 @@
+{
+  "problemId": 35286,
+  "title": "지하철! 지하철! 몇호선? 몇호선?",
+  "tier": 12,
+  "tags": [
+    "ad_hoc",
+    "game_theory",
+    "parity"
+  ],
+  "acceptedUserCount": 144,
+  "averageTries": 1.1735999584197998,
+  "latestSubmission": {
+    "id": 103921514,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 436,
+    "submittedAt": "30일 전"
+  }
+}

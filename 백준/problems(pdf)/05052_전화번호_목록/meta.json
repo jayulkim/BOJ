@@ -1,0 +1,24 @@
+{
+  "problemId": 5052,
+  "title": "전화번호 목록",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "string",
+    "sorting",
+    "trees",
+    "set",
+    "trie"
+  ],
+  "acceptedUserCount": 12248,
+  "averageTries": 3.0464000701904297,
+  "latestSubmission": {
+    "id": 89174730,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6388,
+    "timeMs": 388,
+    "codeLen": 885,
+    "submittedAt": "1년 전"
+  }
+}

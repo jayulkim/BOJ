@@ -1,0 +1,21 @@
+{
+  "problemId": 21940,
+  "title": "가운데에서 만나기",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 1337,
+  "averageTries": 1.9873000383377075,
+  "latestSubmission": {
+    "id": 99307958,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2484,
+    "timeMs": 16,
+    "codeLen": 1510,
+    "submittedAt": "6달 전"
+  }
+}

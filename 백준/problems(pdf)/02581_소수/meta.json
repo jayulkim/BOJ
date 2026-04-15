@@ -1,0 +1,21 @@
+{
+  "problemId": 2581,
+  "title": "소수",
+  "tier": 4,
+  "tags": [
+    "primality_test",
+    "number_theory",
+    "math"
+  ],
+  "acceptedUserCount": 63836,
+  "averageTries": 2.481300115585327,
+  "latestSubmission": {
+    "id": 84879498,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 64,
+    "codeLen": 1059,
+    "submittedAt": "1년 전"
+  }
+}

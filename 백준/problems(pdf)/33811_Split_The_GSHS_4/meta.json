@@ -1,0 +1,21 @@
+{
+  "problemId": 33811,
+  "title": "Split The GSHS 4",
+  "tier": 10,
+  "tags": [
+    "dp",
+    "string",
+    "maximum_subarray"
+  ],
+  "acceptedUserCount": 63,
+  "averageTries": 1.9840999841690063,
+  "latestSubmission": {
+    "id": 93939807,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 10472,
+    "timeMs": 8,
+    "codeLen": 883,
+    "submittedAt": "11달 전"
+  }
+}

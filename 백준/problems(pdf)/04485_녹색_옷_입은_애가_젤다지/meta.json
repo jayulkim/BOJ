@@ -1,0 +1,23 @@
+{
+  "problemId": 4485,
+  "title": "녹색 옷 입은 애가 젤다지?",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "shortest_path",
+    "dijkstra",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 15153,
+  "averageTries": 1.8940000534057617,
+  "latestSubmission": {
+    "id": 84881320,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2268,
+    "timeMs": 8,
+    "codeLen": 1294,
+    "submittedAt": "1년 전"
+  }
+}

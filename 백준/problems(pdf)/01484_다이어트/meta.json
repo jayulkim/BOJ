@@ -1,0 +1,20 @@
+{
+  "problemId": 1484,
+  "title": "다이어트",
+  "tier": 11,
+  "tags": [
+    "math",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 3612,
+  "averageTries": 2.641700029373169,
+  "latestSubmission": {
+    "id": 84867664,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1896,
+    "timeMs": 0,
+    "codeLen": 785,
+    "submittedAt": "1년 전"
+  }
+}

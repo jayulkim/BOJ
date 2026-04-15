@@ -1,0 +1,20 @@
+{
+  "problemId": 5522,
+  "title": "카드 게임",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 21937,
+  "averageTries": 1.2103999853134155,
+  "latestSubmission": {
+    "id": 84881679,
+    "result": "100점",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 261,
+    "submittedAt": "1년 전"
+  }
+}

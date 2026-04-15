@@ -1,0 +1,21 @@
+{
+  "problemId": 11050,
+  "title": "이항 계수 1",
+  "tier": 5,
+  "tags": [
+    "math",
+    "implementation",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 53409,
+  "averageTries": 1.544100046157837,
+  "latestSubmission": {
+    "id": 84885692,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 397,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,56 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<string, char, ll> scl;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef tuple<char, ll, ll> cll;
+typedef pair<ll, ll> pll;
+typedef pair<string, ll> psl;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<char, ll> pcl;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    ll num = 0;
+    cin >> num;
+    while (num--) {
+        cin >> n;
+        vector<ll>s;
+        bool find = false;
+        for (int i = 0; i < n; i++) {
+            cin >> m;
+            if (m != 1) {
+                while (!s.empty() && s.back() != m - 1) {
+                    s.pop_back();
+                }
+                if (s.empty()) {
+                    find = true;
+                }
+                else {
+                    s.back()++;
+                }
+            }
+            else {
+                s.push_back(1);
+            }
+        }
+        if (!find) {
+            cout << "YES\n";
+        }
+        else {
+            cout << "NO\n";
+        }
+    }
+    return 0;
+}

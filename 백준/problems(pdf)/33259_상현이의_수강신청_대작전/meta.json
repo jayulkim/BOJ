@@ -1,0 +1,21 @@
+{
+  "problemId": 33259,
+  "title": "상현이의 수강신청 대작전",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "knapsack",
+    "traceback"
+  ],
+  "acceptedUserCount": 36,
+  "averageTries": 2.8889000415802,
+  "latestSubmission": {
+    "id": 89121972,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 197684,
+    "timeMs": 140,
+    "codeLen": 1119,
+    "submittedAt": "1년 전"
+  }
+}

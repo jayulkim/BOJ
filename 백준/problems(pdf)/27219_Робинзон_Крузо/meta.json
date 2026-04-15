@@ -1,0 +1,21 @@
+{
+  "problemId": 27219,
+  "title": "Робинзон Крузо",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 2741,
+  "averageTries": 1.2101000547409058,
+  "latestSubmission": {
+    "id": 84894135,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 509,
+    "submittedAt": "1년 전"
+  }
+}

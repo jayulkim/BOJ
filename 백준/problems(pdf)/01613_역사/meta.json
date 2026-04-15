@@ -1,0 +1,21 @@
+{
+  "problemId": 1613,
+  "title": "역사",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 4956,
+  "averageTries": 2.819200038909912,
+  "latestSubmission": {
+    "id": 84868088,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3276,
+    "timeMs": 72,
+    "codeLen": 900,
+    "submittedAt": "1년 전"
+  }
+}

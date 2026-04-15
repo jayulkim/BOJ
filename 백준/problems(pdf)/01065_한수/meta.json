@@ -1,0 +1,20 @@
+{
+  "problemId": 1065,
+  "title": "한수",
+  "tier": 7,
+  "tags": [
+    "math",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 73698,
+  "averageTries": 1.80239999294281,
+  "latestSubmission": {
+    "id": 84865295,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 563,
+    "submittedAt": "1년 전"
+  }
+}

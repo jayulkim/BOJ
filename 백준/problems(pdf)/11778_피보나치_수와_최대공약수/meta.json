@@ -1,0 +1,22 @@
+{
+  "problemId": 11778,
+  "title": "피보나치 수와 최대공약수",
+  "tier": 16,
+  "tags": [
+    "math",
+    "number_theory",
+    "exponentiation_by_squaring",
+    "euclidean"
+  ],
+  "acceptedUserCount": 1396,
+  "averageTries": 2.401900053024292,
+  "latestSubmission": {
+    "id": 84887300,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2152,
+    "timeMs": 0,
+    "codeLen": 2481,
+    "submittedAt": "1년 전"
+  }
+}

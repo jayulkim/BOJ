@@ -1,0 +1,20 @@
+{
+  "problemId": 24736,
+  "title": "Football Scoring",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 4799,
+  "averageTries": 1.2148000001907349,
+  "latestSubmission": {
+    "id": 84893587,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 108080,
+    "timeMs": 88,
+    "codeLen": 152,
+    "submittedAt": "1년 전"
+  }
+}

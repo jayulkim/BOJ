@@ -1,0 +1,20 @@
+{
+  "problemId": 21316,
+  "title": "스피카",
+  "tier": 8,
+  "tags": [
+    "graphs",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 657,
+  "averageTries": 1.360700011253357,
+  "latestSubmission": {
+    "id": 91825951,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 771,
+    "submittedAt": "1년 전"
+  }
+}

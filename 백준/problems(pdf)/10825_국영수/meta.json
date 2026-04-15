@@ -1,0 +1,19 @@
+{
+  "problemId": 10825,
+  "title": "국영수",
+  "tier": 7,
+  "tags": [
+    "sorting"
+  ],
+  "acceptedUserCount": 18661,
+  "averageTries": 1.7977999448776245,
+  "latestSubmission": {
+    "id": 84884590,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 18696,
+    "timeMs": 84,
+    "codeLen": 1118,
+    "submittedAt": "1년 전"
+  }
+}

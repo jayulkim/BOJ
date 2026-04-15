@@ -1,0 +1,20 @@
+{
+  "problemId": 7734,
+  "title": "Vista 0",
+  "tier": 8,
+  "tags": [
+    "bruteforcing",
+    "tsp"
+  ],
+  "acceptedUserCount": 55,
+  "averageTries": 2.90910005569458,
+  "latestSubmission": {
+    "id": 88429811,
+    "result": "3164934.72점",
+    "language": "Text",
+    "memoryKb": 4528,
+    "timeMs": 0,
+    "codeLen": 22,
+    "submittedAt": "1년 전"
+  }
+}

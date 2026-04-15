@@ -1,0 +1,21 @@
+{
+  "problemId": 23832,
+  "title": "서로소 그래프",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "euler_phi"
+  ],
+  "acceptedUserCount": 639,
+  "averageTries": 1.395900011062622,
+  "latestSubmission": {
+    "id": 84893417,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 46432,
+    "timeMs": 40,
+    "codeLen": 1408,
+    "submittedAt": "1년 전"
+  }
+}

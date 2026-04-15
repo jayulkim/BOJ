@@ -1,0 +1,23 @@
+{
+  "problemId": 28427,
+  "title": "Tricknology",
+  "tier": 13,
+  "tags": [
+    "math",
+    "number_theory",
+    "prefix_sum",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 146,
+  "averageTries": 1.9795000553131104,
+  "latestSubmission": {
+    "id": 84894395,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 11788,
+    "timeMs": 148,
+    "codeLen": 1115,
+    "submittedAt": "1년 전"
+  }
+}

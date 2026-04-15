@@ -1,0 +1,22 @@
+{
+  "problemId": 32755,
+  "title": "차원의 나무 여행",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "ad_hoc",
+    "trees",
+    "tree_diameter"
+  ],
+  "acceptedUserCount": 119,
+  "averageTries": 1.579800009727478,
+  "latestSubmission": {
+    "id": 87167435,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2164,
+    "timeMs": 0,
+    "codeLen": 640,
+    "submittedAt": "1년 전"
+  }
+}

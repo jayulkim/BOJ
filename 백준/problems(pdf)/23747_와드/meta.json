@@ -1,0 +1,25 @@
+{
+  "problemId": 23747,
+  "title": "와드",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "graphs",
+    "graph_traversal",
+    "simulation",
+    "bfs",
+    "grid_graph",
+    "flood_fill"
+  ],
+  "acceptedUserCount": 547,
+  "averageTries": 2.7019999027252197,
+  "latestSubmission": {
+    "id": 100567906,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 7872,
+    "timeMs": 52,
+    "codeLen": 2158,
+    "submittedAt": "4달 전"
+  }
+}

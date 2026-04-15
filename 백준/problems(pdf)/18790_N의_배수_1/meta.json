@@ -1,0 +1,20 @@
+{
+  "problemId": 18790,
+  "title": "N의 배수 (1)",
+  "tier": 15,
+  "tags": [
+    "dp",
+    "traceback"
+  ],
+  "acceptedUserCount": 238,
+  "averageTries": 3.8529000282287598,
+  "latestSubmission": {
+    "id": 103920669,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 33436,
+    "timeMs": 48,
+    "codeLen": 977,
+    "submittedAt": "30일 전"
+  }
+}

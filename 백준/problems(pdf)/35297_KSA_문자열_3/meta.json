@@ -1,0 +1,20 @@
+{
+  "problemId": 35297,
+  "title": "KSA 문자열 3",
+  "tier": 14,
+  "tags": [
+    "greedy",
+    "string"
+  ],
+  "acceptedUserCount": 108,
+  "averageTries": 1.8703999519348145,
+  "latestSubmission": {
+    "id": 103889390,
+    "result": "100점",
+    "language": "C++23",
+    "memoryKb": 2972,
+    "timeMs": 4,
+    "codeLen": 638,
+    "submittedAt": "1달 전"
+  }
+}

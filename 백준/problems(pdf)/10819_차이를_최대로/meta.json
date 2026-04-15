@@ -1,0 +1,20 @@
+{
+  "problemId": 10819,
+  "title": "차이를 최대로",
+  "tier": 9,
+  "tags": [
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 19128,
+  "averageTries": 1.503499984741211,
+  "latestSubmission": {
+    "id": 84884550,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 679,
+    "submittedAt": "1년 전"
+  }
+}

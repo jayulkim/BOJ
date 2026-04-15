@@ -1,0 +1,21 @@
+{
+  "problemId": 14221,
+  "title": "편의점",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 340,
+  "averageTries": 4.338200092315674,
+  "latestSubmission": {
+    "id": 100863070,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 8148,
+    "timeMs": 32,
+    "codeLen": 1695,
+    "submittedAt": "4달 전"
+  }
+}

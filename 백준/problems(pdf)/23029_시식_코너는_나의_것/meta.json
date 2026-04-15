@@ -1,0 +1,19 @@
+{
+  "problemId": 23029,
+  "title": "시식 코너는 나의 것",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 352,
+  "averageTries": 2.3722000122070312,
+  "latestSubmission": {
+    "id": 91823364,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 13200,
+    "timeMs": 20,
+    "codeLen": 908,
+    "submittedAt": "1년 전"
+  }
+}

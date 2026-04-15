@@ -1,0 +1,20 @@
+{
+  "problemId": 11440,
+  "title": "피보나치 수의 제곱의 합",
+  "tier": 16,
+  "tags": [
+    "math",
+    "exponentiation_by_squaring"
+  ],
+  "acceptedUserCount": 1284,
+  "averageTries": 1.648800015449524,
+  "latestSubmission": {
+    "id": 84886197,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2152,
+    "timeMs": 0,
+    "codeLen": 2622,
+    "submittedAt": "1년 전"
+  }
+}

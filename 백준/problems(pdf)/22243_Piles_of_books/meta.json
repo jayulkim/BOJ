@@ -1,0 +1,19 @@
+{
+  "problemId": 22243,
+  "title": "Piles of books",
+  "tier": 6,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 44,
+  "averageTries": 1.40910005569458,
+  "latestSubmission": {
+    "id": 86956134,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2044,
+    "timeMs": 0,
+    "codeLen": 1399,
+    "submittedAt": "1년 전"
+  }
+}

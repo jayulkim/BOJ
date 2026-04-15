@@ -1,0 +1,22 @@
+{
+  "problemId": 23843,
+  "title": "콘센트",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 1351,
+  "averageTries": 1.9016000032424927,
+  "latestSubmission": {
+    "id": 84893424,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2176,
+    "timeMs": 0,
+    "codeLen": 588,
+    "submittedAt": "1년 전"
+  }
+}

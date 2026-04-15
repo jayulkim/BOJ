@@ -1,0 +1,20 @@
+{
+  "problemId": 4344,
+  "title": "평균은 넘겠지",
+  "tier": 5,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 85089,
+  "averageTries": 2.4465999603271484,
+  "latestSubmission": {
+    "id": 84881161,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 704,
+    "submittedAt": "1년 전"
+  }
+}

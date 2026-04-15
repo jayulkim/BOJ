@@ -1,0 +1,26 @@
+{
+  "problemId": 27934,
+  "title": "마계안암",
+  "tier": 19,
+  "tags": [
+    "dag",
+    "dijkstra",
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "scc",
+    "shortest_path",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 43,
+  "averageTries": 6.162799835205078,
+  "latestSubmission": {
+    "id": 93025826,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 56536,
+    "timeMs": 404,
+    "codeLen": 4353,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 28252,
+  "title": "리프 수열",
+  "tier": 14,
+  "tags": [
+    "trees",
+    "constructive"
+  ],
+  "acceptedUserCount": 95,
+  "averageTries": 2.6210999488830566,
+  "latestSubmission": {
+    "id": 102482909,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 4020,
+    "timeMs": 16,
+    "codeLen": 1612,
+    "submittedAt": "2달 전"
+  }
+}

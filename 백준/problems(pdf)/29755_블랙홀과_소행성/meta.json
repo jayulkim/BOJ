@@ -1,0 +1,20 @@
+{
+  "problemId": 29755,
+  "title": "블랙홀과 소행성",
+  "tier": 10,
+  "tags": [
+    "sorting",
+    "binary_search"
+  ],
+  "acceptedUserCount": 237,
+  "averageTries": 2.780600070953369,
+  "latestSubmission": {
+    "id": 86145939,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10348,
+    "timeMs": 116,
+    "codeLen": 941,
+    "submittedAt": "1년 전"
+  }
+}

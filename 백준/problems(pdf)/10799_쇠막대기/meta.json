@@ -1,0 +1,20 @@
+{
+  "problemId": 10799,
+  "title": "쇠막대기",
+  "tier": 9,
+  "tags": [
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 32562,
+  "averageTries": 1.516700029373169,
+  "latestSubmission": {
+    "id": 84884250,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2300,
+    "timeMs": 0,
+    "codeLen": 400,
+    "submittedAt": "1년 전"
+  }
+}

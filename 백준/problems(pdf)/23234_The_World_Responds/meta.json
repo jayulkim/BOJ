@@ -1,0 +1,19 @@
+{
+  "problemId": 23234,
+  "title": "The World Responds",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 7725,
+  "averageTries": 1.0702999830245972,
+  "latestSubmission": {
+    "id": 84893257,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 376,
+    "submittedAt": "1년 전"
+  }
+}

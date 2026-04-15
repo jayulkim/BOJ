@@ -1,0 +1,21 @@
+{
+  "problemId": 15377,
+  "title": "Bounce Bounce Bounce",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "euler_phi"
+  ],
+  "acceptedUserCount": 104,
+  "averageTries": 2.1345999240875244,
+  "latestSubmission": {
+    "id": 84890564,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1124,
+    "timeMs": 764,
+    "codeLen": 3285,
+    "submittedAt": "1년 전"
+  }
+}

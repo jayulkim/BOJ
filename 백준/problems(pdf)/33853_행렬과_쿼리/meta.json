@@ -1,0 +1,20 @@
+{
+  "problemId": 33853,
+  "title": "행렬과 쿼리",
+  "tier": 18,
+  "tags": [
+    "data_structures",
+    "segtree"
+  ],
+  "acceptedUserCount": 29,
+  "averageTries": 3.1033999919891357,
+  "latestSubmission": {
+    "id": 100748455,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 70904,
+    "timeMs": 476,
+    "codeLen": 5027,
+    "submittedAt": "4달 전"
+  }
+}

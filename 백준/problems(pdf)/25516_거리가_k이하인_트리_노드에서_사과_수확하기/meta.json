@@ -1,0 +1,23 @@
+{
+  "problemId": 25516,
+  "title": "거리가 k이하인 트리 노드에서 사과 수확하기",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "bfs",
+    "dfs"
+  ],
+  "acceptedUserCount": 634,
+  "averageTries": 1.8043999671936035,
+  "latestSubmission": {
+    "id": 84893721,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 13444,
+    "timeMs": 52,
+    "codeLen": 1005,
+    "submittedAt": "1년 전"
+  }
+}

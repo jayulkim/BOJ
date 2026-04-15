@@ -1,0 +1,22 @@
+{
+  "problemId": 9656,
+  "title": "돌 게임 2",
+  "tier": 6,
+  "tags": [
+    "math",
+    "dp",
+    "game_theory",
+    "parity"
+  ],
+  "acceptedUserCount": 10478,
+  "averageTries": 1.3307000398635864,
+  "latestSubmission": {
+    "id": 84883500,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 154,
+    "submittedAt": "1년 전"
+  }
+}

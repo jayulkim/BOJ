@@ -1,0 +1,21 @@
+{
+  "problemId": 16165,
+  "title": "걸그룹 마스터 준석이",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 3862,
+  "averageTries": 1.4138000011444092,
+  "latestSubmission": {
+    "id": 86881111,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2040,
+    "timeMs": 0,
+    "codeLen": 888,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 1292,
+  "title": "쉽게 푸는 문제",
+  "tier": 5,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 21164,
+  "averageTries": 1.7660000324249268,
+  "latestSubmission": {
+    "id": 84866857,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 442,
+    "submittedAt": "1년 전"
+  }
+}

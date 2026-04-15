@@ -1,0 +1,21 @@
+{
+  "problemId": 27328,
+  "title": "三方比較 (Three-Way Comparison)",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 3070,
+  "averageTries": 1.2188999652862549,
+  "latestSubmission": {
+    "id": 84894174,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 540,
+    "submittedAt": "1년 전"
+  }
+}

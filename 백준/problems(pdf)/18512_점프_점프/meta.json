@@ -1,0 +1,21 @@
+{
+  "problemId": 18512,
+  "title": "점프 점프",
+  "tier": 5,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory"
+  ],
+  "acceptedUserCount": 1270,
+  "averageTries": 2.183500051498413,
+  "latestSubmission": {
+    "id": 96638929,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 622,
+    "submittedAt": "8달 전"
+  }
+}

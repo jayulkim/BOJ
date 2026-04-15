@@ -1,0 +1,23 @@
+{
+  "problemId": 33850,
+  "title": "Chill...은 내가 가장 좋아하는 소수",
+  "tier": 10,
+  "tags": [
+    "math",
+    "dp",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 151,
+  "averageTries": 1.9139000177383423,
+  "latestSubmission": {
+    "id": 94344986,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14552,
+    "timeMs": 56,
+    "codeLen": 1651,
+    "submittedAt": "11달 전"
+  }
+}

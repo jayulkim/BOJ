@@ -1,0 +1,20 @@
+{
+  "problemId": 1699,
+  "title": "제곱수의 합",
+  "tier": 9,
+  "tags": [
+    "math",
+    "dp"
+  ],
+  "acceptedUserCount": 22011,
+  "averageTries": 2.44950008392334,
+  "latestSubmission": {
+    "id": 84868383,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1500,
+    "timeMs": 16,
+    "codeLen": 429,
+    "submittedAt": "1년 전"
+  }
+}

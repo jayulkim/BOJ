@@ -1,0 +1,20 @@
+{
+  "problemId": 34921,
+  "title": "덕후",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 1407,
+  "averageTries": 1.3503999710083008,
+  "latestSubmission": {
+    "id": 101343905,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 629,
+    "submittedAt": "3달 전"
+  }
+}

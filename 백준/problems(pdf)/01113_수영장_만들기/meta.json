@@ -1,0 +1,24 @@
+{
+  "problemId": 1113,
+  "title": "수영장 만들기",
+  "tier": 15,
+  "tags": [
+    "implementation",
+    "graphs",
+    "graph_traversal",
+    "simulation",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 1967,
+  "averageTries": 2.4342000484466553,
+  "latestSubmission": {
+    "id": 103973971,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2220,
+    "timeMs": 0,
+    "codeLen": 1542,
+    "submittedAt": "29일 전"
+  }
+}

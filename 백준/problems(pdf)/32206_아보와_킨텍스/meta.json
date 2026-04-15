@@ -1,0 +1,21 @@
+{
+  "problemId": 32206,
+  "title": "아보와 킨텍스",
+  "tier": 10,
+  "tags": [
+    "math",
+    "string",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 279,
+  "averageTries": 1.5125000476837158,
+  "latestSubmission": {
+    "id": 85948106,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2648,
+    "timeMs": 0,
+    "codeLen": 272,
+    "submittedAt": "1년 전"
+  }
+}

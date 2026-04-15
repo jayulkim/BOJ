@@ -1,0 +1,19 @@
+{
+  "problemId": 1633,
+  "title": "최고의 팀 만들기",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 1022,
+  "averageTries": 2.211400032043457,
+  "latestSubmission": {
+    "id": 98328457,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3016,
+    "timeMs": 0,
+    "codeLen": 1217,
+    "submittedAt": "7달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 31928,
+  "title": "이상한 트리 해싱",
+  "tier": 12,
+  "tags": [
+    "ad_hoc",
+    "constructive"
+  ],
+  "acceptedUserCount": 89,
+  "averageTries": 2.1684999465942383,
+  "latestSubmission": {
+    "id": 84894959,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 840,
+    "submittedAt": "1년 전"
+  }
+}

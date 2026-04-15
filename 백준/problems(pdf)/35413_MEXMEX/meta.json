@@ -1,0 +1,21 @@
+{
+  "problemId": 35413,
+  "title": "MEXMEX",
+  "tier": 11,
+  "tags": [
+    "ad_hoc",
+    "constructive",
+    "case_work"
+  ],
+  "acceptedUserCount": 62,
+  "averageTries": 2.628999948501587,
+  "latestSubmission": {
+    "id": 104437310,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 12,
+    "codeLen": 831,
+    "submittedAt": "18일 전"
+  }
+}

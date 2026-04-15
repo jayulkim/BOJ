@@ -1,0 +1,21 @@
+{
+  "problemId": 1865,
+  "title": "웜홀",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "bellman_ford"
+  ],
+  "acceptedUserCount": 11447,
+  "averageTries": 4.527299880981445,
+  "latestSubmission": {
+    "id": 84869038,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2288,
+    "timeMs": 36,
+    "codeLen": 1153,
+    "submittedAt": "1년 전"
+  }
+}

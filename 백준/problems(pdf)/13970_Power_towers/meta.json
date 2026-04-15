@@ -1,0 +1,23 @@
+{
+  "problemId": 13970,
+  "title": "Power towers",
+  "tier": 21,
+  "tags": [
+    "math",
+    "number_theory",
+    "exponentiation_by_squaring",
+    "prime_factorization",
+    "euler_phi"
+  ],
+  "acceptedUserCount": 126,
+  "averageTries": 7.436500072479248,
+  "latestSubmission": {
+    "id": 90381885,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 41464,
+    "timeMs": 136,
+    "codeLen": 1561,
+    "submittedAt": "1년 전"
+  }
+}

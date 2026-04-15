@@ -1,0 +1,20 @@
+{
+  "problemId": 4569,
+  "title": "Jugglefest",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 34,
+  "averageTries": 1.3529000282287598,
+  "latestSubmission": {
+    "id": 86911673,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 1171,
+    "submittedAt": "1년 전"
+  }
+}

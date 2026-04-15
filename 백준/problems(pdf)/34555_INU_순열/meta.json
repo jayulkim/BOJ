@@ -1,0 +1,19 @@
+{
+  "problemId": 34555,
+  "title": "INU 순열",
+  "tier": 7,
+  "tags": [
+    "constructive"
+  ],
+  "acceptedUserCount": 209,
+  "averageTries": 1.4544999599456787,
+  "latestSubmission": {
+    "id": 99215414,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 5280,
+    "timeMs": 16,
+    "codeLen": 784,
+    "submittedAt": "6달 전"
+  }
+}

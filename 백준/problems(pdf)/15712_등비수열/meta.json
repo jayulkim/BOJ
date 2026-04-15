@@ -1,0 +1,20 @@
+{
+  "problemId": 15712,
+  "title": "등비수열",
+  "tier": 14,
+  "tags": [
+    "math",
+    "exponentiation_by_squaring"
+  ],
+  "acceptedUserCount": 509,
+  "averageTries": 2.9567999839782715,
+  "latestSubmission": {
+    "id": 84891075,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1454,
+    "submittedAt": "1년 전"
+  }
+}

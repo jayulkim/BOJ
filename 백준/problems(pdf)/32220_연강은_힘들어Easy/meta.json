@@ -1,0 +1,21 @@
+{
+  "problemId": 32220,
+  "title": "연강은 힘들어(Easy)",
+  "tier": 13,
+  "tags": [
+    "math",
+    "dp",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 84,
+  "averageTries": 1.976199984550476,
+  "latestSubmission": {
+    "id": 99413847,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2352,
+    "timeMs": 20,
+    "codeLen": 1115,
+    "submittedAt": "6달 전"
+  }
+}

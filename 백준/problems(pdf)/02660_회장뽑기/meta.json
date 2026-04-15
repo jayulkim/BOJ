@@ -1,0 +1,23 @@
+{
+  "problemId": 2660,
+  "title": "회장뽑기",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "shortest_path",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 7313,
+  "averageTries": 1.729200005531311,
+  "latestSubmission": {
+    "id": 84879708,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2040,
+    "timeMs": 0,
+    "codeLen": 1136,
+    "submittedAt": "1년 전"
+  }
+}

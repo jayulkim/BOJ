@@ -1,0 +1,20 @@
+{
+  "problemId": 2164,
+  "title": "카드2",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "queue"
+  ],
+  "acceptedUserCount": 72326,
+  "averageTries": 1.9459999799728394,
+  "latestSubmission": {
+    "id": 84877949,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 7364,
+    "timeMs": 0,
+    "codeLen": 638,
+    "submittedAt": "1년 전"
+  }
+}

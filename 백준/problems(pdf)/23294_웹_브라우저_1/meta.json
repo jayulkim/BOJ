@@ -1,0 +1,22 @@
+{
+  "problemId": 23294,
+  "title": "웹 브라우저 1",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "simulation",
+    "deque"
+  ],
+  "acceptedUserCount": 323,
+  "averageTries": 3.430299997329712,
+  "latestSubmission": {
+    "id": 84893274,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1428,
+    "timeMs": 0,
+    "codeLen": 3412,
+    "submittedAt": "1년 전"
+  }
+}

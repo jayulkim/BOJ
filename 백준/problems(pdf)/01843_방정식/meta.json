@@ -1,0 +1,22 @@
+{
+  "problemId": 1843,
+  "title": "방정식",
+  "tier": 12,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 177,
+  "averageTries": 2.677999973297119,
+  "latestSubmission": {
+    "id": 84868992,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 13028,
+    "timeMs": 12,
+    "codeLen": 1405,
+    "submittedAt": "1년 전"
+  }
+}

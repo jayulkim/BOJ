@@ -1,0 +1,21 @@
+{
+  "problemId": 32160,
+  "title": "숫자 놀이",
+  "tier": 10,
+  "tags": [
+    "greedy",
+    "ad_hoc",
+    "constructive"
+  ],
+  "acceptedUserCount": 190,
+  "averageTries": 2.5053000450134277,
+  "latestSubmission": {
+    "id": 84895007,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9952,
+    "timeMs": 32,
+    "codeLen": 532,
+    "submittedAt": "1년 전"
+  }
+}

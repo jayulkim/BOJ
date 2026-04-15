@@ -1,0 +1,21 @@
+{
+  "problemId": 15967,
+  "title": "에바쿰",
+  "tier": 17,
+  "tags": [
+    "data_structures",
+    "segtree",
+    "lazyprop"
+  ],
+  "acceptedUserCount": 720,
+  "averageTries": 2.7681000232696533,
+  "latestSubmission": {
+    "id": 93077026,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 72340,
+    "timeMs": 148,
+    "codeLen": 2265,
+    "submittedAt": "1년 전"
+  }
+}

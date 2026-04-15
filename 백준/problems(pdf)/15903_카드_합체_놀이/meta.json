@@ -1,0 +1,21 @@
+{
+  "problemId": 15903,
+  "title": "카드 합체 놀이",
+  "tier": 9,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 9394,
+  "averageTries": 2.241300106048584,
+  "latestSubmission": {
+    "id": 84891399,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1441,
+    "submittedAt": "1년 전"
+  }
+}

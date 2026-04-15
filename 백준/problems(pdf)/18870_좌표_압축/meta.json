@@ -1,0 +1,20 @@
+{
+  "problemId": 18870,
+  "title": "좌표 압축",
+  "tier": 9,
+  "tags": [
+    "sorting",
+    "coordinate_compression"
+  ],
+  "acceptedUserCount": 45194,
+  "averageTries": 2.433300018310547,
+  "latestSubmission": {
+    "id": 84892767,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 28456,
+    "timeMs": 536,
+    "codeLen": 1025,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 17087,
+  "title": "숨바꼭질 6",
+  "tier": 9,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 5563,
+  "averageTries": 2.003999948501587,
+  "latestSubmission": {
+    "id": 84892189,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2288,
+    "timeMs": 504,
+    "codeLen": 1273,
+    "submittedAt": "1년 전"
+  }
+}

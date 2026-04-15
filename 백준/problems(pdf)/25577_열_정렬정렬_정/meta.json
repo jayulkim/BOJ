@@ -1,0 +1,21 @@
+{
+  "problemId": 25577,
+  "title": "열 정렬정렬 정",
+  "tier": 12,
+  "tags": [
+    "greedy",
+    "sorting",
+    "permutation_cycle_decomposition"
+  ],
+  "acceptedUserCount": 347,
+  "averageTries": 1.437999963760376,
+  "latestSubmission": {
+    "id": 86739485,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 11236,
+    "timeMs": 36,
+    "codeLen": 1097,
+    "submittedAt": "1년 전"
+  }
+}

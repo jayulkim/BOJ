@@ -1,0 +1,21 @@
+{
+  "problemId": 18310,
+  "title": "안테나",
+  "tier": 8,
+  "tags": [
+    "math",
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 6943,
+  "averageTries": 2.7088000774383545,
+  "latestSubmission": {
+    "id": 84892695,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2676,
+    "timeMs": 52,
+    "codeLen": 581,
+    "submittedAt": "1년 전"
+  }
+}

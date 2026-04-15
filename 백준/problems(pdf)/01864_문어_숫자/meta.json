@@ -1,0 +1,22 @@
+{
+  "problemId": 1864,
+  "title": "문어 숫자",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation",
+    "string",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 2937,
+  "averageTries": 1.350000023841858,
+  "latestSubmission": {
+    "id": 95562033,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 0,
+    "codeLen": 954,
+    "submittedAt": "9달 전"
+  }
+}

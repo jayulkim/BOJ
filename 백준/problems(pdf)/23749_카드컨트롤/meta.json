@@ -1,0 +1,22 @@
+{
+  "problemId": 23749,
+  "title": "카드컨트롤",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "bruteforcing",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 169,
+  "averageTries": 2.2070999145507812,
+  "latestSubmission": {
+    "id": 87859180,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 0,
+    "codeLen": 1085,
+    "submittedAt": "1년 전"
+  }
+}

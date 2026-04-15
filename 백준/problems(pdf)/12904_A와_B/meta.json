@@ -1,0 +1,21 @@
+{
+  "problemId": 12904,
+  "title": "A와 B",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "greedy",
+    "string"
+  ],
+  "acceptedUserCount": 10135,
+  "averageTries": 2.08870005607605,
+  "latestSubmission": {
+    "id": 88092952,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 507,
+    "submittedAt": "1년 전"
+  }
+}

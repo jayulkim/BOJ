@@ -1,0 +1,22 @@
+{
+  "problemId": 32655,
+  "title": "출구가 바뀌는 미궁",
+  "tier": 14,
+  "tags": [
+    "math",
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 95,
+  "averageTries": 2.8631999492645264,
+  "latestSubmission": {
+    "id": 86327992,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 27072,
+    "timeMs": 156,
+    "codeLen": 1421,
+    "submittedAt": "1년 전"
+  }
+}

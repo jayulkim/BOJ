@@ -1,0 +1,21 @@
+{
+  "problemId": 1753,
+  "title": "최단경로",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 44439,
+  "averageTries": 3.620300054550171,
+  "latestSubmission": {
+    "id": 84868603,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 15488,
+    "timeMs": 132,
+    "codeLen": 2217,
+    "submittedAt": "1년 전"
+  }
+}

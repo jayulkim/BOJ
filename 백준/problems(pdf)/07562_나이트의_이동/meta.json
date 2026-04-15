@@ -1,0 +1,23 @@
+{
+  "problemId": 7562,
+  "title": "나이트의 이동",
+  "tier": 10,
+  "tags": [
+    "bfs",
+    "graphs",
+    "graph_traversal",
+    "shortest_path",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 32579,
+  "averageTries": 1.845900058746338,
+  "latestSubmission": {
+    "id": 84882458,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2240,
+    "timeMs": 24,
+    "codeLen": 1073,
+    "submittedAt": "1년 전"
+  }
+}

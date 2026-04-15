@@ -1,0 +1,20 @@
+{
+  "problemId": 1138,
+  "title": "한 줄로 서기",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "greedy"
+  ],
+  "acceptedUserCount": 11877,
+  "averageTries": 1.56850004196167,
+  "latestSubmission": {
+    "id": 84865611,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 1169,
+    "submittedAt": "1년 전"
+  }
+}

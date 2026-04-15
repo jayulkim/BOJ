@@ -1,0 +1,21 @@
+{
+  "problemId": 32510,
+  "title": "키가 비슷한 친구",
+  "tier": 15,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 74,
+  "averageTries": 2.4189000129699707,
+  "latestSubmission": {
+    "id": 85793876,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14464,
+    "timeMs": 464,
+    "codeLen": 1088,
+    "submittedAt": "1년 전"
+  }
+}

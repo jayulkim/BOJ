@@ -1,0 +1,21 @@
+{
+  "problemId": 3036,
+  "title": "링",
+  "tier": 7,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 12190,
+  "averageTries": 1.2958999872207642,
+  "latestSubmission": {
+    "id": 85079231,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 525,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 1744,
+  "title": "수 묶기",
+  "tier": 12,
+  "tags": [
+    "greedy",
+    "sorting",
+    "case_work"
+  ],
+  "acceptedUserCount": 15902,
+  "averageTries": 2.8264999389648438,
+  "latestSubmission": {
+    "id": 84868540,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 4658,
+    "submittedAt": "1년 전"
+  }
+}

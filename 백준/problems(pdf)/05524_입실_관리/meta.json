@@ -1,0 +1,19 @@
+{
+  "problemId": 5524,
+  "title": "입실 관리",
+  "tier": 2,
+  "tags": [
+    "string"
+  ],
+  "acceptedUserCount": 8796,
+  "averageTries": 1.263800024986267,
+  "latestSubmission": {
+    "id": 84881689,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 305,
+    "submittedAt": "1년 전"
+  }
+}

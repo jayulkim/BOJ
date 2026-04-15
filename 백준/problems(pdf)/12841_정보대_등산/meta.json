@@ -1,0 +1,19 @@
+{
+  "problemId": 12841,
+  "title": "정보대 등산",
+  "tier": 9,
+  "tags": [
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 581,
+  "averageTries": 2.332200050354004,
+  "latestSubmission": {
+    "id": 99458264,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 5904,
+    "timeMs": 20,
+    "codeLen": 1175,
+    "submittedAt": "5달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 14619,
+  "title": "섬 여행",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "graphs"
+  ],
+  "acceptedUserCount": 230,
+  "averageTries": 3.1217000484466553,
+  "latestSubmission": {
+    "id": 99004063,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2624,
+    "timeMs": 452,
+    "codeLen": 1541,
+    "submittedAt": "6달 전"
+  }
+}

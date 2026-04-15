@@ -1,0 +1,23 @@
+{
+  "problemId": 32870,
+  "title": "수열과 쿼리 HY",
+  "tier": 16,
+  "tags": [
+    "math",
+    "sorting",
+    "number_theory",
+    "binary_search",
+    "harmonic_number"
+  ],
+  "acceptedUserCount": 121,
+  "averageTries": 3.8926000595092773,
+  "latestSubmission": {
+    "id": 87357473,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 12984,
+    "timeMs": 440,
+    "codeLen": 1176,
+    "submittedAt": "1년 전"
+  }
+}

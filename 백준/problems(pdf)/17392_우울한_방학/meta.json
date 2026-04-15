@@ -1,0 +1,20 @@
+{
+  "problemId": 17392,
+  "title": "우울한 방학",
+  "tier": 10,
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "acceptedUserCount": 455,
+  "averageTries": 3.2746999263763428,
+  "latestSubmission": {
+    "id": 98931456,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 727,
+    "submittedAt": "6달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 1427,
+  "title": "소트인사이드",
+  "tier": 6,
+  "tags": [
+    "string",
+    "sorting"
+  ],
+  "acceptedUserCount": 68179,
+  "averageTries": 1.510599970817566,
+  "latestSubmission": {
+    "id": 84867407,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1081,
+    "submittedAt": "1년 전"
+  }
+}

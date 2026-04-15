@@ -1,0 +1,20 @@
+{
+  "problemId": 34320,
+  "title": "강가에서",
+  "tier": 14,
+  "tags": [
+    "ad_hoc",
+    "sweeping"
+  ],
+  "acceptedUserCount": 18,
+  "averageTries": 1.0556000471115112,
+  "latestSubmission": {
+    "id": 102881291,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 21240,
+    "timeMs": 92,
+    "codeLen": 1848,
+    "submittedAt": "2달 전"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "problemId": 12786,
+  "title": "INHA SUIT",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "graphs",
+    "shortest_path",
+    "dijkstra",
+    "0_1_bfs"
+  ],
+  "acceptedUserCount": 343,
+  "averageTries": 4.253600120544434,
+  "latestSubmission": {
+    "id": 91911426,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3988,
+    "timeMs": 8,
+    "codeLen": 1611,
+    "submittedAt": "1년 전"
+  }
+}

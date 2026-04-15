@@ -1,0 +1,19 @@
+{
+  "problemId": 10942,
+  "title": "팰린드롬?",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 16268,
+  "averageTries": 3.1870999336242676,
+  "latestSubmission": {
+    "id": 84884968,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 16828,
+    "timeMs": 340,
+    "codeLen": 1097,
+    "submittedAt": "1년 전"
+  }
+}

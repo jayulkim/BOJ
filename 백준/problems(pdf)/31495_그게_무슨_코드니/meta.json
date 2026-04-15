@@ -1,0 +1,20 @@
+{
+  "problemId": 31495,
+  "title": "그게 무슨 코드니..",
+  "tier": 2,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 2020,
+  "averageTries": 2.906399965286255,
+  "latestSubmission": {
+    "id": 96278276,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 570,
+    "submittedAt": "9달 전"
+  }
+}

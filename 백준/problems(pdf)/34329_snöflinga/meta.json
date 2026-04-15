@@ -1,0 +1,21 @@
+{
+  "problemId": 34329,
+  "title": "snöflinga",
+  "tier": 16,
+  "tags": [
+    "implementation",
+    "divide_and_conquer",
+    "recursion"
+  ],
+  "acceptedUserCount": 16,
+  "averageTries": 1.5,
+  "latestSubmission": {
+    "id": 99929235,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 58992,
+    "timeMs": 1016,
+    "codeLen": 3813,
+    "submittedAt": "5달 전"
+  }
+}

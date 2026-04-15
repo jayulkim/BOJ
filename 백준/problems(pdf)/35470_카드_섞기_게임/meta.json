@@ -1,0 +1,22 @@
+{
+  "problemId": 35470,
+  "title": "카드 섞기 게임",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "sparse_table",
+    "permutation_cycle_decomposition"
+  ],
+  "acceptedUserCount": 44,
+  "averageTries": 1.09089994430542,
+  "latestSubmission": {
+    "id": 104547874,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 18992,
+    "timeMs": 24,
+    "codeLen": 1078,
+    "submittedAt": "15일 전"
+  }
+}

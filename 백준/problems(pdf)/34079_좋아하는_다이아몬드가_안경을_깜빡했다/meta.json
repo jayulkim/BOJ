@@ -1,0 +1,23 @@
+{
+  "problemId": 34079,
+  "title": "좋아하는 다이아몬드가 안경을 깜빡했다",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "shortest_path",
+    "traceback"
+  ],
+  "acceptedUserCount": 150,
+  "averageTries": 1.9732999801635742,
+  "latestSubmission": {
+    "id": 98121059,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 55852,
+    "timeMs": 320,
+    "codeLen": 2711,
+    "submittedAt": "7달 전"
+  }
+}

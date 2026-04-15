@@ -1,0 +1,19 @@
+{
+  "problemId": 34325,
+  "title": "정사각형의 개수",
+  "tier": 11,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 84,
+  "averageTries": 1.2856999635696411,
+  "latestSubmission": {
+    "id": 98529259,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 632,
+    "codeLen": 1129,
+    "submittedAt": "7달 전"
+  }
+}

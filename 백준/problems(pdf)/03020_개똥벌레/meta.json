@@ -1,0 +1,21 @@
+{
+  "problemId": 3020,
+  "title": "개똥벌레",
+  "tier": 11,
+  "tags": [
+    "binary_search",
+    "prefix_sum",
+    "difference_array"
+  ],
+  "acceptedUserCount": 8162,
+  "averageTries": 2.118799924850464,
+  "latestSubmission": {
+    "id": 84880737,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 24556,
+    "timeMs": 80,
+    "codeLen": 1328,
+    "submittedAt": "1년 전"
+  }
+}

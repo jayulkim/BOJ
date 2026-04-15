@@ -1,0 +1,21 @@
+{
+  "problemId": 10655,
+  "title": "마라톤 1",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "bruteforcing",
+    "geometry"
+  ],
+  "acceptedUserCount": 2079,
+  "averageTries": 1.9226000308990479,
+  "latestSubmission": {
+    "id": 103337741,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 5280,
+    "timeMs": 16,
+    "codeLen": 1401,
+    "submittedAt": "1달 전"
+  }
+}

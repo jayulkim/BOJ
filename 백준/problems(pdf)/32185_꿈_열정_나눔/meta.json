@@ -1,0 +1,20 @@
+{
+  "problemId": 32185,
+  "title": "꿈 열정 나눔",
+  "tier": 6,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 394,
+  "averageTries": 1.7994999885559082,
+  "latestSubmission": {
+    "id": 86378655,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6244,
+    "timeMs": 52,
+    "codeLen": 665,
+    "submittedAt": "1년 전"
+  }
+}

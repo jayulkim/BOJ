@@ -1,0 +1,20 @@
+{
+  "problemId": 26456,
+  "title": "include",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "scc"
+  ],
+  "acceptedUserCount": 28,
+  "averageTries": 1.642899990081787,
+  "latestSubmission": {
+    "id": 93040157,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 12112,
+    "timeMs": 116,
+    "codeLen": 1961,
+    "submittedAt": "1년 전"
+  }
+}

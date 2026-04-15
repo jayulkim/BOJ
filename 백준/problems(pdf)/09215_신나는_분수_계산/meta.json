@@ -1,0 +1,25 @@
+{
+  "problemId": 9215,
+  "title": "신나는 분수 계산",
+  "tier": 8,
+  "tags": [
+    "math",
+    "implementation",
+    "string",
+    "number_theory",
+    "parsing",
+    "arbitrary_precision",
+    "euclidean"
+  ],
+  "acceptedUserCount": 151,
+  "averageTries": 1.8543000221252441,
+  "latestSubmission": {
+    "id": 103202476,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2232,
+    "timeMs": 0,
+    "codeLen": 2981,
+    "submittedAt": "1달 전"
+  }
+}

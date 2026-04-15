@@ -1,0 +1,19 @@
+{
+  "problemId": 18311,
+  "title": "왕복",
+  "tier": 6,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 932,
+  "averageTries": 3.0739998817443848,
+  "latestSubmission": {
+    "id": 86009010,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3684,
+    "timeMs": 12,
+    "codeLen": 781,
+    "submittedAt": "1년 전"
+  }
+}

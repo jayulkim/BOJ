@@ -1,0 +1,21 @@
+{
+  "problemId": 14928,
+  "title": "큰 수 (BIG)",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 9964,
+  "averageTries": 1.5324000120162964,
+  "latestSubmission": {
+    "id": 84890447,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 128220,
+    "timeMs": 360,
+    "codeLen": 40,
+    "submittedAt": "1년 전"
+  }
+}

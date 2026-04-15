@@ -1,0 +1,20 @@
+{
+  "problemId": 32626,
+  "title": "SPC에 가는 길",
+  "tier": 4,
+  "tags": [
+    "ad_hoc",
+    "case_work"
+  ],
+  "acceptedUserCount": 337,
+  "averageTries": 2.575700044631958,
+  "latestSubmission": {
+    "id": 94388647,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 768,
+    "submittedAt": "10달 전"
+  }
+}

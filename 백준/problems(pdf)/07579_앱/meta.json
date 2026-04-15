@@ -1,0 +1,20 @@
+{
+  "problemId": 7579,
+  "title": "앱",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "knapsack"
+  ],
+  "acceptedUserCount": 11900,
+  "averageTries": 2.892400026321411,
+  "latestSubmission": {
+    "id": 86045815,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9912,
+    "timeMs": 8,
+    "codeLen": 892,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 34927,
+  "title": "박스 쌓기",
+  "tier": 8,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 131,
+  "averageTries": 1.2824000120162964,
+  "latestSubmission": {
+    "id": 101366888,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 8352,
+    "timeMs": 52,
+    "codeLen": 888,
+    "submittedAt": "3달 전"
+  }
+}

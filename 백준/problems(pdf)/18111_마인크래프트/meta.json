@@ -1,0 +1,20 @@
+{
+  "problemId": 18111,
+  "title": "마인크래프트",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 18399,
+  "averageTries": 3.9539999961853027,
+  "latestSubmission": {
+    "id": 100629757,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 4064,
+    "timeMs": 256,
+    "codeLen": 1618,
+    "submittedAt": "4달 전"
+  }
+}

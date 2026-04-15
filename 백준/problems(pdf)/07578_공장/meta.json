@@ -1,0 +1,20 @@
+{
+  "problemId": 7578,
+  "title": "공장",
+  "tier": 16,
+  "tags": [
+    "data_structures",
+    "segtree"
+  ],
+  "acceptedUserCount": 4439,
+  "averageTries": 2.5025999546051025,
+  "latestSubmission": {
+    "id": 100535468,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 52908,
+    "timeMs": 716,
+    "codeLen": 1596,
+    "submittedAt": "4달 전"
+  }
+}

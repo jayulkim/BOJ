@@ -1,0 +1,21 @@
+{
+  "problemId": 30510,
+  "title": "토마에 함수",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "euler_phi"
+  ],
+  "acceptedUserCount": 145,
+  "averageTries": 2.22760009765625,
+  "latestSubmission": {
+    "id": 84894699,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 260496,
+    "timeMs": 200,
+    "codeLen": 1604,
+    "submittedAt": "1년 전"
+  }
+}

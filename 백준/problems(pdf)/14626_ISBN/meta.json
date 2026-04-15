@@ -1,0 +1,22 @@
+{
+  "problemId": 14626,
+  "title": "ISBN",
+  "tier": 5,
+  "tags": [
+    "math",
+    "implementation",
+    "bruteforcing",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 7084,
+  "averageTries": 2.6631999015808105,
+  "latestSubmission": {
+    "id": 100628940,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 1061,
+    "submittedAt": "4달 전"
+  }
+}

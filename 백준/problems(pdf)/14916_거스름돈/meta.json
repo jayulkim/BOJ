@@ -1,0 +1,21 @@
+{
+  "problemId": 14916,
+  "title": "거스름돈",
+  "tier": 6,
+  "tags": [
+    "math",
+    "dp",
+    "greedy"
+  ],
+  "acceptedUserCount": 14783,
+  "averageTries": 2.1250998973846436,
+  "latestSubmission": {
+    "id": 84890368,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2288,
+    "timeMs": 0,
+    "codeLen": 629,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 25216,
+  "title": "파밍 루트",
+  "tier": 15,
+  "tags": [
+    "dp",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 67,
+  "averageTries": 6.193999767303467,
+  "latestSubmission": {
+    "id": 104258389,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 7108,
+    "timeMs": 1520,
+    "codeLen": 1505,
+    "submittedAt": "22일 전"
+  }
+}

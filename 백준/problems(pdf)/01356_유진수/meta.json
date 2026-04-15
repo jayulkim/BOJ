@@ -1,0 +1,23 @@
+{
+  "problemId": 1356,
+  "title": "유진수",
+  "tier": 5,
+  "tags": [
+    "math",
+    "implementation",
+    "string",
+    "bruteforcing",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 4271,
+  "averageTries": 1.9697999954223633,
+  "latestSubmission": {
+    "id": 95464756,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 788,
+    "submittedAt": "9달 전"
+  }
+}

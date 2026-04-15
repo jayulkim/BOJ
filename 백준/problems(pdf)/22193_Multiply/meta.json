@@ -1,0 +1,21 @@
+{
+  "problemId": 22193,
+  "title": "Multiply",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 5565,
+  "averageTries": 1.545699954032898,
+  "latestSubmission": {
+    "id": 84893116,
+    "result": "100점",
+    "language": "PyPy3",
+    "memoryKb": 109808,
+    "timeMs": 116,
+    "codeLen": 80,
+    "submittedAt": "1년 전"
+  }
+}

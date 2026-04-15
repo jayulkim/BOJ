@@ -1,0 +1,20 @@
+{
+  "problemId": 29718,
+  "title": "줄줄이 박수",
+  "tier": 8,
+  "tags": [
+    "prefix_sum",
+    "sliding_window"
+  ],
+  "acceptedUserCount": 539,
+  "averageTries": 1.2726999521255493,
+  "latestSubmission": {
+    "id": 84894533,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 36296,
+    "timeMs": 452,
+    "codeLen": 1012,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 3109,
+  "title": "빵집",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "greedy",
+    "graph_traversal",
+    "dfs"
+  ],
+  "acceptedUserCount": 8667,
+  "averageTries": 3.037600040435791,
+  "latestSubmission": {
+    "id": 97422960,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9124,
+    "timeMs": 352,
+    "codeLen": 1411,
+    "submittedAt": "8달 전"
+  }
+}

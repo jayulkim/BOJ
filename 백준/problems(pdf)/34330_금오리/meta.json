@@ -1,0 +1,23 @@
+{
+  "problemId": 34330,
+  "title": "금오리 🦆",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "geometry",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 53,
+  "averageTries": 4.41510009765625,
+  "latestSubmission": {
+    "id": 98669215,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2224,
+    "timeMs": 0,
+    "codeLen": 2483,
+    "submittedAt": "6달 전"
+  }
+}

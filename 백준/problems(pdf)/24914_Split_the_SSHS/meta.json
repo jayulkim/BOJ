@@ -1,0 +1,22 @@
+{
+  "problemId": 24914,
+  "title": "Split the SSHS",
+  "tier": 15,
+  "tags": [
+    "data_structures",
+    "trees",
+    "set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 85,
+  "averageTries": 2.0234999656677246,
+  "latestSubmission": {
+    "id": 104251066,
+    "result": "100점",
+    "language": "C++23",
+    "memoryKb": 53644,
+    "timeMs": 420,
+    "codeLen": 1024,
+    "submittedAt": "22일 전"
+  }
+}

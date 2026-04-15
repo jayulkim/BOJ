@@ -1,0 +1,24 @@
+{
+  "problemId": 1926,
+  "title": "그림",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "grid_graph",
+    "flood_fill"
+  ],
+  "acceptedUserCount": 21744,
+  "averageTries": 2.2276999950408936,
+  "latestSubmission": {
+    "id": 84869282,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3984,
+    "timeMs": 64,
+    "codeLen": 1279,
+    "submittedAt": "1년 전"
+  }
+}

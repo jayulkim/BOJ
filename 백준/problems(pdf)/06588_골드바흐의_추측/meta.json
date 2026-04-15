@@ -1,0 +1,22 @@
+{
+  "problemId": 6588,
+  "title": "골드바흐의 추측",
+  "tier": 10,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 14198,
+  "averageTries": 4.502999782562256,
+  "latestSubmission": {
+    "id": 84882262,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5016,
+    "timeMs": 84,
+    "codeLen": 919,
+    "submittedAt": "1년 전"
+  }
+}

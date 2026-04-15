@@ -1,0 +1,21 @@
+{
+  "problemId": 1026,
+  "title": "보물",
+  "tier": 7,
+  "tags": [
+    "math",
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 45892,
+  "averageTries": 1.4114999771118164,
+  "latestSubmission": {
+    "id": 84865076,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1588,
+    "submittedAt": "1년 전"
+  }
+}

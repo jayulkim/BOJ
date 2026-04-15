@@ -1,0 +1,19 @@
+{
+  "problemId": 1932,
+  "title": "정수 삼각형",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 54050,
+  "averageTries": 1.6521999835968018,
+  "latestSubmission": {
+    "id": 84869373,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3980,
+    "timeMs": 36,
+    "codeLen": 604,
+    "submittedAt": "1년 전"
+  }
+}

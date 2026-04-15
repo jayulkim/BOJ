@@ -1,0 +1,19 @@
+{
+  "problemId": 1846,
+  "title": "장기",
+  "tier": 12,
+  "tags": [
+    "constructive"
+  ],
+  "acceptedUserCount": 215,
+  "averageTries": 2.609299898147583,
+  "latestSubmission": {
+    "id": 91671993,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 4,
+    "codeLen": 695,
+    "submittedAt": "1년 전"
+  }
+}

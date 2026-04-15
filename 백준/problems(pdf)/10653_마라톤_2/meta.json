@@ -1,0 +1,19 @@
+{
+  "problemId": 10653,
+  "title": "마라톤 2",
+  "tier": 13,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 744,
+  "averageTries": 2.5390000343322754,
+  "latestSubmission": {
+    "id": 99635492,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3148,
+    "timeMs": 80,
+    "codeLen": 1166,
+    "submittedAt": "5달 전"
+  }
+}

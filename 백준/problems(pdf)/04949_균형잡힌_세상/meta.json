@@ -1,0 +1,21 @@
+{
+  "problemId": 4949,
+  "title": "균형잡힌 세상",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "string",
+    "stack"
+  ],
+  "acceptedUserCount": 52393,
+  "averageTries": 2.9540998935699463,
+  "latestSubmission": {
+    "id": 84881441,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1165,
+    "submittedAt": "1년 전"
+  }
+}

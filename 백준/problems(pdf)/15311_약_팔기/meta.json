@@ -1,0 +1,21 @@
+{
+  "problemId": 15311,
+  "title": "약 팔기",
+  "tier": 16,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "constructive"
+  ],
+  "acceptedUserCount": 2324,
+  "averageTries": 2.099400043487549,
+  "latestSubmission": {
+    "id": 100755252,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 730,
+    "submittedAt": "4달 전"
+  }
+}

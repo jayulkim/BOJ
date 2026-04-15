@@ -1,0 +1,22 @@
+{
+  "problemId": 12852,
+  "title": "1로 만들기 2",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "traceback"
+  ],
+  "acceptedUserCount": 15869,
+  "averageTries": 2.0929999351501465,
+  "latestSubmission": {
+    "id": 84888083,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8928,
+    "timeMs": 8,
+    "codeLen": 1478,
+    "submittedAt": "1년 전"
+  }
+}

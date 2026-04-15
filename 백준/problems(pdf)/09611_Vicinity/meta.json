@@ -1,0 +1,21 @@
+{
+  "problemId": 9611,
+  "title": "Vicinity",
+  "tier": 4,
+  "tags": [
+    "bruteforcing",
+    "geometry",
+    "pythagoras"
+  ],
+  "acceptedUserCount": 187,
+  "averageTries": 1.0856000185012817,
+  "latestSubmission": {
+    "id": 84883420,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1144,
+    "timeMs": 0,
+    "codeLen": 797,
+    "submittedAt": "1년 전"
+  }
+}

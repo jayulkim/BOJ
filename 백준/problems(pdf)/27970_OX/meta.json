@@ -1,0 +1,20 @@
+{
+  "problemId": 27970,
+  "title": "OX",
+  "tier": 10,
+  "tags": [
+    "math",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 427,
+  "averageTries": 1.8478000164031982,
+  "latestSubmission": {
+    "id": 98043325,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2300,
+    "timeMs": 44,
+    "codeLen": 952,
+    "submittedAt": "7달 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 10432,
+  "title": "데이터 스트림의 섬",
+  "tier": 7,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 278,
+  "averageTries": 1.406499981880188,
+  "latestSubmission": {
+    "id": 84884014,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 746,
+    "submittedAt": "1년 전"
+  }
+}

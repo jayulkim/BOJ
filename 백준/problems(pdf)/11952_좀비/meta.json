@@ -1,0 +1,23 @@
+{
+  "problemId": 11952,
+  "title": "좀비",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 497,
+  "averageTries": 3.0785000324249268,
+  "latestSubmission": {
+    "id": 90654352,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 79952,
+    "timeMs": 160,
+    "codeLen": 2567,
+    "submittedAt": "1년 전"
+  }
+}

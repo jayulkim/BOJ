@@ -1,0 +1,20 @@
+{
+  "problemId": 10423,
+  "title": "전기가 부족해",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "mst"
+  ],
+  "acceptedUserCount": 2802,
+  "averageTries": 1.4368000030517578,
+  "latestSubmission": {
+    "id": 88039595,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6768,
+    "timeMs": 24,
+    "codeLen": 1130,
+    "submittedAt": "1년 전"
+  }
+}

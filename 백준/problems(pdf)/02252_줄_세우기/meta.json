@@ -1,0 +1,21 @@
+{
+  "problemId": 2252,
+  "title": "줄 세우기",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 28771,
+  "averageTries": 1.6965999603271484,
+  "latestSubmission": {
+    "id": 84878337,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3956,
+    "timeMs": 24,
+    "codeLen": 691,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 25372,
+  "title": "성택이의 은밀한 비밀번호",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 9243,
+  "averageTries": 1.483299970626831,
+  "latestSubmission": {
+    "id": 84893699,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 578,
+    "submittedAt": "1년 전"
+  }
+}

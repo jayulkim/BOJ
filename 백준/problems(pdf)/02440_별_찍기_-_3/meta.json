@@ -1,0 +1,19 @@
+{
+  "problemId": 2440,
+  "title": "별 찍기 - 3",
+  "tier": 2,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 70609,
+  "averageTries": 1.4594000577926636,
+  "latestSubmission": {
+    "id": 84878962,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 269,
+    "submittedAt": "1년 전"
+  }
+}

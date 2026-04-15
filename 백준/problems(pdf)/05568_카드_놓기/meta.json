@@ -1,0 +1,23 @@
+{
+  "problemId": 5568,
+  "title": "카드 놓기",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "bruteforcing",
+    "set",
+    "hash_set",
+    "backtracking"
+  ],
+  "acceptedUserCount": 6219,
+  "averageTries": 1.451799988746643,
+  "latestSubmission": {
+    "id": 84881808,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2428,
+    "timeMs": 0,
+    "codeLen": 857,
+    "submittedAt": "1년 전"
+  }
+}

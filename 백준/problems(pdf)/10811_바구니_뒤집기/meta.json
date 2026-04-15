@@ -1,0 +1,20 @@
+{
+  "problemId": 10811,
+  "title": "바구니 뒤집기",
+  "tier": 4,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 58372,
+  "averageTries": 1.8918999433517456,
+  "latestSubmission": {
+    "id": 84884360,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 809,
+    "submittedAt": "1년 전"
+  }
+}

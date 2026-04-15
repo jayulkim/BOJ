@@ -1,0 +1,23 @@
+{
+  "problemId": 16973,
+  "title": "직사각형 탈출",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "prefix_sum",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 1908,
+  "averageTries": 3.510499954223633,
+  "latestSubmission": {
+    "id": 97512889,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 25744,
+    "timeMs": 100,
+    "codeLen": 1734,
+    "submittedAt": "7달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 4470,
+  "title": "줄번호",
+  "tier": 2,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 9499,
+  "averageTries": 1.6706000566482544,
+  "latestSubmission": {
+    "id": 84881298,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 285,
+    "submittedAt": "1년 전"
+  }
+}

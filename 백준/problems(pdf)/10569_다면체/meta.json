@@ -1,0 +1,22 @@
+{
+  "problemId": 10569,
+  "title": "다면체",
+  "tier": 2,
+  "tags": [
+    "math",
+    "geometry",
+    "arithmetic",
+    "euler_characteristic"
+  ],
+  "acceptedUserCount": 8368,
+  "averageTries": 1.1348999738693237,
+  "latestSubmission": {
+    "id": 94884301,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 439,
+    "submittedAt": "10달 전"
+  }
+}

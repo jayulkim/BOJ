@@ -1,0 +1,21 @@
+{
+  "problemId": 27323,
+  "title": "직사각형",
+  "tier": 1,
+  "tags": [
+    "math",
+    "geometry",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 32837,
+  "averageTries": 1.1481000185012817,
+  "latestSubmission": {
+    "id": 84894159,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 232,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 2004,
+  "title": "조합 0의 개수",
+  "tier": 9,
+  "tags": [
+    "math",
+    "number_theory"
+  ],
+  "acceptedUserCount": 13673,
+  "averageTries": 3.4286000728607178,
+  "latestSubmission": {
+    "id": 84869800,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 795,
+    "submittedAt": "1년 전"
+  }
+}

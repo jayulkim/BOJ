@@ -1,0 +1,20 @@
+{
+  "problemId": 25488,
+  "title": "토큰",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "scc"
+  ],
+  "acceptedUserCount": 107,
+  "averageTries": 1.7289999723434448,
+  "latestSubmission": {
+    "id": 92642291,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 58920,
+    "timeMs": 660,
+    "codeLen": 1772,
+    "submittedAt": "1년 전"
+  }
+}

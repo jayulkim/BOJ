@@ -1,0 +1,20 @@
+{
+  "problemId": 30461,
+  "title": "낚시",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 376,
+  "averageTries": 1.8137999773025513,
+  "latestSubmission": {
+    "id": 88219927,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 64584,
+    "timeMs": 400,
+    "codeLen": 753,
+    "submittedAt": "1년 전"
+  }
+}

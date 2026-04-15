@@ -1,0 +1,20 @@
+{
+  "problemId": 32865,
+  "title": "컴소인의 크리스마스",
+  "tier": 11,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 118,
+  "averageTries": 1.7288000583648682,
+  "latestSubmission": {
+    "id": 87514006,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 13900,
+    "timeMs": 68,
+    "codeLen": 1066,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 17352,
+  "title": "여러분의 다리가 되어 드리겠습니다!",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 2539,
+  "averageTries": 1.9835000038146973,
+  "latestSubmission": {
+    "id": 84892359,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6396,
+    "timeMs": 68,
+    "codeLen": 918,
+    "submittedAt": "1년 전"
+  }
+}

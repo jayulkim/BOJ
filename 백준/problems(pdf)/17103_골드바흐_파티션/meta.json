@@ -1,0 +1,22 @@
+{
+  "problemId": 17103,
+  "title": "골드바흐 파티션",
+  "tier": 9,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 14062,
+  "averageTries": 2.8076000213623047,
+  "latestSubmission": {
+    "id": 84892216,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5016,
+    "timeMs": 44,
+    "codeLen": 653,
+    "submittedAt": "1년 전"
+  }
+}

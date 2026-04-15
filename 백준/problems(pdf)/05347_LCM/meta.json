@@ -1,0 +1,21 @@
+{
+  "problemId": 5347,
+  "title": "LCM",
+  "tier": 6,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 5236,
+  "averageTries": 1.958400011062622,
+  "latestSubmission": {
+    "id": 84881625,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 441,
+    "submittedAt": "1년 전"
+  }
+}

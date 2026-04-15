@@ -1,0 +1,24 @@
+{
+  "problemId": 17425,
+  "title": "약수의 합",
+  "tier": 12,
+  "tags": [
+    "math",
+    "number_theory",
+    "prefix_sum",
+    "primality_test",
+    "sieve",
+    "harmonic_number"
+  ],
+  "acceptedUserCount": 4737,
+  "averageTries": 3.898200035095215,
+  "latestSubmission": {
+    "id": 84892472,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 16736,
+    "timeMs": 80,
+    "codeLen": 539,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 18110,
+  "title": "solved.ac",
+  "tier": 7,
+  "tags": [
+    "math",
+    "implementation",
+    "sorting"
+  ],
+  "acceptedUserCount": 15929,
+  "averageTries": 3.887399911880493,
+  "latestSubmission": {
+    "id": 100629246,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 14500,
+    "timeMs": 76,
+    "codeLen": 879,
+    "submittedAt": "4달 전"
+  }
+}

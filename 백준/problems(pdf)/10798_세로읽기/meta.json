@@ -1,0 +1,20 @@
+{
+  "problemId": 10798,
+  "title": "세로읽기",
+  "tier": 5,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 50892,
+  "averageTries": 2.0778000354766846,
+  "latestSubmission": {
+    "id": 84884235,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 301,
+    "submittedAt": "1년 전"
+  }
+}

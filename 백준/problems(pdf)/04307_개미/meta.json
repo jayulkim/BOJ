@@ -1,0 +1,19 @@
+{
+  "problemId": 4307,
+  "title": "개미",
+  "tier": 10,
+  "tags": [
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 2777,
+  "averageTries": 1.9610999822616577,
+  "latestSubmission": {
+    "id": 92307541,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4188,
+    "timeMs": 28,
+    "codeLen": 632,
+    "submittedAt": "1년 전"
+  }
+}

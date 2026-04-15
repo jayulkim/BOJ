@@ -1,0 +1,24 @@
+{
+  "problemId": 2468,
+  "title": "안전 영역",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "bruteforcing",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 35877,
+  "averageTries": 2.7901999950408936,
+  "latestSubmission": {
+    "id": 84879061,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2008,
+    "timeMs": 644,
+    "codeLen": 1766,
+    "submittedAt": "1년 전"
+  }
+}

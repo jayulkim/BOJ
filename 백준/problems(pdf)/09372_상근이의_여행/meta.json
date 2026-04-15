@@ -1,0 +1,20 @@
+{
+  "problemId": 9372,
+  "title": "상근이의 여행",
+  "tier": 7,
+  "tags": [
+    "graphs",
+    "trees"
+  ],
+  "acceptedUserCount": 14022,
+  "averageTries": 1.5810999870300293,
+  "latestSubmission": {
+    "id": 86207721,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 16,
+    "codeLen": 359,
+    "submittedAt": "1년 전"
+  }
+}

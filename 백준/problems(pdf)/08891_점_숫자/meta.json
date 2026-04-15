@@ -1,0 +1,21 @@
+{
+  "problemId": 8891,
+  "title": "점 숫자",
+  "tier": 7,
+  "tags": [
+    "math",
+    "implementation",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 572,
+  "averageTries": 1.8357000350952148,
+  "latestSubmission": {
+    "id": 84882799,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3144,
+    "timeMs": 12,
+    "codeLen": 1551,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 34849,
+  "title": "이중 반복문",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 1422,
+  "averageTries": 1.4909000396728516,
+  "latestSubmission": {
+    "id": 101182872,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 688,
+    "submittedAt": "3달 전"
+  }
+}

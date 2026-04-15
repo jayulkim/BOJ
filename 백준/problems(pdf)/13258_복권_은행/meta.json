@@ -1,0 +1,21 @@
+{
+  "problemId": 13258,
+  "title": "복권 + 은행",
+  "tier": 11,
+  "tags": [
+    "math",
+    "dp",
+    "probability"
+  ],
+  "acceptedUserCount": 284,
+  "averageTries": 1.4084999561309814,
+  "latestSubmission": {
+    "id": 93993501,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 599,
+    "submittedAt": "11달 전"
+  }
+}

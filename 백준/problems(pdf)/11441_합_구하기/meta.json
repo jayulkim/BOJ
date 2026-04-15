@@ -1,0 +1,19 @@
+{
+  "problemId": 11441,
+  "title": "합 구하기",
+  "tier": 8,
+  "tags": [
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 6646,
+  "averageTries": 1.8398000001907349,
+  "latestSubmission": {
+    "id": 84886209,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3588,
+    "timeMs": 36,
+    "codeLen": 488,
+    "submittedAt": "1년 전"
+  }
+}

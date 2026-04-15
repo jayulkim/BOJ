@@ -1,0 +1,20 @@
+{
+  "problemId": 20366,
+  "title": "같이 눈사람 만들래?",
+  "tier": 13,
+  "tags": [
+    "sorting",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 2192,
+  "averageTries": 2.9465999603271484,
+  "latestSubmission": {
+    "id": 84892982,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1120,
+    "timeMs": 176,
+    "codeLen": 972,
+    "submittedAt": "1년 전"
+  }
+}

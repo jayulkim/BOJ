@@ -1,0 +1,22 @@
+{
+  "problemId": 9252,
+  "title": "LCS 2",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "string",
+    "traceback",
+    "lcs"
+  ],
+  "acceptedUserCount": 17517,
+  "averageTries": 2.5028998851776123,
+  "latestSubmission": {
+    "id": 84883119,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5940,
+    "timeMs": 4,
+    "codeLen": 882,
+    "submittedAt": "1년 전"
+  }
+}

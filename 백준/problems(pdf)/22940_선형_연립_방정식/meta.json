@@ -1,0 +1,21 @@
+{
+  "problemId": 22940,
+  "title": "선형 연립 방정식",
+  "tier": 16,
+  "tags": [
+    "math",
+    "linear_algebra",
+    "gaussian_elimination"
+  ],
+  "acceptedUserCount": 659,
+  "averageTries": 2.308000087738037,
+  "latestSubmission": {
+    "id": 85809660,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 1162,
+    "submittedAt": "1년 전"
+  }
+}

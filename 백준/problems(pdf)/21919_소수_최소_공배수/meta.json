@@ -1,0 +1,22 @@
+{
+  "problemId": 21919,
+  "title": "소수 최소 공배수",
+  "tier": 8,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 1258,
+  "averageTries": 3.4690001010894775,
+  "latestSubmission": {
+    "id": 84893090,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1272,
+    "timeMs": 76,
+    "codeLen": 1189,
+    "submittedAt": "1년 전"
+  }
+}

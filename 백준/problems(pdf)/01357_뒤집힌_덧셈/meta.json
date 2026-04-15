@@ -1,0 +1,20 @@
+{
+  "problemId": 1357,
+  "title": "뒤집힌 덧셈",
+  "tier": 4,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 13517,
+  "averageTries": 1.791599988937378,
+  "latestSubmission": {
+    "id": 84867131,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1040,
+    "submittedAt": "1년 전"
+  }
+}

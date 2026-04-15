@@ -1,0 +1,23 @@
+{
+  "problemId": 2866,
+  "title": "문자열 잘라내기",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "string",
+    "binary_search",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 1631,
+  "averageTries": 2.4138998985290527,
+  "latestSubmission": {
+    "id": 96027363,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5180,
+    "timeMs": 660,
+    "codeLen": 1200,
+    "submittedAt": "9달 전"
+  }
+}

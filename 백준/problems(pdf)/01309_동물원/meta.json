@@ -1,0 +1,19 @@
+{
+  "problemId": 1309,
+  "title": "동물원",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 18106,
+  "averageTries": 2.123500108718872,
+  "latestSubmission": {
+    "id": 95157677,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 23040,
+    "timeMs": 20,
+    "codeLen": 970,
+    "submittedAt": "10달 전"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "problemId": 3584,
+  "title": "가장 가까운 공통 조상",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "dfs",
+    "lca"
+  ],
+  "acceptedUserCount": 6512,
+  "averageTries": 1.8818000555038452,
+  "latestSubmission": {
+    "id": 84880958,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2300,
+    "timeMs": 4,
+    "codeLen": 848,
+    "submittedAt": "1년 전"
+  }
+}

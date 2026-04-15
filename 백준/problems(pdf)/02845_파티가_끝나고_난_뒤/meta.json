@@ -1,0 +1,21 @@
+{
+  "problemId": 2845,
+  "title": "파티가 끝나고 난 뒤",
+  "tier": 2,
+  "tags": [
+    "implementation",
+    "arithmetic",
+    "math"
+  ],
+  "acceptedUserCount": 18459,
+  "averageTries": 1.3696000576019287,
+  "latestSubmission": {
+    "id": 84880353,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 344,
+    "submittedAt": "1년 전"
+  }
+}

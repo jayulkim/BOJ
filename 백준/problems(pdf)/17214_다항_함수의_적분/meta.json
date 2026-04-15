@@ -1,0 +1,23 @@
+{
+  "problemId": 17214,
+  "title": "다항 함수의 적분",
+  "tier": 12,
+  "tags": [
+    "math",
+    "string",
+    "case_work",
+    "parsing",
+    "calculus"
+  ],
+  "acceptedUserCount": 976,
+  "averageTries": 4.790999889373779,
+  "latestSubmission": {
+    "id": 84892274,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 2486,
+    "submittedAt": "1년 전"
+  }
+}

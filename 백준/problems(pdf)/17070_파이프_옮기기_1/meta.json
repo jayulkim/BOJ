@@ -1,0 +1,21 @@
+{
+  "problemId": 17070,
+  "title": "파이프 옮기기 1",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal"
+  ],
+  "acceptedUserCount": 19064,
+  "averageTries": 2.0917000770568848,
+  "latestSubmission": {
+    "id": 100634926,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2220,
+    "timeMs": 0,
+    "codeLen": 2401,
+    "submittedAt": "4달 전"
+  }
+}

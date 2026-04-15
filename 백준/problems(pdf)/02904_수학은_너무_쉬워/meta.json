@@ -1,0 +1,24 @@
+{
+  "problemId": 2904,
+  "title": "수학은 너무 쉬워",
+  "tier": 13,
+  "tags": [
+    "math",
+    "greedy",
+    "number_theory",
+    "primality_test",
+    "sieve",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 1238,
+  "averageTries": 3.00570011138916,
+  "latestSubmission": {
+    "id": 84880498,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 40204,
+    "timeMs": 40,
+    "codeLen": 1203,
+    "submittedAt": "1년 전"
+  }
+}

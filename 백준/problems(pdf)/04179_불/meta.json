@@ -1,0 +1,22 @@
+{
+  "problemId": 4179,
+  "title": "불!",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 14570,
+  "averageTries": 4.552000045776367,
+  "latestSubmission": {
+    "id": 90477290,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 18848,
+    "timeMs": 152,
+    "codeLen": 2649,
+    "submittedAt": "1년 전"
+  }
+}

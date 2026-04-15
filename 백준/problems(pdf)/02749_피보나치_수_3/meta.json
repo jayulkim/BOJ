@@ -1,0 +1,21 @@
+{
+  "problemId": 2749,
+  "title": "피보나치 수 3",
+  "tier": 14,
+  "tags": [
+    "math",
+    "exponentiation_by_squaring",
+    "pisano"
+  ],
+  "acceptedUserCount": 11052,
+  "averageTries": 2.4751999378204346,
+  "latestSubmission": {
+    "id": 84880012,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 6972,
+    "timeMs": 12,
+    "codeLen": 432,
+    "submittedAt": "1년 전"
+  }
+}

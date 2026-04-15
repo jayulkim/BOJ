@@ -1,0 +1,23 @@
+{
+  "problemId": 29714,
+  "title": "브실이의 구슬 아이스크림",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "set",
+    "simulation",
+    "hash_set"
+  ],
+  "acceptedUserCount": 170,
+  "averageTries": 2.088200092315674,
+  "latestSubmission": {
+    "id": 84894516,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 19316,
+    "timeMs": 308,
+    "codeLen": 1355,
+    "submittedAt": "1년 전"
+  }
+}

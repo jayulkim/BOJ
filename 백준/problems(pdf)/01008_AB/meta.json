@@ -1,0 +1,21 @@
+{
+  "problemId": 1008,
+  "title": "A/B",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "arithmetic",
+    "math"
+  ],
+  "acceptedUserCount": 267104,
+  "averageTries": 2.8847999572753906,
+  "latestSubmission": {
+    "id": 84864889,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 108080,
+    "timeMs": 84,
+    "codeLen": 57,
+    "submittedAt": "1년 전"
+  }
+}

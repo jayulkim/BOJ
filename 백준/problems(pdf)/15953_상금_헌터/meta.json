@@ -1,0 +1,22 @@
+{
+  "problemId": 15953,
+  "title": "상금 헌터",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic",
+    "case_work"
+  ],
+  "acceptedUserCount": 7474,
+  "averageTries": 2.647700071334839,
+  "latestSubmission": {
+    "id": 84891546,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1455,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 31403,
+  "title": "$A + B - C$",
+  "tier": 2,
+  "tags": [
+    "math",
+    "string",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 22415,
+  "averageTries": 1.6306999921798706,
+  "latestSubmission": {
+    "id": 100628686,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 596,
+    "submittedAt": "4달 전"
+  }
+}

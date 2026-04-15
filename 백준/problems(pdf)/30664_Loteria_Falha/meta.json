@@ -1,0 +1,21 @@
+{
+  "problemId": 30664,
+  "title": "Loteria Falha",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 1925,
+  "averageTries": 1.628600001335144,
+  "latestSubmission": {
+    "id": 84894716,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 108080,
+    "timeMs": 92,
+    "codeLen": 155,
+    "submittedAt": "1년 전"
+  }
+}

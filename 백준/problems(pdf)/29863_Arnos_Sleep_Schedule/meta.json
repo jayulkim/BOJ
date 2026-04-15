@@ -1,0 +1,20 @@
+{
+  "problemId": 29863,
+  "title": "Arno's Sleep Schedule",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 3046,
+  "averageTries": 1.6510000228881836,
+  "latestSubmission": {
+    "id": 84894615,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1152,
+    "timeMs": 0,
+    "codeLen": 832,
+    "submittedAt": "1년 전"
+  }
+}

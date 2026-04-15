@@ -1,0 +1,21 @@
+{
+  "problemId": 25417,
+  "title": "고속의 숫자 탐색",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 150,
+  "averageTries": 2.446700096130371,
+  "latestSubmission": {
+    "id": 100302516,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 2076,
+    "submittedAt": "4달 전"
+  }
+}

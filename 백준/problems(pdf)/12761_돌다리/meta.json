@@ -1,0 +1,21 @@
+{
+  "problemId": 12761,
+  "title": "돌다리",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 2484,
+  "averageTries": 1.8615000247955322,
+  "latestSubmission": {
+    "id": 84887884,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2516,
+    "timeMs": 0,
+    "codeLen": 1887,
+    "submittedAt": "1년 전"
+  }
+}

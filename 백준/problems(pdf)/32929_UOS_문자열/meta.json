@@ -1,0 +1,22 @@
+{
+  "problemId": 32929,
+  "title": "UOS 문자열",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "string",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 3075,
+  "averageTries": 1.429900050163269,
+  "latestSubmission": {
+    "id": 90616117,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 242,
+    "submittedAt": "1년 전"
+  }
+}

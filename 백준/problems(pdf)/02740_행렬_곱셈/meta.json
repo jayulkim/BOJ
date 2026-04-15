@@ -1,0 +1,21 @@
+{
+  "problemId": 2740,
+  "title": "행렬 곱셈",
+  "tier": 6,
+  "tags": [
+    "math",
+    "implementation",
+    "linear_algebra"
+  ],
+  "acceptedUserCount": 14821,
+  "averageTries": 1.4437999725341797,
+  "latestSubmission": {
+    "id": 105034549,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2352,
+    "timeMs": 0,
+    "codeLen": 20462,
+    "submittedAt": "1일 전"
+  }
+}

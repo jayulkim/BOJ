@@ -1,0 +1,22 @@
+{
+  "problemId": 14940,
+  "title": "쉬운 최단거리",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 18400,
+  "averageTries": 2.5731000900268555,
+  "latestSubmission": {
+    "id": 84890496,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10960,
+    "timeMs": 40,
+    "codeLen": 1326,
+    "submittedAt": "1년 전"
+  }
+}

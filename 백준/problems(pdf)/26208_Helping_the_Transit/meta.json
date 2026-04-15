@@ -1,0 +1,21 @@
+{
+  "problemId": 26208,
+  "title": "Helping the Transit",
+  "tier": 18,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "scc"
+  ],
+  "acceptedUserCount": 17,
+  "averageTries": 1.3529000282287598,
+  "latestSubmission": {
+    "id": 93356581,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4004,
+    "timeMs": 12,
+    "codeLen": 1671,
+    "submittedAt": "11달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 34557,
+  "title": "횃불이의 모험",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 87,
+  "averageTries": 2.356300115585327,
+  "latestSubmission": {
+    "id": 99184634,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2228,
+    "timeMs": 0,
+    "codeLen": 3450,
+    "submittedAt": "6달 전"
+  }
+}

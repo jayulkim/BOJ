@@ -1,0 +1,21 @@
+{
+  "problemId": 27896,
+  "title": "특별한 서빙",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 439,
+  "averageTries": 2.740299940109253,
+  "latestSubmission": {
+    "id": 96487900,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5220,
+    "timeMs": 32,
+    "codeLen": 649,
+    "submittedAt": "8달 전"
+  }
+}

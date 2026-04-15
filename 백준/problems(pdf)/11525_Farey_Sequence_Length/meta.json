@@ -1,0 +1,22 @@
+{
+  "problemId": 11525,
+  "title": "Farey Sequence Length",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "prefix_sum",
+    "euler_phi"
+  ],
+  "acceptedUserCount": 244,
+  "averageTries": 1.4426000118255615,
+  "latestSubmission": {
+    "id": 84886399,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5296,
+    "timeMs": 8,
+    "codeLen": 1527,
+    "submittedAt": "1년 전"
+  }
+}

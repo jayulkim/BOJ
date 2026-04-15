@@ -1,0 +1,24 @@
+{
+  "problemId": 31423,
+  "title": "신촌 통폐합 계획",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "string",
+    "graph_traversal",
+    "dfs",
+    "linked_list"
+  ],
+  "acceptedUserCount": 486,
+  "averageTries": 3.9567999839782715,
+  "latestSubmission": {
+    "id": 99438699,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 80928,
+    "timeMs": 376,
+    "codeLen": 1169,
+    "submittedAt": "6달 전"
+  }
+}

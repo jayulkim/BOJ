@@ -1,0 +1,20 @@
+{
+  "problemId": 18869,
+  "title": "멀티버스 Ⅱ",
+  "tier": 11,
+  "tags": [
+    "sorting",
+    "coordinate_compression"
+  ],
+  "acceptedUserCount": 1860,
+  "averageTries": 2.452699899673462,
+  "latestSubmission": {
+    "id": 86475449,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 26040,
+    "timeMs": 240,
+    "codeLen": 1120,
+    "submittedAt": "1년 전"
+  }
+}

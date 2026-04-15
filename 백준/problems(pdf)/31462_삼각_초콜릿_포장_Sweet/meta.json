@@ -1,0 +1,20 @@
+{
+  "problemId": 31462,
+  "title": "삼각 초콜릿 포장 (Sweet)",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "greedy"
+  ],
+  "acceptedUserCount": 292,
+  "averageTries": 3.095900058746338,
+  "latestSubmission": {
+    "id": 86211708,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 50868,
+    "timeMs": 192,
+    "codeLen": 965,
+    "submittedAt": "1년 전"
+  }
+}

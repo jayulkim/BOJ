@@ -1,0 +1,20 @@
+{
+  "problemId": 13397,
+  "title": "구간 나누기 2",
+  "tier": 12,
+  "tags": [
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 2444,
+  "averageTries": 1.5475000143051147,
+  "latestSubmission": {
+    "id": 87591551,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 852,
+    "submittedAt": "1년 전"
+  }
+}

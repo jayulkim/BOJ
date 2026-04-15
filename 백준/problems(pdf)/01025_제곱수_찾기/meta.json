@@ -1,0 +1,19 @@
+{
+  "problemId": 1025,
+  "title": "제곱수 찾기",
+  "tier": 11,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 3746,
+  "averageTries": 2.6572000980377197,
+  "latestSubmission": {
+    "id": 91507034,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4136,
+    "timeMs": 12,
+    "codeLen": 1338,
+    "submittedAt": "1년 전"
+  }
+}

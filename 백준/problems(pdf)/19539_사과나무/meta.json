@@ -1,0 +1,20 @@
+{
+  "problemId": 19539,
+  "title": "사과나무",
+  "tier": 11,
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "acceptedUserCount": 2340,
+  "averageTries": 2.3171000480651855,
+  "latestSubmission": {
+    "id": 89041033,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3684,
+    "timeMs": 16,
+    "codeLen": 687,
+    "submittedAt": "1년 전"
+  }
+}

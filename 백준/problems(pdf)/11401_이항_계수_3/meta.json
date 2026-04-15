@@ -1,0 +1,24 @@
+{
+  "problemId": 11401,
+  "title": "이항 계수 3",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "combinatorics",
+    "exponentiation_by_squaring",
+    "modular_multiplicative_inverse",
+    "flt"
+  ],
+  "acceptedUserCount": 10512,
+  "averageTries": 2.4672999382019043,
+  "latestSubmission": {
+    "id": 105006060,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 32,
+    "codeLen": 3324,
+    "submittedAt": "1일 전"
+  }
+}

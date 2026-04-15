@@ -1,0 +1,19 @@
+{
+  "problemId": 24398,
+  "title": "알고리즘 수업 - 선택 알고리즘 1",
+  "tier": 6,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 140,
+  "averageTries": 4.17140007019043,
+  "latestSubmission": {
+    "id": 85217397,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2288,
+    "timeMs": 80,
+    "codeLen": 1291,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 1414,
+  "title": "불우이웃돕기",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "string",
+    "mst"
+  ],
+  "acceptedUserCount": 2604,
+  "averageTries": 2.0541000366210938,
+  "latestSubmission": {
+    "id": 94056416,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2336,
+    "timeMs": 0,
+    "codeLen": 1787,
+    "submittedAt": "11달 전"
+  }
+}

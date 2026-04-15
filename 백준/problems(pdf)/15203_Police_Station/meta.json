@@ -1,0 +1,21 @@
+{
+  "problemId": 15203,
+  "title": "Police Station",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "dag",
+    "scc"
+  ],
+  "acceptedUserCount": 94,
+  "averageTries": 2.3617000579833984,
+  "latestSubmission": {
+    "id": 93039994,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 212052,
+    "timeMs": 880,
+    "codeLen": 1971,
+    "submittedAt": "1년 전"
+  }
+}

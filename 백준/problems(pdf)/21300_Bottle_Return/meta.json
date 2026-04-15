@@ -1,0 +1,20 @@
+{
+  "problemId": 21300,
+  "title": "Bottle Return",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 6147,
+  "averageTries": 1.1539000272750854,
+  "latestSubmission": {
+    "id": 84893036,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 565,
+    "submittedAt": "1년 전"
+  }
+}

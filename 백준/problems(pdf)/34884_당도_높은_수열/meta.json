@@ -1,0 +1,20 @@
+{
+  "problemId": 34884,
+  "title": "당도 높은 수열",
+  "tier": 12,
+  "tags": [
+    "constructive",
+    "randomization"
+  ],
+  "acceptedUserCount": 91,
+  "averageTries": 2.2197999954223633,
+  "latestSubmission": {
+    "id": 100735612,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 5280,
+    "timeMs": 12,
+    "codeLen": 773,
+    "submittedAt": "4달 전"
+  }
+}

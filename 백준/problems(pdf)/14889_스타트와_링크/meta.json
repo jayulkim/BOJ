@@ -1,0 +1,20 @@
+{
+  "problemId": 14889,
+  "title": "스타트와 링크",
+  "tier": 10,
+  "tags": [
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 37641,
+  "averageTries": 2.1124000549316406,
+  "latestSubmission": {
+    "id": 84890337,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 84,
+    "codeLen": 1129,
+    "submittedAt": "1년 전"
+  }
+}

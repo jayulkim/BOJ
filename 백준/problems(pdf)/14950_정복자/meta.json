@@ -1,0 +1,20 @@
+{
+  "problemId": 14950,
+  "title": "정복자",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "mst"
+  ],
+  "acceptedUserCount": 1528,
+  "averageTries": 1.7186000347137451,
+  "latestSubmission": {
+    "id": 94130715,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3304,
+    "timeMs": 12,
+    "codeLen": 1487,
+    "submittedAt": "11달 전"
+  }
+}

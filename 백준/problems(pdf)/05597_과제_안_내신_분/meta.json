@@ -1,0 +1,19 @@
+{
+  "problemId": 5597,
+  "title": "과제 안 내신 분..?",
+  "tier": 3,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 87865,
+  "averageTries": 1.9291000366210938,
+  "latestSubmission": {
+    "id": 84881899,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 329,
+    "submittedAt": "1년 전"
+  }
+}

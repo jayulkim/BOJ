@@ -1,0 +1,20 @@
+{
+  "problemId": 16198,
+  "title": "에너지 모으기",
+  "tier": 10,
+  "tags": [
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 4402,
+  "averageTries": 1.3035000562667847,
+  "latestSubmission": {
+    "id": 84891825,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 16,
+    "codeLen": 980,
+    "submittedAt": "1년 전"
+  }
+}

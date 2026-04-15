@@ -1,0 +1,20 @@
+{
+  "problemId": 28237,
+  "title": "수학 선생님의 고민(Easy)",
+  "tier": 5,
+  "tags": [
+    "math",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 332,
+  "averageTries": 1.9457999467849731,
+  "latestSubmission": {
+    "id": 84894355,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 12836,
+    "timeMs": 0,
+    "codeLen": 1306,
+    "submittedAt": "1년 전"
+  }
+}

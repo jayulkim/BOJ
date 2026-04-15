@@ -1,0 +1,19 @@
+{
+  "problemId": 26209,
+  "title": "Intercepting Information",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 3582,
+  "averageTries": 1.3135000467300415,
+  "latestSubmission": {
+    "id": 84893968,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 523,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 13136,
+  "title": "Do Not Touch Anything",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 3784,
+  "averageTries": 1.8393000364303589,
+  "latestSubmission": {
+    "id": 95634199,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 398,
+    "submittedAt": "9달 전"
+  }
+}

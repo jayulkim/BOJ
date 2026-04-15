@@ -1,0 +1,25 @@
+{
+  "problemId": 26076,
+  "title": "곰곰이의 식단 관리 2",
+  "tier": 16,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "ad_hoc",
+    "bfs",
+    "shortest_path",
+    "dijkstra",
+    "0_1_bfs"
+  ],
+  "acceptedUserCount": 200,
+  "averageTries": 3.259999990463257,
+  "latestSubmission": {
+    "id": 93315878,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 828560,
+    "timeMs": 2660,
+    "codeLen": 2989,
+    "submittedAt": "11달 전"
+  }
+}

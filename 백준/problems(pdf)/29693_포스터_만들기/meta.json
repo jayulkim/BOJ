@@ -1,0 +1,19 @@
+{
+  "problemId": 29693,
+  "title": "포스터 만들기",
+  "tier": 7,
+  "tags": [
+    "constructive"
+  ],
+  "acceptedUserCount": 86,
+  "averageTries": 2.279099941253662,
+  "latestSubmission": {
+    "id": 86005624,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2120,
+    "timeMs": 4,
+    "codeLen": 1767,
+    "submittedAt": "1년 전"
+  }
+}

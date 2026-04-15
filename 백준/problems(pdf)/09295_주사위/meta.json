@@ -1,0 +1,21 @@
+{
+  "problemId": 9295,
+  "title": "주사위",
+  "tier": 2,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 8735,
+  "averageTries": 1.3507000207901,
+  "latestSubmission": {
+    "id": 95185976,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 481,
+    "submittedAt": "10달 전"
+  }
+}

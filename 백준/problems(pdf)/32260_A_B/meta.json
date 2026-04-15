@@ -1,0 +1,21 @@
+{
+  "problemId": 32260,
+  "title": "A + B",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 2113,
+  "averageTries": 1.7898999452590942,
+  "latestSubmission": {
+    "id": 87259370,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 63,
+    "submittedAt": "1년 전"
+  }
+}

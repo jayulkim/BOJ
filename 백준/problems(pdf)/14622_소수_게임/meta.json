@@ -1,0 +1,26 @@
+{
+  "problemId": 14622,
+  "title": "소수 게임",
+  "tier": 12,
+  "tags": [
+    "math",
+    "implementation",
+    "data_structures",
+    "number_theory",
+    "set",
+    "priority_queue",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 368,
+  "averageTries": 5.304299831390381,
+  "latestSubmission": {
+    "id": 84890046,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 80808,
+    "timeMs": 224,
+    "codeLen": 2609,
+    "submittedAt": "1년 전"
+  }
+}

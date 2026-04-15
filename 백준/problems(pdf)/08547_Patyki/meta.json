@@ -1,0 +1,21 @@
+{
+  "problemId": 8547,
+  "title": "Patyki",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 53,
+  "averageTries": 1.4150999784469604,
+  "latestSubmission": {
+    "id": 85153625,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2288,
+    "timeMs": 24,
+    "codeLen": 615,
+    "submittedAt": "1년 전"
+  }
+}

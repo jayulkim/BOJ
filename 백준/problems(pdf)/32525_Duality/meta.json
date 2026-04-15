@@ -1,0 +1,21 @@
+{
+  "problemId": 32525,
+  "title": "Duality",
+  "tier": 10,
+  "tags": [
+    "ad_hoc",
+    "geometry",
+    "constructive"
+  ],
+  "acceptedUserCount": 187,
+  "averageTries": 2.6791000366210938,
+  "latestSubmission": {
+    "id": 85743634,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 48,
+    "codeLen": 459,
+    "submittedAt": "1년 전"
+  }
+}

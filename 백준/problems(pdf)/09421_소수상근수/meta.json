@@ -1,0 +1,22 @@
+{
+  "problemId": 9421,
+  "title": "소수상근수",
+  "tier": 10,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 1042,
+  "averageTries": 1.8061000108718872,
+  "latestSubmission": {
+    "id": 84883228,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 12840,
+    "timeMs": 12,
+    "codeLen": 1200,
+    "submittedAt": "1년 전"
+  }
+}

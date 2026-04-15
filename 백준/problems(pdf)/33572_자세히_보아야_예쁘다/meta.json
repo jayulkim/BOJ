@@ -1,0 +1,21 @@
+{
+  "problemId": 33572,
+  "title": "자세히 보아야 예쁘다",
+  "tier": 4,
+  "tags": [
+    "implementation",
+    "greedy",
+    "pigeonhole_principle"
+  ],
+  "acceptedUserCount": 613,
+  "averageTries": 1.9200999736785889,
+  "latestSubmission": {
+    "id": 93688072,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 16,
+    "codeLen": 526,
+    "submittedAt": "11달 전"
+  }
+}

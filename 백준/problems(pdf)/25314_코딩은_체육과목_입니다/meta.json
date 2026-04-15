@@ -1,0 +1,19 @@
+{
+  "problemId": 25314,
+  "title": "코딩은 체육과목 입니다",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 83296,
+  "averageTries": 1.579200029373169,
+  "latestSubmission": {
+    "id": 84893692,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 226,
+    "submittedAt": "1년 전"
+  }
+}

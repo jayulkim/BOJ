@@ -1,0 +1,23 @@
+{
+  "problemId": 10159,
+  "title": "저울",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "shortest_path",
+    "dfs",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 5795,
+  "averageTries": 1.4519000053405762,
+  "latestSubmission": {
+    "id": 84883834,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2100,
+    "timeMs": 0,
+    "codeLen": 828,
+    "submittedAt": "1년 전"
+  }
+}

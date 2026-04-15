@@ -1,0 +1,21 @@
+{
+  "problemId": 2504,
+  "title": "괄호의 값",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 18090,
+  "averageTries": 3.0583999156951904,
+  "latestSubmission": {
+    "id": 84879198,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1192,
+    "timeMs": 0,
+    "codeLen": 3570,
+    "submittedAt": "1년 전"
+  }
+}

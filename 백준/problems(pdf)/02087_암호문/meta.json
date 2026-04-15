@@ -1,0 +1,23 @@
+{
+  "problemId": 2087,
+  "title": "암호문",
+  "tier": 15,
+  "tags": [
+    "data_structures",
+    "set",
+    "bitmask",
+    "hash_set",
+    "mitm"
+  ],
+  "acceptedUserCount": 200,
+  "averageTries": 2.7750000953674316,
+  "latestSubmission": {
+    "id": 94195007,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 98644,
+    "timeMs": 904,
+    "codeLen": 1752,
+    "submittedAt": "11달 전"
+  }
+}

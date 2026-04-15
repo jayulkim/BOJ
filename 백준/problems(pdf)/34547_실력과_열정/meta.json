@@ -1,0 +1,20 @@
+{
+  "problemId": 34547,
+  "title": "실력과 열정",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "invariant"
+  ],
+  "acceptedUserCount": 80,
+  "averageTries": 2.0999999046325684,
+  "latestSubmission": {
+    "id": 99227054,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3064,
+    "timeMs": 488,
+    "codeLen": 949,
+    "submittedAt": "6달 전"
+  }
+}

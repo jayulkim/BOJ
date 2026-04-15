@@ -1,0 +1,21 @@
+{
+  "problemId": 32984,
+  "title": "겨울이 좋아",
+  "tier": 13,
+  "tags": [
+    "binary_search",
+    "greedy",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 107,
+  "averageTries": 2.5139999389648438,
+  "latestSubmission": {
+    "id": 88036274,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10336,
+    "timeMs": 56,
+    "codeLen": 828,
+    "submittedAt": "1년 전"
+  }
+}

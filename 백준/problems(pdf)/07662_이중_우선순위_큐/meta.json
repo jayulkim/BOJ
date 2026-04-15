@@ -1,0 +1,22 @@
+{
+  "problemId": 7662,
+  "title": "이중 우선순위 큐",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "set",
+    "priority_queue",
+    "tree_set"
+  ],
+  "acceptedUserCount": 17058,
+  "averageTries": 4.239500045776367,
+  "latestSubmission": {
+    "id": 84882524,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 81028,
+    "timeMs": 1408,
+    "codeLen": 1212,
+    "submittedAt": "1년 전"
+  }
+}

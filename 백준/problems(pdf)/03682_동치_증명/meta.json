@@ -1,0 +1,20 @@
+{
+  "problemId": 3682,
+  "title": "동치 증명",
+  "tier": 19,
+  "tags": [
+    "graphs",
+    "scc"
+  ],
+  "acceptedUserCount": 351,
+  "averageTries": 3.90310001373291,
+  "latestSubmission": {
+    "id": 93040117,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6172,
+    "timeMs": 104,
+    "codeLen": 2795,
+    "submittedAt": "1년 전"
+  }
+}

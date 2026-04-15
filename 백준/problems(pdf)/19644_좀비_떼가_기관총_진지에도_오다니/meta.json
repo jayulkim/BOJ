@@ -1,0 +1,22 @@
+{
+  "problemId": 19644,
+  "title": "좀비 떼가 기관총 진지에도 오다니",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "prefix_sum",
+    "queue"
+  ],
+  "acceptedUserCount": 591,
+  "averageTries": 4.176000118255615,
+  "latestSubmission": {
+    "id": 84892865,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 47992,
+    "timeMs": 600,
+    "codeLen": 989,
+    "submittedAt": "1년 전"
+  }
+}

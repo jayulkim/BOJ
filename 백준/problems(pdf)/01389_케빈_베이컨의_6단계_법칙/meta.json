@@ -1,0 +1,23 @@
+{
+  "problemId": 1389,
+  "title": "케빈 베이컨의 6단계 법칙",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "shortest_path",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 24506,
+  "averageTries": 1.8313000202178955,
+  "latestSubmission": {
+    "id": 84867268,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2100,
+    "timeMs": 0,
+    "codeLen": 1047,
+    "submittedAt": "1년 전"
+  }
+}

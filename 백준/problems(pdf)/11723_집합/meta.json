@@ -1,0 +1,21 @@
+{
+  "problemId": 11723,
+  "title": "집합",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "set",
+    "bitmask"
+  ],
+  "acceptedUserCount": 38207,
+  "averageTries": 3.294800043106079,
+  "latestSubmission": {
+    "id": 84886968,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 544,
+    "codeLen": 957,
+    "submittedAt": "1년 전"
+  }
+}

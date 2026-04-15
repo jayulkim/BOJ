@@ -1,0 +1,20 @@
+{
+  "problemId": 10817,
+  "title": "세 수",
+  "tier": 2,
+  "tags": [
+    "implementation",
+    "sorting"
+  ],
+  "acceptedUserCount": 64074,
+  "averageTries": 1.9501999616622925,
+  "latestSubmission": {
+    "id": 84884476,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 466,
+    "submittedAt": "1년 전"
+  }
+}

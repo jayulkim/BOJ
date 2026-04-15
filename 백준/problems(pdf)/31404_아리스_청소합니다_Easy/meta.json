@@ -1,0 +1,20 @@
+{
+  "problemId": 31404,
+  "title": "아리스, 청소합니다! (Easy)",
+  "tier": 14,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 453,
+  "averageTries": 4.554100036621094,
+  "latestSubmission": {
+    "id": 84894791,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1164,
+    "timeMs": 120,
+    "codeLen": 4586,
+    "submittedAt": "1년 전"
+  }
+}

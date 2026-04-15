@@ -1,0 +1,23 @@
+{
+  "problemId": 16563,
+  "title": "어려운 소인수분해",
+  "tier": 12,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 1851,
+  "averageTries": 3.955199956893921,
+  "latestSubmission": {
+    "id": 84892041,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 24556,
+    "timeMs": 1324,
+    "codeLen": 918,
+    "submittedAt": "1년 전"
+  }
+}

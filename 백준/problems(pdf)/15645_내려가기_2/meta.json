@@ -1,0 +1,19 @@
+{
+  "problemId": 15645,
+  "title": "내려가기 2",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 619,
+  "averageTries": 1.4345999956130981,
+  "latestSubmission": {
+    "id": 84890722,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5536,
+    "timeMs": 16,
+    "codeLen": 1062,
+    "submittedAt": "1년 전"
+  }
+}

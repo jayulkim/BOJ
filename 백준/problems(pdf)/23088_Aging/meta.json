@@ -1,0 +1,20 @@
+{
+  "problemId": 23088,
+  "title": "Aging",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 151,
+  "averageTries": 3.178800106048584,
+  "latestSubmission": {
+    "id": 99149721,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 47276,
+    "timeMs": 144,
+    "codeLen": 1643,
+    "submittedAt": "6달 전"
+  }
+}

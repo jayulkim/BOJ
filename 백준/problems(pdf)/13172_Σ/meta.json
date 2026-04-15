@@ -1,0 +1,23 @@
+{
+  "problemId": 13172,
+  "title": "Σ",
+  "tier": 12,
+  "tags": [
+    "math",
+    "number_theory",
+    "exponentiation_by_squaring",
+    "modular_multiplicative_inverse",
+    "flt"
+  ],
+  "acceptedUserCount": 3884,
+  "averageTries": 2.09060001373291,
+  "latestSubmission": {
+    "id": 105006066,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 4,
+    "codeLen": 3425,
+    "submittedAt": "1일 전"
+  }
+}

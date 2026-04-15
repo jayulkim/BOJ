@@ -1,0 +1,21 @@
+{
+  "problemId": 2753,
+  "title": "윤년",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "arithmetic",
+    "math"
+  ],
+  "acceptedUserCount": 215745,
+  "averageTries": 1.927899956703186,
+  "latestSubmission": {
+    "id": 84880097,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 31120,
+    "timeMs": 40,
+    "codeLen": 114,
+    "submittedAt": "1년 전"
+  }
+}

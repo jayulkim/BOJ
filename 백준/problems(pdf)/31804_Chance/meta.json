@@ -1,0 +1,22 @@
+{
+  "problemId": 31804,
+  "title": "Chance!",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 214,
+  "averageTries": 1.8691999912261963,
+  "latestSubmission": {
+    "id": 86247461,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6084,
+    "timeMs": 4,
+    "codeLen": 823,
+    "submittedAt": "1년 전"
+  }
+}

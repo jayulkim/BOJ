@@ -1,0 +1,22 @@
+{
+  "problemId": 2153,
+  "title": "소수 단어",
+  "tier": 4,
+  "tags": [
+    "math",
+    "string",
+    "number_theory",
+    "primality_test"
+  ],
+  "acceptedUserCount": 3748,
+  "averageTries": 2.466399908065796,
+  "latestSubmission": {
+    "id": 84877792,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 643,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 27438,
+  "title": "영화감독 숌 2",
+  "tier": 13,
+  "tags": [
+    "bruteforcing",
+    "precomputation"
+  ],
+  "acceptedUserCount": 88,
+  "averageTries": 3.03410005569458,
+  "latestSubmission": {
+    "id": 86326820,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2260,
+    "timeMs": 4,
+    "codeLen": 171243,
+    "submittedAt": "1년 전"
+  }
+}

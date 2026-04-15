@@ -1,0 +1,23 @@
+{
+  "problemId": 17141,
+  "title": "연구소 2",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "bruteforcing",
+    "graph_traversal",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 4533,
+  "averageTries": 2.3647000789642334,
+  "latestSubmission": {
+    "id": 84892225,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2040,
+    "timeMs": 12,
+    "codeLen": 1827,
+    "submittedAt": "1년 전"
+  }
+}

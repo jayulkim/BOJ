@@ -1,0 +1,24 @@
+{
+  "problemId": 1418,
+  "title": "K-세준수",
+  "tier": 6,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "primality_test",
+    "sieve",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 1824,
+  "averageTries": 1.7730000019073486,
+  "latestSubmission": {
+    "id": 80540682,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2156,
+    "timeMs": 288,
+    "codeLen": 759,
+    "submittedAt": "1년 전"
+  }
+}

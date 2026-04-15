@@ -1,0 +1,19 @@
+{
+  "problemId": 19941,
+  "title": "햄버거 분배",
+  "tier": 8,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 8217,
+  "averageTries": 1.930299997329712,
+  "latestSubmission": {
+    "id": 84892897,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 693,
+    "submittedAt": "1년 전"
+  }
+}

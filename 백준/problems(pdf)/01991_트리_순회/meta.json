@@ -1,0 +1,20 @@
+{
+  "problemId": 1991,
+  "title": "트리 순회",
+  "tier": 10,
+  "tags": [
+    "trees",
+    "recursion"
+  ],
+  "acceptedUserCount": 40402,
+  "averageTries": 1.479699969291687,
+  "latestSubmission": {
+    "id": 84869765,
+    "result": "맞았습니다!!",
+    "language": "C11",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1549,
+    "submittedAt": "1년 전"
+  }
+}

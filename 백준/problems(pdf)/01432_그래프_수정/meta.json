@@ -1,0 +1,23 @@
+{
+  "problemId": 1432,
+  "title": "그래프 수정",
+  "tier": 17,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "priority_queue",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 365,
+  "averageTries": 3.7095999717712402,
+  "latestSubmission": {
+    "id": 84867456,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 0,
+    "codeLen": 964,
+    "submittedAt": "1년 전"
+  }
+}

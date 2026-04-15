@@ -1,0 +1,20 @@
+{
+  "problemId": 16434,
+  "title": "드래곤 앤 던전",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "binary_search"
+  ],
+  "acceptedUserCount": 2659,
+  "averageTries": 3.4825000762939453,
+  "latestSubmission": {
+    "id": 93612423,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6756,
+    "timeMs": 100,
+    "codeLen": 1359,
+    "submittedAt": "11달 전"
+  }
+}

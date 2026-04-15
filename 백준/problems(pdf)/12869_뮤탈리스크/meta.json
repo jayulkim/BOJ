@@ -1,0 +1,22 @@
+{
+  "problemId": 12869,
+  "title": "뮤탈리스크",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 4904,
+  "averageTries": 2.084199905395508,
+  "latestSubmission": {
+    "id": 87069867,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2956,
+    "timeMs": 12,
+    "codeLen": 1113,
+    "submittedAt": "1년 전"
+  }
+}

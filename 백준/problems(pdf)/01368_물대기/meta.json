@@ -1,0 +1,20 @@
+{
+  "problemId": 1368,
+  "title": "물대기",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "mst"
+  ],
+  "acceptedUserCount": 2791,
+  "averageTries": 2.174499988555908,
+  "latestSubmission": {
+    "id": 85793085,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4460,
+    "timeMs": 8,
+    "codeLen": 1026,
+    "submittedAt": "1년 전"
+  }
+}

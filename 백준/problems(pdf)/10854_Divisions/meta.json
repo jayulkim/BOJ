@@ -1,0 +1,24 @@
+{
+  "problemId": 10854,
+  "title": "Divisions",
+  "tier": 20,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "prime_factorization",
+    "pollard_rho",
+    "miller_rabin"
+  ],
+  "acceptedUserCount": 784,
+  "averageTries": 1.867300033569336,
+  "latestSubmission": {
+    "id": 84884799,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1120,
+    "timeMs": 172,
+    "codeLen": 3080,
+    "submittedAt": "1년 전"
+  }
+}

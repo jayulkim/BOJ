@@ -1,0 +1,19 @@
+{
+  "problemId": 32775,
+  "title": "가희와 4시간의 벽 1",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 2582,
+  "averageTries": 1.833799958229065,
+  "latestSubmission": {
+    "id": 91507266,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 375,
+    "submittedAt": "1년 전"
+  }
+}

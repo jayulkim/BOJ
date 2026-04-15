@@ -1,0 +1,20 @@
+{
+  "problemId": 2230,
+  "title": "수 고르기",
+  "tier": 11,
+  "tags": [
+    "sorting",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 8696,
+  "averageTries": 3.161900043487549,
+  "latestSubmission": {
+    "id": 84878160,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 9712,
+    "timeMs": 40,
+    "codeLen": 929,
+    "submittedAt": "1년 전"
+  }
+}

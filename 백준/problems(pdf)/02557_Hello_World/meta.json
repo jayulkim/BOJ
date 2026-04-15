@@ -1,0 +1,19 @@
+{
+  "problemId": 2557,
+  "title": "Hello World",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 407857,
+  "averageTries": 2.520400047302246,
+  "latestSubmission": {
+    "id": 84879364,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 64,
+    "submittedAt": "1년 전"
+  }
+}

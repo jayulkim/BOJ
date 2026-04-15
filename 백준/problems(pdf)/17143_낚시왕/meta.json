@@ -1,0 +1,20 @@
+{
+  "problemId": 17143,
+  "title": "낚시왕",
+  "tier": 15,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 11790,
+  "averageTries": 3.473599910736084,
+  "latestSubmission": {
+    "id": 86712308,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2556,
+    "timeMs": 32,
+    "codeLen": 2904,
+    "submittedAt": "1년 전"
+  }
+}

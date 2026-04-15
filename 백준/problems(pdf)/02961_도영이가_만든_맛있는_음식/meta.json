@@ -1,0 +1,21 @@
+{
+  "problemId": 2961,
+  "title": "도영이가 만든 맛있는 음식",
+  "tier": 9,
+  "tags": [
+    "bruteforcing",
+    "bitmask",
+    "backtracking"
+  ],
+  "acceptedUserCount": 9688,
+  "averageTries": 1.76419997215271,
+  "latestSubmission": {
+    "id": 84880642,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 264,
+    "codeLen": 993,
+    "submittedAt": "1년 전"
+  }
+}

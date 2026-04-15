@@ -1,0 +1,20 @@
+{
+  "problemId": 32333,
+  "title": "한양이의 새로운 시계",
+  "tier": 10,
+  "tags": [
+    "implementation",
+    "sorting"
+  ],
+  "acceptedUserCount": 28,
+  "averageTries": 4.178599834442139,
+  "latestSubmission": {
+    "id": 86534082,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 39024,
+    "timeMs": 332,
+    "codeLen": 2807,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 1515,
+  "title": "수 이어 쓰기",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "greedy",
+    "string",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 3485,
+  "averageTries": 1.9250999689102173,
+  "latestSubmission": {
+    "id": 103202343,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 978,
+    "submittedAt": "1달 전"
+  }
+}

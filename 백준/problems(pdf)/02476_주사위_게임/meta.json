@@ -1,0 +1,21 @@
+{
+  "problemId": 2476,
+  "title": "주사위 게임",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 13871,
+  "averageTries": 1.820099949836731,
+  "latestSubmission": {
+    "id": 84879110,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1544,
+    "timeMs": 0,
+    "codeLen": 1389,
+    "submittedAt": "1년 전"
+  }
+}

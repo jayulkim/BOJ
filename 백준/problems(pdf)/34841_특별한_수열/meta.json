@@ -1,0 +1,21 @@
+{
+  "problemId": 34841,
+  "title": "특별한 수열",
+  "tier": 14,
+  "tags": [
+    "math",
+    "data_structures",
+    "set"
+  ],
+  "acceptedUserCount": 68,
+  "averageTries": 1.7206000089645386,
+  "latestSubmission": {
+    "id": 100733168,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 14628,
+    "timeMs": 136,
+    "codeLen": 1929,
+    "submittedAt": "4달 전"
+  }
+}

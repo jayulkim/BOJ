@@ -1,0 +1,26 @@
+{
+  "problemId": 21088,
+  "title": "Remove the Prime",
+  "tier": 23,
+  "tags": [
+    "math",
+    "number_theory",
+    "game_theory",
+    "primality_test",
+    "prime_factorization",
+    "sprague_grundy",
+    "pollard_rho",
+    "miller_rabin"
+  ],
+  "acceptedUserCount": 97,
+  "averageTries": 6.876299858093262,
+  "latestSubmission": {
+    "id": 105005643,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2220,
+    "timeMs": 1088,
+    "codeLen": 6456,
+    "submittedAt": "2일 전"
+  }
+}

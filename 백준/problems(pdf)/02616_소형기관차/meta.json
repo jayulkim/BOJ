@@ -1,0 +1,20 @@
+{
+  "problemId": 2616,
+  "title": "소형기관차",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 3727,
+  "averageTries": 2.0703001022338867,
+  "latestSubmission": {
+    "id": 100027225,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 10196,
+    "timeMs": 8,
+    "codeLen": 1029,
+    "submittedAt": "5달 전"
+  }
+}

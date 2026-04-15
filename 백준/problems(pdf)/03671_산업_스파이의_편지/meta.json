@@ -1,0 +1,24 @@
+{
+  "problemId": 3671,
+  "title": "산업 스파이의 편지",
+  "tier": 11,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "combinatorics",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 818,
+  "averageTries": 1.9021999835968018,
+  "latestSubmission": {
+    "id": 88122148,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14356,
+    "timeMs": 100,
+    "codeLen": 1098,
+    "submittedAt": "1년 전"
+  }
+}

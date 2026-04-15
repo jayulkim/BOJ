@@ -1,0 +1,19 @@
+{
+  "problemId": 15232,
+  "title": "Rectangles",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 4949,
+  "averageTries": 1.2280999422073364,
+  "latestSubmission": {
+    "id": 84890522,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 328,
+    "submittedAt": "1년 전"
+  }
+}

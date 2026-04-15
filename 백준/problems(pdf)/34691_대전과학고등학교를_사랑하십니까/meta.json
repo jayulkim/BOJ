@@ -1,0 +1,19 @@
+{
+  "problemId": 34691,
+  "title": "대전과학고등학교를 사랑하십니까?",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 1282,
+  "averageTries": 1.3072999715805054,
+  "latestSubmission": {
+    "id": 101160248,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 919,
+    "submittedAt": "3달 전"
+  }
+}

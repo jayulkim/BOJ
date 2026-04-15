@@ -1,0 +1,19 @@
+{
+  "problemId": 11066,
+  "title": "파일 합치기",
+  "tier": 13,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 13846,
+  "averageTries": 2.062700033187866,
+  "latestSubmission": {
+    "id": 85573834,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4124,
+    "timeMs": 844,
+    "codeLen": 859,
+    "submittedAt": "1년 전"
+  }
+}

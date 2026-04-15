@@ -1,0 +1,20 @@
+{
+  "problemId": 27980,
+  "title": "문자열 게임",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "string"
+  ],
+  "acceptedUserCount": 129,
+  "averageTries": 1.728700041770935,
+  "latestSubmission": {
+    "id": 100588557,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 198296,
+    "timeMs": 1164,
+    "codeLen": 1258,
+    "submittedAt": "4달 전"
+  }
+}

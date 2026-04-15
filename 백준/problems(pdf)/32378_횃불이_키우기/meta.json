@@ -1,0 +1,20 @@
+{
+  "problemId": 32378,
+  "title": "횃불이 키우기",
+  "tier": 14,
+  "tags": [
+    "dp",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 79,
+  "averageTries": 5.329100131988525,
+  "latestSubmission": {
+    "id": 86419780,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 70860,
+    "timeMs": 92,
+    "codeLen": 1142,
+    "submittedAt": "1년 전"
+  }
+}

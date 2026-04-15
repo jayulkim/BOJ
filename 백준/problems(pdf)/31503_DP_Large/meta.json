@@ -1,0 +1,19 @@
+{
+  "problemId": 31503,
+  "title": "DP (Large)",
+  "tier": 16,
+  "tags": [
+    "lis"
+  ],
+  "acceptedUserCount": 154,
+  "averageTries": 1.7791999578475952,
+  "latestSubmission": {
+    "id": 84894825,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 7880,
+    "timeMs": 128,
+    "codeLen": 1340,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "problemId": 21736,
+  "title": "헌내기는 친구가 필요해",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 11900,
+  "averageTries": 1.6550999879837036,
+  "latestSubmission": {
+    "id": 87304293,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3388,
+    "timeMs": 12,
+    "codeLen": 1143,
+    "submittedAt": "1년 전"
+  }
+}

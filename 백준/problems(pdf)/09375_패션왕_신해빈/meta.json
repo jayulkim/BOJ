@@ -1,0 +1,23 @@
+{
+  "problemId": 9375,
+  "title": "패션왕 신해빈",
+  "tier": 8,
+  "tags": [
+    "math",
+    "data_structures",
+    "set",
+    "combinatorics",
+    "hash_set"
+  ],
+  "acceptedUserCount": 28310,
+  "averageTries": 1.7520999908447266,
+  "latestSubmission": {
+    "id": 84883209,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 999,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 5046,
+  "title": "전국 대학생 프로그래밍 대회 동아리 연합",
+  "tier": 5,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 1046,
+  "averageTries": 2.00570011138916,
+  "latestSubmission": {
+    "id": 84881508,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 454,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 9471,
+  "title": "피사노 주기",
+  "tier": 8,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "pisano"
+  ],
+  "acceptedUserCount": 1446,
+  "averageTries": 1.379699945449829,
+  "latestSubmission": {
+    "id": 84883325,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 4,
+    "codeLen": 619,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 26594,
+  "title": "ZOAC 5",
+  "tier": 3,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 1077,
+  "averageTries": 1.7493000030517578,
+  "latestSubmission": {
+    "id": 95991762,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3680,
+    "timeMs": 4,
+    "codeLen": 506,
+    "submittedAt": "9달 전"
+  }
+}

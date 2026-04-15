@@ -1,0 +1,23 @@
+{
+  "problemId": 14249,
+  "title": "점프 점프 2",
+  "tier": 19,
+  "tags": [
+    "dp",
+    "graphs",
+    "dag",
+    "topological_sorting",
+    "scc"
+  ],
+  "acceptedUserCount": 98,
+  "averageTries": 1.8265000581741333,
+  "latestSubmission": {
+    "id": 93062652,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 24972,
+    "timeMs": 40,
+    "codeLen": 2794,
+    "submittedAt": "1년 전"
+  }
+}

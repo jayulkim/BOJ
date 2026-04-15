@@ -1,0 +1,23 @@
+{
+  "problemId": 1953,
+  "title": "팀배분",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "bipartite_graph"
+  ],
+  "acceptedUserCount": 885,
+  "averageTries": 2.273400068283081,
+  "latestSubmission": {
+    "id": 101201724,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2220,
+    "timeMs": 0,
+    "codeLen": 1809,
+    "submittedAt": "3달 전"
+  }
+}

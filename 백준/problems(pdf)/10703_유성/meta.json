@@ -1,0 +1,19 @@
+{
+  "problemId": 10703,
+  "title": "유성",
+  "tier": 10,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 754,
+  "averageTries": 4.018599987030029,
+  "latestSubmission": {
+    "id": 84884127,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 35816,
+    "timeMs": 340,
+    "codeLen": 1013,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "problemId": 11725,
+  "title": "트리의 부모 찾기",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "bfs",
+    "dfs"
+  ],
+  "acceptedUserCount": 39346,
+  "averageTries": 2.2446999549865723,
+  "latestSubmission": {
+    "id": 84887018,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 11316,
+    "timeMs": 40,
+    "codeLen": 674,
+    "submittedAt": "1년 전"
+  }
+}

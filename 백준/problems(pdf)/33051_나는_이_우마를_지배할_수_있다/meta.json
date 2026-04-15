@@ -1,0 +1,19 @@
+{
+  "problemId": 33051,
+  "title": "나는 이 우마를 지배할 수 있다",
+  "tier": 11,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 124,
+  "averageTries": 2.39520001411438,
+  "latestSubmission": {
+    "id": 95026904,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 316,
+    "codeLen": 2072,
+    "submittedAt": "10달 전"
+  }
+}

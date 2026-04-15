@@ -1,0 +1,22 @@
+{
+  "problemId": 19580,
+  "title": "마스크가 필요해",
+  "tier": 16,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 244,
+  "averageTries": 4.3892998695373535,
+  "latestSubmission": {
+    "id": 104338807,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 49752,
+    "timeMs": 772,
+    "codeLen": 1226,
+    "submittedAt": "21일 전"
+  }
+}

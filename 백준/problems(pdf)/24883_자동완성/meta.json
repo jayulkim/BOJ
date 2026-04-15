@@ -1,0 +1,19 @@
+{
+  "problemId": 24883,
+  "title": "자동완성",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 7379,
+  "averageTries": 1.2984999418258667,
+  "latestSubmission": {
+    "id": 84893594,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2092,
+    "timeMs": 0,
+    "codeLen": 486,
+    "submittedAt": "1년 전"
+  }
+}

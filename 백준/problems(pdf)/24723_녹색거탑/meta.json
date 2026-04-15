@@ -1,0 +1,20 @@
+{
+  "problemId": 24723,
+  "title": "녹색거탑",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 14955,
+  "averageTries": 1.4931000471115112,
+  "latestSubmission": {
+    "id": 84893576,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 233,
+    "submittedAt": "1년 전"
+  }
+}

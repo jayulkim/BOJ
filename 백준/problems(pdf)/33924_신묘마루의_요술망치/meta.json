@@ -1,0 +1,20 @@
+{
+  "problemId": 33924,
+  "title": "신묘마루의 요술망치",
+  "tier": 5,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 242,
+  "averageTries": 1.2107000350952148,
+  "latestSubmission": {
+    "id": 98444332,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 1688,
+    "submittedAt": "7달 전"
+  }
+}

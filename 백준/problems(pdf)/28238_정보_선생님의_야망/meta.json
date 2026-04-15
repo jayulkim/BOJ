@@ -1,0 +1,20 @@
+{
+  "problemId": 28238,
+  "title": "정보 선생님의 야망",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 474,
+  "averageTries": 2.487299919128418,
+  "latestSubmission": {
+    "id": 86834915,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 88048,
+    "timeMs": 436,
+    "codeLen": 874,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 5800,
+  "title": "성적 통계",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "sorting"
+  ],
+  "acceptedUserCount": 6949,
+  "averageTries": 1.8854999542236328,
+  "latestSubmission": {
+    "id": 84882096,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 856,
+    "submittedAt": "1년 전"
+  }
+}

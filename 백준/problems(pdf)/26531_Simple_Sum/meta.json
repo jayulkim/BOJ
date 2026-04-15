@@ -1,0 +1,21 @@
+{
+  "problemId": 26531,
+  "title": "Simple Sum",
+  "tier": 2,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 1176,
+  "averageTries": 1.1854000091552734,
+  "latestSubmission": {
+    "id": 94771025,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 519,
+    "submittedAt": "10달 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 13412,
+  "title": "서로소 쌍",
+  "tier": 9,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 535,
+  "averageTries": 1.8504999876022339,
+  "latestSubmission": {
+    "id": 84888741,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 778,
+    "submittedAt": "1년 전"
+  }
+}

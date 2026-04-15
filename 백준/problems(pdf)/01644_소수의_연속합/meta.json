@@ -1,0 +1,23 @@
+{
+  "problemId": 1644,
+  "title": "소수의 연속합",
+  "tier": 13,
+  "tags": [
+    "math",
+    "number_theory",
+    "two_pointer",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 19974,
+  "averageTries": 2.3738999366760254,
+  "latestSubmission": {
+    "id": 84868187,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 47992,
+    "timeMs": 56,
+    "codeLen": 1397,
+    "submittedAt": "1년 전"
+  }
+}

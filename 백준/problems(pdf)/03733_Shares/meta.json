@@ -1,0 +1,20 @@
+{
+  "problemId": 3733,
+  "title": "Shares",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 6467,
+  "averageTries": 1.7940000295639038,
+  "latestSubmission": {
+    "id": 84881008,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 208,
+    "submittedAt": "1년 전"
+  }
+}

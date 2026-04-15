@@ -1,0 +1,22 @@
+{
+  "problemId": 14269,
+  "title": "전설의 쌍검 용사",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "set"
+  ],
+  "acceptedUserCount": 61,
+  "averageTries": 5.229499816894531,
+  "latestSubmission": {
+    "id": 86772971,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10604,
+    "timeMs": 60,
+    "codeLen": 1164,
+    "submittedAt": "1년 전"
+  }
+}

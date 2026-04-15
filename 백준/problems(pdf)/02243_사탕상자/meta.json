@@ -1,0 +1,21 @@
+{
+  "problemId": 2243,
+  "title": "사탕상자",
+  "tier": 16,
+  "tags": [
+    "binary_search",
+    "segtree",
+    "data_structures"
+  ],
+  "acceptedUserCount": 5372,
+  "averageTries": 2.4946000576019287,
+  "latestSubmission": {
+    "id": 86707101,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 33272,
+    "timeMs": 72,
+    "codeLen": 1262,
+    "submittedAt": "1년 전"
+  }
+}

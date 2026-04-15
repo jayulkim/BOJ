@@ -1,0 +1,24 @@
+{
+  "problemId": 32390,
+  "title": "과녁 맞히기",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "combinatorics",
+    "exponentiation_by_squaring",
+    "modular_multiplicative_inverse",
+    "flt"
+  ],
+  "acceptedUserCount": 85,
+  "averageTries": 1.6588000059127808,
+  "latestSubmission": {
+    "id": 85513928,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 588,
+    "codeLen": 1044,
+    "submittedAt": "1년 전"
+  }
+}

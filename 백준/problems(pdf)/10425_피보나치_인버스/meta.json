@@ -1,0 +1,21 @@
+{
+  "problemId": 10425,
+  "title": "피보나치 인버스",
+  "tier": 9,
+  "tags": [
+    "binary_search",
+    "set",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 427,
+  "averageTries": 2.5855000019073486,
+  "latestSubmission": {
+    "id": 85749049,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8364,
+    "timeMs": 32,
+    "codeLen": 706,
+    "submittedAt": "1년 전"
+  }
+}

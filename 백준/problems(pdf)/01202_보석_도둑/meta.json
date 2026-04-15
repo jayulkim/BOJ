@@ -1,0 +1,22 @@
+{
+  "problemId": 1202,
+  "title": "보석 도둑",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 18529,
+  "averageTries": 4.120699882507324,
+  "latestSubmission": {
+    "id": 84865983,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 14008,
+    "timeMs": 240,
+    "codeLen": 2198,
+    "submittedAt": "1년 전"
+  }
+}

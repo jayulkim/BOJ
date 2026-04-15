@@ -1,0 +1,20 @@
+{
+  "problemId": 20127,
+  "title": "Y-수열",
+  "tier": 11,
+  "tags": [
+    "ad_hoc",
+    "case_work"
+  ],
+  "acceptedUserCount": 277,
+  "averageTries": 3.22379994392395,
+  "latestSubmission": {
+    "id": 101324892,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 5704,
+    "timeMs": 8,
+    "codeLen": 1837,
+    "submittedAt": "3달 전"
+  }
+}

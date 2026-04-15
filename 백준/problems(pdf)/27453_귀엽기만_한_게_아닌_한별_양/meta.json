@@ -1,0 +1,22 @@
+{
+  "problemId": 27453,
+  "title": "귀엽기만 한 게 아닌 한별 양",
+  "tier": 15,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 118,
+  "averageTries": 4.016900062561035,
+  "latestSubmission": {
+    "id": 91002408,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 32512,
+    "timeMs": 204,
+    "codeLen": 1527,
+    "submittedAt": "1년 전"
+  }
+}

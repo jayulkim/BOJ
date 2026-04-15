@@ -1,0 +1,22 @@
+{
+  "problemId": 9417,
+  "title": "최대 GCD",
+  "tier": 7,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 1620,
+  "averageTries": 1.4079999923706055,
+  "latestSubmission": {
+    "id": 84883221,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 982,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 11728,
+  "title": "배열 합치기",
+  "tier": 6,
+  "tags": [
+    "sorting",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 17700,
+  "averageTries": 2.10260009765625,
+  "latestSubmission": {
+    "id": 84887150,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 48004,
+    "timeMs": 740,
+    "codeLen": 1417,
+    "submittedAt": "1년 전"
+  }
+}

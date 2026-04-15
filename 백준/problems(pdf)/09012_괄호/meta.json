@@ -1,0 +1,21 @@
+{
+  "problemId": 9012,
+  "title": "괄호",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "string",
+    "stack"
+  ],
+  "acceptedUserCount": 95525,
+  "averageTries": 2.1094000339508057,
+  "latestSubmission": {
+    "id": 84997702,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 779,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 1809,
+  "title": "Moo",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 6851,
+  "averageTries": 2.1196999549865723,
+  "latestSubmission": {
+    "id": 84868886,
+    "result": "맞았습니다!!",
+    "language": "Golfscript",
+    "memoryKb": 120728,
+    "timeMs": 124,
+    "codeLen": 59,
+    "submittedAt": "1년 전"
+  }
+}

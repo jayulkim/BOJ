@@ -1,0 +1,21 @@
+{
+  "problemId": 2532,
+  "title": "먹이사슬",
+  "tier": 17,
+  "tags": [
+    "sorting",
+    "binary_search",
+    "lis"
+  ],
+  "acceptedUserCount": 683,
+  "averageTries": 3.349900007247925,
+  "latestSubmission": {
+    "id": 84879299,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 7884,
+    "timeMs": 212,
+    "codeLen": 920,
+    "submittedAt": "1년 전"
+  }
+}

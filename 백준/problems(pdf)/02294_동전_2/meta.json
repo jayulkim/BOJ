@@ -1,0 +1,19 @@
+{
+  "problemId": 2294,
+  "title": "동전 2",
+  "tier": 11,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 21666,
+  "averageTries": 3.2076001167297363,
+  "latestSubmission": {
+    "id": 84878369,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1156,
+    "timeMs": 0,
+    "codeLen": 770,
+    "submittedAt": "1년 전"
+  }
+}

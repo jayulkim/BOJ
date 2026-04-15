@@ -1,0 +1,20 @@
+{
+  "problemId": 1431,
+  "title": "시리얼 번호",
+  "tier": 8,
+  "tags": [
+    "string",
+    "sorting"
+  ],
+  "acceptedUserCount": 10793,
+  "averageTries": 1.7005000114440918,
+  "latestSubmission": {
+    "id": 84867438,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1120,
+    "timeMs": 0,
+    "codeLen": 1451,
+    "submittedAt": "1년 전"
+  }
+}

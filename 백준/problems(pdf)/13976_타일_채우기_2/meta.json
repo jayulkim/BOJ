@@ -1,0 +1,21 @@
+{
+  "problemId": 13976,
+  "title": "타일 채우기 2",
+  "tier": 16,
+  "tags": [
+    "math",
+    "dp",
+    "exponentiation_by_squaring"
+  ],
+  "acceptedUserCount": 1178,
+  "averageTries": 2.1129000186920166,
+  "latestSubmission": {
+    "id": 84889174,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2152,
+    "timeMs": 0,
+    "codeLen": 2117,
+    "submittedAt": "1년 전"
+  }
+}

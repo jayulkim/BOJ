@@ -1,0 +1,23 @@
+{
+  "problemId": 2015,
+  "title": "수들의 합 4",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "set",
+    "prefix_sum",
+    "hash_set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 2748,
+  "averageTries": 2.69320011138916,
+  "latestSubmission": {
+    "id": 84869870,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14416,
+    "timeMs": 44,
+    "codeLen": 514,
+    "submittedAt": "1년 전"
+  }
+}

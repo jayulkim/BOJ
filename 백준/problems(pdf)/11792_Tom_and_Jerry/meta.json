@@ -1,0 +1,20 @@
+{
+  "problemId": 11792,
+  "title": "Tom and Jerry",
+  "tier": 14,
+  "tags": [
+    "math",
+    "calculus"
+  ],
+  "acceptedUserCount": 83,
+  "averageTries": 1.710800051689148,
+  "latestSubmission": {
+    "id": 84887431,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 276,
+    "codeLen": 323,
+    "submittedAt": "1년 전"
+  }
+}

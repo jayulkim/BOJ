@@ -1,0 +1,22 @@
+{
+  "problemId": 14938,
+  "title": "서강그라운드",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 10322,
+  "averageTries": 1.9611999988555908,
+  "latestSubmission": {
+    "id": 84890471,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2100,
+    "timeMs": 0,
+    "codeLen": 984,
+    "submittedAt": "1년 전"
+  }
+}

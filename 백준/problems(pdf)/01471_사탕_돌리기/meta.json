@@ -1,0 +1,24 @@
+{
+  "problemId": 1471,
+  "title": "사탕 돌리기",
+  "tier": 16,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "dfs",
+    "scc",
+    "functional_graph"
+  ],
+  "acceptedUserCount": 236,
+  "averageTries": 1.8389999866485596,
+  "latestSubmission": {
+    "id": 93081741,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 33292,
+    "timeMs": 68,
+    "codeLen": 2509,
+    "submittedAt": "1년 전"
+  }
+}

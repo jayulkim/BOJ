@@ -1,0 +1,24 @@
+{
+  "problemId": 1012,
+  "title": "유기농 배추",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "grid_graph",
+    "flood_fill"
+  ],
+  "acceptedUserCount": 69452,
+  "averageTries": 2.4727001190185547,
+  "latestSubmission": {
+    "id": 84864960,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1244,
+    "timeMs": 0,
+    "codeLen": 1261,
+    "submittedAt": "1년 전"
+  }
+}

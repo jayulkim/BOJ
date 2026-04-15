@@ -1,0 +1,19 @@
+{
+  "problemId": 17262,
+  "title": "팬덤이 넘쳐흘러",
+  "tier": 7,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 1014,
+  "averageTries": 1.9437999725341797,
+  "latestSubmission": {
+    "id": 93528958,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 16,
+    "codeLen": 535,
+    "submittedAt": "11달 전"
+  }
+}

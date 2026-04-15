@@ -1,0 +1,21 @@
+{
+  "problemId": 33913,
+  "title": "even 하게 익은 SCON",
+  "tier": 10,
+  "tags": [
+    "math",
+    "dp",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 168,
+  "averageTries": 1.3393000364303589,
+  "latestSubmission": {
+    "id": 97450297,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 1108,
+    "submittedAt": "8달 전"
+  }
+}

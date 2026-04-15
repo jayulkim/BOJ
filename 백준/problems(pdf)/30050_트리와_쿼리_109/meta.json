@@ -1,0 +1,22 @@
+{
+  "problemId": 30050,
+  "title": "트리와 쿼리 ${10}^{9}$",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "trees",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 106,
+  "averageTries": 1.5943000316619873,
+  "latestSubmission": {
+    "id": 98981549,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 87436,
+    "timeMs": 1068,
+    "codeLen": 1581,
+    "submittedAt": "6달 전"
+  }
+}

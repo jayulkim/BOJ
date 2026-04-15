@@ -1,0 +1,22 @@
+{
+  "problemId": 26266,
+  "title": "비즈네르 암호 해독",
+  "tier": 11,
+  "tags": [
+    "math",
+    "string",
+    "bruteforcing",
+    "number_theory"
+  ],
+  "acceptedUserCount": 228,
+  "averageTries": 3.2455999851226807,
+  "latestSubmission": {
+    "id": 100288910,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3592,
+    "timeMs": 28,
+    "codeLen": 1696,
+    "submittedAt": "4달 전"
+  }
+}

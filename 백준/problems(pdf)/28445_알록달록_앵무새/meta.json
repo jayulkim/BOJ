@@ -1,0 +1,22 @@
+{
+  "problemId": 28445,
+  "title": "알록달록 앵무새",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "string",
+    "sorting"
+  ],
+  "acceptedUserCount": 974,
+  "averageTries": 1.2289999723434448,
+  "latestSubmission": {
+    "id": 84894412,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 0,
+    "codeLen": 714,
+    "submittedAt": "1년 전"
+  }
+}

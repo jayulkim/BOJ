@@ -1,0 +1,20 @@
+{
+  "problemId": 1449,
+  "title": "수리공 항승",
+  "tier": 8,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 11812,
+  "averageTries": 1.9557000398635864,
+  "latestSubmission": {
+    "id": 84867534,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 486,
+    "submittedAt": "1년 전"
+  }
+}

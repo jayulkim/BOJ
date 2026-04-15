@@ -1,0 +1,25 @@
+{
+  "problemId": 31335,
+  "title": "What the Flex?",
+  "tier": 21,
+  "tags": [
+    "math",
+    "sorting",
+    "number_theory",
+    "primality_test",
+    "prime_factorization",
+    "pollard_rho",
+    "miller_rabin"
+  ],
+  "acceptedUserCount": 35,
+  "averageTries": 4.342899799346924,
+  "latestSubmission": {
+    "id": 91152448,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2036,
+    "timeMs": 60,
+    "codeLen": 2549,
+    "submittedAt": "1년 전"
+  }
+}

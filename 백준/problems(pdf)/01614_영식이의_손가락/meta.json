@@ -1,0 +1,22 @@
+{
+  "problemId": 1614,
+  "title": "영식이의 손가락",
+  "tier": 8,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic",
+    "case_work"
+  ],
+  "acceptedUserCount": 1507,
+  "averageTries": 2.8261001110076904,
+  "latestSubmission": {
+    "id": 84868105,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 678,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 31723,
+  "title": "무빙워크",
+  "tier": 16,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 74,
+  "averageTries": 2.094599962234497,
+  "latestSubmission": {
+    "id": 91024891,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 85164,
+    "timeMs": 1160,
+    "codeLen": 1279,
+    "submittedAt": "1년 전"
+  }
+}

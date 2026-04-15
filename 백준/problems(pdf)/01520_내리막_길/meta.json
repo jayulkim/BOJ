@@ -1,0 +1,22 @@
+{
+  "problemId": 1520,
+  "title": "내리막 길",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "dfs"
+  ],
+  "acceptedUserCount": 21415,
+  "averageTries": 3.4546000957489014,
+  "latestSubmission": {
+    "id": 84867836,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4920,
+    "timeMs": 24,
+    "codeLen": 805,
+    "submittedAt": "1년 전"
+  }
+}

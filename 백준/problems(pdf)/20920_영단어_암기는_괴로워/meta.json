@@ -1,0 +1,24 @@
+{
+  "problemId": 20920,
+  "title": "영단어 암기는 괴로워",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "string",
+    "sorting",
+    "set",
+    "hash_set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 14055,
+  "averageTries": 2.146699905395508,
+  "latestSubmission": {
+    "id": 84892996,
+    "result": "맞았습니다!!",
+    "language": "Java 11",
+    "memoryKb": 38448,
+    "timeMs": 728,
+    "codeLen": 2200,
+    "submittedAt": "1년 전"
+  }
+}

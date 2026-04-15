@@ -1,0 +1,21 @@
+{
+  "problemId": 32685,
+  "title": "4-LSB",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation",
+    "bitmask"
+  ],
+  "acceptedUserCount": 374,
+  "averageTries": 1.4118000268936157,
+  "latestSubmission": {
+    "id": 86543876,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 1109,
+    "submittedAt": "1년 전"
+  }
+}

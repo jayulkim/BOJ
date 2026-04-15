@@ -1,0 +1,23 @@
+{
+  "problemId": 2800,
+  "title": "괄호 제거",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "string",
+    "bruteforcing",
+    "bitmask",
+    "stack"
+  ],
+  "acceptedUserCount": 2777,
+  "averageTries": 2.6041998863220215,
+  "latestSubmission": {
+    "id": 84880198,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2436,
+    "timeMs": 0,
+    "codeLen": 1473,
+    "submittedAt": "1년 전"
+  }
+}

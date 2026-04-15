@@ -1,0 +1,20 @@
+{
+  "problemId": 2437,
+  "title": "저울",
+  "tier": 14,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 9746,
+  "averageTries": 2.4193999767303467,
+  "latestSubmission": {
+    "id": 84878926,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 382,
+    "submittedAt": "1년 전"
+  }
+}

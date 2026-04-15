@@ -1,0 +1,20 @@
+{
+  "problemId": 1774,
+  "title": "우주신과의 교감",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "mst"
+  ],
+  "acceptedUserCount": 6736,
+  "averageTries": 3.0578999519348145,
+  "latestSubmission": {
+    "id": 84868805,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14464,
+    "timeMs": 20,
+    "codeLen": 1531,
+    "submittedAt": "1년 전"
+  }
+}

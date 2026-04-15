@@ -1,0 +1,19 @@
+{
+  "problemId": 2920,
+  "title": "음계",
+  "tier": 4,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 64614,
+  "averageTries": 1.7175999879837036,
+  "latestSubmission": {
+    "id": 84880553,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 534,
+    "submittedAt": "1년 전"
+  }
+}

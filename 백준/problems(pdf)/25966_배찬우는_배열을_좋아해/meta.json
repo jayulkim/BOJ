@@ -1,0 +1,19 @@
+{
+  "problemId": 25966,
+  "title": "배찬우는 배열을 좋아해",
+  "tier": 6,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 542,
+  "averageTries": 2.2362000942230225,
+  "latestSubmission": {
+    "id": 84893893,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 37212,
+    "timeMs": 1416,
+    "codeLen": 680,
+    "submittedAt": "1년 전"
+  }
+}

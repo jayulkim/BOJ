@@ -1,0 +1,22 @@
+{
+  "problemId": 14574,
+  "title": "헤븐스 키친",
+  "tier": 16,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "dfs",
+    "mst"
+  ],
+  "acceptedUserCount": 297,
+  "averageTries": 3.3534998893737793,
+  "latestSubmission": {
+    "id": 99028873,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 20684,
+    "timeMs": 32,
+    "codeLen": 2492,
+    "submittedAt": "6달 전"
+  }
+}

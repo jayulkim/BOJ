@@ -1,0 +1,22 @@
+{
+  "problemId": 29699,
+  "title": "Welcome to SMUPC!",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "string",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 3916,
+  "averageTries": 1.854200005531311,
+  "latestSubmission": {
+    "id": 84894509,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1156,
+    "timeMs": 0,
+    "codeLen": 463,
+    "submittedAt": "1년 전"
+  }
+}

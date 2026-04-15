@@ -1,0 +1,21 @@
+{
+  "problemId": 32514,
+  "title": "최단 경로 아니면 음수 사이클",
+  "tier": 16,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "bellman_ford"
+  ],
+  "acceptedUserCount": 46,
+  "averageTries": 6.065199851989746,
+  "latestSubmission": {
+    "id": 85399899,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4348,
+    "timeMs": 1936,
+    "codeLen": 1573,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 14905,
+  "title": "소수 4개의 합",
+  "tier": 13,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 295,
+  "averageTries": 3.3492000102996826,
+  "latestSubmission": {
+    "id": 84890352,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 196428,
+    "timeMs": 1584,
+    "codeLen": 2702,
+    "submittedAt": "1년 전"
+  }
+}

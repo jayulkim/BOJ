@@ -1,0 +1,19 @@
+{
+  "problemId": 23235,
+  "title": "The Fastest Sorting Algorithm In The World",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 3911,
+  "averageTries": 1.5535999536514282,
+  "latestSubmission": {
+    "id": 84893264,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 517,
+    "submittedAt": "1년 전"
+  }
+}

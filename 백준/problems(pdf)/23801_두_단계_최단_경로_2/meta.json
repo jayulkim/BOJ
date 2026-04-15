@@ -1,0 +1,21 @@
+{
+  "problemId": 23801,
+  "title": "두 단계 최단 경로 2",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 376,
+  "averageTries": 4.17549991607666,
+  "latestSubmission": {
+    "id": 103737992,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 23520,
+    "timeMs": 184,
+    "codeLen": 2141,
+    "submittedAt": "1달 전"
+  }
+}

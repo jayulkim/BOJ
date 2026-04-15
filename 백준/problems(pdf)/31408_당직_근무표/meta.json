@@ -1,0 +1,20 @@
+{
+  "problemId": 31408,
+  "title": "당직 근무표",
+  "tier": 5,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 661,
+  "averageTries": 1.6792999505996704,
+  "latestSubmission": {
+    "id": 84894793,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2288,
+    "timeMs": 24,
+    "codeLen": 1314,
+    "submittedAt": "1년 전"
+  }
+}

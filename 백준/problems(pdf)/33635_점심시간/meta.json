@@ -1,0 +1,22 @@
+{
+  "problemId": 33635,
+  "title": "─점심시간─",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "bruteforcing",
+    "hash_set",
+    "bitset"
+  ],
+  "acceptedUserCount": 76,
+  "averageTries": 1.855299949645996,
+  "latestSubmission": {
+    "id": 92237440,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2564,
+    "timeMs": 724,
+    "codeLen": 957,
+    "submittedAt": "1년 전"
+  }
+}

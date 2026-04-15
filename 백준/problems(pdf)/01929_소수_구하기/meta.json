@@ -1,0 +1,22 @@
+{
+  "problemId": 1929,
+  "title": "소수 구하기",
+  "tier": 8,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 74913,
+  "averageTries": 3.401400089263916,
+  "latestSubmission": {
+    "id": 84869313,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 152,
+    "codeLen": 395,
+    "submittedAt": "1년 전"
+  }
+}

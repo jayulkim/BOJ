@@ -1,0 +1,20 @@
+{
+  "problemId": 33258,
+  "title": "상현이의 수학 공부 대작전",
+  "tier": 10,
+  "tags": [
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 68,
+  "averageTries": 2.8529000282287598,
+  "latestSubmission": {
+    "id": 89164045,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3684,
+    "timeMs": 12,
+    "codeLen": 859,
+    "submittedAt": "1년 전"
+  }
+}

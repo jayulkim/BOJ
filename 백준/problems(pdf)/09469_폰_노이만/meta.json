@@ -1,0 +1,20 @@
+{
+  "problemId": 9469,
+  "title": "폰 노이만",
+  "tier": 3,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 1817,
+  "averageTries": 1.2145999670028687,
+  "latestSubmission": {
+    "id": 95542513,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 514,
+    "submittedAt": "9달 전"
+  }
+}

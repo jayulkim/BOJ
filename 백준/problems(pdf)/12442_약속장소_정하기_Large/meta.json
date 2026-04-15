@@ -1,0 +1,21 @@
+{
+  "problemId": 12442,
+  "title": "약속장소 정하기 (Large)",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 105,
+  "averageTries": 2.4286000728607178,
+  "latestSubmission": {
+    "id": 92137101,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 19272,
+    "timeMs": 540,
+    "codeLen": 1881,
+    "submittedAt": "1년 전"
+  }
+}

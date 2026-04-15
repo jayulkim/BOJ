@@ -1,0 +1,19 @@
+{
+  "problemId": 10170,
+  "title": "NFC West vs North",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 14965,
+  "averageTries": 1.336899995803833,
+  "latestSubmission": {
+    "id": 84883876,
+    "result": "맞았습니다!!",
+    "language": "Text",
+    "memoryKb": 4528,
+    "timeMs": 0,
+    "codeLen": 288,
+    "submittedAt": "1년 전"
+  }
+}

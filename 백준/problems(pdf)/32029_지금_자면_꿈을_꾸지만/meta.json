@@ -1,0 +1,21 @@
+{
+  "problemId": 32029,
+  "title": "지금 자면 꿈을 꾸지만",
+  "tier": 11,
+  "tags": [
+    "greedy",
+    "bruteforcing",
+    "sorting"
+  ],
+  "acceptedUserCount": 384,
+  "averageTries": 2.3724000453948975,
+  "latestSubmission": {
+    "id": 100156893,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 1449,
+    "submittedAt": "5달 전"
+  }
+}

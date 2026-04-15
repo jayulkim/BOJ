@@ -1,0 +1,21 @@
+{
+  "problemId": 1769,
+  "title": "3의 배수",
+  "tier": 6,
+  "tags": [
+    "math",
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 6765,
+  "averageTries": 3.07450008392334,
+  "latestSubmission": {
+    "id": 84868728,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2092,
+    "timeMs": 8,
+    "codeLen": 766,
+    "submittedAt": "1년 전"
+  }
+}

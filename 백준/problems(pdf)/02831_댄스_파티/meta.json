@@ -1,0 +1,21 @@
+{
+  "problemId": 2831,
+  "title": "댄스 파티",
+  "tier": 12,
+  "tags": [
+    "greedy",
+    "sorting",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 870,
+  "averageTries": 2.7309999465942383,
+  "latestSubmission": {
+    "id": 84880310,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3852,
+    "timeMs": 48,
+    "codeLen": 1762,
+    "submittedAt": "1년 전"
+  }
+}

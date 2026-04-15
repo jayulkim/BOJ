@@ -1,0 +1,21 @@
+{
+  "problemId": 2473,
+  "title": "세 용액",
+  "tier": 13,
+  "tags": [
+    "sorting",
+    "binary_search",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 11072,
+  "averageTries": 3.557800054550171,
+  "latestSubmission": {
+    "id": 84879089,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1156,
+    "timeMs": 40,
+    "codeLen": 1198,
+    "submittedAt": "1년 전"
+  }
+}

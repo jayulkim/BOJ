@@ -1,0 +1,19 @@
+{
+  "problemId": 3359,
+  "title": "사각 사각",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 304,
+  "averageTries": 2.207200050354004,
+  "latestSubmission": {
+    "id": 84880905,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2036,
+    "timeMs": 0,
+    "codeLen": 562,
+    "submittedAt": "1년 전"
+  }
+}

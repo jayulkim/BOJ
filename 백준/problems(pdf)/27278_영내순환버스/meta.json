@@ -1,0 +1,20 @@
+{
+  "problemId": 27278,
+  "title": "영내순환버스",
+  "tier": 10,
+  "tags": [
+    "math",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 145,
+  "averageTries": 2.151700019836426,
+  "latestSubmission": {
+    "id": 84894139,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5152,
+    "timeMs": 40,
+    "codeLen": 916,
+    "submittedAt": "1년 전"
+  }
+}

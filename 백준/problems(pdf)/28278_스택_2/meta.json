@@ -1,0 +1,20 @@
+{
+  "problemId": 28278,
+  "title": "스택 2",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 21079,
+  "averageTries": 2.608299970626831,
+  "latestSubmission": {
+    "id": 84894369,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5020,
+    "timeMs": 212,
+    "codeLen": 936,
+    "submittedAt": "1년 전"
+  }
+}

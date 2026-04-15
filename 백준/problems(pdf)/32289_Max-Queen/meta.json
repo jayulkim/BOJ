@@ -1,0 +1,20 @@
+{
+  "problemId": 32289,
+  "title": "Max-Queen",
+  "tier": 6,
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "acceptedUserCount": 219,
+  "averageTries": 1.054800033569336,
+  "latestSubmission": {
+    "id": 84895056,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 478,
+    "submittedAt": "1년 전"
+  }
+}

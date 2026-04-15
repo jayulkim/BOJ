@@ -1,0 +1,21 @@
+{
+  "problemId": 1697,
+  "title": "숨바꼭질",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 62056,
+  "averageTries": 3.660099983215332,
+  "latestSubmission": {
+    "id": 84868344,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3328,
+    "timeMs": 0,
+    "codeLen": 853,
+    "submittedAt": "1년 전"
+  }
+}

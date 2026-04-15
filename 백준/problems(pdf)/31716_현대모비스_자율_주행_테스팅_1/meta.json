@@ -1,0 +1,22 @@
+{
+  "problemId": 31716,
+  "title": "현대모비스 자율 주행 테스팅 1",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "case_work"
+  ],
+  "acceptedUserCount": 103,
+  "averageTries": 4.388299942016602,
+  "latestSubmission": {
+    "id": 100366101,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2504,
+    "timeMs": 12,
+    "codeLen": 3513,
+    "submittedAt": "4달 전"
+  }
+}

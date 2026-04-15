@@ -1,0 +1,20 @@
+{
+  "problemId": 2346,
+  "title": "풍선 터뜨리기",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "deque"
+  ],
+  "acceptedUserCount": 18475,
+  "averageTries": 2.20169997215271,
+  "latestSubmission": {
+    "id": 84878463,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1120,
+    "timeMs": 4,
+    "codeLen": 2229,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 35185,
+  "title": "바바와 깃발 게임",
+  "tier": 14,
+  "tags": [
+    "implementation",
+    "ad_hoc",
+    "simulation"
+  ],
+  "acceptedUserCount": 101,
+  "averageTries": 1.792099952697754,
+  "latestSubmission": {
+    "id": 102609106,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 5588,
+    "timeMs": 4,
+    "codeLen": 1469,
+    "submittedAt": "2달 전"
+  }
+}

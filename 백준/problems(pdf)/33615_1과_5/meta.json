@@ -1,0 +1,23 @@
+{
+  "problemId": 33615,
+  "title": "1과 5",
+  "tier": 11,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "number_theory",
+    "constructive",
+    "case_work"
+  ],
+  "acceptedUserCount": 277,
+  "averageTries": 2.592099905014038,
+  "latestSubmission": {
+    "id": 91468161,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2912,
+    "timeMs": 4,
+    "codeLen": 1119,
+    "submittedAt": "1년 전"
+  }
+}

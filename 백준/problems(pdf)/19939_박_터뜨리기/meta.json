@@ -1,0 +1,20 @@
+{
+  "problemId": 19939,
+  "title": "박 터뜨리기",
+  "tier": 7,
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "acceptedUserCount": 5120,
+  "averageTries": 2.6257998943328857,
+  "latestSubmission": {
+    "id": 86440836,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 399,
+    "submittedAt": "1년 전"
+  }
+}

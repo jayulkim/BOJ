@@ -1,0 +1,19 @@
+{
+  "problemId": 32957,
+  "title": "절대적인 스왑",
+  "tier": 15,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 42,
+  "averageTries": 2.2857000827789307,
+  "latestSubmission": {
+    "id": 87753520,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 96,
+    "codeLen": 507,
+    "submittedAt": "1년 전"
+  }
+}

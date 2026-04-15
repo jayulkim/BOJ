@@ -1,0 +1,17 @@
+{
+  "problemId": 32773,
+  "title": "problem_32773",
+  "tier": null,
+  "tags": [],
+  "acceptedUserCount": null,
+  "averageTries": null,
+  "latestSubmission": {
+    "id": 86889211,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 842,
+    "submittedAt": "1년 전"
+  }
+}

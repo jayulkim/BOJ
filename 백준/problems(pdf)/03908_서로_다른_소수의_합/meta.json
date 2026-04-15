@@ -1,0 +1,23 @@
+{
+  "problemId": 3908,
+  "title": "서로 다른 소수의 합",
+  "tier": 13,
+  "tags": [
+    "math",
+    "dp",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 634,
+  "averageTries": 1.589900016784668,
+  "latestSubmission": {
+    "id": 84881046,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2996,
+    "timeMs": 0,
+    "codeLen": 1085,
+    "submittedAt": "1년 전"
+  }
+}

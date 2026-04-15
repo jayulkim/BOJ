@@ -1,0 +1,20 @@
+{
+  "problemId": 17362,
+  "title": "수학은 체육과목 입니다 2",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 6235,
+  "averageTries": 1.4637999534606934,
+  "latestSubmission": {
+    "id": 84892397,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 521,
+    "submittedAt": "1년 전"
+  }
+}

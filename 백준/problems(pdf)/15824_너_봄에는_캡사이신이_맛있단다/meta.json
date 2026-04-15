@@ -1,0 +1,22 @@
+{
+  "problemId": 15824,
+  "title": "너 봄에는 캡사이신이 맛있단다",
+  "tier": 14,
+  "tags": [
+    "math",
+    "sorting",
+    "combinatorics",
+    "exponentiation_by_squaring"
+  ],
+  "acceptedUserCount": 2588,
+  "averageTries": 3.456700086593628,
+  "latestSubmission": {
+    "id": 84891262,
+    "result": "250점",
+    "language": "C++17",
+    "memoryKb": 6712,
+    "timeMs": 76,
+    "codeLen": 849,
+    "submittedAt": "1년 전"
+  }
+}

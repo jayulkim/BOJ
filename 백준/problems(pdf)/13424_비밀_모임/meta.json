@@ -1,0 +1,22 @@
+{
+  "problemId": 13424,
+  "title": "비밀 모임",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 1838,
+  "averageTries": 1.8574999570846558,
+  "latestSubmission": {
+    "id": 84888792,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2104,
+    "timeMs": 4,
+    "codeLen": 1090,
+    "submittedAt": "1년 전"
+  }
+}

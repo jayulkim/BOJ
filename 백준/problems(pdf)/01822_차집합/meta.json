@@ -1,0 +1,23 @@
+{
+  "problemId": 1822,
+  "title": "차집합",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "set",
+    "hash_set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 6427,
+  "averageTries": 2.1073999404907227,
+  "latestSubmission": {
+    "id": 84868949,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8932,
+    "timeMs": 380,
+    "codeLen": 1304,
+    "submittedAt": "1년 전"
+  }
+}

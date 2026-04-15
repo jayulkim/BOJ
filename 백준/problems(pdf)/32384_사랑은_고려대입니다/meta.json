@@ -1,0 +1,19 @@
+{
+  "problemId": 32384,
+  "title": "사랑은 고려대입니다",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 4119,
+  "averageTries": 1.267799973487854,
+  "latestSubmission": {
+    "id": 87492434,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 326,
+    "submittedAt": "1년 전"
+  }
+}

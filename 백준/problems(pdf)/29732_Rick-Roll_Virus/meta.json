@@ -1,0 +1,19 @@
+{
+  "problemId": 29732,
+  "title": "Rick-Roll Virus",
+  "tier": 5,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 292,
+  "averageTries": 2.0615999698638916,
+  "latestSubmission": {
+    "id": 86327618,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2164,
+    "timeMs": 116,
+    "codeLen": 654,
+    "submittedAt": "1년 전"
+  }
+}

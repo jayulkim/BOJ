@@ -1,0 +1,21 @@
+{
+  "problemId": 33931,
+  "title": "체크박스 누르기",
+  "tier": 11,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "parity"
+  ],
+  "acceptedUserCount": 117,
+  "averageTries": 1.9915000200271606,
+  "latestSubmission": {
+    "id": 98449190,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 593,
+    "submittedAt": "7달 전"
+  }
+}

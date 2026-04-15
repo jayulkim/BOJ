@@ -1,0 +1,24 @@
+{
+  "problemId": 33758,
+  "title": "계단 보행",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "data_structures",
+    "graph_traversal",
+    "set",
+    "bfs",
+    "tree_set"
+  ],
+  "acceptedUserCount": 33,
+  "averageTries": 4.242400169372559,
+  "latestSubmission": {
+    "id": 92828603,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 90368,
+    "timeMs": 612,
+    "codeLen": 2733,
+    "submittedAt": "1년 전"
+  }
+}

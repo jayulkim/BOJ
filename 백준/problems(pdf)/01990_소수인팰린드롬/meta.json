@@ -1,0 +1,22 @@
+{
+  "problemId": 1990,
+  "title": "소수인팰린드롬",
+  "tier": 11,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 1868,
+  "averageTries": 4.397200107574463,
+  "latestSubmission": {
+    "id": 84869731,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 79240,
+    "timeMs": 244,
+    "codeLen": 1463,
+    "submittedAt": "1년 전"
+  }
+}

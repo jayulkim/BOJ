@@ -1,0 +1,21 @@
+{
+  "problemId": 13251,
+  "title": "조약돌 꺼내기",
+  "tier": 8,
+  "tags": [
+    "math",
+    "combinatorics",
+    "probability"
+  ],
+  "acceptedUserCount": 2612,
+  "averageTries": 2.312000036239624,
+  "latestSubmission": {
+    "id": 84888545,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 576,
+    "submittedAt": "1년 전"
+  }
+}

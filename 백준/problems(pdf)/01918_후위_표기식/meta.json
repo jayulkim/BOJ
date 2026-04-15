@@ -1,0 +1,20 @@
+{
+  "problemId": 1918,
+  "title": "후위 표기식",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 19045,
+  "averageTries": 2.5195000171661377,
+  "latestSubmission": {
+    "id": 79001967,
+    "result": "맞았습니다!!",
+    "language": "C11",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1756,
+    "submittedAt": "1년 전"
+  }
+}

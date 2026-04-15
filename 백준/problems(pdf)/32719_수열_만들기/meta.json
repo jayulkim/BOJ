@@ -1,0 +1,21 @@
+{
+  "problemId": 32719,
+  "title": "수열 만들기",
+  "tier": 14,
+  "tags": [
+    "math",
+    "greedy",
+    "constructive"
+  ],
+  "acceptedUserCount": 71,
+  "averageTries": 1.9296000003814697,
+  "latestSubmission": {
+    "id": 86985699,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 83348,
+    "timeMs": 52,
+    "codeLen": 873,
+    "submittedAt": "1년 전"
+  }
+}

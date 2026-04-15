@@ -1,0 +1,20 @@
+{
+  "problemId": 13909,
+  "title": "창문 닫기",
+  "tier": 6,
+  "tags": [
+    "math",
+    "number_theory"
+  ],
+  "acceptedUserCount": 11858,
+  "averageTries": 1.9534000158309937,
+  "latestSubmission": {
+    "id": 84889029,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 304,
+    "submittedAt": "1년 전"
+  }
+}

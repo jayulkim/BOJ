@@ -1,0 +1,20 @@
+{
+  "problemId": 28702,
+  "title": "FizzBuzz",
+  "tier": 5,
+  "tags": [
+    "math",
+    "string"
+  ],
+  "acceptedUserCount": 12712,
+  "averageTries": 1.638200044631958,
+  "latestSubmission": {
+    "id": 100629104,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 964,
+    "submittedAt": "4달 전"
+  }
+}

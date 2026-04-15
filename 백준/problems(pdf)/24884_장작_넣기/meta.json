@@ -1,0 +1,22 @@
+{
+  "problemId": 24884,
+  "title": "장작 넣기",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "bruteforcing",
+    "simulation",
+    "backtracking"
+  ],
+  "acceptedUserCount": 152,
+  "averageTries": 5.276299953460693,
+  "latestSubmission": {
+    "id": 99653709,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 4,
+    "codeLen": 1745,
+    "submittedAt": "5달 전"
+  }
+}

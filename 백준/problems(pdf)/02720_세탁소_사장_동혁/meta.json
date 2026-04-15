@@ -1,0 +1,21 @@
+{
+  "problemId": 2720,
+  "title": "세탁소 사장 동혁",
+  "tier": 3,
+  "tags": [
+    "math",
+    "greedy",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 39628,
+  "averageTries": 1.4356000423431396,
+  "latestSubmission": {
+    "id": 84879856,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1079,
+    "submittedAt": "1년 전"
+  }
+}

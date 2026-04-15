@@ -1,0 +1,19 @@
+{
+  "problemId": 1339,
+  "title": "단어 수학",
+  "tier": 12,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 15640,
+  "averageTries": 2.1243999004364014,
+  "latestSubmission": {
+    "id": 84867023,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 2610,
+    "submittedAt": "1년 전"
+  }
+}

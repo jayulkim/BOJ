@@ -1,0 +1,21 @@
+{
+  "problemId": 34331,
+  "title": "Last Man Standing",
+  "tier": 16,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "mst"
+  ],
+  "acceptedUserCount": 41,
+  "averageTries": 1.6340999603271484,
+  "latestSubmission": {
+    "id": 98695409,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 28516,
+    "timeMs": 168,
+    "codeLen": 2630,
+    "submittedAt": "6달 전"
+  }
+}

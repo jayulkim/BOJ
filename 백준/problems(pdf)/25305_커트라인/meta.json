@@ -1,0 +1,20 @@
+{
+  "problemId": 25305,
+  "title": "커트라인",
+  "tier": 4,
+  "tags": [
+    "implementation",
+    "sorting"
+  ],
+  "acceptedUserCount": 34495,
+  "averageTries": 1.4944000244140625,
+  "latestSubmission": {
+    "id": 84893675,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1041,
+    "submittedAt": "1년 전"
+  }
+}

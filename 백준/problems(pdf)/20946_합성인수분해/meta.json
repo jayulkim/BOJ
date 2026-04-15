@@ -1,0 +1,23 @@
+{
+  "problemId": 20946,
+  "title": "합성인수분해",
+  "tier": 11,
+  "tags": [
+    "math",
+    "greedy",
+    "number_theory",
+    "primality_test",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 379,
+  "averageTries": 4.530300140380859,
+  "latestSubmission": {
+    "id": 84893018,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 24552,
+    "timeMs": 16,
+    "codeLen": 1472,
+    "submittedAt": "1년 전"
+  }
+}

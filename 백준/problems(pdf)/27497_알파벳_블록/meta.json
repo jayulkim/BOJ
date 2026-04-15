@@ -1,0 +1,22 @@
+{
+  "problemId": 27497,
+  "title": "알파벳 블록",
+  "tier": 9,
+  "tags": [
+    "data_structures",
+    "string",
+    "stack",
+    "deque"
+  ],
+  "acceptedUserCount": 996,
+  "averageTries": 2.7952001094818115,
+  "latestSubmission": {
+    "id": 84894239,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 9904,
+    "timeMs": 140,
+    "codeLen": 1556,
+    "submittedAt": "1년 전"
+  }
+}

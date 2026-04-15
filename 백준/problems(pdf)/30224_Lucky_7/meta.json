@@ -1,0 +1,20 @@
+{
+  "problemId": 30224,
+  "title": "Lucky 7",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 2855,
+  "averageTries": 1.3327000141143799,
+  "latestSubmission": {
+    "id": 84894659,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1156,
+    "timeMs": 0,
+    "codeLen": 1111,
+    "submittedAt": "1년 전"
+  }
+}

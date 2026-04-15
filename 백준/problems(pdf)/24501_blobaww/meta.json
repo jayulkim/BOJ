@@ -1,0 +1,20 @@
+{
+  "problemId": 24501,
+  "title": "blobaww",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 285,
+  "averageTries": 3.6315999031066895,
+  "latestSubmission": {
+    "id": 99547880,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 292864,
+    "timeMs": 460,
+    "codeLen": 1731,
+    "submittedAt": "5달 전"
+  }
+}

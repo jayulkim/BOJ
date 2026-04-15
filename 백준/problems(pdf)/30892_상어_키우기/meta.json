@@ -1,0 +1,22 @@
+{
+  "problemId": 30892,
+  "title": "상어 키우기",
+  "tier": 10,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "stack"
+  ],
+  "acceptedUserCount": 542,
+  "averageTries": 2.9354000091552734,
+  "latestSubmission": {
+    "id": 92064789,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8296,
+    "timeMs": 52,
+    "codeLen": 756,
+    "submittedAt": "1년 전"
+  }
+}

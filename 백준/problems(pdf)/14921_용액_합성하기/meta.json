@@ -1,0 +1,19 @@
+{
+  "problemId": 14921,
+  "title": "용액 합성하기",
+  "tier": 11,
+  "tags": [
+    "two_pointer"
+  ],
+  "acceptedUserCount": 3132,
+  "averageTries": 2.118499994277954,
+  "latestSubmission": {
+    "id": 84890386,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1896,
+    "timeMs": 20,
+    "codeLen": 1027,
+    "submittedAt": "1년 전"
+  }
+}

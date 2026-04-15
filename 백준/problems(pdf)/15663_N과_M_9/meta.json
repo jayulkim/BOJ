@@ -1,0 +1,19 @@
+{
+  "problemId": 15663,
+  "title": "N과 M (9)",
+  "tier": 9,
+  "tags": [
+    "backtracking"
+  ],
+  "acceptedUserCount": 24522,
+  "averageTries": 1.9876999855041504,
+  "latestSubmission": {
+    "id": 84890897,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 8,
+    "codeLen": 655,
+    "submittedAt": "1년 전"
+  }
+}

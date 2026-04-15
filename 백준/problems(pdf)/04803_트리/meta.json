@@ -1,0 +1,24 @@
+{
+  "problemId": 4803,
+  "title": "트리",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "dfs",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 6725,
+  "averageTries": 2.8803999423980713,
+  "latestSubmission": {
+    "id": 84881388,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 20,
+    "codeLen": 2018,
+    "submittedAt": "1년 전"
+  }
+}

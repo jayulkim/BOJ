@@ -1,0 +1,19 @@
+{
+  "problemId": 32406,
+  "title": "의좋은 형제",
+  "tier": 11,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 166,
+  "averageTries": 1.9699000120162964,
+  "latestSubmission": {
+    "id": 84895153,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5148,
+    "timeMs": 32,
+    "codeLen": 666,
+    "submittedAt": "1년 전"
+  }
+}

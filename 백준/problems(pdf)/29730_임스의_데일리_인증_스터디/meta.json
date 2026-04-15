@@ -1,0 +1,21 @@
+{
+  "problemId": 29730,
+  "title": "임스의 데일리 인증 스터디",
+  "tier": 8,
+  "tags": [
+    "string",
+    "sorting",
+    "parsing"
+  ],
+  "acceptedUserCount": 409,
+  "averageTries": 2.6308000087738037,
+  "latestSubmission": {
+    "id": 84894572,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1996,
+    "timeMs": 0,
+    "codeLen": 1514,
+    "submittedAt": "1년 전"
+  }
+}

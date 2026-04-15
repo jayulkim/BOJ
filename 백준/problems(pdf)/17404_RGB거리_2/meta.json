@@ -1,0 +1,19 @@
+{
+  "problemId": 17404,
+  "title": "RGB거리 2",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 11828,
+  "averageTries": 1.6359000205993652,
+  "latestSubmission": {
+    "id": 84892447,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1164,
+    "timeMs": 0,
+    "codeLen": 2149,
+    "submittedAt": "1년 전"
+  }
+}

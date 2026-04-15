@@ -1,0 +1,20 @@
+{
+  "problemId": 1758,
+  "title": "알바생 강호",
+  "tier": 7,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 5360,
+  "averageTries": 2.192199945449829,
+  "latestSubmission": {
+    "id": 84868654,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2284,
+    "timeMs": 16,
+    "codeLen": 613,
+    "submittedAt": "1년 전"
+  }
+}

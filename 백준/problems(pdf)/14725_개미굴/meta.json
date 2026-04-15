@@ -1,0 +1,23 @@
+{
+  "problemId": 14725,
+  "title": "개미굴",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "string",
+    "trees",
+    "set",
+    "trie"
+  ],
+  "acceptedUserCount": 6052,
+  "averageTries": 1.4759000539779663,
+  "latestSubmission": {
+    "id": 89178762,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2980,
+    "timeMs": 4,
+    "codeLen": 2473,
+    "submittedAt": "1년 전"
+  }
+}

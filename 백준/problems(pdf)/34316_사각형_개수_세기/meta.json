@@ -1,0 +1,19 @@
+{
+  "problemId": 34316,
+  "title": "사각형 개수 세기",
+  "tier": 12,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 49,
+  "averageTries": 2.2653000354766846,
+  "latestSubmission": {
+    "id": 102795403,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 4840,
+    "timeMs": 40,
+    "codeLen": 1512,
+    "submittedAt": "2달 전"
+  }
+}

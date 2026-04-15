@@ -1,0 +1,19 @@
+{
+  "problemId": 32713,
+  "title": "숫자 POP",
+  "tier": 8,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 160,
+  "averageTries": 1.8938000202178955,
+  "latestSubmission": {
+    "id": 96856335,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2180,
+    "timeMs": 40,
+    "codeLen": 929,
+    "submittedAt": "8달 전"
+  }
+}

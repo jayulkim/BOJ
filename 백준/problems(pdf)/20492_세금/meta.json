@@ -1,0 +1,20 @@
+{
+  "problemId": 20492,
+  "title": "세금",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 11201,
+  "averageTries": 1.5425000190734863,
+  "latestSubmission": {
+    "id": 84892989,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 266,
+    "submittedAt": "1년 전"
+  }
+}

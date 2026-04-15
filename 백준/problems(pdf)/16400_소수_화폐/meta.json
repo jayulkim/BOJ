@@ -1,0 +1,23 @@
+{
+  "problemId": 16400,
+  "title": "소수 화폐",
+  "tier": 11,
+  "tags": [
+    "math",
+    "dp",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 752,
+  "averageTries": 2.1503000259399414,
+  "latestSubmission": {
+    "id": 84891940,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1584,
+    "timeMs": 204,
+    "codeLen": 554,
+    "submittedAt": "1년 전"
+  }
+}

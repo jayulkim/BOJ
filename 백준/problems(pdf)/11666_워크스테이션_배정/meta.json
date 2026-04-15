@@ -1,0 +1,22 @@
+{
+  "problemId": 11666,
+  "title": "워크스테이션 배정",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 245,
+  "averageTries": 2.261199951171875,
+  "latestSubmission": {
+    "id": 84886729,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 10492,
+    "timeMs": 176,
+    "codeLen": 2174,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "problemId": 1595,
+  "title": "북쪽나라의 도로",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "dfs",
+    "tree_diameter"
+  ],
+  "acceptedUserCount": 632,
+  "averageTries": 2.776900053024292,
+  "latestSubmission": {
+    "id": 99906529,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2916,
+    "timeMs": 0,
+    "codeLen": 1569,
+    "submittedAt": "5달 전"
+  }
+}

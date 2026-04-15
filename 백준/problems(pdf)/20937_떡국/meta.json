@@ -1,0 +1,20 @@
+{
+  "problemId": 20937,
+  "title": "떡국",
+  "tier": 7,
+  "tags": [
+    "greedy",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 857,
+  "averageTries": 2.0757999420166016,
+  "latestSubmission": {
+    "id": 86062066,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2412,
+    "timeMs": 44,
+    "codeLen": 428,
+    "submittedAt": "1년 전"
+  }
+}

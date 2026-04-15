@@ -1,0 +1,19 @@
+{
+  "problemId": 11726,
+  "title": "2×n 타일링",
+  "tier": 8,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 65782,
+  "averageTries": 2.688800096511841,
+  "latestSubmission": {
+    "id": 84887052,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1120,
+    "timeMs": 0,
+    "codeLen": 326,
+    "submittedAt": "1년 전"
+  }
+}

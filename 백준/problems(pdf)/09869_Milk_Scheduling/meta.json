@@ -1,0 +1,22 @@
+{
+  "problemId": 9869,
+  "title": "Milk Scheduling",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 228,
+  "averageTries": 2.144700050354004,
+  "latestSubmission": {
+    "id": 84883716,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1460,
+    "timeMs": 4,
+    "codeLen": 1957,
+    "submittedAt": "1년 전"
+  }
+}

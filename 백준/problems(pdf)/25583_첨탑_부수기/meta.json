@@ -1,0 +1,24 @@
+{
+  "problemId": 25583,
+  "title": "첨탑 부수기",
+  "tier": 21,
+  "tags": [
+    "math",
+    "string",
+    "number_theory",
+    "parsing",
+    "exponentiation_by_squaring",
+    "euler_phi"
+  ],
+  "acceptedUserCount": 24,
+  "averageTries": 4.875,
+  "latestSubmission": {
+    "id": 90418186,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 0,
+    "codeLen": 2052,
+    "submittedAt": "1년 전"
+  }
+}

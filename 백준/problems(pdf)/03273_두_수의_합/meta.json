@@ -1,0 +1,20 @@
+{
+  "problemId": 3273,
+  "title": "두 수의 합",
+  "tier": 8,
+  "tags": [
+    "sorting",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 24700,
+  "averageTries": 2.834700107574463,
+  "latestSubmission": {
+    "id": 84880892,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 9712,
+    "timeMs": 16,
+    "codeLen": 922,
+    "submittedAt": "1년 전"
+  }
+}

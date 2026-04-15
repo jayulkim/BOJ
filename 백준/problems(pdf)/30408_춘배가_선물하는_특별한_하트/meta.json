@@ -1,0 +1,21 @@
+{
+  "problemId": 30408,
+  "title": "춘배가 선물하는 특별한 하트",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 296,
+  "averageTries": 2.702699899673462,
+  "latestSubmission": {
+    "id": 100468895,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 929,
+    "submittedAt": "4달 전"
+  }
+}

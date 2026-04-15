@@ -1,0 +1,23 @@
+{
+  "problemId": 33916,
+  "title": "서로소 조합",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 89,
+  "averageTries": 2.47189998626709,
+  "latestSubmission": {
+    "id": 105005872,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2376,
+    "timeMs": 940,
+    "codeLen": 7788,
+    "submittedAt": "2일 전"
+  }
+}

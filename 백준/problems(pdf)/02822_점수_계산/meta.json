@@ -1,0 +1,19 @@
+{
+  "problemId": 2822,
+  "title": "점수 계산",
+  "tier": 6,
+  "tags": [
+    "sorting"
+  ],
+  "acceptedUserCount": 12067,
+  "averageTries": 1.3453999757766724,
+  "latestSubmission": {
+    "id": 84880252,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1073,
+    "submittedAt": "1년 전"
+  }
+}

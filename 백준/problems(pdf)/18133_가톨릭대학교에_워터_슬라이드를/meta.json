@@ -1,0 +1,20 @@
+{
+  "problemId": 18133,
+  "title": "가톨릭대학교에 워터 슬라이드를??",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "scc"
+  ],
+  "acceptedUserCount": 215,
+  "averageTries": 1.7720999717712402,
+  "latestSubmission": {
+    "id": 92573638,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 20000,
+    "timeMs": 184,
+    "codeLen": 1720,
+    "submittedAt": "1년 전"
+  }
+}

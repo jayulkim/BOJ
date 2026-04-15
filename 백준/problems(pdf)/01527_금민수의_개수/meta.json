@@ -1,0 +1,19 @@
+{
+  "problemId": 1527,
+  "title": "금민수의 개수",
+  "tier": 10,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 1912,
+  "averageTries": 2.3206000328063965,
+  "latestSubmission": {
+    "id": 84867885,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 747,
+    "submittedAt": "1년 전"
+  }
+}

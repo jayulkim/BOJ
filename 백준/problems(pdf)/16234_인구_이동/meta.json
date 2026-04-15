@@ -1,0 +1,23 @@
+{
+  "problemId": 16234,
+  "title": "인구 이동",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "graphs",
+    "graph_traversal",
+    "simulation",
+    "bfs"
+  ],
+  "acceptedUserCount": 23167,
+  "averageTries": 2.415600061416626,
+  "latestSubmission": {
+    "id": 84891904,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2172,
+    "timeMs": 60,
+    "codeLen": 1925,
+    "submittedAt": "1년 전"
+  }
+}

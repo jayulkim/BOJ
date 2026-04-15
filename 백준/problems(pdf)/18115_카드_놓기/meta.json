@@ -1,0 +1,20 @@
+{
+  "problemId": 18115,
+  "title": "카드 놓기",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "deque"
+  ],
+  "acceptedUserCount": 3188,
+  "averageTries": 1.8535000085830688,
+  "latestSubmission": {
+    "id": 84892585,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10212,
+    "timeMs": 156,
+    "codeLen": 670,
+    "submittedAt": "1년 전"
+  }
+}

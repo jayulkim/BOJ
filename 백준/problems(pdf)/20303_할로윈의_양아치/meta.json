@@ -1,0 +1,24 @@
+{
+  "problemId": 20303,
+  "title": "할로윈의 양아치",
+  "tier": 14,
+  "tags": [
+    "dp",
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "disjoint_set",
+    "knapsack"
+  ],
+  "acceptedUserCount": 2961,
+  "averageTries": 3.1178998947143555,
+  "latestSubmission": {
+    "id": 89084821,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 710116,
+    "timeMs": 448,
+    "codeLen": 1353,
+    "submittedAt": "1년 전"
+  }
+}

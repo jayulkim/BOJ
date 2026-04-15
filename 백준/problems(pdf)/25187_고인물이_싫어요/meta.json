@@ -1,0 +1,22 @@
+{
+  "problemId": 25187,
+  "title": "고인물이 싫어요",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 470,
+  "averageTries": 2.1979000568389893,
+  "latestSubmission": {
+    "id": 89071431,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5144,
+    "timeMs": 68,
+    "codeLen": 1076,
+    "submittedAt": "1년 전"
+  }
+}

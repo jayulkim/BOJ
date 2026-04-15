@@ -1,0 +1,19 @@
+{
+  "problemId": 11366,
+  "title": "Tons of Orcs, no Fibbin’",
+  "tier": 8,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 100,
+  "averageTries": 4.170000076293945,
+  "latestSubmission": {
+    "id": 89389244,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 682,
+    "submittedAt": "1년 전"
+  }
+}

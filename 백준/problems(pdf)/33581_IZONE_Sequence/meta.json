@@ -1,0 +1,21 @@
+{
+  "problemId": 33581,
+  "title": "IZ*ONE Sequence",
+  "tier": 15,
+  "tags": [
+    "ad_hoc",
+    "constructive",
+    "case_work"
+  ],
+  "acceptedUserCount": 62,
+  "averageTries": 3.064500093460083,
+  "latestSubmission": {
+    "id": 98098741,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 12,
+    "codeLen": 1040,
+    "submittedAt": "7달 전"
+  }
+}

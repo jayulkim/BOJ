@@ -1,0 +1,21 @@
+{
+  "problemId": 14651,
+  "title": "걷다보니 신천역 삼 (Large)",
+  "tier": 10,
+  "tags": [
+    "math",
+    "dp",
+    "number_theory"
+  ],
+  "acceptedUserCount": 1118,
+  "averageTries": 2.0009000301361084,
+  "latestSubmission": {
+    "id": 89925223,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 843,
+    "submittedAt": "1년 전"
+  }
+}

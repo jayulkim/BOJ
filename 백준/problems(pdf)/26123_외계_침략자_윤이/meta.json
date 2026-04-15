@@ -1,0 +1,19 @@
+{
+  "problemId": 26123,
+  "title": "외계 침략자 윤이",
+  "tier": 7,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 397,
+  "averageTries": 2.194000005722046,
+  "latestSubmission": {
+    "id": 84893944,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4364,
+    "timeMs": 32,
+    "codeLen": 493,
+    "submittedAt": "1년 전"
+  }
+}

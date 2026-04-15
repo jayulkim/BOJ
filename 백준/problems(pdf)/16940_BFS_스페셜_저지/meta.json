@@ -1,0 +1,21 @@
+{
+  "problemId": 16940,
+  "title": "BFS 스페셜 저지",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 2230,
+  "averageTries": 3.8861000537872314,
+  "latestSubmission": {
+    "id": 100219209,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 11800,
+    "timeMs": 52,
+    "codeLen": 1525,
+    "submittedAt": "5달 전"
+  }
+}

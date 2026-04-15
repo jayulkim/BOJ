@@ -1,0 +1,21 @@
+{
+  "problemId": 9205,
+  "title": "맥주 마시면서 걸어가기",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 13503,
+  "averageTries": 2.4175000190734863,
+  "latestSubmission": {
+    "id": 98370103,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2220,
+    "timeMs": 0,
+    "codeLen": 1771,
+    "submittedAt": "7달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 11444,
+  "title": "피보나치 수 6",
+  "tier": 14,
+  "tags": [
+    "math",
+    "exponentiation_by_squaring"
+  ],
+  "acceptedUserCount": 12596,
+  "averageTries": 2.0848000049591064,
+  "latestSubmission": {
+    "id": 84886257,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2152,
+    "timeMs": 0,
+    "codeLen": 2411,
+    "submittedAt": "1년 전"
+  }
+}

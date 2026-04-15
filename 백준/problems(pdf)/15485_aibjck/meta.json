@@ -1,0 +1,19 @@
+{
+  "problemId": 15485,
+  "title": "\\(a^ib^jc^k\\)",
+  "tier": 13,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 173,
+  "averageTries": 1.5318000316619873,
+  "latestSubmission": {
+    "id": 103583209,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 167072,
+    "timeMs": 252,
+    "codeLen": 1725,
+    "submittedAt": "1달 전"
+  }
+}

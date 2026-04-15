@@ -1,0 +1,20 @@
+{
+  "problemId": 15685,
+  "title": "드래곤 커브",
+  "tier": 13,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 13189,
+  "averageTries": 1.753499984741211,
+  "latestSubmission": {
+    "id": 100230320,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2220,
+    "timeMs": 0,
+    "codeLen": 1327,
+    "submittedAt": "5달 전"
+  }
+}

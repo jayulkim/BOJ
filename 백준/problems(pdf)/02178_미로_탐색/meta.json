@@ -1,0 +1,22 @@
+{
+  "problemId": 2178,
+  "title": "미로 탐색",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 78941,
+  "averageTries": 2.158099889755249,
+  "latestSubmission": {
+    "id": 84878085,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2172,
+    "timeMs": 0,
+    "codeLen": 919,
+    "submittedAt": "1년 전"
+  }
+}

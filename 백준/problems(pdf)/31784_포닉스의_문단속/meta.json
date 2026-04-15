@@ -1,0 +1,20 @@
+{
+  "problemId": 31784,
+  "title": "포닉스의 문단속",
+  "tier": 10,
+  "tags": [
+    "greedy",
+    "string"
+  ],
+  "acceptedUserCount": 312,
+  "averageTries": 2.3814001083374023,
+  "latestSubmission": {
+    "id": 95075915,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2648,
+    "timeMs": 0,
+    "codeLen": 662,
+    "submittedAt": "10달 전"
+  }
+}

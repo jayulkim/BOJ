@@ -1,0 +1,22 @@
+{
+  "problemId": 1245,
+  "title": "농장 관리",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs"
+  ],
+  "acceptedUserCount": 2780,
+  "averageTries": 2.112600088119507,
+  "latestSubmission": {
+    "id": 90701162,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2112,
+    "timeMs": 0,
+    "codeLen": 1588,
+    "submittedAt": "1년 전"
+  }
+}

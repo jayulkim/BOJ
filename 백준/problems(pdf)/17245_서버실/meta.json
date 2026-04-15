@@ -1,0 +1,20 @@
+{
+  "problemId": 17245,
+  "title": "서버실",
+  "tier": 9,
+  "tags": [
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 968,
+  "averageTries": 4.514500141143799,
+  "latestSubmission": {
+    "id": 89554077,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9848,
+    "timeMs": 132,
+    "codeLen": 1122,
+    "submittedAt": "1년 전"
+  }
+}

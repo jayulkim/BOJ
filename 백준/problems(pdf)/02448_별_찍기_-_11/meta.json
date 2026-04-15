@@ -1,0 +1,19 @@
+{
+  "problemId": 2448,
+  "title": "별 찍기 - 11",
+  "tier": 12,
+  "tags": [
+    "recursion"
+  ],
+  "acceptedUserCount": 16054,
+  "averageTries": 2.2383999824523926,
+  "latestSubmission": {
+    "id": 97690285,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 20616,
+    "timeMs": 392,
+    "codeLen": 1015,
+    "submittedAt": "7달 전"
+  }
+}

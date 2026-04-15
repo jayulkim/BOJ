@@ -1,0 +1,23 @@
+{
+  "problemId": 14425,
+  "title": "문자열 집합",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "string",
+    "set",
+    "hash_set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 33567,
+  "averageTries": 1.813099980354309,
+  "latestSubmission": {
+    "id": 84889535,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 11052,
+    "timeMs": 96,
+    "codeLen": 1044,
+    "submittedAt": "1년 전"
+  }
+}

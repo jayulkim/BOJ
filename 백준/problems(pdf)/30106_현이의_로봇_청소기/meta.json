@@ -1,0 +1,23 @@
+{
+  "problemId": 30106,
+  "title": "현이의 로봇 청소기",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "grid_graph",
+    "flood_fill"
+  ],
+  "acceptedUserCount": 465,
+  "averageTries": 1.5591000318527222,
+  "latestSubmission": {
+    "id": 85886967,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4360,
+    "timeMs": 48,
+    "codeLen": 1097,
+    "submittedAt": "1년 전"
+  }
+}

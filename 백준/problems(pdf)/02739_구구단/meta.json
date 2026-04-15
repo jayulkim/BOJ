@@ -1,0 +1,20 @@
+{
+  "problemId": 2739,
+  "title": "구구단",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "math"
+  ],
+  "acceptedUserCount": 228763,
+  "averageTries": 1.9767999649047852,
+  "latestSubmission": {
+    "id": 84879883,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 31120,
+    "timeMs": 36,
+    "codeLen": 72,
+    "submittedAt": "1년 전"
+  }
+}

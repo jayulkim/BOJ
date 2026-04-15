@@ -1,0 +1,22 @@
+{
+  "problemId": 19640,
+  "title": "화장실의 규칙",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "simulation",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 627,
+  "averageTries": 2.6410999298095703,
+  "latestSubmission": {
+    "id": 76946548,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5804,
+    "timeMs": 48,
+    "codeLen": 3525,
+    "submittedAt": "2년 전"
+  }
+}

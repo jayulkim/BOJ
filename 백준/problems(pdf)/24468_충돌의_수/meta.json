@@ -1,0 +1,20 @@
+{
+  "problemId": 24468,
+  "title": "충돌의 수",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 258,
+  "averageTries": 1.8681999444961548,
+  "latestSubmission": {
+    "id": 86662622,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2044,
+    "timeMs": 8,
+    "codeLen": 1173,
+    "submittedAt": "1년 전"
+  }
+}

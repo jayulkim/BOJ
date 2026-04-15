@@ -1,0 +1,25 @@
+{
+  "problemId": 2665,
+  "title": "미로만들기",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "shortest_path",
+    "dijkstra",
+    "grid_graph",
+    "0_1_bfs"
+  ],
+  "acceptedUserCount": 7307,
+  "averageTries": 1.749400019645691,
+  "latestSubmission": {
+    "id": 84879724,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2180,
+    "timeMs": 0,
+    "codeLen": 1373,
+    "submittedAt": "1년 전"
+  }
+}

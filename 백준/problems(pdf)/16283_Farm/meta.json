@@ -1,0 +1,21 @@
+{
+  "problemId": 16283,
+  "title": "Farm",
+  "tier": 4,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 1650,
+  "averageTries": 2.467900037765503,
+  "latestSubmission": {
+    "id": 85303126,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 619,
+    "submittedAt": "1년 전"
+  }
+}

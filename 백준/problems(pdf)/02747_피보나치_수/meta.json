@@ -1,0 +1,21 @@
+{
+  "problemId": 2747,
+  "title": "피보나치 수",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation",
+    "dp"
+  ],
+  "acceptedUserCount": 37806,
+  "averageTries": 1.9757000207901,
+  "latestSubmission": {
+    "id": 84879985,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 369,
+    "submittedAt": "1년 전"
+  }
+}

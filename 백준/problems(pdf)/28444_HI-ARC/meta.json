@@ -1,0 +1,20 @@
+{
+  "problemId": 28444,
+  "title": "HI-ARC=?",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 5388,
+  "averageTries": 1.1258000135421753,
+  "latestSubmission": {
+    "id": 84894401,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 533,
+    "submittedAt": "1년 전"
+  }
+}

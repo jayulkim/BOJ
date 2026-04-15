@@ -1,0 +1,22 @@
+{
+  "problemId": 29721,
+  "title": "변형 체스 놀이 : 다바바(Dabbaba)",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 344,
+  "averageTries": 1.7441999912261963,
+  "latestSubmission": {
+    "id": 84894550,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 19868,
+    "timeMs": 100,
+    "codeLen": 2119,
+    "submittedAt": "1년 전"
+  }
+}

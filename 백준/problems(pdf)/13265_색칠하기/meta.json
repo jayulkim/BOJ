@@ -1,0 +1,23 @@
+{
+  "problemId": 13265,
+  "title": "색칠하기",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "bipartite_graph"
+  ],
+  "acceptedUserCount": 1088,
+  "averageTries": 2.2564001083374023,
+  "latestSubmission": {
+    "id": 103741263,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 4580,
+    "timeMs": 72,
+    "codeLen": 2035,
+    "submittedAt": "1달 전"
+  }
+}

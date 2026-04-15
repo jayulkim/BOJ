@@ -1,0 +1,22 @@
+{
+  "problemId": 28152,
+  "title": "Power of Divisors",
+  "tier": 14,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 98,
+  "averageTries": 2.020400047302246,
+  "latestSubmission": {
+    "id": 87325525,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2220,
+    "timeMs": 76,
+    "codeLen": 2842,
+    "submittedAt": "1년 전"
+  }
+}

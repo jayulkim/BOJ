@@ -1,0 +1,21 @@
+{
+  "problemId": 20443,
+  "title": "배드민턴 대회",
+  "tier": 13,
+  "tags": [
+    "math",
+    "dp",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 151,
+  "averageTries": 1.7682000398635864,
+  "latestSubmission": {
+    "id": 85990821,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 1316,
+    "submittedAt": "1년 전"
+  }
+}

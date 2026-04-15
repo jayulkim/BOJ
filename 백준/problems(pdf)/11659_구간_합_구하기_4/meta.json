@@ -1,0 +1,19 @@
+{
+  "problemId": 11659,
+  "title": "구간 합 구하기 4",
+  "tier": 8,
+  "tags": [
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 54350,
+  "averageTries": 2.5840001106262207,
+  "latestSubmission": {
+    "id": 84886668,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1776,
+    "timeMs": 52,
+    "codeLen": 611,
+    "submittedAt": "1년 전"
+  }
+}

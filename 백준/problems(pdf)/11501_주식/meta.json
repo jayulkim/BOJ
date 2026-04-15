@@ -1,0 +1,19 @@
+{
+  "problemId": 11501,
+  "title": "주식",
+  "tier": 9,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 10407,
+  "averageTries": 2.7451000213623047,
+  "latestSubmission": {
+    "id": 79012263,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 49948,
+    "timeMs": 696,
+    "codeLen": 916,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 9660,
+  "title": "돌 게임 6",
+  "tier": 11,
+  "tags": [
+    "game_theory"
+  ],
+  "acceptedUserCount": 3414,
+  "averageTries": 1.8702000379562378,
+  "latestSubmission": {
+    "id": 84883607,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 361,
+    "submittedAt": "1년 전"
+  }
+}

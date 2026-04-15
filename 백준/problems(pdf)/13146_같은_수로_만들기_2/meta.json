@@ -1,0 +1,21 @@
+{
+  "problemId": 13146,
+  "title": "같은 수로 만들기 2",
+  "tier": 16,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "stack"
+  ],
+  "acceptedUserCount": 388,
+  "averageTries": 2.27839994430542,
+  "latestSubmission": {
+    "id": 84888336,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 16740,
+    "timeMs": 200,
+    "codeLen": 987,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 32675,
+  "title": "Pascal Multiple",
+  "tier": 8,
+  "tags": [
+    "math",
+    "dp"
+  ],
+  "acceptedUserCount": 30,
+  "averageTries": 1.5666999816894531,
+  "latestSubmission": {
+    "id": 86329024,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9876,
+    "timeMs": 24,
+    "codeLen": 702,
+    "submittedAt": "1년 전"
+  }
+}

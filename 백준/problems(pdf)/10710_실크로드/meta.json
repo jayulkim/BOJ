@@ -1,0 +1,19 @@
+{
+  "problemId": 10710,
+  "title": "실크로드",
+  "tier": 11,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 300,
+  "averageTries": 1.483299970626831,
+  "latestSubmission": {
+    "id": 97459819,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8516,
+    "timeMs": 8,
+    "codeLen": 964,
+    "submittedAt": "8달 전"
+  }
+}

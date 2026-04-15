@@ -1,0 +1,21 @@
+{
+  "problemId": 1590,
+  "title": "캠프가는 영식",
+  "tier": 7,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "binary_search"
+  ],
+  "acceptedUserCount": 1279,
+  "averageTries": 2.2829999923706055,
+  "latestSubmission": {
+    "id": 84868071,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 549,
+    "submittedAt": "1년 전"
+  }
+}

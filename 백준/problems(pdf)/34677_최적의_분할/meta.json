@@ -1,0 +1,19 @@
+{
+  "problemId": 34677,
+  "title": "최적의 분할",
+  "tier": 11,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 103,
+  "averageTries": 1.6892999410629272,
+  "latestSubmission": {
+    "id": 100589010,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2432,
+    "timeMs": 8,
+    "codeLen": 1367,
+    "submittedAt": "4달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 1049,
+  "title": "기타줄",
+  "tier": 7,
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "acceptedUserCount": 15133,
+  "averageTries": 2.2964999675750732,
+  "latestSubmission": {
+    "id": 84865164,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 2088,
+    "submittedAt": "1년 전"
+  }
+}

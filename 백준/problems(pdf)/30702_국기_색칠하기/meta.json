@@ -1,0 +1,22 @@
+{
+  "problemId": 30702,
+  "title": "국기 색칠하기",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs"
+  ],
+  "acceptedUserCount": 319,
+  "averageTries": 1.9154000282287598,
+  "latestSubmission": {
+    "id": 99352062,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2224,
+    "timeMs": 0,
+    "codeLen": 2896,
+    "submittedAt": "6달 전"
+  }
+}

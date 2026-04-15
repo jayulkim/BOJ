@@ -1,0 +1,24 @@
+{
+  "problemId": 32069,
+  "title": "가로등",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "greedy",
+    "graph_traversal",
+    "set",
+    "bfs"
+  ],
+  "acceptedUserCount": 1052,
+  "averageTries": 3.910599946975708,
+  "latestSubmission": {
+    "id": 84894994,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 63596,
+    "timeMs": 332,
+    "codeLen": 776,
+    "submittedAt": "1년 전"
+  }
+}

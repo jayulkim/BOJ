@@ -1,0 +1,20 @@
+{
+  "problemId": 25191,
+  "title": "치킨댄스를 추는 곰곰이를 본 임스",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 4822,
+  "averageTries": 1.3037999868392944,
+  "latestSubmission": {
+    "id": 95852839,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 378,
+    "submittedAt": "9달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 31520,
+  "title": "Champernowne Verification",
+  "tier": 2,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 694,
+  "averageTries": 1.3530000448226929,
+  "latestSubmission": {
+    "id": 95701911,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 591,
+    "submittedAt": "9달 전"
+  }
+}

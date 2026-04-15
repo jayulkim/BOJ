@@ -1,0 +1,22 @@
+{
+  "problemId": 9536,
+  "title": "여우는 어떻게 울지?",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "string",
+    "set",
+    "parsing"
+  ],
+  "acceptedUserCount": 2581,
+  "averageTries": 2.0762999057769775,
+  "latestSubmission": {
+    "id": 84883369,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2164,
+    "timeMs": 0,
+    "codeLen": 1136,
+    "submittedAt": "1년 전"
+  }
+}

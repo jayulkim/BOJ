@@ -1,0 +1,21 @@
+{
+  "problemId": 10430,
+  "title": "나머지",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "arithmetic",
+    "math"
+  ],
+  "acceptedUserCount": 225945,
+  "averageTries": 1.9563000202178955,
+  "latestSubmission": {
+    "id": 84883997,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 31120,
+    "timeMs": 32,
+    "codeLen": 135,
+    "submittedAt": "1년 전"
+  }
+}

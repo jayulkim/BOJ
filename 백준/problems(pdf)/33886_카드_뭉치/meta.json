@@ -1,0 +1,19 @@
+{
+  "problemId": 33886,
+  "title": "카드 뭉치",
+  "tier": 9,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 165,
+  "averageTries": 1.6545000076293945,
+  "latestSubmission": {
+    "id": 94493222,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2224,
+    "timeMs": 40,
+    "codeLen": 867,
+    "submittedAt": "10달 전"
+  }
+}

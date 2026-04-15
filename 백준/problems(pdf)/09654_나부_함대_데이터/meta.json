@@ -1,0 +1,19 @@
+{
+  "problemId": 9654,
+  "title": "나부 함대 데이터",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 16517,
+  "averageTries": 1.6160000562667847,
+  "latestSubmission": {
+    "id": 84883451,
+    "result": "맞았습니다!!",
+    "language": "Text",
+    "memoryKb": 4528,
+    "timeMs": 0,
+    "codeLen": 302,
+    "submittedAt": "1년 전"
+  }
+}

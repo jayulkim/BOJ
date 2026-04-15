@@ -1,0 +1,19 @@
+{
+  "problemId": 25682,
+  "title": "체스판 다시 칠하기 2",
+  "tier": 12,
+  "tags": [
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 4361,
+  "averageTries": 2.5495998859405518,
+  "latestSubmission": {
+    "id": 84893742,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 130668,
+    "timeMs": 288,
+    "codeLen": 2848,
+    "submittedAt": "1년 전"
+  }
+}

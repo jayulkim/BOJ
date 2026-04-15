@@ -1,0 +1,20 @@
+{
+  "problemId": 2580,
+  "title": "스도쿠",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "backtracking"
+  ],
+  "acceptedUserCount": 24131,
+  "averageTries": 3.5673000812530518,
+  "latestSubmission": {
+    "id": 84879481,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 772,
+    "codeLen": 1461,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 34816,
+  "title": "짝수 길이의 짝수 합",
+  "tier": 11,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "pigeonhole_principle"
+  ],
+  "acceptedUserCount": 77,
+  "averageTries": 1.8831000328063965,
+  "latestSubmission": {
+    "id": 100832345,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 5060,
+    "timeMs": 84,
+    "codeLen": 1193,
+    "submittedAt": "4달 전"
+  }
+}

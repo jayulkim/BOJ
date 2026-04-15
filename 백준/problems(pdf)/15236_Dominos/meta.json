@@ -1,0 +1,19 @@
+{
+  "problemId": 15236,
+  "title": "Dominos",
+  "tier": 3,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 865,
+  "averageTries": 1.1087000370025635,
+  "latestSubmission": {
+    "id": 96935310,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 378,
+    "submittedAt": "8달 전"
+  }
+}

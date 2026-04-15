@@ -1,0 +1,21 @@
+{
+  "problemId": 1600,
+  "title": "말이 되고픈 원숭이",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 12766,
+  "averageTries": 4.312399864196777,
+  "latestSubmission": {
+    "id": 92159218,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3828,
+    "timeMs": 64,
+    "codeLen": 1699,
+    "submittedAt": "1년 전"
+  }
+}

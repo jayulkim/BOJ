@@ -1,0 +1,21 @@
+{
+  "problemId": 31880,
+  "title": "K512컵 개최!",
+  "tier": 4,
+  "tags": [
+    "math",
+    "greedy",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 657,
+  "averageTries": 1.3530999422073364,
+  "latestSubmission": {
+    "id": 84894937,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 327,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "problemId": 4233,
+  "title": "가짜소수",
+  "tier": 11,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "exponentiation_by_squaring",
+    "flt"
+  ],
+  "acceptedUserCount": 770,
+  "averageTries": 2.1623001098632812,
+  "latestSubmission": {
+    "id": 88516042,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 1001,
+    "submittedAt": "1년 전"
+  }
+}

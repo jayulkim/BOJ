@@ -1,0 +1,20 @@
+{
+  "problemId": 11524,
+  "title": "Immortal Porpoises",
+  "tier": 14,
+  "tags": [
+    "math",
+    "exponentiation_by_squaring"
+  ],
+  "acceptedUserCount": 240,
+  "averageTries": 1.1875,
+  "latestSubmission": {
+    "id": 84886378,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2944,
+    "timeMs": 60,
+    "codeLen": 2429,
+    "submittedAt": "1년 전"
+  }
+}

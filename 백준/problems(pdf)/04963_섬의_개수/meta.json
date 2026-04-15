@@ -1,0 +1,24 @@
+{
+  "problemId": 4963,
+  "title": "섬의 개수",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "grid_graph",
+    "flood_fill"
+  ],
+  "acceptedUserCount": 32006,
+  "averageTries": 1.9637999534606934,
+  "latestSubmission": {
+    "id": 84881459,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1196,
+    "timeMs": 0,
+    "codeLen": 1657,
+    "submittedAt": "1년 전"
+  }
+}

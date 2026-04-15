@@ -1,0 +1,20 @@
+{
+  "problemId": 30030,
+  "title": "스위트콘 가격 구하기",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 5482,
+  "averageTries": 1.3502000570297241,
+  "latestSubmission": {
+    "id": 84894630,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1152,
+    "timeMs": 0,
+    "codeLen": 838,
+    "submittedAt": "1년 전"
+  }
+}

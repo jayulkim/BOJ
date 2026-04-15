@@ -1,0 +1,21 @@
+{
+  "problemId": 2506,
+  "title": "점수계산",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 13056,
+  "averageTries": 1.3104000091552734,
+  "latestSubmission": {
+    "id": 84879220,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 429,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 1238,
+  "title": "파티",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 24182,
+  "averageTries": 1.9670000076293945,
+  "latestSubmission": {
+    "id": 84866089,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2192,
+    "timeMs": 188,
+    "codeLen": 1162,
+    "submittedAt": "1년 전"
+  }
+}

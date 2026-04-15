@@ -1,0 +1,22 @@
+{
+  "problemId": 15711,
+  "title": "환상의 짝꿍",
+  "tier": 13,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 1033,
+  "averageTries": 5.956399917602539,
+  "latestSubmission": {
+    "id": 84891057,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 10492,
+    "timeMs": 612,
+    "codeLen": 1429,
+    "submittedAt": "1년 전"
+  }
+}

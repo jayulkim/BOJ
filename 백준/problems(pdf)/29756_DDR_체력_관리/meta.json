@@ -1,0 +1,20 @@
+{
+  "problemId": 29756,
+  "title": "DDR 체력 관리",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "knapsack"
+  ],
+  "acceptedUserCount": 271,
+  "averageTries": 2.4870998859405518,
+  "latestSubmission": {
+    "id": 99720644,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3016,
+    "timeMs": 0,
+    "codeLen": 1117,
+    "submittedAt": "5달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 25694,
+  "title": "Ramen",
+  "tier": 8,
+  "tags": [
+    "greedy",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 46,
+  "averageTries": 1.6739000082015991,
+  "latestSubmission": {
+    "id": 86882940,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2804,
+    "timeMs": 12,
+    "codeLen": 462,
+    "submittedAt": "1년 전"
+  }
+}

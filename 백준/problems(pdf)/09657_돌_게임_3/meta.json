@@ -1,0 +1,20 @@
+{
+  "problemId": 9657,
+  "title": "돌 게임 3",
+  "tier": 8,
+  "tags": [
+    "dp",
+    "game_theory"
+  ],
+  "acceptedUserCount": 6522,
+  "averageTries": 2.1314001083374023,
+  "latestSubmission": {
+    "id": 84883528,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 366,
+    "submittedAt": "1년 전"
+  }
+}

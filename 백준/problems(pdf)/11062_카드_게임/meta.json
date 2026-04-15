@@ -1,0 +1,20 @@
+{
+  "problemId": 11062,
+  "title": "카드 게임",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "game_theory"
+  ],
+  "acceptedUserCount": 3528,
+  "averageTries": 2.1222000122070312,
+  "latestSubmission": {
+    "id": 85573093,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10000,
+    "timeMs": 208,
+    "codeLen": 812,
+    "submittedAt": "1년 전"
+  }
+}

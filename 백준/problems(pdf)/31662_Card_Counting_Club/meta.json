@@ -1,0 +1,22 @@
+{
+  "problemId": 31662,
+  "title": "Card Counting Club",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "implementation",
+    "priority_queue",
+    "simulation"
+  ],
+  "acceptedUserCount": 30,
+  "averageTries": 1.1332999467849731,
+  "latestSubmission": {
+    "id": 85203161,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 11504,
+    "timeMs": 932,
+    "codeLen": 1053,
+    "submittedAt": "1년 전"
+  }
+}

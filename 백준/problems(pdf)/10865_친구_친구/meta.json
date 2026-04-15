@@ -1,0 +1,19 @@
+{
+  "problemId": 10865,
+  "title": "친구 친구",
+  "tier": 3,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 1764,
+  "averageTries": 1.6854000091552734,
+  "latestSubmission": {
+    "id": 96460201,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2736,
+    "timeMs": 148,
+    "codeLen": 561,
+    "submittedAt": "8달 전"
+  }
+}

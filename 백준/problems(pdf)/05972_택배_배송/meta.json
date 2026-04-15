@@ -1,0 +1,21 @@
+{
+  "problemId": 5972,
+  "title": "택배 배송",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 6789,
+  "averageTries": 1.688599944114685,
+  "latestSubmission": {
+    "id": 84882128,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5612,
+    "timeMs": 60,
+    "codeLen": 958,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 11868,
+  "title": "님 게임 2",
+  "tier": 17,
+  "tags": [
+    "game_theory",
+    "sprague_grundy"
+  ],
+  "acceptedUserCount": 1938,
+  "averageTries": 1.2451000213623047,
+  "latestSubmission": {
+    "id": 93084441,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 525,
+    "submittedAt": "1년 전"
+  }
+}

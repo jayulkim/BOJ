@@ -1,0 +1,22 @@
+{
+  "problemId": 34548,
+  "title": "와우 네트워크",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "sorting",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 100,
+  "averageTries": 1.7200000286102295,
+  "latestSubmission": {
+    "id": 99215283,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 8388,
+    "timeMs": 40,
+    "codeLen": 1847,
+    "submittedAt": "6달 전"
+  }
+}

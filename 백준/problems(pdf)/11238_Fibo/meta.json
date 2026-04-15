@@ -1,0 +1,22 @@
+{
+  "problemId": 11238,
+  "title": "Fibo",
+  "tier": 16,
+  "tags": [
+    "math",
+    "number_theory",
+    "exponentiation_by_squaring",
+    "euclidean"
+  ],
+  "acceptedUserCount": 464,
+  "averageTries": 1.555999994277954,
+  "latestSubmission": {
+    "id": 84885899,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2416,
+    "timeMs": 0,
+    "codeLen": 2567,
+    "submittedAt": "1년 전"
+  }
+}

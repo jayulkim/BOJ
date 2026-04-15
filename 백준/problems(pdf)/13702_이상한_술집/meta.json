@@ -1,0 +1,20 @@
+{
+  "problemId": 13702,
+  "title": "이상한 술집",
+  "tier": 9,
+  "tags": [
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 2316,
+  "averageTries": 3.22189998626709,
+  "latestSubmission": {
+    "id": 84888925,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1192,
+    "timeMs": 4,
+    "codeLen": 905,
+    "submittedAt": "1년 전"
+  }
+}

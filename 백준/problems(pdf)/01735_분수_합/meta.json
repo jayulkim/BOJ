@@ -1,0 +1,21 @@
+{
+  "problemId": 1735,
+  "title": "분수 합",
+  "tier": 8,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 21901,
+  "averageTries": 2.087599992752075,
+  "latestSubmission": {
+    "id": 84868500,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 1000,
+    "codeLen": 2067,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 33515,
+  "title": "노트북 세 대를 가지고 왔다",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 2776,
+  "averageTries": 1.1949000358581543,
+  "latestSubmission": {
+    "id": 91507127,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 296,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 32360,
+  "title": "더워!",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 116,
+  "averageTries": 3.129300117492676,
+  "latestSubmission": {
+    "id": 84895094,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10740,
+    "timeMs": 40,
+    "codeLen": 1980,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 5095,
+  "title": "Matrix Powers",
+  "tier": 12,
+  "tags": [
+    "math",
+    "exponentiation_by_squaring",
+    "linear_algebra"
+  ],
+  "acceptedUserCount": 290,
+  "averageTries": 3.3345000743865967,
+  "latestSubmission": {
+    "id": 84881553,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1312,
+    "timeMs": 264,
+    "codeLen": 1140,
+    "submittedAt": "1년 전"
+  }
+}

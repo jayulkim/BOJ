@@ -1,0 +1,19 @@
+{
+  "problemId": 2903,
+  "title": "중앙 이동 알고리즘",
+  "tier": 3,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 31723,
+  "averageTries": 1.395900011062622,
+  "latestSubmission": {
+    "id": 84880488,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 917,
+    "submittedAt": "1년 전"
+  }
+}

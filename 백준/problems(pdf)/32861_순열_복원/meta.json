@@ -1,0 +1,20 @@
+{
+  "problemId": 32861,
+  "title": "순열 복원",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 162,
+  "averageTries": 3.70989990234375,
+  "latestSubmission": {
+    "id": 87197288,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9984,
+    "timeMs": 68,
+    "codeLen": 892,
+    "submittedAt": "1년 전"
+  }
+}

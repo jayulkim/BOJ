@@ -1,0 +1,21 @@
+{
+  "problemId": 17622,
+  "title": "타일 교체",
+  "tier": 13,
+  "tags": [
+    "implementation",
+    "bruteforcing",
+    "simulation"
+  ],
+  "acceptedUserCount": 253,
+  "averageTries": 4.292500019073486,
+  "latestSubmission": {
+    "id": 104880959,
+    "result": "100점",
+    "language": "C++23",
+    "memoryKb": 2220,
+    "timeMs": 84,
+    "codeLen": 2284,
+    "submittedAt": "6일 전"
+  }
+}

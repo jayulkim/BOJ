@@ -1,0 +1,21 @@
+{
+  "problemId": 24513,
+  "title": "좀비 바이러스",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 516,
+  "averageTries": 2.8682000637054443,
+  "latestSubmission": {
+    "id": 96784568,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 50324,
+    "timeMs": 228,
+    "codeLen": 2534,
+    "submittedAt": "8달 전"
+  }
+}

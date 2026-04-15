@@ -1,0 +1,20 @@
+{
+  "problemId": 16398,
+  "title": "행성 연결",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "mst"
+  ],
+  "acceptedUserCount": 4200,
+  "averageTries": 2.1830999851226807,
+  "latestSubmission": {
+    "id": 84891934,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14444,
+    "timeMs": 168,
+    "codeLen": 1360,
+    "submittedAt": "1년 전"
+  }
+}

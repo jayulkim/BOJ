@@ -1,0 +1,19 @@
+{
+  "problemId": 18249,
+  "title": "욱제가 풀어야 하는 문제",
+  "tier": 9,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 418,
+  "averageTries": 2.4114999771118164,
+  "latestSubmission": {
+    "id": 87195352,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3584,
+    "timeMs": 44,
+    "codeLen": 497,
+    "submittedAt": "1년 전"
+  }
+}

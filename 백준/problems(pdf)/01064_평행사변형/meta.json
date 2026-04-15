@@ -1,0 +1,21 @@
+{
+  "problemId": 1064,
+  "title": "평행사변형",
+  "tier": 7,
+  "tags": [
+    "math",
+    "geometry",
+    "pythagoras"
+  ],
+  "acceptedUserCount": 3718,
+  "averageTries": 2.8603999614715576,
+  "latestSubmission": {
+    "id": 84865275,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1128,
+    "timeMs": 0,
+    "codeLen": 1616,
+    "submittedAt": "1년 전"
+  }
+}

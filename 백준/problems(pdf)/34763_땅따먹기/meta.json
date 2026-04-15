@@ -1,0 +1,21 @@
+{
+  "problemId": 34763,
+  "title": "땅따먹기",
+  "tier": 12,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory"
+  ],
+  "acceptedUserCount": 105,
+  "averageTries": 1.9428999423980713,
+  "latestSubmission": {
+    "id": 100567591,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 32,
+    "codeLen": 903,
+    "submittedAt": "4달 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 1715,
+  "title": "카드 정렬하기",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 26230,
+  "averageTries": 2.7481000423431396,
+  "latestSubmission": {
+    "id": 84868452,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2288,
+    "timeMs": 28,
+    "codeLen": 1445,
+    "submittedAt": "1년 전"
+  }
+}

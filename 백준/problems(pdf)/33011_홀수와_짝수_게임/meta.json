@@ -1,0 +1,19 @@
+{
+  "problemId": 33011,
+  "title": "홀수와 짝수 게임",
+  "tier": 8,
+  "tags": [
+    "game_theory"
+  ],
+  "acceptedUserCount": 339,
+  "averageTries": 2.017699956893921,
+  "latestSubmission": {
+    "id": 88004889,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 617,
+    "submittedAt": "1년 전"
+  }
+}

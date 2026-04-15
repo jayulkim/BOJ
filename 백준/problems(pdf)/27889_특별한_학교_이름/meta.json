@@ -1,0 +1,20 @@
+{
+  "problemId": 27889,
+  "title": "특별한 학교 이름",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 6469,
+  "averageTries": 1.4217000007629395,
+  "latestSubmission": {
+    "id": 84894292,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 688,
+    "submittedAt": "1년 전"
+  }
+}

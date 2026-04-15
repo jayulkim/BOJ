@@ -1,0 +1,22 @@
+{
+  "problemId": 2659,
+  "title": "십자카드 문제",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "bruteforcing",
+    "sorting",
+    "set"
+  ],
+  "acceptedUserCount": 2872,
+  "averageTries": 2.3613998889923096,
+  "latestSubmission": {
+    "id": 84879686,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 0,
+    "codeLen": 991,
+    "submittedAt": "1년 전"
+  }
+}

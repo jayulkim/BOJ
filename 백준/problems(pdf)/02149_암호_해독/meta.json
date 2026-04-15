@@ -1,0 +1,21 @@
+{
+  "problemId": 2149,
+  "title": "암호 해독",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "string",
+    "sorting"
+  ],
+  "acceptedUserCount": 741,
+  "averageTries": 1.6369999647140503,
+  "latestSubmission": {
+    "id": 84877778,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1337,
+    "submittedAt": "1년 전"
+  }
+}

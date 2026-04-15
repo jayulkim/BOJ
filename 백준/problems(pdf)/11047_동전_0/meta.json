@@ -1,0 +1,19 @@
+{
+  "problemId": 11047,
+  "title": "동전 0",
+  "tier": 7,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 79580,
+  "averageTries": 1.8487999439239502,
+  "latestSubmission": {
+    "id": 84885674,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1962,
+    "submittedAt": "1년 전"
+  }
+}

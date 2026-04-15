@@ -1,0 +1,22 @@
+{
+  "problemId": 25376,
+  "title": "이상한 스위치",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "bitmask"
+  ],
+  "acceptedUserCount": 132,
+  "averageTries": 3.113600015640259,
+  "latestSubmission": {
+    "id": 100396255,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 13880,
+    "timeMs": 160,
+    "codeLen": 1566,
+    "submittedAt": "4달 전"
+  }
+}

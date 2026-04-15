@@ -1,0 +1,19 @@
+{
+  "problemId": 14411,
+  "title": "합집합",
+  "tier": 12,
+  "tags": [
+    "sorting"
+  ],
+  "acceptedUserCount": 184,
+  "averageTries": 1.6196000576019287,
+  "latestSubmission": {
+    "id": 89430241,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 26728,
+    "timeMs": 320,
+    "codeLen": 894,
+    "submittedAt": "1년 전"
+  }
+}

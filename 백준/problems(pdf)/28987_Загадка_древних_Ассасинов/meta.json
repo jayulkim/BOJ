@@ -1,0 +1,20 @@
+{
+  "problemId": 28987,
+  "title": "Загадка древних Ассасинов",
+  "tier": 8,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 21,
+  "averageTries": 2.38100004196167,
+  "latestSubmission": {
+    "id": 87359087,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3820,
+    "timeMs": 8,
+    "codeLen": 924,
+    "submittedAt": "1년 전"
+  }
+}

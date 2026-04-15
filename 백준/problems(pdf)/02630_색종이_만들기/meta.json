@@ -1,0 +1,20 @@
+{
+  "problemId": 2630,
+  "title": "색종이 만들기",
+  "tier": 9,
+  "tags": [
+    "divide_and_conquer",
+    "recursion"
+  ],
+  "acceptedUserCount": 36662,
+  "averageTries": 1.419800043106079,
+  "latestSubmission": {
+    "id": 87059281,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2152,
+    "timeMs": 0,
+    "codeLen": 903,
+    "submittedAt": "1년 전"
+  }
+}

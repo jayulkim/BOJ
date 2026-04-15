@@ -1,0 +1,25 @@
+{
+  "problemId": 21276,
+  "title": "계보 복원가 호석",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "sorting",
+    "set",
+    "hash_set",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 1308,
+  "averageTries": 1.9579999446868896,
+  "latestSubmission": {
+    "id": 84893025,
+    "result": "맞았습니다!! (19/19)",
+    "language": "C++17",
+    "memoryKb": 5132,
+    "timeMs": 304,
+    "codeLen": 1349,
+    "submittedAt": "1년 전"
+  }
+}

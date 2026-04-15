@@ -1,0 +1,21 @@
+{
+  "problemId": 11657,
+  "title": "타임머신",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "bellman_ford"
+  ],
+  "acceptedUserCount": 14208,
+  "averageTries": 3.6538000106811523,
+  "latestSubmission": {
+    "id": 84886646,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2308,
+    "timeMs": 12,
+    "codeLen": 983,
+    "submittedAt": "1년 전"
+  }
+}

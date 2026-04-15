@@ -1,0 +1,19 @@
+{
+  "problemId": 5337,
+  "title": "웰컴",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 21621,
+  "averageTries": 1.3602999448776245,
+  "latestSubmission": {
+    "id": 84881575,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 199,
+    "submittedAt": "1년 전"
+  }
+}

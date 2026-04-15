@@ -1,0 +1,19 @@
+{
+  "problemId": 1676,
+  "title": "팩토리얼 0의 개수",
+  "tier": 6,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 44796,
+  "averageTries": 2.156399965286255,
+  "latestSubmission": {
+    "id": 84868318,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 481,
+    "submittedAt": "1년 전"
+  }
+}

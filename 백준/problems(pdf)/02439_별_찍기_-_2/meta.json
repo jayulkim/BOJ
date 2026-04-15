@@ -1,0 +1,19 @@
+{
+  "problemId": 2439,
+  "title": "별 찍기 - 2",
+  "tier": 2,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 195654,
+  "averageTries": 1.7825000286102295,
+  "latestSubmission": {
+    "id": 84878949,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 31120,
+    "timeMs": 32,
+    "codeLen": 81,
+    "submittedAt": "1년 전"
+  }
+}

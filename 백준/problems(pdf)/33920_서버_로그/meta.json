@@ -1,0 +1,22 @@
+{
+  "problemId": 33920,
+  "title": "서버 로그",
+  "tier": 13,
+  "tags": [
+    "math",
+    "sorting",
+    "binary_search",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 26,
+  "averageTries": 2.1154000759124756,
+  "latestSubmission": {
+    "id": 102737549,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 25532,
+    "timeMs": 136,
+    "codeLen": 1168,
+    "submittedAt": "2달 전"
+  }
+}

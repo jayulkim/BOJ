@@ -1,0 +1,19 @@
+{
+  "problemId": 18096,
+  "title": "Арифметическая магия",
+  "tier": 1,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 5393,
+  "averageTries": 1.083299994468689,
+  "latestSubmission": {
+    "id": 84892552,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3068,
+    "timeMs": 0,
+    "codeLen": 409,
+    "submittedAt": "1년 전"
+  }
+}

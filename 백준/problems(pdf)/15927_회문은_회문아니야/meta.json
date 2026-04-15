@@ -1,0 +1,20 @@
+{
+  "problemId": 15927,
+  "title": "회문은 회문아니야!!",
+  "tier": 11,
+  "tags": [
+    "string",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 2386,
+  "averageTries": 2.335700035095215,
+  "latestSubmission": {
+    "id": 84891496,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3476,
+    "timeMs": 20,
+    "codeLen": 543,
+    "submittedAt": "1년 전"
+  }
+}

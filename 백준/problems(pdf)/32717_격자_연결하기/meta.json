@@ -1,0 +1,21 @@
+{
+  "problemId": 32717,
+  "title": "격자 연결하기",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "grid_graph",
+    "maximum_subarray"
+  ],
+  "acceptedUserCount": 76,
+  "averageTries": 1.8421000242233276,
+  "latestSubmission": {
+    "id": 86988553,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 25760,
+    "timeMs": 96,
+    "codeLen": 1138,
+    "submittedAt": "1년 전"
+  }
+}

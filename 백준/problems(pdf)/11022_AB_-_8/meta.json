@@ -1,0 +1,21 @@
+{
+  "problemId": 11022,
+  "title": "A+B - 8",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "arithmetic",
+    "math"
+  ],
+  "acceptedUserCount": 153796,
+  "averageTries": 1.472100019454956,
+  "latestSubmission": {
+    "id": 84885651,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 31120,
+    "timeMs": 36,
+    "codeLen": 139,
+    "submittedAt": "1년 전"
+  }
+}

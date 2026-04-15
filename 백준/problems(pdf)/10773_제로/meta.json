@@ -1,0 +1,21 @@
+{
+  "problemId": 10773,
+  "title": "제로",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 74408,
+  "averageTries": 1.4515000581741333,
+  "latestSubmission": {
+    "id": 84884199,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1504,
+    "timeMs": 8,
+    "codeLen": 773,
+    "submittedAt": "1년 전"
+  }
+}

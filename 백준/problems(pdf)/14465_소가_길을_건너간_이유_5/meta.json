@@ -1,0 +1,20 @@
+{
+  "problemId": 14465,
+  "title": "소가 길을 건너간 이유 5",
+  "tier": 9,
+  "tags": [
+    "prefix_sum",
+    "sliding_window"
+  ],
+  "acceptedUserCount": 2824,
+  "averageTries": 2.0850000381469727,
+  "latestSubmission": {
+    "id": 84889682,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2800,
+    "timeMs": 0,
+    "codeLen": 552,
+    "submittedAt": "1년 전"
+  }
+}

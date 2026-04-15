@@ -1,0 +1,20 @@
+{
+  "problemId": 11660,
+  "title": "구간 합 구하기 5",
+  "tier": 10,
+  "tags": [
+    "dp",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 37374,
+  "averageTries": 2.228300094604492,
+  "latestSubmission": {
+    "id": 84886692,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 9728,
+    "timeMs": 172,
+    "codeLen": 762,
+    "submittedAt": "1년 전"
+  }
+}

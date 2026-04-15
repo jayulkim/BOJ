@@ -1,0 +1,25 @@
+{
+  "problemId": 20226,
+  "title": "Luggage",
+  "tier": 22,
+  "tags": [
+    "math",
+    "number_theory",
+    "binary_search",
+    "primality_test",
+    "prime_factorization",
+    "pollard_rho",
+    "miller_rabin"
+  ],
+  "acceptedUserCount": 114,
+  "averageTries": 4.456099987030029,
+  "latestSubmission": {
+    "id": 85473980,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2684,
+    "timeMs": 384,
+    "codeLen": 3037,
+    "submittedAt": "1년 전"
+  }
+}

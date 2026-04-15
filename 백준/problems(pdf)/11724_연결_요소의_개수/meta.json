@@ -1,0 +1,22 @@
+{
+  "problemId": 11724,
+  "title": "연결 요소의 개수",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs"
+  ],
+  "acceptedUserCount": 54929,
+  "averageTries": 2.3310000896453857,
+  "latestSubmission": {
+    "id": 84887002,
+    "result": "맞았습니다!!",
+    "language": "C11",
+    "memoryKb": 32280,
+    "timeMs": 232,
+    "codeLen": 1089,
+    "submittedAt": "1년 전"
+  }
+}

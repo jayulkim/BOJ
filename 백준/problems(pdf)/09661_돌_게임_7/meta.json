@@ -1,0 +1,20 @@
+{
+  "problemId": 9661,
+  "title": "돌 게임 7",
+  "tier": 14,
+  "tags": [
+    "math",
+    "game_theory"
+  ],
+  "acceptedUserCount": 2334,
+  "averageTries": 1.8766000270843506,
+  "latestSubmission": {
+    "id": 84883619,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 355,
+    "submittedAt": "1년 전"
+  }
+}

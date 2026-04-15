@@ -1,0 +1,21 @@
+{
+  "problemId": 25826,
+  "title": "2차원 배열 다중 업데이트 단일 합",
+  "tier": 12,
+  "tags": [
+    "prefix_sum",
+    "sweeping",
+    "difference_array"
+  ],
+  "acceptedUserCount": 199,
+  "averageTries": 2.0201001167297363,
+  "latestSubmission": {
+    "id": 84893787,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 23912,
+    "timeMs": 204,
+    "codeLen": 1137,
+    "submittedAt": "1년 전"
+  }
+}

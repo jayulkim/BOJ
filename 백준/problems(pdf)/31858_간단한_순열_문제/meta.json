@@ -1,0 +1,21 @@
+{
+  "problemId": 31858,
+  "title": "간단한 순열 문제",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "ad_hoc",
+    "stack"
+  ],
+  "acceptedUserCount": 165,
+  "averageTries": 1.503000020980835,
+  "latestSubmission": {
+    "id": 84894873,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2676,
+    "timeMs": 32,
+    "codeLen": 892,
+    "submittedAt": "1년 전"
+  }
+}

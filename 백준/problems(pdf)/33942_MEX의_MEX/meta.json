@@ -1,0 +1,20 @@
+{
+  "problemId": 33942,
+  "title": "MEX의 MEX",
+  "tier": 11,
+  "tags": [
+    "math",
+    "binary_search"
+  ],
+  "acceptedUserCount": 56,
+  "averageTries": 1.6606999635696411,
+  "latestSubmission": {
+    "id": 98203760,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 114388,
+    "timeMs": 468,
+    "codeLen": 898,
+    "submittedAt": "7달 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 9842,
+  "title": "Prime",
+  "tier": 7,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 427,
+  "averageTries": 1.5573999881744385,
+  "latestSubmission": {
+    "id": 84883696,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2304,
+    "timeMs": 0,
+    "codeLen": 500,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 1781,
+  "title": "컵라면",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 6458,
+  "averageTries": 2.8366000652313232,
+  "latestSubmission": {
+    "id": 84868826,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5024,
+    "timeMs": 92,
+    "codeLen": 2262,
+    "submittedAt": "1년 전"
+  }
+}

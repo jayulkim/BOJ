@@ -1,0 +1,21 @@
+{
+  "problemId": 12907,
+  "title": "동물원",
+  "tier": 11,
+  "tags": [
+    "math",
+    "combinatorics",
+    "case_work"
+  ],
+  "acceptedUserCount": 362,
+  "averageTries": 2.966900110244751,
+  "latestSubmission": {
+    "id": 97407187,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 1526,
+    "submittedAt": "8달 전"
+  }
+}

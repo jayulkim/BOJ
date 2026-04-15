@@ -1,0 +1,21 @@
+{
+  "problemId": 32373,
+  "title": "장난감 자물쇠",
+  "tier": 8,
+  "tags": [
+    "math",
+    "sorting",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 246,
+  "averageTries": 1.8659000396728516,
+  "latestSubmission": {
+    "id": 99682307,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 5280,
+    "timeMs": 20,
+    "codeLen": 660,
+    "submittedAt": "5달 전"
+  }
+}

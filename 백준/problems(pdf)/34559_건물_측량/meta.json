@@ -1,0 +1,22 @@
+{
+  "problemId": 34559,
+  "title": "건물 측량",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "prefix_sum",
+    "bfs"
+  ],
+  "acceptedUserCount": 110,
+  "averageTries": 2.1545000076293945,
+  "latestSubmission": {
+    "id": 99168536,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 18244,
+    "timeMs": 92,
+    "codeLen": 2207,
+    "submittedAt": "6달 전"
+  }
+}

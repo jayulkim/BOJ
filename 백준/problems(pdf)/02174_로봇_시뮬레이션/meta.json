@@ -1,0 +1,17 @@
+{
+  "problemId": 2174,
+  "title": "로봇 시뮬레이션",
+  "tier": 0,
+  "tags": [],
+  "acceptedUserCount": 3106,
+  "averageTries": 4.302599906921387,
+  "latestSubmission": {
+    "id": 84878026,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1204,
+    "timeMs": 0,
+    "codeLen": 4583,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 23322,
+  "title": "초콜릿 뺏어 먹기",
+  "tier": 9,
+  "tags": [
+    "greedy",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 492,
+  "averageTries": 1.6239999532699585,
+  "latestSubmission": {
+    "id": 85947687,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 120,
+    "codeLen": 553,
+    "submittedAt": "1년 전"
+  }
+}

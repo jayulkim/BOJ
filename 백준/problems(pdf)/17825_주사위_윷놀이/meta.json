@@ -1,0 +1,22 @@
+{
+  "problemId": 17825,
+  "title": "주사위 윷놀이",
+  "tier": 14,
+  "tags": [
+    "implementation",
+    "bruteforcing",
+    "simulation",
+    "backtracking"
+  ],
+  "acceptedUserCount": 5067,
+  "averageTries": 2.3392999172210693,
+  "latestSubmission": {
+    "id": 84892525,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 120,
+    "codeLen": 2995,
+    "submittedAt": "1년 전"
+  }
+}

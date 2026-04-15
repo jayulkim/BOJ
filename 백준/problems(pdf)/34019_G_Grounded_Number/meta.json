@@ -1,0 +1,21 @@
+{
+  "problemId": 34019,
+  "title": "[G] Grounded Number",
+  "tier": 11,
+  "tags": [
+    "math",
+    "parity",
+    "invariant"
+  ],
+  "acceptedUserCount": 128,
+  "averageTries": 1.2733999490737915,
+  "latestSubmission": {
+    "id": 95216990,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 422,
+    "submittedAt": "10달 전"
+  }
+}

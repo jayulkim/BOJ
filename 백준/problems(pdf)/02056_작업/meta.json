@@ -1,0 +1,22 @@
+{
+  "problemId": 2056,
+  "title": "작업",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "graphs",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 7220,
+  "averageTries": 2.1928000450134277,
+  "latestSubmission": {
+    "id": 84869911,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5940,
+    "timeMs": 56,
+    "codeLen": 893,
+    "submittedAt": "1년 전"
+  }
+}

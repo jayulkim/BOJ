@@ -1,0 +1,19 @@
+{
+  "problemId": 4383,
+  "title": "점프는 즐거워",
+  "tier": 6,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 927,
+  "averageTries": 3.5037999153137207,
+  "latestSubmission": {
+    "id": 84881242,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 337,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 3066,
+  "title": "브리징 시그널",
+  "tier": 14,
+  "tags": [
+    "binary_search",
+    "lis"
+  ],
+  "acceptedUserCount": 690,
+  "averageTries": 1.207200050354004,
+  "latestSubmission": {
+    "id": 84880820,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2448,
+    "timeMs": 24,
+    "codeLen": 683,
+    "submittedAt": "1년 전"
+  }
+}

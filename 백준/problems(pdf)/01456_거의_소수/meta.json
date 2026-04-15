@@ -1,0 +1,22 @@
+{
+  "problemId": 1456,
+  "title": "거의 소수",
+  "tier": 11,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 4586,
+  "averageTries": 4.025300025939941,
+  "latestSubmission": {
+    "id": 84867574,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 157364,
+    "timeMs": 352,
+    "codeLen": 754,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 34875,
+  "title": "자벌레 세기",
+  "tier": 12,
+  "tags": [
+    "math",
+    "trees",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 80,
+  "averageTries": 1.662500023841858,
+  "latestSubmission": {
+    "id": 100802117,
+    "result": "100점",
+    "language": "C++23",
+    "memoryKb": 27912,
+    "timeMs": 128,
+    "codeLen": 1228,
+    "submittedAt": "4달 전"
+  }
+}

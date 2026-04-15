@@ -1,0 +1,19 @@
+{
+  "problemId": 7287,
+  "title": "등록",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 71279,
+  "averageTries": 1.9119000434875488,
+  "latestSubmission": {
+    "id": 84882361,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 78,
+    "submittedAt": "1년 전"
+  }
+}

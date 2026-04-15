@@ -1,0 +1,23 @@
+{
+  "problemId": 17178,
+  "title": "줄서기",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "sorting",
+    "simulation",
+    "stack"
+  ],
+  "acceptedUserCount": 597,
+  "averageTries": 2.0034000873565674,
+  "latestSubmission": {
+    "id": 102859228,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2224,
+    "timeMs": 0,
+    "codeLen": 1850,
+    "submittedAt": "2달 전"
+  }
+}

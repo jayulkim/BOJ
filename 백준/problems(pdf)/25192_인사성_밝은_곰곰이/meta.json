@@ -1,0 +1,22 @@
+{
+  "problemId": 25192,
+  "title": "인사성 밝은 곰곰이",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "set",
+    "hash_set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 12722,
+  "averageTries": 2.065200090408325,
+  "latestSubmission": {
+    "id": 84893643,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8312,
+    "timeMs": 32,
+    "codeLen": 435,
+    "submittedAt": "1년 전"
+  }
+}

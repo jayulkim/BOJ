@@ -1,0 +1,21 @@
+{
+  "problemId": 1234,
+  "title": "크리스마스 트리",
+  "tier": 14,
+  "tags": [
+    "math",
+    "dp",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 995,
+  "averageTries": 2.025099992752075,
+  "latestSubmission": {
+    "id": 103172845,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 15552,
+    "timeMs": 12,
+    "codeLen": 2217,
+    "submittedAt": "1달 전"
+  }
+}

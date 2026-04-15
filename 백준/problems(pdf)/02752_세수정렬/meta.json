@@ -1,0 +1,20 @@
+{
+  "problemId": 2752,
+  "title": "세수정렬",
+  "tier": 2,
+  "tags": [
+    "implementation",
+    "sorting"
+  ],
+  "acceptedUserCount": 30549,
+  "averageTries": 1.6272000074386597,
+  "latestSubmission": {
+    "id": 84880083,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 406,
+    "submittedAt": "1년 전"
+  }
+}

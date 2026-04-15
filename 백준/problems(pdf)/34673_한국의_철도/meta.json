@@ -1,0 +1,26 @@
+{
+  "problemId": 34673,
+  "title": "한국의 철도",
+  "tier": 13,
+  "tags": [
+    "math",
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "sorting",
+    "trees",
+    "set",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 29,
+  "averageTries": 1.930999994277954,
+  "latestSubmission": {
+    "id": 100085863,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 60736,
+    "timeMs": 528,
+    "codeLen": 1301,
+    "submittedAt": "5달 전"
+  }
+}

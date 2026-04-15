@@ -1,0 +1,22 @@
+{
+  "problemId": 10757,
+  "title": "큰 수 A+B",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "arbitrary_precision",
+    "arithmetic",
+    "math"
+  ],
+  "acceptedUserCount": 47475,
+  "averageTries": 1.948699951171875,
+  "latestSubmission": {
+    "id": 84884163,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 108080,
+    "timeMs": 88,
+    "codeLen": 46,
+    "submittedAt": "1년 전"
+  }
+}

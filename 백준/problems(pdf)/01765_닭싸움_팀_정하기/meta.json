@@ -1,0 +1,22 @@
+{
+  "problemId": 1765,
+  "title": "닭싸움 팀 정하기",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 1223,
+  "averageTries": 2.0416998863220215,
+  "latestSubmission": {
+    "id": 88806660,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2188,
+    "timeMs": 0,
+    "codeLen": 1145,
+    "submittedAt": "1년 전"
+  }
+}

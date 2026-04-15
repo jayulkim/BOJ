@@ -1,0 +1,21 @@
+{
+  "problemId": 25556,
+  "title": "포스택",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "stack"
+  ],
+  "acceptedUserCount": 1155,
+  "averageTries": 2.2934999465942383,
+  "latestSubmission": {
+    "id": 84893730,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3068,
+    "timeMs": 12,
+    "codeLen": 2302,
+    "submittedAt": "1년 전"
+  }
+}

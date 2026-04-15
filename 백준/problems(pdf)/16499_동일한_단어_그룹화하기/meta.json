@@ -1,0 +1,23 @@
+{
+  "problemId": 16499,
+  "title": "동일한 단어 그룹화하기",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "string",
+    "sorting",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 1280,
+  "averageTries": 1.4062999486923218,
+  "latestSubmission": {
+    "id": 98389160,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2224,
+    "timeMs": 0,
+    "codeLen": 586,
+    "submittedAt": "7달 전"
+  }
+}

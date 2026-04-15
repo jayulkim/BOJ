@@ -1,0 +1,21 @@
+{
+  "problemId": 7042,
+  "title": "Cow Ski Area",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "scc"
+  ],
+  "acceptedUserCount": 53,
+  "averageTries": 2.9056999683380127,
+  "latestSubmission": {
+    "id": 93064571,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 64784,
+    "timeMs": 152,
+    "codeLen": 3090,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 22015,
+  "title": "金平糖 (Konpeito)",
+  "tier": 2,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 1759,
+  "averageTries": 1.2245999574661255,
+  "latestSubmission": {
+    "id": 97012174,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 505,
+    "submittedAt": "8달 전"
+  }
+}

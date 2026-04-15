@@ -1,0 +1,22 @@
+{
+  "problemId": 25332,
+  "title": "수들의 합 8",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "set",
+    "prefix_sum",
+    "hash_set"
+  ],
+  "acceptedUserCount": 375,
+  "averageTries": 1.9493000507354736,
+  "latestSubmission": {
+    "id": 84893697,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 17296,
+    "timeMs": 100,
+    "codeLen": 755,
+    "submittedAt": "1년 전"
+  }
+}

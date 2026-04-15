@@ -1,0 +1,23 @@
+{
+  "problemId": 1987,
+  "title": "알파벳",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "dfs",
+    "backtracking",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 30179,
+  "averageTries": 3.411099910736084,
+  "latestSubmission": {
+    "id": 84869701,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 616,
+    "codeLen": 862,
+    "submittedAt": "1년 전"
+  }
+}

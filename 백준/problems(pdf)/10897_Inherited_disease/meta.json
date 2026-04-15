@@ -1,0 +1,21 @@
+{
+  "problemId": 10897,
+  "title": "Inherited disease",
+  "tier": 11,
+  "tags": [
+    "math",
+    "implementation",
+    "trees"
+  ],
+  "acceptedUserCount": 101,
+  "averageTries": 2.505000114440918,
+  "latestSubmission": {
+    "id": 93082340,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 832,
+    "submittedAt": "1년 전"
+  }
+}

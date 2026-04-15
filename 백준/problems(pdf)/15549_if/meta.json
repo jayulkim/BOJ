@@ -1,0 +1,19 @@
+{
+  "problemId": 15549,
+  "title": "if",
+  "tier": 6,
+  "tags": [
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 1460,
+  "averageTries": 1.885599970817566,
+  "latestSubmission": {
+    "id": 93493899,
+    "result": "맞았습니다!!",
+    "language": "Text",
+    "memoryKb": 4528,
+    "timeMs": 0,
+    "codeLen": null,
+    "submittedAt": "11달 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 14246,
+  "title": "K보다 큰 구간",
+  "tier": 9,
+  "tags": [
+    "two_pointer"
+  ],
+  "acceptedUserCount": 785,
+  "averageTries": 2.8661999702453613,
+  "latestSubmission": {
+    "id": 84889381,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2676,
+    "timeMs": 500,
+    "codeLen": 941,
+    "submittedAt": "1년 전"
+  }
+}

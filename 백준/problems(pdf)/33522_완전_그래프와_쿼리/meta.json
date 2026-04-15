@@ -1,0 +1,24 @@
+{
+  "problemId": 33522,
+  "title": "완전 그래프와 쿼리",
+  "tier": 19,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "number_theory",
+    "constructive",
+    "primality_test",
+    "pigeonhole_principle"
+  ],
+  "acceptedUserCount": 62,
+  "averageTries": 2.225800037384033,
+  "latestSubmission": {
+    "id": 90515167,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8392,
+    "timeMs": 20,
+    "codeLen": 976,
+    "submittedAt": "1년 전"
+  }
+}

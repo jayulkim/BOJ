@@ -1,0 +1,22 @@
+{
+  "problemId": 2644,
+  "title": "촌수계산",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs"
+  ],
+  "acceptedUserCount": 27822,
+  "averageTries": 1.9163000583648682,
+  "latestSubmission": {
+    "id": 84879672,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 662,
+    "submittedAt": "1년 전"
+  }
+}

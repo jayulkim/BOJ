@@ -1,0 +1,20 @@
+{
+  "problemId": 1365,
+  "title": "꼬인 전깃줄",
+  "tier": 14,
+  "tags": [
+    "binary_search",
+    "lis"
+  ],
+  "acceptedUserCount": 4189,
+  "averageTries": 1.7071000337600708,
+  "latestSubmission": {
+    "id": 84867146,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2804,
+    "timeMs": 8,
+    "codeLen": 575,
+    "submittedAt": "1년 전"
+  }
+}

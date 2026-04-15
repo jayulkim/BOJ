@@ -1,0 +1,21 @@
+{
+  "problemId": 25947,
+  "title": "선물할인",
+  "tier": 10,
+  "tags": [
+    "greedy",
+    "sorting",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 665,
+  "averageTries": 3.6421000957489014,
+  "latestSubmission": {
+    "id": 84893875,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2804,
+    "timeMs": 20,
+    "codeLen": 555,
+    "submittedAt": "1년 전"
+  }
+}

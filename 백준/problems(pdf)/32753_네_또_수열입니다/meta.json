@@ -1,0 +1,20 @@
+{
+  "problemId": 32753,
+  "title": "네 또 수열입니다",
+  "tier": 7,
+  "tags": [
+    "ad_hoc",
+    "constructive"
+  ],
+  "acceptedUserCount": 295,
+  "averageTries": 2.271199941635132,
+  "latestSubmission": {
+    "id": 87086929,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 4,
+    "codeLen": 495,
+    "submittedAt": "1년 전"
+  }
+}

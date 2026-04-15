@@ -1,0 +1,22 @@
+{
+  "problemId": 34139,
+  "title": "의식의 광장",
+  "tier": 9,
+  "tags": [
+    "greedy",
+    "sorting",
+    "ad_hoc",
+    "constructive"
+  ],
+  "acceptedUserCount": 190,
+  "averageTries": 1.8789000511169434,
+  "latestSubmission": {
+    "id": 97580460,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 11368,
+    "timeMs": 88,
+    "codeLen": 733,
+    "submittedAt": "7달 전"
+  }
+}

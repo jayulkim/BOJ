@@ -1,0 +1,21 @@
+{
+  "problemId": 2875,
+  "title": "대회 or 인턴",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 12269,
+  "averageTries": 2.1840999126434326,
+  "latestSubmission": {
+    "id": 73980286,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3064,
+    "timeMs": 0,
+    "codeLen": 459,
+    "submittedAt": "2년 전"
+  }
+}

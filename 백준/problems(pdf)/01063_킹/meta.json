@@ -1,0 +1,20 @@
+{
+  "problemId": 1063,
+  "title": "킹",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 7419,
+  "averageTries": 2.2112998962402344,
+  "latestSubmission": {
+    "id": 84865255,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 7529,
+    "submittedAt": "1년 전"
+  }
+}

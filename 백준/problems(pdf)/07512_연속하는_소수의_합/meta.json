@@ -1,0 +1,23 @@
+{
+  "problemId": 7512,
+  "title": "연속하는 소수의 합",
+  "tier": 13,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve",
+    "sliding_window"
+  ],
+  "acceptedUserCount": 206,
+  "averageTries": 4.635900020599365,
+  "latestSubmission": {
+    "id": 84882439,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 87052,
+    "timeMs": 300,
+    "codeLen": 1423,
+    "submittedAt": "1년 전"
+  }
+}

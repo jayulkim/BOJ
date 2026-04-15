@@ -1,0 +1,20 @@
+{
+  "problemId": 2938,
+  "title": "3으로 나누어 떨어지지 않는 배열",
+  "tier": 11,
+  "tags": [
+    "constructive",
+    "case_work"
+  ],
+  "acceptedUserCount": 319,
+  "averageTries": 3.2507998943328857,
+  "latestSubmission": {
+    "id": 86654448,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2312,
+    "timeMs": 0,
+    "codeLen": 911,
+    "submittedAt": "1년 전"
+  }
+}

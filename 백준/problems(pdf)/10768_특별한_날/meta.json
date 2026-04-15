@@ -1,0 +1,19 @@
+{
+  "problemId": 10768,
+  "title": "특별한 날",
+  "tier": 2,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 9250,
+  "averageTries": 1.5782999992370605,
+  "latestSubmission": {
+    "id": 95602583,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 658,
+    "submittedAt": "9달 전"
+  }
+}

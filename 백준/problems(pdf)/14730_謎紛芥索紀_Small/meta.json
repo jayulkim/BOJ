@@ -1,0 +1,20 @@
+{
+  "problemId": 14730,
+  "title": "謎紛芥索紀 (Small)",
+  "tier": 6,
+  "tags": [
+    "math",
+    "calculus"
+  ],
+  "acceptedUserCount": 1916,
+  "averageTries": 1.1930999755859375,
+  "latestSubmission": {
+    "id": 84890276,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 372,
+    "submittedAt": "1년 전"
+  }
+}

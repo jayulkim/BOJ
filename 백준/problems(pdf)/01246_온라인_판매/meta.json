@@ -1,0 +1,20 @@
+{
+  "problemId": 1246,
+  "title": "온라인 판매",
+  "tier": 7,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 3524,
+  "averageTries": 2.1981000900268555,
+  "latestSubmission": {
+    "id": 84866162,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 567,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 31612,
+  "title": "画数数え (Stroke Count)",
+  "tier": 2,
+  "tags": [
+    "math",
+    "string",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 778,
+  "averageTries": 1.1568000316619873,
+  "latestSubmission": {
+    "id": 95375102,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 551,
+    "submittedAt": "10달 전"
+  }
+}

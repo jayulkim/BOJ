@@ -1,0 +1,23 @@
+{
+  "problemId": 34409,
+  "title": "무등산 등반",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "shortest_path",
+    "dijkstra",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 100,
+  "averageTries": 2.2300000190734863,
+  "latestSubmission": {
+    "id": 99519302,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 10780,
+    "timeMs": 96,
+    "codeLen": 2255,
+    "submittedAt": "5달 전"
+  }
+}

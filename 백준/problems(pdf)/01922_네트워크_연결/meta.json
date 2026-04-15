@@ -1,0 +1,20 @@
+{
+  "problemId": 1922,
+  "title": "네트워크 연결",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "mst"
+  ],
+  "acceptedUserCount": 19149,
+  "averageTries": 1.5048999786376953,
+  "latestSubmission": {
+    "id": 84869265,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4460,
+    "timeMs": 24,
+    "codeLen": 1082,
+    "submittedAt": "1년 전"
+  }
+}

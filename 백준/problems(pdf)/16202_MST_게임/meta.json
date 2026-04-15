@@ -1,0 +1,20 @@
+{
+  "problemId": 16202,
+  "title": "MST 게임",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "mst"
+  ],
+  "acceptedUserCount": 1099,
+  "averageTries": 1.4812999963760376,
+  "latestSubmission": {
+    "id": 92017120,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3712,
+    "timeMs": 92,
+    "codeLen": 1581,
+    "submittedAt": "1년 전"
+  }
+}

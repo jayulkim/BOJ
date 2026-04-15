@@ -1,0 +1,22 @@
+{
+  "problemId": 28069,
+  "title": "김밥천국의 계단",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 727,
+  "averageTries": 3.332900047302246,
+  "latestSubmission": {
+    "id": 96424245,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4116,
+    "timeMs": 36,
+    "codeLen": 1073,
+    "submittedAt": "8달 전"
+  }
+}

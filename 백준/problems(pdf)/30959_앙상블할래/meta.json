@@ -1,0 +1,21 @@
+{
+  "problemId": 30959,
+  "title": "앙상블할래?",
+  "tier": 10,
+  "tags": [
+    "implementation",
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 181,
+  "averageTries": 1.7956000566482544,
+  "latestSubmission": {
+    "id": 84894729,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2156,
+    "timeMs": 96,
+    "codeLen": 1741,
+    "submittedAt": "1년 전"
+  }
+}

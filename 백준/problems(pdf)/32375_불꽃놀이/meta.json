@@ -1,0 +1,21 @@
+{
+  "problemId": 32375,
+  "title": "불꽃놀이",
+  "tier": 11,
+  "tags": [
+    "greedy",
+    "sorting",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 179,
+  "averageTries": 2.547499895095825,
+  "latestSubmission": {
+    "id": 84895132,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3584,
+    "timeMs": 36,
+    "codeLen": 750,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "problemId": 14399,
+  "title": "2연산",
+  "tier": 17,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "number_theory",
+    "constructive",
+    "euclidean"
+  ],
+  "acceptedUserCount": 64,
+  "averageTries": 2.0469000339508057,
+  "latestSubmission": {
+    "id": 86566163,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 97096,
+    "timeMs": 308,
+    "codeLen": 1709,
+    "submittedAt": "1년 전"
+  }
+}

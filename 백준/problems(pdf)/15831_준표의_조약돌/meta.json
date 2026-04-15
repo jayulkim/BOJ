@@ -1,0 +1,19 @@
+{
+  "problemId": 15831,
+  "title": "준표의 조약돌",
+  "tier": 12,
+  "tags": [
+    "two_pointer"
+  ],
+  "acceptedUserCount": 821,
+  "averageTries": 2.493299961090088,
+  "latestSubmission": {
+    "id": 84891303,
+    "result": "250점",
+    "language": "C99",
+    "memoryKb": 1404,
+    "timeMs": 4,
+    "codeLen": 748,
+    "submittedAt": "1년 전"
+  }
+}

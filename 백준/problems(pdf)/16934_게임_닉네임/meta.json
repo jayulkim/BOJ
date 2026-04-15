@@ -1,0 +1,24 @@
+{
+  "problemId": 16934,
+  "title": "게임 닉네임",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "string",
+    "trees",
+    "set",
+    "hash_set",
+    "trie"
+  ],
+  "acceptedUserCount": 1127,
+  "averageTries": 1.7587000131607056,
+  "latestSubmission": {
+    "id": 104144970,
+    "result": "맞았습니다!!",
+    "language": "Kotlin (JVM)",
+    "memoryKb": 99940,
+    "timeMs": 1244,
+    "codeLen": 1147,
+    "submittedAt": "25일 전"
+  }
+}

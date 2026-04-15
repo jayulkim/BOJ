@@ -1,0 +1,24 @@
+{
+  "problemId": 1189,
+  "title": "컴백홈",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "bruteforcing",
+    "graph_traversal",
+    "dfs",
+    "backtracking",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 5753,
+  "averageTries": 1.7867000102996826,
+  "latestSubmission": {
+    "id": 84865905,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 931,
+    "submittedAt": "1년 전"
+  }
+}

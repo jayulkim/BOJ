@@ -1,0 +1,25 @@
+{
+  "problemId": 28717,
+  "title": "Хорошее подмножество",
+  "tier": 21,
+  "tags": [
+    "math",
+    "number_theory",
+    "set",
+    "primality_test",
+    "prime_factorization",
+    "pollard_rho",
+    "miller_rabin"
+  ],
+  "acceptedUserCount": 36,
+  "averageTries": 5.3333001136779785,
+  "latestSubmission": {
+    "id": 93388464,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2292,
+    "timeMs": 672,
+    "codeLen": 5171,
+    "submittedAt": "11달 전"
+  }
+}

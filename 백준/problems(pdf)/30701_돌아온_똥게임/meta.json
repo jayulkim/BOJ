@@ -1,0 +1,20 @@
+{
+  "problemId": 30701,
+  "title": "돌아온 똥게임",
+  "tier": 8,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 354,
+  "averageTries": 3.271199941635132,
+  "latestSubmission": {
+    "id": 85643573,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3688,
+    "timeMs": 24,
+    "codeLen": 854,
+    "submittedAt": "1년 전"
+  }
+}

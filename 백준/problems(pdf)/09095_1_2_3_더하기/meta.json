@@ -1,0 +1,19 @@
+{
+  "problemId": 9095,
+  "title": "1, 2, 3 더하기",
+  "tier": 8,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 73011,
+  "averageTries": 1.5325000286102295,
+  "latestSubmission": {
+    "id": 84883069,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 389,
+    "submittedAt": "1년 전"
+  }
+}

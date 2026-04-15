@@ -1,0 +1,23 @@
+{
+  "problemId": 2458,
+  "title": "키 순서",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "shortest_path",
+    "dfs",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 9588,
+  "averageTries": 1.832200050354004,
+  "latestSubmission": {
+    "id": 84879028,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3980,
+    "timeMs": 116,
+    "codeLen": 878,
+    "submittedAt": "1년 전"
+  }
+}

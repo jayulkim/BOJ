@@ -1,0 +1,21 @@
+{
+  "problemId": 2981,
+  "title": "검문",
+  "tier": 12,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 8216,
+  "averageTries": 4.666900157928467,
+  "latestSubmission": {
+    "id": 84880658,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 40180,
+    "timeMs": 0,
+    "codeLen": 1115,
+    "submittedAt": "1년 전"
+  }
+}

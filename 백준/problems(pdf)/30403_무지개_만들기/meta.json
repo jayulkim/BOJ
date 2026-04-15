@@ -1,0 +1,20 @@
+{
+  "problemId": 30403,
+  "title": "무지개 만들기",
+  "tier": 4,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 724,
+  "averageTries": 1.6754000186920166,
+  "latestSubmission": {
+    "id": 84894669,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 3047,
+    "submittedAt": "1년 전"
+  }
+}

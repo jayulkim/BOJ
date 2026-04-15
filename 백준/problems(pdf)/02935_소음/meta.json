@@ -1,0 +1,21 @@
+{
+  "problemId": 2935,
+  "title": "소음",
+  "tier": 3,
+  "tags": [
+    "math",
+    "string",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 14340,
+  "averageTries": 1.6308000087738037,
+  "latestSubmission": {
+    "id": 84880569,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3068,
+    "timeMs": 0,
+    "codeLen": 969,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 14731,
+  "title": "謎紛芥索紀 (Large)",
+  "tier": 10,
+  "tags": [
+    "math",
+    "exponentiation_by_squaring",
+    "calculus"
+  ],
+  "acceptedUserCount": 816,
+  "averageTries": 4.38730001449585,
+  "latestSubmission": {
+    "id": 94186320,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 500,
+    "codeLen": 1391,
+    "submittedAt": "11달 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 18135,
+  "title": "겨울나기",
+  "tier": 17,
+  "tags": [
+    "data_structures",
+    "segtree",
+    "lazyprop"
+  ],
+  "acceptedUserCount": 104,
+  "averageTries": 2.144200086593628,
+  "latestSubmission": {
+    "id": 100535849,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 137136,
+    "timeMs": 336,
+    "codeLen": 3633,
+    "submittedAt": "4달 전"
+  }
+}

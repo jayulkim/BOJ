@@ -1,0 +1,21 @@
+{
+  "problemId": 16211,
+  "title": "백채원",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 143,
+  "averageTries": 2.3986001014709473,
+  "latestSubmission": {
+    "id": 102794596,
+    "result": "60점",
+    "language": "C++23",
+    "memoryKb": 40420,
+    "timeMs": 428,
+    "codeLen": 2189,
+    "submittedAt": "2달 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 13422,
+  "title": "도둑",
+  "tier": 12,
+  "tags": [
+    "prefix_sum",
+    "two_pointer",
+    "sliding_window"
+  ],
+  "acceptedUserCount": 1471,
+  "averageTries": 3.2135000228881836,
+  "latestSubmission": {
+    "id": 84888762,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 40176,
+    "timeMs": 124,
+    "codeLen": 960,
+    "submittedAt": "1년 전"
+  }
+}

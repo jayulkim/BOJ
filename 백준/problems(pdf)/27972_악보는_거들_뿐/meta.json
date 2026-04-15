@@ -1,0 +1,19 @@
+{
+  "problemId": 27972,
+  "title": "악보는 거들 뿐",
+  "tier": 10,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 335,
+  "averageTries": 2.746299982070923,
+  "latestSubmission": {
+    "id": 98725382,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 8352,
+    "timeMs": 56,
+    "codeLen": 1088,
+    "submittedAt": "6달 전"
+  }
+}

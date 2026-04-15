@@ -1,0 +1,20 @@
+{
+  "problemId": 31862,
+  "title": "승리하라",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 108,
+  "averageTries": 3.4258999824523926,
+  "latestSubmission": {
+    "id": 84894899,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2804,
+    "timeMs": 244,
+    "codeLen": 1759,
+    "submittedAt": "1년 전"
+  }
+}

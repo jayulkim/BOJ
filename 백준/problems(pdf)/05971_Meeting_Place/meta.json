@@ -1,0 +1,20 @@
+{
+  "problemId": 5971,
+  "title": "Meeting Place",
+  "tier": 13,
+  "tags": [
+    "trees",
+    "lca"
+  ],
+  "acceptedUserCount": 94,
+  "averageTries": 1.1276999711990356,
+  "latestSubmission": {
+    "id": 84882106,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 758,
+    "submittedAt": "1년 전"
+  }
+}

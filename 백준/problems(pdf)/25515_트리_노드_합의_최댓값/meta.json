@@ -1,0 +1,24 @@
+{
+  "problemId": 25515,
+  "title": "트리 노드 합의 최댓값",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "dfs",
+    "dp_tree"
+  ],
+  "acceptedUserCount": 379,
+  "averageTries": 2.247999906539917,
+  "latestSubmission": {
+    "id": 102067046,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 16852,
+    "timeMs": 36,
+    "codeLen": 1198,
+    "submittedAt": "2달 전"
+  }
+}

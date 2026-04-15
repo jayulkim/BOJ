@@ -1,0 +1,22 @@
+{
+  "problemId": 34326,
+  "title": "How to escape the maze",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "graphs",
+    "simulation",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 81,
+  "averageTries": 1.3703999519348145,
+  "latestSubmission": {
+    "id": 98555158,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3156,
+    "timeMs": 36,
+    "codeLen": 2476,
+    "submittedAt": "6달 전"
+  }
+}

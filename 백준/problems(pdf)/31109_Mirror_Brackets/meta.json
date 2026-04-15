@@ -1,0 +1,21 @@
+{
+  "problemId": 31109,
+  "title": "Mirror Brackets",
+  "tier": 14,
+  "tags": [
+    "implementation",
+    "recursion",
+    "string"
+  ],
+  "acceptedUserCount": 8,
+  "averageTries": 3.125,
+  "latestSubmission": {
+    "id": 87729632,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8152,
+    "timeMs": 4,
+    "codeLen": 2042,
+    "submittedAt": "1년 전"
+  }
+}

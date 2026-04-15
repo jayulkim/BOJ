@@ -1,0 +1,20 @@
+{
+  "problemId": 16099,
+  "title": "Larger Sport Facility",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 2296,
+  "averageTries": 1.8558000326156616,
+  "latestSubmission": {
+    "id": 84891718,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3068,
+    "timeMs": 0,
+    "codeLen": 779,
+    "submittedAt": "1년 전"
+  }
+}

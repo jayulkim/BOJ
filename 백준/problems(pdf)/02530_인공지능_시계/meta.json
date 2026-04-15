@@ -1,0 +1,20 @@
+{
+  "problemId": 2530,
+  "title": "인공지능 시계",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 25167,
+  "averageTries": 2.1254000663757324,
+  "latestSubmission": {
+    "id": 84879280,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 542,
+    "submittedAt": "1년 전"
+  }
+}

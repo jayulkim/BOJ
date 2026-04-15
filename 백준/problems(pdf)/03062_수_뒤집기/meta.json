@@ -1,0 +1,22 @@
+{
+  "problemId": 3062,
+  "title": "수 뒤집기",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation",
+    "string",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 4046,
+  "averageTries": 1.6236000061035156,
+  "latestSubmission": {
+    "id": 84880808,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1220,
+    "submittedAt": "1년 전"
+  }
+}

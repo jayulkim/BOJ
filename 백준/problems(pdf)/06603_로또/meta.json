@@ -1,0 +1,22 @@
+{
+  "problemId": 6603,
+  "title": "로또",
+  "tier": 9,
+  "tags": [
+    "math",
+    "combinatorics",
+    "backtracking",
+    "recursion"
+  ],
+  "acceptedUserCount": 29938,
+  "averageTries": 1.777899980545044,
+  "latestSubmission": {
+    "id": 84882279,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 760,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 16282,
+  "title": "Black Chain",
+  "tier": 13,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 618,
+  "averageTries": 2.632699966430664,
+  "latestSubmission": {
+    "id": 85306373,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 555,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 1359,
+  "title": "복권",
+  "tier": 7,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "combinatorics",
+    "probability"
+  ],
+  "acceptedUserCount": 1261,
+  "averageTries": 1.958799958229065,
+  "latestSubmission": {
+    "id": 98906367,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 1130,
+    "submittedAt": "6달 전"
+  }
+}

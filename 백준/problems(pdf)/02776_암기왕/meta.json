@@ -1,0 +1,23 @@
+{
+  "problemId": 2776,
+  "title": "암기왕",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "binary_search",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 9380,
+  "averageTries": 3.009700059890747,
+  "latestSubmission": {
+    "id": 84880148,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 12836,
+    "timeMs": 804,
+    "codeLen": 1216,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 34077,
+  "title": "폴카의 수학 공부",
+  "tier": 9,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 216,
+  "averageTries": 3.3796000480651855,
+  "latestSubmission": {
+    "id": 97724572,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2168,
+    "timeMs": 4,
+    "codeLen": 872,
+    "submittedAt": "7달 전"
+  }
+}

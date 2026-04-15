@@ -1,0 +1,19 @@
+{
+  "problemId": 15705,
+  "title": "단어 찾기",
+  "tier": 9,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 307,
+  "averageTries": 1.9543999433517456,
+  "latestSubmission": {
+    "id": 84891039,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2040,
+    "timeMs": 16,
+    "codeLen": 1925,
+    "submittedAt": "1년 전"
+  }
+}

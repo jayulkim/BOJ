@@ -1,0 +1,22 @@
+{
+  "problemId": 27315,
+  "title": "틀리는 건 싫으니까 쉬운 문제에 올인하려고 합니다",
+  "tier": 15,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 138,
+  "averageTries": 3.35509991645813,
+  "latestSubmission": {
+    "id": 91119453,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 18540,
+    "timeMs": 252,
+    "codeLen": 1537,
+    "submittedAt": "1년 전"
+  }
+}

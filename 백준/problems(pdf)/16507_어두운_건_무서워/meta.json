@@ -1,0 +1,19 @@
+{
+  "problemId": 16507,
+  "title": "어두운 건 무서워",
+  "tier": 10,
+  "tags": [
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 2039,
+  "averageTries": 1.5253000259399414,
+  "latestSubmission": {
+    "id": 84892018,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8944,
+    "timeMs": 132,
+    "codeLen": 771,
+    "submittedAt": "1년 전"
+  }
+}

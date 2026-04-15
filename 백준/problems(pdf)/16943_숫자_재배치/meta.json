@@ -1,0 +1,21 @@
+{
+  "problemId": 16943,
+  "title": "숫자 재배치",
+  "tier": 10,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 2226,
+  "averageTries": 2.1693999767303467,
+  "latestSubmission": {
+    "id": 91592412,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 52,
+    "codeLen": 758,
+    "submittedAt": "1년 전"
+  }
+}

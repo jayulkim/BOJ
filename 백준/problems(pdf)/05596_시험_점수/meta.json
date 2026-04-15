@@ -1,0 +1,21 @@
+{
+  "problemId": 5596,
+  "title": "시험 점수",
+  "tier": 2,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 14353,
+  "averageTries": 1.2200000286102295,
+  "latestSubmission": {
+    "id": 92296777,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3064,
+    "timeMs": 0,
+    "codeLen": 441,
+    "submittedAt": "1년 전"
+  }
+}

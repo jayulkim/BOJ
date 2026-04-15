@@ -1,0 +1,20 @@
+{
+  "problemId": 10246,
+  "title": "부동산 경매",
+  "tier": 10,
+  "tags": [
+    "math",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 166,
+  "averageTries": 3.656599998474121,
+  "latestSubmission": {
+    "id": 99816822,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 9900,
+    "timeMs": 672,
+    "codeLen": 932,
+    "submittedAt": "5달 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 19577,
+  "title": "수학은 재밌어",
+  "tier": 16,
+  "tags": [
+    "math",
+    "number_theory",
+    "euler_phi"
+  ],
+  "acceptedUserCount": 715,
+  "averageTries": 2.9077000617980957,
+  "latestSubmission": {
+    "id": 84892818,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 394488,
+    "timeMs": 280,
+    "codeLen": 1461,
+    "submittedAt": "1년 전"
+  }
+}

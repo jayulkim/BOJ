@@ -1,0 +1,19 @@
+{
+  "problemId": 14430,
+  "title": "자원 캐기",
+  "tier": 9,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 2327,
+  "averageTries": 1.7240999937057495,
+  "latestSubmission": {
+    "id": 84889551,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3252,
+    "timeMs": 168,
+    "codeLen": 1171,
+    "submittedAt": "1년 전"
+  }
+}

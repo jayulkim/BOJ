@@ -1,0 +1,22 @@
+{
+  "problemId": 14466,
+  "title": "소가 길을 건너간 이유 6",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 1686,
+  "averageTries": 2.4756999015808105,
+  "latestSubmission": {
+    "id": 81518138,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2076,
+    "timeMs": 12,
+    "codeLen": 1502,
+    "submittedAt": "1년 전"
+  }
+}

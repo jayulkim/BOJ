@@ -1,0 +1,19 @@
+{
+  "problemId": 33925,
+  "title": "쿠키런",
+  "tier": 8,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 166,
+  "averageTries": 2.156599998474121,
+  "latestSubmission": {
+    "id": 98444726,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 1453,
+    "submittedAt": "7달 전"
+  }
+}

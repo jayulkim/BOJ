@@ -1,0 +1,21 @@
+{
+  "problemId": 5397,
+  "title": "키로거",
+  "tier": 9,
+  "tags": [
+    "data_structures",
+    "stack",
+    "linked_list"
+  ],
+  "acceptedUserCount": 16509,
+  "averageTries": 3.3805999755859375,
+  "latestSubmission": {
+    "id": 84881656,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 71788,
+    "timeMs": 204,
+    "codeLen": 1731,
+    "submittedAt": "1년 전"
+  }
+}

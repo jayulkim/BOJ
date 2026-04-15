@@ -1,0 +1,20 @@
+{
+  "problemId": 24131,
+  "title": "宣伝 (Advertisement)",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "scc"
+  ],
+  "acceptedUserCount": 77,
+  "averageTries": 1.4285999536514282,
+  "latestSubmission": {
+    "id": 93040217,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8180,
+    "timeMs": 32,
+    "codeLen": 1796,
+    "submittedAt": "1년 전"
+  }
+}

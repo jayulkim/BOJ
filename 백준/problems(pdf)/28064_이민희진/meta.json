@@ -1,0 +1,20 @@
+{
+  "problemId": 28064,
+  "title": "이민희진",
+  "tier": 6,
+  "tags": [
+    "string",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 469,
+  "averageTries": 1.5949000120162964,
+  "latestSubmission": {
+    "id": 84894316,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 0,
+    "codeLen": 1277,
+    "submittedAt": "1년 전"
+  }
+}

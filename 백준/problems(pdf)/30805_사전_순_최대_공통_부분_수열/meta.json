@@ -1,0 +1,19 @@
+{
+  "problemId": 30805,
+  "title": "사전 순 최대 공통 부분 수열",
+  "tier": 12,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 2552,
+  "averageTries": 3.0078001022338867,
+  "latestSubmission": {
+    "id": 98953788,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 1339,
+    "submittedAt": "6달 전"
+  }
+}

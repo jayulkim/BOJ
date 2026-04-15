@@ -1,0 +1,21 @@
+{
+  "problemId": 21920,
+  "title": "서로소 평균",
+  "tier": 7,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 950,
+  "averageTries": 2.486299991607666,
+  "latestSubmission": {
+    "id": 84893099,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5928,
+    "timeMs": 76,
+    "codeLen": 653,
+    "submittedAt": "1년 전"
+  }
+}

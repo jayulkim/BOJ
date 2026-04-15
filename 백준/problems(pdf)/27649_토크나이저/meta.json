@@ -1,0 +1,21 @@
+{
+  "problemId": 27649,
+  "title": "토크나이저",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "string",
+    "parsing"
+  ],
+  "acceptedUserCount": 332,
+  "averageTries": 2.1988000869750977,
+  "latestSubmission": {
+    "id": 84894256,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 101992,
+    "timeMs": 120,
+    "codeLen": 906,
+    "submittedAt": "1년 전"
+  }
+}

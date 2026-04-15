@@ -1,0 +1,20 @@
+{
+  "problemId": 29119,
+  "title": "Задача для Альфа",
+  "tier": 16,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 124,
+  "averageTries": 1.6532000303268433,
+  "latestSubmission": {
+    "id": 84894474,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5156,
+    "timeMs": 208,
+    "codeLen": 387,
+    "submittedAt": "1년 전"
+  }
+}

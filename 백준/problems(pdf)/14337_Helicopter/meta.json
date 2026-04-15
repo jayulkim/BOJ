@@ -1,0 +1,19 @@
+{
+  "problemId": 14337,
+  "title": "Helicopter",
+  "tier": 0,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 1752,
+  "averageTries": 2.0188000202178955,
+  "latestSubmission": {
+    "id": 84889503,
+    "result": "맞았습니다!!",
+    "language": "Visual Basic",
+    "memoryKb": 5320,
+    "timeMs": 44,
+    "codeLen": 272,
+    "submittedAt": "1년 전"
+  }
+}

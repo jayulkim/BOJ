@@ -1,0 +1,21 @@
+{
+  "problemId": 2075,
+  "title": "N번째 큰 수",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 16166,
+  "averageTries": 2.488300085067749,
+  "latestSubmission": {
+    "id": 84869937,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 9908,
+    "timeMs": 468,
+    "codeLen": 1167,
+    "submittedAt": "1년 전"
+  }
+}

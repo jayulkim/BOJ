@@ -1,0 +1,23 @@
+{
+  "problemId": 8112,
+  "title": "0과 1 - 2",
+  "tier": 17,
+  "tags": [
+    "math",
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "traceback"
+  ],
+  "acceptedUserCount": 403,
+  "averageTries": 2.8933000564575195,
+  "latestSubmission": {
+    "id": 84882688,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14072,
+    "timeMs": 228,
+    "codeLen": 1475,
+    "submittedAt": "1년 전"
+  }
+}

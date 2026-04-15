@@ -1,0 +1,20 @@
+{
+  "problemId": 11442,
+  "title": "홀수번째 피보나치 수의 합",
+  "tier": 14,
+  "tags": [
+    "math",
+    "exponentiation_by_squaring"
+  ],
+  "acceptedUserCount": 1169,
+  "averageTries": 1.4594000577926636,
+  "latestSubmission": {
+    "id": 84886222,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2152,
+    "timeMs": 0,
+    "codeLen": 2361,
+    "submittedAt": "1년 전"
+  }
+}

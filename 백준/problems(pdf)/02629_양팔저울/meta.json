@@ -1,0 +1,20 @@
+{
+  "problemId": 2629,
+  "title": "양팔저울",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "knapsack"
+  ],
+  "acceptedUserCount": 8023,
+  "averageTries": 2.7535998821258545,
+  "latestSubmission": {
+    "id": 84879612,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1272,
+    "timeMs": 0,
+    "codeLen": 1001,
+    "submittedAt": "1년 전"
+  }
+}

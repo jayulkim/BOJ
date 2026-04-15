@@ -1,0 +1,22 @@
+{
+  "problemId": 1516,
+  "title": "게임 개발",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "graphs",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 11504,
+  "averageTries": 2.0327999591827393,
+  "latestSubmission": {
+    "id": 84867824,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2440,
+    "timeMs": 4,
+    "codeLen": 850,
+    "submittedAt": "1년 전"
+  }
+}

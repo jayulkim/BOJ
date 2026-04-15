@@ -1,0 +1,22 @@
+{
+  "problemId": 7453,
+  "title": "합이 0인 네 정수",
+  "tier": 14,
+  "tags": [
+    "sorting",
+    "binary_search",
+    "two_pointer",
+    "mitm"
+  ],
+  "acceptedUserCount": 8985,
+  "averageTries": 4.258800029754639,
+  "latestSubmission": {
+    "id": 91952387,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 329960,
+    "timeMs": 10972,
+    "codeLen": 866,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 1236,
+  "title": "성 지키기",
+  "tier": 5,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 8537,
+  "averageTries": 2.2047998905181885,
+  "latestSubmission": {
+    "id": 84866078,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1120,
+    "timeMs": 0,
+    "codeLen": 810,
+    "submittedAt": "1년 전"
+  }
+}

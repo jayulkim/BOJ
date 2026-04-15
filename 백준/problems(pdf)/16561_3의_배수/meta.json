@@ -1,0 +1,21 @@
+{
+  "problemId": 16561,
+  "title": "3의 배수",
+  "tier": 4,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 2140,
+  "averageTries": 1.5397000312805176,
+  "latestSubmission": {
+    "id": 84892028,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 415,
+    "submittedAt": "1년 전"
+  }
+}

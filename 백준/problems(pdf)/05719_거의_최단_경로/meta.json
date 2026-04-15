@@ -1,0 +1,23 @@
+{
+  "problemId": 5719,
+  "title": "거의 최단 경로",
+  "tier": 16,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "shortest_path",
+    "dijkstra",
+    "traceback"
+  ],
+  "acceptedUserCount": 4805,
+  "averageTries": 4.904699802398682,
+  "latestSubmission": {
+    "id": 84882078,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2560,
+    "timeMs": 32,
+    "codeLen": 2015,
+    "submittedAt": "1년 전"
+  }
+}

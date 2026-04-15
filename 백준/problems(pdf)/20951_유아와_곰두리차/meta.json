@@ -1,0 +1,20 @@
+{
+  "problemId": 20951,
+  "title": "유아와 곰두리차",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "graphs"
+  ],
+  "acceptedUserCount": 183,
+  "averageTries": 1.9563000202178955,
+  "latestSubmission": {
+    "id": 90115517,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 20852,
+    "timeMs": 152,
+    "codeLen": 838,
+    "submittedAt": "1년 전"
+  }
+}

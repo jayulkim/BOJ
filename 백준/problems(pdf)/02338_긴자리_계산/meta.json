@@ -1,0 +1,21 @@
+{
+  "problemId": 2338,
+  "title": "긴자리 계산",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 22187,
+  "averageTries": 2.00600004196167,
+  "latestSubmission": {
+    "id": 84878433,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 31120,
+    "timeMs": 28,
+    "codeLen": 73,
+    "submittedAt": "1년 전"
+  }
+}

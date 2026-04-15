@@ -1,0 +1,19 @@
+{
+  "problemId": 9498,
+  "title": "시험 성적",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 238940,
+  "averageTries": 1.8203999996185303,
+  "latestSubmission": {
+    "id": 84883332,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 387,
+    "submittedAt": "1년 전"
+  }
+}

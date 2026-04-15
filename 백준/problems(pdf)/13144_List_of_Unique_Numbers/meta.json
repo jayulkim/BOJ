@@ -1,0 +1,19 @@
+{
+  "problemId": 13144,
+  "title": "List of Unique Numbers",
+  "tier": 12,
+  "tags": [
+    "two_pointer"
+  ],
+  "acceptedUserCount": 4191,
+  "averageTries": 2.8036000728607178,
+  "latestSubmission": {
+    "id": 84888317,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1892,
+    "timeMs": 12,
+    "codeLen": 780,
+    "submittedAt": "1년 전"
+  }
+}

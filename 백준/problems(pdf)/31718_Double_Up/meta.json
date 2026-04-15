@@ -1,0 +1,23 @@
+{
+  "problemId": 31718,
+  "title": "Double Up",
+  "tier": 7,
+  "tags": [
+    "math",
+    "data_structures",
+    "ad_hoc",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 303,
+  "averageTries": 1.5379999876022339,
+  "latestSubmission": {
+    "id": 90842226,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 90992,
+    "timeMs": 1204,
+    "codeLen": 485,
+    "submittedAt": "1년 전"
+  }
+}

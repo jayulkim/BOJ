@@ -1,0 +1,21 @@
+{
+  "problemId": 11437,
+  "title": "LCA",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "trees",
+    "lca"
+  ],
+  "acceptedUserCount": 7517,
+  "averageTries": 2.4165000915527344,
+  "latestSubmission": {
+    "id": 84886112,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5292,
+    "timeMs": 2040,
+    "codeLen": 1169,
+    "submittedAt": "1년 전"
+  }
+}

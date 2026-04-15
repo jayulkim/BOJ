@@ -1,0 +1,22 @@
+{
+  "problemId": 1260,
+  "title": "DFS와 BFS",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs"
+  ],
+  "acceptedUserCount": 87547,
+  "averageTries": 2.5292000770568848,
+  "latestSubmission": {
+    "id": 84866248,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2184,
+    "timeMs": 4,
+    "codeLen": 876,
+    "submittedAt": "1년 전"
+  }
+}

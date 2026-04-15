@@ -1,0 +1,19 @@
+{
+  "problemId": 24313,
+  "title": "알고리즘 수업 - 점근적 표기 1",
+  "tier": 6,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 17115,
+  "averageTries": 2.8529000282287598,
+  "latestSubmission": {
+    "id": 84893513,
+    "result": "맞았습니다!!",
+    "language": "Java 11",
+    "memoryKb": 14300,
+    "timeMs": 100,
+    "codeLen": 1349,
+    "submittedAt": "1년 전"
+  }
+}

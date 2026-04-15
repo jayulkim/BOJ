@@ -1,0 +1,20 @@
+{
+  "problemId": 29704,
+  "title": "벼락치기",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "knapsack"
+  ],
+  "acceptedUserCount": 664,
+  "averageTries": 1.4306999444961548,
+  "latestSubmission": {
+    "id": 94175271,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10008,
+    "timeMs": 8,
+    "codeLen": 796,
+    "submittedAt": "11달 전"
+  }
+}

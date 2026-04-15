@@ -1,0 +1,20 @@
+{
+  "problemId": 2991,
+  "title": "사나운 개",
+  "tier": 3,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 2852,
+  "averageTries": 1.4378999471664429,
+  "latestSubmission": {
+    "id": 98389775,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 695,
+    "submittedAt": "7달 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 10978,
+  "title": "기숙사 재배정",
+  "tier": 13,
+  "tags": [
+    "math",
+    "dp",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 642,
+  "averageTries": 1.8519999980926514,
+  "latestSubmission": {
+    "id": 85988603,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 386,
+    "submittedAt": "1년 전"
+  }
+}

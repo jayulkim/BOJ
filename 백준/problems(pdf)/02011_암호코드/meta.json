@@ -1,0 +1,19 @@
+{
+  "problemId": 2011,
+  "title": "암호코드",
+  "tier": 11,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 10354,
+  "averageTries": 4.720799922943115,
+  "latestSubmission": {
+    "id": 91871800,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2064,
+    "timeMs": 0,
+    "codeLen": 1068,
+    "submittedAt": "1년 전"
+  }
+}

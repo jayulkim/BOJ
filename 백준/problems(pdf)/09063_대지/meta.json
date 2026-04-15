@@ -1,0 +1,21 @@
+{
+  "problemId": 9063,
+  "title": "대지",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation",
+    "geometry"
+  ],
+  "acceptedUserCount": 23153,
+  "averageTries": 1.5435999631881714,
+  "latestSubmission": {
+    "id": 84882991,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1972,
+    "timeMs": 24,
+    "codeLen": 719,
+    "submittedAt": "1년 전"
+  }
+}

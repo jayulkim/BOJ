@@ -1,0 +1,21 @@
+{
+  "problemId": 17219,
+  "title": "비밀번호 찾기",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 24714,
+  "averageTries": 1.3803999423980713,
+  "latestSubmission": {
+    "id": 84892282,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 11468,
+    "timeMs": 124,
+    "codeLen": 1133,
+    "submittedAt": "1년 전"
+  }
+}

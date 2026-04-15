@@ -1,0 +1,23 @@
+{
+  "problemId": 16958,
+  "title": "텔레포트",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "bruteforcing",
+    "geometry",
+    "shortest_path",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 826,
+  "averageTries": 2.415299892425537,
+  "latestSubmission": {
+    "id": 84892151,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9980,
+    "timeMs": 728,
+    "codeLen": 1269,
+    "submittedAt": "1년 전"
+  }
+}

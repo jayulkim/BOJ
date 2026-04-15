@@ -1,0 +1,20 @@
+{
+  "problemId": 3049,
+  "title": "다각형의 대각선",
+  "tier": 6,
+  "tags": [
+    "math",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 3278,
+  "averageTries": 1.312999963760376,
+  "latestSubmission": {
+    "id": 94570277,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 387,
+    "submittedAt": "10달 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 25374,
+  "title": "등급 계산하기",
+  "tier": 6,
+  "tags": [
+    "math",
+    "implementation",
+    "sorting",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 171,
+  "averageTries": 1.9708000421524048,
+  "latestSubmission": {
+    "id": 85751815,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 1161,
+    "submittedAt": "1년 전"
+  }
+}

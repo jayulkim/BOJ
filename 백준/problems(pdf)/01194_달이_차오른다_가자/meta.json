@@ -1,0 +1,23 @@
+{
+  "problemId": 1194,
+  "title": "달이 차오른다, 가자.",
+  "tier": 15,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "bitmask",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 6431,
+  "averageTries": 2.448899984359741,
+  "latestSubmission": {
+    "id": 100341624,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3568,
+    "timeMs": 16,
+    "codeLen": 3574,
+    "submittedAt": "4달 전"
+  }
+}

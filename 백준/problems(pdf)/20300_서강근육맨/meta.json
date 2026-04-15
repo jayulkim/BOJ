@@ -1,0 +1,20 @@
+{
+  "problemId": 20300,
+  "title": "서강근육맨",
+  "tier": 8,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 2583,
+  "averageTries": 2.6717000007629395,
+  "latestSubmission": {
+    "id": 86798313,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2292,
+    "timeMs": 4,
+    "codeLen": 684,
+    "submittedAt": "1년 전"
+  }
+}

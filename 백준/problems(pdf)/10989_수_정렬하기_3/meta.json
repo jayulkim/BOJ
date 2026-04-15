@@ -1,0 +1,19 @@
+{
+  "problemId": 10989,
+  "title": "수 정렬하기 3",
+  "tier": 5,
+  "tags": [
+    "sorting"
+  ],
+  "acceptedUserCount": 71857,
+  "averageTries": 4.130099773406982,
+  "latestSubmission": {
+    "id": 84885245,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 2112,
+    "codeLen": 1071,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 30470,
+  "title": "호반우가 학교에 지각한 이유 3",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "simulation",
+    "stack"
+  ],
+  "acceptedUserCount": 199,
+  "averageTries": 4.015100002288818,
+  "latestSubmission": {
+    "id": 84894694,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 16740,
+    "timeMs": 132,
+    "codeLen": 2370,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "problemId": 27440,
+  "title": "1로 만들기 3",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "set",
+    "bfs",
+    "hash_set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 517,
+  "averageTries": 2.914900064468384,
+  "latestSubmission": {
+    "id": 84894212,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3192,
+    "timeMs": 4,
+    "codeLen": 1432,
+    "submittedAt": "1년 전"
+  }
+}

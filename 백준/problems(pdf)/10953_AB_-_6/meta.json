@@ -1,0 +1,22 @@
+{
+  "problemId": 10953,
+  "title": "A+B - 6",
+  "tier": 3,
+  "tags": [
+    "math",
+    "string",
+    "arithmetic",
+    "parsing"
+  ],
+  "acceptedUserCount": 30555,
+  "averageTries": 1.4465999603271484,
+  "latestSubmission": {
+    "id": 84885040,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 258,
+    "submittedAt": "1년 전"
+  }
+}

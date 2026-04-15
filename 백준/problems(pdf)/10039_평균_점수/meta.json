@@ -1,0 +1,20 @@
+{
+  "problemId": 10039,
+  "title": "평균 점수",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 47793,
+  "averageTries": 1.5992000102996826,
+  "latestSubmission": {
+    "id": 84883767,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 412,
+    "submittedAt": "1년 전"
+  }
+}

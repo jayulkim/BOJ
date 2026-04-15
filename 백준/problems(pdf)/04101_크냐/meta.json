@@ -1,0 +1,19 @@
+{
+  "problemId": 4101,
+  "title": "크냐?",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 28820,
+  "averageTries": 1.9778000116348267,
+  "latestSubmission": {
+    "id": 84881095,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 362,
+    "submittedAt": "1년 전"
+  }
+}

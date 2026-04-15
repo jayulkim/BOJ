@@ -1,0 +1,21 @@
+{
+  "problemId": 10828,
+  "title": "스택",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 90590,
+  "averageTries": 2.5439000129699707,
+  "latestSubmission": {
+    "id": 84884684,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1156,
+    "timeMs": 0,
+    "codeLen": 1105,
+    "submittedAt": "1년 전"
+  }
+}

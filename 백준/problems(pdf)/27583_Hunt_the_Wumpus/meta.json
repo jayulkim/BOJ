@@ -1,0 +1,20 @@
+{
+  "problemId": 27583,
+  "title": "Hunt the Wumpus",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 29,
+  "averageTries": 1.2414000034332275,
+  "latestSubmission": {
+    "id": 86954084,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 1427,
+    "submittedAt": "1년 전"
+  }
+}

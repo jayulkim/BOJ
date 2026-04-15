@@ -1,0 +1,22 @@
+{
+  "problemId": 25418,
+  "title": "정수 a를 k로 만들기",
+  "tier": 8,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 2633,
+  "averageTries": 1.5534000396728516,
+  "latestSubmission": {
+    "id": 84893709,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4736,
+    "timeMs": 12,
+    "codeLen": 730,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "problemId": 30413,
+  "title": "양 한 마리... 양 A마리... 양 A제곱마리...",
+  "tier": 13,
+  "tags": [
+    "math",
+    "number_theory",
+    "divide_and_conquer",
+    "exponentiation_by_squaring",
+    "modular_multiplicative_inverse",
+    "flt"
+  ],
+  "acceptedUserCount": 415,
+  "averageTries": 3.7156999111175537,
+  "latestSubmission": {
+    "id": 84894675,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1414,
+    "submittedAt": "1년 전"
+  }
+}

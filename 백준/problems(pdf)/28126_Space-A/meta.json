@@ -1,0 +1,20 @@
+{
+  "problemId": 28126,
+  "title": "Space-A",
+  "tier": 9,
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "acceptedUserCount": 237,
+  "averageTries": 1.7383999824523926,
+  "latestSubmission": {
+    "id": 97241465,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2392,
+    "timeMs": 20,
+    "codeLen": 868,
+    "submittedAt": "8달 전"
+  }
+}

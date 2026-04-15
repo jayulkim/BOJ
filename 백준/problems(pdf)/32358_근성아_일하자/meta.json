@@ -1,0 +1,26 @@
+{
+  "problemId": 32358,
+  "title": "근성아 일하자",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "sorting",
+    "binary_search",
+    "set",
+    "simulation",
+    "tree_set",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 238,
+  "averageTries": 2.8150999546051025,
+  "latestSubmission": {
+    "id": 84895065,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14568,
+    "timeMs": 128,
+    "codeLen": 1017,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 1301,
+  "title": "비즈 공예",
+  "tier": 14,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 497,
+  "averageTries": 3.1830999851226807,
+  "latestSubmission": {
+    "id": 103173261,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 47380,
+    "timeMs": 40,
+    "codeLen": 1608,
+    "submittedAt": "1달 전"
+  }
+}

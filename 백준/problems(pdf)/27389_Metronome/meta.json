@@ -1,0 +1,20 @@
+{
+  "problemId": 27389,
+  "title": "Metronome",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 3813,
+  "averageTries": 1.3293999433517456,
+  "latestSubmission": {
+    "id": 84894190,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 108080,
+    "timeMs": 84,
+    "codeLen": 30,
+    "submittedAt": "1년 전"
+  }
+}

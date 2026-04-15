@@ -1,0 +1,23 @@
+{
+  "problemId": 32521,
+  "title": "팩트는 트리가 건강해지고 있다는 거임",
+  "tier": 14,
+  "tags": [
+    "dp",
+    "greedy",
+    "sorting",
+    "trees",
+    "dp_tree"
+  ],
+  "acceptedUserCount": 87,
+  "averageTries": 2.1149001121520996,
+  "latestSubmission": {
+    "id": 86202064,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 11724,
+    "timeMs": 52,
+    "codeLen": 867,
+    "submittedAt": "1년 전"
+  }
+}

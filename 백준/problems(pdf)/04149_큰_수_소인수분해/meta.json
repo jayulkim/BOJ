@@ -1,0 +1,24 @@
+{
+  "problemId": 4149,
+  "title": "큰 수 소인수분해",
+  "tier": 20,
+  "tags": [
+    "miller_rabin",
+    "pollard_rho",
+    "number_theory",
+    "math",
+    "primality_test",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 1670,
+  "averageTries": 5.537700176239014,
+  "latestSubmission": {
+    "id": 105005915,
+    "result": "맞았습니다!! (161/161)",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 8,
+    "codeLen": 7503,
+    "submittedAt": "1일 전"
+  }
+}

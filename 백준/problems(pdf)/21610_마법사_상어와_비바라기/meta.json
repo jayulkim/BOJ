@@ -1,0 +1,20 @@
+{
+  "problemId": 21610,
+  "title": "마법사 상어와 비바라기",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 7826,
+  "averageTries": 1.9479000568389893,
+  "latestSubmission": {
+    "id": 84893061,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2036,
+    "timeMs": 16,
+    "codeLen": 2904,
+    "submittedAt": "1년 전"
+  }
+}

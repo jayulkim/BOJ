@@ -1,0 +1,20 @@
+{
+  "problemId": 31428,
+  "title": "엘리스 트랙 매칭",
+  "tier": 2,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 1752,
+  "averageTries": 1.19350004196167,
+  "latestSubmission": {
+    "id": 84894799,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1208,
+    "timeMs": 0,
+    "codeLen": 411,
+    "submittedAt": "1년 전"
+  }
+}

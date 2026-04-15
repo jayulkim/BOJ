@@ -1,0 +1,20 @@
+{
+  "problemId": 29717,
+  "title": "슬라임 잡고 레벨 업!",
+  "tier": 9,
+  "tags": [
+    "math",
+    "binary_search"
+  ],
+  "acceptedUserCount": 279,
+  "averageTries": 3.1110999584198,
+  "latestSubmission": {
+    "id": 84894528,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 504,
+    "submittedAt": "1년 전"
+  }
+}

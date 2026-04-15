@@ -1,0 +1,20 @@
+{
+  "problemId": 27965,
+  "title": "N결수",
+  "tier": 9,
+  "tags": [
+    "math",
+    "number_theory"
+  ],
+  "acceptedUserCount": 444,
+  "averageTries": 1.9301999807357788,
+  "latestSubmission": {
+    "id": 93733551,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 320,
+    "codeLen": 600,
+    "submittedAt": "11달 전"
+  }
+}

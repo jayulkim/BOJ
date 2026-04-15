@@ -1,0 +1,20 @@
+{
+  "problemId": 19358,
+  "title": "Waiter's Problem",
+  "tier": 8,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 47,
+  "averageTries": 1.170199990272522,
+  "latestSubmission": {
+    "id": 87187935,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4204,
+    "timeMs": 108,
+    "codeLen": 577,
+    "submittedAt": "1년 전"
+  }
+}

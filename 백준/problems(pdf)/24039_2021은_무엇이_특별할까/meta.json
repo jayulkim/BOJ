@@ -1,0 +1,22 @@
+{
+  "problemId": 24039,
+  "title": "2021은 무엇이 특별할까?",
+  "tier": 6,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 2179,
+  "averageTries": 1.7769999504089355,
+  "latestSubmission": {
+    "id": 88121050,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2168,
+    "timeMs": 0,
+    "codeLen": 702,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 31871,
+  "title": "영일랜드",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 220,
+  "averageTries": 2.2818000316619873,
+  "latestSubmission": {
+    "id": 84894914,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 20,
+    "codeLen": 967,
+    "submittedAt": "1년 전"
+  }
+}

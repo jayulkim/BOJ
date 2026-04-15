@@ -1,0 +1,23 @@
+{
+  "problemId": 34554,
+  "title": "특수한 정수 쌍",
+  "tier": 7,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "number_theory",
+    "constructive",
+    "primality_test"
+  ],
+  "acceptedUserCount": 256,
+  "averageTries": 1.5391000509262085,
+  "latestSubmission": {
+    "id": 99270367,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 933,
+    "submittedAt": "6달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 11256,
+  "title": "사탕",
+  "tier": 6,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 2063,
+  "averageTries": 1.4169000387191772,
+  "latestSubmission": {
+    "id": 86672369,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 575,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 31475,
+  "title": "양갈래 배열 출력하기",
+  "tier": 10,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 156,
+  "averageTries": 1.6025999784469604,
+  "latestSubmission": {
+    "id": 89389373,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 37220,
+    "timeMs": 544,
+    "codeLen": 4172,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 32631,
+  "title": "두 덱",
+  "tier": 11,
+  "tags": [
+    "bruteforcing",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 172,
+  "averageTries": 2.7093000411987305,
+  "latestSubmission": {
+    "id": 88218565,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2336,
+    "timeMs": 24,
+    "codeLen": 1005,
+    "submittedAt": "1년 전"
+  }
+}

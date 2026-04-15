@@ -1,0 +1,20 @@
+{
+  "problemId": 17095,
+  "title": "Min-Max Subsequence",
+  "tier": 8,
+  "tags": [
+    "binary_search",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 183,
+  "averageTries": 2.295099973678589,
+  "latestSubmission": {
+    "id": 99601458,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 8,
+    "codeLen": 955,
+    "submittedAt": "5달 전"
+  }
+}

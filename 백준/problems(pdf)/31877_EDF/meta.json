@@ -1,0 +1,22 @@
+{
+  "problemId": 31877,
+  "title": "EDF",
+  "tier": 13,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "simulation",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 85,
+  "averageTries": 2.658799886703491,
+  "latestSubmission": {
+    "id": 101518825,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 10412,
+    "timeMs": 64,
+    "codeLen": 1691,
+    "submittedAt": "3달 전"
+  }
+}

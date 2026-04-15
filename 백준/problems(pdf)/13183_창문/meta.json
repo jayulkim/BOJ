@@ -1,0 +1,21 @@
+{
+  "problemId": 13183,
+  "title": "창문",
+  "tier": 10,
+  "tags": [
+    "math",
+    "combinatorics",
+    "probability"
+  ],
+  "acceptedUserCount": 124,
+  "averageTries": 1.3467999696731567,
+  "latestSubmission": {
+    "id": 94448252,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 441,
+    "submittedAt": "10달 전"
+  }
+}

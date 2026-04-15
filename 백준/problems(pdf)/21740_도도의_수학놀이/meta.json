@@ -1,0 +1,21 @@
+{
+  "problemId": 21740,
+  "title": "도도의 수학놀이",
+  "tier": 18,
+  "tags": [
+    "greedy",
+    "string",
+    "sorting"
+  ],
+  "acceptedUserCount": 273,
+  "averageTries": 5.109899997711182,
+  "latestSubmission": {
+    "id": 84893071,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 12968,
+    "timeMs": 276,
+    "codeLen": 1067,
+    "submittedAt": "1년 전"
+  }
+}

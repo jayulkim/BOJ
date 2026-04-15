@@ -1,0 +1,19 @@
+{
+  "problemId": 16170,
+  "title": "오늘의 날짜는?",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 10780,
+  "averageTries": 1.3898999691009521,
+  "latestSubmission": {
+    "id": 84891810,
+    "result": "맞았습니다!!",
+    "language": "Text",
+    "memoryKb": 4528,
+    "timeMs": 0,
+    "codeLen": 10,
+    "submittedAt": "1년 전"
+  }
+}

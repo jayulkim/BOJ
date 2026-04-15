@@ -1,0 +1,20 @@
+{
+  "problemId": 13164,
+  "title": "행복 유치원",
+  "tier": 11,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 5493,
+  "averageTries": 1.7524000406265259,
+  "latestSubmission": {
+    "id": 90056482,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14440,
+    "timeMs": 64,
+    "codeLen": 748,
+    "submittedAt": "1년 전"
+  }
+}

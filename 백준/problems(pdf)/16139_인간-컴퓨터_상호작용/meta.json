@@ -1,0 +1,19 @@
+{
+  "problemId": 16139,
+  "title": "인간-컴퓨터 상호작용",
+  "tier": 10,
+  "tags": [
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 8200,
+  "averageTries": 3.2750000953674316,
+  "latestSubmission": {
+    "id": 84891784,
+    "result": "100점",
+    "language": "C99",
+    "memoryKb": 48188,
+    "timeMs": 136,
+    "codeLen": 5512,
+    "submittedAt": "1년 전"
+  }
+}

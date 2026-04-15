@@ -1,0 +1,20 @@
+{
+  "problemId": 17828,
+  "title": "문자열 화폐",
+  "tier": 10,
+  "tags": [
+    "greedy",
+    "string"
+  ],
+  "acceptedUserCount": 804,
+  "averageTries": 2.968899965286255,
+  "latestSubmission": {
+    "id": 86664911,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 13668,
+    "timeMs": 24,
+    "codeLen": 594,
+    "submittedAt": "1년 전"
+  }
+}

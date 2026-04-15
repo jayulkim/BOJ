@@ -1,0 +1,23 @@
+{
+  "problemId": 1167,
+  "title": "트리의 지름",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "dfs",
+    "tree_diameter"
+  ],
+  "acceptedUserCount": 20153,
+  "averageTries": 2.8301000595092773,
+  "latestSubmission": {
+    "id": 84865795,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 12072,
+    "timeMs": 88,
+    "codeLen": 1064,
+    "submittedAt": "1년 전"
+  }
+}

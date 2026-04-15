@@ -1,0 +1,20 @@
+{
+  "problemId": 14235,
+  "title": "크리스마스 선물",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 3374,
+  "averageTries": 1.691499948501587,
+  "latestSubmission": {
+    "id": 84889369,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3684,
+    "timeMs": 20,
+    "codeLen": 469,
+    "submittedAt": "1년 전"
+  }
+}

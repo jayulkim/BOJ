@@ -1,0 +1,22 @@
+{
+  "problemId": 33561,
+  "title": "임스의 땅따먹기",
+  "tier": 13,
+  "tags": [
+    "greedy",
+    "bruteforcing",
+    "sorting",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 212,
+  "averageTries": 1.754699945449829,
+  "latestSubmission": {
+    "id": 90892498,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 11436,
+    "timeMs": 164,
+    "codeLen": 1384,
+    "submittedAt": "1년 전"
+  }
+}

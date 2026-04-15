@@ -1,0 +1,20 @@
+{
+  "problemId": 16987,
+  "title": "계란으로 계란치기",
+  "tier": 11,
+  "tags": [
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 6206,
+  "averageTries": 1.9212000370025635,
+  "latestSubmission": {
+    "id": 97459355,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 84,
+    "codeLen": 1446,
+    "submittedAt": "8달 전"
+  }
+}

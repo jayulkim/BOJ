@@ -1,0 +1,22 @@
+{
+  "problemId": 16562,
+  "title": "친구비",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 5210,
+  "averageTries": 2.3036000728607178,
+  "latestSubmission": {
+    "id": 84892036,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2240,
+    "timeMs": 0,
+    "codeLen": 1226,
+    "submittedAt": "1년 전"
+  }
+}

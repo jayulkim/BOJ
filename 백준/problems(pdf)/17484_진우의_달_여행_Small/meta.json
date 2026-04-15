@@ -1,0 +1,20 @@
+{
+  "problemId": 17484,
+  "title": "진우의 달 여행 (Small)",
+  "tier": 8,
+  "tags": [
+    "dp",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 3457,
+  "averageTries": 1.6461999416351318,
+  "latestSubmission": {
+    "id": 91589315,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 1123,
+    "submittedAt": "1년 전"
+  }
+}

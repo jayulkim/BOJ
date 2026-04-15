@@ -1,0 +1,21 @@
+{
+  "problemId": 2386,
+  "title": "도비의 영어 공부",
+  "tier": 4,
+  "tags": [
+    "implementation",
+    "string",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 3542,
+  "averageTries": 1.652999997138977,
+  "latestSubmission": {
+    "id": 84878852,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 383,
+    "submittedAt": "1년 전"
+  }
+}

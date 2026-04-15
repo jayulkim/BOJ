@@ -1,0 +1,22 @@
+{
+  "problemId": 31869,
+  "title": "선배님 밥 사주세요!",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 336,
+  "averageTries": 3.199399948120117,
+  "latestSubmission": {
+    "id": 84894906,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2164,
+    "timeMs": 0,
+    "codeLen": 780,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 32630,
+  "title": "$A_i \\times A_j$",
+  "tier": 9,
+  "tags": [
+    "math",
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 265,
+  "averageTries": 2.290600061416626,
+  "latestSubmission": {
+    "id": 86380808,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6252,
+    "timeMs": 40,
+    "codeLen": 921,
+    "submittedAt": "1년 전"
+  }
+}

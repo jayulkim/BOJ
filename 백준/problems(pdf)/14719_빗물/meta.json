@@ -1,0 +1,20 @@
+{
+  "problemId": 14719,
+  "title": "빗물",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 13328,
+  "averageTries": 1.728600025177002,
+  "latestSubmission": {
+    "id": 97979421,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3344,
+    "timeMs": 0,
+    "codeLen": 1104,
+    "submittedAt": "7달 전"
+  }
+}

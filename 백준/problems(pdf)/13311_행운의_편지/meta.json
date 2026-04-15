@@ -1,0 +1,20 @@
+{
+  "problemId": 13311,
+  "title": "행운의 편지",
+  "tier": 5,
+  "tags": [
+    "math",
+    "number_theory"
+  ],
+  "acceptedUserCount": 2096,
+  "averageTries": 1.7753000259399414,
+  "latestSubmission": {
+    "id": 100192859,
+    "result": "맞았습니다!!",
+    "language": "Text",
+    "memoryKb": 4528,
+    "timeMs": 0,
+    "codeLen": 2,
+    "submittedAt": "5달 전"
+  }
+}

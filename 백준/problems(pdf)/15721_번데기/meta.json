@@ -1,0 +1,21 @@
+{
+  "problemId": 15721,
+  "title": "번데기",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "bruteforcing",
+    "simulation"
+  ],
+  "acceptedUserCount": 1587,
+  "averageTries": 2.0731000900268555,
+  "latestSubmission": {
+    "id": 84891087,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2156,
+    "timeMs": 0,
+    "codeLen": 1273,
+    "submittedAt": "1년 전"
+  }
+}

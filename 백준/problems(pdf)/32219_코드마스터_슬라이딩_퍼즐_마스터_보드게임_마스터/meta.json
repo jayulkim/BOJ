@@ -1,0 +1,19 @@
+{
+  "problemId": 32219,
+  "title": "코드마스터, 슬라이딩 퍼즐 마스터, 보드게임 마스터",
+  "tier": 8,
+  "tags": [
+    "game_theory"
+  ],
+  "acceptedUserCount": 173,
+  "averageTries": 2.12719988822937,
+  "latestSubmission": {
+    "id": 94186003,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 609,
+    "submittedAt": "11달 전"
+  }
+}

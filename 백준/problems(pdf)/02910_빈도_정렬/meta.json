@@ -1,0 +1,22 @@
+{
+  "problemId": 2910,
+  "title": "빈도 정렬",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 7574,
+  "averageTries": 1.7376999855041504,
+  "latestSubmission": {
+    "id": 84880536,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1348,
+    "timeMs": 0,
+    "codeLen": 3167,
+    "submittedAt": "1년 전"
+  }
+}

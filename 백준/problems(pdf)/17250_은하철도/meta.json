@@ -1,0 +1,20 @@
+{
+  "problemId": 17250,
+  "title": "은하철도",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 489,
+  "averageTries": 1.760699987411499,
+  "latestSubmission": {
+    "id": 101443010,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 4440,
+    "timeMs": 36,
+    "codeLen": 1546,
+    "submittedAt": "3달 전"
+  }
+}

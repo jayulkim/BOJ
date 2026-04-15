@@ -1,0 +1,25 @@
+{
+  "problemId": 2638,
+  "title": "치즈",
+  "tier": 13,
+  "tags": [
+    "implementation",
+    "graphs",
+    "graph_traversal",
+    "simulation",
+    "bfs",
+    "dfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 14237,
+  "averageTries": 2.128499984741211,
+  "latestSubmission": {
+    "id": 84879665,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2076,
+    "timeMs": 8,
+    "codeLen": 1992,
+    "submittedAt": "1년 전"
+  }
+}

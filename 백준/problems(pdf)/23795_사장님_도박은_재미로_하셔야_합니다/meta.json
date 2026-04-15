@@ -1,0 +1,21 @@
+{
+  "problemId": 23795,
+  "title": "사장님 도박은 재미로 하셔야 합니다",
+  "tier": 2,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 5262,
+  "averageTries": 1.2338000535964966,
+  "latestSubmission": {
+    "id": 84893356,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 391,
+    "submittedAt": "1년 전"
+  }
+}

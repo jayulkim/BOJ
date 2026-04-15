@@ -1,0 +1,20 @@
+{
+  "problemId": 2303,
+  "title": "숫자 게임",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 4431,
+  "averageTries": 2.2248001098632812,
+  "latestSubmission": {
+    "id": 94506878,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2168,
+    "timeMs": 0,
+    "codeLen": 975,
+    "submittedAt": "10달 전"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "problemId": 13905,
+  "title": "세부",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "shortest_path",
+    "disjoint_set",
+    "mst"
+  ],
+  "acceptedUserCount": 1610,
+  "averageTries": 3.0657999515533447,
+  "latestSubmission": {
+    "id": 99578409,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 20668,
+    "timeMs": 152,
+    "codeLen": 1420,
+    "submittedAt": "5달 전"
+  }
+}

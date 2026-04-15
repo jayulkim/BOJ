@@ -1,0 +1,21 @@
+{
+  "problemId": 6543,
+  "title": "그래프의 싱크",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "dag",
+    "scc"
+  ],
+  "acceptedUserCount": 706,
+  "averageTries": 1.8172999620437622,
+  "latestSubmission": {
+    "id": 92716643,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3224,
+    "timeMs": 32,
+    "codeLen": 3187,
+    "submittedAt": "1년 전"
+  }
+}

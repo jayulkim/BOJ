@@ -1,0 +1,20 @@
+{
+  "problemId": 9084,
+  "title": "동전",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "knapsack"
+  ],
+  "acceptedUserCount": 10290,
+  "averageTries": 1.461400032043457,
+  "latestSubmission": {
+    "id": 84883028,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1156,
+    "timeMs": 0,
+    "codeLen": 563,
+    "submittedAt": "1년 전"
+  }
+}

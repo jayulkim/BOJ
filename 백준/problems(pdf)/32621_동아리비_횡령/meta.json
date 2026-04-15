@@ -1,0 +1,21 @@
+{
+  "problemId": 32621,
+  "title": "동아리비 횡령",
+  "tier": 4,
+  "tags": [
+    "implementation",
+    "string",
+    "case_work"
+  ],
+  "acceptedUserCount": 327,
+  "averageTries": 2.785900115966797,
+  "latestSubmission": {
+    "id": 98094011,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 1028,
+    "submittedAt": "7달 전"
+  }
+}

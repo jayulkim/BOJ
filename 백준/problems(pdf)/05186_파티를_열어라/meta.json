@@ -1,0 +1,20 @@
+{
+  "problemId": 5186,
+  "title": "파티를 열어라!!!",
+  "tier": 10,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 107,
+  "averageTries": 3.0467000007629395,
+  "latestSubmission": {
+    "id": 84881568,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2284,
+    "timeMs": 0,
+    "codeLen": 1347,
+    "submittedAt": "1년 전"
+  }
+}

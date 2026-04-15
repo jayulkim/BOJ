@@ -1,0 +1,19 @@
+{
+  "problemId": 1268,
+  "title": "임시 반장 정하기",
+  "tier": 6,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 5819,
+  "averageTries": 3.1710000038146973,
+  "latestSubmission": {
+    "id": 84866316,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2048,
+    "timeMs": 4,
+    "codeLen": 621,
+    "submittedAt": "1년 전"
+  }
+}

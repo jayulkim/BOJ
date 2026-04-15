@@ -1,0 +1,19 @@
+{
+  "problemId": 4883,
+  "title": "삼각 그래프",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 2914,
+  "averageTries": 3.7248001098632812,
+  "latestSubmission": {
+    "id": 98798480,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 36340,
+    "timeMs": 52,
+    "codeLen": 2584,
+    "submittedAt": "6달 전"
+  }
+}

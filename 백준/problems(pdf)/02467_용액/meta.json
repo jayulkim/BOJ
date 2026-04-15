@@ -1,0 +1,20 @@
+{
+  "problemId": 2467,
+  "title": "용액",
+  "tier": 11,
+  "tags": [
+    "binary_search",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 18411,
+  "averageTries": 2.593600034713745,
+  "latestSubmission": {
+    "id": 84879050,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2680,
+    "timeMs": 20,
+    "codeLen": 1190,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 11508,
+  "title": "2+1 세일",
+  "tier": 7,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 5177,
+  "averageTries": 1.6476999521255493,
+  "latestSubmission": {
+    "id": 84886364,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2284,
+    "timeMs": 24,
+    "codeLen": 578,
+    "submittedAt": "1년 전"
+  }
+}

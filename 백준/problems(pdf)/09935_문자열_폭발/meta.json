@@ -1,0 +1,21 @@
+{
+  "problemId": 9935,
+  "title": "문자열 폭발",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "string",
+    "stack"
+  ],
+  "acceptedUserCount": 23394,
+  "averageTries": 3.5297000408172607,
+  "latestSubmission": {
+    "id": 84883730,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3068,
+    "timeMs": 20,
+    "codeLen": 875,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 11722,
+  "title": "가장 긴 감소하는 부분 수열",
+  "tier": 9,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 22701,
+  "averageTries": 1.597599983215332,
+  "latestSubmission": {
+    "id": 84886953,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5928,
+    "timeMs": 0,
+    "codeLen": 583,
+    "submittedAt": "1년 전"
+  }
+}

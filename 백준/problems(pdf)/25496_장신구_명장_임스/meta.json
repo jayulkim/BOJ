@@ -1,0 +1,20 @@
+{
+  "problemId": 25496,
+  "title": "장신구 명장 임스",
+  "tier": 6,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 1308,
+  "averageTries": 1.9143999814987183,
+  "latestSubmission": {
+    "id": 86005901,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 478,
+    "submittedAt": "1년 전"
+  }
+}

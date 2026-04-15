@@ -1,0 +1,20 @@
+{
+  "problemId": 9610,
+  "title": "사분면",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 9431,
+  "averageTries": 1.5342999696731567,
+  "latestSubmission": {
+    "id": 84883404,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1132,
+    "timeMs": 0,
+    "codeLen": 801,
+    "submittedAt": "1년 전"
+  }
+}

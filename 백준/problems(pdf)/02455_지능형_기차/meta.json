@@ -1,0 +1,21 @@
+{
+  "problemId": 2455,
+  "title": "지능형 기차",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 22665,
+  "averageTries": 1.3198000192642212,
+  "latestSubmission": {
+    "id": 91588487,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 539,
+    "submittedAt": "1년 전"
+  }
+}

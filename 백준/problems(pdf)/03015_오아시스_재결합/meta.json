@@ -1,0 +1,20 @@
+{
+  "problemId": 3015,
+  "title": "오아시스 재결합",
+  "tier": 16,
+  "tags": [
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 7858,
+  "averageTries": 3.5120999813079834,
+  "latestSubmission": {
+    "id": 91241673,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 41540,
+    "timeMs": 356,
+    "codeLen": 1267,
+    "submittedAt": "1년 전"
+  }
+}

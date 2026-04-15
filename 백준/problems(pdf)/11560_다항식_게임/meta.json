@@ -1,0 +1,19 @@
+{
+  "problemId": 11560,
+  "title": "다항식 게임",
+  "tier": 11,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 457,
+  "averageTries": 2.1466000080108643,
+  "latestSubmission": {
+    "id": 100261316,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2216,
+    "timeMs": 0,
+    "codeLen": 871,
+    "submittedAt": "5달 전"
+  }
+}

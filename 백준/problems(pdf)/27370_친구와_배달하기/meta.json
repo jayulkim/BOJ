@@ -1,0 +1,19 @@
+{
+  "problemId": 27370,
+  "title": "친구와 배달하기",
+  "tier": 8,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 85,
+  "averageTries": 1.9881999492645264,
+  "latestSubmission": {
+    "id": 87368732,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4188,
+    "timeMs": 100,
+    "codeLen": 876,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 2812,
+  "title": "크게 만들기",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "stack"
+  ],
+  "acceptedUserCount": 9246,
+  "averageTries": 3.370800018310547,
+  "latestSubmission": {
+    "id": 84880236,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3556,
+    "timeMs": 20,
+    "codeLen": 1204,
+    "submittedAt": "1년 전"
+  }
+}

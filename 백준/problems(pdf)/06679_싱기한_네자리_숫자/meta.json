@@ -1,0 +1,22 @@
+{
+  "problemId": 6679,
+  "title": "싱기한 네자리 숫자",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation",
+    "bruteforcing",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 3182,
+  "averageTries": 1.3645999431610107,
+  "latestSubmission": {
+    "id": 93645943,
+    "result": "맞았습니다!!",
+    "language": "Text",
+    "memoryKb": 4528,
+    "timeMs": 0,
+    "codeLen": 339,
+    "submittedAt": "11달 전"
+  }
+}

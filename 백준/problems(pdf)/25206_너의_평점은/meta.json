@@ -1,0 +1,21 @@
+{
+  "problemId": 25206,
+  "title": "너의 평점은",
+  "tier": 6,
+  "tags": [
+    "math",
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 41719,
+  "averageTries": 2.2353999614715576,
+  "latestSubmission": {
+    "id": 84893650,
+    "result": "맞았습니다!!",
+    "language": "Java 11",
+    "memoryKb": 14332,
+    "timeMs": 104,
+    "codeLen": 2083,
+    "submittedAt": "1년 전"
+  }
+}

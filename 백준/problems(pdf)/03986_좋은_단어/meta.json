@@ -1,0 +1,20 @@
+{
+  "problemId": 3986,
+  "title": "좋은 단어",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 15890,
+  "averageTries": 1.7273999452590942,
+  "latestSubmission": {
+    "id": 87679588,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2488,
+    "timeMs": 4,
+    "codeLen": 591,
+    "submittedAt": "1년 전"
+  }
+}

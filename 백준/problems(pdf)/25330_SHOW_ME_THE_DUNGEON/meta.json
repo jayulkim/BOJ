@@ -1,0 +1,20 @@
+{
+  "problemId": 25330,
+  "title": "SHOW ME THE DUNGEON",
+  "tier": 12,
+  "tags": [
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 135,
+  "averageTries": 5.09630012512207,
+  "latestSubmission": {
+    "id": 100858947,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 4,
+    "codeLen": 1461,
+    "submittedAt": "4달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 16637,
+  "title": "괄호 추가하기",
+  "tier": 13,
+  "tags": [
+    "implementation",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 8650,
+  "averageTries": 2.269200086593628,
+  "latestSubmission": {
+    "id": 90557853,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 1141,
+    "submittedAt": "1년 전"
+  }
+}

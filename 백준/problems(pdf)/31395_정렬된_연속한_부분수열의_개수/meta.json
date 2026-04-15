@@ -1,0 +1,20 @@
+{
+  "problemId": 31395,
+  "title": "정렬된 연속한 부분수열의 개수",
+  "tier": 7,
+  "tags": [
+    "math",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 680,
+  "averageTries": 2.045599937438965,
+  "latestSubmission": {
+    "id": 94504597,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5220,
+    "timeMs": 20,
+    "codeLen": 822,
+    "submittedAt": "10달 전"
+  }
+}

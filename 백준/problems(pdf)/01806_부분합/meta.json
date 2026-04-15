@@ -1,0 +1,20 @@
+{
+  "problemId": 1806,
+  "title": "부분합",
+  "tier": 12,
+  "tags": [
+    "prefix_sum",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 28801,
+  "averageTries": 3.661099910736084,
+  "latestSubmission": {
+    "id": 74004324,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1896,
+    "timeMs": 12,
+    "codeLen": 901,
+    "submittedAt": "2년 전"
+  }
+}

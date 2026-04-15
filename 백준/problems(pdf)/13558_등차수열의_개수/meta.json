@@ -1,0 +1,21 @@
+{
+  "problemId": 13558,
+  "title": "등차수열의 개수",
+  "tier": 14,
+  "tags": [
+    "math",
+    "prefix_sum",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 139,
+  "averageTries": 4.201399803161621,
+  "latestSubmission": {
+    "id": 100470198,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3744,
+    "timeMs": 2304,
+    "codeLen": 1396,
+    "submittedAt": "4달 전"
+  }
+}

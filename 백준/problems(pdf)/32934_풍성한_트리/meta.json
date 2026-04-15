@@ -1,0 +1,21 @@
+{
+  "problemId": 32934,
+  "title": "풍성한 트리",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "trees"
+  ],
+  "acceptedUserCount": 87,
+  "averageTries": 3.0114998817443848,
+  "latestSubmission": {
+    "id": 88081776,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 24124,
+    "timeMs": 156,
+    "codeLen": 1366,
+    "submittedAt": "1년 전"
+  }
+}

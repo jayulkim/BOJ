@@ -1,0 +1,20 @@
+{
+  "problemId": 33934,
+  "title": "징검다리의 징검다리",
+  "tier": 11,
+  "tags": [
+    "greedy",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 68,
+  "averageTries": 2.691200017929077,
+  "latestSubmission": {
+    "id": 98449411,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3648,
+    "timeMs": 16,
+    "codeLen": 1040,
+    "submittedAt": "7달 전"
+  }
+}

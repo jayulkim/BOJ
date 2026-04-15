@@ -1,0 +1,21 @@
+{
+  "problemId": 12851,
+  "title": "숨바꼭질 2",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 16222,
+  "averageTries": 3.702699899673462,
+  "latestSubmission": {
+    "id": 84888067,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4240,
+    "timeMs": 4,
+    "codeLen": 832,
+    "submittedAt": "1년 전"
+  }
+}

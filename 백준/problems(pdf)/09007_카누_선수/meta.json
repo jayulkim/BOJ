@@ -1,0 +1,21 @@
+{
+  "problemId": 9007,
+  "title": "카누 선수",
+  "tier": 14,
+  "tags": [
+    "sorting",
+    "binary_search",
+    "mitm"
+  ],
+  "acceptedUserCount": 868,
+  "averageTries": 3.7304000854492188,
+  "latestSubmission": {
+    "id": 92402584,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 18564,
+    "timeMs": 1640,
+    "codeLen": 1989,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 21479,
+  "title": "Число",
+  "tier": 16,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 124,
+  "averageTries": 2.58870005607605,
+  "latestSubmission": {
+    "id": 84893046,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 368,
+    "submittedAt": "1년 전"
+  }
+}

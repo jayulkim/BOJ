@@ -1,0 +1,22 @@
+{
+  "problemId": 28280,
+  "title": "귀납법",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "greedy",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 142,
+  "averageTries": 2.176100015640259,
+  "latestSubmission": {
+    "id": 96969938,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 19116,
+    "timeMs": 124,
+    "codeLen": 1213,
+    "submittedAt": "8달 전"
+  }
+}

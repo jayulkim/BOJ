@@ -1,0 +1,20 @@
+{
+  "problemId": 30047,
+  "title": "함수 문자열",
+  "tier": 10,
+  "tags": [
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 221,
+  "averageTries": 2.520400047302246,
+  "latestSubmission": {
+    "id": 84894635,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4112,
+    "timeMs": 12,
+    "codeLen": 992,
+    "submittedAt": "1년 전"
+  }
+}

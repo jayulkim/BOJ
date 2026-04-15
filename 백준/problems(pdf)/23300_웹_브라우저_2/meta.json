@@ -1,0 +1,22 @@
+{
+  "problemId": 23300,
+  "title": "웹 브라우저 2",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "stack",
+    "deque"
+  ],
+  "acceptedUserCount": 401,
+  "averageTries": 2.80049991607666,
+  "latestSubmission": {
+    "id": 84893283,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1348,
+    "timeMs": 0,
+    "codeLen": 2787,
+    "submittedAt": "1년 전"
+  }
+}

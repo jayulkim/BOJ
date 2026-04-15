@@ -1,0 +1,20 @@
+{
+  "problemId": 1522,
+  "title": "문자열 교환",
+  "tier": 10,
+  "tags": [
+    "bruteforcing",
+    "sliding_window"
+  ],
+  "acceptedUserCount": 3318,
+  "averageTries": 1.7181999683380127,
+  "latestSubmission": {
+    "id": 91904725,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 684,
+    "submittedAt": "1년 전"
+  }
+}

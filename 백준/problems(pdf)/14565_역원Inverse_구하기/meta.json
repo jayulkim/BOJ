@@ -1,0 +1,22 @@
+{
+  "problemId": 14565,
+  "title": "역원(Inverse) 구하기",
+  "tier": 14,
+  "tags": [
+    "math",
+    "number_theory",
+    "modular_multiplicative_inverse",
+    "extended_euclidean"
+  ],
+  "acceptedUserCount": 1826,
+  "averageTries": 1.5936000347137451,
+  "latestSubmission": {
+    "id": 105005747,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 6491,
+    "submittedAt": "2일 전"
+  }
+}

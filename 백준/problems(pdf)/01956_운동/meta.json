@@ -1,0 +1,21 @@
+{
+  "problemId": 1956,
+  "title": "운동",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 9861,
+  "averageTries": 2.707200050354004,
+  "latestSubmission": {
+    "id": 84869499,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3276,
+    "timeMs": 84,
+    "codeLen": 910,
+    "submittedAt": "1년 전"
+  }
+}

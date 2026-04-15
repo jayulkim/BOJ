@@ -1,0 +1,20 @@
+{
+  "problemId": 24268,
+  "title": "2022는 무엇이 특별할까?",
+  "tier": 10,
+  "tags": [
+    "math",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 713,
+  "averageTries": 3.8682000637054443,
+  "latestSubmission": {
+    "id": 88161591,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 4,
+    "codeLen": 665,
+    "submittedAt": "1년 전"
+  }
+}

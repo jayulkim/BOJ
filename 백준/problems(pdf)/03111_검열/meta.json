@@ -1,0 +1,23 @@
+{
+  "problemId": 3111,
+  "title": "검열",
+  "tier": 17,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "string",
+    "stack",
+    "deque"
+  ],
+  "acceptedUserCount": 980,
+  "averageTries": 4.563300132751465,
+  "latestSubmission": {
+    "id": 84880845,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1996,
+    "timeMs": 4,
+    "codeLen": 4188,
+    "submittedAt": "1년 전"
+  }
+}

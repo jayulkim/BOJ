@@ -1,0 +1,21 @@
+{
+  "problemId": 22865,
+  "title": "가장 먼 곳",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 939,
+  "averageTries": 2.4760000705718994,
+  "latestSubmission": {
+    "id": 97356661,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 37136,
+    "timeMs": 488,
+    "codeLen": 1815,
+    "submittedAt": "8달 전"
+  }
+}

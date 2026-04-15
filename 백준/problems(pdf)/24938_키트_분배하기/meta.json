@@ -1,0 +1,19 @@
+{
+  "problemId": 24938,
+  "title": "키트 분배하기",
+  "tier": 9,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 270,
+  "averageTries": 2.263000011444092,
+  "latestSubmission": {
+    "id": 84893607,
+    "result": "100점",
+    "language": "C99",
+    "memoryKb": 2672,
+    "timeMs": 32,
+    "codeLen": 658,
+    "submittedAt": "1년 전"
+  }
+}

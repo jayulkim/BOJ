@@ -1,0 +1,23 @@
+{
+  "problemId": 10816,
+  "title": "숫자 카드 2",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "binary_search",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 60823,
+  "averageTries": 2.5160999298095703,
+  "latestSubmission": {
+    "id": 84884431,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8932,
+    "timeMs": 408,
+    "codeLen": 1338,
+    "submittedAt": "1년 전"
+  }
+}

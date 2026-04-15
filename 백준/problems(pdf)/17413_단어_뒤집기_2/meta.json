@@ -1,0 +1,22 @@
+{
+  "problemId": 17413,
+  "title": "단어 뒤집기 2",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "string",
+    "stack"
+  ],
+  "acceptedUserCount": 18860,
+  "averageTries": 1.740399956703186,
+  "latestSubmission": {
+    "id": 84892461,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2268,
+    "timeMs": 8,
+    "codeLen": 695,
+    "submittedAt": "1년 전"
+  }
+}

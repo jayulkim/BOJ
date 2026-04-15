@@ -1,0 +1,20 @@
+{
+  "problemId": 8983,
+  "title": "사냥꾼",
+  "tier": 12,
+  "tags": [
+    "sorting",
+    "binary_search"
+  ],
+  "acceptedUserCount": 4204,
+  "averageTries": 2.8160998821258545,
+  "latestSubmission": {
+    "id": 99736991,
+    "result": "100점",
+    "language": "C++23",
+    "memoryKb": 6312,
+    "timeMs": 48,
+    "codeLen": 1129,
+    "submittedAt": "5달 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 6005,
+  "title": "Cow Pinball",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 134,
+  "averageTries": 1.1492999792099,
+  "latestSubmission": {
+    "id": 87228201,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 0,
+    "codeLen": 627,
+    "submittedAt": "1년 전"
+  }
+}

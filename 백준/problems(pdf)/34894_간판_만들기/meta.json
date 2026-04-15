@@ -1,0 +1,19 @@
+{
+  "problemId": 34894,
+  "title": "간판 만들기",
+  "tier": 11,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 125,
+  "averageTries": 1.2879999876022339,
+  "latestSubmission": {
+    "id": 100931181,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 58840,
+    "timeMs": 120,
+    "codeLen": 966,
+    "submittedAt": "4달 전"
+  }
+}

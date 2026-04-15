@@ -1,0 +1,20 @@
+{
+  "problemId": 12849,
+  "title": "본대 산책",
+  "tier": 10,
+  "tags": [
+    "dp",
+    "graphs"
+  ],
+  "acceptedUserCount": 1773,
+  "averageTries": 1.492400050163269,
+  "latestSubmission": {
+    "id": 84888030,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 0,
+    "codeLen": 1844,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 4153,
+  "title": "직각삼각형",
+  "tier": 3,
+  "tags": [
+    "math",
+    "geometry",
+    "pythagoras"
+  ],
+  "acceptedUserCount": 60391,
+  "averageTries": 2.026900053024292,
+  "latestSubmission": {
+    "id": 84881142,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 678,
+    "submittedAt": "1년 전"
+  }
+}

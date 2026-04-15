@@ -1,0 +1,24 @@
+{
+  "problemId": 16134,
+  "title": "조합 (Combination)",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "combinatorics",
+    "exponentiation_by_squaring",
+    "modular_multiplicative_inverse",
+    "flt"
+  ],
+  "acceptedUserCount": 1485,
+  "averageTries": 1.6598999500274658,
+  "latestSubmission": {
+    "id": 84891766,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 668,
+    "submittedAt": "1년 전"
+  }
+}

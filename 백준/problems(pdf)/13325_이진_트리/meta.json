@@ -1,0 +1,21 @@
+{
+  "problemId": 13325,
+  "title": "이진 트리",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "trees",
+    "dp_tree"
+  ],
+  "acceptedUserCount": 1647,
+  "averageTries": 1.7856999635696411,
+  "latestSubmission": {
+    "id": 98327857,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 18660,
+    "timeMs": 136,
+    "codeLen": 873,
+    "submittedAt": "7달 전"
+  }
+}

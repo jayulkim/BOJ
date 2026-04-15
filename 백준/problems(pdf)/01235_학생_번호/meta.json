@@ -1,0 +1,23 @@
+{
+  "problemId": 1235,
+  "title": "학생 번호",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "string",
+    "bruteforcing",
+    "set"
+  ],
+  "acceptedUserCount": 4040,
+  "averageTries": 1.951200008392334,
+  "latestSubmission": {
+    "id": 84866065,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2444,
+    "timeMs": 0,
+    "codeLen": 619,
+    "submittedAt": "1년 전"
+  }
+}

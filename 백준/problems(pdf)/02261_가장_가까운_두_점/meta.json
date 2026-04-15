@@ -1,0 +1,21 @@
+{
+  "problemId": 2261,
+  "title": "가장 가까운 두 점",
+  "tier": 19,
+  "tags": [
+    "geometry",
+    "sweeping",
+    "divide_and_conquer"
+  ],
+  "acceptedUserCount": 4927,
+  "averageTries": 5.857900142669678,
+  "latestSubmission": {
+    "id": 93248883,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5224,
+    "timeMs": 76,
+    "codeLen": 2124,
+    "submittedAt": "11달 전"
+  }
+}

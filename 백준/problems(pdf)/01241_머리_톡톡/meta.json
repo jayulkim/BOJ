@@ -1,0 +1,22 @@
+{
+  "problemId": 1241,
+  "title": "머리 톡톡",
+  "tier": 11,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "harmonic_number"
+  ],
+  "acceptedUserCount": 843,
+  "averageTries": 2.8921000957489014,
+  "latestSubmission": {
+    "id": 84866122,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 10492,
+    "timeMs": 48,
+    "codeLen": 973,
+    "submittedAt": "1년 전"
+  }
+}

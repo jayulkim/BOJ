@@ -1,0 +1,21 @@
+{
+  "problemId": 1949,
+  "title": "우수 마을",
+  "tier": 14,
+  "tags": [
+    "dp",
+    "trees",
+    "dp_tree"
+  ],
+  "acceptedUserCount": 5222,
+  "averageTries": 1.7759000062942505,
+  "latestSubmission": {
+    "id": 97723736,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4820,
+    "timeMs": 4,
+    "codeLen": 1204,
+    "submittedAt": "7달 전"
+  }
+}

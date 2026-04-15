@@ -1,0 +1,20 @@
+{
+  "problemId": 25644,
+  "title": "최대 상승",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "greedy"
+  ],
+  "acceptedUserCount": 1778,
+  "averageTries": 1.9814000129699707,
+  "latestSubmission": {
+    "id": 100027445,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 5280,
+    "timeMs": 24,
+    "codeLen": 648,
+    "submittedAt": "5달 전"
+  }
+}

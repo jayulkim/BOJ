@@ -1,0 +1,21 @@
+{
+  "problemId": 30991,
+  "title": "ESC",
+  "tier": 10,
+  "tags": [
+    "math",
+    "dp",
+    "calculus"
+  ],
+  "acceptedUserCount": 274,
+  "averageTries": 1.142300009727478,
+  "latestSubmission": {
+    "id": 84894747,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 505,
+    "submittedAt": "1년 전"
+  }
+}

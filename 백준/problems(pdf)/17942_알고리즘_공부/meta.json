@@ -1,0 +1,23 @@
+{
+  "problemId": 17942,
+  "title": "알고리즘 공부",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "greedy",
+    "graph_traversal",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 184,
+  "averageTries": 2.396699905395508,
+  "latestSubmission": {
+    "id": 89716960,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9928,
+    "timeMs": 68,
+    "codeLen": 1269,
+    "submittedAt": "1년 전"
+  }
+}

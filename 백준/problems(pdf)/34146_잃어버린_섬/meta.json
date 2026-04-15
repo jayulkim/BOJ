@@ -1,0 +1,21 @@
+{
+  "problemId": 34146,
+  "title": "잃어버린 섬",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "ad_hoc",
+    "parity"
+  ],
+  "acceptedUserCount": 338,
+  "averageTries": 1.4763000011444092,
+  "latestSubmission": {
+    "id": 97686873,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2220,
+    "timeMs": 0,
+    "codeLen": 1050,
+    "submittedAt": "7달 전"
+  }
+}

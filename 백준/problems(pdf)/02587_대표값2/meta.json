@@ -1,0 +1,22 @@
+{
+  "problemId": 2587,
+  "title": "대표값2",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation",
+    "sorting",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 41465,
+  "averageTries": 1.608299970626831,
+  "latestSubmission": {
+    "id": 84879530,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 678,
+    "submittedAt": "1년 전"
+  }
+}

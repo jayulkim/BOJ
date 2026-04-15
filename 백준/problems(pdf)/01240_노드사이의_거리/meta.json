@@ -1,0 +1,23 @@
+{
+  "problemId": 1240,
+  "title": "노드사이의 거리",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "bfs",
+    "dfs"
+  ],
+  "acceptedUserCount": 6984,
+  "averageTries": 1.7609000205993652,
+  "latestSubmission": {
+    "id": 84866104,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2180,
+    "timeMs": 76,
+    "codeLen": 1081,
+    "submittedAt": "1년 전"
+  }
+}

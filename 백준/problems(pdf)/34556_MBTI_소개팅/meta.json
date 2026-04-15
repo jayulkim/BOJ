@@ -1,0 +1,20 @@
+{
+  "problemId": 34556,
+  "title": "MBTI 소개팅",
+  "tier": 9,
+  "tags": [
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 159,
+  "averageTries": 1.8176000118255615,
+  "latestSubmission": {
+    "id": 99255529,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 144,
+    "codeLen": 1183,
+    "submittedAt": "6달 전"
+  }
+}

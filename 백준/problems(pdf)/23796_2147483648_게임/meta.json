@@ -1,0 +1,19 @@
+{
+  "problemId": 23796,
+  "title": "2,147,483,648 게임",
+  "tier": 11,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 232,
+  "averageTries": 2.3232998847961426,
+  "latestSubmission": {
+    "id": 84893366,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 2480,
+    "submittedAt": "1년 전"
+  }
+}

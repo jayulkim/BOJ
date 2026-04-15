@@ -1,0 +1,20 @@
+{
+  "problemId": 1019,
+  "title": "책 페이지",
+  "tier": 16,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 7130,
+  "averageTries": 2.2692999839782715,
+  "latestSubmission": {
+    "id": 92189336,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2212,
+    "timeMs": 1084,
+    "codeLen": 1754,
+    "submittedAt": "1년 전"
+  }
+}

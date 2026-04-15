@@ -1,0 +1,20 @@
+{
+  "problemId": 22963,
+  "title": "3초 정렬",
+  "tier": 15,
+  "tags": [
+    "dp",
+    "lis"
+  ],
+  "acceptedUserCount": 184,
+  "averageTries": 4.603300094604492,
+  "latestSubmission": {
+    "id": 84893169,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4564,
+    "timeMs": 36,
+    "codeLen": 1051,
+    "submittedAt": "1년 전"
+  }
+}

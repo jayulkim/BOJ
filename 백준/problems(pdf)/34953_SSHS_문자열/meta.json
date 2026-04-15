@@ -1,0 +1,21 @@
+{
+  "problemId": 34953,
+  "title": "SSHS 문자열",
+  "tier": 6,
+  "tags": [
+    "greedy",
+    "string",
+    "constructive"
+  ],
+  "acceptedUserCount": 248,
+  "averageTries": 1.4556000232696533,
+  "latestSubmission": {
+    "id": 101472791,
+    "result": "100점",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 4,
+    "codeLen": 807,
+    "submittedAt": "3달 전"
+  }
+}

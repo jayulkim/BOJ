@@ -1,0 +1,24 @@
+{
+  "problemId": 32374,
+  "title": "선물 고르기",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "binary_search",
+    "set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 110,
+  "averageTries": 2.6545000076293945,
+  "latestSubmission": {
+    "id": 84895111,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 17892,
+    "timeMs": 260,
+    "codeLen": 853,
+    "submittedAt": "1년 전"
+  }
+}

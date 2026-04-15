@@ -1,0 +1,21 @@
+{
+  "problemId": 2775,
+  "title": "부녀회장이 될테야",
+  "tier": 5,
+  "tags": [
+    "math",
+    "implementation",
+    "dp"
+  ],
+  "acceptedUserCount": 61798,
+  "averageTries": 1.712499976158142,
+  "latestSubmission": {
+    "id": 84880143,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1120,
+    "timeMs": 0,
+    "codeLen": 881,
+    "submittedAt": "1년 전"
+  }
+}

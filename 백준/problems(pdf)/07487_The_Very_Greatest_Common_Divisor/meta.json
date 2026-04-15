@@ -1,0 +1,22 @@
+{
+  "problemId": 7487,
+  "title": "The Very Greatest Common Divisor",
+  "tier": 6,
+  "tags": [
+    "math",
+    "number_theory",
+    "arbitrary_precision",
+    "euclidean"
+  ],
+  "acceptedUserCount": 120,
+  "averageTries": 1.350000023841858,
+  "latestSubmission": {
+    "id": 86958454,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 109644,
+    "timeMs": 232,
+    "codeLen": 119,
+    "submittedAt": "1년 전"
+  }
+}

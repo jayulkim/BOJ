@@ -1,0 +1,20 @@
+{
+  "problemId": 1038,
+  "title": "감소하는 수",
+  "tier": 11,
+  "tags": [
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 10605,
+  "averageTries": 2.7263998985290527,
+  "latestSubmission": {
+    "id": 84865133,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8928,
+    "timeMs": 264,
+    "codeLen": 2030,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 5585,
+  "title": "거스름돈",
+  "tier": 4,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 30796,
+  "averageTries": 1.5032000541687012,
+  "latestSubmission": {
+    "id": 95930258,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 565,
+    "submittedAt": "9달 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 24482,
+  "title": "알고리즘 수업 - 깊이 우선 탐색 4",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "sorting",
+    "dfs"
+  ],
+  "acceptedUserCount": 1264,
+  "averageTries": 1.6075999736785889,
+  "latestSubmission": {
+    "id": 85674202,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 11460,
+    "timeMs": 108,
+    "codeLen": 874,
+    "submittedAt": "1년 전"
+  }
+}

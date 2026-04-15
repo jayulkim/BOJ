@@ -1,0 +1,19 @@
+{
+  "problemId": 1700,
+  "title": "멀티탭 스케줄링",
+  "tier": 15,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 9156,
+  "averageTries": 3.322200059890747,
+  "latestSubmission": {
+    "id": 90008347,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2164,
+    "timeMs": 0,
+    "codeLen": 1251,
+    "submittedAt": "1년 전"
+  }
+}

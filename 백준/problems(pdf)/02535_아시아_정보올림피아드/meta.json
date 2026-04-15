@@ -1,0 +1,20 @@
+{
+  "problemId": 2535,
+  "title": "아시아 정보올림피아드",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "sorting"
+  ],
+  "acceptedUserCount": 3859,
+  "averageTries": 1.6618000268936157,
+  "latestSubmission": {
+    "id": 84879330,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1128,
+    "timeMs": 0,
+    "codeLen": 1177,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 11058,
+  "title": "크리보드",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 3281,
+  "averageTries": 2.2307000160217285,
+  "latestSubmission": {
+    "id": 87686793,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 493,
+    "submittedAt": "1년 전"
+  }
+}

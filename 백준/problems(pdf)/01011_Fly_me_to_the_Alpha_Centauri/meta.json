@@ -1,0 +1,19 @@
+{
+  "problemId": 1011,
+  "title": "Fly me to the Alpha Centauri",
+  "tier": 11,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 26736,
+  "averageTries": 3.049299955368042,
+  "latestSubmission": {
+    "id": 84864946,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 8,
+    "codeLen": 1167,
+    "submittedAt": "1년 전"
+  }
+}

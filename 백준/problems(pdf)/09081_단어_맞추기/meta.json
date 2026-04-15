@@ -1,0 +1,22 @@
+{
+  "problemId": 9081,
+  "title": "단어 맞추기",
+  "tier": 10,
+  "tags": [
+    "math",
+    "implementation",
+    "string",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 1668,
+  "averageTries": 2.1684999465942383,
+  "latestSubmission": {
+    "id": 84883015,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 515,
+    "submittedAt": "1년 전"
+  }
+}

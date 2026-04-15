@@ -1,0 +1,19 @@
+{
+  "problemId": 25343,
+  "title": "최장 최장 증가 부분 수열",
+  "tier": 11,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 318,
+  "averageTries": 2.949700117111206,
+  "latestSubmission": {
+    "id": 98326188,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2348,
+    "timeMs": 76,
+    "codeLen": 1034,
+    "submittedAt": "7달 전"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "problemId": 30000,
+  "title": "Byte Festival",
+  "tier": 26,
+  "tags": [
+    "math",
+    "implementation",
+    "dp",
+    "graphs",
+    "string",
+    "bruteforcing",
+    "graph_traversal",
+    "sorting",
+    "ad_hoc",
+    "number_theory",
+    "constructive",
+    "arithmetic",
+    "prefix_sum",
+    "case_work",
+    "backtracking",
+    "parsing",
+    "divide_and_conquer",
+    "exponentiation_by_squaring",
+    "dag",
+    "recursion",
+    "precomputation",
+    "linear_algebra",
+    "modular_multiplicative_inverse",
+    "functional_graph",
+    "euler_phi"
+  ],
+  "acceptedUserCount": 9,
+  "averageTries": 8.4443998336792,
+  "latestSubmission": {
+    "id": 82090127,
+    "result": "3점",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 0,
+    "codeLen": 16826,
+    "submittedAt": "1년 전"
+  }
+}

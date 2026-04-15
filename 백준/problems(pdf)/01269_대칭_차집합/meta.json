@@ -1,0 +1,22 @@
+{
+  "problemId": 1269,
+  "title": "대칭 차집합",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "set",
+    "hash_set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 26616,
+  "averageTries": 1.5191999673843384,
+  "latestSubmission": {
+    "id": 84866339,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3460,
+    "timeMs": 128,
+    "codeLen": 1247,
+    "submittedAt": "1년 전"
+  }
+}

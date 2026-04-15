@@ -1,0 +1,20 @@
+{
+  "problemId": 17841,
+  "title": "UNIST는 무엇의 약자일까?",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "string"
+  ],
+  "acceptedUserCount": 202,
+  "averageTries": 2.2822000980377197,
+  "latestSubmission": {
+    "id": 87871862,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 17772,
+    "timeMs": 28,
+    "codeLen": 3248,
+    "submittedAt": "1년 전"
+  }
+}

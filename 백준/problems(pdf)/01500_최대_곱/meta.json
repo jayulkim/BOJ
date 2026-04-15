@@ -1,0 +1,19 @@
+{
+  "problemId": 1500,
+  "title": "최대 곱",
+  "tier": 9,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 2452,
+  "averageTries": 1.5872999429702759,
+  "latestSubmission": {
+    "id": 84867706,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 412,
+    "submittedAt": "1년 전"
+  }
+}

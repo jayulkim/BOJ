@@ -1,0 +1,21 @@
+{
+  "problemId": 34675,
+  "title": "가희와 노선 건설 놀이 3",
+  "tier": 16,
+  "tags": [
+    "dp",
+    "knapsack",
+    "traceback"
+  ],
+  "acceptedUserCount": 15,
+  "averageTries": 1.600000023841858,
+  "latestSubmission": {
+    "id": 100127995,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 26512,
+    "timeMs": 20,
+    "codeLen": 1510,
+    "submittedAt": "5달 전"
+  }
+}

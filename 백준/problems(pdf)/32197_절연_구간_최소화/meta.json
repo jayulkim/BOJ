@@ -1,0 +1,22 @@
+{
+  "problemId": 32197,
+  "title": "절연 구간 최소화",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra",
+    "0_1_bfs"
+  ],
+  "acceptedUserCount": 178,
+  "averageTries": 2.837100028991699,
+  "latestSubmission": {
+    "id": 84895023,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 17932,
+    "timeMs": 84,
+    "codeLen": 1317,
+    "submittedAt": "1년 전"
+  }
+}

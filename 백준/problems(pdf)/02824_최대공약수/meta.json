@@ -1,0 +1,22 @@
+{
+  "problemId": 2824,
+  "title": "최대공약수",
+  "tier": 9,
+  "tags": [
+    "math",
+    "implementation",
+    "number_theory",
+    "primality_test"
+  ],
+  "acceptedUserCount": 1961,
+  "averageTries": 3.3248000144958496,
+  "latestSubmission": {
+    "id": 84880266,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 110668,
+    "timeMs": 412,
+    "codeLen": 1198,
+    "submittedAt": "1년 전"
+  }
+}

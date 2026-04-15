@@ -1,0 +1,51 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<string, ll, ll, ll> slll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    vector<ll>v;
+    for (int i = 0; i < n; i++) {
+        cin >> m;
+        v.push_back(m);
+    }
+    ll result = 0;
+    vector<ll>vv(11, 0);
+    ll Max = 0;
+    ll Min = LLONG_MAX;
+    ll start = 0;
+    for (int i = 0; i < n; i++) {
+        Max = max(Max, v[i]);
+        Min = min(Min, v[i]);
+        vv[v[i]]++;
+        while (Max - Min > 2) {
+            vv[v[start++]]--;
+            for (int j = 1; j <= 10; j++) {
+                if (vv[j]) {
+                    Min = j;
+                    break;
+                }
+            }
+            for (int j = 10; j >= 1; j--) {
+                if (vv[j]) {
+                    Max = j;
+                    break;
+                }
+            }
+        }
+        result = max(result, i - start + 1);
+    }
+    cout << result;
+    return 0;
+}

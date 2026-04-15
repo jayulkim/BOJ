@@ -1,0 +1,21 @@
+{
+  "problemId": 23033,
+  "title": "집에 빨리 가고 싶어!",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 138,
+  "averageTries": 2,
+  "latestSubmission": {
+    "id": 102834567,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 20648,
+    "timeMs": 60,
+    "codeLen": 1429,
+    "submittedAt": "2달 전"
+  }
+}

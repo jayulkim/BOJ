@@ -1,0 +1,19 @@
+{
+  "problemId": 28346,
+  "title": "XOR Necklace",
+  "tier": 12,
+  "tags": [
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 91,
+  "averageTries": 1.4835000038146973,
+  "latestSubmission": {
+    "id": 90281113,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 4,
+    "codeLen": 690,
+    "submittedAt": "1년 전"
+  }
+}

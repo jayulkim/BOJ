@@ -1,0 +1,20 @@
+{
+  "problemId": 16112,
+  "title": "5차 전직",
+  "tier": 9,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 933,
+  "averageTries": 2.562700033187866,
+  "latestSubmission": {
+    "id": 84891729,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4364,
+    "timeMs": 48,
+    "codeLen": 411,
+    "submittedAt": "1년 전"
+  }
+}

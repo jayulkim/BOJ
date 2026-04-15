@@ -1,0 +1,22 @@
+{
+  "problemId": 35414,
+  "title": "디미고 통제",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "ad_hoc",
+    "dfs"
+  ],
+  "acceptedUserCount": 46,
+  "averageTries": 1.8260999917984009,
+  "latestSubmission": {
+    "id": 104464515,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 14280,
+    "timeMs": 56,
+    "codeLen": 971,
+    "submittedAt": "17일 전"
+  }
+}

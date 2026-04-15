@@ -1,0 +1,21 @@
+{
+  "problemId": 11404,
+  "title": "플로이드",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 29660,
+  "averageTries": 2.3101000785827637,
+  "latestSubmission": {
+    "id": 105033966,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2348,
+    "timeMs": 20,
+    "codeLen": 16190,
+    "submittedAt": "1일 전"
+  }
+}

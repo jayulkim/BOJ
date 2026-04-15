@@ -1,0 +1,21 @@
+{
+  "problemId": 25401,
+  "title": "카드 바꾸기",
+  "tier": 11,
+  "tags": [
+    "math",
+    "implementation",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 1179,
+  "averageTries": 2.617500066757202,
+  "latestSubmission": {
+    "id": 91418207,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 84,
+    "codeLen": 1109,
+    "submittedAt": "1년 전"
+  }
+}

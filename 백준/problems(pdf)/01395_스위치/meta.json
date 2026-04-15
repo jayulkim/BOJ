@@ -1,0 +1,21 @@
+{
+  "problemId": 1395,
+  "title": "스위치",
+  "tier": 18,
+  "tags": [
+    "data_structures",
+    "segtree",
+    "lazyprop"
+  ],
+  "acceptedUserCount": 3237,
+  "averageTries": 2.266900062561035,
+  "latestSubmission": {
+    "id": 100535693,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 8344,
+    "timeMs": 112,
+    "codeLen": 2279,
+    "submittedAt": "4달 전"
+  }
+}

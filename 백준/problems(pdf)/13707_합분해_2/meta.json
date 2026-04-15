@@ -1,0 +1,21 @@
+{
+  "problemId": 13707,
+  "title": "합분해 2",
+  "tier": 12,
+  "tags": [
+    "math",
+    "dp",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 588,
+  "averageTries": 2.3248000144958496,
+  "latestSubmission": {
+    "id": 103888390,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 197788,
+    "timeMs": 292,
+    "codeLen": 605,
+    "submittedAt": "1달 전"
+  }
+}

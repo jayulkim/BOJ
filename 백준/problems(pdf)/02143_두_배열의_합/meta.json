@@ -1,0 +1,23 @@
+{
+  "problemId": 2143,
+  "title": "두 배열의 합",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "binary_search",
+    "set",
+    "prefix_sum",
+    "hash_set"
+  ],
+  "acceptedUserCount": 10283,
+  "averageTries": 2.9714999198913574,
+  "latestSubmission": {
+    "id": 100635398,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 57000,
+    "timeMs": 504,
+    "codeLen": 1282,
+    "submittedAt": "4달 전"
+  }
+}

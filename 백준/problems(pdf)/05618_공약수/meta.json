@@ -1,0 +1,21 @@
+{
+  "problemId": 5618,
+  "title": "공약수",
+  "tier": 4,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory"
+  ],
+  "acceptedUserCount": 4482,
+  "averageTries": 1.9837000370025635,
+  "latestSubmission": {
+    "id": 84881933,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 124,
+    "codeLen": 1248,
+    "submittedAt": "1년 전"
+  }
+}

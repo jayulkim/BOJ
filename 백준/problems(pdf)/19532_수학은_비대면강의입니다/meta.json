@@ -1,0 +1,20 @@
+{
+  "problemId": 19532,
+  "title": "수학은 비대면강의입니다",
+  "tier": 4,
+  "tags": [
+    "math",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 29343,
+  "averageTries": 1.934399962425232,
+  "latestSubmission": {
+    "id": 84892799,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 413,
+    "submittedAt": "1년 전"
+  }
+}

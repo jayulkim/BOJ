@@ -1,0 +1,22 @@
+{
+  "problemId": 17129,
+  "title": "윌리암슨수액빨이딱따구리가 정보섬에 올라온 이유",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 1352,
+  "averageTries": 2.5592000484466553,
+  "latestSubmission": {
+    "id": 92706065,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 12384,
+    "timeMs": 428,
+    "codeLen": 1402,
+    "submittedAt": "1년 전"
+  }
+}

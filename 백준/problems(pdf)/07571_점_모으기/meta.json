@@ -1,0 +1,20 @@
+{
+  "problemId": 7571,
+  "title": "점 모으기",
+  "tier": 11,
+  "tags": [
+    "math",
+    "sorting"
+  ],
+  "acceptedUserCount": 1496,
+  "averageTries": 2.647700071334839,
+  "latestSubmission": {
+    "id": 86839960,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 7408,
+    "timeMs": 32,
+    "codeLen": 687,
+    "submittedAt": "1년 전"
+  }
+}

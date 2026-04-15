@@ -1,0 +1,22 @@
+{
+  "problemId": 34698,
+  "title": "Between",
+  "tier": 15,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "sorting",
+    "bfs"
+  ],
+  "acceptedUserCount": 53,
+  "averageTries": 2.490600109100342,
+  "latestSubmission": {
+    "id": 101547947,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 34216,
+    "timeMs": 176,
+    "codeLen": 2158,
+    "submittedAt": "3달 전"
+  }
+}

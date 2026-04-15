@@ -1,0 +1,20 @@
+{
+  "problemId": 31005,
+  "title": "귤나무",
+  "tier": 15,
+  "tags": [
+    "math",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 139,
+  "averageTries": 2.726599931716919,
+  "latestSubmission": {
+    "id": 86766197,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5220,
+    "timeMs": 36,
+    "codeLen": 579,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 13925,
+  "title": "수열과 쿼리 13",
+  "tier": 20,
+  "tags": [
+    "data_structures",
+    "segtree",
+    "lazyprop"
+  ],
+  "acceptedUserCount": 1509,
+  "averageTries": 3.8269999027252197,
+  "latestSubmission": {
+    "id": 100452094,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 15392,
+    "timeMs": 848,
+    "codeLen": 6896,
+    "submittedAt": "4달 전"
+  }
+}

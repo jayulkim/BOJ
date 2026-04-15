@@ -1,0 +1,23 @@
+{
+  "problemId": 13010,
+  "title": "h(n)",
+  "tier": 15,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "binary_search",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 95,
+  "averageTries": 5.242099761962891,
+  "latestSubmission": {
+    "id": 87325517,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2220,
+    "timeMs": 120,
+    "codeLen": 2842,
+    "submittedAt": "1년 전"
+  }
+}

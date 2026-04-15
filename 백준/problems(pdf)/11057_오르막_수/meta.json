@@ -1,0 +1,19 @@
+{
+  "problemId": 11057,
+  "title": "오르막 수",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 25472,
+  "averageTries": 2.078000068664551,
+  "latestSubmission": {
+    "id": 84885841,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1200,
+    "timeMs": 0,
+    "codeLen": 622,
+    "submittedAt": "1년 전"
+  }
+}

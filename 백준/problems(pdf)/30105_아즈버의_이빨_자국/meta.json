@@ -1,0 +1,22 @@
+{
+  "problemId": 30105,
+  "title": "아즈버의 이빨 자국",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "bruteforcing",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 226,
+  "averageTries": 2.9114999771118164,
+  "latestSubmission": {
+    "id": 93959308,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2952,
+    "timeMs": 552,
+    "codeLen": 983,
+    "submittedAt": "11달 전"
+  }
+}

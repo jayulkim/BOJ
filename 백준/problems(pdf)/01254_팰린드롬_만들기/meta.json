@@ -1,0 +1,20 @@
+{
+  "problemId": 1254,
+  "title": "팰린드롬 만들기",
+  "tier": 9,
+  "tags": [
+    "string",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 5327,
+  "averageTries": 2.079200029373169,
+  "latestSubmission": {
+    "id": 84866204,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 858,
+    "submittedAt": "1년 전"
+  }
+}

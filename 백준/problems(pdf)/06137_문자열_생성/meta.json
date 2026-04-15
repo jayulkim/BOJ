@@ -1,0 +1,21 @@
+{
+  "problemId": 6137,
+  "title": "문자열 생성",
+  "tier": 12,
+  "tags": [
+    "greedy",
+    "string",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 1021,
+  "averageTries": 3.881500005722046,
+  "latestSubmission": {
+    "id": 84882159,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1120,
+    "timeMs": 0,
+    "codeLen": 1374,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 12101,
+  "title": "1, 2, 3 더하기 2",
+  "tier": 10,
+  "tags": [
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 2674,
+  "averageTries": 1.5549999475479126,
+  "latestSubmission": {
+    "id": 87082646,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 1078,
+    "submittedAt": "1년 전"
+  }
+}

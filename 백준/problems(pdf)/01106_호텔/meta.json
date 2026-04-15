@@ -1,0 +1,20 @@
+{
+  "problemId": 1106,
+  "title": "호텔",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "knapsack"
+  ],
+  "acceptedUserCount": 7474,
+  "averageTries": 2.426100015640259,
+  "latestSubmission": {
+    "id": 84865530,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 18428,
+    "timeMs": 12,
+    "codeLen": 812,
+    "submittedAt": "1년 전"
+  }
+}

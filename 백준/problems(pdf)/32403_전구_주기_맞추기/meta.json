@@ -1,0 +1,21 @@
+{
+  "problemId": 32403,
+  "title": "전구 주기 맞추기",
+  "tier": 6,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory"
+  ],
+  "acceptedUserCount": 357,
+  "averageTries": 1.420199990272522,
+  "latestSubmission": {
+    "id": 86092143,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2156,
+    "timeMs": 0,
+    "codeLen": 546,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 1543,
+  "title": "문서 검색",
+  "tier": 6,
+  "tags": [
+    "string",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 13704,
+  "averageTries": 2.1733999252319336,
+  "latestSubmission": {
+    "id": 84867967,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 361,
+    "submittedAt": "1년 전"
+  }
+}

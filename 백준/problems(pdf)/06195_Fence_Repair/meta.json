@@ -1,0 +1,21 @@
+{
+  "problemId": 6195,
+  "title": "Fence Repair",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 362,
+  "averageTries": 1.7237999439239502,
+  "latestSubmission": {
+    "id": 84882168,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1564,
+    "timeMs": 4,
+    "codeLen": 1587,
+    "submittedAt": "1년 전"
+  }
+}

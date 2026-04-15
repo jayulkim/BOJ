@@ -1,0 +1,19 @@
+{
+  "problemId": 15990,
+  "title": "1, 2, 3 더하기 5",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 8882,
+  "averageTries": 3.1768999099731445,
+  "latestSubmission": {
+    "id": 84891662,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3584,
+    "timeMs": 0,
+    "codeLen": 710,
+    "submittedAt": "1년 전"
+  }
+}

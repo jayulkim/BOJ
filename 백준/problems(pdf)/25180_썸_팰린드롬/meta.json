@@ -1,0 +1,20 @@
+{
+  "problemId": 25180,
+  "title": "썸 팰린드롬",
+  "tier": 8,
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "acceptedUserCount": 407,
+  "averageTries": 2.167099952697754,
+  "latestSubmission": {
+    "id": 84893633,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 224,
+    "submittedAt": "1년 전"
+  }
+}

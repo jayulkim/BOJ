@@ -1,0 +1,21 @@
+{
+  "problemId": 7891,
+  "title": "Can you add this?",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 8310,
+  "averageTries": 1.233299970626831,
+  "latestSubmission": {
+    "id": 84882642,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 470,
+    "submittedAt": "1년 전"
+  }
+}

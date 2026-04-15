@@ -1,0 +1,19 @@
+{
+  "problemId": 22862,
+  "title": "가장 긴 짝수 연속한 부분 수열 (large)",
+  "tier": 11,
+  "tags": [
+    "two_pointer"
+  ],
+  "acceptedUserCount": 2722,
+  "averageTries": 2.30049991607666,
+  "latestSubmission": {
+    "id": 84893159,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5016,
+    "timeMs": 156,
+    "codeLen": 572,
+    "submittedAt": "1년 전"
+  }
+}

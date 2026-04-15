@@ -1,0 +1,23 @@
+{
+  "problemId": 1747,
+  "title": "소수&팰린드롬",
+  "tier": 10,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 9589,
+  "averageTries": 3.1419999599456787,
+  "latestSubmission": {
+    "id": 84868559,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 17520,
+    "timeMs": 56,
+    "codeLen": 979,
+    "submittedAt": "1년 전"
+  }
+}

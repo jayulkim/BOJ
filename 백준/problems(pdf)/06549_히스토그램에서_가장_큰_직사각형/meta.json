@@ -1,0 +1,22 @@
+{
+  "problemId": 6549,
+  "title": "히스토그램에서 가장 큰 직사각형",
+  "tier": 16,
+  "tags": [
+    "data_structures",
+    "segtree",
+    "divide_and_conquer",
+    "stack"
+  ],
+  "acceptedUserCount": 13554,
+  "averageTries": 3.4941999912261963,
+  "latestSubmission": {
+    "id": 90035726,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4188,
+    "timeMs": 32,
+    "codeLen": 1108,
+    "submittedAt": "1년 전"
+  }
+}

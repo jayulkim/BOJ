@@ -1,0 +1,21 @@
+{
+  "problemId": 11562,
+  "title": "백양로 브레이크",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 1864,
+  "averageTries": 2.010200023651123,
+  "latestSubmission": {
+    "id": 84886407,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2268,
+    "timeMs": 20,
+    "codeLen": 879,
+    "submittedAt": "1년 전"
+  }
+}

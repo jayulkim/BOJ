@@ -1,0 +1,20 @@
+{
+  "problemId": 31450,
+  "title": "Everyone is a winner",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 3027,
+  "averageTries": 1.3142000436782837,
+  "latestSubmission": {
+    "id": 84894805,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 225,
+    "submittedAt": "1년 전"
+  }
+}

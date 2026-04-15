@@ -1,0 +1,22 @@
+{
+  "problemId": 1937,
+  "title": "욕심쟁이 판다",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "dfs"
+  ],
+  "acceptedUserCount": 12377,
+  "averageTries": 3.2458999156951904,
+  "latestSubmission": {
+    "id": 100582082,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 6160,
+    "timeMs": 32,
+    "codeLen": 1044,
+    "submittedAt": "4달 전"
+  }
+}

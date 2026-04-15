@@ -1,0 +1,20 @@
+{
+  "problemId": 26122,
+  "title": "가장 긴 막대 자석",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 473,
+  "averageTries": 2.198699951171875,
+  "latestSubmission": {
+    "id": 87193292,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 19044,
+    "timeMs": 20,
+    "codeLen": 1160,
+    "submittedAt": "1년 전"
+  }
+}

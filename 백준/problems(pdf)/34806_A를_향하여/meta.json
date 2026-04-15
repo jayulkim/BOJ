@@ -1,0 +1,22 @@
+{
+  "problemId": 34806,
+  "title": "A+를 향하여",
+  "tier": 14,
+  "tags": [
+    "dp",
+    "binary_search",
+    "parametric_search",
+    "knapsack"
+  ],
+  "acceptedUserCount": 43,
+  "averageTries": 1.906999945640564,
+  "latestSubmission": {
+    "id": 100468374,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 51176,
+    "timeMs": 404,
+    "codeLen": 1524,
+    "submittedAt": "4달 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 22343,
+  "title": "괄호의 값 비교",
+  "tier": 14,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "stack",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 389,
+  "averageTries": 4.048799991607666,
+  "latestSubmission": {
+    "id": 85750859,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 39944,
+    "timeMs": 184,
+    "codeLen": 1153,
+    "submittedAt": "1년 전"
+  }
+}

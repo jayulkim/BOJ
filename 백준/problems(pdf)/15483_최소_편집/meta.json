@@ -1,0 +1,19 @@
+{
+  "problemId": 15483,
+  "title": "최소 편집",
+  "tier": 13,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 1750,
+  "averageTries": 1.7257000207901,
+  "latestSubmission": {
+    "id": 95071407,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10008,
+    "timeMs": 8,
+    "codeLen": 1002,
+    "submittedAt": "10달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 3460,
+  "title": "이진수",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 10648,
+  "averageTries": 1.8138999938964844,
+  "latestSubmission": {
+    "id": 84880928,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 392,
+    "submittedAt": "1년 전"
+  }
+}

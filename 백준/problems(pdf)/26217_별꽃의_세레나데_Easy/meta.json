@@ -1,0 +1,21 @@
+{
+  "problemId": 26217,
+  "title": "별꽃의 세레나데 (Easy)",
+  "tier": 11,
+  "tags": [
+    "math",
+    "probability",
+    "linearity_of_expectation"
+  ],
+  "acceptedUserCount": 621,
+  "averageTries": 1.1319999694824219,
+  "latestSubmission": {
+    "id": 94186416,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 418,
+    "submittedAt": "11달 전"
+  }
+}

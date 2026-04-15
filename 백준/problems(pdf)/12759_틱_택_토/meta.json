@@ -1,0 +1,21 @@
+{
+  "problemId": 12759,
+  "title": "틱! 택! 토!",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "simulation",
+    "case_work"
+  ],
+  "acceptedUserCount": 1092,
+  "averageTries": 2.633699893951416,
+  "latestSubmission": {
+    "id": 84887866,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 3061,
+    "submittedAt": "1년 전"
+  }
+}

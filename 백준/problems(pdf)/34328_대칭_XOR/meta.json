@@ -1,0 +1,20 @@
+{
+  "problemId": 34328,
+  "title": "대칭 XOR",
+  "tier": 12,
+  "tags": [
+    "math",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 88,
+  "averageTries": 2.0455000400543213,
+  "latestSubmission": {
+    "id": 98536695,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 16,
+    "codeLen": 614,
+    "submittedAt": "7달 전"
+  }
+}

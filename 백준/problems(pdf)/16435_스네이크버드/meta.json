@@ -1,0 +1,20 @@
+{
+  "problemId": 16435,
+  "title": "스네이크버드",
+  "tier": 6,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 8171,
+  "averageTries": 1.3265999555587769,
+  "latestSubmission": {
+    "id": 84891979,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 609,
+    "submittedAt": "1년 전"
+  }
+}

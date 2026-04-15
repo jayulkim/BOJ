@@ -1,0 +1,20 @@
+{
+  "problemId": 11143,
+  "title": "Beads",
+  "tier": 15,
+  "tags": [
+    "data_structures",
+    "segtree"
+  ],
+  "acceptedUserCount": 280,
+  "averageTries": 2.2249999046325684,
+  "latestSubmission": {
+    "id": 87462094,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9952,
+    "timeMs": 80,
+    "codeLen": 1344,
+    "submittedAt": "1년 전"
+  }
+}

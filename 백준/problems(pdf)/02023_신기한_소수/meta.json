@@ -1,0 +1,22 @@
+{
+  "problemId": 2023,
+  "title": "신기한 소수",
+  "tier": 11,
+  "tags": [
+    "math",
+    "number_theory",
+    "backtracking",
+    "primality_test"
+  ],
+  "acceptedUserCount": 11670,
+  "averageTries": 2.136399984359741,
+  "latestSubmission": {
+    "id": 84869901,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 979,
+    "submittedAt": "1년 전"
+  }
+}

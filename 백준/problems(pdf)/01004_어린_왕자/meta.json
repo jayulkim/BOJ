@@ -1,0 +1,20 @@
+{
+  "problemId": 1004,
+  "title": "어린 왕자",
+  "tier": 8,
+  "tags": [
+    "math",
+    "geometry"
+  ],
+  "acceptedUserCount": 19956,
+  "averageTries": 2.089200019836426,
+  "latestSubmission": {
+    "id": 84864832,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 8,
+    "codeLen": 696,
+    "submittedAt": "1년 전"
+  }
+}

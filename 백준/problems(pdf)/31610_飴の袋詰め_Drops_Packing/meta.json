@@ -1,0 +1,20 @@
+{
+  "problemId": 31610,
+  "title": "飴の袋詰め (Drops Packing)",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 2246,
+  "averageTries": 1.0996999740600586,
+  "latestSubmission": {
+    "id": 84894839,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 254,
+    "submittedAt": "1년 전"
+  }
+}

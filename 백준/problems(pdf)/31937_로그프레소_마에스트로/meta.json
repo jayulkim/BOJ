@@ -1,0 +1,22 @@
+{
+  "problemId": 31937,
+  "title": "로그프레소 마에스트로",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "bruteforcing",
+    "sorting",
+    "simulation"
+  ],
+  "acceptedUserCount": 314,
+  "averageTries": 3.547800064086914,
+  "latestSubmission": {
+    "id": 84894977,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2264,
+    "timeMs": 8,
+    "codeLen": 1043,
+    "submittedAt": "1년 전"
+  }
+}

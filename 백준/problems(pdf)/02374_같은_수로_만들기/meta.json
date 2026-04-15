@@ -1,0 +1,21 @@
+{
+  "problemId": 2374,
+  "title": "같은 수로 만들기",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "stack"
+  ],
+  "acceptedUserCount": 788,
+  "averageTries": 2.8324999809265137,
+  "latestSubmission": {
+    "id": 74990889,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1132,
+    "timeMs": 0,
+    "codeLen": 981,
+    "submittedAt": "2년 전"
+  }
+}

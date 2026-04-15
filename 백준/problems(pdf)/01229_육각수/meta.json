@@ -1,0 +1,21 @@
+{
+  "problemId": 1229,
+  "title": "육각수",
+  "tier": 12,
+  "tags": [
+    "math",
+    "dp",
+    "precomputation"
+  ],
+  "acceptedUserCount": 807,
+  "averageTries": 2.060699939727783,
+  "latestSubmission": {
+    "id": 103172702,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 56788,
+    "timeMs": 1828,
+    "codeLen": 1137,
+    "submittedAt": "1달 전"
+  }
+}

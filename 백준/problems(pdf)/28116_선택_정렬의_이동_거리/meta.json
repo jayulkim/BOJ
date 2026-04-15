@@ -1,0 +1,20 @@
+{
+  "problemId": 28116,
+  "title": "선택 정렬의 이동 거리",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "sorting"
+  ],
+  "acceptedUserCount": 358,
+  "averageTries": 2.7235000133514404,
+  "latestSubmission": {
+    "id": 84894334,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 13740,
+    "timeMs": 112,
+    "codeLen": 573,
+    "submittedAt": "1년 전"
+  }
+}

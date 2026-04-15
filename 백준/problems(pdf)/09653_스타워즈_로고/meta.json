@@ -1,0 +1,19 @@
+{
+  "problemId": 9653,
+  "title": "스타워즈 로고",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 19132,
+  "averageTries": 1.361799955368042,
+  "latestSubmission": {
+    "id": 84883438,
+    "result": "맞았습니다!!",
+    "language": "Text",
+    "memoryKb": 4528,
+    "timeMs": 0,
+    "codeLen": 325,
+    "submittedAt": "1년 전"
+  }
+}

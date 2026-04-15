@@ -1,0 +1,21 @@
+{
+  "problemId": 5637,
+  "title": "가장 긴 단어",
+  "tier": 7,
+  "tags": [
+    "string",
+    "parsing",
+    "regex"
+  ],
+  "acceptedUserCount": 1047,
+  "averageTries": 3.0018999576568604,
+  "latestSubmission": {
+    "id": 84881994,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2312,
+    "timeMs": 0,
+    "codeLen": 922,
+    "submittedAt": "1년 전"
+  }
+}

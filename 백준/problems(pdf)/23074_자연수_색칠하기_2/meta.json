@@ -1,0 +1,21 @@
+{
+  "problemId": 23074,
+  "title": "자연수 색칠하기 2",
+  "tier": 14,
+  "tags": [
+    "math",
+    "number_theory",
+    "constructive"
+  ],
+  "acceptedUserCount": 180,
+  "averageTries": 2.9166998863220215,
+  "latestSubmission": {
+    "id": 84893236,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3972,
+    "timeMs": 36,
+    "codeLen": 454,
+    "submittedAt": "1년 전"
+  }
+}

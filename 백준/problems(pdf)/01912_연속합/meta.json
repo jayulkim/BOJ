@@ -1,0 +1,20 @@
+{
+  "problemId": 1912,
+  "title": "연속합",
+  "tier": 9,
+  "tags": [
+    "dp",
+    "maximum_subarray"
+  ],
+  "acceptedUserCount": 49483,
+  "averageTries": 2.589099884033203,
+  "latestSubmission": {
+    "id": 84869109,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1892,
+    "timeMs": 8,
+    "codeLen": 575,
+    "submittedAt": "1년 전"
+  }
+}

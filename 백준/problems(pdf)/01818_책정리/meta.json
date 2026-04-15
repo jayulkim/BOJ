@@ -1,0 +1,20 @@
+{
+  "problemId": 1818,
+  "title": "책정리",
+  "tier": 14,
+  "tags": [
+    "binary_search",
+    "lis"
+  ],
+  "acceptedUserCount": 1241,
+  "averageTries": 1.4294999837875366,
+  "latestSubmission": {
+    "id": 84868921,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3584,
+    "timeMs": 76,
+    "codeLen": 533,
+    "submittedAt": "1년 전"
+  }
+}

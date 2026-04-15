@@ -1,0 +1,23 @@
+{
+  "problemId": 34333,
+  "title": "@Override",
+  "tier": 18,
+  "tags": [
+    "data_structures",
+    "trees",
+    "segtree",
+    "lazyprop",
+    "euler_tour_technique"
+  ],
+  "acceptedUserCount": 31,
+  "averageTries": 2.5483999252319336,
+  "latestSubmission": {
+    "id": 99962459,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 213052,
+    "timeMs": 1056,
+    "codeLen": 4382,
+    "submittedAt": "5달 전"
+  }
+}

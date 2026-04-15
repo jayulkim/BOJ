@@ -1,0 +1,23 @@
+{
+  "problemId": 4913,
+  "title": "페르마의 크리스마스 정리",
+  "tier": 12,
+  "tags": [
+    "math",
+    "number_theory",
+    "prefix_sum",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 385,
+  "averageTries": 5.563600063323975,
+  "latestSubmission": {
+    "id": 84881417,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 9904,
+    "timeMs": 8,
+    "codeLen": 1313,
+    "submittedAt": "1년 전"
+  }
+}

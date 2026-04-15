@@ -1,0 +1,20 @@
+{
+  "problemId": 17298,
+  "title": "오큰수",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 30598,
+  "averageTries": 2.7481000423431396,
+  "latestSubmission": {
+    "id": 84892315,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 12836,
+    "timeMs": 264,
+    "codeLen": 1188,
+    "submittedAt": "1년 전"
+  }
+}

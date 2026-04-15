@@ -1,0 +1,19 @@
+{
+  "problemId": 1308,
+  "title": "D-Day",
+  "tier": 6,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 2776,
+  "averageTries": 4.0640997886657715,
+  "latestSubmission": {
+    "id": 84866896,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 1181,
+    "submittedAt": "1년 전"
+  }
+}

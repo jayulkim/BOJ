@@ -1,0 +1,19 @@
+{
+  "problemId": 14581,
+  "title": "팬들에게 둘러싸인 홍준",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 10021,
+  "averageTries": 1.333899974822998,
+  "latestSubmission": {
+    "id": 84889966,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 227,
+    "submittedAt": "1년 전"
+  }
+}

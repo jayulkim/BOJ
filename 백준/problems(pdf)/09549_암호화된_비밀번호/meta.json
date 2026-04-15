@@ -1,0 +1,20 @@
+{
+  "problemId": 9549,
+  "title": "암호화된 비밀번호",
+  "tier": 10,
+  "tags": [
+    "string",
+    "sliding_window"
+  ],
+  "acceptedUserCount": 239,
+  "averageTries": 3.0669000148773193,
+  "latestSubmission": {
+    "id": 84883384,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 43276,
+    "timeMs": 844,
+    "codeLen": 1377,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 32299,
+  "title": "게임을 만들어요",
+  "tier": 13,
+  "tags": [
+    "ad_hoc",
+    "game_theory"
+  ],
+  "acceptedUserCount": 168,
+  "averageTries": 1.607100009918213,
+  "latestSubmission": {
+    "id": 84895142,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 284,
+    "submittedAt": "1년 전"
+  }
+}

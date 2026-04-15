@@ -1,0 +1,21 @@
+{
+  "problemId": 3362,
+  "title": "수수께끼",
+  "tier": 15,
+  "tags": [
+    "greedy",
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 69,
+  "averageTries": 1.6957000494003296,
+  "latestSubmission": {
+    "id": 84880918,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4980,
+    "timeMs": 144,
+    "codeLen": 797,
+    "submittedAt": "1년 전"
+  }
+}

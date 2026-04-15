@@ -1,0 +1,22 @@
+{
+  "problemId": 18405,
+  "title": "경쟁적 전염",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 7446,
+  "averageTries": 3.239500045776367,
+  "latestSubmission": {
+    "id": 97339684,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2864,
+    "timeMs": 12,
+    "codeLen": 1362,
+    "submittedAt": "8달 전"
+  }
+}

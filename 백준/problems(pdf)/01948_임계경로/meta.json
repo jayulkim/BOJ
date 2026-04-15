@@ -1,0 +1,23 @@
+{
+  "problemId": 1948,
+  "title": "임계경로",
+  "tier": 16,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "dag",
+    "topological_sorting",
+    "traceback"
+  ],
+  "acceptedUserCount": 4465,
+  "averageTries": 3.017199993133545,
+  "latestSubmission": {
+    "id": 91458339,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5800,
+    "timeMs": 32,
+    "codeLen": 1872,
+    "submittedAt": "1년 전"
+  }
+}

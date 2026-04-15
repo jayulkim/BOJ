@@ -1,0 +1,21 @@
+{
+  "problemId": 10868,
+  "title": "최솟값",
+  "tier": 15,
+  "tags": [
+    "segtree",
+    "sparse_table",
+    "data_structures"
+  ],
+  "acceptedUserCount": 9419,
+  "averageTries": 1.7857999801635742,
+  "latestSubmission": {
+    "id": 86479835,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5932,
+    "timeMs": 68,
+    "codeLen": 1050,
+    "submittedAt": "1년 전"
+  }
+}

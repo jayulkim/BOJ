@@ -1,0 +1,21 @@
+{
+  "problemId": 31611,
+  "title": "火曜日 (Tuesday)",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 2378,
+  "averageTries": 1.2077000141143799,
+  "latestSubmission": {
+    "id": 84894842,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 231,
+    "submittedAt": "1년 전"
+  }
+}

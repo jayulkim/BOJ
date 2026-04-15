@@ -1,0 +1,20 @@
+{
+  "problemId": 32339,
+  "title": "대동여지도",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "mst"
+  ],
+  "acceptedUserCount": 58,
+  "averageTries": 1.6723999977111816,
+  "latestSubmission": {
+    "id": 86505662,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14520,
+    "timeMs": 92,
+    "codeLen": 1543,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 28703,
+  "title": "Double It",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 532,
+  "averageTries": 3.120300054550171,
+  "latestSubmission": {
+    "id": 84894440,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 4240,
+    "timeMs": 404,
+    "codeLen": 1551,
+    "submittedAt": "1년 전"
+  }
+}

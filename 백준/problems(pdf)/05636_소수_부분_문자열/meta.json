@@ -1,0 +1,24 @@
+{
+  "problemId": 5636,
+  "title": "소수 부분 문자열",
+  "tier": 9,
+  "tags": [
+    "math",
+    "string",
+    "bruteforcing",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 640,
+  "averageTries": 2.0655999183654785,
+  "latestSubmission": {
+    "id": 84881977,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1508,
+    "timeMs": 0,
+    "codeLen": 987,
+    "submittedAt": "1년 전"
+  }
+}

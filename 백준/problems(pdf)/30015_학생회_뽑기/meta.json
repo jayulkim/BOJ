@@ -1,0 +1,21 @@
+{
+  "problemId": 30015,
+  "title": "학생회 뽑기",
+  "tier": 13,
+  "tags": [
+    "greedy",
+    "set",
+    "bitmask"
+  ],
+  "acceptedUserCount": 161,
+  "averageTries": 2.080699920654297,
+  "latestSubmission": {
+    "id": 101606508,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 8356,
+    "timeMs": 52,
+    "codeLen": 1097,
+    "submittedAt": "3달 전"
+  }
+}

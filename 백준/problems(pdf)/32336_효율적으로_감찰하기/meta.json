@@ -1,0 +1,24 @@
+{
+  "problemId": 32336,
+  "title": "효율적으로 감찰하기",
+  "tier": 14,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "dfs",
+    "dp_tree"
+  ],
+  "acceptedUserCount": 42,
+  "averageTries": 1.2618999481201172,
+  "latestSubmission": {
+    "id": 86591455,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 21188,
+    "timeMs": 84,
+    "codeLen": 1154,
+    "submittedAt": "1년 전"
+  }
+}

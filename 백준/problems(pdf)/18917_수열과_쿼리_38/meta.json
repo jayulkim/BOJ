@@ -1,0 +1,20 @@
+{
+  "problemId": 18917,
+  "title": "수열과 쿼리 38",
+  "tier": 8,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 1697,
+  "averageTries": 2.703000068664551,
+  "latestSubmission": {
+    "id": 84892781,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 88,
+    "codeLen": 792,
+    "submittedAt": "1년 전"
+  }
+}

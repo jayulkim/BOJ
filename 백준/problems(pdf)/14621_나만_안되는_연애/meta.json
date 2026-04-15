@@ -1,0 +1,20 @@
+{
+  "problemId": 14621,
+  "title": "나만 안되는 연애",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "mst"
+  ],
+  "acceptedUserCount": 3307,
+  "averageTries": 2.078900098800659,
+  "latestSubmission": {
+    "id": 88020402,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2736,
+    "timeMs": 4,
+    "codeLen": 1091,
+    "submittedAt": "1년 전"
+  }
+}

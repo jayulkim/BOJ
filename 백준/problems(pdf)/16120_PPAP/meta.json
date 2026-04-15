@@ -1,0 +1,21 @@
+{
+  "problemId": 16120,
+  "title": "PPAP",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "string",
+    "stack"
+  ],
+  "acceptedUserCount": 3487,
+  "averageTries": 3.026700019836426,
+  "latestSubmission": {
+    "id": 84891749,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 4044,
+    "timeMs": 12,
+    "codeLen": 1154,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 2805,
+  "title": "나무 자르기",
+  "tier": 9,
+  "tags": [
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 51335,
+  "averageTries": 3.6221001148223877,
+  "latestSubmission": {
+    "id": 84880215,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 16744,
+    "timeMs": 260,
+    "codeLen": 878,
+    "submittedAt": "1년 전"
+  }
+}

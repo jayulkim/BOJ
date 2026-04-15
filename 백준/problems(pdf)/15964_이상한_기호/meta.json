@@ -1,0 +1,21 @@
+{
+  "problemId": 15964,
+  "title": "이상한 기호",
+  "tier": 1,
+  "tags": [
+    "arithmetic",
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 24828,
+  "averageTries": 1.8365000486373901,
+  "latestSubmission": {
+    "id": 84891616,
+    "result": "100점",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 266,
+    "submittedAt": "1년 전"
+  }
+}

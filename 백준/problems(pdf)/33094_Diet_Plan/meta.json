@@ -1,0 +1,22 @@
+{
+  "problemId": 33094,
+  "title": "Diet Plan",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "priority_queue",
+    "sorting"
+  ],
+  "acceptedUserCount": 59,
+  "averageTries": 1.9660999774932861,
+  "latestSubmission": {
+    "id": 88201001,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 719,
+    "submittedAt": "1년 전"
+  }
+}

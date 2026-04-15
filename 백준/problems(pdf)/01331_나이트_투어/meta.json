@@ -1,0 +1,20 @@
+{
+  "problemId": 1331,
+  "title": "나이트 투어",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 3070,
+  "averageTries": 2.6833999156951904,
+  "latestSubmission": {
+    "id": 103202144,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2096,
+    "timeMs": 0,
+    "codeLen": 1278,
+    "submittedAt": "1달 전"
+  }
+}

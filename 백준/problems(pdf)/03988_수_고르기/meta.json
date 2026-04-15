@@ -1,0 +1,24 @@
+{
+  "problemId": 3988,
+  "title": "수 고르기",
+  "tier": 17,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "set",
+    "priority_queue",
+    "deque",
+    "sliding_window"
+  ],
+  "acceptedUserCount": 366,
+  "averageTries": 2.311500072479248,
+  "latestSubmission": {
+    "id": 90040169,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 53356,
+    "timeMs": 236,
+    "codeLen": 1040,
+    "submittedAt": "1년 전"
+  }
+}

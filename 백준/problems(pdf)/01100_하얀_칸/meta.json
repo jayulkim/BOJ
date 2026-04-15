@@ -1,0 +1,20 @@
+{
+  "problemId": 1100,
+  "title": "하얀 칸",
+  "tier": 4,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 21304,
+  "averageTries": 1.3808000087738037,
+  "latestSubmission": {
+    "id": 84865504,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 666,
+    "submittedAt": "1년 전"
+  }
+}

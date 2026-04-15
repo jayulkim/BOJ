@@ -1,0 +1,20 @@
+{
+  "problemId": 5946,
+  "title": "The Trough Game",
+  "tier": 10,
+  "tags": [
+    "bruteforcing",
+    "bitmask"
+  ],
+  "acceptedUserCount": 76,
+  "averageTries": 1.631600022315979,
+  "latestSubmission": {
+    "id": 90968477,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2156,
+    "timeMs": 120,
+    "codeLen": 1068,
+    "submittedAt": "1년 전"
+  }
+}

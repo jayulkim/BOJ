@@ -1,0 +1,23 @@
+{
+  "problemId": 5376,
+  "title": "소수를 분수로",
+  "tier": 10,
+  "tags": [
+    "math",
+    "string",
+    "number_theory",
+    "parsing",
+    "euclidean"
+  ],
+  "acceptedUserCount": 705,
+  "averageTries": 2.7446999549865723,
+  "latestSubmission": {
+    "id": 91820350,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 1186,
+    "submittedAt": "1년 전"
+  }
+}

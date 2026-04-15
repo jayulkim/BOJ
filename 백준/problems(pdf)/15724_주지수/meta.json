@@ -1,0 +1,20 @@
+{
+  "problemId": 15724,
+  "title": "주지수",
+  "tier": 10,
+  "tags": [
+    "dp",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 1893,
+  "averageTries": 2.1024999618530273,
+  "latestSubmission": {
+    "id": 84891108,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 9324,
+    "timeMs": 152,
+    "codeLen": 748,
+    "submittedAt": "1년 전"
+  }
+}

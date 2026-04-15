@@ -1,0 +1,21 @@
+{
+  "problemId": 3955,
+  "title": "캔디 분배",
+  "tier": 16,
+  "tags": [
+    "math",
+    "number_theory",
+    "extended_euclidean"
+  ],
+  "acceptedUserCount": 2130,
+  "averageTries": 4.414599895477295,
+  "latestSubmission": {
+    "id": 91278666,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 1223,
+    "submittedAt": "1년 전"
+  }
+}

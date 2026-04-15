@@ -1,0 +1,20 @@
+{
+  "problemId": 34672,
+  "title": "타카하시의 기차 퍼즐 놀이 1",
+  "tier": 11,
+  "tags": [
+    "ad_hoc",
+    "bitmask"
+  ],
+  "acceptedUserCount": 43,
+  "averageTries": 1.906999945640564,
+  "latestSubmission": {
+    "id": 100049045,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3744,
+    "timeMs": 296,
+    "codeLen": 1292,
+    "submittedAt": "5달 전"
+  }
+}

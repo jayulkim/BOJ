@@ -1,0 +1,19 @@
+{
+  "problemId": 2966,
+  "title": "찍기",
+  "tier": 4,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 2785,
+  "averageTries": 1.7080999612808228,
+  "latestSubmission": {
+    "id": 98323665,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2104,
+    "timeMs": 0,
+    "codeLen": 2046,
+    "submittedAt": "7달 전"
+  }
+}

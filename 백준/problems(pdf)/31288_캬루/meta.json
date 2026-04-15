@@ -1,0 +1,22 @@
+{
+  "problemId": 31288,
+  "title": "캬루",
+  "tier": 9,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "number_theory",
+    "constructive"
+  ],
+  "acceptedUserCount": 254,
+  "averageTries": 3.0078999996185303,
+  "latestSubmission": {
+    "id": 84894780,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 88,
+    "codeLen": 752,
+    "submittedAt": "1년 전"
+  }
+}

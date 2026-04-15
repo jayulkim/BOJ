@@ -1,0 +1,23 @@
+{
+  "problemId": 27172,
+  "title": "수 나누기 게임",
+  "tier": 12,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 3904,
+  "averageTries": 2.4056999683380127,
+  "latestSubmission": {
+    "id": 84894125,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 9316,
+    "timeMs": 40,
+    "codeLen": 796,
+    "submittedAt": "1년 전"
+  }
+}

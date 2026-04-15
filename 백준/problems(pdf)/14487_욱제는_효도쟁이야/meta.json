@@ -1,0 +1,20 @@
+{
+  "problemId": 14487,
+  "title": "욱제는 효도쟁이야!!",
+  "tier": 4,
+  "tags": [
+    "implementation",
+    "greedy"
+  ],
+  "acceptedUserCount": 3399,
+  "averageTries": 1.2900999784469604,
+  "latestSubmission": {
+    "id": 97073174,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 4,
+    "codeLen": 506,
+    "submittedAt": "8달 전"
+  }
+}

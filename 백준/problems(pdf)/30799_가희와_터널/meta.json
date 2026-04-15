@@ -1,0 +1,19 @@
+{
+  "problemId": 30799,
+  "title": "가희와 터널",
+  "tier": 14,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 65,
+  "averageTries": 1.107699990272522,
+  "latestSubmission": {
+    "id": 102854273,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 11028,
+    "timeMs": 24,
+    "codeLen": 1255,
+    "submittedAt": "2달 전"
+  }
+}

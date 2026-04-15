@@ -1,0 +1,20 @@
+{
+  "problemId": 11719,
+  "title": "그대로 출력하기 2",
+  "tier": 3,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 35194,
+  "averageTries": 1.6960999965667725,
+  "latestSubmission": {
+    "id": 95352108,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 485,
+    "submittedAt": "10달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 25991,
+  "title": "Lots of Liquid",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 1024,
+  "averageTries": 1.4960999488830566,
+  "latestSubmission": {
+    "id": 96520168,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 44,
+    "codeLen": 531,
+    "submittedAt": "8달 전"
+  }
+}

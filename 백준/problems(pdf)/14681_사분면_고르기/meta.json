@@ -1,0 +1,20 @@
+{
+  "problemId": 14681,
+  "title": "사분면 고르기",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "geometry"
+  ],
+  "acceptedUserCount": 186328,
+  "averageTries": 1.6398999691009521,
+  "latestSubmission": {
+    "id": 84890194,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 31120,
+    "timeMs": 32,
+    "codeLen": 175,
+    "submittedAt": "1년 전"
+  }
+}

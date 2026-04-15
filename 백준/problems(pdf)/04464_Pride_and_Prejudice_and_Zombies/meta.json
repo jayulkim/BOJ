@@ -1,0 +1,26 @@
+{
+  "problemId": 4464,
+  "title": "Pride and Prejudice and Zombies",
+  "tier": 21,
+  "tags": [
+    "math",
+    "string",
+    "bruteforcing",
+    "number_theory",
+    "primality_test",
+    "prime_factorization",
+    "pollard_rho",
+    "miller_rabin"
+  ],
+  "acceptedUserCount": 58,
+  "averageTries": 3.4655001163482666,
+  "latestSubmission": {
+    "id": 90780330,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2172,
+    "timeMs": 376,
+    "codeLen": 3964,
+    "submittedAt": "1년 전"
+  }
+}

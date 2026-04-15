@@ -1,0 +1,19 @@
+{
+  "problemId": 2669,
+  "title": "직사각형 네개의 합집합의 면적 구하기",
+  "tier": 6,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 10926,
+  "averageTries": 1.3199000358581543,
+  "latestSubmission": {
+    "id": 84879756,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1156,
+    "timeMs": 0,
+    "codeLen": 618,
+    "submittedAt": "1년 전"
+  }
+}

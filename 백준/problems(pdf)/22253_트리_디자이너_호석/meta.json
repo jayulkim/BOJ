@@ -1,0 +1,21 @@
+{
+  "problemId": 22253,
+  "title": "트리 디자이너 호석",
+  "tier": 15,
+  "tags": [
+    "dp",
+    "trees",
+    "dp_tree"
+  ],
+  "acceptedUserCount": 172,
+  "averageTries": 2.1105000972747803,
+  "latestSubmission": {
+    "id": 102606300,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 88708,
+    "timeMs": 480,
+    "codeLen": 1819,
+    "submittedAt": "2달 전"
+  }
+}

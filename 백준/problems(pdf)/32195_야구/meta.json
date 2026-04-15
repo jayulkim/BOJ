@@ -1,0 +1,22 @@
+{
+  "problemId": 32195,
+  "title": "야구",
+  "tier": 10,
+  "tags": [
+    "sorting",
+    "geometry",
+    "binary_search",
+    "set"
+  ],
+  "acceptedUserCount": 127,
+  "averageTries": 2.645699977874756,
+  "latestSubmission": {
+    "id": 86093770,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 33196,
+    "timeMs": 300,
+    "codeLen": 1315,
+    "submittedAt": "1년 전"
+  }
+}

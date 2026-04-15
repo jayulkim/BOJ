@@ -1,0 +1,23 @@
+{
+  "problemId": 32720,
+  "title": "순열과 증가수열",
+  "tier": 16,
+  "tags": [
+    "math",
+    "number_theory",
+    "combinatorics",
+    "modular_multiplicative_inverse",
+    "flt"
+  ],
+  "acceptedUserCount": 102,
+  "averageTries": 1.4412000179290771,
+  "latestSubmission": {
+    "id": 86930892,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14564,
+    "timeMs": 360,
+    "codeLen": 1356,
+    "submittedAt": "1년 전"
+  }
+}

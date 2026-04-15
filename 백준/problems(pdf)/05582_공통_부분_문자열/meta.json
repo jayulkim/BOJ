@@ -1,0 +1,21 @@
+{
+  "problemId": 5582,
+  "title": "공통 부분 문자열",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "string",
+    "lcs"
+  ],
+  "acceptedUserCount": 8000,
+  "averageTries": 2.2899999618530273,
+  "latestSubmission": {
+    "id": 84881849,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 64556,
+    "timeMs": 68,
+    "codeLen": 553,
+    "submittedAt": "1년 전"
+  }
+}

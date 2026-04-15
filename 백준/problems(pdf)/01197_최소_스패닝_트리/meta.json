@@ -1,0 +1,20 @@
+{
+  "problemId": 1197,
+  "title": "최소 스패닝 트리",
+  "tier": 12,
+  "tags": [
+    "mst",
+    "graphs"
+  ],
+  "acceptedUserCount": 26873,
+  "averageTries": 2.5968000888824463,
+  "latestSubmission": {
+    "id": 105035237,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 7784,
+    "timeMs": 36,
+    "codeLen": 20359,
+    "submittedAt": "20시간 전"
+  }
+}

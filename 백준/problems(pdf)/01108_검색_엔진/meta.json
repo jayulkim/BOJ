@@ -1,0 +1,25 @@
+{
+  "problemId": 1108,
+  "title": "검색 엔진",
+  "tier": 18,
+  "tags": [
+    "graphs",
+    "data_structures",
+    "set",
+    "hash_set",
+    "dag",
+    "topological_sorting",
+    "scc"
+  ],
+  "acceptedUserCount": 421,
+  "averageTries": 4.681700229644775,
+  "latestSubmission": {
+    "id": 92502119,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2372,
+    "timeMs": 0,
+    "codeLen": 2086,
+    "submittedAt": "1년 전"
+  }
+}

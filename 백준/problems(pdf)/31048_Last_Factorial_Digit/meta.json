@@ -1,0 +1,20 @@
+{
+  "problemId": 31048,
+  "title": "Last Factorial Digit",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 851,
+  "averageTries": 1.2079999446868896,
+  "latestSubmission": {
+    "id": 96752735,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 535,
+    "submittedAt": "8달 전"
+  }
+}

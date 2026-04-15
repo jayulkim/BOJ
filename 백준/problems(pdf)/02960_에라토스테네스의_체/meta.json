@@ -1,0 +1,23 @@
+{
+  "problemId": 2960,
+  "title": "에라토스테네스의 체",
+  "tier": 7,
+  "tags": [
+    "math",
+    "implementation",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 16993,
+  "averageTries": 1.6914000511169434,
+  "latestSubmission": {
+    "id": 84880627,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 422,
+    "submittedAt": "1년 전"
+  }
+}

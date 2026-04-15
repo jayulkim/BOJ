@@ -1,0 +1,20 @@
+{
+  "problemId": 1159,
+  "title": "농구 경기",
+  "tier": 4,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 14631,
+  "averageTries": 1.8529000282287598,
+  "latestSubmission": {
+    "id": 84865765,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1132,
+    "timeMs": 0,
+    "codeLen": 980,
+    "submittedAt": "1년 전"
+  }
+}

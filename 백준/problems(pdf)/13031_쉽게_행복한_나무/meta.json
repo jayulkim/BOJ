@@ -1,0 +1,23 @@
+{
+  "problemId": 13031,
+  "title": "쉽게 행복한 나무",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "greedy",
+    "graph_traversal",
+    "trees",
+    "dfs"
+  ],
+  "acceptedUserCount": 72,
+  "averageTries": 1.6110999584197998,
+  "latestSubmission": {
+    "id": 100140395,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 11260,
+    "timeMs": 48,
+    "codeLen": 1843,
+    "submittedAt": "5달 전"
+  }
+}

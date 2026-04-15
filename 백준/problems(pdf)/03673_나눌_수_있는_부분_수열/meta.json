@@ -1,0 +1,20 @@
+{
+  "problemId": 3673,
+  "title": "나눌 수 있는 부분 수열",
+  "tier": 13,
+  "tags": [
+    "math",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 671,
+  "averageTries": 2.438199996948242,
+  "latestSubmission": {
+    "id": 84880990,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 9708,
+    "timeMs": 172,
+    "codeLen": 833,
+    "submittedAt": "1년 전"
+  }
+}

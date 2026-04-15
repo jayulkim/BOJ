@@ -1,0 +1,20 @@
+{
+  "problemId": 16478,
+  "title": "원의 분할",
+  "tier": 5,
+  "tags": [
+    "math",
+    "geometry"
+  ],
+  "acceptedUserCount": 877,
+  "averageTries": 1.3842999935150146,
+  "latestSubmission": {
+    "id": 96700057,
+    "result": "20점",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 443,
+    "submittedAt": "8달 전"
+  }
+}

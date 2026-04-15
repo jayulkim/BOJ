@@ -1,0 +1,20 @@
+{
+  "problemId": 14279,
+  "title": "두 수의 곱",
+  "tier": 12,
+  "tags": [
+    "math",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 105,
+  "averageTries": 2.066699981689453,
+  "latestSubmission": {
+    "id": 87682669,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 728,
+    "submittedAt": "1년 전"
+  }
+}

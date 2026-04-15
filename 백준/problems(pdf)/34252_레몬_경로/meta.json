@@ -1,0 +1,24 @@
+{
+  "problemId": 34252,
+  "title": "레몬 경로",
+  "tier": 15,
+  "tags": [
+    "math",
+    "graphs",
+    "graph_traversal",
+    "number_theory",
+    "bfs",
+    "modular_multiplicative_inverse"
+  ],
+  "acceptedUserCount": 123,
+  "averageTries": 2.463399887084961,
+  "latestSubmission": {
+    "id": 100804248,
+    "result": "100점",
+    "language": "C++23",
+    "memoryKb": 34336,
+    "timeMs": 836,
+    "codeLen": 2806,
+    "submittedAt": "4달 전"
+  }
+}

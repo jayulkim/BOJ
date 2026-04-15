@@ -1,0 +1,21 @@
+{
+  "problemId": 14369,
+  "title": "전화번호 수수께끼 (Small)",
+  "tier": 11,
+  "tags": [
+    "string",
+    "bruteforcing",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 490,
+  "averageTries": 1.857100009918213,
+  "latestSubmission": {
+    "id": 88168060,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2040,
+    "timeMs": 0,
+    "codeLen": 1712,
+    "submittedAt": "1년 전"
+  }
+}

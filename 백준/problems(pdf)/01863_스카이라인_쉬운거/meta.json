@@ -1,0 +1,20 @@
+{
+  "problemId": 1863,
+  "title": "스카이라인 쉬운거",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 3267,
+  "averageTries": 2.42330002784729,
+  "latestSubmission": {
+    "id": 84869018,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2292,
+    "timeMs": 0,
+    "codeLen": 713,
+    "submittedAt": "1년 전"
+  }
+}

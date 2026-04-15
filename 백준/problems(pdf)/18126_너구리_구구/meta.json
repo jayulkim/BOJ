@@ -1,0 +1,23 @@
+{
+  "problemId": 18126,
+  "title": "너구리 구구",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "bfs",
+    "dfs"
+  ],
+  "acceptedUserCount": 1323,
+  "averageTries": 2.5850000381469727,
+  "latestSubmission": {
+    "id": 84892622,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2440,
+    "timeMs": 0,
+    "codeLen": 1048,
+    "submittedAt": "1년 전"
+  }
+}

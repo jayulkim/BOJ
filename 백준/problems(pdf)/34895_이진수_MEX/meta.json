@@ -1,0 +1,22 @@
+{
+  "problemId": 34895,
+  "title": "이진수 MEX",
+  "tier": 12,
+  "tags": [
+    "math",
+    "string",
+    "bruteforcing",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 82,
+  "averageTries": 2.7316999435424805,
+  "latestSubmission": {
+    "id": 100932235,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 18848,
+    "timeMs": 100,
+    "codeLen": 1070,
+    "submittedAt": "4달 전"
+  }
+}

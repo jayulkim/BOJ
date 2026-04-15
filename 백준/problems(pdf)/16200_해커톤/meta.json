@@ -1,0 +1,20 @@
+{
+  "problemId": 16200,
+  "title": "해커톤",
+  "tier": 7,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 485,
+  "averageTries": 1.7030999660491943,
+  "latestSubmission": {
+    "id": 85938148,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3964,
+    "timeMs": 16,
+    "codeLen": 624,
+    "submittedAt": "1년 전"
+  }
+}

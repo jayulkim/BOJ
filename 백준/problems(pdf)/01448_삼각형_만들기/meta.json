@@ -1,0 +1,21 @@
+{
+  "problemId": 1448,
+  "title": "삼각형 만들기",
+  "tier": 8,
+  "tags": [
+    "math",
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 4138,
+  "averageTries": 2.229099988937378,
+  "latestSubmission": {
+    "id": 84867514,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 12836,
+    "timeMs": 296,
+    "codeLen": 753,
+    "submittedAt": "1년 전"
+  }
+}

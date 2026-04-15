@@ -1,0 +1,22 @@
+{
+  "problemId": 23286,
+  "title": "허들 넘기",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 469,
+  "averageTries": 1.948799967765808,
+  "latestSubmission": {
+    "id": 99706891,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2612,
+    "timeMs": 40,
+    "codeLen": 1140,
+    "submittedAt": "5달 전"
+  }
+}

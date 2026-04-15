@@ -1,0 +1,21 @@
+{
+  "problemId": 2533,
+  "title": "사회망 서비스(SNS)",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "dp_tree",
+    "trees"
+  ],
+  "acceptedUserCount": 9272,
+  "averageTries": 2.5227999687194824,
+  "latestSubmission": {
+    "id": 86206028,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 125268,
+    "timeMs": 892,
+    "codeLen": 851,
+    "submittedAt": "1년 전"
+  }
+}

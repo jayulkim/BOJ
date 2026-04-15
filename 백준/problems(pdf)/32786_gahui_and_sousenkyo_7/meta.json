@@ -1,0 +1,20 @@
+{
+  "problemId": 32786,
+  "title": "gahui and sousenkyo 7",
+  "tier": 13,
+  "tags": [
+    "constructive",
+    "sorting"
+  ],
+  "acceptedUserCount": 41,
+  "averageTries": 3.951200008392334,
+  "latestSubmission": {
+    "id": 87267001,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2304,
+    "timeMs": 252,
+    "codeLen": 1520,
+    "submittedAt": "1년 전"
+  }
+}

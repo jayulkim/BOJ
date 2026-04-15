@@ -1,0 +1,23 @@
+{
+  "problemId": 14657,
+  "title": "준오는 최종인재야!!",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "dfs",
+    "tree_diameter"
+  ],
+  "acceptedUserCount": 224,
+  "averageTries": 3.732100009918213,
+  "latestSubmission": {
+    "id": 103741150,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 7316,
+    "timeMs": 24,
+    "codeLen": 2429,
+    "submittedAt": "1달 전"
+  }
+}

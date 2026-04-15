@@ -1,0 +1,22 @@
+{
+  "problemId": 14490,
+  "title": "백대열",
+  "tier": 6,
+  "tags": [
+    "math",
+    "string",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 4731,
+  "averageTries": 1.381700038909912,
+  "latestSubmission": {
+    "id": 95129095,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 938,
+    "submittedAt": "10달 전"
+  }
+}

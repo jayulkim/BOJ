@@ -1,0 +1,21 @@
+{
+  "problemId": 32963,
+  "title": "맛있는 사과",
+  "tier": 12,
+  "tags": [
+    "sorting",
+    "binary_search",
+    "offline_queries"
+  ],
+  "acceptedUserCount": 187,
+  "averageTries": 3.406399965286255,
+  "latestSubmission": {
+    "id": 87590631,
+    "result": "100점",
+    "language": "C++23",
+    "memoryKb": 9916,
+    "timeMs": 128,
+    "codeLen": 931,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 15586,
+  "title": "MooTube (Gold)",
+  "tier": 17,
+  "tags": [
+    "data_structures",
+    "disjoint_set",
+    "offline_queries"
+  ],
+  "acceptedUserCount": 436,
+  "averageTries": 1.5986000299453735,
+  "latestSubmission": {
+    "id": 100624237,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 11488,
+    "timeMs": 68,
+    "codeLen": 1868,
+    "submittedAt": "4달 전"
+  }
+}

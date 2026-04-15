@@ -1,0 +1,22 @@
+{
+  "problemId": 13211,
+  "title": "Passport Checking",
+  "tier": 6,
+  "tags": [
+    "data_structures",
+    "string",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 247,
+  "averageTries": 1.5749000310897827,
+  "latestSubmission": {
+    "id": 89632231,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 13776,
+    "timeMs": 128,
+    "codeLen": 660,
+    "submittedAt": "1년 전"
+  }
+}

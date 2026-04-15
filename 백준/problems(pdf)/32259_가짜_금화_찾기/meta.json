@@ -1,0 +1,19 @@
+{
+  "problemId": 32259,
+  "title": "가짜 금화 찾기",
+  "tier": 12,
+  "tags": [
+    "ternary_search"
+  ],
+  "acceptedUserCount": 85,
+  "averageTries": 2.823499917984009,
+  "latestSubmission": {
+    "id": 93506422,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 13808,
+    "timeMs": 4,
+    "codeLen": 1635,
+    "submittedAt": "11달 전"
+  }
+}

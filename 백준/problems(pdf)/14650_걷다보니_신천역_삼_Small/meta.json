@@ -1,0 +1,22 @@
+{
+  "problemId": 14650,
+  "title": "걷다보니 신천역 삼 (Small)",
+  "tier": 9,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "backtracking"
+  ],
+  "acceptedUserCount": 1693,
+  "averageTries": 1.3113000392913818,
+  "latestSubmission": {
+    "id": 89917078,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 639,
+    "submittedAt": "1년 전"
+  }
+}

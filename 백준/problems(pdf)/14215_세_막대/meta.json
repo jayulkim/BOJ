@@ -1,0 +1,21 @@
+{
+  "problemId": 14215,
+  "title": "세 막대",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation",
+    "geometry"
+  ],
+  "acceptedUserCount": 22673,
+  "averageTries": 1.4519000053405762,
+  "latestSubmission": {
+    "id": 84889317,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 642,
+    "submittedAt": "1년 전"
+  }
+}

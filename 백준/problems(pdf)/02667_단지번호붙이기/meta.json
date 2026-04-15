@@ -1,0 +1,24 @@
+{
+  "problemId": 2667,
+  "title": "단지번호붙이기",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "grid_graph",
+    "flood_fill"
+  ],
+  "acceptedUserCount": 69918,
+  "averageTries": 2.254199981689453,
+  "latestSubmission": {
+    "id": 84879744,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1120,
+    "timeMs": 0,
+    "codeLen": 1307,
+    "submittedAt": "1년 전"
+  }
+}

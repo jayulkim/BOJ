@@ -1,0 +1,21 @@
+{
+  "problemId": 14427,
+  "title": "수열과 쿼리 15",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "segtree",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 3145,
+  "averageTries": 1.805999994277954,
+  "latestSubmission": {
+    "id": 86676754,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9836,
+    "timeMs": 52,
+    "codeLen": 1236,
+    "submittedAt": "1년 전"
+  }
+}

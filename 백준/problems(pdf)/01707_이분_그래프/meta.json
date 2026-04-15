@@ -1,0 +1,23 @@
+{
+  "problemId": 1707,
+  "title": "이분 그래프",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "bipartite_graph"
+  ],
+  "acceptedUserCount": 22182,
+  "averageTries": 3.7836999893188477,
+  "latestSubmission": {
+    "id": 87052388,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8984,
+    "timeMs": 264,
+    "codeLen": 1381,
+    "submittedAt": "1년 전"
+  }
+}

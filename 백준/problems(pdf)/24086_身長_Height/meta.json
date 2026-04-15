@@ -1,0 +1,20 @@
+{
+  "problemId": 24086,
+  "title": "身長 (Height)",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 5111,
+  "averageTries": 1.1430000066757202,
+  "latestSubmission": {
+    "id": 84893459,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 490,
+    "submittedAt": "1년 전"
+  }
+}

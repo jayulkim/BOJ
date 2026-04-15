@@ -1,0 +1,20 @@
+{
+  "problemId": 34561,
+  "title": "수열과 쿼리 2025",
+  "tier": 16,
+  "tags": [
+    "data_structures",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 82,
+  "averageTries": 2.951200008392334,
+  "latestSubmission": {
+    "id": 99121317,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 11464,
+    "timeMs": 128,
+    "codeLen": 1901,
+    "submittedAt": "6달 전"
+  }
+}

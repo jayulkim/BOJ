@@ -1,0 +1,20 @@
+{
+  "problemId": 1717,
+  "title": "집합의 표현",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 27536,
+  "averageTries": 3.3566999435424805,
+  "latestSubmission": {
+    "id": 105035227,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 17720,
+    "timeMs": 40,
+    "codeLen": 20375,
+    "submittedAt": "20시간 전"
+  }
+}

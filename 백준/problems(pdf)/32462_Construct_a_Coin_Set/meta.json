@@ -1,0 +1,20 @@
+{
+  "problemId": 32462,
+  "title": "Construct a Coin Set",
+  "tier": 14,
+  "tags": [
+    "ad_hoc",
+    "constructive"
+  ],
+  "acceptedUserCount": 80,
+  "averageTries": 2.1500000953674316,
+  "latestSubmission": {
+    "id": 84895179,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 554,
+    "submittedAt": "1년 전"
+  }
+}

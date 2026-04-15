@@ -1,0 +1,21 @@
+{
+  "problemId": 32216,
+  "title": "찬물 샤워",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 472,
+  "averageTries": 1.351699948310852,
+  "latestSubmission": {
+    "id": 94269366,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 785,
+    "submittedAt": "11달 전"
+  }
+}

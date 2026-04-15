@@ -1,0 +1,19 @@
+{
+  "problemId": 10189,
+  "title": "Hook",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 7663,
+  "averageTries": 1.124500036239624,
+  "latestSubmission": {
+    "id": 84883942,
+    "result": "맞았습니다!!",
+    "language": "Text",
+    "memoryKb": 4528,
+    "timeMs": 0,
+    "codeLen": 77,
+    "submittedAt": "1년 전"
+  }
+}

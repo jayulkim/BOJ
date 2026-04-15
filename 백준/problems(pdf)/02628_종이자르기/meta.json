@@ -1,0 +1,20 @@
+{
+  "problemId": 2628,
+  "title": "종이자르기",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "sorting"
+  ],
+  "acceptedUserCount": 7152,
+  "averageTries": 1.7684999704360962,
+  "latestSubmission": {
+    "id": 84879602,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 4240,
+    "timeMs": 0,
+    "codeLen": 1330,
+    "submittedAt": "1년 전"
+  }
+}

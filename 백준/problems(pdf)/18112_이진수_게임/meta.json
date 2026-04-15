@@ -1,0 +1,22 @@
+{
+  "problemId": 18112,
+  "title": "이진수 게임",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "bitmask"
+  ],
+  "acceptedUserCount": 406,
+  "averageTries": 3.384200096130371,
+  "latestSubmission": {
+    "id": 91819396,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2212,
+    "timeMs": 0,
+    "codeLen": 1350,
+    "submittedAt": "1년 전"
+  }
+}

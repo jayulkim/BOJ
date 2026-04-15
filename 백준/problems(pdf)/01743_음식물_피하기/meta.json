@@ -1,0 +1,24 @@
+{
+  "problemId": 1743,
+  "title": "음식물 피하기",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "grid_graph",
+    "flood_fill"
+  ],
+  "acceptedUserCount": 10538,
+  "averageTries": 2.0343000888824463,
+  "latestSubmission": {
+    "id": 84868525,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1384,
+    "timeMs": 0,
+    "codeLen": 1325,
+    "submittedAt": "1년 전"
+  }
+}

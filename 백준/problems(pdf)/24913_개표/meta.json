@@ -1,0 +1,20 @@
+{
+  "problemId": 24913,
+  "title": "개표",
+  "tier": 9,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 247,
+  "averageTries": 5.413000106811523,
+  "latestSubmission": {
+    "id": 92705417,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2800,
+    "timeMs": 80,
+    "codeLen": 726,
+    "submittedAt": "1년 전"
+  }
+}

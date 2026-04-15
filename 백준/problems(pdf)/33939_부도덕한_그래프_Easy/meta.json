@@ -1,0 +1,20 @@
+{
+  "problemId": 33939,
+  "title": "부도덕한 그래프 (Easy)",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 98,
+  "averageTries": 1.5305999517440796,
+  "latestSubmission": {
+    "id": 98196991,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2888,
+    "timeMs": 8,
+    "codeLen": 932,
+    "submittedAt": "7달 전"
+  }
+}

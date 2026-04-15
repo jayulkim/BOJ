@@ -1,0 +1,21 @@
+{
+  "problemId": 32718,
+  "title": "우선순위 큐와 시뮬레이션",
+  "tier": 13,
+  "tags": [
+    "math",
+    "sorting",
+    "binary_search"
+  ],
+  "acceptedUserCount": 94,
+  "averageTries": 2.840399980545044,
+  "latestSubmission": {
+    "id": 86987497,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8296,
+    "timeMs": 116,
+    "codeLen": 798,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 1076,
+  "title": "저항",
+  "tier": 4,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 16621,
+  "averageTries": 2.0539000034332275,
+  "latestSubmission": {
+    "id": 84865361,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 2011,
+    "submittedAt": "1년 전"
+  }
+}

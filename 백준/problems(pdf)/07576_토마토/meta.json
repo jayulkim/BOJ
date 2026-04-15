@@ -1,0 +1,23 @@
+{
+  "problemId": 7576,
+  "title": "토마토",
+  "tier": 11,
+  "tags": [
+    "bfs",
+    "graphs",
+    "graph_traversal",
+    "grid_graph",
+    "shortest_path"
+  ],
+  "acceptedUserCount": 63344,
+  "averageTries": 2.5678000450134277,
+  "latestSubmission": {
+    "id": 84882506,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14376,
+    "timeMs": 220,
+    "codeLen": 2287,
+    "submittedAt": "1년 전"
+  }
+}

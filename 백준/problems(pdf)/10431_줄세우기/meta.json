@@ -1,0 +1,21 @@
+{
+  "problemId": 10431,
+  "title": "줄세우기",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "sorting",
+    "simulation"
+  ],
+  "acceptedUserCount": 6133,
+  "averageTries": 1.8378000259399414,
+  "latestSubmission": {
+    "id": 84952959,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 772,
+    "submittedAt": "1년 전"
+  }
+}

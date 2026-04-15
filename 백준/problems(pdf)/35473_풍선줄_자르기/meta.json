@@ -1,0 +1,23 @@
+{
+  "problemId": 35473,
+  "title": "풍선줄 자르기",
+  "tier": 16,
+  "tags": [
+    "graphs",
+    "trees",
+    "shortest_path",
+    "dijkstra",
+    "traceback"
+  ],
+  "acceptedUserCount": 42,
+  "averageTries": 1.2381000518798828,
+  "latestSubmission": {
+    "id": 104977507,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 51580,
+    "timeMs": 220,
+    "codeLen": 2335,
+    "submittedAt": "2일 전"
+  }
+}

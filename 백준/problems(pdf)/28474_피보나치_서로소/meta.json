@@ -1,0 +1,21 @@
+{
+  "problemId": 28474,
+  "title": "피보나치 서로소",
+  "tier": 16,
+  "tags": [
+    "math",
+    "number_theory",
+    "euler_phi"
+  ],
+  "acceptedUserCount": 266,
+  "averageTries": 1.9924999475479126,
+  "latestSubmission": {
+    "id": 84894421,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1244,
+    "timeMs": 664,
+    "codeLen": 4065,
+    "submittedAt": "1년 전"
+  }
+}

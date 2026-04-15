@@ -1,0 +1,21 @@
+{
+  "problemId": 16498,
+  "title": "작은 벌점",
+  "tier": 11,
+  "tags": [
+    "bruteforcing",
+    "sorting",
+    "binary_search"
+  ],
+  "acceptedUserCount": 434,
+  "averageTries": 2.80649995803833,
+  "latestSubmission": {
+    "id": 93773678,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 2612,
+    "submittedAt": "11달 전"
+  }
+}

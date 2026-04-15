@@ -1,0 +1,20 @@
+{
+  "problemId": 15624,
+  "title": "피보나치 수 7",
+  "tier": 7,
+  "tags": [
+    "math",
+    "dp"
+  ],
+  "acceptedUserCount": 4261,
+  "averageTries": 2.0171000957489014,
+  "latestSubmission": {
+    "id": 84890690,
+    "result": "맞았습니다!! (201/201)",
+    "language": "C99",
+    "memoryKb": 16736,
+    "timeMs": 4,
+    "codeLen": 410,
+    "submittedAt": "1년 전"
+  }
+}

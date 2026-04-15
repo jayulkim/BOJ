@@ -1,0 +1,21 @@
+{
+  "problemId": 14445,
+  "title": "케이크(?) 자르기",
+  "tier": 12,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "geometry"
+  ],
+  "acceptedUserCount": 410,
+  "averageTries": 2.9828999042510986,
+  "latestSubmission": {
+    "id": 84889635,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 266,
+    "submittedAt": "1년 전"
+  }
+}

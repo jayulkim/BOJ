@@ -1,0 +1,22 @@
+{
+  "problemId": 18114,
+  "title": "블랙 프라이데이",
+  "tier": 11,
+  "tags": [
+    "bruteforcing",
+    "sorting",
+    "binary_search",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 979,
+  "averageTries": 4.118500232696533,
+  "latestSubmission": {
+    "id": 100196525,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2380,
+    "timeMs": 12,
+    "codeLen": 1414,
+    "submittedAt": "5달 전"
+  }
+}

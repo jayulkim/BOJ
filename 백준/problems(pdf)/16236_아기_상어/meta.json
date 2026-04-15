@@ -1,0 +1,23 @@
+{
+  "problemId": 16236,
+  "title": "아기 상어",
+  "tier": 13,
+  "tags": [
+    "implementation",
+    "graphs",
+    "graph_traversal",
+    "simulation",
+    "bfs"
+  ],
+  "acceptedUserCount": 26194,
+  "averageTries": 2.1875998973846436,
+  "latestSubmission": {
+    "id": 100090404,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2228,
+    "timeMs": 8,
+    "codeLen": 1955,
+    "submittedAt": "5달 전"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "problemId": 11439,
+  "title": "이항 계수 5",
+  "tier": 17,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "exponentiation_by_squaring",
+    "sieve",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 579,
+  "averageTries": 2.2279999256134033,
+  "latestSubmission": {
+    "id": 84886145,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 74800,
+    "timeMs": 188,
+    "codeLen": 1498,
+    "submittedAt": "1년 전"
+  }
+}

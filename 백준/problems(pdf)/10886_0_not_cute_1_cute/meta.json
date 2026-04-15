@@ -1,0 +1,21 @@
+{
+  "problemId": 10886,
+  "title": "0 = not cute / 1 = cute",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 17310,
+  "averageTries": 1.5199999809265137,
+  "latestSubmission": {
+    "id": 84884927,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 448,
+    "submittedAt": "1년 전"
+  }
+}

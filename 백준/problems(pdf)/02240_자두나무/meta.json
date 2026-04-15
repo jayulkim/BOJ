@@ -1,0 +1,19 @@
+{
+  "problemId": 2240,
+  "title": "자두나무",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 7089,
+  "averageTries": 2.492300033569336,
+  "latestSubmission": {
+    "id": 84878209,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2756,
+    "timeMs": 0,
+    "codeLen": 822,
+    "submittedAt": "1년 전"
+  }
+}

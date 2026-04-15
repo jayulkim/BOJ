@@ -1,0 +1,19 @@
+{
+  "problemId": 14890,
+  "title": "경사로",
+  "tier": 13,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 15867,
+  "averageTries": 1.7101000547409058,
+  "latestSubmission": {
+    "id": 104339369,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2352,
+    "timeMs": 4,
+    "codeLen": 2048,
+    "submittedAt": "20일 전"
+  }
+}

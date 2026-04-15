@@ -1,0 +1,22 @@
+{
+  "problemId": 1411,
+  "title": "비슷한 단어",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "string",
+    "bruteforcing",
+    "set"
+  ],
+  "acceptedUserCount": 1445,
+  "averageTries": 1.4879000186920166,
+  "latestSubmission": {
+    "id": 103202206,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2232,
+    "timeMs": 8,
+    "codeLen": 1628,
+    "submittedAt": "1달 전"
+  }
+}

@@ -1,0 +1,97 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n >> m;
+    ll mod = 998244353;
+    vector<vector<pll>>graph(n + 1);
+    for (int i = 0; i < m; i++) {
+        ll a = 0, b = 0, c = 0;
+        cin >> a >> b >> c;
+        graph[a].push_back({b, c});
+        graph[b].push_back({a, c});
+    }
+    function<ll(ll, ll, ll)> addmod = [&](ll a, ll b, ll c) -> ll {
+        if (a >= (c - b)) {
+            return a - (c - b);
+        }
+        return a + b;
+        };
+    function<ll(ll, ll, ll)> mulmod = [&](ll a, ll b, ll c) -> ll {
+        ll result = 0;
+        while (b) {
+            if (b % 2) {
+                result = addmod(result, a, c);
+            }
+            a = addmod(a, a, c);
+            b /= 2;
+        }
+        return result;
+        };
+    function<ll(ll, ll, ll)> powmod = [&](ll a, ll b, ll c) -> ll {
+        ll result = 1;
+        while (b) {
+            if (b % 2) {
+                result = mulmod(result, a, c);
+            }
+            a = mulmod(a, a, c);
+            b /= 2;
+        }
+        return result;
+        };
+    vector<ll>dist(n + 1, 0);
+    vector<ll>rank(n + 1, 0);
+    vector<ll>dp(n + 1, 0);
+    queue<pll>q;
+    vector<ll>visited(n + 1, 0);
+    q.push({1, 0});
+    while (!q.empty()) {
+        pll temp = q.front();
+        q.pop();
+        dist[temp.first] = temp.second;
+        visited[temp.first] = 1;
+        for (auto& i : graph[temp.first]) {
+            if (!visited[i.first]) {
+                visited[i.first] = 1;
+                q.push({ i.first, temp.second + 1 });
+            }
+        }
+    }
+    q.push({ 1, 0 });
+    rank[1]++;
+    while (!q.empty()) {
+        pll temp = q.front();
+        q.pop();
+        visited[temp.first] = 0;
+        for (auto& i : graph[temp.first]) {
+            if (visited[i.first]) {
+                q.push({ i.first, temp.second + 1 });
+                visited[i.first] = 0;
+            }
+            if (temp.second + 1 == dist[i.first]) {
+                dp[i.first] = addmod(dp[i.first], addmod(dp[temp.first], mulmod(i.second, rank[temp.first], mod), mod), mod);
+                rank[i.first] = addmod(rank[i.first], rank[temp.first], mod);
+            }
+        }
+    }
+    for (int i = 2; i <= n; i++) {
+        cout << (dp[i] * powmod(rank[i], mod - 2, mod)) % mod << '\n';
+    }
+    return 0;
+}

@@ -1,0 +1,23 @@
+{
+  "problemId": 9213,
+  "title": "꽤 좋은 수",
+  "tier": 14,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve",
+    "harmonic_number"
+  ],
+  "acceptedUserCount": 231,
+  "averageTries": 1.748900055885315,
+  "latestSubmission": {
+    "id": 84883081,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5016,
+    "timeMs": 24,
+    "codeLen": 636,
+    "submittedAt": "1년 전"
+  }
+}

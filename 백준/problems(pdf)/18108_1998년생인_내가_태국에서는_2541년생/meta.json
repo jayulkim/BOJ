@@ -1,0 +1,20 @@
+{
+  "problemId": 18108,
+  "title": "1998년생인 내가 태국에서는 2541년생?!",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 158022,
+  "averageTries": 1.5853999853134155,
+  "latestSubmission": {
+    "id": 84892566,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 31120,
+    "timeMs": 32,
+    "codeLen": 31,
+    "submittedAt": "1년 전"
+  }
+}

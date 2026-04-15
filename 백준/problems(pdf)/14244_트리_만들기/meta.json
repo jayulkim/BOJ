@@ -1,0 +1,20 @@
+{
+  "problemId": 14244,
+  "title": "트리 만들기",
+  "tier": 7,
+  "tags": [
+    "trees",
+    "constructive"
+  ],
+  "acceptedUserCount": 1325,
+  "averageTries": 1.4905999898910522,
+  "latestSubmission": {
+    "id": 94982060,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 568,
+    "submittedAt": "10달 전"
+  }
+}

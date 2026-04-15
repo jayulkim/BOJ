@@ -1,0 +1,21 @@
+{
+  "problemId": 5567,
+  "title": "결혼식",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 10571,
+  "averageTries": 2.158900022506714,
+  "latestSubmission": {
+    "id": 97200188,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2288,
+    "timeMs": 0,
+    "codeLen": 1027,
+    "submittedAt": "8달 전"
+  }
+}

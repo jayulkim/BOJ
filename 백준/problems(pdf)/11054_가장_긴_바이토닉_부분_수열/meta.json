@@ -1,0 +1,19 @@
+{
+  "problemId": 11054,
+  "title": "가장 긴 바이토닉 부분 수열",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 28426,
+  "averageTries": 1.9206000566482544,
+  "latestSubmission": {
+    "id": 84885778,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1136,
+    "timeMs": 4,
+    "codeLen": 1289,
+    "submittedAt": "1년 전"
+  }
+}

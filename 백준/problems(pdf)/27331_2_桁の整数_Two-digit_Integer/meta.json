@@ -1,0 +1,21 @@
+{
+  "problemId": 27331,
+  "title": "2 桁の整数 (Two-digit Integer)",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 3342,
+  "averageTries": 1.09660005569458,
+  "latestSubmission": {
+    "id": 84894185,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 462,
+    "submittedAt": "1년 전"
+  }
+}

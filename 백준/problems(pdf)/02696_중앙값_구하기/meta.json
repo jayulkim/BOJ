@@ -1,0 +1,20 @@
+{
+  "problemId": 2696,
+  "title": "중앙값 구하기",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 5624,
+  "averageTries": 1.8825000524520874,
+  "latestSubmission": {
+    "id": 84879825,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8212,
+    "timeMs": 0,
+    "codeLen": 3302,
+    "submittedAt": "1년 전"
+  }
+}

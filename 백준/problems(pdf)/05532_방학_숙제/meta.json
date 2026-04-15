@@ -1,0 +1,20 @@
+{
+  "problemId": 5532,
+  "title": "방학 숙제",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 14058,
+  "averageTries": 1.547700047492981,
+  "latestSubmission": {
+    "id": 84881727,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3064,
+    "timeMs": 0,
+    "codeLen": 544,
+    "submittedAt": "1년 전"
+  }
+}

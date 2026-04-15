@@ -1,0 +1,21 @@
+{
+  "problemId": 19638,
+  "title": "센티와 마법의 뿅망치",
+  "tier": 10,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 1895,
+  "averageTries": 2.880199909210205,
+  "latestSubmission": {
+    "id": 84892841,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2920,
+    "timeMs": 24,
+    "codeLen": 558,
+    "submittedAt": "1년 전"
+  }
+}

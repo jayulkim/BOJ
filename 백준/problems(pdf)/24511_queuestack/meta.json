@@ -1,0 +1,22 @@
+{
+  "problemId": 24511,
+  "title": "queuestack",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "stack",
+    "deque",
+    "queue"
+  ],
+  "acceptedUserCount": 9736,
+  "averageTries": 2.9000000953674316,
+  "latestSubmission": {
+    "id": 84893560,
+    "result": "맞았습니다!!",
+    "language": "Java 15",
+    "memoryKb": 62400,
+    "timeMs": 600,
+    "codeLen": 1346,
+    "submittedAt": "1년 전"
+  }
+}

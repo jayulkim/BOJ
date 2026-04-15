@@ -1,0 +1,21 @@
+{
+  "problemId": 34052,
+  "title": "체육은 수학과목 입니다 2",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 2130,
+  "averageTries": 1.3947999477386475,
+  "latestSubmission": {
+    "id": 96325399,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 495,
+    "submittedAt": "9달 전"
+  }
+}

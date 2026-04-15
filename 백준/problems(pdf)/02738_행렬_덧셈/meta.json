@@ -1,0 +1,21 @@
+{
+  "problemId": 2738,
+  "title": "행렬 덧셈",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 65180,
+  "averageTries": 1.8763999938964844,
+  "latestSubmission": {
+    "id": 84879867,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 32140,
+    "timeMs": 44,
+    "codeLen": 332,
+    "submittedAt": "1년 전"
+  }
+}

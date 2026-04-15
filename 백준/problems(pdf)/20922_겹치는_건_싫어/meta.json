@@ -1,0 +1,19 @@
+{
+  "problemId": 20922,
+  "title": "겹치는 건 싫어",
+  "tier": 10,
+  "tags": [
+    "two_pointer"
+  ],
+  "acceptedUserCount": 6449,
+  "averageTries": 2.611299991607666,
+  "latestSubmission": {
+    "id": 84893003,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2284,
+    "timeMs": 28,
+    "codeLen": 654,
+    "submittedAt": "1년 전"
+  }
+}

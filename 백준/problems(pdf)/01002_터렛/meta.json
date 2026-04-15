@@ -1,0 +1,21 @@
+{
+  "problemId": 1002,
+  "title": "터렛",
+  "tier": 8,
+  "tags": [
+    "math",
+    "geometry",
+    "case_work"
+  ],
+  "acceptedUserCount": 45367,
+  "averageTries": 4.273600101470947,
+  "latestSubmission": {
+    "id": 84864791,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1128,
+    "timeMs": 0,
+    "codeLen": 1555,
+    "submittedAt": "1년 전"
+  }
+}

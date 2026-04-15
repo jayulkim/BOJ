@@ -1,0 +1,20 @@
+{
+  "problemId": 35183,
+  "title": "광역기 맞으면 서렌하는 게임",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 189,
+  "averageTries": 1.8148000240325928,
+  "latestSubmission": {
+    "id": 102795100,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 10080,
+    "timeMs": 32,
+    "codeLen": 1591,
+    "submittedAt": "2달 전"
+  }
+}

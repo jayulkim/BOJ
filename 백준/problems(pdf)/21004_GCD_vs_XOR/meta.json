@@ -1,0 +1,21 @@
+{
+  "problemId": 21004,
+  "title": "GCD vs. XOR",
+  "tier": 18,
+  "tags": [
+    "math",
+    "number_theory",
+    "harmonic_number"
+  ],
+  "acceptedUserCount": 81,
+  "averageTries": 2.580199956893921,
+  "latestSubmission": {
+    "id": 86498044,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 101500,
+    "timeMs": 7352,
+    "codeLen": 992,
+    "submittedAt": "1년 전"
+  }
+}

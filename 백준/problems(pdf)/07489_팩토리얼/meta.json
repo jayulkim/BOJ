@@ -1,0 +1,20 @@
+{
+  "problemId": 7489,
+  "title": "팩토리얼",
+  "tier": 4,
+  "tags": [
+    "math",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 1159,
+  "averageTries": 2.467600107192993,
+  "latestSubmission": {
+    "id": 84882409,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 427,
+    "submittedAt": "1년 전"
+  }
+}

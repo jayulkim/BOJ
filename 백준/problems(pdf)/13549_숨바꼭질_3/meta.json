@@ -1,0 +1,24 @@
+{
+  "problemId": 13549,
+  "title": "숨바꼭질 3",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "shortest_path",
+    "dijkstra",
+    "0_1_bfs"
+  ],
+  "acceptedUserCount": 28545,
+  "averageTries": 4.0254998207092285,
+  "latestSubmission": {
+    "id": 84888869,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2728,
+    "timeMs": 8,
+    "codeLen": 941,
+    "submittedAt": "1년 전"
+  }
+}

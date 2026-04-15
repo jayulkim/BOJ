@@ -1,0 +1,20 @@
+{
+  "problemId": 20040,
+  "title": "사이클 게임",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 11307,
+  "averageTries": 1.9522000551223755,
+  "latestSubmission": {
+    "id": 84892915,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3972,
+    "timeMs": 92,
+    "codeLen": 685,
+    "submittedAt": "1년 전"
+  }
+}

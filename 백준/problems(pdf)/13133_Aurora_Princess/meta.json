@@ -1,0 +1,19 @@
+{
+  "problemId": 13133,
+  "title": "Aurora Princess",
+  "tier": 6,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 390,
+  "averageTries": 2.3255999088287354,
+  "latestSubmission": {
+    "id": 84888298,
+    "result": "맞았습니다!!",
+    "language": "C++98",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 328,
+    "submittedAt": "1년 전"
+  }
+}

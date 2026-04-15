@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+typedef int ll;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    ll a = 0, b = 100001;
+    ll result = n;
+    ll idxa = -1, idxb = -1;
+    for (int i = 0; i < n; i++) {
+        cin >> m;
+        if (a < m) {
+            a = m;
+            result = n;
+            idxa = i;
+            if (idxb != -1) {
+                result = min(result, i - idxb + 1);
+            }
+        }
+        else if (a == m && idxb != -1) {
+            result = min(result, i - idxb + 1);
+            idxa = i;
+        }
+        if (b > m) {
+            b = m;
+            result = n;
+            idxb = i;
+            if (idxa != -1) {
+                result = min(result, i - idxa + 1);
+            }
+        }
+        else if (b == m && idxa != -1) {
+            result = min(result, i - idxa + 1);
+            idxb = i;
+        }
+    }
+    cout << result;
+    return 0;
+}

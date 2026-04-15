@@ -1,0 +1,19 @@
+{
+  "problemId": 21555,
+  "title": "빛의 돌 옮기기",
+  "tier": 9,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 284,
+  "averageTries": 1.6584999561309814,
+  "latestSubmission": {
+    "id": 86063806,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 11416,
+    "timeMs": 56,
+    "codeLen": 705,
+    "submittedAt": "1년 전"
+  }
+}

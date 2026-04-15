@@ -1,0 +1,20 @@
+{
+  "problemId": 3101,
+  "title": "토끼의 이동",
+  "tier": 13,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 386,
+  "averageTries": 3.217600107192993,
+  "latestSubmission": {
+    "id": 104976420,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2972,
+    "timeMs": 4,
+    "codeLen": 1311,
+    "submittedAt": "3일 전"
+  }
+}

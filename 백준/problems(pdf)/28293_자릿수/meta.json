@@ -1,0 +1,19 @@
+{
+  "problemId": 28293,
+  "title": "자릿수",
+  "tier": 10,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 418,
+  "averageTries": 2.3278000354766846,
+  "latestSubmission": {
+    "id": 96895506,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 24,
+    "codeLen": 459,
+    "submittedAt": "8달 전"
+  }
+}

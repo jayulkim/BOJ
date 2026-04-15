@@ -1,0 +1,23 @@
+{
+  "problemId": 32191,
+  "title": "그래프의 종착지",
+  "tier": 17,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 37,
+  "averageTries": 5.540500164031982,
+  "latestSubmission": {
+    "id": 99784415,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 23580,
+    "timeMs": 148,
+    "codeLen": 2704,
+    "submittedAt": "5달 전"
+  }
+}

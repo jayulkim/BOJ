@@ -1,0 +1,21 @@
+{
+  "problemId": 1412,
+  "title": "일방통행",
+  "tier": 16,
+  "tags": [
+    "graphs",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 316,
+  "averageTries": 2.0822999477386475,
+  "latestSubmission": {
+    "id": 84867323,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 984,
+    "submittedAt": "1년 전"
+  }
+}

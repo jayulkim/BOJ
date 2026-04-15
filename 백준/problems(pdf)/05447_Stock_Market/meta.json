@@ -1,0 +1,19 @@
+{
+  "problemId": 5447,
+  "title": "Stock Market",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 42,
+  "averageTries": 1.5476000308990479,
+  "latestSubmission": {
+    "id": 89632988,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 25588,
+    "timeMs": 92,
+    "codeLen": 1075,
+    "submittedAt": "1년 전"
+  }
+}

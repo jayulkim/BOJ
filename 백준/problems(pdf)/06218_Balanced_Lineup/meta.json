@@ -1,0 +1,20 @@
+{
+  "problemId": 6218,
+  "title": "Balanced Lineup",
+  "tier": 15,
+  "tags": [
+    "data_structures",
+    "segtree"
+  ],
+  "acceptedUserCount": 532,
+  "averageTries": 1.1334999799728394,
+  "latestSubmission": {
+    "id": 87430668,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5540,
+    "timeMs": 48,
+    "codeLen": 1667,
+    "submittedAt": "1년 전"
+  }
+}

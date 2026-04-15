@@ -1,0 +1,23 @@
+{
+  "problemId": 4013,
+  "title": "ATM",
+  "tier": 19,
+  "tags": [
+    "dp",
+    "graphs",
+    "dag",
+    "topological_sorting",
+    "scc"
+  ],
+  "acceptedUserCount": 1711,
+  "averageTries": 4.087100028991699,
+  "latestSubmission": {
+    "id": 92943680,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 189856,
+    "timeMs": 1144,
+    "codeLen": 2857,
+    "submittedAt": "1년 전"
+  }
+}

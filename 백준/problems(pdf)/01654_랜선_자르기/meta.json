@@ -1,0 +1,20 @@
+{
+  "problemId": 1654,
+  "title": "랜선 자르기",
+  "tier": 9,
+  "tags": [
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 49199,
+  "averageTries": 4.411300182342529,
+  "latestSubmission": {
+    "id": 84868245,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1192,
+    "timeMs": 4,
+    "codeLen": 905,
+    "submittedAt": "1년 전"
+  }
+}

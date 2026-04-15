@@ -1,0 +1,23 @@
+{
+  "problemId": 16214,
+  "title": "N과 M",
+  "tier": 21,
+  "tags": [
+    "math",
+    "number_theory",
+    "exponentiation_by_squaring",
+    "recursion",
+    "euler_phi"
+  ],
+  "acceptedUserCount": 288,
+  "averageTries": 3.3229000568389893,
+  "latestSubmission": {
+    "id": 90382436,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 128,
+    "codeLen": 1363,
+    "submittedAt": "1년 전"
+  }
+}

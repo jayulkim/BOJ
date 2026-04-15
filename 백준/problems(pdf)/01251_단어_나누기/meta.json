@@ -1,0 +1,22 @@
+{
+  "problemId": 1251,
+  "title": "단어 나누기",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "string",
+    "bruteforcing",
+    "sorting"
+  ],
+  "acceptedUserCount": 7328,
+  "averageTries": 2.112299919128418,
+  "latestSubmission": {
+    "id": 84866177,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2312,
+    "timeMs": 0,
+    "codeLen": 672,
+    "submittedAt": "1년 전"
+  }
+}

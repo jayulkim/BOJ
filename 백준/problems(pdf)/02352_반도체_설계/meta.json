@@ -1,0 +1,20 @@
+{
+  "problemId": 2352,
+  "title": "반도체 설계",
+  "tier": 14,
+  "tags": [
+    "binary_search",
+    "lis"
+  ],
+  "acceptedUserCount": 5861,
+  "averageTries": 1.8317999839782715,
+  "latestSubmission": {
+    "id": 84878474,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2424,
+    "timeMs": 4,
+    "codeLen": 584,
+    "submittedAt": "1년 전"
+  }
+}

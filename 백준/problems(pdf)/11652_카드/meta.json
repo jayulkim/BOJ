@@ -1,0 +1,22 @@
+{
+  "problemId": 11652,
+  "title": "카드",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 13216,
+  "averageTries": 3.250999927520752,
+  "latestSubmission": {
+    "id": 84886516,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5804,
+    "timeMs": 56,
+    "codeLen": 2132,
+    "submittedAt": "1년 전"
+  }
+}

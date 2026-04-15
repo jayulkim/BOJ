@@ -1,0 +1,22 @@
+{
+  "problemId": 1005,
+  "title": "ACM Craft",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "graphs",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 20185,
+  "averageTries": 3.1700000762939453,
+  "latestSubmission": {
+    "id": 84864858,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3168,
+    "timeMs": 136,
+    "codeLen": 1041,
+    "submittedAt": "1년 전"
+  }
+}

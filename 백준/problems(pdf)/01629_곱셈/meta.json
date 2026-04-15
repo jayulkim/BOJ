@@ -1,0 +1,20 @@
+{
+  "problemId": 1629,
+  "title": "곱셈",
+  "tier": 10,
+  "tags": [
+    "math",
+    "exponentiation_by_squaring"
+  ],
+  "acceptedUserCount": 36992,
+  "averageTries": 3.500699996948242,
+  "latestSubmission": {
+    "id": 104991989,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 1547,
+    "submittedAt": "2일 전"
+  }
+}

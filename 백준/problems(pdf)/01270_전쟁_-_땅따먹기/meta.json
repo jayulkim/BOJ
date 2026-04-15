@@ -1,0 +1,22 @@
+{
+  "problemId": 1270,
+  "title": "전쟁 - 땅따먹기",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 1942,
+  "averageTries": 3.1013998985290527,
+  "latestSubmission": {
+    "id": 84866353,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6788,
+    "timeMs": 7796,
+    "codeLen": 825,
+    "submittedAt": "1년 전"
+  }
+}

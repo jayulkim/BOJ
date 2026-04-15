@@ -1,0 +1,21 @@
+{
+  "problemId": 15439,
+  "title": "베라의 패션",
+  "tier": 2,
+  "tags": [
+    "implementation",
+    "combinatorics",
+    "math"
+  ],
+  "acceptedUserCount": 18930,
+  "averageTries": 1.1593999862670898,
+  "latestSubmission": {
+    "id": 84890575,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 178,
+    "submittedAt": "1년 전"
+  }
+}

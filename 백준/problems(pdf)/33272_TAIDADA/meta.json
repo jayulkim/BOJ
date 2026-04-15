@@ -1,0 +1,20 @@
+{
+  "problemId": 33272,
+  "title": "TAIDADA",
+  "tier": 12,
+  "tags": [
+    "greedy",
+    "constructive"
+  ],
+  "acceptedUserCount": 176,
+  "averageTries": 2.15910005569458,
+  "latestSubmission": {
+    "id": 89235870,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 29092,
+    "timeMs": 148,
+    "codeLen": 613,
+    "submittedAt": "1년 전"
+  }
+}

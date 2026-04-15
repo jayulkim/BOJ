@@ -1,0 +1,21 @@
+{
+  "problemId": 16567,
+  "title": "바이너리 왕국",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "ad_hoc",
+    "simulation"
+  ],
+  "acceptedUserCount": 487,
+  "averageTries": 2.757699966430664,
+  "latestSubmission": {
+    "id": 84892067,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5928,
+    "timeMs": 212,
+    "codeLen": 918,
+    "submittedAt": "1년 전"
+  }
+}

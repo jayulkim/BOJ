@@ -1,0 +1,21 @@
+{
+  "problemId": 32291,
+  "title": "$x$와 $x+1$의 차이",
+  "tier": 10,
+  "tags": [
+    "math",
+    "number_theory",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 236,
+  "averageTries": 2.233099937438965,
+  "latestSubmission": {
+    "id": 85377075,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 12,
+    "codeLen": 536,
+    "submittedAt": "1년 전"
+  }
+}

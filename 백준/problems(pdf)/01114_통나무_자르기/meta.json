@@ -1,0 +1,21 @@
+{
+  "problemId": 1114,
+  "title": "통나무 자르기",
+  "tier": 16,
+  "tags": [
+    "greedy",
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 1252,
+  "averageTries": 3.9760000705718994,
+  "latestSubmission": {
+    "id": 92782166,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2408,
+    "timeMs": 4,
+    "codeLen": 2349,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 4395,
+  "title": "Steps",
+  "tier": 11,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 366,
+  "averageTries": 1.8306000232696533,
+  "latestSubmission": {
+    "id": 84881277,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 32,
+    "codeLen": 1327,
+    "submittedAt": "1년 전"
+  }
+}

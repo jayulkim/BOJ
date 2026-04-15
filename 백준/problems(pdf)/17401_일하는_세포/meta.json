@@ -1,0 +1,20 @@
+{
+  "problemId": 17401,
+  "title": "일하는 세포",
+  "tier": 16,
+  "tags": [
+    "math",
+    "exponentiation_by_squaring"
+  ],
+  "acceptedUserCount": 894,
+  "averageTries": 2.025700092315674,
+  "latestSubmission": {
+    "id": 91605009,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2424,
+    "timeMs": 12,
+    "codeLen": 1722,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 2744,
+  "title": "대소문자 바꾸기",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 31891,
+  "averageTries": 1.3317999839782715,
+  "latestSubmission": {
+    "id": 84879951,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 372,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 11053,
+  "title": "가장 긴 증가하는 부분 수열",
+  "tier": 9,
+  "tags": [
+    "dp",
+    "lis"
+  ],
+  "acceptedUserCount": 58605,
+  "averageTries": 2.5562000274658203,
+  "latestSubmission": {
+    "id": 86128671,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2152,
+    "timeMs": 0,
+    "codeLen": 633,
+    "submittedAt": "1년 전"
+  }
+}

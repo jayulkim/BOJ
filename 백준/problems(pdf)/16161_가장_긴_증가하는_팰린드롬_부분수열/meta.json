@@ -1,0 +1,20 @@
+{
+  "problemId": 16161,
+  "title": "가장 긴 증가하는 팰린드롬 부분수열",
+  "tier": 15,
+  "tags": [
+    "implementation",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 393,
+  "averageTries": 2.9491000175476074,
+  "latestSubmission": {
+    "id": 89875519,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5220,
+    "timeMs": 16,
+    "codeLen": 1762,
+    "submittedAt": "1년 전"
+  }
+}

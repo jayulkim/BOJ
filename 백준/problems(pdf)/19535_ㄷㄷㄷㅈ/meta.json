@@ -1,0 +1,21 @@
+{
+  "problemId": 19535,
+  "title": "ㄷㄷㄷㅈ",
+  "tier": 13,
+  "tags": [
+    "math",
+    "trees",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 1099,
+  "averageTries": 3.333899974822998,
+  "latestSubmission": {
+    "id": 100857458,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 23584,
+    "timeMs": 104,
+    "codeLen": 1177,
+    "submittedAt": "4달 전"
+  }
+}

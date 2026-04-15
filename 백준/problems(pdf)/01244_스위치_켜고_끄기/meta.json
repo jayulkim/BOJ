@@ -1,0 +1,20 @@
+{
+  "problemId": 1244,
+  "title": "스위치 켜고 끄기",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 17296,
+  "averageTries": 4.595799922943115,
+  "latestSubmission": {
+    "id": 84866137,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 978,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "problemId": 32242,
+  "title": "$Axy+Bx+Cy+D=0$",
+  "tier": 22,
+  "tags": [
+    "math",
+    "number_theory",
+    "case_work",
+    "primality_test",
+    "prime_factorization",
+    "pollard_rho",
+    "miller_rabin"
+  ],
+  "acceptedUserCount": 85,
+  "averageTries": 6.117599964141846,
+  "latestSubmission": {
+    "id": 84895040,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 16524,
+    "timeMs": 140,
+    "codeLen": 12387,
+    "submittedAt": "1년 전"
+  }
+}

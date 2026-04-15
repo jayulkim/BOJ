@@ -1,0 +1,23 @@
+{
+  "problemId": 2002,
+  "title": "추월",
+  "tier": 10,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "string",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 4566,
+  "averageTries": 2.1577000617980957,
+  "latestSubmission": {
+    "id": 88544054,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2168,
+    "timeMs": 48,
+    "codeLen": 654,
+    "submittedAt": "1년 전"
+  }
+}

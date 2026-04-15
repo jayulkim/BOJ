@@ -1,0 +1,19 @@
+{
+  "problemId": 25311,
+  "title": "UCPC에서 가장 쉬운 문제 번호는?",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 7552,
+  "averageTries": 1.0954999923706055,
+  "latestSubmission": {
+    "id": 84893684,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2092,
+    "timeMs": 0,
+    "codeLen": 413,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 32791,
+  "title": "Exact Change",
+  "tier": 7,
+  "tags": [
+    "greedy",
+    "string",
+    "bitmask"
+  ],
+  "acceptedUserCount": 33,
+  "averageTries": 1.4847999811172485,
+  "latestSubmission": {
+    "id": 86821416,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6056,
+    "timeMs": 16,
+    "codeLen": 543,
+    "submittedAt": "1년 전"
+  }
+}

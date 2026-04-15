@@ -1,0 +1,19 @@
+{
+  "problemId": 25184,
+  "title": "동가수열 구하기",
+  "tier": 7,
+  "tags": [
+    "constructive"
+  ],
+  "acceptedUserCount": 907,
+  "averageTries": 1.636199951171875,
+  "latestSubmission": {
+    "id": 86011509,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 16,
+    "codeLen": 627,
+    "submittedAt": "1년 전"
+  }
+}

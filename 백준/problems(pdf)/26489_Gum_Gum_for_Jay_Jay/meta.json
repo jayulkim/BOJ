@@ -1,0 +1,19 @@
+{
+  "problemId": 26489,
+  "title": "Gum Gum for Jay Jay",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 3501,
+  "averageTries": 1.6598000526428223,
+  "latestSubmission": {
+    "id": 84894035,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 108080,
+    "timeMs": 80,
+    "codeLen": 106,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "problemId": 30108,
+  "title": "교육적인 트리 문제",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "trees",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 253,
+  "averageTries": 1.679800033569336,
+  "latestSubmission": {
+    "id": 84894646,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4364,
+    "timeMs": 100,
+    "codeLen": 525,
+    "submittedAt": "1년 전"
+  }
+}

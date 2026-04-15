@@ -1,0 +1,21 @@
+{
+  "problemId": 20500,
+  "title": "Ezreal 여눈부터 가네 ㅈㅈ",
+  "tier": 11,
+  "tags": [
+    "math",
+    "dp",
+    "number_theory"
+  ],
+  "acceptedUserCount": 1966,
+  "averageTries": 1.3265999555587769,
+  "latestSubmission": {
+    "id": 91548121,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 0,
+    "codeLen": 436,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 16953,
+  "title": "A → B",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "greedy",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 26626,
+  "averageTries": 2.4595000743865967,
+  "latestSubmission": {
+    "id": 84892119,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6836,
+    "timeMs": 28,
+    "codeLen": 1345,
+    "submittedAt": "1년 전"
+  }
+}

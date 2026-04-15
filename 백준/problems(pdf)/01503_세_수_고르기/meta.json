@@ -1,0 +1,19 @@
+{
+  "problemId": 1503,
+  "title": "세 수 고르기",
+  "tier": 9,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 640,
+  "averageTries": 4.6280999183654785,
+  "latestSubmission": {
+    "id": 84867727,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 240,
+    "codeLen": 542,
+    "submittedAt": "1년 전"
+  }
+}

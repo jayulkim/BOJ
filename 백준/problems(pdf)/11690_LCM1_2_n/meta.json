@@ -1,0 +1,22 @@
+{
+  "problemId": 11690,
+  "title": "LCM(1, 2, ..., n)",
+  "tier": 13,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 502,
+  "averageTries": 3.199199914932251,
+  "latestSubmission": {
+    "id": 84886801,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 98768,
+    "timeMs": 1268,
+    "codeLen": 654,
+    "submittedAt": "1년 전"
+  }
+}

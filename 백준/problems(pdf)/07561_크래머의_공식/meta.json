@@ -1,0 +1,20 @@
+{
+  "problemId": 7561,
+  "title": "크래머의 공식",
+  "tier": 12,
+  "tags": [
+    "math",
+    "linear_algebra"
+  ],
+  "acceptedUserCount": 221,
+  "averageTries": 4.271500110626221,
+  "latestSubmission": {
+    "id": 84882450,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1785,
+    "submittedAt": "1년 전"
+  }
+}

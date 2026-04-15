@@ -1,0 +1,22 @@
+{
+  "problemId": 17255,
+  "title": "N으로 만들기",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "set",
+    "backtracking",
+    "tree_set"
+  ],
+  "acceptedUserCount": 794,
+  "averageTries": 1.9937000274658203,
+  "latestSubmission": {
+    "id": 93427169,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2168,
+    "timeMs": 0,
+    "codeLen": 1196,
+    "submittedAt": "11달 전"
+  }
+}

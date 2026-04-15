@@ -1,0 +1,19 @@
+{
+  "problemId": 21964,
+  "title": "선린인터넷고등학교 교가",
+  "tier": 2,
+  "tags": [
+    "string"
+  ],
+  "acceptedUserCount": 3999,
+  "averageTries": 1.3336000442504883,
+  "latestSubmission": {
+    "id": 94683965,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2392,
+    "timeMs": 0,
+    "codeLen": 464,
+    "submittedAt": "10달 전"
+  }
+}

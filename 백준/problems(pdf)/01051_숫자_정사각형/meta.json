@@ -1,0 +1,20 @@
+{
+  "problemId": 1051,
+  "title": "숫자 정사각형",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 12370,
+  "averageTries": 2.0525999069213867,
+  "latestSubmission": {
+    "id": 84865182,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 0,
+    "codeLen": 615,
+    "submittedAt": "1년 전"
+  }
+}

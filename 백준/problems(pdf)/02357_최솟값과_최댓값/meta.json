@@ -1,0 +1,20 @@
+{
+  "problemId": 2357,
+  "title": "최솟값과 최댓값",
+  "tier": 15,
+  "tags": [
+    "segtree",
+    "data_structures"
+  ],
+  "acceptedUserCount": 12238,
+  "averageTries": 1.8575999736785889,
+  "latestSubmission": {
+    "id": 86478364,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 72340,
+    "timeMs": 152,
+    "codeLen": 1667,
+    "submittedAt": "1년 전"
+  }
+}

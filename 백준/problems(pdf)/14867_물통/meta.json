@@ -1,0 +1,23 @@
+{
+  "problemId": 14867,
+  "title": "물통",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "data_structures",
+    "graph_traversal",
+    "set",
+    "bfs"
+  ],
+  "acceptedUserCount": 2035,
+  "averageTries": 2.295799970626831,
+  "latestSubmission": {
+    "id": 91341162,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 27108,
+    "timeMs": 452,
+    "codeLen": 1573,
+    "submittedAt": "1년 전"
+  }
+}

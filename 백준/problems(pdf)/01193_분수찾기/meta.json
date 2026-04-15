@@ -1,0 +1,20 @@
+{
+  "problemId": 1193,
+  "title": "분수찾기",
+  "tier": 6,
+  "tags": [
+    "math",
+    "implementation"
+  ],
+  "acceptedUserCount": 68668,
+  "averageTries": 1.910099983215332,
+  "latestSubmission": {
+    "id": 84865927,
+    "result": "맞았습니다!!",
+    "language": "Java 15",
+    "memoryKb": 16120,
+    "timeMs": 124,
+    "codeLen": 1305,
+    "submittedAt": "1년 전"
+  }
+}

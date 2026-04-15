@@ -1,0 +1,19 @@
+{
+  "problemId": 15963,
+  "title": "CASIO",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 11099,
+  "averageTries": 1.557800054550171,
+  "latestSubmission": {
+    "id": 84891586,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3068,
+    "timeMs": 0,
+    "codeLen": 511,
+    "submittedAt": "1년 전"
+  }
+}

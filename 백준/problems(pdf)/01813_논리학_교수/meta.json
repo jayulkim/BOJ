@@ -1,0 +1,19 @@
+{
+  "problemId": 1813,
+  "title": "논리학 교수",
+  "tier": 6,
+  "tags": [
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 1859,
+  "averageTries": 2.1538000106811523,
+  "latestSubmission": {
+    "id": 84868903,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 712,
+    "submittedAt": "1년 전"
+  }
+}

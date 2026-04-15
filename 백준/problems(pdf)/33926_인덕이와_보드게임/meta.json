@@ -1,0 +1,19 @@
+{
+  "problemId": 33926,
+  "title": "인덕이와 보드게임",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 104,
+  "averageTries": 1.509600043296814,
+  "latestSubmission": {
+    "id": 98446436,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 72688,
+    "timeMs": 264,
+    "codeLen": 2914,
+    "submittedAt": "7달 전"
+  }
+}

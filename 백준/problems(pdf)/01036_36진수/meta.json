@@ -1,0 +1,23 @@
+{
+  "problemId": 1036,
+  "title": "36진수",
+  "tier": 14,
+  "tags": [
+    "math",
+    "implementation",
+    "greedy",
+    "string",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 1752,
+  "averageTries": 3.7083001136779785,
+  "latestSubmission": {
+    "id": 100246315,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 122308,
+    "timeMs": 104,
+    "codeLen": 1056,
+    "submittedAt": "5달 전"
+  }
+}

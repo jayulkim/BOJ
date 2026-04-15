@@ -1,0 +1,19 @@
+{
+  "problemId": 1799,
+  "title": "비숍",
+  "tier": 16,
+  "tags": [
+    "backtracking"
+  ],
+  "acceptedUserCount": 6969,
+  "averageTries": 3.8982999324798584,
+  "latestSubmission": {
+    "id": 91253497,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 188,
+    "codeLen": 1508,
+    "submittedAt": "1년 전"
+  }
+}

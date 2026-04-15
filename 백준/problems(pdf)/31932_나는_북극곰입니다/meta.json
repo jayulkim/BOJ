@@ -1,0 +1,23 @@
+{
+  "problemId": 31932,
+  "title": "나는 북극곰입니다",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "binary_search",
+    "shortest_path",
+    "dijkstra",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 129,
+  "averageTries": 3.015500068664551,
+  "latestSubmission": {
+    "id": 84894965,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 17568,
+    "timeMs": 340,
+    "codeLen": 1451,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 14606,
+  "title": "피자 (Small)",
+  "tier": 6,
+  "tags": [
+    "math",
+    "dp"
+  ],
+  "acceptedUserCount": 2505,
+  "averageTries": 1.195199966430664,
+  "latestSubmission": {
+    "id": 84889989,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 865,
+    "submittedAt": "1년 전"
+  }
+}

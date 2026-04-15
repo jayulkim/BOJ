@@ -1,0 +1,20 @@
+{
+  "problemId": 2884,
+  "title": "알람 시계",
+  "tier": 3,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 195411,
+  "averageTries": 2.6071999073028564,
+  "latestSubmission": {
+    "id": 84880449,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 31120,
+    "timeMs": 36,
+    "codeLen": 299,
+    "submittedAt": "1년 전"
+  }
+}

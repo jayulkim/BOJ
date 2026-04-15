@@ -1,0 +1,19 @@
+{
+  "problemId": 6713,
+  "title": "The Mailbox Manufacturers Problem",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 18,
+  "averageTries": 1.2777999639511108,
+  "latestSubmission": {
+    "id": 90967413,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4004,
+    "timeMs": 28,
+    "codeLen": 839,
+    "submittedAt": "1년 전"
+  }
+}

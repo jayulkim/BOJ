@@ -1,0 +1,20 @@
+{
+  "problemId": 5586,
+  "title": "JOI와 IOI",
+  "tier": 4,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 4437,
+  "averageTries": 1.2653000354766846,
+  "latestSubmission": {
+    "id": 84881868,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 948,
+    "submittedAt": "1년 전"
+  }
+}

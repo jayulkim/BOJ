@@ -1,0 +1,20 @@
+{
+  "problemId": 14575,
+  "title": "뒤풀이",
+  "tier": 10,
+  "tags": [
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 432,
+  "averageTries": 3.5439999103546143,
+  "latestSubmission": {
+    "id": 91908764,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2156,
+    "timeMs": 0,
+    "codeLen": 1030,
+    "submittedAt": "1년 전"
+  }
+}

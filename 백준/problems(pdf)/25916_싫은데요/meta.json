@@ -1,0 +1,19 @@
+{
+  "problemId": 25916,
+  "title": "싫은데요",
+  "tier": 10,
+  "tags": [
+    "two_pointer"
+  ],
+  "acceptedUserCount": 842,
+  "averageTries": 2.5237998962402344,
+  "latestSubmission": {
+    "id": 84893803,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8928,
+    "timeMs": 100,
+    "codeLen": 913,
+    "submittedAt": "1년 전"
+  }
+}

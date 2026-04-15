@@ -1,0 +1,23 @@
+{
+  "problemId": 2617,
+  "title": "구슬 찾기",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "shortest_path",
+    "dfs",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 3581,
+  "averageTries": 2.7523000240325928,
+  "latestSubmission": {
+    "id": 84879575,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2100,
+    "timeMs": 0,
+    "codeLen": 1435,
+    "submittedAt": "1년 전"
+  }
+}

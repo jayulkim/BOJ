@@ -1,0 +1,19 @@
+{
+  "problemId": 15680,
+  "title": "연세대학교",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 15212,
+  "averageTries": 1.3128000497817993,
+  "latestSubmission": {
+    "id": 84890966,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 261,
+    "submittedAt": "1년 전"
+  }
+}

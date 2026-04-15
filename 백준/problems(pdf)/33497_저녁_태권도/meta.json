@@ -1,0 +1,20 @@
+{
+  "problemId": 33497,
+  "title": "저녁 태권도",
+  "tier": 10,
+  "tags": [
+    "implementation",
+    "greedy"
+  ],
+  "acceptedUserCount": 175,
+  "averageTries": 2.2513999938964844,
+  "latestSubmission": {
+    "id": 90194022,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 0,
+    "codeLen": 1752,
+    "submittedAt": "1년 전"
+  }
+}

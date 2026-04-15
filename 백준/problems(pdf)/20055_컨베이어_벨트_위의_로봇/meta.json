@@ -1,0 +1,20 @@
+{
+  "problemId": 20055,
+  "title": "컨베이어 벨트 위의 로봇",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 11435,
+  "averageTries": 1.6812000274658203,
+  "latestSubmission": {
+    "id": 100368632,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2224,
+    "timeMs": 456,
+    "codeLen": 2531,
+    "submittedAt": "4달 전"
+  }
+}

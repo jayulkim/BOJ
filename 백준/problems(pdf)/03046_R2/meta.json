@@ -1,0 +1,21 @@
+{
+  "problemId": 3046,
+  "title": "R2",
+  "tier": 2,
+  "tags": [
+    "implementation",
+    "arithmetic",
+    "math"
+  ],
+  "acceptedUserCount": 40388,
+  "averageTries": 1.3207999467849731,
+  "latestSubmission": {
+    "id": 84880769,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 191,
+    "submittedAt": "1년 전"
+  }
+}

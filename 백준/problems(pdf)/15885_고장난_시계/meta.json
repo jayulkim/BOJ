@@ -1,0 +1,19 @@
+{
+  "problemId": 15885,
+  "title": "고장난 시계",
+  "tier": 6,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 360,
+  "averageTries": 2.7111001014709473,
+  "latestSubmission": {
+    "id": 97279330,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 374,
+    "submittedAt": "8달 전"
+  }
+}

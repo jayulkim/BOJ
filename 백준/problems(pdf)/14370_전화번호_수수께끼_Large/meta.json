@@ -1,0 +1,20 @@
+{
+  "problemId": 14370,
+  "title": "전화번호 수수께끼 (Large)",
+  "tier": 12,
+  "tags": [
+    "string",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 441,
+  "averageTries": 1.7143000364303589,
+  "latestSubmission": {
+    "id": 88168296,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2040,
+    "timeMs": 0,
+    "codeLen": 1712,
+    "submittedAt": "1년 전"
+  }
+}

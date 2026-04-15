@@ -1,0 +1,21 @@
+{
+  "problemId": 32178,
+  "title": "용액 2",
+  "tier": 14,
+  "tags": [
+    "greedy",
+    "sorting",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 126,
+  "averageTries": 4.373000144958496,
+  "latestSubmission": {
+    "id": 84895018,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 25468,
+    "timeMs": 248,
+    "codeLen": 773,
+    "submittedAt": "1년 전"
+  }
+}

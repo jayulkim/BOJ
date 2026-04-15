@@ -1,0 +1,21 @@
+{
+  "problemId": 17396,
+  "title": "백도어",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 2687,
+  "averageTries": 4.0055999755859375,
+  "latestSubmission": {
+    "id": 84892443,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 15836,
+    "timeMs": 356,
+    "codeLen": 1151,
+    "submittedAt": "1년 전"
+  }
+}

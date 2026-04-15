@@ -1,0 +1,21 @@
+{
+  "problemId": 13241,
+  "title": "최소공배수",
+  "tier": 6,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 19380,
+  "averageTries": 1.5805000066757202,
+  "latestSubmission": {
+    "id": 84888484,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1841,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 2482,
+  "title": "색상환",
+  "tier": 13,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 4881,
+  "averageTries": 2.727099895477295,
+  "latestSubmission": {
+    "id": 101881966,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 43812,
+    "timeMs": 88,
+    "codeLen": 1384,
+    "submittedAt": "3달 전"
+  }
+}

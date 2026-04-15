@@ -1,0 +1,21 @@
+{
+  "problemId": 5565,
+  "title": "영수증",
+  "tier": 2,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 15982,
+  "averageTries": 1.142899990081787,
+  "latestSubmission": {
+    "id": 84881796,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 284,
+    "submittedAt": "1년 전"
+  }
+}

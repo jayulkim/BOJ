@@ -1,0 +1,23 @@
+{
+  "problemId": 2152,
+  "title": "여행 계획 세우기",
+  "tier": 19,
+  "tags": [
+    "dp",
+    "graphs",
+    "dag",
+    "topological_sorting",
+    "scc"
+  ],
+  "acceptedUserCount": 853,
+  "averageTries": 4.634200096130371,
+  "latestSubmission": {
+    "id": 92953113,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5584,
+    "timeMs": 40,
+    "codeLen": 2607,
+    "submittedAt": "1년 전"
+  }
+}

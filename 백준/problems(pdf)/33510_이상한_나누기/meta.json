@@ -1,0 +1,21 @@
+{
+  "problemId": 33510,
+  "title": "이상한 나누기",
+  "tier": 9,
+  "tags": [
+    "math",
+    "string",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 232,
+  "averageTries": 3.0776000022888184,
+  "latestSubmission": {
+    "id": 90655998,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 26708,
+    "timeMs": 112,
+    "codeLen": 850,
+    "submittedAt": "1년 전"
+  }
+}

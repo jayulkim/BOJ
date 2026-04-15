@@ -1,0 +1,20 @@
+{
+  "problemId": 25943,
+  "title": "양팔저울",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "greedy"
+  ],
+  "acceptedUserCount": 876,
+  "averageTries": 1.4919999837875366,
+  "latestSubmission": {
+    "id": 84893851,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 484,
+    "submittedAt": "1년 전"
+  }
+}

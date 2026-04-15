@@ -1,0 +1,19 @@
+{
+  "problemId": 11509,
+  "title": "풍선 맞추기",
+  "tier": 11,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 2491,
+  "averageTries": 2.609800100326538,
+  "latestSubmission": {
+    "id": 85896897,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14440,
+    "timeMs": 204,
+    "codeLen": 524,
+    "submittedAt": "1년 전"
+  }
+}

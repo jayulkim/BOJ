@@ -1,0 +1,20 @@
+{
+  "problemId": 8979,
+  "title": "올림픽",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "sorting"
+  ],
+  "acceptedUserCount": 12001,
+  "averageTries": 2.4481000900268555,
+  "latestSubmission": {
+    "id": 84882827,
+    "result": "100점",
+    "language": "C99",
+    "memoryKb": 1312,
+    "timeMs": 0,
+    "codeLen": 1122,
+    "submittedAt": "1년 전"
+  }
+}

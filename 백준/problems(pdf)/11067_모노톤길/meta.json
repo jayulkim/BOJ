@@ -1,0 +1,22 @@
+{
+  "problemId": 11067,
+  "title": "모노톤길",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "sorting",
+    "set"
+  ],
+  "acceptedUserCount": 915,
+  "averageTries": 2.9727001190185547,
+  "latestSubmission": {
+    "id": 85574423,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 12856,
+    "timeMs": 4136,
+    "codeLen": 1518,
+    "submittedAt": "1년 전"
+  }
+}

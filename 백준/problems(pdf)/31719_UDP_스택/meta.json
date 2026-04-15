@@ -1,0 +1,24 @@
+{
+  "problemId": 31719,
+  "title": "UDP 스택",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "greedy",
+    "simulation",
+    "stack",
+    "queue"
+  ],
+  "acceptedUserCount": 157,
+  "averageTries": 3.273900032043457,
+  "latestSubmission": {
+    "id": 84894859,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 7580,
+    "timeMs": 132,
+    "codeLen": 3156,
+    "submittedAt": "1년 전"
+  }
+}

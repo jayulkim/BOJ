@@ -1,0 +1,21 @@
+{
+  "problemId": 25341,
+  "title": "인공 신경망",
+  "tier": 13,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 228,
+  "averageTries": 3.820199966430664,
+  "latestSubmission": {
+    "id": 104339148,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 66376,
+    "timeMs": 732,
+    "codeLen": 1389,
+    "submittedAt": "20일 전"
+  }
+}

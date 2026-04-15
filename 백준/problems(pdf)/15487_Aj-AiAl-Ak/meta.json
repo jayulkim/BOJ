@@ -1,0 +1,19 @@
+{
+  "problemId": 15487,
+  "title": "A[j]-A[i]+A[l]-A[k]",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 229,
+  "averageTries": 1.8428000211715698,
+  "latestSubmission": {
+    "id": 87599980,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 45688,
+    "timeMs": 112,
+    "codeLen": 975,
+    "submittedAt": "1년 전"
+  }
+}

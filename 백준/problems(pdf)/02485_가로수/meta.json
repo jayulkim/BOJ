@@ -1,0 +1,21 @@
+{
+  "problemId": 2485,
+  "title": "가로수",
+  "tier": 7,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 14489,
+  "averageTries": 2.2565999031066895,
+  "latestSubmission": {
+    "id": 84879148,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 17532,
+    "timeMs": 284,
+    "codeLen": 2492,
+    "submittedAt": "1년 전"
+  }
+}

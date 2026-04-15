@@ -1,0 +1,19 @@
+{
+  "problemId": 2579,
+  "title": "계단 오르기",
+  "tier": 8,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 65109,
+  "averageTries": 2.835400104522705,
+  "latestSubmission": {
+    "id": 84879469,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 518,
+    "submittedAt": "1년 전"
+  }
+}

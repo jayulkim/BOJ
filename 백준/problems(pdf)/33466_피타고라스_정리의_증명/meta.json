@@ -1,0 +1,20 @@
+{
+  "problemId": 33466,
+  "title": "피타고라스 정리의 증명",
+  "tier": 11,
+  "tags": [
+    "math",
+    "number_theory"
+  ],
+  "acceptedUserCount": 184,
+  "averageTries": 2.44569993019104,
+  "latestSubmission": {
+    "id": 90332824,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 344,
+    "codeLen": 443,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 1275,
+  "title": "커피숍2",
+  "tier": 15,
+  "tags": [
+    "segtree",
+    "data_structures"
+  ],
+  "acceptedUserCount": 6228,
+  "averageTries": 3.105799913406372,
+  "latestSubmission": {
+    "id": 87326838,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5932,
+    "timeMs": 108,
+    "codeLen": 1432,
+    "submittedAt": "1년 전"
+  }
+}

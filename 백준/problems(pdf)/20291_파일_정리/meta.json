@@ -1,0 +1,25 @@
+{
+  "problemId": 20291,
+  "title": "파일 정리",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "string",
+    "sorting",
+    "set",
+    "hash_set",
+    "parsing",
+    "tree_set"
+  ],
+  "acceptedUserCount": 6836,
+  "averageTries": 1.4301999807357788,
+  "latestSubmission": {
+    "id": 84892954,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 31384,
+    "timeMs": 120,
+    "codeLen": 1215,
+    "submittedAt": "1년 전"
+  }
+}

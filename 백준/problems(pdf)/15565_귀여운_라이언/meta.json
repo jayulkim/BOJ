@@ -1,0 +1,20 @@
+{
+  "problemId": 15565,
+  "title": "귀여운 라이언",
+  "tier": 10,
+  "tags": [
+    "two_pointer",
+    "sliding_window"
+  ],
+  "acceptedUserCount": 2976,
+  "averageTries": 2.533900022506714,
+  "latestSubmission": {
+    "id": 84890619,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8928,
+    "timeMs": 84,
+    "codeLen": 734,
+    "submittedAt": "1년 전"
+  }
+}

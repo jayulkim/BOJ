@@ -1,0 +1,23 @@
+{
+  "problemId": 27964,
+  "title": "콰트로치즈피자",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "string",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 1720,
+  "averageTries": 1.7389999628067017,
+  "latestSubmission": {
+    "id": 84894308,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 762,
+    "submittedAt": "1년 전"
+  }
+}

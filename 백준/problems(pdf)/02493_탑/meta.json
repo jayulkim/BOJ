@@ -1,0 +1,20 @@
+{
+  "problemId": 2493,
+  "title": "탑",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 25234,
+  "averageTries": 2.875999927520752,
+  "latestSubmission": {
+    "id": 84879158,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8928,
+    "timeMs": 120,
+    "codeLen": 1275,
+    "submittedAt": "1년 전"
+  }
+}

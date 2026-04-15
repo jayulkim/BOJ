@@ -1,0 +1,21 @@
+{
+  "problemId": 2146,
+  "title": "다리 만들기",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 13594,
+  "averageTries": 2.7764999866485596,
+  "latestSubmission": {
+    "id": 88978475,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3252,
+    "timeMs": 300,
+    "codeLen": 2193,
+    "submittedAt": "1년 전"
+  }
+}

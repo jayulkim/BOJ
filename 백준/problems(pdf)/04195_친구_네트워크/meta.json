@@ -1,0 +1,22 @@
+{
+  "problemId": 4195,
+  "title": "친구 네트워크",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "set",
+    "hash_set",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 11558,
+  "averageTries": 3.440000057220459,
+  "latestSubmission": {
+    "id": 86899122,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 29100,
+    "timeMs": 396,
+    "codeLen": 1231,
+    "submittedAt": "1년 전"
+  }
+}

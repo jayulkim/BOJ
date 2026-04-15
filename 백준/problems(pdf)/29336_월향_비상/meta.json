@@ -1,0 +1,20 @@
+{
+  "problemId": 29336,
+  "title": "월향, 비상",
+  "tier": 9,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 225,
+  "averageTries": 2.475600004196167,
+  "latestSubmission": {
+    "id": 84894491,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6716,
+    "timeMs": 304,
+    "codeLen": 742,
+    "submittedAt": "1년 전"
+  }
+}

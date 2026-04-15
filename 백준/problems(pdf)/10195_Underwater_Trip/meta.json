@@ -1,0 +1,20 @@
+{
+  "problemId": 10195,
+  "title": "Underwater Trip",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 23,
+  "averageTries": 2.217400074005127,
+  "latestSubmission": {
+    "id": 87375237,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 0,
+    "codeLen": 3192,
+    "submittedAt": "1년 전"
+  }
+}

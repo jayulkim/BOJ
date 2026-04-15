@@ -1,0 +1,22 @@
+{
+  "problemId": 1379,
+  "title": "강의실 2",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 875,
+  "averageTries": 2.515399932861328,
+  "latestSubmission": {
+    "id": 84867201,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5808,
+    "timeMs": 96,
+    "codeLen": 2331,
+    "submittedAt": "1년 전"
+  }
+}

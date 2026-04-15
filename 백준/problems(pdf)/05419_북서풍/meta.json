@@ -1,0 +1,22 @@
+{
+  "problemId": 5419,
+  "title": "북서풍",
+  "tier": 18,
+  "tags": [
+    "data_structures",
+    "segtree",
+    "sweeping",
+    "coordinate_compression"
+  ],
+  "acceptedUserCount": 2260,
+  "averageTries": 2.793800115585327,
+  "latestSubmission": {
+    "id": 100535375,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 12324,
+    "timeMs": 896,
+    "codeLen": 2473,
+    "submittedAt": "4달 전"
+  }
+}

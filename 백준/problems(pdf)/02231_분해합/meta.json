@@ -1,0 +1,19 @@
+{
+  "problemId": 2231,
+  "title": "분해합",
+  "tier": 4,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 77932,
+  "averageTries": 2.1858999729156494,
+  "latestSubmission": {
+    "id": 84878180,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 8,
+    "codeLen": 565,
+    "submittedAt": "1년 전"
+  }
+}

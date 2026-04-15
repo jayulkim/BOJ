@@ -1,0 +1,21 @@
+{
+  "problemId": 2108,
+  "title": "통계학",
+  "tier": 9,
+  "tags": [
+    "math",
+    "implementation",
+    "sorting"
+  ],
+  "acceptedUserCount": 44324,
+  "averageTries": 3.504199981689453,
+  "latestSubmission": {
+    "id": 84877735,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 12876,
+    "timeMs": 128,
+    "codeLen": 2711,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 32765,
+  "title": "연봉 998244353원 주세요",
+  "tier": 16,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory"
+  ],
+  "acceptedUserCount": 103,
+  "averageTries": 2.398099899291992,
+  "latestSubmission": {
+    "id": 87073226,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2804,
+    "timeMs": 28,
+    "codeLen": 593,
+    "submittedAt": "1년 전"
+  }
+}

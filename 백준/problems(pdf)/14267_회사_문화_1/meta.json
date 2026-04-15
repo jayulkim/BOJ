@@ -1,0 +1,24 @@
+{
+  "problemId": 14267,
+  "title": "회사 문화 1",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "dfs",
+    "dp_tree"
+  ],
+  "acceptedUserCount": 4223,
+  "averageTries": 2.672300100326538,
+  "latestSubmission": {
+    "id": 103337510,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 8384,
+    "timeMs": 32,
+    "codeLen": 1290,
+    "submittedAt": "1달 전"
+  }
+}

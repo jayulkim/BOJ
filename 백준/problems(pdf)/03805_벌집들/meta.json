@@ -1,0 +1,21 @@
+{
+  "problemId": 3805,
+  "title": "벌집들",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 41,
+  "averageTries": 3.1951000690460205,
+  "latestSubmission": {
+    "id": 104837731,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2732,
+    "timeMs": 728,
+    "codeLen": 1158,
+    "submittedAt": "7일 전"
+  }
+}

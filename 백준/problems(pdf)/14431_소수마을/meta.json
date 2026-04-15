@@ -1,0 +1,25 @@
+{
+  "problemId": 14431,
+  "title": "소수마을",
+  "tier": 13,
+  "tags": [
+    "math",
+    "graphs",
+    "number_theory",
+    "shortest_path",
+    "dijkstra",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 428,
+  "averageTries": 3.109800100326538,
+  "latestSubmission": {
+    "id": 84889571,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 27348,
+    "timeMs": 76,
+    "codeLen": 1689,
+    "submittedAt": "1년 전"
+  }
+}

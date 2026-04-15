@@ -1,0 +1,22 @@
+{
+  "problemId": 1759,
+  "title": "암호 만들기",
+  "tier": 11,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "combinatorics",
+    "backtracking"
+  ],
+  "acceptedUserCount": 32112,
+  "averageTries": 2.192699909210205,
+  "latestSubmission": {
+    "id": 84868675,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 858,
+    "submittedAt": "1년 전"
+  }
+}

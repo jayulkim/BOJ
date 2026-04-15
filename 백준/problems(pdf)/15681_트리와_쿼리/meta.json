@@ -1,0 +1,24 @@
+{
+  "problemId": 15681,
+  "title": "트리와 쿼리",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "dfs",
+    "dp_tree"
+  ],
+  "acceptedUserCount": 9640,
+  "averageTries": 2.167799949645996,
+  "latestSubmission": {
+    "id": 86152553,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 12972,
+    "timeMs": 60,
+    "codeLen": 680,
+    "submittedAt": "1년 전"
+  }
+}

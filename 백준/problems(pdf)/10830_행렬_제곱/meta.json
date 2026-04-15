@@ -1,0 +1,22 @@
+{
+  "problemId": 10830,
+  "title": "행렬 제곱",
+  "tier": 12,
+  "tags": [
+    "math",
+    "divide_and_conquer",
+    "exponentiation_by_squaring",
+    "linear_algebra"
+  ],
+  "acceptedUserCount": 15818,
+  "averageTries": 2.809799909591675,
+  "latestSubmission": {
+    "id": 105034550,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 20302,
+    "submittedAt": "1일 전"
+  }
+}

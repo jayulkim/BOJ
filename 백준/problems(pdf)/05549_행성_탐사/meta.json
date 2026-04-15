@@ -1,0 +1,19 @@
+{
+  "problemId": 5549,
+  "title": "행성 탐사",
+  "tier": 11,
+  "tags": [
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 1327,
+  "averageTries": 1.8906999826431274,
+  "latestSubmission": {
+    "id": 84881753,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 32492,
+    "timeMs": 128,
+    "codeLen": 1676,
+    "submittedAt": "1년 전"
+  }
+}

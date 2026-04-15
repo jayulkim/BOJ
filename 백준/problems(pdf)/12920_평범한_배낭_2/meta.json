@@ -1,0 +1,20 @@
+{
+  "problemId": 12920,
+  "title": "평범한 배낭 2",
+  "tier": 17,
+  "tags": [
+    "dp",
+    "knapsack"
+  ],
+  "acceptedUserCount": 1942,
+  "averageTries": 3.772900104522705,
+  "latestSubmission": {
+    "id": 84888177,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 158500,
+    "timeMs": 100,
+    "codeLen": 1068,
+    "submittedAt": "1년 전"
+  }
+}

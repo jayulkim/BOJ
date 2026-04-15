@@ -1,0 +1,20 @@
+{
+  "problemId": 3977,
+  "title": "축구 전술",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "scc"
+  ],
+  "acceptedUserCount": 1724,
+  "averageTries": 2.770900011062622,
+  "latestSubmission": {
+    "id": 92296080,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 12640,
+    "timeMs": 488,
+    "codeLen": 3020,
+    "submittedAt": "1년 전"
+  }
+}

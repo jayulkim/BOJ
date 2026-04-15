@@ -1,0 +1,20 @@
+{
+  "problemId": 4779,
+  "title": "칸토어 집합",
+  "tier": 8,
+  "tags": [
+    "divide_and_conquer",
+    "recursion"
+  ],
+  "acceptedUserCount": 12267,
+  "averageTries": 2.152400016784668,
+  "latestSubmission": {
+    "id": 84881374,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2208,
+    "timeMs": 24,
+    "codeLen": 332,
+    "submittedAt": "1년 전"
+  }
+}

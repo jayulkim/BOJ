@@ -1,0 +1,19 @@
+{
+  "problemId": 10844,
+  "title": "쉬운 계단 수",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 43460,
+  "averageTries": 3.1545000076293945,
+  "latestSubmission": {
+    "id": 84884767,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1124,
+    "timeMs": 0,
+    "codeLen": 636,
+    "submittedAt": "1년 전"
+  }
+}

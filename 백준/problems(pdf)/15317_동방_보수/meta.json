@@ -1,0 +1,22 @@
+{
+  "problemId": 15317,
+  "title": "동방 보수",
+  "tier": 15,
+  "tags": [
+    "greedy",
+    "sorting",
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 168,
+  "averageTries": 2.690500020980835,
+  "latestSubmission": {
+    "id": 99497766,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 4264,
+    "timeMs": 24,
+    "codeLen": 1272,
+    "submittedAt": "5달 전"
+  }
+}

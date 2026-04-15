@@ -1,0 +1,20 @@
+{
+  "problemId": 25289,
+  "title": "가장 긴 등차 부분 수열",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 271,
+  "averageTries": 2.468600034713745,
+  "latestSubmission": {
+    "id": 84893661,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2412,
+    "timeMs": 84,
+    "codeLen": 506,
+    "submittedAt": "1년 전"
+  }
+}

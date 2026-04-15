@@ -1,0 +1,25 @@
+{
+  "problemId": 17472,
+  "title": "다리 만들기 2",
+  "tier": 15,
+  "tags": [
+    "implementation",
+    "graphs",
+    "bruteforcing",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "mst"
+  ],
+  "acceptedUserCount": 9272,
+  "averageTries": 2.8250999450683594,
+  "latestSubmission": {
+    "id": 89577687,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 0,
+    "codeLen": 5794,
+    "submittedAt": "1년 전"
+  }
+}

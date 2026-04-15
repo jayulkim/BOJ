@@ -1,0 +1,22 @@
+{
+  "problemId": 10824,
+  "title": "네 수",
+  "tier": 3,
+  "tags": [
+    "math",
+    "implementation",
+    "string",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 14552,
+  "averageTries": 2.138700008392334,
+  "latestSubmission": {
+    "id": 84884576,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 874,
+    "submittedAt": "1년 전"
+  }
+}

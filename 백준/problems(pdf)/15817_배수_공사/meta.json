@@ -1,0 +1,20 @@
+{
+  "problemId": 15817,
+  "title": "배수 공사",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "knapsack"
+  ],
+  "acceptedUserCount": 462,
+  "averageTries": 2.3766000270843506,
+  "latestSubmission": {
+    "id": 102531767,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2280,
+    "timeMs": 44,
+    "codeLen": 1015,
+    "submittedAt": "2달 전"
+  }
+}

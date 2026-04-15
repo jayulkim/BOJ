@@ -1,0 +1,20 @@
+{
+  "problemId": 12781,
+  "title": "PIZZA ALVOLOC",
+  "tier": 13,
+  "tags": [
+    "geometry",
+    "line_intersection"
+  ],
+  "acceptedUserCount": 1390,
+  "averageTries": 2.7423999309539795,
+  "latestSubmission": {
+    "id": 84887966,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 999,
+    "submittedAt": "1년 전"
+  }
+}

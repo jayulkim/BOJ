@@ -1,0 +1,21 @@
+{
+  "problemId": 11179,
+  "title": "2진수 뒤집기",
+  "tier": 5,
+  "tags": [
+    "math",
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 2424,
+  "averageTries": 1.2045999765396118,
+  "latestSubmission": {
+    "id": 101275657,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 813,
+    "submittedAt": "3달 전"
+  }
+}

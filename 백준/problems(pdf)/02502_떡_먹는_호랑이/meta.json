@@ -1,0 +1,21 @@
+{
+  "problemId": 2502,
+  "title": "떡 먹는 호랑이",
+  "tier": 10,
+  "tags": [
+    "math",
+    "dp",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 5518,
+  "averageTries": 1.8779000043869019,
+  "latestSubmission": {
+    "id": 84879182,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 603,
+    "submittedAt": "1년 전"
+  }
+}

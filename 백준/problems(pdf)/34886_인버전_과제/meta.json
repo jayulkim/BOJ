@@ -1,0 +1,19 @@
+{
+  "problemId": 34886,
+  "title": "인버전 과제",
+  "tier": 13,
+  "tags": [
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 37,
+  "averageTries": 1.86489999294281,
+  "latestSubmission": {
+    "id": 101051500,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 13808,
+    "timeMs": 8,
+    "codeLen": 1271,
+    "submittedAt": "4달 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 1706,
+  "title": "크로스워드",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "string",
+    "sorting",
+    "parsing"
+  ],
+  "acceptedUserCount": 1278,
+  "averageTries": 1.909999966621399,
+  "latestSubmission": {
+    "id": 85751142,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 0,
+    "codeLen": 1343,
+    "submittedAt": "1년 전"
+  }
+}

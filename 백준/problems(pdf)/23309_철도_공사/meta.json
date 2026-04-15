@@ -1,0 +1,21 @@
+{
+  "problemId": 23309,
+  "title": "철도 공사",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "linked_list"
+  ],
+  "acceptedUserCount": 872,
+  "averageTries": 4.3566999435424805,
+  "latestSubmission": {
+    "id": 84893291,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 42032,
+    "timeMs": 1324,
+    "codeLen": 2161,
+    "submittedAt": "1년 전"
+  }
+}

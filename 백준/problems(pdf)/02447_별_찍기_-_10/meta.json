@@ -1,0 +1,20 @@
+{
+  "problemId": 2447,
+  "title": "별 찍기 - 10",
+  "tier": 11,
+  "tags": [
+    "divide_and_conquer",
+    "recursion"
+  ],
+  "acceptedUserCount": 38707,
+  "averageTries": 1.7487000226974487,
+  "latestSubmission": {
+    "id": 88357003,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6752,
+    "timeMs": 100,
+    "codeLen": 1133,
+    "submittedAt": "1년 전"
+  }
+}

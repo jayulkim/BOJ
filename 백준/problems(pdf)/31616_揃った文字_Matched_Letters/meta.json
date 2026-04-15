@@ -1,0 +1,20 @@
+{
+  "problemId": 31616,
+  "title": "揃った文字 (Matched Letters)",
+  "tier": 2,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 752,
+  "averageTries": 1.1742000579833984,
+  "latestSubmission": {
+    "id": 96158202,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 532,
+    "submittedAt": "9달 전"
+  }
+}

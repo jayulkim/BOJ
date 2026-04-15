@@ -1,0 +1,21 @@
+{
+  "problemId": 7386,
+  "title": "Ancient Cipher",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "string",
+    "sorting"
+  ],
+  "acceptedUserCount": 66,
+  "averageTries": 1.3939000368118286,
+  "latestSubmission": {
+    "id": 84882391,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 557,
+    "submittedAt": "1년 전"
+  }
+}

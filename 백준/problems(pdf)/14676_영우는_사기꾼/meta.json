@@ -1,0 +1,21 @@
+{
+  "problemId": 14676,
+  "title": "영우는 사기꾼?",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "graphs",
+    "dag"
+  ],
+  "acceptedUserCount": 756,
+  "averageTries": 3.1005001068115234,
+  "latestSubmission": {
+    "id": 93611401,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 26544,
+    "timeMs": 96,
+    "codeLen": 1453,
+    "submittedAt": "11달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 16158,
+  "title": "회식구호",
+  "tier": 13,
+  "tags": [
+    "math",
+    "sweeping"
+  ],
+  "acceptedUserCount": 76,
+  "averageTries": 2.2105000019073486,
+  "latestSubmission": {
+    "id": 104931320,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 14628,
+    "timeMs": 88,
+    "codeLen": 938,
+    "submittedAt": "4일 전"
+  }
+}

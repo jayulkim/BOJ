@@ -1,0 +1,21 @@
+{
+  "problemId": 25542,
+  "title": "약속 장소",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "string",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 281,
+  "averageTries": 3.327399969100952,
+  "latestSubmission": {
+    "id": 101106538,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 878,
+    "submittedAt": "3달 전"
+  }
+}

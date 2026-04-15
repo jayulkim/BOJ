@@ -1,0 +1,22 @@
+{
+  "problemId": 9363,
+  "title": "큰 나눗셈",
+  "tier": 13,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 132,
+  "averageTries": 3,
+  "latestSubmission": {
+    "id": 84883198,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8932,
+    "timeMs": 300,
+    "codeLen": 1795,
+    "submittedAt": "1년 전"
+  }
+}

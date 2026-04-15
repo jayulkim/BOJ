@@ -1,0 +1,23 @@
+{
+  "problemId": 25517,
+  "title": "머리 아픈 암산은 이제 그만!",
+  "tier": 17,
+  "tags": [
+    "math",
+    "number_theory",
+    "exponentiation_by_squaring",
+    "precomputation",
+    "modular_multiplicative_inverse"
+  ],
+  "acceptedUserCount": 117,
+  "averageTries": 2.290600061416626,
+  "latestSubmission": {
+    "id": 85552034,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 64600,
+    "timeMs": 1156,
+    "codeLen": 12025,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 2902,
+  "title": "KMP는 왜 KMP일까?",
+  "tier": 3,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 14672,
+  "averageTries": 1.2064000368118286,
+  "latestSubmission": {
+    "id": 91569740,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 544,
+    "submittedAt": "1년 전"
+  }
+}

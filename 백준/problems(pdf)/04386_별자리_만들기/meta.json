@@ -1,0 +1,20 @@
+{
+  "problemId": 4386,
+  "title": "별자리 만들기",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "mst"
+  ],
+  "acceptedUserCount": 10476,
+  "averageTries": 1.6791000366210938,
+  "latestSubmission": {
+    "id": 84881258,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2692,
+    "timeMs": 0,
+    "codeLen": 1376,
+    "submittedAt": "1년 전"
+  }
+}

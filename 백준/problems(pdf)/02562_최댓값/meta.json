@@ -1,0 +1,19 @@
+{
+  "problemId": 2562,
+  "title": "최댓값",
+  "tier": 3,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 162587,
+  "averageTries": 2.1844000816345215,
+  "latestSubmission": {
+    "id": 84879389,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 31120,
+    "timeMs": 32,
+    "codeLen": 98,
+    "submittedAt": "1년 전"
+  }
+}

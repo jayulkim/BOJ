@@ -1,0 +1,19 @@
+{
+  "problemId": 2567,
+  "title": "색종이 - 2",
+  "tier": 8,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 4920,
+  "averageTries": 2.2648000717163086,
+  "latestSubmission": {
+    "id": 97416267,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2156,
+    "timeMs": 0,
+    "codeLen": 1535,
+    "submittedAt": "8달 전"
+  }
+}

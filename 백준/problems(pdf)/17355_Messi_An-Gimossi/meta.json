@@ -1,0 +1,23 @@
+{
+  "problemId": 17355,
+  "title": "Messi An-Gimossi",
+  "tier": 14,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 146,
+  "averageTries": 3.191800117492676,
+  "latestSubmission": {
+    "id": 84892380,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 204240,
+    "timeMs": 868,
+    "codeLen": 3668,
+    "submittedAt": "1년 전"
+  }
+}

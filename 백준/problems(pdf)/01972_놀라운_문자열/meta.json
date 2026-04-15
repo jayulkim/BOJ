@@ -1,0 +1,23 @@
+{
+  "problemId": 1972,
+  "title": "놀라운 문자열",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "string",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 1588,
+  "averageTries": 1.621500015258789,
+  "latestSubmission": {
+    "id": 91821423,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 0,
+    "codeLen": 819,
+    "submittedAt": "1년 전"
+  }
+}

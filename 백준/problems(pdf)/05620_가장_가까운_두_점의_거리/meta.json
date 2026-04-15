@@ -1,0 +1,21 @@
+{
+  "problemId": 5620,
+  "title": "가장 가까운 두 점의 거리",
+  "tier": 19,
+  "tags": [
+    "geometry",
+    "sweeping",
+    "divide_and_conquer"
+  ],
+  "acceptedUserCount": 832,
+  "averageTries": 2.264400005340576,
+  "latestSubmission": {
+    "id": 93252598,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14440,
+    "timeMs": 268,
+    "codeLen": 2137,
+    "submittedAt": "11달 전"
+  }
+}

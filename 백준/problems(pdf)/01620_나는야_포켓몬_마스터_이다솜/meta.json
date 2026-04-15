@@ -1,0 +1,21 @@
+{
+  "problemId": 1620,
+  "title": "나는야 포켓몬 마스터 이다솜",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 46285,
+  "averageTries": 2.7307000160217285,
+  "latestSubmission": {
+    "id": 84868120,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 20860,
+    "timeMs": 132,
+    "codeLen": 513,
+    "submittedAt": "1년 전"
+  }
+}

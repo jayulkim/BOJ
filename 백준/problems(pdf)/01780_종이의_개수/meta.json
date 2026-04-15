@@ -1,0 +1,20 @@
+{
+  "problemId": 1780,
+  "title": "종이의 개수",
+  "tier": 9,
+  "tags": [
+    "divide_and_conquer",
+    "recursion"
+  ],
+  "acceptedUserCount": 26270,
+  "averageTries": 1.6339000463485718,
+  "latestSubmission": {
+    "id": 88324250,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 39868,
+    "timeMs": 368,
+    "codeLen": 1558,
+    "submittedAt": "1년 전"
+  }
+}

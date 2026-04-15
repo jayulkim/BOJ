@@ -1,0 +1,19 @@
+{
+  "problemId": 14722,
+  "title": "우유 도시",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 954,
+  "averageTries": 3.349100112915039,
+  "latestSubmission": {
+    "id": 93902540,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 77624,
+    "timeMs": 204,
+    "codeLen": 1179,
+    "submittedAt": "11달 전"
+  }
+}

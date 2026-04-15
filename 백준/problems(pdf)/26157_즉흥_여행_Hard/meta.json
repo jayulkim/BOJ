@@ -1,0 +1,22 @@
+{
+  "problemId": 26157,
+  "title": "즉흥 여행 (Hard)",
+  "tier": 18,
+  "tags": [
+    "graphs",
+    "dag",
+    "topological_sorting",
+    "scc"
+  ],
+  "acceptedUserCount": 181,
+  "averageTries": 3.0441999435424805,
+  "latestSubmission": {
+    "id": 92474280,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 43964,
+    "timeMs": 972,
+    "codeLen": 2848,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 1535,
+  "title": "안녕",
+  "tier": 9,
+  "tags": [
+    "dp",
+    "bruteforcing",
+    "knapsack"
+  ],
+  "acceptedUserCount": 6833,
+  "averageTries": 1.7265000343322754,
+  "latestSubmission": {
+    "id": 84867901,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 0,
+    "codeLen": 639,
+    "submittedAt": "1년 전"
+  }
+}

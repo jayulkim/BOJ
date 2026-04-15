@@ -1,0 +1,22 @@
+{
+  "problemId": 7501,
+  "title": "Key",
+  "tier": 21,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "miller_rabin"
+  ],
+  "acceptedUserCount": 378,
+  "averageTries": 3.3227999210357666,
+  "latestSubmission": {
+    "id": 84882423,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 36,
+    "codeLen": 1988,
+    "submittedAt": "1년 전"
+  }
+}

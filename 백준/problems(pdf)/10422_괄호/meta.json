@@ -1,0 +1,21 @@
+{
+  "problemId": 10422,
+  "title": "괄호",
+  "tier": 13,
+  "tags": [
+    "math",
+    "dp",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 2890,
+  "averageTries": 3.21589994430542,
+  "latestSubmission": {
+    "id": 103173441,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 100320,
+    "timeMs": 352,
+    "codeLen": 1602,
+    "submittedAt": "1달 전"
+  }
+}

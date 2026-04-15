@@ -1,0 +1,21 @@
+{
+  "problemId": 2851,
+  "title": "슈퍼 마리오",
+  "tier": 5,
+  "tags": [
+    "implementation",
+    "bruteforcing",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 11381,
+  "averageTries": 2.350800037384033,
+  "latestSubmission": {
+    "id": 84880378,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 797,
+    "submittedAt": "1년 전"
+  }
+}

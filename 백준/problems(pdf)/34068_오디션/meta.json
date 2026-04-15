@@ -1,0 +1,20 @@
+{
+  "problemId": 34068,
+  "title": "오디션",
+  "tier": 8,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 145,
+  "averageTries": 2.13100004196167,
+  "latestSubmission": {
+    "id": 96556869,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6788,
+    "timeMs": 60,
+    "codeLen": 844,
+    "submittedAt": "8달 전"
+  }
+}

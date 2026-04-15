@@ -1,0 +1,21 @@
+{
+  "problemId": 3258,
+  "title": "컴포트",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "bruteforcing",
+    "simulation"
+  ],
+  "acceptedUserCount": 331,
+  "averageTries": 2.776400089263916,
+  "latestSubmission": {
+    "id": 87679461,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 660,
+    "submittedAt": "1년 전"
+  }
+}

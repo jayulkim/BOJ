@@ -1,0 +1,23 @@
+{
+  "problemId": 11693,
+  "title": "n^m의 약수의 합",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "exponentiation_by_squaring",
+    "modular_multiplicative_inverse",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 350,
+  "averageTries": 2.740000009536743,
+  "latestSubmission": {
+    "id": 84886861,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1368,
+    "timeMs": 4,
+    "codeLen": 3500,
+    "submittedAt": "1년 전"
+  }
+}

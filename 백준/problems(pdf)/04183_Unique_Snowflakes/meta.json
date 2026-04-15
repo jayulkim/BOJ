@@ -1,0 +1,23 @@
+{
+  "problemId": 4183,
+  "title": "Unique Snowflakes",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "set",
+    "hash_set",
+    "tree_set",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 41,
+  "averageTries": 1.902400016784668,
+  "latestSubmission": {
+    "id": 86465567,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9540,
+    "timeMs": 400,
+    "codeLen": 659,
+    "submittedAt": "1년 전"
+  }
+}

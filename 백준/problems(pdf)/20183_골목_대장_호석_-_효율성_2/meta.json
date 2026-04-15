@@ -1,0 +1,23 @@
+{
+  "problemId": 20183,
+  "title": "골목 대장 호석 - 효율성 2",
+  "tier": 15,
+  "tags": [
+    "graphs",
+    "binary_search",
+    "shortest_path",
+    "dijkstra",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 902,
+  "averageTries": 4.138599872589111,
+  "latestSubmission": {
+    "id": 89818255,
+    "result": "맞았습니다!! (43/43)",
+    "language": "C++17",
+    "memoryKb": 36276,
+    "timeMs": 1628,
+    "codeLen": 1610,
+    "submittedAt": "1년 전"
+  }
+}

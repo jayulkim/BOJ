@@ -1,0 +1,23 @@
+{
+  "problemId": 1920,
+  "title": "수 찾기",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "binary_search",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 77041,
+  "averageTries": 3.176800012588501,
+  "latestSubmission": {
+    "id": 84869255,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2172,
+    "timeMs": 68,
+    "codeLen": 1449,
+    "submittedAt": "1년 전"
+  }
+}

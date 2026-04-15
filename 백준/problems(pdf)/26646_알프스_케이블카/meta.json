@@ -1,0 +1,22 @@
+{
+  "problemId": 26646,
+  "title": "알프스 케이블카",
+  "tier": 9,
+  "tags": [
+    "math",
+    "greedy",
+    "ad_hoc",
+    "geometry"
+  ],
+  "acceptedUserCount": 465,
+  "averageTries": 1.4408999681472778,
+  "latestSubmission": {
+    "id": 84894082,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1504,
+    "timeMs": 8,
+    "codeLen": 861,
+    "submittedAt": "1년 전"
+  }
+}

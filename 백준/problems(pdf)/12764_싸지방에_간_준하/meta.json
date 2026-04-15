@@ -1,0 +1,24 @@
+{
+  "problemId": 12764,
+  "title": "싸지방에 간 준하",
+  "tier": 13,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "greedy",
+    "set",
+    "simulation",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 1345,
+  "averageTries": 3.226799964904785,
+  "latestSubmission": {
+    "id": 84887908,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5020,
+    "timeMs": 68,
+    "codeLen": 2862,
+    "submittedAt": "1년 전"
+  }
+}

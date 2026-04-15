@@ -1,0 +1,20 @@
+{
+  "problemId": 13458,
+  "title": "시험 감독",
+  "tier": 4,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 26951,
+  "averageTries": 3.2804999351501465,
+  "latestSubmission": {
+    "id": 84888846,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8924,
+    "timeMs": 152,
+    "codeLen": 809,
+    "submittedAt": "1년 전"
+  }
+}

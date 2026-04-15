@@ -1,0 +1,77 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef short ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<string, ll, ll, ll> slll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    char vv[3001][31];
+    ll v[3001][3];
+    for (ll i = 0; i < n; i++) {
+        cin >> vv[i] >> v[i][0] >> v[i][1] >> v[i][2];
+    }
+    ll degree[3001];
+    memset(degree, 0, sizeof(degree));
+    vector<vector<ll>>graph(n + 1);
+    for (ll i = 0; i < n - 1; i++) {
+        for (ll j = i + 1; j < n; j++) {
+            ll counta = 0, countb = 0;
+            for (ll k = 0; k < 3; k++) {
+                if (v[i][k] > v[j][k]) {
+                    counta++;
+                }
+                else if (v[i][k] < v[j][k]) {
+                    countb++;
+                }
+            }
+            if (counta > countb) {
+                graph[i].push_back(j);
+                degree[j]++;
+            }
+            else if (counta < countb) {
+                graph[j].push_back(i);
+                degree[i]++;
+            }
+        } 
+    }
+    vector<ll>result;
+    queue<ll>q;
+    for (ll i = 0; i < n; i++) {
+        if (!degree[i]) {
+            result.push_back(i);
+            q.push(i);
+        }
+    }
+    ll count = n;
+    while (!q.empty()) {
+        ll temp = q.front();
+        q.pop();
+        count--;
+        for (auto& i : graph[temp]) {
+            if (--degree[i] == 0) {
+                q.push(i);
+            }
+        }
+    }
+    if (count) {
+        cout << "Paradoxe Absurdo";
+        return 0;
+    }
+    sort(result.begin(), result.end(), [&](const ll& a, const ll& b) {
+        return strcmp(vv[a], vv[b]) < 0;
+        });
+    for (auto& i : result) {
+        cout << vv[i] << '\n';
+    }
+    return 0;
+}

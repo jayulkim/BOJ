@@ -1,0 +1,19 @@
+{
+  "problemId": 32154,
+  "title": "SUAPC 2024 Winter",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 2091,
+  "averageTries": 1.5657999515533447,
+  "latestSubmission": {
+    "id": 84894998,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 0,
+    "codeLen": 763,
+    "submittedAt": "1년 전"
+  }
+}

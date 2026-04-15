@@ -1,0 +1,20 @@
+{
+  "problemId": 20499,
+  "title": "Darius님 한타 안 함?",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 7516,
+  "averageTries": 1.628499984741211,
+  "latestSubmission": {
+    "id": 97917922,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 714,
+    "submittedAt": "7달 전"
+  }
+}

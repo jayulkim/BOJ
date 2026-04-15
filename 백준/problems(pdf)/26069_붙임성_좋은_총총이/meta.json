@@ -1,0 +1,22 @@
+{
+  "problemId": 26069,
+  "title": "붙임성 좋은 총총이",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "set",
+    "hash_set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 10431,
+  "averageTries": 1.5561000108718872,
+  "latestSubmission": {
+    "id": 84893906,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 547,
+    "submittedAt": "1년 전"
+  }
+}

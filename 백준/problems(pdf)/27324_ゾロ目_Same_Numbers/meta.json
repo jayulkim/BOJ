@@ -1,0 +1,20 @@
+{
+  "problemId": 27324,
+  "title": "ゾロ目 (Same Numbers)",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 3252,
+  "averageTries": 1.1656999588012695,
+  "latestSubmission": {
+    "id": 84894165,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 468,
+    "submittedAt": "1년 전"
+  }
+}

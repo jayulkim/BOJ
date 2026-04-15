@@ -1,0 +1,23 @@
+{
+  "problemId": 22252,
+  "title": "정보 상인 호석",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "set",
+    "hash_set",
+    "priority_queue",
+    "tree_set"
+  ],
+  "acceptedUserCount": 926,
+  "averageTries": 2.371500015258789,
+  "latestSubmission": {
+    "id": 84893136,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8480,
+    "timeMs": 1244,
+    "codeLen": 953,
+    "submittedAt": "1년 전"
+  }
+}

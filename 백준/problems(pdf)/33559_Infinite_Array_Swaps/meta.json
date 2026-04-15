@@ -1,0 +1,22 @@
+{
+  "problemId": 33559,
+  "title": "Infinite Array Swaps",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "constructive",
+    "hash_set"
+  ],
+  "acceptedUserCount": 318,
+  "averageTries": 1.5849000215530396,
+  "latestSubmission": {
+    "id": 90814084,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 23980,
+    "timeMs": 176,
+    "codeLen": 1300,
+    "submittedAt": "1년 전"
+  }
+}

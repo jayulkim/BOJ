@@ -1,0 +1,20 @@
+{
+  "problemId": 11279,
+  "title": "최대 힙",
+  "tier": 9,
+  "tags": [
+    "data_structures",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 42243,
+  "averageTries": 1.942199945449829,
+  "latestSubmission": {
+    "id": 84885957,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1508,
+    "timeMs": 20,
+    "codeLen": 1192,
+    "submittedAt": "1년 전"
+  }
+}

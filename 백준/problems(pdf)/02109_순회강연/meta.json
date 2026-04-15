@@ -1,0 +1,22 @@
+{
+  "problemId": 2109,
+  "title": "순회강연",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "sorting",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 6238,
+  "averageTries": 2.5246999263763428,
+  "latestSubmission": {
+    "id": 84877755,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1192,
+    "timeMs": 4,
+    "codeLen": 2260,
+    "submittedAt": "1년 전"
+  }
+}

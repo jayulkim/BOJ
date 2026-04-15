@@ -1,0 +1,23 @@
+{
+  "problemId": 12050,
+  "title": "Dynamic Grid (Small)",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs",
+    "flood_fill"
+  ],
+  "acceptedUserCount": 123,
+  "averageTries": 1.284600019454956,
+  "latestSubmission": {
+    "id": 87800369,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2044,
+    "timeMs": 4,
+    "codeLen": 1509,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 1599,
+  "title": "민식어",
+  "tier": 11,
+  "tags": [
+    "string",
+    "sorting"
+  ],
+  "acceptedUserCount": 681,
+  "averageTries": 1.86489999294281,
+  "latestSubmission": {
+    "id": 100571855,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2096,
+    "timeMs": 0,
+    "codeLen": 2269,
+    "submittedAt": "4달 전"
+  }
+}

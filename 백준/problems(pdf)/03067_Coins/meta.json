@@ -1,0 +1,20 @@
+{
+  "problemId": 3067,
+  "title": "Coins",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "knapsack"
+  ],
+  "acceptedUserCount": 2852,
+  "averageTries": 1.2418999671936035,
+  "latestSubmission": {
+    "id": 84880830,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1156,
+    "timeMs": 0,
+    "codeLen": 563,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 23829,
+  "title": "인문예술탐사주간",
+  "tier": 12,
+  "tags": [
+    "binary_search",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 301,
+  "averageTries": 3.2657999992370605,
+  "latestSubmission": {
+    "id": 94186963,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3956,
+    "timeMs": 52,
+    "codeLen": 1094,
+    "submittedAt": "11달 전"
+  }
+}

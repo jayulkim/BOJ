@@ -1,0 +1,22 @@
+{
+  "problemId": 7881,
+  "title": "YAPTCHA",
+  "tier": 14,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 125,
+  "averageTries": 2.0160000324249268,
+  "latestSubmission": {
+    "id": 84882624,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8856,
+    "timeMs": 172,
+    "codeLen": 556,
+    "submittedAt": "1년 전"
+  }
+}

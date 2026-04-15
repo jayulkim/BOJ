@@ -1,0 +1,21 @@
+{
+  "problemId": 5014,
+  "title": "스타트링크",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 18696,
+  "averageTries": 2.836899995803833,
+  "latestSubmission": {
+    "id": 84881498,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 12836,
+    "timeMs": 12,
+    "codeLen": 2464,
+    "submittedAt": "1년 전"
+  }
+}

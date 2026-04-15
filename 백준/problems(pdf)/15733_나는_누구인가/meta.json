@@ -1,0 +1,19 @@
+{
+  "problemId": 15733,
+  "title": "나는 누구인가",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 14695,
+  "averageTries": 1.179900050163269,
+  "latestSubmission": {
+    "id": 84891141,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 152,
+    "submittedAt": "1년 전"
+  }
+}

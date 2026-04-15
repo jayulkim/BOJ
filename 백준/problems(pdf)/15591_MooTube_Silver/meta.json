@@ -1,0 +1,22 @@
+{
+  "problemId": 15591,
+  "title": "MooTube (Silver)",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs"
+  ],
+  "acceptedUserCount": 3730,
+  "averageTries": 2.485300064086914,
+  "latestSubmission": {
+    "id": 100321825,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2456,
+    "timeMs": 188,
+    "codeLen": 1217,
+    "submittedAt": "4달 전"
+  }
+}

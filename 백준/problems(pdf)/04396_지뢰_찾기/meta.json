@@ -1,0 +1,19 @@
+{
+  "problemId": 4396,
+  "title": "지뢰 찾기",
+  "tier": 7,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 2022,
+  "averageTries": 3.1879000663757324,
+  "latestSubmission": {
+    "id": 84881286,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1120,
+    "timeMs": 0,
+    "codeLen": 2386,
+    "submittedAt": "1년 전"
+  }
+}

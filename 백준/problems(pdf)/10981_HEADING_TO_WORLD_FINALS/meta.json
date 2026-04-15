@@ -1,0 +1,22 @@
+{
+  "problemId": 10981,
+  "title": "HEADING TO WORLD FINALS",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 333,
+  "averageTries": 2.1140999794006348,
+  "latestSubmission": {
+    "id": 84885116,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 13956,
+    "timeMs": 84,
+    "codeLen": 743,
+    "submittedAt": "1년 전"
+  }
+}

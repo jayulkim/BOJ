@@ -1,0 +1,19 @@
+{
+  "problemId": 15501,
+  "title": "부당한 퍼즐",
+  "tier": 9,
+  "tags": [
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 772,
+  "averageTries": 2.2084999084472656,
+  "latestSubmission": {
+    "id": 97756232,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 26728,
+    "timeMs": 204,
+    "codeLen": 1455,
+    "submittedAt": "7달 전"
+  }
+}

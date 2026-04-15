@@ -1,0 +1,21 @@
+{
+  "problemId": 11051,
+  "title": "이항 계수 2",
+  "tier": 9,
+  "tags": [
+    "math",
+    "dp",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 21702,
+  "averageTries": 2.5625998973846436,
+  "latestSubmission": {
+    "id": 84885709,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 108080,
+    "timeMs": 88,
+    "codeLen": 220,
+    "submittedAt": "1년 전"
+  }
+}

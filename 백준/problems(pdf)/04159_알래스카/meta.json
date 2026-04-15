@@ -1,0 +1,19 @@
+{
+  "problemId": 4159,
+  "title": "알래스카",
+  "tier": 8,
+  "tags": [
+    "sorting"
+  ],
+  "acceptedUserCount": 403,
+  "averageTries": 2.491300106048584,
+  "latestSubmission": {
+    "id": 88162254,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 814,
+    "submittedAt": "1년 전"
+  }
+}

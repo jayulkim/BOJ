@@ -1,0 +1,38 @@
+#include <bits/stdc++.h>
+using namespace std;
+typedef int ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+ll n = 0, m = 0, k = 0;
+ll aa = 0, bb = 0, cc = 0;
+ll dp[501][501];
+ll dfs(ll a, ll b) {
+    if (a == n) {
+        return 0;
+    }
+    if (dp[a][b] != -1) {
+        return dp[a][b];
+    }
+    ll weight = 0;
+    for (int i = cc; i <= b; i++) {
+        weight = max(weight, dfs(a + 1, b - i) + (b - i) * (aa + bb - b + i));
+    }
+    for (int i = cc; i <= aa + bb - b; i++) {
+        weight = max(weight, dfs(a + 1, b + i) + (b + i) * (aa + bb - b - i));
+    }
+    return dp[a][b] = weight;
+}
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    cin >> n;
+    cin >> aa >> bb >> cc;
+    memset(dp, -1, sizeof(dp));
+    cout << dfs(0, aa);
+    return 0;
+}

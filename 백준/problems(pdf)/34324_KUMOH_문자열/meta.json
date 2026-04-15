@@ -1,0 +1,20 @@
+{
+  "problemId": 34324,
+  "title": "KUMOH 문자열",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 90,
+  "averageTries": 2.9221999645233154,
+  "latestSubmission": {
+    "id": 98527225,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 4268,
+    "timeMs": 32,
+    "codeLen": 2807,
+    "submittedAt": "7달 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 2608,
+  "title": "로마 숫자",
+  "tier": 11,
+  "tags": [
+    "math",
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 2227,
+  "averageTries": 1.9448000192642212,
+  "latestSubmission": {
+    "id": 87688550,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2032,
+    "timeMs": 0,
+    "codeLen": 4281,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 29733,
+  "title": "3차원 지뢰찾기",
+  "tier": 7,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 292,
+  "averageTries": 1.4555000066757202,
+  "latestSubmission": {
+    "id": 84894593,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 6148,
+    "timeMs": 104,
+    "codeLen": 3645,
+    "submittedAt": "1년 전"
+  }
+}

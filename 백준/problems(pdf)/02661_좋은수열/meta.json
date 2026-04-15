@@ -1,0 +1,19 @@
+{
+  "problemId": 2661,
+  "title": "좋은수열",
+  "tier": 12,
+  "tags": [
+    "backtracking"
+  ],
+  "acceptedUserCount": 7134,
+  "averageTries": 1.9728000164031982,
+  "latestSubmission": {
+    "id": 85592719,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 865,
+    "submittedAt": "1년 전"
+  }
+}

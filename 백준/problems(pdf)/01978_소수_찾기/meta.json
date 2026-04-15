@@ -1,0 +1,21 @@
+{
+  "problemId": 1978,
+  "title": "소수 찾기",
+  "tier": 4,
+  "tags": [
+    "primality_test",
+    "number_theory",
+    "math"
+  ],
+  "acceptedUserCount": 105369,
+  "averageTries": 2.095900058746338,
+  "latestSubmission": {
+    "id": 84869674,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1500,
+    "timeMs": 0,
+    "codeLen": 561,
+    "submittedAt": "1년 전"
+  }
+}

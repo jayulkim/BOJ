@@ -1,0 +1,21 @@
+{
+  "problemId": 28113,
+  "title": "정보섬의 대중교통",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 4553,
+  "averageTries": 1.632099986076355,
+  "latestSubmission": {
+    "id": 84894328,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 634,
+    "submittedAt": "1년 전"
+  }
+}

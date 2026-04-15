@@ -1,0 +1,20 @@
+{
+  "problemId": 20056,
+  "title": "마법사 상어와 파이어볼",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 7580,
+  "averageTries": 2.602099895477295,
+  "latestSubmission": {
+    "id": 100369620,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2884,
+    "timeMs": 60,
+    "codeLen": 2625,
+    "submittedAt": "4달 전"
+  }
+}

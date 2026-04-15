@@ -1,0 +1,21 @@
+{
+  "problemId": 5635,
+  "title": "생일",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "string",
+    "sorting"
+  ],
+  "acceptedUserCount": 10300,
+  "averageTries": 1.467900037765503,
+  "latestSubmission": {
+    "id": 84881961,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 956,
+    "submittedAt": "1년 전"
+  }
+}

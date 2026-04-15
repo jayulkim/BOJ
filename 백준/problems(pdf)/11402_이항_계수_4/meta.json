@@ -1,0 +1,23 @@
+{
+  "problemId": 11402,
+  "title": "이항 계수 4",
+  "tier": 17,
+  "tags": [
+    "math",
+    "dp",
+    "number_theory",
+    "combinatorics",
+    "lucas"
+  ],
+  "acceptedUserCount": 2097,
+  "averageTries": 2.280400037765503,
+  "latestSubmission": {
+    "id": 105006039,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 3228,
+    "submittedAt": "1일 전"
+  }
+}

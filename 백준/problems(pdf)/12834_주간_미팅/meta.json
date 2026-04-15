@@ -1,0 +1,21 @@
+{
+  "problemId": 12834,
+  "title": "주간 미팅",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 669,
+  "averageTries": 1.5515999794006348,
+  "latestSubmission": {
+    "id": 98955403,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2620,
+    "timeMs": 4,
+    "codeLen": 1716,
+    "submittedAt": "6달 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 2133,
+  "title": "타일 채우기",
+  "tier": 12,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 18509,
+  "averageTries": 2.6830999851226807,
+  "latestSubmission": {
+    "id": 84877762,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 399,
+    "submittedAt": "1년 전"
+  }
+}

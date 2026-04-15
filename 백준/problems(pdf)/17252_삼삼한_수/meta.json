@@ -1,0 +1,20 @@
+{
+  "problemId": 17252,
+  "title": "삼삼한 수",
+  "tier": 7,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 755,
+  "averageTries": 2.519200086593628,
+  "latestSubmission": {
+    "id": 84892290,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 297,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 23814,
+  "title": "아 저는 볶음밥이요",
+  "tier": 8,
+  "tags": [
+    "math",
+    "arithmetic",
+    "case_work"
+  ],
+  "acceptedUserCount": 366,
+  "averageTries": 3.4398999214172363,
+  "latestSubmission": {
+    "id": 84893383,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 672,
+    "submittedAt": "1년 전"
+  }
+}

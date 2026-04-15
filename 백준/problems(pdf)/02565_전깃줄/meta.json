@@ -1,0 +1,19 @@
+{
+  "problemId": 2565,
+  "title": "전깃줄",
+  "tier": 11,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 20197,
+  "averageTries": 2.022599935531616,
+  "latestSubmission": {
+    "id": 84879413,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 992,
+    "submittedAt": "1년 전"
+  }
+}

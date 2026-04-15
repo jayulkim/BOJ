@@ -1,0 +1,20 @@
+{
+  "problemId": 17609,
+  "title": "회문",
+  "tier": 11,
+  "tags": [
+    "string",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 8304,
+  "averageTries": 3.3427000045776367,
+  "latestSubmission": {
+    "id": 84892481,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1212,
+    "timeMs": 24,
+    "codeLen": 907,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "problemId": 34897,
+  "title": "수상한 문자열",
+  "tier": 14,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "disjoint_set",
+    "bipartite_graph"
+  ],
+  "acceptedUserCount": 46,
+  "averageTries": 1.3696000576019287,
+  "latestSubmission": {
+    "id": 101023651,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 12488,
+    "timeMs": 40,
+    "codeLen": 2807,
+    "submittedAt": "4달 전"
+  }
+}

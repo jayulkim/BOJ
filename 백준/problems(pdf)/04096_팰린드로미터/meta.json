@@ -1,0 +1,20 @@
+{
+  "problemId": 4096,
+  "title": "팰린드로미터",
+  "tier": 8,
+  "tags": [
+    "string",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 588,
+  "averageTries": 1.770400047302246,
+  "latestSubmission": {
+    "id": 103202412,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 140,
+    "codeLen": 1702,
+    "submittedAt": "1달 전"
+  }
+}

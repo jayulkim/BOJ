@@ -1,0 +1,21 @@
+{
+  "problemId": 1947,
+  "title": "선물 전달",
+  "tier": 13,
+  "tags": [
+    "math",
+    "dp",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 2741,
+  "averageTries": 1.9350999593734741,
+  "latestSubmission": {
+    "id": 85954954,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9832,
+    "timeMs": 8,
+    "codeLen": 323,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 34332,
+  "title": "해피 밀푀유",
+  "tier": 17,
+  "tags": [
+    "math",
+    "greedy",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 15,
+  "averageTries": 2.5332999229431152,
+  "latestSubmission": {
+    "id": 99879789,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 207924,
+    "timeMs": 284,
+    "codeLen": 2103,
+    "submittedAt": "5달 전"
+  }
+}

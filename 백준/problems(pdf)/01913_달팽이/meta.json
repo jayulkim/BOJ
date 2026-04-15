@@ -1,0 +1,19 @@
+{
+  "problemId": 1913,
+  "title": "달팽이",
+  "tier": 8,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 8780,
+  "averageTries": 2.1974000930786133,
+  "latestSubmission": {
+    "id": 84869128,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5928,
+    "timeMs": 76,
+    "codeLen": 1093,
+    "submittedAt": "1년 전"
+  }
+}

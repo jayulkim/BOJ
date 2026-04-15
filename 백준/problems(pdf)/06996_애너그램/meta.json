@@ -1,0 +1,21 @@
+{
+  "problemId": 6996,
+  "title": "애너그램",
+  "tier": 5,
+  "tags": [
+    "implementation",
+    "string",
+    "sorting"
+  ],
+  "acceptedUserCount": 4561,
+  "averageTries": 1.919800043106079,
+  "latestSubmission": {
+    "id": 84882322,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 829,
+    "submittedAt": "1년 전"
+  }
+}

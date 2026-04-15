@@ -1,0 +1,23 @@
+{
+  "problemId": 35279,
+  "title": "숫자 놀이 3",
+  "tier": 13,
+  "tags": [
+    "math",
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 73,
+  "averageTries": 2.3287999629974365,
+  "latestSubmission": {
+    "id": 103920843,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 19900,
+    "timeMs": 312,
+    "codeLen": 785,
+    "submittedAt": "30일 전"
+  }
+}

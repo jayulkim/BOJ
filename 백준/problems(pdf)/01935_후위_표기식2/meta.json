@@ -1,0 +1,20 @@
+{
+  "problemId": 1935,
+  "title": "후위 표기식2",
+  "tier": 8,
+  "tags": [
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 12938,
+  "averageTries": 2.0262999534606934,
+  "latestSubmission": {
+    "id": 84869420,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1120,
+    "timeMs": 0,
+    "codeLen": 1405,
+    "submittedAt": "1년 전"
+  }
+}

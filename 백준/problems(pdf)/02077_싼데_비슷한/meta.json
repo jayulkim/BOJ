@@ -1,0 +1,22 @@
+{
+  "problemId": 2077,
+  "title": "싼데 비슷한",
+  "tier": 14,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "constructive",
+    "pigeonhole_principle"
+  ],
+  "acceptedUserCount": 47,
+  "averageTries": 2.936199903488159,
+  "latestSubmission": {
+    "id": 104343179,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 12232,
+    "timeMs": 2044,
+    "codeLen": 2732,
+    "submittedAt": "20일 전"
+  }
+}

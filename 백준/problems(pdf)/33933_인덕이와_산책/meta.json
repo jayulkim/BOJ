@@ -1,0 +1,22 @@
+{
+  "problemId": 33933,
+  "title": "인덕이와 산책",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "shortest_path"
+  ],
+  "acceptedUserCount": 54,
+  "averageTries": 2.8703999519348145,
+  "latestSubmission": {
+    "id": 98450240,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 143220,
+    "timeMs": 376,
+    "codeLen": 1756,
+    "submittedAt": "7달 전"
+  }
+}

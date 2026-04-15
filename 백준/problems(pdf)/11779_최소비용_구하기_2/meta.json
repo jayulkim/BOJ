@@ -1,0 +1,22 @@
+{
+  "problemId": 11779,
+  "title": "최소비용 구하기 2",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra",
+    "traceback"
+  ],
+  "acceptedUserCount": 14296,
+  "averageTries": 2.5617001056671143,
+  "latestSubmission": {
+    "id": 84887360,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4752,
+    "timeMs": 32,
+    "codeLen": 1297,
+    "submittedAt": "1년 전"
+  }
+}

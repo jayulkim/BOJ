@@ -1,0 +1,19 @@
+{
+  "problemId": 13752,
+  "title": "히스토그램",
+  "tier": 2,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 7918,
+  "averageTries": 1.1617000102996826,
+  "latestSubmission": {
+    "id": 84888971,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 260,
+    "submittedAt": "1년 전"
+  }
+}

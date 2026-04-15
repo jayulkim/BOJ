@@ -1,0 +1,22 @@
+{
+  "problemId": 15900,
+  "title": "나무 탈출",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "dfs"
+  ],
+  "acceptedUserCount": 2807,
+  "averageTries": 2.8317999839782715,
+  "latestSubmission": {
+    "id": 84891365,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 36588,
+    "timeMs": 340,
+    "codeLen": 920,
+    "submittedAt": "1년 전"
+  }
+}

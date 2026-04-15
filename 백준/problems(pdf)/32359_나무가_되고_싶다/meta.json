@@ -1,0 +1,25 @@
+{
+  "problemId": 32359,
+  "title": "나무가 되고 싶다",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "set",
+    "bfs",
+    "hash_set"
+  ],
+  "acceptedUserCount": 95,
+  "averageTries": 4,
+  "latestSubmission": {
+    "id": 84895078,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8292,
+    "timeMs": 112,
+    "codeLen": 768,
+    "submittedAt": "1년 전"
+  }
+}

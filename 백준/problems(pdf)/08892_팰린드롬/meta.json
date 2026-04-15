@@ -1,0 +1,20 @@
+{
+  "problemId": 8892,
+  "title": "팰린드롬",
+  "tier": 6,
+  "tags": [
+    "string",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 2237,
+  "averageTries": 2.092099905014038,
+  "latestSubmission": {
+    "id": 103202424,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2224,
+    "timeMs": 16,
+    "codeLen": 2055,
+    "submittedAt": "1달 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 8437,
+  "title": "Julka",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 5878,
+  "averageTries": 2.3919999599456787,
+  "latestSubmission": {
+    "id": 84882755,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 108080,
+    "timeMs": 84,
+    "codeLen": 78,
+    "submittedAt": "1년 전"
+  }
+}

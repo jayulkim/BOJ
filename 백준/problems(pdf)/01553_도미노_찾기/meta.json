@@ -1,0 +1,20 @@
+{
+  "problemId": 1553,
+  "title": "도미노 찾기",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "backtracking"
+  ],
+  "acceptedUserCount": 332,
+  "averageTries": 1.343400001525879,
+  "latestSubmission": {
+    "id": 103173150,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 4,
+    "codeLen": 2328,
+    "submittedAt": "1달 전"
+  }
+}

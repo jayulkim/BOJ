@@ -1,0 +1,20 @@
+{
+  "problemId": 24009,
+  "title": "Huge Numbers",
+  "tier": 11,
+  "tags": [
+    "math",
+    "exponentiation_by_squaring"
+  ],
+  "acceptedUserCount": 104,
+  "averageTries": 3.0095999240875244,
+  "latestSubmission": {
+    "id": 89459761,
+    "result": "23점",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 3616,
+    "codeLen": 1029,
+    "submittedAt": "1년 전"
+  }
+}

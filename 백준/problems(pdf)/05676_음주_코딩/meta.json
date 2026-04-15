@@ -1,0 +1,20 @@
+{
+  "problemId": 5676,
+  "title": "음주 코딩",
+  "tier": 15,
+  "tags": [
+    "segtree",
+    "data_structures"
+  ],
+  "acceptedUserCount": 3028,
+  "averageTries": 2.9514999389648438,
+  "latestSubmission": {
+    "id": 86692907,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6292,
+    "timeMs": 124,
+    "codeLen": 1885,
+    "submittedAt": "1년 전"
+  }
+}

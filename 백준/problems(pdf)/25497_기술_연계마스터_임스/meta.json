@@ -1,0 +1,20 @@
+{
+  "problemId": 25497,
+  "title": "기술 연계마스터 임스",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "data_structures"
+  ],
+  "acceptedUserCount": 1283,
+  "averageTries": 2.6375999450683594,
+  "latestSubmission": {
+    "id": 84893716,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2648,
+    "timeMs": 0,
+    "codeLen": 756,
+    "submittedAt": "1년 전"
+  }
+}

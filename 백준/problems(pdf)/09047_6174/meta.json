@@ -1,0 +1,22 @@
+{
+  "problemId": 9047,
+  "title": "6174",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "string",
+    "sorting",
+    "simulation"
+  ],
+  "acceptedUserCount": 1447,
+  "averageTries": 2.275700092315674,
+  "latestSubmission": {
+    "id": 84882976,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 0,
+    "codeLen": 473,
+    "submittedAt": "1년 전"
+  }
+}

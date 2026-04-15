@@ -1,0 +1,21 @@
+{
+  "problemId": 1682,
+  "title": "돌리기",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 211,
+  "averageTries": 2.829400062561035,
+  "latestSubmission": {
+    "id": 85279069,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5464,
+    "timeMs": 76,
+    "codeLen": 1159,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 34327,
+  "title": "쉬었음 부원",
+  "tier": 13,
+  "tags": [
+    "bruteforcing",
+    "bitmask",
+    "permutation_cycle_decomposition"
+  ],
+  "acceptedUserCount": 18,
+  "averageTries": 2.3889000415802,
+  "latestSubmission": {
+    "id": 98618545,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 620,
+    "codeLen": 3713,
+    "submittedAt": "6달 전"
+  }
+}

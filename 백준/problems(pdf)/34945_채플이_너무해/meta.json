@@ -1,0 +1,21 @@
+{
+  "problemId": 34945,
+  "title": "채플이 너무해",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 1309,
+  "averageTries": 1.2871999740600586,
+  "latestSubmission": {
+    "id": 101393732,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 676,
+    "submittedAt": "3달 전"
+  }
+}

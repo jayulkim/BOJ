@@ -1,0 +1,21 @@
+{
+  "problemId": 11265,
+  "title": "끝나지 않는 파티",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 1686,
+  "averageTries": 1.9744999408721924,
+  "latestSubmission": {
+    "id": 84885935,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3980,
+    "timeMs": 28,
+    "codeLen": 814,
+    "submittedAt": "1년 전"
+  }
+}

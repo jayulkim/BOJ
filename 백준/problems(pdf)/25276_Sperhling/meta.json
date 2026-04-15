@@ -1,0 +1,21 @@
+{
+  "problemId": 25276,
+  "title": "Sperhling",
+  "tier": 8,
+  "tags": [
+    "ad_hoc",
+    "greedy",
+    "string"
+  ],
+  "acceptedUserCount": 37,
+  "averageTries": 1.405400037765503,
+  "latestSubmission": {
+    "id": 86880561,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 644,
+    "submittedAt": "1년 전"
+  }
+}

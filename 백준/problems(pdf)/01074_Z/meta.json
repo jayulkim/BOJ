@@ -1,0 +1,20 @@
+{
+  "problemId": 1074,
+  "title": "Z",
+  "tier": 11,
+  "tags": [
+    "divide_and_conquer",
+    "recursion"
+  ],
+  "acceptedUserCount": 35371,
+  "averageTries": 2.277100086212158,
+  "latestSubmission": {
+    "id": 100633648,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 1127,
+    "submittedAt": "4달 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 2420,
+  "title": "사파리월드",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "arithmetic",
+    "math"
+  ],
+  "acceptedUserCount": 39471,
+  "averageTries": 2.146399974822998,
+  "latestSubmission": {
+    "id": 84878887,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 214,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 2216,
+  "title": "문자열과 점수",
+  "tier": 13,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 620,
+  "averageTries": 2.666100025177002,
+  "latestSubmission": {
+    "id": 89633820,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 72784,
+    "timeMs": 236,
+    "codeLen": 1055,
+    "submittedAt": "1년 전"
+  }
+}

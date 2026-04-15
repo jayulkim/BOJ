@@ -1,0 +1,24 @@
+{
+  "problemId": 25821,
+  "title": "Palindromic Primes",
+  "tier": 17,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "primality_test",
+    "precomputation",
+    "miller_rabin"
+  ],
+  "acceptedUserCount": 132,
+  "averageTries": 3.787899971008301,
+  "latestSubmission": {
+    "id": 84893767,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14440,
+    "timeMs": 3568,
+    "codeLen": 1946,
+    "submittedAt": "1년 전"
+  }
+}

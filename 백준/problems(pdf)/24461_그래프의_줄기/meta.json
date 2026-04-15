@@ -1,0 +1,22 @@
+{
+  "problemId": 24461,
+  "title": "그래프의 줄기",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "trees",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 225,
+  "averageTries": 3.8933000564575195,
+  "latestSubmission": {
+    "id": 88038014,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10236,
+    "timeMs": 52,
+    "codeLen": 1358,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 13706,
+  "title": "제곱근",
+  "tier": 7,
+  "tags": [
+    "math",
+    "binary_search",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 1938,
+  "averageTries": 2.7332000732421875,
+  "latestSubmission": {
+    "id": 97408585,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 110724,
+    "timeMs": 108,
+    "codeLen": 193,
+    "submittedAt": "8달 전"
+  }
+}

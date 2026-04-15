@@ -1,0 +1,20 @@
+{
+  "problemId": 30022,
+  "title": "행사 준비",
+  "tier": 9,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 402,
+  "averageTries": 1.9452999830245972,
+  "latestSubmission": {
+    "id": 88161745,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5224,
+    "timeMs": 36,
+    "codeLen": 655,
+    "submittedAt": "1년 전"
+  }
+}

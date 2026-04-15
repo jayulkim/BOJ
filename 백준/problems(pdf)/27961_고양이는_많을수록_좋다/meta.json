@@ -1,0 +1,20 @@
+{
+  "problemId": 27961,
+  "title": "고양이는 많을수록 좋다",
+  "tier": 5,
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "acceptedUserCount": 1626,
+  "averageTries": 2.4760000705718994,
+  "latestSubmission": {
+    "id": 94859378,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 507,
+    "submittedAt": "10달 전"
+  }
+}

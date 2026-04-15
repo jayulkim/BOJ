@@ -1,0 +1,22 @@
+{
+  "problemId": 1346,
+  "title": "탑을 향해서",
+  "tier": 17,
+  "tags": [
+    "dp",
+    "graphs",
+    "dag",
+    "scc"
+  ],
+  "acceptedUserCount": 48,
+  "averageTries": 2.9375,
+  "latestSubmission": {
+    "id": 93068654,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 3728,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 16967,
+  "title": "배열 복원하기",
+  "tier": 8,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 2609,
+  "averageTries": 2.066699981689453,
+  "latestSubmission": {
+    "id": 85751309,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5388,
+    "timeMs": 28,
+    "codeLen": 921,
+    "submittedAt": "1년 전"
+  }
+}

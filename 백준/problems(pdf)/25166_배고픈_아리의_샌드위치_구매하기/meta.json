@@ -1,0 +1,20 @@
+{
+  "problemId": 25166,
+  "title": "배고픈 아리의 샌드위치 구매하기",
+  "tier": 5,
+  "tags": [
+    "math",
+    "bitmask"
+  ],
+  "acceptedUserCount": 681,
+  "averageTries": 2.1747000217437744,
+  "latestSubmission": {
+    "id": 84893624,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 488,
+    "submittedAt": "1년 전"
+  }
+}

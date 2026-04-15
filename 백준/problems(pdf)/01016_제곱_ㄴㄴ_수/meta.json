@@ -1,0 +1,22 @@
+{
+  "problemId": 1016,
+  "title": "제곱 ㄴㄴ 수",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 12340,
+  "averageTries": 4.266600131988525,
+  "latestSubmission": {
+    "id": 84864993,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 10568,
+    "timeMs": 20,
+    "codeLen": 1156,
+    "submittedAt": "1년 전"
+  }
+}

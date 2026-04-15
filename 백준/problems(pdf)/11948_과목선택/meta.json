@@ -1,0 +1,21 @@
+{
+  "problemId": 11948,
+  "title": "과목선택",
+  "tier": 2,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 7815,
+  "averageTries": 1.327299952507019,
+  "latestSubmission": {
+    "id": 76905030,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 472,
+    "submittedAt": "2년 전"
+  }
+}

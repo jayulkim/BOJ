@@ -1,0 +1,20 @@
+{
+  "problemId": 27977,
+  "title": "킥보드로 등교하기",
+  "tier": 12,
+  "tags": [
+    "binary_search",
+    "parametric_search"
+  ],
+  "acceptedUserCount": 197,
+  "averageTries": 2.3705999851226807,
+  "latestSubmission": {
+    "id": 101089052,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3744,
+    "timeMs": 16,
+    "codeLen": 1797,
+    "submittedAt": "4달 전"
+  }
+}

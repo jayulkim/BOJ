@@ -1,0 +1,20 @@
+{
+  "problemId": 10988,
+  "title": "팰린드롬인지 확인하기",
+  "tier": 3,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 65938,
+  "averageTries": 1.6398999691009521,
+  "latestSubmission": {
+    "id": 84885225,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 373,
+    "submittedAt": "1년 전"
+  }
+}

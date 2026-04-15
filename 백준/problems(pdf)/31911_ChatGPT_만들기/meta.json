@@ -1,0 +1,24 @@
+{
+  "problemId": 31911,
+  "title": "ChatGPT 만들기",
+  "tier": 13,
+  "tags": [
+    "implementation",
+    "graphs",
+    "data_structures",
+    "string",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 106,
+  "averageTries": 3.603800058364868,
+  "latestSubmission": {
+    "id": 84894951,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 2972,
+    "timeMs": 4,
+    "codeLen": 1922,
+    "submittedAt": "1년 전"
+  }
+}

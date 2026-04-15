@@ -1,0 +1,21 @@
+{
+  "problemId": 24500,
+  "title": "blobblush",
+  "tier": 9,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "bitmask"
+  ],
+  "acceptedUserCount": 502,
+  "averageTries": 2.426300048828125,
+  "latestSubmission": {
+    "id": 88646483,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 661,
+    "submittedAt": "1년 전"
+  }
+}

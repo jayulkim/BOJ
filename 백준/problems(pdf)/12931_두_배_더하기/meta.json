@@ -1,0 +1,19 @@
+{
+  "problemId": 12931,
+  "title": "두 배 더하기",
+  "tier": 11,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 1746,
+  "averageTries": 1.607100009918213,
+  "latestSubmission": {
+    "id": 87868371,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 667,
+    "submittedAt": "1년 전"
+  }
+}

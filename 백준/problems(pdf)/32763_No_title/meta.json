@@ -1,0 +1,22 @@
+{
+  "problemId": 32763,
+  "title": "No title",
+  "tier": 11,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "arithmetic",
+    "pigeonhole_principle"
+  ],
+  "acceptedUserCount": 152,
+  "averageTries": 2.2565999031066895,
+  "latestSubmission": {
+    "id": 87133947,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 13808,
+    "timeMs": 56,
+    "codeLen": 1138,
+    "submittedAt": "1년 전"
+  }
+}

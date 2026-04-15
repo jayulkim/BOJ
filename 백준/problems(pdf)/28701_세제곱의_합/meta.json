@@ -1,0 +1,21 @@
+{
+  "problemId": 28701,
+  "title": "세제곱의 합",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 5448,
+  "averageTries": 1.3680000305175781,
+  "latestSubmission": {
+    "id": 84894432,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 569,
+    "submittedAt": "1년 전"
+  }
+}

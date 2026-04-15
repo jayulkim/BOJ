@@ -1,0 +1,21 @@
+{
+  "problemId": 26070,
+  "title": "곰곰이와 학식",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "greedy",
+    "simulation"
+  ],
+  "acceptedUserCount": 629,
+  "averageTries": 2.5834999084472656,
+  "latestSubmission": {
+    "id": 84893913,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 914,
+    "submittedAt": "1년 전"
+  }
+}

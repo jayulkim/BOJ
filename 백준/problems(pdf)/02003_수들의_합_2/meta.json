@@ -1,0 +1,21 @@
+{
+  "problemId": 2003,
+  "title": "수들의 합 2",
+  "tier": 7,
+  "tags": [
+    "bruteforcing",
+    "prefix_sum",
+    "two_pointer"
+  ],
+  "acceptedUserCount": 25453,
+  "averageTries": 2.0460000038146973,
+  "latestSubmission": {
+    "id": 84869786,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1896,
+    "timeMs": 0,
+    "codeLen": 796,
+    "submittedAt": "1년 전"
+  }
+}

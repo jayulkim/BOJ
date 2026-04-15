@@ -1,0 +1,26 @@
+{
+  "problemId": 26309,
+  "title": "Etched Emerald Orbs",
+  "tier": 23,
+  "tags": [
+    "math",
+    "number_theory",
+    "backtracking",
+    "primality_test",
+    "parity",
+    "prime_factorization",
+    "pollard_rho",
+    "miller_rabin"
+  ],
+  "acceptedUserCount": 46,
+  "averageTries": 9.391300201416016,
+  "latestSubmission": {
+    "id": 91737161,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 423084,
+    "timeMs": 3412,
+    "codeLen": 2010,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 6439,
+  "title": "교차",
+  "tier": 15,
+  "tags": [
+    "geometry",
+    "line_intersection"
+  ],
+  "acceptedUserCount": 890,
+  "averageTries": 3.9021999835968018,
+  "latestSubmission": {
+    "id": 84882214,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 1831,
+    "submittedAt": "1년 전"
+  }
+}

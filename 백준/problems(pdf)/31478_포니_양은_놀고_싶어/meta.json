@@ -1,0 +1,23 @@
+{
+  "problemId": 31478,
+  "title": "포니 양은 놀고 싶어!",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "exponentiation_by_squaring",
+    "modular_multiplicative_inverse",
+    "flt"
+  ],
+  "acceptedUserCount": 130,
+  "averageTries": 1.9845999479293823,
+  "latestSubmission": {
+    "id": 84894810,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 1130,
+    "submittedAt": "1년 전"
+  }
+}

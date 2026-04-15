@@ -1,0 +1,24 @@
+{
+  "problemId": 4924,
+  "title": "정수론 싫어",
+  "tier": 16,
+  "tags": [
+    "math",
+    "dp",
+    "number_theory",
+    "prefix_sum",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 94,
+  "averageTries": 2.5106000900268555,
+  "latestSubmission": {
+    "id": 93811231,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 25712,
+    "timeMs": 116,
+    "codeLen": 1225,
+    "submittedAt": "11달 전"
+  }
+}

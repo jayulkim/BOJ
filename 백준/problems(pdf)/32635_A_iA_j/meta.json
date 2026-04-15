@@ -1,0 +1,22 @@
+{
+  "problemId": 32635,
+  "title": "$A_i+A_j$",
+  "tier": 15,
+  "tags": [
+    "dp",
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 69,
+  "averageTries": 3.9565000534057617,
+  "latestSubmission": {
+    "id": 103889538,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 314588,
+    "timeMs": 1168,
+    "codeLen": 1940,
+    "submittedAt": "1달 전"
+  }
+}

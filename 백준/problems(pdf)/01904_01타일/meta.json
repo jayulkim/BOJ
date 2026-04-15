@@ -1,0 +1,19 @@
+{
+  "problemId": 1904,
+  "title": "01타일",
+  "tier": 8,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 34146,
+  "averageTries": 3.0903000831604004,
+  "latestSubmission": {
+    "id": 84869094,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8924,
+    "timeMs": 8,
+    "codeLen": 329,
+    "submittedAt": "1년 전"
+  }
+}

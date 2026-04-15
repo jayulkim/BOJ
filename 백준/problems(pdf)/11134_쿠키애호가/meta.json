@@ -1,0 +1,20 @@
+{
+  "problemId": 11134,
+  "title": "쿠키애호가",
+  "tier": 3,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 3018,
+  "averageTries": 1.2484999895095825,
+  "latestSubmission": {
+    "id": 84885885,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 435,
+    "submittedAt": "1년 전"
+  }
+}

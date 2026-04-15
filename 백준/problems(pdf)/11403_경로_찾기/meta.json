@@ -1,0 +1,22 @@
+{
+  "problemId": 11403,
+  "title": "경로 찾기",
+  "tier": 10,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "shortest_path",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 30221,
+  "averageTries": 1.5616999864578247,
+  "latestSubmission": {
+    "id": 84886073,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2100,
+    "timeMs": 0,
+    "codeLen": 844,
+    "submittedAt": "1년 전"
+  }
+}

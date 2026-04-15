@@ -1,0 +1,19 @@
+{
+  "problemId": 22983,
+  "title": "조각 체스판",
+  "tier": 14,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 199,
+  "averageTries": 2.6080000400543213,
+  "latestSubmission": {
+    "id": 84893184,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 80268,
+    "timeMs": 516,
+    "codeLen": 1359,
+    "submittedAt": "1년 전"
+  }
+}

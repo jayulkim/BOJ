@@ -1,0 +1,19 @@
+{
+  "problemId": 2847,
+  "title": "게임을 만든 동준이",
+  "tier": 7,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 9596,
+  "averageTries": 1.6713999509811401,
+  "latestSubmission": {
+    "id": 84880364,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 410,
+    "submittedAt": "1년 전"
+  }
+}

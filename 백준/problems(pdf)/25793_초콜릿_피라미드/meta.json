@@ -1,0 +1,19 @@
+{
+  "problemId": 25793,
+  "title": "초콜릿 피라미드",
+  "tier": 10,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 346,
+  "averageTries": 3.338200092315674,
+  "latestSubmission": {
+    "id": 104976844,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 44,
+    "codeLen": 740,
+    "submittedAt": "3일 전"
+  }
+}

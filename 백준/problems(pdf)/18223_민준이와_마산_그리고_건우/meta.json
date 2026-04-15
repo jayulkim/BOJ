@@ -1,0 +1,21 @@
+{
+  "problemId": 18223,
+  "title": "민준이와 마산 그리고 건우",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 1862,
+  "averageTries": 1.9098000526428223,
+  "latestSubmission": {
+    "id": 84892639,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2816,
+    "timeMs": 8,
+    "codeLen": 1491,
+    "submittedAt": "1년 전"
+  }
+}

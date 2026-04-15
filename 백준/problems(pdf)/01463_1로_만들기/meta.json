@@ -1,0 +1,19 @@
+{
+  "problemId": 1463,
+  "title": "1로 만들기",
+  "tier": 8,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 87890,
+  "averageTries": 2.9268999099731445,
+  "latestSubmission": {
+    "id": 84867594,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5020,
+    "timeMs": 4,
+    "codeLen": 619,
+    "submittedAt": "1년 전"
+  }
+}

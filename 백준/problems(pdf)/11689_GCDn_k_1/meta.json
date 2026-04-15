@@ -1,0 +1,21 @@
+{
+  "problemId": 11689,
+  "title": "GCD(n, k) = 1",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "euler_phi"
+  ],
+  "acceptedUserCount": 5970,
+  "averageTries": 2.427799940109253,
+  "latestSubmission": {
+    "id": 105005960,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 12,
+    "codeLen": 8039,
+    "submittedAt": "1일 전"
+  }
+}

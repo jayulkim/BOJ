@@ -1,0 +1,22 @@
+{
+  "problemId": 24444,
+  "title": "알고리즘 수업 - 너비 우선 탐색 1",
+  "tier": 9,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "sorting",
+    "bfs"
+  ],
+  "acceptedUserCount": 10527,
+  "averageTries": 2.0706000328063965,
+  "latestSubmission": {
+    "id": 93167598,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 11248,
+    "timeMs": 80,
+    "codeLen": 1015,
+    "submittedAt": "1년 전"
+  }
+}

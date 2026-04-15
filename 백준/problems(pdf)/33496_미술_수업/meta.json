@@ -1,0 +1,25 @@
+{
+  "problemId": 33496,
+  "title": "미술 수업",
+  "tier": 12,
+  "tags": [
+    "math",
+    "data_structures",
+    "geometry",
+    "binary_search",
+    "set",
+    "hash_set",
+    "sweeping"
+  ],
+  "acceptedUserCount": 150,
+  "averageTries": 2.0999999046325684,
+  "latestSubmission": {
+    "id": 90189382,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 60340,
+    "timeMs": 664,
+    "codeLen": 1238,
+    "submittedAt": "1년 전"
+  }
+}

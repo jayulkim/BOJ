@@ -1,0 +1,25 @@
+{
+  "problemId": 27978,
+  "title": "보물 찾기 2",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "shortest_path",
+    "dijkstra",
+    "grid_graph",
+    "0_1_bfs"
+  ],
+  "acceptedUserCount": 238,
+  "averageTries": 2.5840001106262207,
+  "latestSubmission": {
+    "id": 84894312,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 8968,
+    "timeMs": 32,
+    "codeLen": 1757,
+    "submittedAt": "1년 전"
+  }
+}

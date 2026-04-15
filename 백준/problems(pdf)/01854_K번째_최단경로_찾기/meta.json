@@ -1,0 +1,23 @@
+{
+  "problemId": 1854,
+  "title": "K번째 최단경로 찾기",
+  "tier": 17,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "shortest_path",
+    "dijkstra",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 5196,
+  "averageTries": 2.6672000885009766,
+  "latestSubmission": {
+    "id": 84868999,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 10080,
+    "timeMs": 104,
+    "codeLen": 1170,
+    "submittedAt": "1년 전"
+  }
+}

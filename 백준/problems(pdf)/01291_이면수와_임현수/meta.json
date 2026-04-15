@@ -1,0 +1,23 @@
+{
+  "problemId": 1291,
+  "title": "이면수와 임현수",
+  "tier": 8,
+  "tags": [
+    "math",
+    "implementation",
+    "number_theory",
+    "case_work",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 348,
+  "averageTries": 3.8649001121520996,
+  "latestSubmission": {
+    "id": 84866845,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2040,
+    "timeMs": 0,
+    "codeLen": 1071,
+    "submittedAt": "1년 전"
+  }
+}

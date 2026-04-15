@@ -1,0 +1,21 @@
+{
+  "problemId": 13975,
+  "title": "파일 합치기 3",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "greedy",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 5599,
+  "averageTries": 2.0129001140594482,
+  "latestSubmission": {
+    "id": 84889092,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8932,
+    "timeMs": 800,
+    "codeLen": 1653,
+    "submittedAt": "1년 전"
+  }
+}

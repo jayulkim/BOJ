@@ -1,0 +1,20 @@
+{
+  "problemId": 10845,
+  "title": "큐",
+  "tier": 7,
+  "tags": [
+    "data_structures",
+    "queue"
+  ],
+  "acceptedUserCount": 65127,
+  "averageTries": 1.993299961090088,
+  "latestSubmission": {
+    "id": 84884778,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1232,
+    "timeMs": 0,
+    "codeLen": 1273,
+    "submittedAt": "1년 전"
+  }
+}

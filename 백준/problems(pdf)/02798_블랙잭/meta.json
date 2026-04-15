@@ -1,0 +1,19 @@
+{
+  "problemId": 2798,
+  "title": "블랙잭",
+  "tier": 4,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 93942,
+  "averageTries": 1.9829000234603882,
+  "latestSubmission": {
+    "id": 84880180,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 40800,
+    "timeMs": 16,
+    "codeLen": 1380,
+    "submittedAt": "1년 전"
+  }
+}

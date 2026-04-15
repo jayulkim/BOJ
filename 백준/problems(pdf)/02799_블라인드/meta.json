@@ -1,0 +1,19 @@
+{
+  "problemId": 2799,
+  "title": "블라인드",
+  "tier": 7,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 1438,
+  "averageTries": 1.4332000017166138,
+  "latestSubmission": {
+    "id": 85948623,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2376,
+    "timeMs": 4,
+    "codeLen": 897,
+    "submittedAt": "1년 전"
+  }
+}

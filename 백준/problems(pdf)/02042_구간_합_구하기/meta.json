@@ -1,0 +1,20 @@
+{
+  "problemId": 2042,
+  "title": "구간 합 구하기",
+  "tier": 15,
+  "tags": [
+    "segtree",
+    "data_structures"
+  ],
+  "acceptedUserCount": 17643,
+  "averageTries": 3.7086000442504883,
+  "latestSubmission": {
+    "id": 86469082,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 41088,
+    "timeMs": 196,
+    "codeLen": 1422,
+    "submittedAt": "1년 전"
+  }
+}

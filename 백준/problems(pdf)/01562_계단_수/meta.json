@@ -1,0 +1,21 @@
+{
+  "problemId": 1562,
+  "title": "계단 수",
+  "tier": 15,
+  "tags": [
+    "dp",
+    "bitmask",
+    "dp_bitfield"
+  ],
+  "acceptedUserCount": 7433,
+  "averageTries": 1.8513000011444092,
+  "latestSubmission": {
+    "id": 104108164,
+    "result": "맞았습니다!!",
+    "language": "Kotlin (JVM)",
+    "memoryKb": 22820,
+    "timeMs": 108,
+    "codeLen": 1143,
+    "submittedAt": "26일 전"
+  }
+}

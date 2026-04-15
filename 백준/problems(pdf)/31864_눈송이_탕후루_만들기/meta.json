@@ -1,0 +1,25 @@
+{
+  "problemId": 31864,
+  "title": "눈송이 탕후루 만들기",
+  "tier": 13,
+  "tags": [
+    "math",
+    "data_structures",
+    "geometry",
+    "binary_search",
+    "set",
+    "hash_set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 117,
+  "averageTries": 3.7265000343322754,
+  "latestSubmission": {
+    "id": 86246042,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 66580,
+    "timeMs": 844,
+    "codeLen": 3208,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 1080,
+  "title": "행렬",
+  "tier": 10,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 10499,
+  "averageTries": 2.279599905014038,
+  "latestSubmission": {
+    "id": 84865399,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 1410,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 1679,
+  "title": "숫자놀이",
+  "tier": 10,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 592,
+  "averageTries": 1.9628000259399414,
+  "latestSubmission": {
+    "id": 85751416,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9840,
+    "timeMs": 4,
+    "codeLen": 927,
+    "submittedAt": "1년 전"
+  }
+}

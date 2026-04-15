@@ -1,0 +1,19 @@
+{
+  "problemId": 25822,
+  "title": "2000문제 푼 임스",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 199,
+  "averageTries": 3.0302000045776367,
+  "latestSubmission": {
+    "id": 84893777,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2412,
+    "timeMs": 8,
+    "codeLen": 625,
+    "submittedAt": "1년 전"
+  }
+}

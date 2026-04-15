@@ -1,0 +1,19 @@
+{
+  "problemId": 5339,
+  "title": "콜센터",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 18218,
+  "averageTries": 1.4961999654769897,
+  "latestSubmission": {
+    "id": 84881603,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 275,
+    "submittedAt": "1년 전"
+  }
+}

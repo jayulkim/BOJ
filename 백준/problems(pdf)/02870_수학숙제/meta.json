@@ -1,0 +1,21 @@
+{
+  "problemId": 2870,
+  "title": "수학숙제",
+  "tier": 7,
+  "tags": [
+    "string",
+    "sorting",
+    "parsing"
+  ],
+  "acceptedUserCount": 4947,
+  "averageTries": 3.0274999141693115,
+  "latestSubmission": {
+    "id": 84880420,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2036,
+    "timeMs": 0,
+    "codeLen": 1643,
+    "submittedAt": "1년 전"
+  }
+}

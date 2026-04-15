@@ -1,0 +1,20 @@
+{
+  "problemId": 14646,
+  "title": "욱제는 결정장애야!!",
+  "tier": 6,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 1042,
+  "averageTries": 1.8483999967575073,
+  "latestSubmission": {
+    "id": 84890125,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3684,
+    "timeMs": 20,
+    "codeLen": 454,
+    "submittedAt": "1년 전"
+  }
+}

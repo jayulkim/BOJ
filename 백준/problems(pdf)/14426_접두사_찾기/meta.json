@@ -1,0 +1,24 @@
+{
+  "problemId": 14426,
+  "title": "접두사 찾기",
+  "tier": 10,
+  "tags": [
+    "data_structures",
+    "string",
+    "trees",
+    "binary_search",
+    "set",
+    "trie"
+  ],
+  "acceptedUserCount": 2322,
+  "averageTries": 2.5292999744415283,
+  "latestSubmission": {
+    "id": 89286355,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 7636,
+    "timeMs": 48,
+    "codeLen": 777,
+    "submittedAt": "1년 전"
+  }
+}

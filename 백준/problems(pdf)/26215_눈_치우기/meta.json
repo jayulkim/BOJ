@@ -1,0 +1,22 @@
+{
+  "problemId": 26215,
+  "title": "눈 치우기",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "greedy",
+    "sorting",
+    "simulation"
+  ],
+  "acceptedUserCount": 1552,
+  "averageTries": 2.3691999912261963,
+  "latestSubmission": {
+    "id": 98322760,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 877,
+    "submittedAt": "7달 전"
+  }
+}

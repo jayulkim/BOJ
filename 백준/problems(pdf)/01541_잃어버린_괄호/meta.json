@@ -1,0 +1,22 @@
+{
+  "problemId": 1541,
+  "title": "잃어버린 괄호",
+  "tier": 9,
+  "tags": [
+    "math",
+    "greedy",
+    "string",
+    "parsing"
+  ],
+  "acceptedUserCount": 50998,
+  "averageTries": 1.7847000360488892,
+  "latestSubmission": {
+    "id": 84867948,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 5024,
+    "timeMs": 0,
+    "codeLen": 2237,
+    "submittedAt": "1년 전"
+  }
+}

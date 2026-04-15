@@ -1,0 +1,19 @@
+{
+  "problemId": 15962,
+  "title": "새로운 시작",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 14374,
+  "averageTries": 1.1339999437332153,
+  "latestSubmission": {
+    "id": 84891566,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 155,
+    "submittedAt": "1년 전"
+  }
+}

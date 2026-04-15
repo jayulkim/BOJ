@@ -1,0 +1,22 @@
+{
+  "problemId": 23352,
+  "title": "방탈출",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "bruteforcing",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 739,
+  "averageTries": 2.025700092315674,
+  "latestSubmission": {
+    "id": 87798981,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2184,
+    "timeMs": 148,
+    "codeLen": 1314,
+    "submittedAt": "1년 전"
+  }
+}

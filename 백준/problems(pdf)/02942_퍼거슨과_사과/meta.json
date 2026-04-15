@@ -1,0 +1,21 @@
+{
+  "problemId": 2942,
+  "title": "퍼거슨과 사과",
+  "tier": 9,
+  "tags": [
+    "math",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 1504,
+  "averageTries": 2.184799909591675,
+  "latestSubmission": {
+    "id": 84880596,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 680,
+    "codeLen": 742,
+    "submittedAt": "1년 전"
+  }
+}

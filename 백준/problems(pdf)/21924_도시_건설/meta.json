@@ -1,0 +1,20 @@
+{
+  "problemId": 21924,
+  "title": "도시 건설",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "mst"
+  ],
+  "acceptedUserCount": 2135,
+  "averageTries": 2.3480000495910645,
+  "latestSubmission": {
+    "id": 94097854,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 20584,
+    "timeMs": 232,
+    "codeLen": 1288,
+    "submittedAt": "11달 전"
+  }
+}

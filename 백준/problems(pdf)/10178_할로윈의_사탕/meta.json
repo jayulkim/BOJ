@@ -1,0 +1,20 @@
+{
+  "problemId": 10178,
+  "title": "할로윈의 사탕",
+  "tier": 3,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 6371,
+  "averageTries": 1.3472000360488892,
+  "latestSubmission": {
+    "id": 94823555,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 523,
+    "submittedAt": "10달 전"
+  }
+}

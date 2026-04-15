@@ -1,0 +1,22 @@
+{
+  "problemId": 14611,
+  "title": "월요병",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 179,
+  "averageTries": 3.284899950027466,
+  "latestSubmission": {
+    "id": 99083664,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 4044,
+    "timeMs": 24,
+    "codeLen": 2165,
+    "submittedAt": "6달 전"
+  }
+}

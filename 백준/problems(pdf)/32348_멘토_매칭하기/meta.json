@@ -1,0 +1,22 @@
+{
+  "problemId": 32348,
+  "title": "멘토 매칭하기",
+  "tier": 18,
+  "tags": [
+    "math",
+    "greedy",
+    "sorting",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 76,
+  "averageTries": 2.7894999980926514,
+  "latestSubmission": {
+    "id": 99828625,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 9928,
+    "timeMs": 88,
+    "codeLen": 2552,
+    "submittedAt": "5달 전"
+  }
+}

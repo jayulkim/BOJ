@@ -1,0 +1,23 @@
+{
+  "problemId": 7806,
+  "title": "GCD!",
+  "tier": 13,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve",
+    "prime_factorization"
+  ],
+  "acceptedUserCount": 447,
+  "averageTries": 3.988800048828125,
+  "latestSubmission": {
+    "id": 84882602,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1960,
+    "timeMs": 12,
+    "codeLen": 1741,
+    "submittedAt": "1년 전"
+  }
+}

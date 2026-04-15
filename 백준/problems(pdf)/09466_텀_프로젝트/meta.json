@@ -1,0 +1,21 @@
+{
+  "problemId": 9466,
+  "title": "텀 프로젝트",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "dfs"
+  ],
+  "acceptedUserCount": 15920,
+  "averageTries": 3.961899995803833,
+  "latestSubmission": {
+    "id": 84883283,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 7264,
+    "timeMs": 604,
+    "codeLen": 807,
+    "submittedAt": "1년 전"
+  }
+}

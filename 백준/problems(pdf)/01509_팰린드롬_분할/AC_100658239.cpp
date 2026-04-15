@@ -1,0 +1,64 @@
+#include <bits/stdc++.h>
+#define all(v) (v).begin(), (v).end()
+#define len(str) str.length()
+using namespace std;
+typedef long long ll;
+typedef unsigned long long ull;
+typedef long double ld;
+typedef tuple<ll, ll, ll> lll;
+typedef tuple<ll, ll, ll, ll> llll;
+typedef tuple<ll, ll, ll, ll, ll> lllll;
+typedef tuple<ll, ll, vector<ll>> llv;
+typedef pair<ll, ll> pll;
+typedef pair<ll, string> pls;
+typedef pair<ll, char> plc;
+typedef pair<ll, vector<ll>> plv;
+ll n = 0, m = 0, k = 0;
+
+int main(void) {
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    string str = "";
+    cin >> str;
+    vector<vector<ll>>pal(len(str) + 1, vector<ll>(len(str) + 1, 0));
+    vector<ll>dp(len(str) + 1, -1);
+    for (int i = 0; i < len(str); i++) {
+        for (int j = 0; j < len(str); j++) {
+            if (i - j >= 0 && i + j < len(str) && str[i - j] == str[i + j]) {
+                pal[i - j][i + j] = 1;
+            }
+            else {
+                break;
+            }
+        }
+    }
+    for (int i = 0; i < len(str) - 1; i++) {
+        if (str[i] == str[i + 1]) {
+            for (int j = 0; j < len(str); j++) {
+                if (i - j >= 0 && i + j + 1 < len(str) && str[i - j] == str[i + j + 1]) {
+                    pal[i - j][i + j + 1] = 1;
+                }
+                else {
+                    break;
+                }
+            }
+        }
+    }
+    function<ll(ll)> dfs = [&](ll a) -> ll {
+        if (a == len(str)) {
+            return 0;
+        }
+        if (dp[a] != -1) {
+            return dp[a];
+        }
+        ll weight = len(str);
+        for (int i = a; i < len(str); i++) {
+            if (pal[a][i]) {
+                weight = min(weight, dfs(i + 1) + 1);
+            }
+        }
+        return dp[a] = weight;
+        };
+    cout << dfs(0);
+    return 0;
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 14217,
+  "title": "그래프 탐색",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 423,
+  "averageTries": 1.7589000463485718,
+  "latestSubmission": {
+    "id": 84889334,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3340,
+    "timeMs": 68,
+    "codeLen": 1556,
+    "submittedAt": "1년 전"
+  }
+}

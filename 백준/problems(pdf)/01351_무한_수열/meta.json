@@ -1,0 +1,22 @@
+{
+  "problemId": 1351,
+  "title": "무한 수열",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "data_structures",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 5580,
+  "averageTries": 2.6256000995635986,
+  "latestSubmission": {
+    "id": 88093356,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2156,
+    "timeMs": 0,
+    "codeLen": 465,
+    "submittedAt": "1년 전"
+  }
+}

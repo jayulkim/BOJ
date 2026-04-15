@@ -1,0 +1,21 @@
+{
+  "problemId": 4355,
+  "title": "서로소",
+  "tier": 15,
+  "tags": [
+    "math",
+    "number_theory",
+    "euler_phi"
+  ],
+  "acceptedUserCount": 1062,
+  "averageTries": 3.565000057220459,
+  "latestSubmission": {
+    "id": 84881179,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3068,
+    "timeMs": 8,
+    "codeLen": 1576,
+    "submittedAt": "1년 전"
+  }
+}

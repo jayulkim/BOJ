@@ -1,0 +1,22 @@
+{
+  "problemId": 14461,
+  "title": "소가 길을 건너간 이유 7",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 597,
+  "averageTries": 2.128999948501587,
+  "latestSubmission": {
+    "id": 97550961,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2824,
+    "timeMs": 4,
+    "codeLen": 1836,
+    "submittedAt": "7달 전"
+  }
+}

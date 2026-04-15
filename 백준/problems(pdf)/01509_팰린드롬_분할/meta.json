@@ -1,0 +1,19 @@
+{
+  "problemId": 1509,
+  "title": "팰린드롬 분할",
+  "tier": 15,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 5927,
+  "averageTries": 2.0515999794006348,
+  "latestSubmission": {
+    "id": 100658239,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 51148,
+    "timeMs": 72,
+    "codeLen": 1791,
+    "submittedAt": "4달 전"
+  }
+}

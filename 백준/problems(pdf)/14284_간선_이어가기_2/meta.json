@@ -1,0 +1,21 @@
+{
+  "problemId": 14284,
+  "title": "간선 이어가기 2",
+  "tier": 11,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 2231,
+  "averageTries": 1.6543999910354614,
+  "latestSubmission": {
+    "id": 92308502,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4864,
+    "timeMs": 24,
+    "codeLen": 1066,
+    "submittedAt": "1년 전"
+  }
+}

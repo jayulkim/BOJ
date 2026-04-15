@@ -1,0 +1,19 @@
+{
+  "problemId": 10597,
+  "title": "순열장난",
+  "tier": 11,
+  "tags": [
+    "backtracking"
+  ],
+  "acceptedUserCount": 1505,
+  "averageTries": 3.220599889755249,
+  "latestSubmission": {
+    "id": 85751039,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 4,
+    "codeLen": 1619,
+    "submittedAt": "1년 전"
+  }
+}

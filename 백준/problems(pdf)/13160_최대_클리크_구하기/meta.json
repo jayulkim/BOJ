@@ -1,0 +1,22 @@
+{
+  "problemId": 13160,
+  "title": "최대 클리크 구하기",
+  "tier": 13,
+  "tags": [
+    "sorting",
+    "sweeping",
+    "coordinate_compression",
+    "difference_array"
+  ],
+  "acceptedUserCount": 463,
+  "averageTries": 2.4686999320983887,
+  "latestSubmission": {
+    "id": 104339423,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 47904,
+    "timeMs": 424,
+    "codeLen": 987,
+    "submittedAt": "20일 전"
+  }
+}

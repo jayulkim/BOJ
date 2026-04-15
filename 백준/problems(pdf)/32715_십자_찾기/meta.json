@@ -1,0 +1,19 @@
+{
+  "problemId": 32715,
+  "title": "십자 찾기",
+  "tier": 11,
+  "tags": [
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 182,
+  "averageTries": 1.945099949836731,
+  "latestSubmission": {
+    "id": 87284296,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 99756,
+    "timeMs": 388,
+    "codeLen": 886,
+    "submittedAt": "1년 전"
+  }
+}

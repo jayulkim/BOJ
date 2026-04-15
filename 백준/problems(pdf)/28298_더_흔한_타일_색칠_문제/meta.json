@@ -1,0 +1,21 @@
+{
+  "problemId": 28298,
+  "title": "더 흔한 타일 색칠 문제",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "greedy",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 570,
+  "averageTries": 1.705299973487854,
+  "latestSubmission": {
+    "id": 84894387,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1468,
+    "timeMs": 24,
+    "codeLen": 4344,
+    "submittedAt": "1년 전"
+  }
+}

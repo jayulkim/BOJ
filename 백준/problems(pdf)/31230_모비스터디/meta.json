@@ -1,0 +1,23 @@
+{
+  "problemId": 31230,
+  "title": "모비스터디",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "shortest_path",
+    "dijkstra",
+    "traceback"
+  ],
+  "acceptedUserCount": 371,
+  "averageTries": 3.396199941635132,
+  "latestSubmission": {
+    "id": 89778000,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 34196,
+    "timeMs": 304,
+    "codeLen": 2104,
+    "submittedAt": "1년 전"
+  }
+}

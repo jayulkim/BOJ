@@ -1,0 +1,21 @@
+{
+  "problemId": 9470,
+  "title": "Strahler 순서",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 1770,
+  "averageTries": 2.4277000427246094,
+  "latestSubmission": {
+    "id": 86465255,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2212,
+    "timeMs": 0,
+    "codeLen": 1393,
+    "submittedAt": "1년 전"
+  }
+}

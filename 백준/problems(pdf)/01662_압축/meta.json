@@ -1,0 +1,21 @@
+{
+  "problemId": 1662,
+  "title": "압축",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "stack",
+    "recursion"
+  ],
+  "acceptedUserCount": 3019,
+  "averageTries": 2.6777000427246094,
+  "latestSubmission": {
+    "id": 100345339,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 0,
+    "codeLen": 1081,
+    "submittedAt": "4달 전"
+  }
+}

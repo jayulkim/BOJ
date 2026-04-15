@@ -1,0 +1,19 @@
+{
+  "problemId": 11048,
+  "title": "이동하기",
+  "tier": 9,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 17177,
+  "averageTries": 1.6830999851226807,
+  "latestSubmission": {
+    "id": 87450001,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9848,
+    "timeMs": 68,
+    "codeLen": 618,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 25427,
+  "title": "DKSH를 찾아라",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 373,
+  "averageTries": 2.104599952697754,
+  "latestSubmission": {
+    "id": 89039228,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 6300,
+    "timeMs": 4,
+    "codeLen": 723,
+    "submittedAt": "1년 전"
+  }
+}

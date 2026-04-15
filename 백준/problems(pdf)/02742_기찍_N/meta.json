@@ -1,0 +1,19 @@
+{
+  "problemId": 2742,
+  "title": "기찍 N",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 123331,
+  "averageTries": 1.4520000219345093,
+  "latestSubmission": {
+    "id": 84879923,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 8,
+    "codeLen": 215,
+    "submittedAt": "1년 전"
+  }
+}

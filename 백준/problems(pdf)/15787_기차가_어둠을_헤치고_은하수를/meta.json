@@ -1,0 +1,20 @@
+{
+  "problemId": 15787,
+  "title": "기차가 어둠을 헤치고 은하수를",
+  "tier": 9,
+  "tags": [
+    "implementation",
+    "bitmask"
+  ],
+  "acceptedUserCount": 2552,
+  "averageTries": 3.2899999618530273,
+  "latestSubmission": {
+    "id": 84891181,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3068,
+    "timeMs": 16,
+    "codeLen": 725,
+    "submittedAt": "1년 전"
+  }
+}

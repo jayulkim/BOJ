@@ -1,0 +1,21 @@
+{
+  "problemId": 2477,
+  "title": "참외밭",
+  "tier": 9,
+  "tags": [
+    "math",
+    "implementation",
+    "geometry"
+  ],
+  "acceptedUserCount": 11286,
+  "averageTries": 2.6452999114990234,
+  "latestSubmission": {
+    "id": 84879119,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1092,
+    "submittedAt": "1년 전"
+  }
+}

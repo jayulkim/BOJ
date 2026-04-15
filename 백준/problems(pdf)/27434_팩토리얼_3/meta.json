@@ -1,0 +1,21 @@
+{
+  "problemId": 27434,
+  "title": "팩토리얼 3",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 5174,
+  "averageTries": 2.1870999336242676,
+  "latestSubmission": {
+    "id": 84894208,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 212476,
+    "timeMs": 2964,
+    "codeLen": 71,
+    "submittedAt": "1년 전"
+  }
+}

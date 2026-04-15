@@ -1,0 +1,23 @@
+{
+  "problemId": 35184,
+  "title": "수돗물과 게 임",
+  "tier": 14,
+  "tags": [
+    "implementation",
+    "graphs",
+    "shortest_path",
+    "dijkstra",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 99,
+  "averageTries": 1.4746999740600586,
+  "latestSubmission": {
+    "id": 102731764,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 26320,
+    "timeMs": 380,
+    "codeLen": 3483,
+    "submittedAt": "2달 전"
+  }
+}

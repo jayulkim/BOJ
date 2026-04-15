@@ -1,0 +1,20 @@
+{
+  "problemId": 2643,
+  "title": "색종이 올려 놓기",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "sorting"
+  ],
+  "acceptedUserCount": 1872,
+  "averageTries": 2.714200019836426,
+  "latestSubmission": {
+    "id": 91595635,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 824,
+    "submittedAt": "1년 전"
+  }
+}

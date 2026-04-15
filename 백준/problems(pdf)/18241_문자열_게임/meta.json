@@ -1,0 +1,23 @@
+{
+  "problemId": 18241,
+  "title": "문자열 게임",
+  "tier": 18,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "string",
+    "stack",
+    "deque"
+  ],
+  "acceptedUserCount": 71,
+  "averageTries": 8.211299896240234,
+  "latestSubmission": {
+    "id": 84892662,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 2316,
+    "timeMs": 8,
+    "codeLen": 6511,
+    "submittedAt": "1년 전"
+  }
+}

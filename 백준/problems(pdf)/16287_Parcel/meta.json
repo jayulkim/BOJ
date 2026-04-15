@@ -1,0 +1,20 @@
+{
+  "problemId": 16287,
+  "title": "Parcel",
+  "tier": 16,
+  "tags": [
+    "dp",
+    "mitm"
+  ],
+  "acceptedUserCount": 1583,
+  "averageTries": 4.312699794769287,
+  "latestSubmission": {
+    "id": 85304672,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 5288,
+    "timeMs": 36,
+    "codeLen": 610,
+    "submittedAt": "1년 전"
+  }
+}

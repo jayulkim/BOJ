@@ -1,0 +1,20 @@
+{
+  "problemId": 5692,
+  "title": "팩토리얼 진법",
+  "tier": 3,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 2325,
+  "averageTries": 2.2026000022888184,
+  "latestSubmission": {
+    "id": 84882040,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 24,
+    "codeLen": 1890,
+    "submittedAt": "1년 전"
+  }
+}

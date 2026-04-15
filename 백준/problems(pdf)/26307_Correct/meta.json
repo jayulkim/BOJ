@@ -1,0 +1,20 @@
+{
+  "problemId": 26307,
+  "title": "Correct",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 4061,
+  "averageTries": 1.167199969291687,
+  "latestSubmission": {
+    "id": 84893989,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 444,
+    "submittedAt": "1년 전"
+  }
+}

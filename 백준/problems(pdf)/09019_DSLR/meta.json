@@ -1,0 +1,22 @@
+{
+  "problemId": 9019,
+  "title": "DSLR",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "traceback"
+  ],
+  "acceptedUserCount": 18002,
+  "averageTries": 4.565899848937988,
+  "latestSubmission": {
+    "id": 100631487,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2444,
+    "timeMs": 2688,
+    "codeLen": 2454,
+    "submittedAt": "4달 전"
+  }
+}

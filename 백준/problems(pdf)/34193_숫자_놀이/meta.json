@@ -1,0 +1,20 @@
+{
+  "problemId": 34193,
+  "title": "숫자 놀이",
+  "tier": 16,
+  "tags": [
+    "math",
+    "number_theory"
+  ],
+  "acceptedUserCount": 57,
+  "averageTries": 1.596500039100647,
+  "latestSubmission": {
+    "id": 98083307,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 20,
+    "codeLen": 1087,
+    "submittedAt": "7달 전"
+  }
+}

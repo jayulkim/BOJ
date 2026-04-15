@@ -1,0 +1,20 @@
+{
+  "problemId": 22115,
+  "title": "창영이와 커피",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "knapsack"
+  ],
+  "acceptedUserCount": 872,
+  "averageTries": 2.6031999588012695,
+  "latestSubmission": {
+    "id": 93730881,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 82112,
+    "timeMs": 96,
+    "codeLen": 1053,
+    "submittedAt": "11달 전"
+  }
+}

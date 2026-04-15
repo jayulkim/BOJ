@@ -1,0 +1,22 @@
+{
+  "problemId": 33147,
+  "title": "$K$-정렬",
+  "tier": 10,
+  "tags": [
+    "math",
+    "sorting",
+    "number_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 287,
+  "averageTries": 2.376300096511841,
+  "latestSubmission": {
+    "id": 99167987,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 58044,
+    "timeMs": 220,
+    "codeLen": 1509,
+    "submittedAt": "6달 전"
+  }
+}

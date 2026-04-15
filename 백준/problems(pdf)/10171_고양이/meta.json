@@ -1,0 +1,19 @@
+{
+  "problemId": 10171,
+  "title": "고양이",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 213627,
+  "averageTries": 2.72979998588562,
+  "latestSubmission": {
+    "id": 84883899,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 138,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 15792,
+  "title": "A/B - 2",
+  "tier": 5,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 2342,
+  "averageTries": 2.6623001098632812,
+  "latestSubmission": {
+    "id": 84891217,
+    "result": "2000점",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 472,
+    "submittedAt": "1년 전"
+  }
+}

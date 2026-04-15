@@ -1,0 +1,21 @@
+{
+  "problemId": 16493,
+  "title": "최대 페이지 수",
+  "tier": 9,
+  "tags": [
+    "dp",
+    "bruteforcing",
+    "knapsack"
+  ],
+  "acceptedUserCount": 1641,
+  "averageTries": 1.5270999670028687,
+  "latestSubmission": {
+    "id": 84892001,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2036,
+    "timeMs": 0,
+    "codeLen": 606,
+    "submittedAt": "1년 전"
+  }
+}

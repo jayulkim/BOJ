@@ -1,0 +1,22 @@
+{
+  "problemId": 7677,
+  "title": "Fibonacci",
+  "tier": 14,
+  "tags": [
+    "math",
+    "number_theory",
+    "exponentiation_by_squaring",
+    "pisano"
+  ],
+  "acceptedUserCount": 934,
+  "averageTries": 1.3554999828338623,
+  "latestSubmission": {
+    "id": 84882574,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1168,
+    "timeMs": 0,
+    "codeLen": 474,
+    "submittedAt": "1년 전"
+  }
+}

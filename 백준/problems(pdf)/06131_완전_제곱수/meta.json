@@ -1,0 +1,21 @@
+{
+  "problemId": 6131,
+  "title": "완전 제곱수",
+  "tier": 3,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 3382,
+  "averageTries": 1.3547999858856201,
+  "latestSubmission": {
+    "id": 84882142,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 345,
+    "submittedAt": "1년 전"
+  }
+}

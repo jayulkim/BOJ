@@ -1,0 +1,21 @@
+{
+  "problemId": 20096,
+  "title": "Sudoku 3",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "constructive",
+    "heuristics"
+  ],
+  "acceptedUserCount": 148,
+  "averageTries": 1.6756999492645264,
+  "latestSubmission": {
+    "id": 93574497,
+    "result": "10점",
+    "language": "Text",
+    "memoryKb": 4528,
+    "timeMs": 0,
+    "codeLen": 161,
+    "submittedAt": "11달 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 32458,
+  "title": "Just Round Down",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 2086,
+  "averageTries": 1.3207000494003296,
+  "latestSubmission": {
+    "id": 91507323,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 305,
+    "submittedAt": "1년 전"
+  }
+}

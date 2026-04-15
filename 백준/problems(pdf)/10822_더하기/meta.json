@@ -1,0 +1,23 @@
+{
+  "problemId": 10822,
+  "title": "더하기",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation",
+    "string",
+    "arithmetic",
+    "parsing"
+  ],
+  "acceptedUserCount": 5277,
+  "averageTries": 1.2131999731063843,
+  "latestSubmission": {
+    "id": 96097419,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 650,
+    "submittedAt": "9달 전"
+  }
+}

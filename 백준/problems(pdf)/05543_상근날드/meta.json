@@ -1,0 +1,20 @@
+{
+  "problemId": 5543,
+  "title": "상근날드",
+  "tier": 2,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 30642,
+  "averageTries": 1.4622000455856323,
+  "latestSubmission": {
+    "id": 84881742,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 413,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 28099,
+  "title": "이상한 배열",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "segtree",
+    "set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 229,
+  "averageTries": 3.074199914932251,
+  "latestSubmission": {
+    "id": 88323315,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 6264,
+    "timeMs": 48,
+    "codeLen": 959,
+    "submittedAt": "1년 전"
+  }
+}

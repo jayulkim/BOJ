@@ -1,0 +1,19 @@
+{
+  "problemId": 1455,
+  "title": "뒤집기 II",
+  "tier": 10,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 925,
+  "averageTries": 1.5880999565124512,
+  "latestSubmission": {
+    "id": 84867551,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 919,
+    "submittedAt": "1년 전"
+  }
+}

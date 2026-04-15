@@ -1,0 +1,21 @@
+{
+  "problemId": 2839,
+  "title": "설탕 배달",
+  "tier": 7,
+  "tags": [
+    "dp",
+    "greedy",
+    "math"
+  ],
+  "acceptedUserCount": 116655,
+  "averageTries": 2.5660998821258545,
+  "latestSubmission": {
+    "id": 84880330,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 488,
+    "submittedAt": "1년 전"
+  }
+}

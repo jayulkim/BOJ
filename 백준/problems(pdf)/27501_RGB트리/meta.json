@@ -1,0 +1,22 @@
+{
+  "problemId": 27501,
+  "title": "RGB트리",
+  "tier": 15,
+  "tags": [
+    "dp",
+    "trees",
+    "dp_tree",
+    "traceback"
+  ],
+  "acceptedUserCount": 275,
+  "averageTries": 2.276400089263916,
+  "latestSubmission": {
+    "id": 86235604,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 90400,
+    "timeMs": 716,
+    "codeLen": 1634,
+    "submittedAt": "1년 전"
+  }
+}

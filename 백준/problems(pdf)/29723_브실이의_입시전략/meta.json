@@ -1,0 +1,22 @@
+{
+  "problemId": 29723,
+  "title": "브실이의 입시전략",
+  "tier": 6,
+  "tags": [
+    "data_structures",
+    "sorting",
+    "set",
+    "hash_set"
+  ],
+  "acceptedUserCount": 765,
+  "averageTries": 1.9556000232696533,
+  "latestSubmission": {
+    "id": 84894554,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1980,
+    "timeMs": 8,
+    "codeLen": 1529,
+    "submittedAt": "1년 전"
+  }
+}

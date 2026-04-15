@@ -1,0 +1,21 @@
+{
+  "problemId": 1977,
+  "title": "완전제곱수",
+  "tier": 4,
+  "tags": [
+    "math",
+    "implementation",
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 18668,
+  "averageTries": 2.0350000858306885,
+  "latestSubmission": {
+    "id": 94954290,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 743,
+    "submittedAt": "10달 전"
+  }
+}

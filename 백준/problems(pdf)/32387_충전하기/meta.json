@@ -1,0 +1,21 @@
+{
+  "problemId": 32387,
+  "title": "충전하기",
+  "tier": 12,
+  "tags": [
+    "data_structures",
+    "set",
+    "tree_set"
+  ],
+  "acceptedUserCount": 169,
+  "averageTries": 2.4911000728607178,
+  "latestSubmission": {
+    "id": 84905822,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 72404,
+    "timeMs": 1480,
+    "codeLen": 895,
+    "submittedAt": "1년 전"
+  }
+}

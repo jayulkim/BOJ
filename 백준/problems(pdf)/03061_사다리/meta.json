@@ -1,0 +1,20 @@
+{
+  "problemId": 3061,
+  "title": "사다리",
+  "tier": 9,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 498,
+  "averageTries": 1.6385999917984009,
+  "latestSubmission": {
+    "id": 101234924,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 68,
+    "codeLen": 1036,
+    "submittedAt": "3달 전"
+  }
+}

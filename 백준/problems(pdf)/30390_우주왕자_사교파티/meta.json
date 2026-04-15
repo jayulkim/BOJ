@@ -1,0 +1,20 @@
+{
+  "problemId": 30390,
+  "title": "우주왕자 사교파티",
+  "tier": 13,
+  "tags": [
+    "math",
+    "number_theory"
+  ],
+  "acceptedUserCount": 135,
+  "averageTries": 2.6222000122070312,
+  "latestSubmission": {
+    "id": 101496318,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 926,
+    "submittedAt": "3달 전"
+  }
+}

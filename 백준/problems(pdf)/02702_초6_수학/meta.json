@@ -1,0 +1,22 @@
+{
+  "problemId": 2702,
+  "title": "초6 수학",
+  "tier": 4,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 5439,
+  "averageTries": 1.3593000173568726,
+  "latestSubmission": {
+    "id": 84879839,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 699,
+    "submittedAt": "1년 전"
+  }
+}

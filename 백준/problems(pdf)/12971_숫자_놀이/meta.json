@@ -1,0 +1,21 @@
+{
+  "problemId": 12971,
+  "title": "숫자 놀이",
+  "tier": 7,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "number_theory"
+  ],
+  "acceptedUserCount": 413,
+  "averageTries": 2.043600082397461,
+  "latestSubmission": {
+    "id": 85882076,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 1960,
+    "codeLen": 622,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 4458,
+  "title": "첫 글자를 대문자로",
+  "tier": 3,
+  "tags": [
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 7540,
+  "averageTries": 1.9049999713897705,
+  "latestSubmission": {
+    "id": 96353606,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 511,
+    "submittedAt": "9달 전"
+  }
+}

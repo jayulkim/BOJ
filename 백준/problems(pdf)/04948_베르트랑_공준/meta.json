@@ -1,0 +1,22 @@
+{
+  "problemId": 4948,
+  "title": "베르트랑 공준",
+  "tier": 9,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "sieve"
+  ],
+  "acceptedUserCount": 39966,
+  "averageTries": 2.498199939727783,
+  "latestSubmission": {
+    "id": 84881424,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 448,
+    "codeLen": 630,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 33613,
+  "title": "나이트의 이동",
+  "tier": 8,
+  "tags": [
+    "ad_hoc",
+    "parity"
+  ],
+  "acceptedUserCount": 355,
+  "averageTries": 3.1070001125335693,
+  "latestSubmission": {
+    "id": 91498826,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 516,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 3613,
+  "title": "Java vs C++",
+  "tier": 8,
+  "tags": [
+    "implementation",
+    "string",
+    "case_work",
+    "parsing"
+  ],
+  "acceptedUserCount": 2946,
+  "averageTries": 4.618100166320801,
+  "latestSubmission": {
+    "id": 84880973,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 2486,
+    "submittedAt": "1년 전"
+  }
+}

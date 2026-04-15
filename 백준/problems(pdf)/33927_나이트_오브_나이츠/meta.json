@@ -1,0 +1,20 @@
+{
+  "problemId": 33927,
+  "title": "나이트 오브 나이츠",
+  "tier": 9,
+  "tags": [
+    "bruteforcing",
+    "backtracking"
+  ],
+  "acceptedUserCount": 132,
+  "averageTries": 1.2273000478744507,
+  "latestSubmission": {
+    "id": 98447219,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2088,
+    "timeMs": 4,
+    "codeLen": 2036,
+    "submittedAt": "7달 전"
+  }
+}

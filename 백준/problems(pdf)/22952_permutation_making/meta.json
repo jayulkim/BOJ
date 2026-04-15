@@ -1,0 +1,20 @@
+{
+  "problemId": 22952,
+  "title": "permutation making",
+  "tier": 8,
+  "tags": [
+    "math",
+    "constructive"
+  ],
+  "acceptedUserCount": 304,
+  "averageTries": 1.8223999738693237,
+  "latestSubmission": {
+    "id": 86665792,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 8,
+    "codeLen": 429,
+    "submittedAt": "1년 전"
+  }
+}

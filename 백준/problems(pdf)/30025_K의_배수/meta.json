@@ -1,0 +1,21 @@
+{
+  "problemId": 30025,
+  "title": "K의 배수",
+  "tier": 13,
+  "tags": [
+    "math",
+    "dp",
+    "dp_digit"
+  ],
+  "acceptedUserCount": 154,
+  "averageTries": 1.3312000036239624,
+  "latestSubmission": {
+    "id": 105035047,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2896,
+    "timeMs": 12,
+    "codeLen": 20456,
+    "submittedAt": "20시간 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 5525,
+  "title": "IOIOI",
+  "tier": 10,
+  "tags": [
+    "string"
+  ],
+  "acceptedUserCount": 14411,
+  "averageTries": 3.285399913787842,
+  "latestSubmission": {
+    "id": 84881712,
+    "result": "100점",
+    "language": "C++17",
+    "memoryKb": 6056,
+    "timeMs": 432,
+    "codeLen": 753,
+    "submittedAt": "1년 전"
+  }
+}

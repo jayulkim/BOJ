@@ -1,0 +1,23 @@
+{
+  "problemId": 2573,
+  "title": "빙산",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs"
+  ],
+  "acceptedUserCount": 20892,
+  "averageTries": 3.6126999855041504,
+  "latestSubmission": {
+    "id": 84879452,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3096,
+    "timeMs": 116,
+    "codeLen": 1818,
+    "submittedAt": "1년 전"
+  }
+}

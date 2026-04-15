@@ -1,0 +1,22 @@
+{
+  "problemId": 5615,
+  "title": "아파트 임대",
+  "tier": 20,
+  "tags": [
+    "miller_rabin",
+    "number_theory",
+    "math",
+    "primality_test"
+  ],
+  "acceptedUserCount": 1673,
+  "averageTries": 4.7621002197265625,
+  "latestSubmission": {
+    "id": 84881917,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 460,
+    "codeLen": 1395,
+    "submittedAt": "1년 전"
+  }
+}

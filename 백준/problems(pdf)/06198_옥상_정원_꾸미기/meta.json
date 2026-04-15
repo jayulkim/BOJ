@@ -1,0 +1,20 @@
+{
+  "problemId": 6198,
+  "title": "옥상 정원 꾸미기",
+  "tier": 11,
+  "tags": [
+    "data_structures",
+    "stack"
+  ],
+  "acceptedUserCount": 8719,
+  "averageTries": 2.77810001373291,
+  "latestSubmission": {
+    "id": 84882184,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1896,
+    "timeMs": 12,
+    "codeLen": 880,
+    "submittedAt": "1년 전"
+  }
+}

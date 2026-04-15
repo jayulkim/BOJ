@@ -1,0 +1,19 @@
+{
+  "problemId": 32931,
+  "title": "자석 놀이",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 159,
+  "averageTries": 2.7483999729156494,
+  "latestSubmission": {
+    "id": 87293932,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9832,
+    "timeMs": 60,
+    "codeLen": 1715,
+    "submittedAt": "1년 전"
+  }
+}

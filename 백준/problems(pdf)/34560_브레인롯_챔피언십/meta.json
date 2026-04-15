@@ -1,0 +1,21 @@
+{
+  "problemId": 34560,
+  "title": "브레인롯 챔피언십",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 79,
+  "averageTries": 2.3290998935699463,
+  "latestSubmission": {
+    "id": 99144448,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 16808,
+    "timeMs": 72,
+    "codeLen": 1958,
+    "submittedAt": "6달 전"
+  }
+}

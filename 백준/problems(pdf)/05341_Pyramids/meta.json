@@ -1,0 +1,21 @@
+{
+  "problemId": 5341,
+  "title": "Pyramids",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 6285,
+  "averageTries": 1.403499960899353,
+  "latestSubmission": {
+    "id": 84881617,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 321,
+    "submittedAt": "1년 전"
+  }
+}

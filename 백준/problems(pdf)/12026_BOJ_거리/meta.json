@@ -1,0 +1,19 @@
+{
+  "problemId": 12026,
+  "title": "BOJ 거리",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 2341,
+  "averageTries": 1.5827000141143799,
+  "latestSubmission": {
+    "id": 97412433,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2176,
+    "timeMs": 4,
+    "codeLen": 1067,
+    "submittedAt": "8달 전"
+  }
+}

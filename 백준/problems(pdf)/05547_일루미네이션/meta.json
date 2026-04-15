@@ -1,0 +1,22 @@
+{
+  "problemId": 5547,
+  "title": "일루미네이션",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "bfs",
+    "dfs"
+  ],
+  "acceptedUserCount": 955,
+  "averageTries": 1.6334999799728394,
+  "latestSubmission": {
+    "id": 87592883,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2204,
+    "timeMs": 0,
+    "codeLen": 1537,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 14489,
+  "title": "치킨 두 마리 (...)",
+  "tier": 2,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 7093,
+  "averageTries": 1.6694999933242798,
+  "latestSubmission": {
+    "id": 84889758,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 407,
+    "submittedAt": "1년 전"
+  }
+}

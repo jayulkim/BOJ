@@ -1,0 +1,21 @@
+{
+  "problemId": 25958,
+  "title": "예쁜수",
+  "tier": 12,
+  "tags": [
+    "math",
+    "dp",
+    "knapsack"
+  ],
+  "acceptedUserCount": 203,
+  "averageTries": 1.374400019645691,
+  "latestSubmission": {
+    "id": 84893886,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1172,
+    "timeMs": 40,
+    "codeLen": 643,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 11049,
+  "title": "행렬 곱셈 순서",
+  "tier": 13,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 15845,
+  "averageTries": 2.2667999267578125,
+  "latestSubmission": {
+    "id": 100589530,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 4200,
+    "timeMs": 220,
+    "codeLen": 1128,
+    "submittedAt": "4달 전"
+  }
+}

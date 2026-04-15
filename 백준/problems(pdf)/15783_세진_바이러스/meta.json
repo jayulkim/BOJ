@@ -1,0 +1,21 @@
+{
+  "problemId": 15783,
+  "title": "세진 바이러스",
+  "tier": 17,
+  "tags": [
+    "graphs",
+    "dag",
+    "scc"
+  ],
+  "acceptedUserCount": 467,
+  "averageTries": 2.391900062561035,
+  "latestSubmission": {
+    "id": 92566076,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 14592,
+    "timeMs": 96,
+    "codeLen": 1617,
+    "submittedAt": "1년 전"
+  }
+}

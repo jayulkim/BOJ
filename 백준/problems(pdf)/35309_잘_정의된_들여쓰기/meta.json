@@ -1,0 +1,22 @@
+{
+  "problemId": 35309,
+  "title": "잘 정의된 들여쓰기",
+  "tier": 12,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "greedy",
+    "stack"
+  ],
+  "acceptedUserCount": 69,
+  "averageTries": 2.1013998985290527,
+  "latestSubmission": {
+    "id": 103787561,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 4252,
+    "timeMs": 68,
+    "codeLen": 1370,
+    "submittedAt": "1달 전"
+  }
+}

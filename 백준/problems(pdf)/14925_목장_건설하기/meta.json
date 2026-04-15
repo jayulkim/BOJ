@@ -1,0 +1,20 @@
+{
+  "problemId": 14925,
+  "title": "목장 건설하기",
+  "tier": 12,
+  "tags": [
+    "dp",
+    "prefix_sum"
+  ],
+  "acceptedUserCount": 1165,
+  "averageTries": 2.4790000915527344,
+  "latestSubmission": {
+    "id": 84890422,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 12860,
+    "timeMs": 96,
+    "codeLen": 1108,
+    "submittedAt": "1년 전"
+  }
+}

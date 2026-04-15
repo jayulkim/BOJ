@@ -1,0 +1,19 @@
+{
+  "problemId": 6840,
+  "title": "Who is in the middle?",
+  "tier": 1,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 6531,
+  "averageTries": 1.3459999561309814,
+  "latestSubmission": {
+    "id": 84882290,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 478,
+    "submittedAt": "1년 전"
+  }
+}

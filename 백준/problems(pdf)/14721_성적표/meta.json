@@ -1,0 +1,19 @@
+{
+  "problemId": 14721,
+  "title": "성적표",
+  "tier": 6,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 401,
+  "averageTries": 2.3914999961853027,
+  "latestSubmission": {
+    "id": 84890262,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 680,
+    "submittedAt": "1년 전"
+  }
+}

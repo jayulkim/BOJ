@@ -1,0 +1,21 @@
+{
+  "problemId": 1062,
+  "title": "가르침",
+  "tier": 12,
+  "tags": [
+    "bruteforcing",
+    "bitmask",
+    "backtracking"
+  ],
+  "acceptedUserCount": 11241,
+  "averageTries": 3.656599998474121,
+  "latestSubmission": {
+    "id": 102794981,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2092,
+    "timeMs": 140,
+    "codeLen": 1909,
+    "submittedAt": "2달 전"
+  }
+}

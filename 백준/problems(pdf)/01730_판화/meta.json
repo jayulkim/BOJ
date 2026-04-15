@@ -1,0 +1,20 @@
+{
+  "problemId": 1730,
+  "title": "판화",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "simulation"
+  ],
+  "acceptedUserCount": 1236,
+  "averageTries": 2.6245999336242676,
+  "latestSubmission": {
+    "id": 103202265,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2096,
+    "timeMs": 0,
+    "codeLen": 2300,
+    "submittedAt": "1달 전"
+  }
+}

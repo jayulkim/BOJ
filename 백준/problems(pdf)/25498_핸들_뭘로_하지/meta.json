@@ -1,0 +1,22 @@
+{
+  "problemId": 25498,
+  "title": "핸들 뭘로 하지",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "greedy",
+    "graph_traversal",
+    "bfs"
+  ],
+  "acceptedUserCount": 279,
+  "averageTries": 5.5233001708984375,
+  "latestSubmission": {
+    "id": 94823593,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 50224,
+    "timeMs": 416,
+    "codeLen": 1801,
+    "submittedAt": "10달 전"
+  }
+}

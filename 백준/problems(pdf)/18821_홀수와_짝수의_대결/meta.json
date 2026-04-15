@@ -1,0 +1,22 @@
+{
+  "problemId": 18821,
+  "title": "홀수와 짝수의 대결",
+  "tier": 0,
+  "tags": [
+    "math",
+    "number_theory",
+    "primality_test",
+    "precomputation"
+  ],
+  "acceptedUserCount": 509,
+  "averageTries": 6.25540018081665,
+  "latestSubmission": {
+    "id": 84892761,
+    "result": "2147483647점",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 264,
+    "codeLen": 3598,
+    "submittedAt": "1년 전"
+  }
+}

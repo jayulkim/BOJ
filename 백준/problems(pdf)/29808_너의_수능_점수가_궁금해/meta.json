@@ -1,0 +1,22 @@
+{
+  "problemId": 29808,
+  "title": "너의 수능 점수가 궁금해",
+  "tier": 6,
+  "tags": [
+    "math",
+    "implementation",
+    "bruteforcing",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 264,
+  "averageTries": 3.227299928665161,
+  "latestSubmission": {
+    "id": 84894606,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 997,
+    "submittedAt": "1년 전"
+  }
+}

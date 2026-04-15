@@ -1,0 +1,20 @@
+{
+  "problemId": 15809,
+  "title": "전국시대",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "disjoint_set"
+  ],
+  "acceptedUserCount": 673,
+  "averageTries": 3.2644999027252197,
+  "latestSubmission": {
+    "id": 105006129,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 6100,
+    "timeMs": 20,
+    "codeLen": 15092,
+    "submittedAt": "1일 전"
+  }
+}

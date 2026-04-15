@@ -1,0 +1,24 @@
+{
+  "problemId": 1261,
+  "title": "알고스팟",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "graph_traversal",
+    "shortest_path",
+    "dijkstra",
+    "grid_graph",
+    "0_1_bfs"
+  ],
+  "acceptedUserCount": 16092,
+  "averageTries": 2.2395999431610107,
+  "latestSubmission": {
+    "id": 84866271,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2248,
+    "timeMs": 0,
+    "codeLen": 1280,
+    "submittedAt": "1년 전"
+  }
+}

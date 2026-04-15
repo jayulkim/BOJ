@@ -1,0 +1,20 @@
+{
+  "problemId": 31614,
+  "title": "分 (Minutes)",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 2516,
+  "averageTries": 1.0827000141143799,
+  "latestSubmission": {
+    "id": 84894853,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 210,
+    "submittedAt": "1년 전"
+  }
+}

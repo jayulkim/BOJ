@@ -1,0 +1,21 @@
+{
+  "problemId": 12871,
+  "title": "무한 문자열",
+  "tier": 6,
+  "tags": [
+    "math",
+    "implementation",
+    "string"
+  ],
+  "acceptedUserCount": 2407,
+  "averageTries": 2.6070001125335693,
+  "latestSubmission": {
+    "id": 84888144,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 980,
+    "submittedAt": "1년 전"
+  }
+}

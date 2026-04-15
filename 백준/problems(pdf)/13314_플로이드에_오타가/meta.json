@@ -1,0 +1,22 @@
+{
+  "problemId": 13314,
+  "title": "플로이드에 오타가?",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "constructive",
+    "shortest_path",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 293,
+  "averageTries": 1.8601000308990479,
+  "latestSubmission": {
+    "id": 100141153,
+    "result": "맞았습니다!!",
+    "language": "Text",
+    "memoryKb": 4528,
+    "timeMs": 0,
+    "codeLen": 20102,
+    "submittedAt": "5달 전"
+  }
+}

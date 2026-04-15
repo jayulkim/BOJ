@@ -1,0 +1,21 @@
+{
+  "problemId": 16208,
+  "title": "귀찮음",
+  "tier": 6,
+  "tags": [
+    "math",
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 1710,
+  "averageTries": 1.8128999471664429,
+  "latestSubmission": {
+    "id": 84891894,
+    "result": "30점",
+    "language": "C++17",
+    "memoryKb": 8292,
+    "timeMs": 48,
+    "codeLen": 419,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 23802,
+  "title": "골뱅이 찍기 - 뒤집힌 ㄱ",
+  "tier": 3,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 1747,
+  "averageTries": 1.285099983215332,
+  "latestSubmission": {
+    "id": 84893375,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 356,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "problemId": 18769,
+  "title": "그리드 네트워크",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "grid_graph",
+    "mst"
+  ],
+  "acceptedUserCount": 393,
+  "averageTries": 2.0406999588012695,
+  "latestSubmission": {
+    "id": 100301138,
+    "result": "13점",
+    "language": "C++23",
+    "memoryKb": 28596,
+    "timeMs": 972,
+    "codeLen": 2287,
+    "submittedAt": "4달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 9996,
+  "title": "한국이 그리울 땐 서버에 접속하지",
+  "tier": 8,
+  "tags": [
+    "string",
+    "regex"
+  ],
+  "acceptedUserCount": 7150,
+  "averageTries": 3.6375999450683594,
+  "latestSubmission": {
+    "id": 87622106,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 1214,
+    "submittedAt": "1년 전"
+  }
+}

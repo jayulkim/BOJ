@@ -1,0 +1,20 @@
+{
+  "problemId": 32716,
+  "title": "방공호 만들기",
+  "tier": 14,
+  "tags": [
+    "math",
+    "ad_hoc"
+  ],
+  "acceptedUserCount": 79,
+  "averageTries": 2.696199893951416,
+  "latestSubmission": {
+    "id": 87267232,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 80144,
+    "timeMs": 52,
+    "codeLen": 545,
+    "submittedAt": "1년 전"
+  }
+}

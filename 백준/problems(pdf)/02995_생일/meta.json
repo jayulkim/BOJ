@@ -1,0 +1,21 @@
+{
+  "problemId": 2995,
+  "title": "생일",
+  "tier": 17,
+  "tags": [
+    "sorting",
+    "traceback",
+    "lis"
+  ],
+  "acceptedUserCount": 175,
+  "averageTries": 2.1886000633239746,
+  "latestSubmission": {
+    "id": 84880676,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4488,
+    "timeMs": 40,
+    "codeLen": 1184,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 3098,
+  "title": "소셜네트워크",
+  "tier": 11,
+  "tags": [
+    "implementation",
+    "graphs"
+  ],
+  "acceptedUserCount": 328,
+  "averageTries": 1.9084999561309814,
+  "latestSubmission": {
+    "id": 86837094,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2160,
+    "timeMs": 0,
+    "codeLen": 1117,
+    "submittedAt": "1년 전"
+  }
+}

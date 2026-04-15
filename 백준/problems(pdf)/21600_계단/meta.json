@@ -1,0 +1,20 @@
+{
+  "problemId": 21600,
+  "title": "계단",
+  "tier": 10,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "acceptedUserCount": 540,
+  "averageTries": 2,
+  "latestSubmission": {
+    "id": 91820901,
+    "result": "150점",
+    "language": "C++17",
+    "memoryKb": 2944,
+    "timeMs": 12,
+    "codeLen": 556,
+    "submittedAt": "1년 전"
+  }
+}

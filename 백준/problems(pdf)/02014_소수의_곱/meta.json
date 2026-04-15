@@ -1,0 +1,23 @@
+{
+  "problemId": 2014,
+  "title": "소수의 곱",
+  "tier": 15,
+  "tags": [
+    "math",
+    "data_structures",
+    "number_theory",
+    "set",
+    "priority_queue"
+  ],
+  "acceptedUserCount": 3378,
+  "averageTries": 4.18209981918335,
+  "latestSubmission": {
+    "id": 84869851,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 79244,
+    "timeMs": 252,
+    "codeLen": 2018,
+    "submittedAt": "1년 전"
+  }
+}

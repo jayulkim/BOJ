@@ -1,0 +1,24 @@
+{
+  "problemId": 16724,
+  "title": "피리 부는 사나이",
+  "tier": 13,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "dfs",
+    "disjoint_set",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 5148,
+  "averageTries": 2.30049991607666,
+  "latestSubmission": {
+    "id": 100569080,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 58208,
+    "timeMs": 316,
+    "codeLen": 2891,
+    "submittedAt": "4달 전"
+  }
+}

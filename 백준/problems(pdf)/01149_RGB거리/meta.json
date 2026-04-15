@@ -1,0 +1,19 @@
+{
+  "problemId": 1149,
+  "title": "RGB거리",
+  "tier": 10,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 62563,
+  "averageTries": 1.7309000492095947,
+  "latestSubmission": {
+    "id": 100590203,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2228,
+    "timeMs": 0,
+    "codeLen": 1371,
+    "submittedAt": "4달 전"
+  }
+}

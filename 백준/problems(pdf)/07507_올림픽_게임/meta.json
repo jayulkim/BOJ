@@ -1,0 +1,20 @@
+{
+  "problemId": 7507,
+  "title": "올림픽 게임",
+  "tier": 11,
+  "tags": [
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 362,
+  "averageTries": 2.386699914932251,
+  "latestSubmission": {
+    "id": 86145147,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4196,
+    "timeMs": 344,
+    "codeLen": 960,
+    "submittedAt": "1년 전"
+  }
+}

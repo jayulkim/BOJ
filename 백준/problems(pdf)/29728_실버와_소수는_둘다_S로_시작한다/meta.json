@@ -1,0 +1,25 @@
+{
+  "problemId": 29728,
+  "title": "실버와 소수는 둘다 S로 시작한다",
+  "tier": 9,
+  "tags": [
+    "math",
+    "implementation",
+    "data_structures",
+    "number_theory",
+    "primality_test",
+    "sieve",
+    "deque"
+  ],
+  "acceptedUserCount": 283,
+  "averageTries": 2.5264999866485596,
+  "latestSubmission": {
+    "id": 84894569,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 26864,
+    "timeMs": 68,
+    "codeLen": 1117,
+    "submittedAt": "1년 전"
+  }
+}

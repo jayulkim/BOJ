@@ -1,0 +1,21 @@
+{
+  "problemId": 32294,
+  "title": "수열과 개구리",
+  "tier": 14,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra"
+  ],
+  "acceptedUserCount": 104,
+  "averageTries": 2.5288000106811523,
+  "latestSubmission": {
+    "id": 94895483,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 29160,
+    "timeMs": 144,
+    "codeLen": 1521,
+    "submittedAt": "10달 전"
+  }
+}

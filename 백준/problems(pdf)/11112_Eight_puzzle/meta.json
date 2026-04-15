@@ -1,0 +1,24 @@
+{
+  "problemId": 11112,
+  "title": "Eight puzzle",
+  "tier": 15,
+  "tags": [
+    "data_structures",
+    "graphs",
+    "graph_traversal",
+    "set",
+    "bfs",
+    "hash_set"
+  ],
+  "acceptedUserCount": 156,
+  "averageTries": 3.820499897003174,
+  "latestSubmission": {
+    "id": 84885850,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 16696,
+    "timeMs": 260,
+    "codeLen": 4277,
+    "submittedAt": "1년 전"
+  }
+}

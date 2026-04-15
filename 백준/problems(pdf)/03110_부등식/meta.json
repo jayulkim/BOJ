@@ -1,0 +1,21 @@
+{
+  "problemId": 3110,
+  "title": "부등식",
+  "tier": 13,
+  "tags": [
+    "math",
+    "bruteforcing",
+    "mitm"
+  ],
+  "acceptedUserCount": 101,
+  "averageTries": 2.67330002784729,
+  "latestSubmission": {
+    "id": 100419012,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 2084,
+    "timeMs": 0,
+    "codeLen": 1285,
+    "submittedAt": "4달 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 16394,
+  "title": "홍익대학교",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 15707,
+  "averageTries": 1.1660000085830688,
+  "latestSubmission": {
+    "id": 84891921,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 3064,
+    "timeMs": 0,
+    "codeLen": 203,
+    "submittedAt": "1년 전"
+  }
+}

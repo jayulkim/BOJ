@@ -1,0 +1,24 @@
+{
+  "problemId": 31477,
+  "title": "양갈래 구하기",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "graphs",
+    "graph_traversal",
+    "trees",
+    "dfs",
+    "dp_tree"
+  ],
+  "acceptedUserCount": 170,
+  "averageTries": 1.8411999940872192,
+  "latestSubmission": {
+    "id": 86162093,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 12740,
+    "timeMs": 60,
+    "codeLen": 811,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 16288,
+  "title": "Passport Control",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "acceptedUserCount": 749,
+  "averageTries": 2.01200008392334,
+  "latestSubmission": {
+    "id": 85304031,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2152,
+    "timeMs": 0,
+    "codeLen": 746,
+    "submittedAt": "1년 전"
+  }
+}

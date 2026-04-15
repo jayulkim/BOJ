@@ -1,0 +1,21 @@
+{
+  "problemId": 2407,
+  "title": "조합",
+  "tier": 8,
+  "tags": [
+    "math",
+    "combinatorics",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 12610,
+  "averageTries": 2.3447999954223633,
+  "latestSubmission": {
+    "id": 84878874,
+    "result": "맞았습니다!!",
+    "language": "PyPy3",
+    "memoryKb": 108080,
+    "timeMs": 88,
+    "codeLen": 176,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "problemId": 30010,
+  "title": "잘못된 버블정렬",
+  "tier": 6,
+  "tags": [
+    "ad_hoc",
+    "constructive"
+  ],
+  "acceptedUserCount": 491,
+  "averageTries": 1.291200041770935,
+  "latestSubmission": {
+    "id": 86009564,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2156,
+    "timeMs": 0,
+    "codeLen": 372,
+    "submittedAt": "1년 전"
+  }
+}

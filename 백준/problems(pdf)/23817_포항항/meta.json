@@ -1,0 +1,23 @@
+{
+  "problemId": 23817,
+  "title": "포항항",
+  "tier": 15,
+  "tags": [
+    "graphs",
+    "bruteforcing",
+    "graph_traversal",
+    "bfs",
+    "grid_graph"
+  ],
+  "acceptedUserCount": 218,
+  "averageTries": 3.2430999279022217,
+  "latestSubmission": {
+    "id": 84893395,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 19772,
+    "timeMs": 600,
+    "codeLen": 2326,
+    "submittedAt": "1년 전"
+  }
+}

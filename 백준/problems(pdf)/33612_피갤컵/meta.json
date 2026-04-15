@@ -1,0 +1,21 @@
+{
+  "problemId": 33612,
+  "title": "피갤컵",
+  "tier": 1,
+  "tags": [
+    "math",
+    "implementation",
+    "arithmetic"
+  ],
+  "acceptedUserCount": 2529,
+  "averageTries": 1.8853000402450562,
+  "latestSubmission": {
+    "id": 91462531,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 0,
+    "codeLen": 509,
+    "submittedAt": "1년 전"
+  }
+}

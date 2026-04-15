@@ -1,0 +1,20 @@
+{
+  "problemId": 18353,
+  "title": "병사 배치하기",
+  "tier": 9,
+  "tags": [
+    "dp",
+    "lis"
+  ],
+  "acceptedUserCount": 4991,
+  "averageTries": 2.347399950027466,
+  "latestSubmission": {
+    "id": 84892711,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2028,
+    "timeMs": 4,
+    "codeLen": 495,
+    "submittedAt": "1년 전"
+  }
+}

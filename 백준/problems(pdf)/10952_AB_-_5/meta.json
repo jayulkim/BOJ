@@ -1,0 +1,21 @@
+{
+  "problemId": 10952,
+  "title": "A+B - 5",
+  "tier": 1,
+  "tags": [
+    "implementation",
+    "arithmetic",
+    "math"
+  ],
+  "acceptedUserCount": 170386,
+  "averageTries": 1.8878999948501587,
+  "latestSubmission": {
+    "id": 84885025,
+    "result": "맞았습니다!!",
+    "language": "Python 3",
+    "memoryKb": 31120,
+    "timeMs": 36,
+    "codeLen": 189,
+    "submittedAt": "1년 전"
+  }
+}

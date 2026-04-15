@@ -1,0 +1,19 @@
+{
+  "problemId": 14495,
+  "title": "피보나치 비스무리한 수열",
+  "tier": 7,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 4080,
+  "averageTries": 1.8604999780654907,
+  "latestSubmission": {
+    "id": 84889776,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1892,
+    "timeMs": 0,
+    "codeLen": 343,
+    "submittedAt": "1년 전"
+  }
+}

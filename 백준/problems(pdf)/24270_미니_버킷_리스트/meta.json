@@ -1,0 +1,21 @@
+{
+  "problemId": 24270,
+  "title": "미니 버킷 리스트",
+  "tier": 12,
+  "tags": [
+    "math",
+    "ad_hoc",
+    "combinatorics"
+  ],
+  "acceptedUserCount": 226,
+  "averageTries": 2.924799919128418,
+  "latestSubmission": {
+    "id": 94154736,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 64,
+    "codeLen": 960,
+    "submittedAt": "11달 전"
+  }
+}

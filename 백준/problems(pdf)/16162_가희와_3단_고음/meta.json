@@ -1,0 +1,19 @@
+{
+  "problemId": 16162,
+  "title": "가희와 3단 고음",
+  "tier": 7,
+  "tags": [
+    "greedy"
+  ],
+  "acceptedUserCount": 748,
+  "averageTries": 1.478600025177002,
+  "latestSubmission": {
+    "id": 85943968,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2532,
+    "timeMs": 4,
+    "codeLen": 487,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 1719,
+  "title": "택배",
+  "tier": 13,
+  "tags": [
+    "graphs",
+    "shortest_path",
+    "dijkstra",
+    "floyd_warshall"
+  ],
+  "acceptedUserCount": 4188,
+  "averageTries": 1.6784000396728516,
+  "latestSubmission": {
+    "id": 84868487,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2336,
+    "timeMs": 12,
+    "codeLen": 1079,
+    "submittedAt": "1년 전"
+  }
+}

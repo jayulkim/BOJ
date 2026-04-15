@@ -1,0 +1,23 @@
+{
+  "problemId": 25977,
+  "title": "k개 사과 트리 노드만으로 배를 최대로 수확하기",
+  "tier": 12,
+  "tags": [
+    "graphs",
+    "bruteforcing",
+    "graph_traversal",
+    "trees",
+    "bitmask"
+  ],
+  "acceptedUserCount": 77,
+  "averageTries": 1.5844000577926636,
+  "latestSubmission": {
+    "id": 104266465,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 3116,
+    "timeMs": 12,
+    "codeLen": 1229,
+    "submittedAt": "22일 전"
+  }
+}

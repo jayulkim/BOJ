@@ -1,0 +1,20 @@
+{
+  "problemId": 9658,
+  "title": "돌 게임 4",
+  "tier": 9,
+  "tags": [
+    "dp",
+    "game_theory"
+  ],
+  "acceptedUserCount": 3998,
+  "averageTries": 2.1942999362945557,
+  "latestSubmission": {
+    "id": 84883564,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2024,
+    "timeMs": 0,
+    "codeLen": 367,
+    "submittedAt": "1년 전"
+  }
+}

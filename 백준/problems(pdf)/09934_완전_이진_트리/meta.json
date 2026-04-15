@@ -1,0 +1,20 @@
+{
+  "problemId": 9934,
+  "title": "완전 이진 트리",
+  "tier": 10,
+  "tags": [
+    "trees",
+    "recursion"
+  ],
+  "acceptedUserCount": 6850,
+  "averageTries": 1.4327000379562378,
+  "latestSubmission": {
+    "id": 86111802,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2156,
+    "timeMs": 0,
+    "codeLen": 804,
+    "submittedAt": "1년 전"
+  }
+}

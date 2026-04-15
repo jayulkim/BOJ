@@ -1,0 +1,20 @@
+{
+  "problemId": 28467,
+  "title": "Spell Cards",
+  "tier": 13,
+  "tags": [
+    "dp",
+    "greedy"
+  ],
+  "acceptedUserCount": 128,
+  "averageTries": 1.8983999490737915,
+  "latestSubmission": {
+    "id": 86748162,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4684,
+    "timeMs": 180,
+    "codeLen": 1110,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "problemId": 14567,
+  "title": "선수과목 (Prerequisite)",
+  "tier": 11,
+  "tags": [
+    "dp",
+    "graphs",
+    "dag",
+    "topological_sorting"
+  ],
+  "acceptedUserCount": 5085,
+  "averageTries": 1.4941999912261963,
+  "latestSubmission": {
+    "id": 84889944,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 4960,
+    "timeMs": 68,
+    "codeLen": 798,
+    "submittedAt": "1년 전"
+  }
+}

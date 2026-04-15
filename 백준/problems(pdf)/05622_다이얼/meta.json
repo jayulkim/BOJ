@@ -1,0 +1,19 @@
+{
+  "problemId": 5622,
+  "title": "다이얼",
+  "tier": 4,
+  "tags": [
+    "implementation"
+  ],
+  "acceptedUserCount": 89707,
+  "averageTries": 1.705899953842163,
+  "latestSubmission": {
+    "id": 84881951,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1112,
+    "timeMs": 0,
+    "codeLen": 945,
+    "submittedAt": "1년 전"
+  }
+}

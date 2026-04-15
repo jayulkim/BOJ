@@ -1,0 +1,21 @@
+{
+  "problemId": 2217,
+  "title": "로프",
+  "tier": 7,
+  "tags": [
+    "math",
+    "greedy",
+    "sorting"
+  ],
+  "acceptedUserCount": 30453,
+  "averageTries": 2.2425999641418457,
+  "latestSubmission": {
+    "id": 84878134,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 3592,
+    "timeMs": 16,
+    "codeLen": 338,
+    "submittedAt": "1년 전"
+  }
+}

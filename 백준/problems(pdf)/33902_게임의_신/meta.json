@@ -1,0 +1,23 @@
+{
+  "problemId": 33902,
+  "title": "게임의 신",
+  "tier": 11,
+  "tags": [
+    "math",
+    "dp",
+    "number_theory",
+    "game_theory",
+    "euclidean"
+  ],
+  "acceptedUserCount": 89,
+  "averageTries": 1.6180000305175781,
+  "latestSubmission": {
+    "id": 98045166,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2020,
+    "timeMs": 36,
+    "codeLen": 885,
+    "submittedAt": "7달 전"
+  }
+}

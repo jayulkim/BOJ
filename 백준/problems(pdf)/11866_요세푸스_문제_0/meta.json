@@ -1,0 +1,21 @@
+{
+  "problemId": 11866,
+  "title": "요세푸스 문제 0",
+  "tier": 7,
+  "tags": [
+    "implementation",
+    "data_structures",
+    "queue"
+  ],
+  "acceptedUserCount": 54395,
+  "averageTries": 1.746999979019165,
+  "latestSubmission": {
+    "id": 84887454,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 8928,
+    "timeMs": 0,
+    "codeLen": 651,
+    "submittedAt": "1년 전"
+  }
+}

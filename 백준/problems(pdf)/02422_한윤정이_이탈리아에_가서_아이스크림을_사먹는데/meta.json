@@ -1,0 +1,19 @@
+{
+  "problemId": 2422,
+  "title": "한윤정이 이탈리아에 가서 아이스크림을 사먹는데",
+  "tier": 7,
+  "tags": [
+    "bruteforcing"
+  ],
+  "acceptedUserCount": 4449,
+  "averageTries": 2.401900053024292,
+  "latestSubmission": {
+    "id": 84878896,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2060,
+    "timeMs": 12,
+    "codeLen": 762,
+    "submittedAt": "1년 전"
+  }
+}

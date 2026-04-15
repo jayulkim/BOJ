@@ -1,0 +1,19 @@
+{
+  "problemId": 1823,
+  "title": "수확",
+  "tier": 13,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 676,
+  "averageTries": 2.248500108718872,
+  "latestSubmission": {
+    "id": 101639587,
+    "result": "맞았습니다!!",
+    "language": "C++23",
+    "memoryKb": 33504,
+    "timeMs": 80,
+    "codeLen": 1080,
+    "submittedAt": "3달 전"
+  }
+}

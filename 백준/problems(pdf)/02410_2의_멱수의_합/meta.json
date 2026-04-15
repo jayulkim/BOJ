@@ -1,0 +1,19 @@
+{
+  "problemId": 2410,
+  "title": "2의 멱수의 합",
+  "tier": 11,
+  "tags": [
+    "dp"
+  ],
+  "acceptedUserCount": 2172,
+  "averageTries": 2.337899923324585,
+  "latestSubmission": {
+    "id": 90140982,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 9832,
+    "timeMs": 52,
+    "codeLen": 618,
+    "submittedAt": "1년 전"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "problemId": 2292,
+  "title": "벌집",
+  "tier": 4,
+  "tags": [
+    "math"
+  ],
+  "acceptedUserCount": 91305,
+  "averageTries": 2.198699951171875,
+  "latestSubmission": {
+    "id": 84878349,
+    "result": "맞았습니다!!",
+    "language": "C99",
+    "memoryKb": 1116,
+    "timeMs": 0,
+    "codeLen": 1042,
+    "submittedAt": "1년 전"
+  }
+}

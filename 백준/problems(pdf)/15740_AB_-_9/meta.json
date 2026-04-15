@@ -1,0 +1,21 @@
+{
+  "problemId": 15740,
+  "title": "A+B - 9",
+  "tier": 1,
+  "tags": [
+    "math",
+    "arithmetic",
+    "arbitrary_precision"
+  ],
+  "acceptedUserCount": 13369,
+  "averageTries": 1.5602999925613403,
+  "latestSubmission": {
+    "id": 84891153,
+    "result": "100점",
+    "language": "Python 3",
+    "memoryKb": 31120,
+    "timeMs": 40,
+    "codeLen": 46,
+    "submittedAt": "1년 전"
+  }
+}

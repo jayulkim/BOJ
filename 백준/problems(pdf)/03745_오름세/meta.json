@@ -1,0 +1,20 @@
+{
+  "problemId": 3745,
+  "title": "오름세",
+  "tier": 14,
+  "tags": [
+    "binary_search",
+    "lis"
+  ],
+  "acceptedUserCount": 2443,
+  "averageTries": 2.6431000232696533,
+  "latestSubmission": {
+    "id": 84881018,
+    "result": "맞았습니다!!",
+    "language": "C++17",
+    "memoryKb": 2924,
+    "timeMs": 12,
+    "codeLen": 647,
+    "submittedAt": "1년 전"
+  }
+}
